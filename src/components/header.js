@@ -1,6 +1,7 @@
 import { /* graphql, useStaticQuery, */ Link } from "gatsby";
 import React, { useState } from "react";
 
+import headerStyles from "./header.module.css"
 import romboLogo from "../images/logos/logo-rombo.svg";
 import oasisNombre from "../images/logos/oasis-name.svg";
 
@@ -17,18 +18,18 @@ function Header() {
   `); */
 
   return (
-    <header className="bg-white-700">
+    <header className={`${headerStyles.header} "bg-white-700"`}>
       <div className="flex flex-wrap items-center justify-between max-w-4xl p-4 mx-auto md:p-8">
         <Link to="/">
           <h1 className="flex items-center text-white no-underline">
             <img
               alt="Oasis logotipo"
-              className="w-8 h-8 mr-2 fill-current"
+              className="w-10 h-10 mr-2 fill-current"
               src={romboLogo}
             />
             <img
               alt="Oasis nombre"
-              className="w-20 h-8 mr-2 fill-current"
+              className="w-24 h-10 mr-2 fill-current"
               src={oasisNombre}
             />
           </h1>
