@@ -23,7 +23,7 @@ function IndexPage() {
 
         <img
           alt="Young, tech-savvy person"
-          className="block w-1/2 mx-auto mb-8"
+          className="block md:w-1/2 w-2/3 mx-auto mb-8"
           src={digitalNomad}
         />
 
@@ -43,15 +43,15 @@ function IndexPage() {
           </a> */}
         </p>
 
-        <h4 className="inline-block p-3 mb-4 mr-10 text-1xl bg-white-400 shadow-md">
+        <h4 className="md:inline-block md:mr-10 mx-auto p-3 mb-4 text-1xl bg-white-400 shadow-md">
           Tarjeta de Crédito
         </h4>
 
-        <h4 className="inline-block p-3 mb-4 text-1xl bg-white-400 shadow-md">
+        <h4 className="md:inline-block mx-auto p-3 mb-4 text-1xl bg-white-400 shadow-md">
           Préstamos
         </h4>
 
-        <h4 className="inline-block p-3 mb-4 ml-10 text-1xl bg-white-400 shadow-md">
+        <h4 className="md:inline-block md:ml-10 mx-auto p-3 mb-4 text-1xl bg-white-400 shadow-md">
           Cuenta de Ahorro
         </h4>
         
@@ -59,14 +59,9 @@ function IndexPage() {
 
       <section className="text-center mt-20">
         
-        <div>
-          <img
-            alt="Young, tech-savvy person"
-            className="inline-block w-1/2 mb-8"
-            src={research}
-          />
-
-          <div className="inline-block w-1/2 mb-8 p-10">
+        <div className='flex md:flex-row-reverse flex-wrap'>
+          
+          <div className="md:inline-block md:w-1/2 mb-8 p-10">
             <h2 className="inline-block p-3 mb-4 text-2xl font-bold">
               Aprende
             </h2>
@@ -78,6 +73,12 @@ function IndexPage() {
 
           </div>
 
+          <img
+            alt="Young, tech-savvy person"
+            className="md:inline-block md:w-1/3 w-2/3 mx-auto mb-8"
+            src={research}
+          />
+
         </div>
 
       </section>
@@ -86,7 +87,7 @@ function IndexPage() {
         
         <div>
           
-          <div className="inline-block w-1/2 mb-8 p-10">
+          <div className="md:inline-block md:w-1/2 mb-8 p-10">
             <h2 className="inline-block p-3 mb-4 text-2xl font-bold">
               Compara
             </h2>
@@ -99,7 +100,7 @@ function IndexPage() {
 
           <img
             alt="Young, tech-savvy person"
-            className="inline-block w-1/2 mb-8"
+            className="md:inline-block md:w-1/3 w-2/3 mx-auto mb-8"
             src={preferences}
           />
 
@@ -109,14 +110,9 @@ function IndexPage() {
 
       <section className="text-center mt-20">
         
-        <div>
-          <img
-            alt="Young, tech-savvy person"
-            className="inline-block w-1/3 mb-8"
-            src={choose}
-          />
-
-          <div className="inline-block w-1/2 mb-8 p-10">
+        <div className='flex md:flex-row-reverse flex-wrap'>
+          
+          <div className="md:inline-block md:w-1/2 mb-8 p-10">
             <h2 className="inline-block p-3 mb-4 text-2xl font-bold">
               Elige
             </h2>
@@ -126,6 +122,12 @@ function IndexPage() {
             </p>
 
           </div>
+
+          <img
+            alt="Young, tech-savvy person"
+            className="md:inline-block md:w-1/3 w-2/3 mx-auto mb-8"
+            src={choose}
+          />
 
         </div>
         
