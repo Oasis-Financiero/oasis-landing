@@ -17,7 +17,7 @@ function Layout({ children }) {
       </main>
 
       <footer className="bg-blue-700">
-        <nav className="flex justify-between max-w-4xl px-4 pb-4 pt-8 mx-auto text-sm md:p-8">
+        <nav className="flex justify-between max-w-4xl px-4 pb-4 pt-8 mx-auto text-sm md:px-8">
           <p className="text-white">
             &copy; Oasis Financiero 2020{` `}
             <a

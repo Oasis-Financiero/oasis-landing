@@ -37,14 +37,6 @@ function IndexPage() {
 
         <p className="leading-loose mb-6 px-10 md:p-0">
           Aprende, Compara y Elige entre los servicios financieros que ofrecen las Fintech y los Bancos tradicionales.
-{/*           <a
-            className="font-bold text-gray-900 no-underline"
-            href="https://tailwindcss.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Compara
-          </a> */}
         </p>
 
         <h4 className="md:inline-block md:mr-10 mx-auto p-3 mb-4 text-1xl bg-white-400 shadow-md">
@@ -72,7 +64,17 @@ function IndexPage() {
 
             <p className="leading-loose">
               Adquiere conocimientos sobre educación financiera y las tecnologías que están innovando en finanzas personales. <br></br>
-              Ingresa a nuestro blog.
+              Ingresa a nuestro <nbsp></nbsp>
+              
+              <a
+                className="font-bold no-underline"
+                href="https://medium.com/@oasisfinancierotech"
+                target="_blank"
+                rel="noopener noreferrer"
+                  >
+                blog
+              </a>
+              .
             </p>
 
           </div>

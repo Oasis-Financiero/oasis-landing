@@ -21,7 +21,7 @@ p {
 .social-icon {
     width: 25px;
     display: inline-block;
-    margin: 0px 0.625em;
+    margin: 0px 0.65em;
 }
 
 @media (max-width: 768px){
