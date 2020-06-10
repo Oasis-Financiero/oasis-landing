@@ -56,16 +56,16 @@ function Header() {
         >
           {[
             {
-              route: `/about`,
+              route: `/`,
               title: `INICIO`,
             },
             {
-              route: `/contact`,
+              route: "https://medium.com/@oasisfinancierotech",
               title: `BLOG`,
             },
           ].map((link) => (
             <Link
-              className="block mt-4 text-black no-underline md:inline-block md:mt-0 md:ml-6"
+              className="font-bold block mt-4 text-black no-underline md:inline-block md:mt-0 md:ml-6"
               key={link.title}
               to={link.route}
             >

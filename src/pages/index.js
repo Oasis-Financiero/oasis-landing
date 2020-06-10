@@ -7,6 +7,10 @@ import research from "../images/landing/undraw_researching_22gp.svg";
 import preferences from "../images/landing/undraw_preferences_uuo2.svg";
 import choose from "../images/landing/undraw_Choose_bwbs.svg";
 
+const fontColor = {
+  color: 'rgb(55,96,155)'
+}
+
 function IndexPage() {
   return (
     <Layout>
@@ -15,7 +19,7 @@ function IndexPage() {
         title="Home"
       />
 
-      <section className="text-center">
+      <section className="text-center" style={fontColor}>
 
         <h1 className="inline-block p-3 mb-4 text-2xl font-bold">
           Libera tu potencial financiero
@@ -27,11 +31,11 @@ function IndexPage() {
           src={digitalNomad}
         />
 
-        <h1 className="inline-block p-3 text-2xl font-bold">
+        <h1 className="inline-block p-3 mb-2 text-2xl font-bold">
           Próximamente
         </h1>
 
-        <p className="leading-loose mb-6">
+        <p className="leading-loose mb-6 px-10 md:p-0">
           Aprende, Compara y Elige entre los servicios financieros que ofrecen las Fintech y los Bancos tradicionales.
 {/*           <a
             className="font-bold text-gray-900 no-underline"
@@ -57,12 +61,12 @@ function IndexPage() {
         
       </section>
 
-      <section className="text-center mt-20">
+      <section className="text-center mt-10 md:mt-20" style={fontColor}>
         
         <div className='flex md:flex-row-reverse flex-wrap'>
           
-          <div className="md:inline-block md:w-1/2 mb-8 p-10">
-            <h2 className="inline-block p-3 mb-4 text-2xl font-bold">
+          <div className="md:inline-block md:w-1/2 mb-4 p-10">
+            <h2 className="inline-block p-3 mb-2 text-2xl font-bold">
               Aprende
             </h2>
 
@@ -75,7 +79,7 @@ function IndexPage() {
 
           <img
             alt="Young, tech-savvy person"
-            className="md:inline-block md:w-1/3 w-2/3 mx-auto mb-8"
+            className="md:inline-block md:w-1/3 md:mt-8 w-2/3 mx-auto mb-8"
             src={research}
           />
 
@@ -83,12 +87,12 @@ function IndexPage() {
 
       </section>
 
-      <section className="text-center mt-20">
+      <section className="text-center md:mt-20 mt-10" style={fontColor}>
         
         <div>
           
-          <div className="md:inline-block md:w-1/2 mb-8 p-10">
-            <h2 className="inline-block p-3 mb-4 text-2xl font-bold">
+          <div className="md:inline-block md:w-1/2 mb-4 p-10">
+            <h2 className="inline-block p-3 mb-2 text-2xl font-bold">
               Compara
             </h2>
 
@@ -100,7 +104,7 @@ function IndexPage() {
 
           <img
             alt="Young, tech-savvy person"
-            className="md:inline-block md:w-1/3 w-2/3 mx-auto mb-8"
+            className="align-top md:inline-block md:w-1/3 md:mt-10 md:mx-12 lg:mx-15 w-2/3 mx-auto mb-8"
             src={preferences}
           />
 
@@ -108,12 +112,12 @@ function IndexPage() {
         
       </section>
 
-      <section className="text-center mt-20">
+      <section className="text-center md:mt-20 mt-10 mb-8" style={fontColor}>
         
         <div className='flex md:flex-row-reverse flex-wrap'>
           
-          <div className="md:inline-block md:w-1/2 mb-8 p-10">
-            <h2 className="inline-block p-3 mb-4 text-2xl font-bold">
+          <div className="md:inline-block md:w-1/2 mb-4 p-10">
+            <h2 className="inline-block p-3 mb-2 text-2xl font-bold">
               Elige
             </h2>
 
@@ -125,7 +129,7 @@ function IndexPage() {
 
           <img
             alt="Young, tech-savvy person"
-            className="md:inline-block md:w-1/3 w-2/3 mx-auto mb-8"
+            className="md:inline-block md:w-1/4 md:mt-10 md:mx-15 w-2/3 mx-auto mb-8"
             src={choose}
           />
 

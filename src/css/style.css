@@ -4,3 +4,42 @@
 /*! purgecss end ignore */
 @tailwind utilities;
 
+p {
+    font-size: 1.15em;
+}
+
+.align-top {
+    top: 0;
+}
+
+/*  section {
+    background-color: #fffffffa;
+    background-clip: content-box;
+    border: solid 1px yellowgreen;
+} */
+
+.social-icon {
+    width: 25px;
+    display: inline-block;
+    margin: 0px 0.625em;
+}
+
+@media (max-width: 768px){
+    .follow-text {
+        display: none;
+    }
+
+    .icons-tray {
+        display: inline-block;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+}
+
+@media (min-width: 768px){
+    .social-media {
+        text-align: right;
+    }
+}
+
