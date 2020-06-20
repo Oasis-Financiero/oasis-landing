@@ -55,7 +55,7 @@ function Layout({ children }) {
                 rel="noopener noreferrer"
               >
                 <img
-                  alt="Young, tech-savvy person"
+                  alt="Facebook icon"
                   className="social-icon"
                   src={facebook}
                 />
@@ -68,7 +68,7 @@ function Layout({ children }) {
                 rel="noopener noreferrer"
               >
                 <img
-                  alt="Young, tech-savvy person"
+                  alt="Twitter icon"
                   className="social-icon"
                   src={twitter}
                 />
@@ -81,7 +81,7 @@ function Layout({ children }) {
                 rel="noopener noreferrer"
               >
                 <img
-                  alt="Young, tech-savvy person"
+                  alt="Linkedin icon"
                   className="social-icon"
                   src={linkedin}
                 />
@@ -94,7 +94,7 @@ function Layout({ children }) {
                 rel="noopener noreferrer"
               >
                 <img
-                  alt="Young, tech-savvy person"
+                  alt="Medium icon"
                   className="social-icon"
                   src={medium}
                 />

@@ -80,7 +80,7 @@ function IndexPage() {
           </div>
 
           <img
-            alt="Young, tech-savvy person"
+            alt="Woman researching on her laptop"
             className="md:inline-block md:w-1/3 md:mt-8 w-2/3 mx-auto mb-8"
             src={research}
           />
@@ -105,7 +105,7 @@ function IndexPage() {
           </div>
 
           <img
-            alt="Young, tech-savvy person"
+            alt="Businesswoman studying options on a board"
             className="align-top md:inline-block md:w-1/3 md:mt-10 md:mx-12 lg:mx-15 w-2/3 mx-auto mb-8"
             src={preferences}
           />
@@ -130,7 +130,7 @@ function IndexPage() {
           </div>
 
           <img
-            alt="Young, tech-savvy person"
+            alt="Man selecting an option on a digital board"
             className="md:inline-block md:w-1/4 md:mt-10 md:mx-15 w-2/3 mx-auto mb-8"
             src={choose}
           />
