@@ -2,10 +2,14 @@ import { /* graphql, useStaticQuery, */ Link } from "gatsby";
 import React, { useState } from "react";
 
 import headerStyles from "./header.module.css"
-import romboLogo from "../images/logos/logo-rombo.svg";
-import oasisNombre from "../images/logos/oasis-name.svg";
+import oasisNombre from "../images/logos/logo-nombre.svg";
 
 function Header() {
+
+  const fontColor = {
+    color: 'rgb(55,96,155)'
+  }
+
   const [isExpanded, toggleExpansion] = useState(false);
   /* const { site } = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -19,17 +23,12 @@ function Header() {
 
   return (
     <header className={`${headerStyles.header} "bg-white-700"`}>
-      <div className="flex flex-wrap items-center justify-between max-w-4xl p-4 mx-auto md:p-8">
+      <div className="flex flex-wrap items-center justify-between max-w-4xl p-4 mx-auto md:p-6">
         <Link to="/">
           <h1 className="flex items-center text-white no-underline">
             <img
               alt="Oasis logotipo"
-              className="w-10 h-10 mr-2 fill-current"
-              src={romboLogo}
-            />
-            <img
-              alt="Oasis nombre"
-              className="w-24 h-10 mr-2 fill-current"
+              className="h-8 ml-2 md:ml-0 fill-current"
               src={oasisNombre}
             />
           </h1>
@@ -50,9 +49,10 @@ function Header() {
         </button>
 
         <nav
+          style={fontColor}
           className={`${
             isExpanded ? `block` : `hidden`
-          } md:block md:flex md:items-center w-full md:w-auto`}
+          } pt-4 md:pt-0 md:block md:flex md:items-center w-full md:w-auto`}
         >
           {[
             {
@@ -65,7 +65,7 @@ function Header() {
             },
           ].map((link) => (
             <Link
-              className="font-bold block mt-4 text-black no-underline md:inline-block md:mt-0 md:ml-6"
+              className="font-bold block mt-4 no-underline md:inline-block md:mt-0 md:ml-6"
               key={link.title}
               to={link.route}
             >

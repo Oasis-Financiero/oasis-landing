@@ -63,7 +63,7 @@ function Layout({ children }) {
 
               <a
                 className="font-bold text-white no-underline"
-                href="https://twitter.com/blockchainoasis"
+                href="https://twitter.com/oasisfintech"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -76,7 +76,7 @@ function Layout({ children }) {
 
               <a
                 className="font-bold text-white no-underline"
-                href="https://linkedin.com/company/oasis-blockchain-tech"
+                href="https://www.linkedin.com/company/oasisfinanciero/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
