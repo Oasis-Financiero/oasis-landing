@@ -15,8 +15,8 @@ function IndexPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-        title="Home"
+        keywords={[`home`, `fintech`, `finanzas`, `personales`, `bancos`]}
+        title="Educación financiera y comparador de servicios"
       />
 
       <section className="text-center" style={fontColor}>
