@@ -6,7 +6,7 @@ const fullConfig = resolveConfig(tailwindConfig);
 module.exports = {
   siteMetadata: {
     title: `Oasis Financiero`,
-    description: `Landing page de Oasis Financiero`,
+    description: `Aprende, compara y elige entre los servicios que ofrecen las Fintech y los Bancos tradicionales en México. Libera tu potencial financiero.`,
     author: `@edchavezb`,
   },
   plugins: [
