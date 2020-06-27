@@ -15,7 +15,7 @@ function NotFoundPage() {
           src={abductionIllustration}
         />
         <h2 className="bg-yellow-400 text-2xl font-bold inline-block my-8 p-3">
-          Looks like this page is a ghost that got abducted by aliens...
+          Lo sentimos, no pudimos encontrar la página que estás buscando.
         </h2>
       </div>
     </Layout>
