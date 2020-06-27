@@ -11,16 +11,17 @@ module.exports = {
     author: `@edchavezb`,
   },
   plugins: [
-    {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || 'none',
-        head: true,
-      }  
-    },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-eslint`,
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: 'gatsby-plugin-gtag',
+      options: {
+        trackingId: 'UA-162797637-2',
+        head: true,
+        anonymize: true,
+      }  
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
