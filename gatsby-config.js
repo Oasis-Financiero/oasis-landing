@@ -23,6 +23,12 @@ module.exports = {
       }  
     },
     {
+      resolve: `gatsby-theme-blog`,
+      options: {
+        basePath: `/blog`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-tailwind`,
