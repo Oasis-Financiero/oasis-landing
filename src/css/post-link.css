@@ -1,0 +1,9 @@
+.post-link-image{
+    display: inline-block;
+    width: 30%;
+}
+
+.post-link-info {
+    display: inline-block;
+    width: 70%;
+}

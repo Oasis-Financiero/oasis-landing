@@ -23,6 +23,19 @@ module.exports = {
       }  
     },
     {
+      resolve: `gatsby-theme-blog-core`,
+      options: {
+      },
+    },
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        useMozJpeg: false,
+        stripMetadata: true,
+        defaultQuality: 75,
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-tailwind`,
