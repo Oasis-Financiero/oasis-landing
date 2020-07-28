@@ -18,6 +18,11 @@ h2 {
     font-weight: bold;
 }
 
+.blog-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 .align-top {
     top: 0;
 }

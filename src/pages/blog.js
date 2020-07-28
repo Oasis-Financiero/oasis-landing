@@ -25,6 +25,13 @@ export const query = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         tags
+        image {
+          childImageSharp {
+            fluid(maxWidth: 200, maxHeight: 120, cropFocus: CENTER, fit: COVER) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
@@ -42,6 +49,7 @@ function BlogPage({ data }) {
       />
 
       <main>
+        <h1 className="blog-title"> Nuestros ultimos blog posts </h1>
         <PostList posts={posts} />
       </main>
 

@@ -1,17 +1,17 @@
 import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types";
-//import "../../css/post-link.css" */
+import PostStyles from "./post-link.module.css"
+import Img from "gatsby-image"
 
-const PostLink = ({ title, slug, date, excerpt}) => (
-  <article className="post-link">
-    {/* <div className="post-link-image">
-      <img src={image}></img>
-    </div> */}
-    <div className="post-link-info">
+const PostLink = ({ title, slug, date, excerpt, image}) => (
+  <article className={PostStyles.postLink}>
+    <div className={PostStyles.postLinkImage}>
+      <Img fluid={image.childImageSharp.fluid}/>
+    </div>
+    <div className={PostStyles.postLinkInfo}>
       <header className="post-link-header">
         <h2>
-          Hello Hello
           <Link to={slug}>{title || slug}</Link>
         </h2>
         <small>{date}</small>
@@ -28,7 +28,7 @@ PostLink.propTypes = {
   slug: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
   excerpt: PropTypes.string.isRequired,
-  image: PropTypes.node.isRequired,
+  image: PropTypes.any,
 }
 
 export default PostLink

@@ -1,0 +1,17 @@
+.postLink {
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(230, 230, 230, 1);
+}
+
+.postLinkImage {
+    display: inline-block;
+    width: 30%;
+    padding: 30px 15px 30px 30px;
+    vertical-align: top;
+}
+
+.postLinkInfo {
+    display: inline-block;
+    width: 70%;
+    padding: 30px 5px 30px 15px;
+}
