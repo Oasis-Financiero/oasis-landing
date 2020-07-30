@@ -60,7 +60,7 @@ function Header() {
               title: `INICIO`,
             },
             {
-              route: "https://medium.com/@oasisfinancierotech",
+              route: "/blog",
               title: `BLOG`,
             },
           ].map((link) => (

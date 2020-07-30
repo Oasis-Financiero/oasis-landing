@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types";
 
 import { MDXRenderer } from "gatsby-plugin-mdx"
+import SEO from "../../components/seo";
 
 import Layout from "../../components/layout";
 import PostTitle from "gatsby-theme-blog-core/src/components/post-title"
@@ -12,6 +13,11 @@ const Post = ({ data }) => {
   const post = data.blogPost
   return (
     <Layout>
+    <SEO
+      keywords={[`home`, `fintech`, `finanzas`, `personales`, `bancos`]}
+      title={post.title}
+      page="blog"
+    />
     <main>
       <article className="postinga">
         <header>

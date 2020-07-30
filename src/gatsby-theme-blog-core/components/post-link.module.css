@@ -1,6 +1,7 @@
 .postLink {
     border-radius: 5px;
     box-shadow: 0 1px 4px rgba(230, 230, 230, 1);
+    margin-bottom: 30px;
 }
 
 .postLinkImage {
