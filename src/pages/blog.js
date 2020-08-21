@@ -4,7 +4,8 @@ import PropTypes from "prop-types";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import PostList from "gatsby-theme-blog-core/src/components/post-list"
+import PostList from "gatsby-theme-blog-core/src/components/post-list";
+import BlogStyles from "./blog.module.css";
 
 export const query = graphql`
   query MyPostsQuery {
@@ -42,16 +43,18 @@ function BlogPage({ data }) {
   const posts = data.allBlogPost.nodes
 
   return (
-    <Layout>
+    <Layout page="blog">
       <SEO
         keywords={[`home`, `fintech`, `finanzas`, `personales`, `bancos`]}
         title="Blog"
       />
 
-      <main>
-        <h1 className="blog-title"> Nuestros ultimos blog posts </h1>
-        <PostList posts={posts} />
-      </main>
+      <section className="posts">
+        <h1 className={BlogStyles.blogTitle}> Nuestros ultimos blog posts </h1>
+        <div className={BlogStyles.postList}>
+          <PostList posts={posts} />
+        </div>
+      </section>
 
     </Layout>
   );

@@ -1,0 +1,11 @@
+.blogTitle {
+    color: #333333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.postList {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+}

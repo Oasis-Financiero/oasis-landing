@@ -7,12 +7,14 @@ import twitter from "../images/social/twitter.svg";
 import linkedin from "../images/social/linkedin.svg";
 import medium from "../images/social/medium.svg";
 
-function Layout({ children }) {
+function Layout({ children, page }) {
   return (
     <div className="flex flex-col min-h-screen font-sans text-gray-900">
       <Header />
 
-      <main className="flex-1 w-full max-w-4xl px-4 pt-8 pb-8 mx-auto md:py-16">
+      <main className={`flex-1 w-full ${page == "blog" ? 
+      "max-w-none pt-12 px-12" 
+      : "max-w-4xl  md:py-16 px-4"}  pt-8 pb-8 mx-auto`}>
         {children}
       </main>
 
@@ -110,6 +112,7 @@ function Layout({ children }) {
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  page: PropTypes.string.isRequired,
 };
 
 export default Layout;

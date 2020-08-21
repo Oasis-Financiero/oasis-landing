@@ -5,22 +5,30 @@ import PostStyles from "./post-link.module.css"
 import Img from "gatsby-image"
 
 const PostLink = ({ title, slug, date, excerpt, image}) => (
-  <article className={PostStyles.postLink}>
-    <div className={PostStyles.postLinkImage}>
-      <Img fluid={image.childImageSharp.fluid}/>
-    </div>
-    <div className={PostStyles.postLinkInfo}>
-      <header className="post-link-header">
-        <h2>
-          <Link to={slug}>{title || slug}</Link>
-        </h2>
-        <small>{date}</small>
-      </header>
-      <section className="post-link-excerpt">
-        <p>{excerpt}</p>
-      </section>
-    </div>
-  </article>
+  
+    <article className={PostStyles.article}>
+      <Link to={slug} className={PostStyles.postLink}>
+       
+          <div className={PostStyles.postLinkImage}>
+            <Img className={PostStyles.image} fluid={image.childImageSharp.fluid}/>
+          </div>
+          <div className={PostStyles.postLinkInfo}>
+            <header className="post-link-header">
+              <h2 className={PostStyles.titleText}>
+              {title || slug}
+              </h2>
+            </header>
+            <section>
+              <p className={PostStyles.excerptText}>{excerpt}</p>
+            </section>
+            <div className={PostStyles.data}>
+              <small className={PostStyles.dataText}>{date}</small>
+            </div>
+          </div>
+
+      </Link>
+    </article>
+  
 )
 
 PostLink.propTypes = {
