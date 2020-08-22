@@ -8,6 +8,7 @@ import Layout from "../../components/layout";
 import PostTitle from "gatsby-theme-blog-core/src/components/post-title"
 import PostDate from "gatsby-theme-blog-core/src/components/post-date"
 import PostHero from "gatsby-theme-blog-core/src/components/post-hero"
+import PostStyles from "./post.module.css"
 
 const Post = ({ data }) => {
   const post = data.blogPost
@@ -19,11 +20,11 @@ const Post = ({ data }) => {
       page="blog"
     />
     <main>
-      <article className="postinga">
+      <article >
         <header>
-          <PostHero post={post} />
-          <PostTitle>{post.title}</PostTitle>
+          <PostTitle className={PostStyles.title} >{post.title}</PostTitle>
           <PostDate>{post.date}</PostDate>
+          <PostHero post={post} className={PostStyles.hero}/>
         </header>
         <section className="post-body">
           <MDXRenderer>{post.body}</MDXRenderer>
