@@ -1,7 +1,7 @@
 --- 
 date: '2020-07-01' 
 title: 'My Second Blog' 
-image: '../../assets/rockstar.png'
+image: 'rockstar.png'
 imageAlt: 'My Second Blog'
 --- 
 
