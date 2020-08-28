@@ -24,7 +24,7 @@ export const query = graphql`
         excerpt
         slug
         title
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "DD [de] MMMM, YYYY", locale: "es")
         tags
         image {
           childImageSharp {
@@ -50,7 +50,7 @@ function BlogPage({ data }) {
       />
 
       <section className="posts">
-        <h1 className={BlogStyles.blogTitle}> Nuestros ultimos blog posts </h1>
+        <h1 className={BlogStyles.blogTitle}> Nuestros últimos blog posts </h1>
         <div className={BlogStyles.postList}>
           <PostList posts={posts} />
         </div>

@@ -1,10 +1,10 @@
 --- 
-path: '/my-third-blog' 
-date: '2020-07-27' 
-title: 'My Fourth Blog Has a Longer Title Than the Previous Ones' 
+path: '/my-first-blog' 
+date: '2020-01-01' 
+title: 'My First Blog' 
 author: 'Emma Bostian' 
 description: 'This is my very first blog of 2020!' 
-image: '../assets/morpheus.jpg'
+image: '../../assets/rockstar.jpg'
 --- 
 
 ## Here is the title of my blog post

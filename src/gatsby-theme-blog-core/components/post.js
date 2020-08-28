@@ -1,5 +1,8 @@
 import React from "react"
 import PropTypes from "prop-types";
+import moment from "moment";
+import 'moment/locale/es'
+moment.locale('es')
 
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import SEO from "../../components/seo";
@@ -9,6 +12,10 @@ import PostTitle from "gatsby-theme-blog-core/src/components/post-title"
 import PostDate from "gatsby-theme-blog-core/src/components/post-date"
 import PostHero from "gatsby-theme-blog-core/src/components/post-hero"
 import PostStyles from "./post.module.css"
+
+import facebook from "../../images/social/facebook-dark.svg";
+import twitter from "../../images/social/twitter-dark.svg";
+import linkedin from "../../images/social/linkedin-dark.svg";
 
 const Post = ({ data }) => {
   const post = data.blogPost
@@ -22,11 +29,38 @@ const Post = ({ data }) => {
     <main>
       <article >
         <header>
-          <PostTitle className={PostStyles.title} >{post.title}</PostTitle>
-          <PostDate>{post.date}</PostDate>
+          <PostTitle className={PostStyles.title}>{post.title}</PostTitle>
+          <div className={PostStyles.shareRow}>
+            <PostDate className={PostStyles.date} >{moment(post.date).format('DD [de] MMMM, YYYY')}</PostDate>
+            <div className={PostStyles.iconsPanel} >
+              <a href={`https://www.facebook.com/sharer/sharer.php?u=https://www.oasisfinanciero.mx${post.slug}`}>
+                <img
+                  alt="Facebook icon"
+                  className={PostStyles.socialIcon}
+                  src={facebook}
+                />
+              </a>
+              <a href={`https://twitter.com/intent/tweet?text=${post.title}`}>
+                <img
+                  alt="Twitter icon"
+                  className={PostStyles.socialIcon}
+                  src={twitter}
+                />
+              </a>
+              <a href={`https://www.linkedin.com/sharing/share-offsite/?url=https://www.oasisfinanciero.mx${post.slug}`}>
+                <img
+                  alt="Linkedin icon"
+                  className={PostStyles.socialIcon}
+                  src={linkedin}
+                />
+              </a>
+            </div>
+            
+          </div>
+          
           <PostHero post={post} className={PostStyles.hero}/>
         </header>
-        <section className="post-body">
+        <section className={PostStyles.body}>
           <MDXRenderer>{post.body}</MDXRenderer>
         </section>
       </article>

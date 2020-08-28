@@ -19,7 +19,7 @@ function Layout({ children, page }) {
       </main>
 
       <footer className="bg-blue-700">
-        <nav className="flex justify-between max-w-4xl px-4 pb-4 pt-8 mx-auto text-sm md:px-8">
+        <nav className="info-row max-w-4xl px-4 pb-4 pt-8 mx-auto text-sm md:px-8">
           <p className="text-white">
             &copy; Oasis Financiero 2020{` `}
             <a
@@ -31,7 +31,7 @@ function Layout({ children, page }) {
             </a>
           </p>
 
-          <p>
+          <p className="privacy">
             <a
               className="font-bold text-white no-underline"
               href="/#"
@@ -42,7 +42,7 @@ function Layout({ children, page }) {
             </a>
           </p>
         </nav>
-        <nav className="social-media max-w-4xl mx-auto px-4 pt-4 pb-8 text-sm md:px-8">
+        <nav className="social-media max-w-4xl mx-auto px-4 pt-1 xs:pt-4 pb-8 text-sm md:px-8">
 
           <p className='follow-text text-white pb-4'>
             Siguenos en redes sociales:

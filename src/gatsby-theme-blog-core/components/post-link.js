@@ -22,7 +22,7 @@ const PostLink = ({ title, slug, date, excerpt, image}) => (
               <p className={PostStyles.excerptText}>{excerpt}</p>
             </section>
             <div className={PostStyles.data}>
-              <small className={PostStyles.dataText}>{date}</small>
+              <div className={PostStyles.dataText}><small>{date}</small></div>
             </div>
           </div>
 

@@ -4,7 +4,7 @@ date: '2020-07-24'
 title: 'My Third Blog Has a Longer Title Than the Previous Ones' 
 author: 'Emma Bostian' 
 description: 'This is my very first blog of 2020!' 
-image: '../assets/morpheus.jpg'
+image: '../../assets/morpheus.jpg'
 --- 
 
 ## Here is the title of my blog post

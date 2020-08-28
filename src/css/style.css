@@ -34,20 +34,30 @@ h2 {
     margin: 0px 0.65em;
 }
 
-@media (max-width: 768px){
+.info-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 492px){
+    .info-row {
+        display: inline-block
+    }
+
     .follow-text {
         display: none;
     }
 
     .icons-tray {
         display: inline-block;
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%)
+    }
+
+    .privacy {
+        margin-top: 10px;
     }
 }
 
-@media (min-width: 768px){
+@media (min-width: 492px){
     .social-media {
         text-align: right;
     }
