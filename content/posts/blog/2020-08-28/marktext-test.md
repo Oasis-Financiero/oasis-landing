@@ -10,11 +10,11 @@ imageAlt: 'Stewardess'
 
 ---
 
-I was wondering if this would work. This only really a test.    <br><br>
+I was wondering if this would work. This only really a test.    <br/><br/>
 
-Considering the amount of effort we have put into this, we have decided to save it for later just to test the capacities of our local markdown editor. Here is an image of a chihuahua.    <br><br>
+Considering the amount of effort we have put into this, we have decided to save it for later just to test the capacities of our local markdown editor. Here is an image of a chihuahua.    <br/><br/>
 
-![Chihuahua](si.jpg)    
+![Chihuahua](si.jpg)<br/><br/>
 
 ## Hello This is some Heading
 
