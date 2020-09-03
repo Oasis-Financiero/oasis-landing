@@ -13,14 +13,14 @@ function Layout({ children, page }) {
       <Header />
 
       <main className={`flex-1 w-full ${page == "blog" ? 
-      "max-w-none pt-12 px-4" 
+      "max-w-none pt-12 px-4 md:px-16" 
       : "max-w-4xl  md:py-16 px-4"}  pt-8 pb-8 mx-auto`}>
         {children}
       </main>
 
       <footer className="bg-blue-700">
         <nav className="info-row max-w-4xl px-4 pb-4 pt-8 mx-auto text-sm md:px-8">
-          <p className="text-white">
+          <p className="text-white footer-text">
             &copy; Oasis Financiero 2020{` `}
             <a
               className="font-bold no-underline"
@@ -31,7 +31,7 @@ function Layout({ children, page }) {
             </a>
           </p>
 
-          <p className="privacy">
+          <p className="privacy footer-text">
             <a
               className="font-bold text-white no-underline"
               href="/#"
@@ -44,7 +44,7 @@ function Layout({ children, page }) {
         </nav>
         <nav className="social-media max-w-4xl mx-auto px-4 pt-1 xs:pt-4 pb-8 text-sm md:px-8">
 
-          <p className='follow-text text-white pb-4'>
+          <p className='follow-text footer-text text-white pb-4'>
             Siguenos en redes sociales:
           </p>
 

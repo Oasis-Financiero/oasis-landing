@@ -4,7 +4,7 @@
 /*! purgecss end ignore */
 @tailwind utilities;
 
-p {
+p.leading-loose, p.footer-text {
     font-size: 1.15em;
 }
 
