@@ -16,6 +16,6 @@ Considering the amount of effort we have put into this, we have decided to save 
 
 ![Chihuahua](si.jpg)<br/>
 
-## Hello This is some Heading
+## Hello this is some heading
 
 I did this just to introduce another section to the post. Do we have anything else to say? Not really.
