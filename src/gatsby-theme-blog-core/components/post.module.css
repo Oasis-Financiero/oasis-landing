@@ -13,6 +13,21 @@
     font-weight: bold;
 }
 
+@font-face {
+    font-family: 'Open-Sans';
+    src:  url('../../fonts/OpenSans-Regular.woff2') format('woff2'),
+          url('../../fonts/OpenSans-Regular.woff') format('woff'),
+          url('../../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Open-Sans';
+    src:  url('../../fonts/OpenSans-Bold.woff2') format('woff2'),
+          url('../../fonts/OpenSans-Bold.woff') format('woff'),
+          url('../../fonts/OpenSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
 .title {
     font-family: Hind, 'Segoe UI', sans-serif;
     font-size: 2em;
@@ -50,5 +65,5 @@
 
 .body {
     padding: 0px 5px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Open-Sans, Helvetica, sans-serif;
 }

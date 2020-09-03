@@ -13,7 +13,7 @@ function Layout({ children, page }) {
       <Header />
 
       <main className={`flex-1 w-full ${page == "blog" ? 
-      "max-w-none pt-12 px-12" 
+      "max-w-none pt-12 px-4" 
       : "max-w-4xl  md:py-16 px-4"}  pt-8 pb-8 mx-auto`}>
         {children}
       </main>
