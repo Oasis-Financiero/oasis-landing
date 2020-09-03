@@ -2,7 +2,6 @@ import React from "react"
 import PropTypes from "prop-types";
 import moment from "moment";
 import 'moment/locale/es'
-moment.locale('es')
 
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import SEO from "../../components/seo";
@@ -17,6 +16,8 @@ import facebook from "../../images/social/facebook-dark.svg";
 import twitter from "../../images/social/twitter-dark.svg";
 import linkedin from "../../images/social/linkedin-dark.svg";
 
+moment.locale('es')
+
 const Post = ({ data }) => {
   const post = data.blogPost
   return (
@@ -24,7 +25,7 @@ const Post = ({ data }) => {
     <SEO
       keywords={[`home`, `fintech`, `finanzas`, `personales`, `bancos`]}
       title={post.title}
-      page="blog"
+      description={post.excerpt}
     />
     <main>
       <article >
@@ -33,21 +34,21 @@ const Post = ({ data }) => {
           <div className={PostStyles.shareRow}>
             <PostDate className={PostStyles.date} >{moment(post.date).format('DD [de] MMMM, YYYY')}</PostDate>
             <div className={PostStyles.iconsPanel} >
-              <a href={`https://www.facebook.com/sharer/sharer.php?u=https://oasis-test.netlify.app${post.slug}`}>
+              <a href={`https://www.facebook.com/sharer/sharer.php?u=https://oasis-test.netlify.app${location.pathname}`}>
                 <img
                   alt="Facebook icon"
                   className={PostStyles.socialIcon}
                   src={facebook}
                 />
               </a>
-              <a href={`https://twitter.com/intent/tweet?url=https://oasis-test.netlify.app${post.slug}&text=${post.title}`}>
+              <a href={`https://twitter.com/intent/tweet?url=https://oasis-test.netlify.app${location.pathname}&text=${post.title}`}>
                 <img
                   alt="Twitter icon"
                   className={PostStyles.socialIcon}
                   src={twitter}
                 />
               </a>
-              <a href={`https://www.linkedin.com/sharing/share-offsite/?url=https://oasis-test.netlify.app${post.slug}&title=${post.title}`}>
+              <a href={`https://www.linkedin.com/sharing/share-offsite/?url=https://oasis-test.netlify.app${location.pathname}&title=${post.title}`}>
                 <img
                   alt="Linkedin icon"
                   className={PostStyles.socialIcon}

@@ -11,6 +11,7 @@ export const query = graphql`
   query MyPostsQuery {
     site {
       siteMetadata {
+        siteUrl
         title
         social {
           name
