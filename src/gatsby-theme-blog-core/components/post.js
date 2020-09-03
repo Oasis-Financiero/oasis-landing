@@ -34,21 +34,21 @@ const Post = ({ data }) => {
           <div className={PostStyles.shareRow}>
             <PostDate className={PostStyles.date} >{moment(post.date).format('DD [de] MMMM, YYYY')}</PostDate>
             <div className={PostStyles.iconsPanel} >
-              <a href={`https://www.facebook.com/sharer/sharer.php?u=https://oasis-test.netlify.app${location.pathname}`}>
+              <a href={`https://www.facebook.com/sharer/sharer.php?u=https://oasis-test.netlify.app${post.slug}`}>
                 <img
                   alt="Facebook icon"
                   className={PostStyles.socialIcon}
                   src={facebook}
                 />
               </a>
-              <a href={`https://twitter.com/intent/tweet?url=https://oasis-test.netlify.app${location.pathname}&text=${post.title}`}>
+              <a href={`https://twitter.com/intent/tweet?url=https://oasis-test.netlify.app${post.slug}&text=${post.title}`}>
                 <img
                   alt="Twitter icon"
                   className={PostStyles.socialIcon}
                   src={twitter}
                 />
               </a>
-              <a href={`https://www.linkedin.com/sharing/share-offsite/?url=https://oasis-test.netlify.app${location.pathname}&title=${post.title}`}>
+              <a href={`https://www.linkedin.com/sharing/share-offsite/?url=https://oasis-test.netlify.app${post.slug}&title=${post.title}`}>
                 <img
                   alt="Linkedin icon"
                   className={PostStyles.socialIcon}
