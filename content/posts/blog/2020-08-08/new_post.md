@@ -1,4 +1,4 @@
-```yaml
+---
 date: '2020-08-08'
 
 title: 'This is the title of the blog post'
@@ -6,7 +6,7 @@ title: 'This is the title of the blog post'
 image: 'poolside.jpg'
 
 imageAlt: 'Disco ball by the pool'
-```
+---
 
 I was wondering if this would work. This only really a test. The first paragraph of this post contains a lot of words that are used with the purpose of testing how the blog is displayed online. <br/><br/>
 
