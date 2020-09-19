@@ -48,6 +48,7 @@ function BlogPage({ data }) {
       <SEO
         keywords={[`home`, `fintech`, `finanzas`, `personales`, `bancos`]}
         title="Blog"
+        description="El blog de Oasis te ayuda a aprender todo lo que necesitas saber sobre educación financiera."
       />
 
       <section className="posts">

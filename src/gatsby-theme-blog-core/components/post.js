@@ -26,6 +26,7 @@ const Post = ({ data }) => {
       keywords={[`home`, `fintech`, `finanzas`, `personales`, `bancos`]}
       title={post.title}
       description={post.excerpt}
+      page='blogpost' // Changes the title template for the page. See SEO component.
     />
     <main>
       <article >
