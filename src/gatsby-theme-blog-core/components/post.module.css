@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Hind';
+    src:  url('../../fonts/Hind-Regular.woff2') format('woff2'),
+          url('../../fonts/Hind-Regular.woff') format('woff'),
+          url('../../fonts/Hind-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Hind';
+    src:  url('../../fonts/Hind-Bold.woff2') format('woff2'),
+          url('../../fonts/Hind-Bold.woff') format('woff'),
+          url('../../fonts/Hind-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Open-Sans';
+    src:  url('../../fonts/OpenSans-Regular.woff2') format('woff2'),
+          url('../../fonts/OpenSans-Regular.woff') format('woff'),
+          url('../../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Open-Sans';
+    src:  url('../../fonts/OpenSans-Bold.woff2') format('woff2'),
+          url('../../fonts/OpenSans-Bold.woff') format('woff'),
+          url('../../fonts/OpenSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+.title {
+    font-family: Hind, 'Segoe UI', sans-serif;
+    font-size: 2em;
+    margin-bottom: 8px;
+    color: #333333;
+}
+
+.shareRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.date {
+    padding-left: 3px;
+    font-size: 1em;
+    font-family: Hind, 'Segoe UI', sans-serif;
+    color: #333333;
+}
+
+.iconsPanel {
+    display: flex;
+    padding-right: 5px;
+}
+
+.socialIcon {
+    margin: 0px 3px;
+    width: 22px;
+    display: inline-block;
+}
+
+.hero {
+    margin-bottom: 20px;
+}
+
+.body {
+    padding: 0px 5px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Open-Sans, Helvetica, sans-serif;
+    font-size: 1.15em !important;
+}
+
+@media (max-width: 576px) { 
+    .body{
+        font-size: 1em !important;
+    }
+ }

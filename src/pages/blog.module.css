@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Hind';
+    src:  url('../fonts/Hind-Regular.woff2') format('woff2'),
+          url('../fonts/Hind-Regular.woff') format('woff'),
+          url('../fonts/Hind-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Hind';
+    src:  url('../fonts/Hind-Bold.woff2') format('woff2'),
+          url('../fonts/Hind-Bold.woff') format('woff'),
+          url('../fonts/Hind-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+.blogTitle {
+    font-family: Hind, 'Segoe UI', sans-serif;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.postList {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+}

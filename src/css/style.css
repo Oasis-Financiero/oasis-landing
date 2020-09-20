@@ -4,8 +4,18 @@
 /*! purgecss end ignore */
 @tailwind utilities;
 
-p {
+p.leading-loose, p.footer-text {
     font-size: 1.15em;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.25em;
+    font-weight: bold;
 }
 
 .align-top {
@@ -24,20 +34,30 @@ p {
     margin: 0px 0.65em;
 }
 
-@media (max-width: 768px){
+.info-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 492px){
+    .info-row {
+        display: inline-block
+    }
+
     .follow-text {
         display: none;
     }
 
     .icons-tray {
         display: inline-block;
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%)
+    }
+
+    .privacy {
+        margin-top: 10px;
     }
 }
 
-@media (min-width: 768px){
+@media (min-width: 492px){
     .social-media {
         text-align: right;
     }

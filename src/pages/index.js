@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -65,16 +66,7 @@ function IndexPage() {
             <p className="leading-loose">
               Adquiere conocimientos sobre educación financiera y las tecnologías que están innovando en finanzas personales. <br></br>
               Ingresa a nuestro <nbsp></nbsp>
-              
-              <a
-                className="font-bold no-underline"
-                href="https://medium.com/@oasisfinancierotech"
-                target="_blank"
-                rel="noopener noreferrer"
-                  >
-                blog
-              </a>
-              .
+              <strong><Link to="/blog"> blog.</Link></strong>
             </p>
 
           </div>
