@@ -19,7 +19,7 @@ export const query = graphql`
         }
       }
     }
-    allBlogPost(sort: { fields: [date, title], order: DESC }, limit: 1000) {
+    allBlogPost(sort: { fields: [date, title], order: DESC }, limit: 9) {
       nodes {
         id
         excerpt
