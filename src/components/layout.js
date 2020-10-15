@@ -16,10 +16,10 @@ function Layout({ children, page }) {
       colWidthStyle = "max-w-none pt-12 px-4 md:px-16";
       break;
     case "blogpost":
-      colWidthStyle = "max-w-3xl  md:py-16 px-4";
+      colWidthStyle = "max-w-3xl md:py-16 px-4";
       break;
     default:
-      colWidthStyle = "max-w-4xl  md:py-16 px-4";
+      colWidthStyle = "max-w-4xl md:py-16 px-4";
   }
 
   return (
