@@ -21,7 +21,7 @@ moment.locale('es')
 const Post = ({ data }) => {
   const post = data.blogPost
   return (
-    <Layout>
+    <Layout page="blogpost">
     <SEO
       keywords={[`home`, `fintech`, `finanzas`, `personales`, `bancos`]}
       title={post.title}
@@ -33,7 +33,7 @@ const Post = ({ data }) => {
         <header>
           <PostTitle className={PostStyles.title}>{post.title}</PostTitle>
           <div className={PostStyles.shareRow}>
-            <PostDate className={PostStyles.date} >{moment(post.date).format('DD [de] MMMM, YYYY')}</PostDate>
+            <PostDate className={PostStyles.date} date={post.date}>{moment(post.date).format('DD [de] MMMM, YYYY')}</PostDate>
             <div className={PostStyles.iconsPanel} >
               <a href={`https://www.facebook.com/sharer/sharer.php?u=https://oasisfinanciero.mx${post.slug}`}>
                 <img

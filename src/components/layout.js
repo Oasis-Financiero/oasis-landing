@@ -8,13 +8,25 @@ import linkedin from "../images/social/linkedin.svg";
 import medium from "../images/social/medium.svg";
 
 function Layout({ children, page }) {
+
+  let colWidthStyle;
+
+  switch(page) {
+    case "blog":
+      colWidthStyle = "max-w-none pt-12 px-4 md:px-16";
+      break;
+    case "blogpost":
+      colWidthStyle = "max-w-3xl  md:py-16 px-4";
+      break;
+    default:
+      colWidthStyle = "max-w-4xl  md:py-16 px-4";
+  }
+
   return (
     <div className="flex flex-col min-h-screen font-sans text-gray-900">
       <Header />
 
-      <main className={`flex-1 w-full ${page == "blog" ? 
-      "max-w-none pt-12 px-4 md:px-16" 
-      : "max-w-4xl  md:py-16 px-4"}  pt-8 pb-8 mx-auto`}>
+      <main className={`flex-1 w-full ${colWidthStyle} pt-8 pb-8 mx-auto`}>
         {children}
       </main>
 

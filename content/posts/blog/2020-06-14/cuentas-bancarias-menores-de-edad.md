@@ -11,7 +11,8 @@ Ahora a los menores de entre 15 a 17 años podrán abrir cuentas bancarias sin l
 
 Arturo Herrera, Secretario de **Hacienda y Crédito Público (SHCP)** comentó durante la conferencia de prensa del pasado 12 de Junio “La evidencia que tenemos del último año es que, como es natural, los jóvenes son muchísimos más adeptos a hacer operaciones de carácter digital a operar con sus teléfonos”. <br/><br/>
 
-## ¿Qué tipo de movimientos bancarios se podrán realizar con estas cuentas?
+## ¿Qué tipo de movimientos bancarios se podrán realizar con estas cuentas? 
+<br/>
 
 1. Las cuentas serán de nivel 2, esto quiere decir que tendrán un límite de depósitos de $18,000 pesos al mes. <br/><br/>
 
@@ -27,6 +28,6 @@ Arturo Herrera, Secretario de **Hacienda y Crédito Público (SHCP)** comentó d
 
 Esto podrá incentivar a que los menores pueden generar un historial crediticio que posteriormente, podrán aprovechar para acceder a más servicios financieros. <br/><br/>
 
-Próximamente en ***Oasis Financiero*** podrás comparar todas las opciones Fintech y de Banca tradicional en una sola plataforma. <br/><br/>
+Próximamente en ***[Oasis Financiero](https://www.oasisfinanciero.mx)*** podrás comparar todas las opciones Fintech y de Banca tradicional en una sola plataforma. <br/><br/>
 
 Síguenos en nuestras páginas de **[Facebook](https://facebook.com/oasisfinanciero)**, **[LinkedIn](https://www.linkedin.com/company/oasisfinanciero/)** y **[Twitter](https://twitter.com/oasisfintech)**.
