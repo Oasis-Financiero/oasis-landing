@@ -28,6 +28,14 @@
     font-weight: bold;
 }
 
+ul li {
+    list-style: initial;
+}
+
+ul {
+    margin-left: 20px;
+}
+
 .title {
     font-family: Hind, 'Segoe UI', sans-serif;
     font-size: 2em;

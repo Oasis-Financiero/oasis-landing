@@ -19,7 +19,7 @@ export const query = graphql`
         }
       }
     }
-    allBlogPost(sort: { fields: [date, title], order: DESC }, limit: 1000) {
+    allBlogPost(sort: { fields: [date, title], order: DESC }, limit: 9) {
       nodes {
         id
         excerpt
@@ -29,7 +29,7 @@ export const query = graphql`
         tags
         image {
           childImageSharp {
-            fluid(maxWidth: 200, maxHeight: 120, cropFocus: CENTER, fit: COVER) {
+            fluid(maxWidth: 300, maxHeight: 180, cropFocus: CENTER, fit: COVER) {
               ...GatsbyImageSharpFluid
             }
           }
