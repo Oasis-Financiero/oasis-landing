@@ -5,7 +5,6 @@ import Header from "./header";
 import facebook from "../images/social/facebook.svg";
 import twitter from "../images/social/twitter.svg";
 import linkedin from "../images/social/linkedin.svg";
-import medium from "../images/social/medium.svg";
 
 function Layout({ children, page }) {
 
@@ -18,6 +17,9 @@ function Layout({ children, page }) {
     case "blogpost":
       colWidthStyle = "max-w-3xl md:py-16 px-4";
       break;
+    case "newlanding":
+      colWidthStyle = "max-w-none";
+      break;
     default:
       colWidthStyle = "max-w-4xl md:py-16 px-4";
   }
@@ -26,7 +28,7 @@ function Layout({ children, page }) {
     <div className="flex flex-col min-h-screen font-sans text-gray-900">
       <Header />
 
-      <main className={`flex-1 w-full ${colWidthStyle} pt-8 pb-8 mx-auto`}>
+      <main className={`flex-1 w-full ${colWidthStyle} mx-auto`}>
         {children}
       </main>
 
@@ -98,19 +100,6 @@ function Layout({ children, page }) {
                   alt="Linkedin icon"
                   className="social-icon"
                   src={linkedin}
-                />
-              </a>
-
-              <a
-                className="font-bold text-white no-underline"
-                href="https://medium.com/@oasisfinancierotech"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  alt="Medium icon"
-                  className="social-icon"
-                  src={medium}
                 />
               </a>
 

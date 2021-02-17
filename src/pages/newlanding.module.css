@@ -1,0 +1,41 @@
+.first{
+    position: relative;
+}
+
+.firstUpper {
+    width: 100%;
+    padding-bottom: 300px;
+    position: relative;
+    z-index: -1;
+}
+
+.firstBottom {
+    width: 100%;
+    padding-bottom: 800px;
+    position: relative;
+    z-index: 1;
+}
+
+.firstText {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.phone {
+    position: absolute;
+    top: 80px;
+    right: 100px;
+    width: 20%;
+}
+
+.second {
+    width: 100%;
+    height: 600px;
+    background-color: #37609b;
+    padding-bottom: 600px
+}
