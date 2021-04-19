@@ -1,0 +1,33 @@
+#hero {
+    background: linear-gradient(to right, #EAEFFF, #FFFFFF);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+#heroText {
+    width: 40%;
+}
+
+#heroIllustration {
+    flex-grow: 1;
+    border: solid 1px lime;
+    position: relative;
+}
+
+#rhombusSvg {
+    position: absolute;
+    width: 80%;
+    z-index: 10;
+    top: 10%;
+    left: 8%
+}
+
+#characterSvg {
+    position: absolute;
+    width: 58%;
+    z-index: 20;
+    top: 7%;
+    left: 17%
+}

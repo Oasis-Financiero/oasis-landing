@@ -1,4 +1,51 @@
 .header{
-    box-shadow: 0 2px 8px 1px rgba(50,50,50,.5)
-    
+    box-shadow: 0 2px 8px 1px rgba(50,50,50,.5);
+    height: 10vh
+}
+
+.headerContent {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 700px 1fr;
+    grid-template-areas: "logo nav social";
+}
+
+#logo {
+    grid-area: logo;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 50px
+}
+
+#nav {
+    grid-area: nav;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navLink {
+    margin: 0px 20px;
+    font-weight: bold;
+    font-size: .75em;
+}
+
+#social {
+    grid-area: social;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#iconsTray {
+    width: 150px;
+    display: flex;
+}
+
+.socialIcon {
+    width: 18px;
+    margin: 0px 5px
 }

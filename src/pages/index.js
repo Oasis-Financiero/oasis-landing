@@ -7,6 +7,10 @@ import digitalNomad from "../images/landing/undraw_digital_nomad_9kgl.svg";
 import research from "../images/landing/undraw_researching_22gp.svg";
 import preferences from "../images/landing/undraw_preferences_uuo2.svg";
 import choose from "../images/landing/undraw_Choose_bwbs.svg";
+import character from "../images/landing/characterr.svg"
+import rhombus from "../images/landing/rhombus.svg"
+
+import styles from "./index.module.css"
 
 const fontColor = {
   color: 'rgb(55,96,155)'
@@ -19,6 +23,14 @@ function IndexPage() {
         keywords={[`home`, `fintech`, `finanzas`, `personales`, `bancos`]}
         title="Educación financiera y comparador de servicios"
       />
+
+      <section id={styles.hero}>
+        <div id={styles.heroText}></div>
+        <div id={styles.heroIllustration}>
+          <img id={styles.characterSvg} src={character}></img>
+          <img id={styles.rhombusSvg} src={rhombus}></img>
+        </div>
+      </section>
 
       <section className="text-center" style={fontColor}>
 

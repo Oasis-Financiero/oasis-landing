@@ -6,9 +6,9 @@ import facebook from "../images/social/facebook.svg";
 import twitter from "../images/social/twitter.svg";
 import linkedin from "../images/social/linkedin.svg";
 
-function Layout({ children, page }) {
+function Layout({ children }) {
 
-  let colWidthStyle;
+  /* let colWidthStyle;
 
   switch(page) {
     case "blog":
@@ -22,15 +22,13 @@ function Layout({ children, page }) {
       break;
     default:
       colWidthStyle = "max-w-4xl md:py-16 px-4";
-  }
+  } */
 
   return (
     <div className="flex flex-col min-h-screen font-sans text-gray-900">
       <Header />
 
-      <main className={`flex-1 w-full ${colWidthStyle} mx-auto`}>
         {children}
-      </main>
 
       <footer className="bg-blue-700">
         <nav className="info-row max-w-4xl px-4 pb-4 pt-8 mx-auto text-sm md:px-8">
