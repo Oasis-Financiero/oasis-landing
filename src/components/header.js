@@ -10,7 +10,7 @@ import linkedin from "../images/social/linkedin-dark.svg";
 function Header() {
 
   const fontColor = {
-    color: 'rgb(55,96,155)'
+    color: '#3A558D'
   }
 
   const [isExpanded, toggleExpansion] = useState(false);

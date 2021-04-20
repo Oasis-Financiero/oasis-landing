@@ -1,6 +1,18 @@
+@font-face {
+    font-family: 'Poppins';
+    src:  url('../fonts/Poppins-Regular.woff2') format('woff2'),
+          url('../fonts/Poppins-Regular.woff') format('woff'),
+          url('../fonts/Poppins-Regular.ttf') format('truetype');
+}
+
 .header{
-    box-shadow: 0 2px 8px 1px rgba(50,50,50,.5);
-    height: 10vh
+    box-shadow: 0 1px 3px .5px rgba(50,50,50,.2);
+    z-index: 999;
+    width: 100%;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff
 }
 
 .headerContent {
@@ -30,6 +42,8 @@
     margin: 0px 20px;
     font-weight: bold;
     font-size: .75em;
+    font-family: Poppins;
+    color: #3A558D
 }
 
 #social {
