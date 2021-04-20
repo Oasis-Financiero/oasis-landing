@@ -56,9 +56,11 @@
 
 #iconsTray {
     width: 150px;
+    height: 100%;
     padding-right: 50px;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .socialIcon {

@@ -9,6 +9,8 @@ import preferences from "../images/landing/undraw_preferences_uuo2.svg";
 import choose from "../images/landing/undraw_Choose_bwbs.svg";
 import character from "../images/landing/characterr.svg"
 import rhombus from "../images/landing/rhombus.svg"
+import vertical from "../images/landing/vertical-whirl.svg"
+import horizontal from "../images/landing/horizontal-whirl.svg"
 
 import styles from "./index.module.css"
 
@@ -26,17 +28,23 @@ function IndexPage() {
 
       <section id={styles.hero}>
         <div id={styles.heroText}>
+          <img id={styles.horizontalWhirl} src={horizontal}></img>
           <div id={styles.textWrapper}>
             <h1 id={styles.titleFirstLine}> LIBERA TU POTENCIAL </h1>
             <h1 id={styles.titleSecondLine}> FINANCIERO </h1>
             <p id={styles.heroParagraph}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
+            <div id={styles.heroButtons}>
+              <button className={styles.purpleBtn}> Unete ahora </button>
+              <button className={styles.transparentBtn} id={styles.moreBtn}> Conocer mas </button>
+            </div>
           </div>
         </div>
         <div id={styles.heroIllustration}>
           <img id={styles.characterSvg} src={character}></img>
           <img id={styles.rhombusSvg} src={rhombus}></img>
+          <img id={styles.verticalWhirl} src={vertical}></img>
         </div>
       </section>
 

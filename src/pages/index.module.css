@@ -29,11 +29,12 @@
 }
 
 #hero {
-    background: linear-gradient(to right, #EAEFFF, #FFFFFF);
+    background-image: url("../images/landing/heroback.png");
     height: 90vh;
     background-size: cover;
     background-position: center;
     display: flex;
+    overflow: hidden;
 }
 
 #heroText {
@@ -46,20 +47,20 @@
 
 #textWrapper {
     width: 70%;
-    border: solid 1px lime;
-}
+/*     border: solid 1px lime;
+ */}
 
 #titleFirstLine {
     font-family: Poppins;
     font-weight: 500;
-    font-size: 2.2em;
+    font-size: 2.3em;
     color: #526A9B;
     line-height: 1.3em;
 }
 
 #titleSecondLine {
     font-family: Poppins;
-    font-size: 2.2em;
+    font-size: 2.3em;
     color: #526A9B; 
     line-height: 1.3em;
 }
@@ -73,8 +74,8 @@
 
 #heroIllustration {
     flex-grow: 1;
-    border: solid 1px lime;
-    position: relative;
+/*     border: solid 1px lime;
+ */    position: relative;
 }
 
 #rhombusSvg {
@@ -88,7 +89,51 @@
 #characterSvg {
     position: absolute;
     width: 58%;
-    z-index: 20;
+    z-index: 30;
     top: 7%;
     left: 17%
+}
+
+#verticalWhirl {
+    position: absolute;
+    width: 55%;
+    z-index: 20;
+    top: 10%;
+    left: 65%
+}
+
+#horizontalWhirl {
+    position: absolute;
+    width: 30%;
+    z-index: 20;
+    top: -15%;
+    left: 6%
+}
+
+#heroButtons {
+    margin-top: 23px;
+    display: flex;
+}
+
+.purpleBtn {
+    height: 35px;
+    background-color: #6B5FB9;
+    border-radius: 500px;
+    padding: 12.5px 15px;
+    line-height: 10px;
+    vertical-align: middle;
+    font-size: .65em;
+    font-family: Poppins;
+    font-weight: bold;
+    color: #ffffff
+}
+
+.transparentBtn {
+    composes: purpleBtn;
+    background-color: initial;
+    color: #6B5FB9;
+}
+
+#moreBtn {
+    margin-left: 10px;
 }
