@@ -1,3 +1,33 @@
+@font-face {
+    font-family: 'Poppins';
+    src:  url('../fonts/Poppins-Regular.woff2') format('woff2'),
+          url('../fonts/Poppins-Regular.woff') format('woff'),
+          url('../fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src:  url('../fonts/Poppins-Bold.woff2') format('woff2'),
+          url('../fonts/Poppins-Bold.woff') format('woff'),
+          url('../fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src:  url('../fonts/Poppins-Light.woff2') format('woff2'),
+          url('../fonts/Poppins-Light.woff') format('woff'),
+          url('../fonts/Poppins-Light.ttf') format('truetype');
+    font-weight: light;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src:  url('../fonts/NunitoSans-Regular.woff2') format('woff2'),
+          url('../fonts/NunitoSans-Regular.woff') format('woff'),
+          url('../fonts/NunitoSans-Regular.ttf') format('truetype');
+}
+
 #hero {
     background: linear-gradient(to right, #EAEFFF, #FFFFFF);
     height: 90vh;
@@ -8,6 +38,36 @@
 
 #heroText {
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#textWrapper {
+    width: 70%;
+    border: solid 1px lime;
+}
+
+#titleFirstLine {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 2.2em;
+    color: #526A9B;
+    line-height: 1.3em;
+}
+
+#titleSecondLine {
+    font-family: Poppins;
+    font-size: 2.2em;
+    color: #526A9B; 
+    line-height: 1.3em;
+}
+
+#heroParagraph {
+    margin-top: 10px;
+    font-family: Nunito;
+    font-size: .9em;
 }
 
 #heroIllustration {

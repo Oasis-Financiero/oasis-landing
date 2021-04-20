@@ -42,7 +42,9 @@
 
 #iconsTray {
     width: 150px;
+    padding-right: 50px;
     display: flex;
+    justify-content: flex-end;
 }
 
 .socialIcon {

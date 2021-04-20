@@ -25,7 +25,15 @@ function IndexPage() {
       />
 
       <section id={styles.hero}>
-        <div id={styles.heroText}></div>
+        <div id={styles.heroText}>
+          <div id={styles.textWrapper}>
+            <h1 id={styles.titleFirstLine}> LIBERA TU POTENCIAL </h1>
+            <h1 id={styles.titleSecondLine}> FINANCIERO </h1>
+            <p id={styles.heroParagraph}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
         <div id={styles.heroIllustration}>
           <img id={styles.characterSvg} src={character}></img>
           <img id={styles.rhombusSvg} src={rhombus}></img>
