@@ -3,6 +3,15 @@
     src:  url('../fonts/Poppins-Regular.woff2') format('woff2'),
           url('../fonts/Poppins-Regular.woff') format('woff'),
           url('../fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src:  url('../fonts/Poppins-Black.woff2') format('woff2'),
+        url('../fonts/Poppins-Black.woff') format('woff'),
+        url('../fonts/Poppins-Black.ttf') format('truetype');
+  font-weight: 800;
 }
 
 @font-face {
@@ -10,7 +19,23 @@
     src:  url('../fonts/Poppins-Bold.woff2') format('woff2'),
           url('../fonts/Poppins-Bold.woff') format('woff'),
           url('../fonts/Poppins-Bold.ttf') format('truetype');
-    font-weight: bold;
+    font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src:  url('../fonts/Poppins-SemiBold.woff2') format('woff2'),
+        url('../fonts/Poppins-SemiBold.woff') format('woff'),
+        url('../fonts/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src:  url('../fonts/Poppins-Medium.woff2') format('woff2'),
+        url('../fonts/Poppins-Medium.woff') format('woff'),
+        url('../fonts/Poppins-Medium.ttf') format('truetype');
+  font-weight: 500;
 }
 
 @font-face {
@@ -18,7 +43,7 @@
     src:  url('../fonts/Poppins-Light.woff2') format('woff2'),
           url('../fonts/Poppins-Light.woff') format('woff'),
           url('../fonts/Poppins-Light.ttf') format('truetype');
-    font-weight: light;
+    font-weight: 300;
 }
 
 @font-face {
@@ -28,112 +53,191 @@
           url('../fonts/NunitoSans-Regular.ttf') format('truetype');
 }
 
+:root {
+  --titleBlue: #526A9B;
+  --subTitleGray: #494949;
+  --paraTextGray: #5B5766;
+  --accentPurple: #6B5FB9;
+  --backgroundBlue: #F1F4F8;
+}
+
+.title{
+  font-family: Poppins;
+  color: var(--titleBlue);
+  font-weight: 400;
+}
+
+.subTitle {
+  composes: title;
+  color: var(--subTitleGray);
+  font-weight: 500;
+}
+
+.titleThin {
+  composes: title;
+  font-weight: 300;
+}
+
+.titleSemiBold {
+  composes: title;
+  font-weight: 600;
+}
+
+.titleBold {
+  composes: title;
+  font-weight: 700;
+}
+
+.titleAccent {
+  composes: title;
+  font-weight: 800;
+  color: var(--accentPurple)
+}
+
+.paraText {
+  font-family: Nunito;
+  color: var(--paraTextGray);
+}
+
+
 #hero {
-    background-image: url("../images/landing/heroback.png");
-    height: 90vh;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    overflow: hidden;
+  background-image: url("../images/landing/heroback.png");
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  overflow: hidden;
 }
 
 #heroText {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #textWrapper {
-    width: 70%;
-/*     border: solid 1px lime;
- */}
-
-#titleFirstLine {
-    font-family: Poppins;
-    font-weight: 500;
-    font-size: 2.3em;
-    color: #526A9B;
-    line-height: 1.3em;
+  width: 70%;
 }
 
-#titleSecondLine {
-    font-family: Poppins;
-    font-size: 2.3em;
-    color: #526A9B; 
-    line-height: 1.3em;
+#heroFirstLine, #heroSecondLine {
+  font-size: 2.3em;
+  line-height: 1.3em;
 }
 
 #heroParagraph {
-    margin-top: 10px;
-    font-family: Nunito;
-    font-size: .9em;
-    color: #5B5766
+  font-size: .9em;
+  margin-top: 10px;
 }
 
 #heroIllustration {
-    flex-grow: 1;
-/*     border: solid 1px lime;
- */    position: relative;
+  flex-grow: 1;
+  position: relative;
 }
 
 #rhombusSvg {
-    position: absolute;
-    width: 80%;
-    z-index: 10;
-    top: 10%;
-    left: 8%
+  position: absolute;
+  width: 80%;
+  z-index: 10;
+  top: 10%;
+  left: 8%
 }
 
 #characterSvg {
-    position: absolute;
-    width: 58%;
-    z-index: 30;
-    top: 7%;
-    left: 17%
+  position: absolute;
+  width: 58%;
+  z-index: 30;
+  top: 7%;
+  left: 17%
 }
 
 #verticalWhirl {
-    position: absolute;
-    width: 55%;
-    z-index: 20;
-    top: 10%;
-    left: 65%
+  position: absolute;
+  width: 55%;
+  z-index: 20;
+  top: 10%;
+  left: 65%
 }
 
 #horizontalWhirl {
-    position: absolute;
-    width: 30%;
-    z-index: 20;
-    top: -15%;
-    left: 6%
+  position: absolute;
+  width: 30%;
+  z-index: 20;
+  top: -15%;
+  left: 6%
 }
 
 #heroButtons {
-    margin-top: 23px;
-    display: flex;
+  margin-top: 23px;
+  display: flex;
 }
 
 .purpleBtn {
-    height: 35px;
-    background-color: #6B5FB9;
-    border-radius: 500px;
-    padding: 12.5px 15px;
-    line-height: 10px;
-    vertical-align: middle;
-    font-size: .65em;
-    font-family: Poppins;
-    font-weight: bold;
-    color: #ffffff
+  height: 35px;
+  background-color: var(--accentPurple);
+  border-radius: 500px;
+  padding: 12.5px 15px;
+  line-height: 10px;
+  vertical-align: middle;
+  font-size: .65em;
+  font-family: Poppins;
+  font-weight: bold;
+  color: #ffffff
 }
 
 .transparentBtn {
-    composes: purpleBtn;
-    background-color: initial;
-    color: #6B5FB9;
+  composes: purpleBtn;
+  background-color: initial;
+  color: var(--accentPurple);
 }
 
 #moreBtn {
-    margin-left: 10px;
+  margin-left: 10px;
+}
+
+#oasisFeatures {
+  position: relative;
+  height: 1000px
+}
+
+#oasisFeaturesSquare {
+  width: 1200px;
+  height: 500px;
+  background-color: var(--backgroundBlue);
+  display: flex;
+  justify-content: center;
+}
+
+#oasisFeaturesText {
+  margin-top: 70px;
+  width: 70%;
+}
+
+#featuresTitle {
+  font-size: 2em;
+}
+
+#featuresSubTitle {
+  font-size: 1.2em;
+  margin-top: 5px;
+}
+
+#featuresPara {
+  margin-top: 15px;
+  font-size: .8em;
+}
+
+#userPicWrapper {
+  width: 1100px;
+  position: absolute;
+  right: 0px;
+  bottom: 250px;
+  display: flex;
+  padding: 10px;
+  background-color: white;
+}
+
+.userPic {
+  width: 50%
 }
