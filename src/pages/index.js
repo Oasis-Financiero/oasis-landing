@@ -13,6 +13,9 @@ import vertical from "../images/landing/vertical-whirl.svg"
 import horizontal from "../images/landing/horizontal-whirl.svg"
 import man from "../images/landing/man-blue.png"
 import woman from "../images/landing/woman-pink.png"
+import calidad from "../images/landing/calidad.png"
+import ayudar from "../images/landing/ayudarr.png"
+import grupo from "../images/landing/grupoo.png"
 
 import styles from "./index.module.css"
 
@@ -61,6 +64,33 @@ function IndexPage() {
         <div id={styles.userPicWrapper}>
           <img className={styles.userPic} src={man}></img>
           <img className={styles.userPic} src={woman}></img>
+        </div>
+      </section>
+
+      <section id={styles.oasisProServices}>
+        <div id={styles.proServicesBack}></div>
+        <div id={styles.servicesRow}>
+          <div className={styles.sideServWrapper}>
+            <div className={styles.servicesItem}>
+              <div className={styles.servIconWrapper}><img className={styles.servicesIcon} id={styles.qualityImg} src={calidad}></img></div>
+              <h3 className={styles.servicesTitle}> Expertos a tu servicio </h3>
+              <p className={styles.servicesPara}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. </p>
+            </div>
+          </div>
+          <div className={styles.centerServWrapper}>
+            <div className={styles.servicesItem}>
+              <div className={styles.servIconWrapper}><img className={styles.servicesIcon} id={styles.helpImg} src={ayudar}></img></div>
+              <h3 className={styles.servicesTitle}> Te damos ayuda rapida </h3>
+              <p className={styles.servicesPara}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. </p>
+            </div>
+          </div>
+          <div className={styles.sideServWrapper}>
+            <div className={styles.servicesItem}>
+              <div className={styles.servIconWrapper}><img className={styles.servicesIcon} id={styles.groupImg} src={grupo}></img></div>
+              <h3 className={styles.servicesTitle}> Nos adaptamos a ti </h3>
+              <p className={styles.servicesPara}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. </p>
+            </div>
+          </div>
         </div>
       </section>
 

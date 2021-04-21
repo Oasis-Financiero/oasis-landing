@@ -59,6 +59,7 @@
   --paraTextGray: #5B5766;
   --accentPurple: #6B5FB9;
   --backgroundBlue: #F1F4F8;
+  --bannerGradient: linear-gradient(#F1F4F8, #ECFEFB)
 }
 
 .title{
@@ -196,13 +197,88 @@
   margin-left: 10px;
 }
 
+#oasisProServices {
+  position: relative;
+  height: 220px;
+}
+
+#servicesRow {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.sideServWrapper {
+  width: 400px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+}
+
+.centerServWrapper {
+  flex-grow: 1;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+}
+
+.servicesItem {
+  width: 300px;
+  padding: 0px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.servIconWrapper {
+  height: 52px;
+  display: flex;
+  align-items: center;
+}
+
+.servicesTitle {
+  composes: titleBold;
+  margin-top: 10px;
+  font-size: .9em;
+}
+
+.servicesPara {
+  composes: paraText;
+  font-size: .75em;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#qualityImg {
+  width: 50px
+}
+
+#helpImg {
+  width: 70px
+
+}
+
+#groupImg {
+  width: 73px
+}
+
+#proServicesBack {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  height: 200px;
+  background: var(--bannerGradient);
+}
+
 #oasisFeatures {
   position: relative;
-  height: 1000px
+  height: 800px
 }
 
 #oasisFeaturesSquare {
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
   height: 500px;
   background-color: var(--backgroundBlue);
   display: flex;
@@ -210,8 +286,8 @@
 }
 
 #oasisFeaturesText {
-  margin-top: 70px;
-  width: 70%;
+  margin-top: 75px;
+  width: 85%;
 }
 
 #featuresTitle {
@@ -225,14 +301,15 @@
 
 #featuresPara {
   margin-top: 15px;
-  font-size: .8em;
+  font-size: .9em;
 }
 
 #userPicWrapper {
-  width: 1100px;
+  width: 100%;
+  max-width: 1150px;
   position: absolute;
   right: 0px;
-  bottom: 250px;
+  top: 280px;
   display: flex;
   padding: 10px;
   background-color: white;
