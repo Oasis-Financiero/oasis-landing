@@ -59,6 +59,7 @@
   --paraTextGray: #5B5766;
   --accentPurple: #6B5FB9;
   --backgroundBlue: #F1F4F8;
+  --itemBlue: #F0F6F9;
   --bannerGradient: linear-gradient(#F1F4F8, #ECFEFB)
 }
 
@@ -283,8 +284,8 @@
 
 #oasisFeaturesSquare {
   width: 100%;
-  max-width: 1200px;
-  height: 500px;
+  height: 100%;
+  /* max-width: 1200px; */
   background-color: var(--backgroundBlue);
   display: flex;
   justify-content: center;
@@ -375,4 +376,104 @@
 .titleThinFeat {
   composes: titleThin;
   font-size: .8em
+}
+
+#whyUs {
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#whyUsTitle {
+  padding-top: 85px;
+  display: inline-flex;
+  font-size: 1.8em;
+}
+
+#whyUsPara {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 70%;
+  font-size: 1em;
+}
+
+#roadmapWrapper {
+  position: relative;
+}
+
+#roadmapBack {
+  width: 850px
+}
+
+#roadmapBackImg {
+  width: 100%
+}
+
+#roadmapStepsWrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.roadmapStep {
+  width: 500px;
+  height: 120px;
+  background-color: var(--itemBlue);
+  display: flex;
+}
+
+.stepLeft {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stepNumber {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  color: var(--titleBlue);
+  font-weight: bold;
+  font-family: Poppins;
+  font-size: 1.1em;
+}
+
+.stepRight {
+  width: 350px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.titleAccentStep {
+  composes: titleAccent;
+  margin-top: 10px;
+}
+
+.stepPara {
+  margin-top: 3px;
+  font-family: Poppins;
+  color: var(--paraTextGray);
+  font-size: .8em
+}
+
+#firstStep {
+  margin-bottom: 25px;
+  margin-left: -200px;
+}
+
+#secondStep {
+  margin-left: -150px;
+}
+
+#thirdStep {
+  margin-top: 25px;
+  margin-left: -100px;
 }

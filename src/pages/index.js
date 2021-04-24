@@ -17,6 +17,7 @@ import alcancia from "../images/landing/alcancia.png"
 import coche from "../images/landing/coche.png"
 import prestamo from "../images/landing/prestamo.png"
 import tarjeta from "../images/landing/tarjeta.png"
+import roadmap from "../images/landing/roadmap.png"
 
 import styles from "./index.module.css"
 
@@ -86,12 +87,48 @@ function IndexPage() {
                 <div className={styles.titleAccentFeat}> Prestamos personales </div>
                 <div className={styles.titleThinFeat}> Tasas desde 4.45% </div>
               </div>
-            </div>
-              
+            </div> 
           </div>
         </div>
       </section>
 
+      <section id={styles.oasisRoadmap}>
+        <div id={styles.whyUs}>
+          <h2 className={styles.titleBold} id={styles.whyUsTitle}> ¿POR QUÉ OASIS? </h2>
+          <p className={styles.paraText} id={styles.whyUsPara}> 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            uis nostrud exercitation ullamco laboris nisi ut enim ad minim veniam, quis nostr ad minim veniam, 
+            quis nostrud exercitation ulla 
+          </p>
+        </div>
+        <div id={styles.roadmapWrapper}>
+          <div id={styles.roadmapBack}> <img id={styles.roadmapBackImg} src={roadmap}></img> </div>
+          <div id={styles.roadmapStepsWrapper}> 
+            <div className={styles.roadmapStep} id={styles.firstStep}>
+              <div className={styles.stepLeft}> <div className={styles.stepNumber}> 1 </div></div>
+              <div className={styles.stepRight}>
+                <div className={styles.titleAccentStep}> Aprende </div>
+                <div className={styles.stepPara}> Adquiere conocimientos sobre educación financiera y las tecnologías que están innovando en finanzas personales. Ingresa a nuestro blog. </div>
+              </div>
+            </div>
+            <div className={styles.roadmapStep} id={styles.secondStep}>
+              <div className={styles.stepLeft}> <div className={styles.stepNumber}> 2 </div></div>
+              <div className={styles.stepRight}>
+                <div className={styles.titleAccentStep}> Compara </div>
+                <div className={styles.stepPara}> Adquiere conocimientos sobre educación financiera y las tecnologías que están innovando en finanzas personales. Ingresa a nuestro blog. </div>
+              </div>
+            </div>
+            <div className={styles.roadmapStep} id={styles.thirdStep}>
+              <div className={styles.stepLeft}> <div className={styles.stepNumber}> 3 </div></div>
+              <div className={styles.stepRight}>
+                <div className={styles.titleAccentStep}> Elige </div>
+                <div className={styles.stepPara}> Adquiere conocimientos sobre educación financiera y las tecnologías que están innovando en finanzas personales. Ingresa a nuestro blog. </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section id={styles.oasisProServices}>
         <div id={styles.proServicesBack}></div>
