@@ -91,8 +91,13 @@
 
 .titleAccent {
   composes: title;
-  font-weight: 800;
+  font-weight: 700;
   color: var(--accentPurple)
+}
+
+.titleAccentBlack {
+  composes: titleAccent;
+  font-weight: 800;
 }
 
 .paraText {
@@ -273,7 +278,7 @@
 
 #oasisFeatures {
   position: relative;
-  height: 800px
+  height: 950px
 }
 
 #oasisFeaturesSquare {
@@ -301,15 +306,22 @@
 
 #featuresPara {
   margin-top: 15px;
-  font-size: .9em;
+  font-size: 1em;
+}
+
+#oasisFeaturesMain {
+  position: absolute;
+  right: 0px;
+  top: 280px;
+  width: 100%;
+  max-width: 1150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #userPicWrapper {
   width: 100%;
-  max-width: 1150px;
-  position: absolute;
-  right: 0px;
-  top: 280px;
   display: flex;
   padding: 10px;
   background-color: white;
@@ -317,4 +329,50 @@
 
 .userPic {
   width: 50%
+}
+
+#featuresDisplay {
+  height: 220px;
+  width: 90%;
+  background-color: white;
+  margin-top: -80px;
+  padding: 15px 20px;
+  box-shadow: 0px 0px 10px #292742;
+  display: flex;
+  flex-direction: column;
+}
+
+#featuresDisplayTitle {
+  font-size: 1.8em;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#featuresWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.featuresItem {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.featuresItemImg {
+  width: 50px;
+}
+
+.titleAccentFeat {
+  composes: titleAccent;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+.titleThinFeat {
+  composes: titleThin;
+  font-size: .8em
 }
