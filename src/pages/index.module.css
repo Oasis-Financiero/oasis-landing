@@ -203,80 +203,6 @@
   margin-left: 10px;
 }
 
-#oasisProServices {
-  position: relative;
-  height: 220px;
-}
-
-#servicesRow {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
-
-.sideServWrapper {
-  width: 400px;
-  z-index: 10;
-  display: flex;
-  justify-content: center;
-}
-
-.centerServWrapper {
-  flex-grow: 1;
-  z-index: 10;
-  display: flex;
-  justify-content: center;
-}
-
-.servicesItem {
-  width: 300px;
-  padding: 0px 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.servIconWrapper {
-  height: 52px;
-  display: flex;
-  align-items: center;
-}
-
-.servicesTitle {
-  composes: titleBold;
-  margin-top: 10px;
-  font-size: .9em;
-}
-
-.servicesPara {
-  composes: paraText;
-  font-size: .75em;
-  margin-top: 5px;
-  text-align: center;
-}
-
-#qualityImg {
-  width: 50px
-}
-
-#helpImg {
-  width: 70px
-
-}
-
-#groupImg {
-  width: 73px
-}
-
-#proServicesBack {
-  position: absolute;
-  top: 10px;
-  width: 100%;
-  height: 200px;
-  background: var(--bannerGradient);
-}
-
 #oasisFeatures {
   position: relative;
   height: 950px
@@ -379,14 +305,14 @@
 }
 
 #whyUs {
-  height: 270px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 #whyUsTitle {
-  padding-top: 85px;
+  padding-top: 65px;
   display: inline-flex;
   font-size: 1.8em;
 }
@@ -465,7 +391,7 @@
 }
 
 #firstStep {
-  margin-bottom: 25px;
+  margin-bottom: 27px;
   margin-left: -200px;
 }
 
@@ -474,6 +400,83 @@
 }
 
 #thirdStep {
-  margin-top: 25px;
+  margin-top: 27px;
   margin-left: -100px;
+}
+
+
+/* Oasis Professional services section */
+
+#oasisProServices {
+  position: relative;
+  height: 260px;
+}
+
+#servicesRow {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.sideServWrapper {
+  width: 400px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+}
+
+.centerServWrapper {
+  flex-grow: 1;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+}
+
+.servicesItem {
+  width: 300px;
+  padding: 0px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.servIconWrapper {
+  height: 52px;
+  display: flex;
+  align-items: center;
+}
+
+.servicesTitle {
+  composes: titleBold;
+  margin-top: 10px;
+  font-size: .9em;
+}
+
+.servicesPara {
+  composes: paraText;
+  font-size: .75em;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#qualityImg {
+  width: 50px
+}
+
+#helpImg {
+  width: 70px
+
+}
+
+#groupImg {
+  width: 73px
+}
+
+#proServicesBack {
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  height: 200px;
+  background: var(--bannerGradient);
 }
