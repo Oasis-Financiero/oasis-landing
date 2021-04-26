@@ -23,6 +23,7 @@ import prestamo from "../images/landing/prestamo.png"
 import tarjeta from "../images/landing/tarjeta.png"
 import roadmap from "../images/landing/roadmap.png"
 import newsletter from "../images/landing/newsletter-banner.png"
+import arrow from "../images/landing/arrow.png"
 
 import styles from "./index.module.css"
 
@@ -210,9 +211,20 @@ function IndexPage({ data }) {
 
       </section>
 
-      <section id={styles.newsletterSignup}>
-        <img id={styles.newsletterBack} src={newsletter}></img>
-
+      <section id={styles.newsletter}>
+        <img id={styles.newsletterBackImg} src={newsletter}></img>
+        <div id={styles.newsletterCTAWrapper}>
+          <div id={styles.newsletterCTA}>
+            <h3 className={styles.titleAccent} id={styles.newsletterCTATitle}> NEWSLETTER </h3>
+            <h2 className={styles.titleBold} id={styles.newsletterCTAAction}> Suscribase al boletin de Oasis </h2>
+            <div className={styles.subTitle} id={styles.newsletterCTAText}> Registrate para recibir consejos de expertos para ahorrar dinero todos los fines de semana. </div>
+            <div className={styles.subTitle} id={styles.acceptPrompt}> <input type="checkbox" id={styles.privacyCheck}/> <span id={styles.acceptText}> Acepto las politicas de privacidad de Oasis </span></div>
+            <div className={styles.titleThin} id={styles.emailInputWrapper}>
+              <input type="email" placeholder="Ingresa tu correo electronico" id={styles.emailInput}/>
+              <div id={styles.subscribeButton}><img id={styles.subscribeArrow} src={arrow}></img></div>
+            </div>
+          </div>
+        </div>
       </section>
 
     </Layout>

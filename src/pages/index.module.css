@@ -106,6 +106,10 @@
   color: var(--paraTextGray);
 }
 
+input:focus {
+  outline: none;
+}
+
 
 #hero {
   background-image: url("../images/landing/heroback.png");
@@ -490,7 +494,7 @@
 
 #recentPostsTitle {
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1.2em;
   margin-top: 20px;
 }
 
@@ -516,8 +520,95 @@
   flex-wrap: wrap;
 }
 
-/* */
+/* Newsletter section */
+
+#newsletter {
+  position: relative;
+}
 
 #newsletterBack {
   width: 100%
+}
+
+#newsletterCTAWrapper {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#newsletterCTA {
+  width: 500px;
+  margin-right: 65px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#newsletterCTATitle {
+  font-size: 1.2em;
+  letter-spacing: .4em;
+}
+
+#newsletterCTAAction {
+  margin-top: 5px;
+  font-size: 1.75em;
+}
+
+#newsletterCTAText {
+  margin-top: 5px;
+  padding: 0px 20px;
+  text-align: center;
+  font-size: .9em
+}
+
+#acceptPrompt {
+  margin-top: 10px;
+  font-size: .7em;
+  color: var(--titleBlue);
+  display: flex;
+  align-items: center;
+}
+
+#privacyCheck {
+  margin-right: 5px;
+}
+
+#acceptText {
+  line-height: 16px;
+  vertical-align: middle;
+}
+
+#emailInputWrapper {
+  margin-top: 20px;
+  height: 40px;
+  width: 370px;
+  background-color: white;
+  border-radius: 5px;
+  font-size: .8em;
+  color: var(--accentPurple);
+
+  display: flex;
+  align-items: center;
+}
+
+#emailInput {
+  flex-grow: 1;
+  padding: 0px 25px;
+}
+
+#subscribeButton {
+  height: 100%;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+#subscribeArrow {
+  width: 35px
 }
