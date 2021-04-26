@@ -424,11 +424,16 @@ input:focus {
   align-items: center;
 }
 
-.sideServWrapper {
-  width: 400px;
+.leftServWrapper {
+  width: 420px;
   z-index: 10;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+}
+
+.rightServWrapper {
+  composes: leftServWrapper;
+  justify-content: flex-start;
 }
 
 .centerServWrapper {
@@ -439,7 +444,7 @@ input:focus {
 }
 
 .servicesItem {
-  width: 300px;
+  width: 280px;
   padding: 0px 5px;
   display: flex;
   flex-direction: column;
@@ -453,14 +458,14 @@ input:focus {
 }
 
 .servicesTitle {
-  composes: titleBold;
+  composes: titleAccent;
   margin-top: 10px;
   font-size: .9em;
 }
 
 .servicesPara {
   composes: paraText;
-  font-size: .75em;
+  font-size: .8em;
   margin-top: 5px;
   text-align: center;
 }

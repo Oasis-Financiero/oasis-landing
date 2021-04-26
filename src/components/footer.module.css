@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Poppins';
+    src:  url('../fonts/Poppins-Regular.woff2') format('woff2'),
+          url('../fonts/Poppins-Regular.woff') format('woff'),
+          url('../fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+#footerLinks {
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+#footerLogo {
+    width: 140px;
+    margin-left: 50px;
+}
+
+#growBar {
+    flex-grow: 1;
+}
+
+#social {
+    grid-area: social;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#iconsTray {
+    width: 150px;
+    height: 100%;
+    padding-right: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.socialIcon {
+    width: 22px;
+    margin: 0px 5px
+}
+
+#legalInfo {
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3C5890;
+    font-family: Poppins;
+    color: #ffffff;
+    font-size: .7em;
+}
+
+#privacyPolicy {
+    margin-left: 50px;
+}

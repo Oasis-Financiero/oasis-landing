@@ -75,8 +75,7 @@ function Header() {
               {link.title}
             </Link>
           ))}
-
-
+          
           <button
           className="flex items-center block px-3 py-2 text-black border border-black rounded md:hidden"
           onClick={() => toggleExpansion(!isExpanded)}
@@ -90,14 +89,10 @@ function Header() {
               <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
             </svg>
           </button>
-
-
         </nav>
 
         <div id={headerStyles.social}>
-            
           <div id={headerStyles.iconsTray}>
-
             <a
               className="font-bold text-white no-underline"
               href="https://facebook.com/oasisfinanciero"
@@ -136,11 +131,8 @@ function Header() {
                 src={linkedin}
               />
             </a>
-
           </div>
-
         </div>
-
       </div>
     </header>
   );

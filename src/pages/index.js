@@ -174,25 +174,25 @@ function IndexPage({ data }) {
       <section id={styles.oasisProServices}>
         <div id={styles.proServicesBack}></div>
         <div id={styles.servicesRow}>
-          <div className={styles.sideServWrapper}>
+          <div className={styles.leftServWrapper}>
             <div className={styles.servicesItem}>
               <div className={styles.servIconWrapper}><img className={styles.servicesIcon} id={styles.qualityImg} src={calidad}></img></div>
               <h3 className={styles.servicesTitle}> Expertos a tu servicio </h3>
-              <p className={styles.servicesPara}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. </p>
+              <p className={styles.servicesPara}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
             </div>
           </div>
           <div className={styles.centerServWrapper}>
             <div className={styles.servicesItem}>
               <div className={styles.servIconWrapper}><img className={styles.servicesIcon} id={styles.helpImg} src={ayudar}></img></div>
               <h3 className={styles.servicesTitle}> Te damos ayuda rapida </h3>
-              <p className={styles.servicesPara}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. </p>
+              <p className={styles.servicesPara}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
             </div>
           </div>
-          <div className={styles.sideServWrapper}>
+          <div className={styles.rightServWrapper}>
             <div className={styles.servicesItem}>
               <div className={styles.servIconWrapper}><img className={styles.servicesIcon} id={styles.groupImg} src={grupo}></img></div>
               <h3 className={styles.servicesTitle}> Nos adaptamos a ti </h3>
-              <p className={styles.servicesPara}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. </p>
+              <p className={styles.servicesPara}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
             </div>
           </div>
         </div>
