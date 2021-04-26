@@ -1,8 +1,12 @@
 import React from "react";
-/* import { Link } from "gatsby";
- */
+import { Link } from "gatsby";
+
+import { graphql } from "gatsby"
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import PropTypes from "prop-types";
+
+import PostList from "gatsby-theme-blog-core/src/components/post-list";
 
 import character from "../images/landing/characterr.svg"
 import rhombus from "../images/landing/rhombus.svg"
@@ -18,10 +22,46 @@ import coche from "../images/landing/coche.png"
 import prestamo from "../images/landing/prestamo.png"
 import tarjeta from "../images/landing/tarjeta.png"
 import roadmap from "../images/landing/roadmap.png"
+import newsletter from "../images/landing/newsletter-banner.png"
 
 import styles from "./index.module.css"
 
-function IndexPage() {
+export const query = graphql`
+  query HomePosts {
+    site {
+      siteMetadata {
+        siteUrl
+        title
+        social {
+          name
+          url
+        }
+      }
+    }
+    allBlogPost(sort: { fields: [date, title], order: DESC }, limit: 4) {
+      nodes {
+        id
+        excerpt
+        slug
+        title
+        date(formatString: "DD [de] MMMM, YYYY", locale: "es")
+        tags
+        image {
+          childImageSharp {
+            fluid(maxWidth: 300, maxHeight: 220, cropFocus: CENTER, fit: COVER) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    }
+  }
+`
+
+function IndexPage({ data }) {
+
+  const posts = data.allBlogPost.nodes
+
   return (
     <Layout>
       <SEO
@@ -157,8 +197,30 @@ function IndexPage() {
         </div>
       </section>
 
+      <section id={styles.recentPosts}>
+
+        <div id={styles.recentPostsTitle}>
+          <h2 className={styles.titleBold}> Te ayudaremos a tomar las decisiones <span className={styles.titleAccent}> financieras correctas </span> </h2>
+        </div>
+        <div id={styles.linkToBlog}> <Link to="/blog" id={styles.blogLink}> Ver todos </Link> </div>
+        <div id={styles.postsWrapper}>
+          <PostList posts={posts} page="home" />
+        </div>
+        
+
+      </section>
+
+      <section id={styles.newsletterSignup}>
+        <img id={styles.newsletterBack} src={newsletter}></img>
+
+      </section>
+
     </Layout>
   );
 }
+
+IndexPage.propTypes = {
+  data: PropTypes.any.isRequired,
+};
 
 export default IndexPage;

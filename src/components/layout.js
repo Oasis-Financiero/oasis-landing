@@ -111,7 +111,6 @@ function Layout({ children }) {
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-  page: PropTypes.string.isRequired,
 };
 
 export default Layout;

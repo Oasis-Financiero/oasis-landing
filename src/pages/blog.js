@@ -54,7 +54,7 @@ function BlogPage({ data }) {
       <section className="posts">
         <h1 className={BlogStyles.blogTitle}> Nuestros últimos blog posts </h1>
         <div className={BlogStyles.postList}>
-          <PostList posts={posts} />
+          <PostList posts={posts} page="blog-home" />
         </div>
       </section>
 

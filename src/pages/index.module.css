@@ -205,7 +205,7 @@
 
 #oasisFeatures {
   position: relative;
-  height: 950px
+  height: 1000px
 }
 
 #oasisFeaturesSquare {
@@ -410,6 +410,7 @@
 #oasisProServices {
   position: relative;
   height: 260px;
+  margin-top: 20px;
 }
 
 #servicesRow {
@@ -479,4 +480,44 @@
   width: 100%;
   height: 200px;
   background: var(--bannerGradient);
+}
+
+/*--------------------- Recent blog posts section ----------------------*/
+
+#recentPosts {
+  margin-bottom: 40px;
+}
+
+#recentPostsTitle {
+  text-align: center;
+  font-size: 1.4em;
+  margin-top: 20px;
+}
+
+#linkToBlog {
+  margin-top: 20px;
+  padding: 0px 100px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: .75em;
+  font-family: Poppins;
+}
+
+#blogLink {
+  margin-right: 15px;
+  color: var(--titleBlue);
+  text-decoration: underline;
+}
+
+#postsWrapper {
+  margin-top: 10px;
+  padding: 0px 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* */
+
+#newsletterBack {
+  width: 100%
 }
