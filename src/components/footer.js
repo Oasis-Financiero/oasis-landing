@@ -12,7 +12,9 @@ function Footer() {
     <footer>
       <div id={styles.footerLinks}>
 
-        <img id={styles.footerLogo} src={oasisNombre}></img>
+        <div id={styles.footerLogoWrapper}>
+          <img id={styles.footerLogo} src={oasisNombre}></img>
+        </div>
 
         <div id={styles.growBar}></div>
 

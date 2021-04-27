@@ -8,6 +8,7 @@
 #footerLinks {
     height: 90px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -54,4 +55,44 @@
 
 #privacyPolicy {
     margin-left: 50px;
+}
+
+@media (max-width: 539px) {
+
+  #footerLinks {
+    flex-direction: column;
+    justify-content: center;
+    height: 110px;
+  }
+
+  #footerLogoWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #footerLogo {
+    margin: 0px;
+    width: 120px;
+  }
+
+  #growBar {
+    display: none;
+  }
+
+  #social {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #iconsTray {
+    width: auto;
+    padding: 0px
+  }
+
+  .socialIcon {
+    margin: 0px 10px
+}
 }

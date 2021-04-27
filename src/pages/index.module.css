@@ -63,6 +63,8 @@
   --bannerGradient: linear-gradient(#F1F4F8, #ECFEFB)
 }
 
+/* * { border: 1px solid goldenrod; }
+ */
 .title{
   font-family: Poppins;
   color: var(--titleBlue);
@@ -588,6 +590,7 @@ input:focus {
 #newsletterCTAAction {
   margin-top: 5px;
   font-size: 1.75em;
+  text-align: center;
 }
 
 #newsletterCTAText {
@@ -841,6 +844,10 @@ input:focus {
     padding: 0px 40px
   }
 
+  #newsletter {
+    background-position-x: -300px;
+  }
+
 }
 
 @media (max-width: 539px) {
@@ -899,6 +906,25 @@ input:focus {
   .titleAccentStep {
     margin-top: 0px;
   }
+
+  #newsletter {
+    height: 350px;
+    background-position-x: 0px;
+    background-position: top right;
+  }
+
+  #newsletterCTAWrapper {
+    justify-content: center;
+  }
+
+  #newsletterCTA {
+    margin-right: 0px;
+    width: 80%
+  }
+
+  #emailInputWrapper {
+    width: 100%;
+  }
   
 }
 
@@ -914,5 +940,9 @@ input:focus {
   #horizontalWhirl {
     max-width: 90vw; 
     top: -30vw;
+  }
+
+  #emailInput {
+    padding: 0px 10px
   }
 }
