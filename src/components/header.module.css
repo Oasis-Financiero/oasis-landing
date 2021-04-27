@@ -77,7 +77,7 @@
 }
 
 #navDropExpanded {
-    position: fixed;
+    position: sticky;
     background-color: #ffffff;
     height: 90vh;
     width: 100%;
@@ -92,6 +92,11 @@
     .headerContent {
         grid-template-columns: 1fr 70px;
         grid-template-areas: "logo nav";
+    }
+
+    #logo {
+        width: 160px;
+        padding-left: 30px
     }
 
     #navSocial {

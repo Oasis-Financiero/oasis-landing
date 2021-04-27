@@ -1,5 +1,5 @@
 import { /* graphql, useStaticQuery, */ Link } from "gatsby";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import headerStyles from "./header.module.css"
 import oasisNombre from "../images/logos/logo-nombre.svg";
@@ -19,6 +19,12 @@ function Header() {
       }
     }
   `); */
+
+  const html = document.querySelector('html')
+
+  useEffect(() => {
+    isExpanded ? (html.style.overflow = 'hidden') : (html.style.overflow = 'visible')
+  }, [isExpanded])
 
   const links = 
     [
