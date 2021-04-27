@@ -149,23 +149,23 @@ input:focus {
 
 #rhombusSvg {
   position: absolute;
-  width: 80%;
+  width: 576px;
   z-index: 10;
-  top: 10%;
-  left: 8%
+  top: 60px;
+  left: 58px
 }
 
 #characterSvg {
   position: absolute;
-  width: 58%;
+  width: 418px;
   z-index: 30;
-  top: 7%;
-  left: 17%
+  top: 42px;
+  left: 122px
 }
 
 #verticalWhirl {
   position: absolute;
-  width: 55%;
+  width: 396px;
   z-index: 20;
   top: 10%;
   left: 65%
@@ -173,9 +173,9 @@ input:focus {
 
 #horizontalWhirl {
   position: absolute;
-  width: 30%;
+  width: 360px;
   z-index: 20;
-  top: -15%;
+  top: -100px;
   left: 6%
 }
 
@@ -209,7 +209,6 @@ input:focus {
 
 #oasisFeatures {
   position: relative;
-  height: 1000px
 }
 
 #oasisFeaturesSquare {
@@ -218,11 +217,12 @@ input:focus {
   /* max-width: 1200px; */
   background-color: var(--backgroundBlue);
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 75px 
 }
 
 #oasisFeaturesText {
-  margin-top: 75px;
   width: 85%;
 }
 
@@ -240,10 +240,26 @@ input:focus {
   font-size: 1em;
 }
 
-#oasisFeaturesMain {
+#featuresMainWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* #featuresMain {
   position: absolute;
   right: 0px;
   top: 280px;
+  width: 100%;
+  max-width: 1150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+#featuresMain {
+  margin-top: 50px;
+  margin-bottom: 100px;
   width: 100%;
   max-width: 1150px;
   display: flex;
@@ -266,7 +282,7 @@ input:focus {
   height: 220px;
   width: 90%;
   background-color: white;
-  margin-top: -80px;
+  margin-top: -120px;
   padding: 15px 20px;
   box-shadow: 0px 0px 10px #292742;
   display: flex;
@@ -309,10 +325,10 @@ input:focus {
 }
 
 #whyUs {
-  height: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 #whyUsTitle {
@@ -330,17 +346,20 @@ input:focus {
 
 #roadmapWrapper {
   position: relative;
+  overflow: hidden;
+  height: 414px;
 }
 
 #roadmapBack {
-  width: 850px
-}
-
-#roadmapBackImg {
-  width: 100%
+  height: 100%;
+  width: 850px;
+  background-image: url("../images/landing/roadmap.png");
+  background-size: contain;
+  background-position: top left;
 }
 
 #roadmapStepsWrapper {
+  width: 600px;
   position: absolute;
   top: 0;
   right: 0;
@@ -396,16 +415,16 @@ input:focus {
 
 #firstStep {
   margin-bottom: 27px;
-  margin-left: -200px;
+  margin-left: 0px;
 }
 
 #secondStep {
-  margin-left: -150px;
+  margin-left: 50px;
 }
 
 #thirdStep {
   margin-top: 27px;
-  margin-left: -100px;
+  margin-left: 100px;
 }
 
 
@@ -529,10 +548,9 @@ input:focus {
 
 #newsletter {
   position: relative;
-}
-
-#newsletterBack {
-  width: 100%
+  height: 310px;
+  background-image: url("../images/landing/newsletter-banner.png");
+  background-size: cover;
 }
 
 #newsletterCTAWrapper {
@@ -616,4 +634,86 @@ input:focus {
 
 #subscribeArrow {
   width: 35px
+}
+
+/* -------------Responsive Media Queries----------------- */
+
+@media (max-width: 1100px){
+  #newsletter {
+    background-position-x: -80px;
+  }
+
+  #newsletterCTA {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 992px) {
+
+  #hero {
+    height: 80vh;
+  }
+
+  #rhombusSvg {
+    position: absolute;
+    width: 460px;
+    z-index: 10;
+    top: 110px;
+    left: 58px
+  }
+  
+  #characterSvg {
+    position: absolute;
+    width: 332px;
+    z-index: 30;
+    top: 90px;
+    left: 122px
+  }
+
+  #verticalWhirl {
+    left: 400px
+  }
+
+  #whyUsPara {
+    width: 85%
+  }
+
+  #roadmapBack {
+    width: 100%;
+    background-size: cover;
+  }
+
+  #firstStep {
+    margin-left: 100px;
+  }
+  
+  #secondStep {
+    margin-left: 100px;
+  }
+
+  .servicesItem {
+    width: 250px;
+  }
+
+  #newsletter {
+    height: 250px;
+  }
+
+  #newsletterCTA{
+    margin-right: 2%;
+    width: 400px
+  }
+
+  #newsletterCTATitle {
+    font-size: 1em;
+  }
+  
+  #newsletterCTAAction {
+    font-size: 1.5em;
+  }
+
+}
+
+@media (max-width: 790px) {
+
 }

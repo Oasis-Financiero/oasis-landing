@@ -29,17 +29,11 @@ function Header() {
       <div className={headerStyles.headerContent}>
         <div id={headerStyles.logo}>
           <Link to="/">
-            <h1 className="flex items-center text-white no-underline">
-              <img
-                alt="Oasis logotipo"
-                className="h-6 ml-2 md:ml-0 fill-current"
-                src={oasisNombre}
-              />
-            </h1>
+            <img
+              alt="Oasis logotipo"
+              src={oasisNombre}
+            />
           </Link>
-
-
-         
         </div>
 
         <nav
@@ -75,7 +69,7 @@ function Header() {
               {link.title}
             </Link>
           ))}
-          
+
           <button
           className="flex items-center block px-3 py-2 text-black border border-black rounded md:hidden"
           onClick={() => toggleExpansion(!isExpanded)}

@@ -21,8 +21,6 @@ import alcancia from "../images/landing/alcancia.png"
 import coche from "../images/landing/coche.png"
 import prestamo from "../images/landing/prestamo.png"
 import tarjeta from "../images/landing/tarjeta.png"
-import roadmap from "../images/landing/roadmap.png"
-import newsletter from "../images/landing/newsletter-banner.png"
 import arrow from "../images/landing/arrow.png"
 
 import styles from "./index.module.css"
@@ -99,38 +97,41 @@ function IndexPage({ data }) {
             <h3 className={styles.subTitle} id={styles.featuresSubTitle}> entre los servicios financieros que ofrecen las Fintech y los Bancos tradicionales </h3>
             <p className={styles.paraText} id={styles.featuresPara}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi u </p>
           </div>
-        </div>
-        <div id={styles.oasisFeaturesMain}>
-          <div id={styles.userPicWrapper}>
-            <img className={styles.userPic} src={man}></img>
-            <img className={styles.userPic} src={woman}></img>
+          <div id={styles.featuresMainWrapper}>
+            <div id={styles.featuresMain}>
+              <div id={styles.userPicWrapper}>
+                <img className={styles.userPic} src={man}></img>
+                <img className={styles.userPic} src={woman}></img>
+              </div>
+              <div id={styles.featuresDisplay}>
+                <div id={styles.featuresDisplayTitle} className={styles.titleThin}> COMPARA Y <span className={styles.titleAccent}> AHORRA </span> </div>
+                <div id={styles.featuresWrapper}>
+                  <div className={styles.featuresItem}> 
+                    <img className={styles.featuresItemImg} src={tarjeta}></img>
+                    <div className={styles.titleAccentFeat}> Tarjetas de credito </div>
+                    <div className={styles.titleThinFeat}> 0% de recompensas sin cargo </div>
+                  </div>
+                  <div className={styles.featuresItem}> 
+                    <img className={styles.featuresItemImg} src={alcancia}></img>
+                    <div className={styles.titleAccentFeat}> Cuentas de ahorro </div>
+                    <div className={styles.titleThinFeat}> Gana hasta 1.20% </div>
+                  </div>
+                  <div className={styles.featuresItem}> 
+                    <img className={styles.featuresItemImg} src={coche}></img>
+                    <div className={styles.titleAccentFeat}> Seguro de auto </div>
+                    <div className={styles.titleThinFeat}> 60 aseguradoras </div>
+                  </div>
+                  <div className={styles.featuresItem}> 
+                    <img className={styles.featuresItemImg} src={prestamo}></img>
+                    <div className={styles.titleAccentFeat}> Prestamos personales </div>
+                    <div className={styles.titleThinFeat}> Tasas desde 4.45% </div>
+                  </div>
+                </div> 
+              </div>
+            </div>
           </div>
-          <div id={styles.featuresDisplay}>
-            <div id={styles.featuresDisplayTitle} className={styles.titleThin}> COMPARA Y <span className={styles.titleAccent}> AHORRA </span> </div>
-            <div id={styles.featuresWrapper}>
-              <div className={styles.featuresItem}> 
-                <img className={styles.featuresItemImg} src={tarjeta}></img>
-                <div className={styles.titleAccentFeat}> Tarjetas de credito </div>
-                <div className={styles.titleThinFeat}> 0% de recompensas sin cargo </div>
-              </div>
-              <div className={styles.featuresItem}> 
-                <img className={styles.featuresItemImg} src={alcancia}></img>
-                <div className={styles.titleAccentFeat}> Cuentas de ahorro </div>
-                <div className={styles.titleThinFeat}> Gana hasta 1.20% </div>
-              </div>
-              <div className={styles.featuresItem}> 
-                <img className={styles.featuresItemImg} src={coche}></img>
-                <div className={styles.titleAccentFeat}> Seguro de auto </div>
-                <div className={styles.titleThinFeat}> 60 aseguradoras </div>
-              </div>
-              <div className={styles.featuresItem}> 
-                <img className={styles.featuresItemImg} src={prestamo}></img>
-                <div className={styles.titleAccentFeat}> Prestamos personales </div>
-                <div className={styles.titleThinFeat}> Tasas desde 4.45% </div>
-              </div>
-            </div> 
-          </div>
         </div>
+       
       </section>
 
       <section id={styles.oasisRoadmap}>
@@ -144,7 +145,7 @@ function IndexPage({ data }) {
           </p>
         </div>
         <div id={styles.roadmapWrapper}>
-          <div id={styles.roadmapBack}> <img id={styles.roadmapBackImg} src={roadmap}></img> </div>
+          <div id={styles.roadmapBack}> </div>
           <div id={styles.roadmapStepsWrapper}> 
             <div className={styles.roadmapStep} id={styles.firstStep}>
               <div className={styles.stepLeft}> <div className={styles.stepNumber}> 1 </div></div>
@@ -212,7 +213,6 @@ function IndexPage({ data }) {
       </section>
 
       <section id={styles.newsletter}>
-        <img id={styles.newsletterBackImg} src={newsletter}></img>
         <div id={styles.newsletterCTAWrapper}>
           <div id={styles.newsletterCTA}>
             <h3 className={styles.titleAccent} id={styles.newsletterCTATitle}> NEWSLETTER </h3>

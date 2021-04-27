@@ -18,13 +18,13 @@
 .headerContent {
     height: 100%;
     display: grid;
-    grid-template-columns: 1fr 700px 1fr;
+    grid-template-columns: 1fr 500px 1fr;
     grid-template-areas: "logo nav social";
 }
 
 #logo {
     grid-area: logo;
-    height: 100%;
+    width: 140px;
     display: flex;
     align-items: center;
     padding-left: 50px
