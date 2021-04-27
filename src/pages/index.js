@@ -108,7 +108,7 @@ function IndexPage({ data }) {
                   <div className={styles.featuresItem}> 
                     <img className={styles.featuresItemImg} src={tarjeta}></img>
                     <div className={styles.titleAccentFeat}> Tarjetas de credito </div>
-                    <div className={styles.titleThinFeat}> 0% de recompensas sin cargo </div>
+                    <div className={styles.titleThinFeat}> 0% de recompensas </div>
                   </div>
                   <div className={styles.featuresItem}> 
                     <img className={styles.featuresItemImg} src={alcancia}></img>
@@ -122,7 +122,7 @@ function IndexPage({ data }) {
                   </div>
                   <div className={styles.featuresItem}> 
                     <img className={styles.featuresItemImg} src={prestamo}></img>
-                    <div className={styles.titleAccentFeat}> Prestamos personales </div>
+                    <div className={styles.titleAccentFeat}> Prestamos </div>
                     <div className={styles.titleThinFeat}> Tasas desde 4.45% </div>
                   </div>
                 </div> 

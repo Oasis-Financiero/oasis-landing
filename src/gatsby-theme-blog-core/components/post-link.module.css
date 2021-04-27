@@ -110,15 +110,31 @@
   color: #707070;
 }
 
+.articleHomeLink {
+  margin-top: 5px;
+  font-family: Poppins;
+  font-size: .7em;
+  color: #526A9B;
+  text-decoration: underline;
+}
+
 
 @media screen and (max-width: 992px) {
-    .articleBlogHome{
+    .articleBlogHome, .articleHome {
         flex-basis: 47%;
     }
 }
 
-@media screen and (max-width: 587px) {
-    .articleBlogHome{
+@media screen and (max-width: 540px) {
+    .articleBlogHome, .articleHome{
         flex-basis: 97%;
+    }
+
+    .titleTextHome {
+      font-size: .9em;
+    }
+
+    .articleHomeLink {
+      font-size: .8em;
     }
 }

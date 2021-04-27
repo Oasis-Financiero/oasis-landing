@@ -327,6 +327,10 @@ input:focus {
   text-align: center;
 }
 
+#oasisRoadmap {
+  position: relative;
+}
+
 #whyUs {
   display: flex;
   flex-direction: column;
@@ -650,13 +654,13 @@ input:focus {
   #newsletterCTA {
     margin-right: 0px;
   }
+
+  #hero {
+    height: 55vh;
+  }
 }
 
 @media (max-width: 992px) {
-
-  #hero {
-    height: 80vh;
-  }
 
   #rhombusSvg {
     position: absolute;
@@ -718,7 +722,7 @@ input:focus {
 
 }
 
-@media (max-width: 790px) {
+@media (max-width: 767px) {
 
   #hero {
     height: 90vh;
@@ -788,18 +792,127 @@ input:focus {
     justify-content: center;
   }
 
-  #proServicesBack {
-    position: absolute;
-    top: 30px;
-    width: 100%;
-    height: 450px;
-    background: var(--bannerGradient);
-  }
-
   .servicesItem {
     width: 280px;
     padding: 0px 5px;
     margin-bottom: 30px;
   }
 
+  #featuresDisplay {
+    height: auto;
+    margin-top: -20px;
+  }
+
+  .featuresItem {
+    width: 50%;
+    margin-bottom: 15px;
+  }
+
+  #featuresDisplayTitle {
+    margin-bottom: 15px;
+  }
+
+  #oasisProServices {
+    margin-top: 30px;
+    background: var(--bannerGradient);;
+  }
+
+  #proServicesBack {
+    display: none;
+  }
+
+  #servicesRow {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  #recentPostsTitle {
+    margin-top: 50px;
+    padding: 0px 50px;
+    font-size: 1.1em;
+  }
+
+  #linkToBlog {
+    margin-top: 30px;
+    padding: 0px 30px
+  }
+
+  #postsWrapper {
+    padding: 0px 40px
+  }
+
+}
+
+@media (max-width: 539px) {
+  #rhombusSvg {
+    width: 310px;
+  }
+  
+  #characterSvg {
+    width: 300px;
+  }
+
+  #horizontalWhirl {
+    max-width: 90vw; 
+    top: -30vw;
+  }
+
+  #featuresSubTitle {
+    font-size: 1.1em;
+  }
+
+  #roadmapWrapper {
+    overflow: visible;
+  }
+
+  #roadmapStepsWrapper {
+    width: 95%;
+    margin: 0px 2.5%;
+    position: relative;
+    margin-top: -455px;
+  }
+
+  #roadmapBack {
+    margin-top: 70px;
+  }
+
+  .roadmapStep {
+    width: 100%;
+    height: 130px
+  }
+
+  #firstStep, #secondStep, #thirdStep {
+    margin-left: 0px;
+  }
+
+  .stepLeft {
+    width: 80px
+  }
+
+  .stepRight {
+    padding: 10px 10px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .titleAccentStep {
+    margin-top: 0px;
+  }
+  
+}
+
+@media (max-width: 350px) {
+  #rhombusSvg {
+    width: 310px;
+  }
+  
+  #characterSvg {
+    width: 300px;
+  }
+
+  #horizontalWhirl {
+    max-width: 90vw; 
+    top: -30vw;
+  }
 }

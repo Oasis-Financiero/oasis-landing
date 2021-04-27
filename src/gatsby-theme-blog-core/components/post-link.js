@@ -12,7 +12,6 @@ const PostLink = ({ title, slug, date, excerpt, image, page}) => {
     case "home":
       linkStyle =
       <article className={PostStyles.articleHome}>
-        <Link to={slug} className={PostStyles.postLink}>
             <div className={PostStyles.postLinkImageHome}>
               <Img className={PostStyles.imageHome} fluid={image.childImageSharp.fluid}/>
             </div>
@@ -20,8 +19,12 @@ const PostLink = ({ title, slug, date, excerpt, image, page}) => {
               <header className="post-link-header">
                 <div className={PostStyles.titleTextHome}>{title || slug}</div>
               </header>
+              <div className={PostStyles.articleHomeLink}>
+                <Link to={slug} className={PostStyles.postLink}>
+                  Leer articulo
+                </Link>
+              </div>
             </div>
-        </Link>
       </article>
     break;
 
