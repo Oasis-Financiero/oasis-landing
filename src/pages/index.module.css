@@ -154,7 +154,7 @@ input:focus {
   position: absolute;
   width: 576px;
   z-index: 10;
-  top: 60px;
+  top: 65px;
   left: 58px
 }
 
@@ -162,7 +162,7 @@ input:focus {
   position: absolute;
   width: 418px;
   z-index: 30;
-  top: 42px;
+  top: 50px;
   left: 122px
 }
 
@@ -273,6 +273,7 @@ input:focus {
 #userPicWrapper {
   width: 100%;
   display: flex;
+  align-items: flex-start;
   padding: 10px;
   background-color: white;
 }

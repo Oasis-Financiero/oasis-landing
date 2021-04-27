@@ -62,6 +62,7 @@
   #footerLinks {
     flex-direction: column;
     justify-content: center;
+    flex-wrap: initial;
     height: 110px;
   }
 
@@ -94,5 +95,5 @@
 
   .socialIcon {
     margin: 0px 10px
-}
+  }
 }
