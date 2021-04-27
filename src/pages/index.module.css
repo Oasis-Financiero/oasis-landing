@@ -259,7 +259,7 @@ input:focus {
 
 #featuresMain {
   margin-top: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
   width: 100%;
   max-width: 1150px;
   display: flex;
@@ -317,11 +317,13 @@ input:focus {
   composes: titleAccent;
   font-size: 1em;
   margin-top: 10px;
+  text-align: center;
 }
 
 .titleThinFeat {
   composes: titleThin;
-  font-size: .8em
+  font-size: .8em;
+  text-align: center;
 }
 
 #whyUs {
