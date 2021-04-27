@@ -20,9 +20,11 @@ function Header() {
     }
   `); */
 
-  const html = document.querySelector('html')
-
   useEffect(() => {
+    if (typeof window === "undefined" || !window.document) {
+      return
+    }
+    const html = document.querySelector('html')
     isExpanded ? (html.style.overflow = 'hidden') : (html.style.overflow = 'visible')
   }, [isExpanded])
 
