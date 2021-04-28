@@ -36,7 +36,7 @@ export const query = graphql`
         }
       }
     }
-    allBlogPost(sort: { fields: [date, title], order: DESC }, limit: 4) {
+    allBlogPost(sort: { fields: [date, title], order: DESC }, limit: 6) {
       nodes {
         id
         excerpt
@@ -205,7 +205,7 @@ function IndexPage({ data }) {
         </div>
         <div id={styles.linkToBlog}> <Link to="/blog" id={styles.blogLink}> Ver todos </Link> </div>
         <div id={styles.postsWrapper}>
-          <PostList posts={posts} page="home" />
+          <PostList posts={posts} page="home" slider={true} />
         </div>
         
 
