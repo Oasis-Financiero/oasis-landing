@@ -8,7 +8,7 @@ import PostList from "gatsby-theme-blog-core/src/components/post-list";
 import BlogStyles from "./blog.module.css";
 
 export const query = graphql`
-  query MyPostsQuery {
+  query BlogQuery {
     site {
       siteMetadata {
         siteUrl
@@ -50,6 +50,13 @@ function BlogPage({ data }) {
         title="Blog"
         description="El blog de Oasis te ayuda a aprender todo lo que necesitas saber sobre educación financiera."
       />
+
+      <header id={BlogStyles.blogHeader}>
+        <div id={BlogStyles.bannerText}>
+          <h1 className={BlogStyles.titleWhite} id={BlogStyles.bannerTitle}> Educación financiera <span className={BlogStyles.titleBoldWhite}> al alcance de todos  </span></h1>
+          <h2 className={BlogStyles.paraTextWhite} id={BlogStyles.bannerSubTitle}> ¿Quieres transformar tu vida financiera? </h2>
+        </div>
+      </header>
 
       <section className="posts">
         <h1 className={BlogStyles.blogTitle}> Nuestros últimos blog posts </h1>
