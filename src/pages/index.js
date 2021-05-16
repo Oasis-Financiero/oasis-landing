@@ -205,7 +205,7 @@ function IndexPage({ data }) {
         </div>
         <div id={styles.linkToBlog}> <Link to="/blog" id={styles.blogLink}> Ver todos </Link> </div>
         <div id={styles.postsWrapper}>
-          <PostList posts={posts} page="home" carousel={true} />
+          <PostList posts={posts} style="title-under" carousel={true} />
         </div>
         
 

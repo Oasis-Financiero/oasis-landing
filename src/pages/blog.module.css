@@ -127,19 +127,6 @@ input:focus {
   outline: none;
 }
 
-.blogTitle {
-  font-family: Hind, 'Segoe UI', sans-serif;
-  color: #333333;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.postList {
-  display: flex;
-  align-items: stretch;
-  flex-wrap: wrap;
-}
-
 #blogHeader {
   height: 300px;
   position: relative;
@@ -169,4 +156,19 @@ input:focus {
   font-size: 1.1em;
   font-weight: initial;
   width: 80%
+}
+
+#recentPostsTitle {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#recentPostList {
+  margin-top: 30px;
+  padding: 0px 70px;
+}
+
+#bestPosts {
+  margin-top: 30px;
+  padding: 0px 80px;
 }

@@ -4,12 +4,12 @@ import PropTypes from "prop-types";
 import PostStyles from "./post-link.module.css"
 import Img from "gatsby-image"
 
-const PostLink = ({ title, slug, date, excerpt, image, page}) => {
+const PostLink = ({ title, slug, date, excerpt, image, postStyle}) => {
 
   let linkStyle
 
-  switch(page){
-    case "home":
+  switch(postStyle){
+    case "title-under":
       linkStyle =
       <article className={PostStyles.articleHome}>
             <div className={PostStyles.postLinkImageHome}>
@@ -28,7 +28,23 @@ const PostLink = ({ title, slug, date, excerpt, image, page}) => {
       </article>
     break;
 
-    case "blog-home":
+    case "tall-textInside":
+      linkStyle =
+      <article className={PostStyles.tall}>
+            <div className={PostStyles.postLinkImageTall}>
+              <Img className={PostStyles.imageTall} fluid={image.childImageSharp.fluid}/>
+            </div>
+            <div className={PostStyles.linkInfoTall}>
+              <Link to={slug} className={PostStyles.postLink}>
+                <header className="post-link-header">
+                  <div className={PostStyles.titleTextTall}>{title || slug}</div>
+                </header>
+              </Link>
+            </div>
+      </article>
+    break;
+
+    case "horizontal-card":
     default:
       linkStyle =
       <article className={PostStyles.articleBlogHome}>

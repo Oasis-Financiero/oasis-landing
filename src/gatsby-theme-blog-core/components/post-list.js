@@ -8,7 +8,9 @@ import "slick-carousel/slick/slick-theme.css"
 import PostLink from "./post-link"
 import styles from "./post-list.module.css"
 
-const PostList = ({ posts, page, carousel }) => {
+const PostList = ({ posts, style, carousel }) => {
+
+  console.log(style)
 
   const settings = {
     dots: false,
@@ -39,23 +41,21 @@ const PostList = ({ posts, page, carousel }) => {
       {carousel ? 
         <Slider {...settings}>
           {posts.map((node) => (
-            <PostLink page={page} key={node.slug} {...node} />
+            <PostLink postStyle={style} key={node.slug} {...node} />
           ))}
         </Slider>
       : 
         posts.map((node) => (
-          <PostLink page={page} key={node.slug} {...node} />
+          <PostLink postStyle={style} key={node.slug} {...node} />
         ))
       }
     </div>
   )
-
-
 }
 
 PostList.propTypes = {
     posts: PropTypes.any.isRequired,
-    page: PropTypes.string.isRequired,
+    style: PropTypes.string.isRequired,
     carousel: PropTypes.bool.isRequired
 };
 
