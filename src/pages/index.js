@@ -36,7 +36,7 @@ export const query = graphql`
         }
       }
     }
-    allBlogPost(sort: { fields: [date, title], order: DESC }, limit: 6) {
+    allBlogPost(sort: { fields: [date, title], order: DESC }, limit: 4) {
       nodes {
         id
         excerpt
@@ -203,7 +203,7 @@ function IndexPage({ data }) {
         <div id={styles.recentPostsTitle}>
           <h2 className={styles.titleBold}> Te ayudaremos a tomar las decisiones <span className={styles.titleAccent}> financieras correctas </span> </h2>
         </div>
-        <div id={styles.linkToBlog}> <Link to="/blog" id={styles.blogLink}> Ver todos </Link> </div>
+        <div id={styles.linkToBlog}> <Link to="/blog" id={styles.blogLink}> Ver más </Link> </div>
         <div id={styles.postsWrapper}>
           <PostList posts={posts} style="title-under" carousel={true} />
         </div>
