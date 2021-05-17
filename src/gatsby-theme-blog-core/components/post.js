@@ -10,7 +10,7 @@ import Layout from "../../components/layout";
 import PostTitle from "gatsby-theme-blog-core/src/components/post-title"
 import PostDate from "gatsby-theme-blog-core/src/components/post-date"
 import PostHero from "gatsby-theme-blog-core/src/components/post-hero"
-import PostStyles from "./post.module.css"
+import styles from "./post.module.css"
 
 import facebook from "../../images/social/facebook-dark.svg";
 import twitter from "../../images/social/twitter-dark.svg";
@@ -28,31 +28,31 @@ const Post = ({ data }) => {
       description={post.excerpt}
       page='blogpost' // Changes the title template for the page. See SEO component.
     />
-    <main>
-      <article >
+    <main id={styles.articleWindow}>
+      <article id={styles.article}>
         <header>
-          <PostTitle className={PostStyles.title}>{post.title}</PostTitle>
-          <div className={PostStyles.shareRow}>
-            <PostDate className={PostStyles.date} date={post.date}>{moment(post.date).format('DD [de] MMMM, YYYY')}</PostDate>
-            <div className={PostStyles.iconsPanel} >
+          <PostTitle className={styles.title}>{post.title}</PostTitle>
+          <div className={styles.shareRow}>
+            <PostDate className={styles.date} date={post.date}>{moment(post.date).format('DD [de] MMMM, YYYY')}</PostDate>
+            <div className={styles.iconsPanel} >
               <a href={`https://www.facebook.com/sharer/sharer.php?u=https://oasisfinanciero.mx${post.slug}`}>
                 <img
                   alt="Facebook icon"
-                  className={PostStyles.socialIcon}
+                  className={styles.socialIcon}
                   src={facebook}
                 />
               </a>
               <a href={`https://twitter.com/intent/tweet?url=https://oasisfinanciero.mx${post.slug}&text=${post.title}`}>
                 <img
                   alt="Twitter icon"
-                  className={PostStyles.socialIcon}
+                  className={styles.socialIcon}
                   src={twitter}
                 />
               </a>
               <a href={`https://www.linkedin.com/sharing/share-offsite/?url=https://oasisfinanciero.mx${post.slug}&title=${post.title}`}>
                 <img
                   alt="Linkedin icon"
-                  className={PostStyles.socialIcon}
+                  className={styles.socialIcon}
                   src={linkedin}
                 />
               </a>
@@ -60,9 +60,9 @@ const Post = ({ data }) => {
             
           </div>
           
-          <PostHero post={post} className={PostStyles.hero}/>
+          <PostHero post={post} className={styles.hero}/>
         </header>
-        <section className={PostStyles.body}>
+        <section className={styles.body}>
           <MDXRenderer>{post.body}</MDXRenderer>
         </section>
       </article>

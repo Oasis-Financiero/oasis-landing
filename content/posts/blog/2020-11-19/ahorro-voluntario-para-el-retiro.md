@@ -13,7 +13,7 @@ El sentido del ahora e invertir en experiencias como viajes o festivales es prio
 *Actualmente existen herramientas que facilitan el ahorro voluntario para el retiro.* <br/><br/>
 
 ## ¿Qué es el ahorro voluntario?
-<br/>
+
 Puedes y tienes el beneficio de realizar aportaciones monetarias hacia tu cuenta de AFORE según tus posibilidades y estas servirán para aumentar tu pensión. <br/><br/>
 
 Pueden ser programadas desde tu cuenta bancaria, por lo que es recomendable asesorarte con tu banco para que puedan indicarte si cuentan con este servicio y cómo realizarlo. <br/><br/>
@@ -28,14 +28,12 @@ De acuerdo a la Comisión Nacional del Sistema de Ahorro para el Retiro (**[CONS
 
 
 ## ¿Qué beneficios tiene el ahorro voluntario?
-<br/>
 
 El ahorro voluntario en tu cuenta de AFORE, te ayudará para aumentar el monto que podrás recibir en tu pensión. <br/><br/>
 
 Adicionalmente podrás hacer uso de tu ahorro voluntario en caso de tener una emergencia ya que tendrás la opción de elegir retirarlo cuando lo requieras. Ingresa al portal de la CONSAR para mayor información. <br/><br/>
 
 ## ¿En donde puedes realizar las aportaciones para tu retiro?
-<br/>
 
 Existen diversas opciones para realizar tus aportaciones. <br/><br/>
 

@@ -136,7 +136,7 @@ function BlogPage({ data }) {
       </section>
 
       <section id={styles.bestPosts}>
-        <div id={styles.topicHeader}>
+        <div id={styles.bestPostsHeader}>
           <h2 className={styles.titleBold} id={styles.bestPostsTitle}> Hallazgos <span className={styles.titleAccent}> interesantes </span> </h2>
         </div>
         <div id={styles.bestPostsList}>

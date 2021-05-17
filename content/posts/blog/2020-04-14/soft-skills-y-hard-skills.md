@@ -15,7 +15,6 @@ Esto requiere una preparación que en varios casos, sea adicional a la carrera q
 ![Aprender a programar se ha vuelto cada vez mas importante](coding-bootcamp.png) <br/>
 
 ## ¿Qué son las habilidades duras o hard skills?
-<br/>
 
 Son las habilidades y/o competencias que por lo general se adquieren con una carrera profesional o con experiencia en cierto sector o industria. Podemos mencionar como habilidades duras carreras como administración, contaduría, idiomas, etc. Sin embargo, nos encontramos en una etapa donde contar con una licenciatura, podría no ser suficiente para trabajar en empresas de tecnología. <br/><br/>
 
@@ -23,7 +22,6 @@ Las habilidades que están obteniendo alto grado de atención y demanda están m
 Estos son las hard skills que tiene alta demanda para las empresas de tecnología y Startups: Cloud computing, Blockchain, inteligencia artificial, razonamiento analítico, diseño UX/UI, desarrollo de aplicaciones móviles, marketing digital, data science, business analysis, etc. <br/><br/>
 
 ## ¿Qué son las habilidades blandas o soft skills?
-<br/>
 
 Son aquellas cualidades que están relacionadas con la perspectiva emocional y social. Estas se desarrollan en el día a día en base a las experiencias personales, por lo que son cruciales para que los equipos de trabajo funcionen de manera óptima. Si tu objetivo es convertirte en lider de equipo o arrancar tu propio negocio, presta atención ya que deberás desarrollar estas habilidades. <br/><br/>
 
@@ -31,6 +29,6 @@ Estos son las soft skills que tiene alta demanda para las empresas: Creatividad,
 
 Por último podemos decir, que si decides equilibrar tus hard skills y soft skills, tendrás más posibilidades de conseguir el empleo o ascenso que deseas. Adicionalmente aportarás mucho valor a los proyectos o negocios personales que te propongas. <br/><br/>
 
-Próximamente en ***[Oasis Financiero](https://www.oasisfinanciero.mx)*** podrás comparar todas las opciones Fintech y de Banca tradicional en una sola plataforma. <br/><br/>
+Próximamente en **[Oasis Financiero](https://www.oasisfinanciero.mx)** podrás comparar todas las opciones Fintech y de Banca tradicional en una sola plataforma. <br/><br/>
 
 Síguenos en nuestras páginas de **[Facebook](https://facebook.com/oasisfinanciero)**, **[LinkedIn](https://www.linkedin.com/company/oasisfinanciero/)** y **[Twitter](https://twitter.com/oasisfintech)**.

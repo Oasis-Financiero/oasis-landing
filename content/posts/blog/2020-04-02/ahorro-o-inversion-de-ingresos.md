@@ -24,7 +24,7 @@ Entonces, para el ahorro hay distintos productos financieros como lo es tener de
 
 Conociendo esto, debemos estar conscientes que debemos conocer al menos como trabajan las cuentas de nómina y ahorro, las tarjetas de crédito y las opciones de inversión que ofrecen distintas instituciones bancarias, bursátiles y operadores de mercados. <br/><br/>
 
-Próximamente en ***[Oasis Financiero](https://www.oasisfinanciero.mx)*** podrás comparar todas las opciones Fintech y de Banca tradicional en una sola plataforma. <br/><br/>
+Próximamente en **[Oasis Financiero](https://www.oasisfinanciero.mx)** podrás comparar todas las opciones Fintech y de Banca tradicional en una sola plataforma. <br/><br/>
 
 Síguenos en nuestras páginas de **[Facebook](https://facebook.com/oasisfinanciero)**, **[LinkedIn](https://www.linkedin.com/company/oasisfinanciero/)** y **[Twitter](https://twitter.com/oasisfintech)**. <br/><br/>
 

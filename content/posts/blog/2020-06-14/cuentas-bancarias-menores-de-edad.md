@@ -12,7 +12,7 @@ Ahora a los menores de entre 15 a 17 años podrán abrir cuentas bancarias sin l
 Arturo Herrera, Secretario de **Hacienda y Crédito Público (SHCP)** comentó durante la conferencia de prensa del pasado 12 de Junio “La evidencia que tenemos del último año es que, como es natural, los jóvenes son muchísimos más adeptos a hacer operaciones de carácter digital a operar con sus teléfonos”. <br/><br/>
 
 ## ¿Qué tipo de movimientos bancarios se podrán realizar con estas cuentas? 
-<br/>
+
 
 1. Las cuentas serán de nivel 2, esto quiere decir que tendrán un límite de depósitos de $18,000 pesos al mes. <br/><br/>
 

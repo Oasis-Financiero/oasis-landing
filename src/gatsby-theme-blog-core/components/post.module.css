@@ -1,16 +1,32 @@
 @font-face {
-    font-family: 'Hind';
-    src:  url('../../fonts/Hind-Regular.woff2') format('woff2'),
-          url('../../fonts/Hind-Regular.woff') format('woff'),
-          url('../../fonts/Hind-Regular.ttf') format('truetype');
+    font-family: 'Poppins';
+    src:  url('../../fonts/Poppins-Regular.woff2') format('woff2'),
+          url('../../fonts/Poppins-Regular.woff') format('woff'),
+          url('../../fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
 }
 
 @font-face {
-    font-family: 'Hind';
-    src:  url('../../fonts/Hind-Bold.woff2') format('woff2'),
-          url('../../fonts/Hind-Bold.woff') format('woff'),
-          url('../../fonts/Hind-Bold.ttf') format('truetype');
-    font-weight: bold;
+    font-family: 'Poppins';
+    src:  url('../../fonts/Poppins-Bold.woff2') format('woff2'),
+          url('../../fonts/Poppins-Bold.woff') format('woff'),
+          url('../../fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src:  url('../../fonts/NunitoSans-Regular.woff2') format('woff2'),
+          url('../../fonts/NunitoSans-Regular.woff') format('woff'),
+          url('../../fonts/NunitoSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src:  url('../../fonts/NunitoSans-Bold.woff2') format('woff2'),
+          url('../../fonts/NunitoSans-Bold.woff') format('woff'),
+          url('../../fonts/NunitoSans-Bold.ttf') format('truetype');
+    font-weight: 700;
 }
 
 @font-face {
@@ -36,8 +52,25 @@ ul {
     margin-left: 20px;
 }
 
+h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+#articleWindow {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+#article {
+    width: 90%;
+    max-width: 800px
+}
+
 .title {
-    font-family: Hind, 'Segoe UI', sans-serif;
+    font-family: Poppins;
     font-size: 2em;
     margin-bottom: 8px;
     color: #333333;
@@ -52,8 +85,10 @@ ul {
 .date {
     padding-left: 3px;
     font-size: 1em;
-    font-family: Hind, 'Segoe UI', sans-serif;
+    font-family: Poppins;
     color: #333333;
+    line-height: 25px;
+    vertical-align: middle;
 }
 
 .iconsPanel {
@@ -73,12 +108,33 @@ ul {
 
 .body {
     padding: 0px 5px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Open-Sans, Helvetica, sans-serif;
+    font-family: Nunito;
     font-size: 1.15em !important;
+}
+
+@media (max-width: 790px) { 
+
+    #articleWindow {
+        padding: 30px 0px;
+    }
+
+    .title {
+        font-size: 1.60em;
+    }
+
+    .date {
+        font-size: .9em;
+    }
+
 }
 
 @media (max-width: 576px) { 
     .body{
         font-size: 1em !important;
     }
- }
+
+    #articleWindow {
+        padding: 5vw 0px;
+    }
+
+}
