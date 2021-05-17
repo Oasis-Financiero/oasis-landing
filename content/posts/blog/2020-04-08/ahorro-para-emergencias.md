@@ -3,6 +3,7 @@ date: '2020-04-08'
 title: 'Ahorro para emergencias: ¿Que tan preparados estamos?' 
 image: 'alcancia-ahorro.png'
 imageAlt: 'Alcancia para ahorro de emergencias'
+tags: ["ahorro"]
 --- 
 
 Las emergencias llegan cuando menos las esperamos y es en ese momento, cuando nuestra economía se pone a prueba. Son diversas las situaciones que se pueden presentar sin previo aviso, por lo que lo ideal sería contar con un ahorro para hacer frente a esa emergencia. <br/><br/>

@@ -137,7 +137,7 @@
 
 .titleTextHome {
   font-family: Poppins;
-  font-size: .7em;
+  font-size: .85em;
   font-weight: 700;
   color: #707070;
 }
@@ -145,7 +145,7 @@
 .articleHomeLink {
   margin-top: 5px;
   font-family: Poppins;
-  font-size: .7em;
+  font-size: .75em;
   color: #526A9B;
   text-decoration: underline;
 }
@@ -153,19 +153,34 @@
 /* Tall blog link */
 
 .articleLong {
-  flex-basis: 48%;
-  margin-right: 1%;
-  margin-left: 1%;
+  flex-basis: 49%;
+  margin-right: .5%;
+  margin-left: .5%;
+}
+
+.titleTextLong {
+  font-family: Poppins;
+  font-size: 1em;
+  font-weight: 700;
+  color: #707070;
+}
+
+.articleLongLink {
+  margin-top: 5px;
+  font-family: Poppins;
+  font-size: .8em;
+  color: #526A9B;
+  text-decoration: underline;
 }
 
 
 /* Tall blog link */
 
 .tall {
-    flex-basis: 31.33%;
-    margin-right: 1%;
-    margin-left: 1%;
-    position: relative;
+  flex-basis: 32.33%;
+  margin-right: .5%;
+  margin-left: .5%;
+  position: relative;
 }
 
 .postLinkImageTall:after {
@@ -182,7 +197,7 @@
 .linkInfoTall {
     position: absolute;
     bottom: 0px;
-    padding: 20px 30px
+    padding: 22px 30px
 }
 
 .titleTextTall {

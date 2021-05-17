@@ -3,6 +3,7 @@ date: '2020-04-02'
 title: 'Ahorro o inversión ¿Qué hacer con tus ingresos?' 
 image: 'registro-de-gastos.png'
 imageAlt: 'El buen manejo de tus ingresos es esencial'
+tags: ["inversion"]
 --- 
 
 Cuando una actividad laboral o empresarial incrementa tus recursos económicos y aumenta tu patrimonio se considera que has tenido un ingreso. Hay otros casos como donaciones o herencias las cuales también aumentan tu patrimonio. Puede ser en especie como un inmueble o monetario como ser el beneficiario de una cuenta de banco o un seguro de vida. <br/><br/>

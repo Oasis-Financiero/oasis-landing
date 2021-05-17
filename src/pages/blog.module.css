@@ -158,41 +158,60 @@ input:focus {
   width: 80%
 }
 
+
+/* ------------ Recent posts section -------------- */
+
 #recentPostsTitle {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 #recentPostList {
-  margin-top: 30px;
-  padding: 0px 70px;
+  margin-top: 25px;
+  padding: 0px calc(60px + 1%);
 }
 
-#bestPosts {
-  margin-top: 30px;
-  padding: 0px 80px;
+
+
+/* ------------ Best posts section -------------- */
+
+#bestPosts{
+  margin-top: 20px;
 }
+
+#bestPostsTitle {
+  text-align: center;
+}
+
+#bestPostsList {
+  padding: 0px calc(60px + .6%);
+}
+
+
+/* ------------ Topical sections -------------- */
 
 #topicOne {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 #topicTwo {
-  margin-top: 75px;
+  margin-top: 30px;
+  margin-bottom: 40px
 }
 
-#topicOneHeader {
-  position: relative;
+#topicHeader {
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.topicHeaderBack {
-  position: absolute;
-  padding: 0px 40px
+  background-image: linear-gradient(#F1F4F8, #ECFEFB);
+  margin: 0px calc(60px + 1%)
 }
 
 #topicOneTitle {
   text-align: center;
+}
+
+.topicPostList {
+  padding: 0px calc(60px + .6%);
 }

@@ -3,6 +3,7 @@ date: '2020-06-08'
 title: 'Pagos digitales y sus ventajas ante el uso de efectivo' 
 image: 'digital-payment-phone.png'
 imageAlt: 'Aplicaciones de pagos digitales'
+tags: ["promovidos"]
 --- 
 
 El uso del efectivo está fuertemente arraigado en nuestra vida diaria, desde pagar el transporte, comprar en comercios formales e informales y pagar servicios básicos como luz, agua o teléfono. <br/><br/>

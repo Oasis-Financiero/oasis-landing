@@ -36,9 +36,9 @@ const PostLink = ({ title, slug, date, excerpt, image, postStyle}) => {
             </div>
             <div className={PostStyles.linkInfoHome}>
               <header className="post-link-header">
-                <div className={PostStyles.titleTextHome}>{title || slug}</div>
+                <div className={PostStyles.titleTextLong}>{title || slug}</div>
               </header>
-              <div className={PostStyles.articleHomeLink}>
+              <div className={PostStyles.articleLongLink}>
                 <Link to={slug} className={PostStyles.postLink}>
                   Leer articulo
                 </Link>

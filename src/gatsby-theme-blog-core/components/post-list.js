@@ -17,7 +17,7 @@ const PostList = ({ posts, style, carousel }) => {
     infinite: true,
     swipeToSlide: true,
     slidesToShow: 4,
-    slidesToScroll: 1,
+    slidesToScroll: 4,
     className: styles.slides,
     arrows: true,
     responsive: [
@@ -25,12 +25,14 @@ const PostList = ({ posts, style, carousel }) => {
         breakpoint: 767,
         settings: {
           slidesToShow: 2,
+          slidesToScroll: 2,
         }
       },
       {
         breakpoint: 539,
         settings: {
           slidesToShow: 1,
+          slidesToScroll: 1,
         }
       }
     ]

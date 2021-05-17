@@ -3,6 +3,7 @@ date: '2020-04-14'
 title: 'Soft skills y Hard skills: Las habilidades en las que necesitas invertir' 
 image: 'habilidades-para-startups.png'
 imageAlt: 'El analisis de datos es una habilidad en alta demanda'
+tags: ["promovidos"]
 --- 
 
 Podemos usar Uber para transportarnos desde el aeropuerto al departamento que rentamos en ***Airbnb*** mientras, escuchamos el top 10 de ***Spotify*** y por lo menos, habremos posteado una historia en ***Instagram*** del lugar al que llegamos para vacacionar. <br/><br/>

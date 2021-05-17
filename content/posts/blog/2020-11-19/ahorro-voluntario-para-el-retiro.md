@@ -3,6 +3,7 @@ date: '2020-11-19'
 title: 'Cómo invertir en tu retiro con el ahorro voluntario' 
 image: 'ahorromonedas.jpg'
 imageAlt: 'Ahorro creciente'
+tags: ["inversion"]
 --- 
 
 En México el tema del ahorro para el retiro es prácticamente inexistente en la vida cotidiana. Se suele recordar cuando un familiar o conocido se ha retirado y está pensionado. <br/><br/>

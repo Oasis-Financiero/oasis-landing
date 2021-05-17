@@ -7,8 +7,6 @@ import SEO from "../components/seo";
 import PostList from "gatsby-theme-blog-core/src/components/post-list";
 import styles from "./blog.module.css";
 
-import separator from "../images/blog/separator.png"
-
 export const query = graphql`
   query BlogQuery {
     site {
@@ -21,7 +19,7 @@ export const query = graphql`
         }
       }
     }
-    carousel: allBlogPost(sort: { fields: [date, title], order: DESC }, limit: 9) {
+    carousel: allBlogPost(sort: { fields: [date, title], order: ASC }, limit: 8) {
       nodes {
         id
         excerpt
@@ -38,24 +36,32 @@ export const query = graphql`
         }
       }
     }
-    topicOne: allBlogPost(sort: { fields: [date, title], order: ASC }, limit: 2) {
-      nodes {
-        id
-        excerpt
-        slug
-        title
-        date(formatString: "DD [de] MMMM, YYYY", locale: "es")
-        tags
-        image {
-          childImageSharp {
-            fluid(maxWidth: 500, maxHeight: 240, cropFocus: CENTER, fit: COVER) {
-              ...GatsbyImageSharpFluid
-            }
+    topicOne: allBlogPost(
+      sort: { fields: [date, title], order: ASC }, 
+      filter: {tags: {in: "ahorro"}},
+      limit: 2
+    ) {
+    nodes {
+      id
+      excerpt
+      slug
+      title
+      date(formatString: "DD [de] MMMM, YYYY", locale: "es")
+      tags
+      image {
+        childImageSharp {
+          fluid(maxWidth: 500, maxHeight: 240, cropFocus: CENTER, fit: COVER) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
     }
-    tallCards: allBlogPost(sort: { fields: [date, title], order: ASC }, limit: 3) {
+  }
+    tallCards: allBlogPost(
+        sort: { fields: [date, title], order: ASC }, 
+        filter: {tags: {in: "promovidos"}},
+        limit: 3
+      ) {
       nodes {
         id
         excerpt
@@ -72,7 +78,11 @@ export const query = graphql`
         }
       }
     }
-    topicTwo: allBlogPost(sort: { fields: [date, title], order: ASC }, limit: 2) {
+    topicTwo: allBlogPost(
+        sort: { fields: [date, title], order: ASC }, 
+        filter: {tags: {in: "inversion"}},
+        limit: 2
+      ) {
       nodes {
         id
         excerpt
@@ -117,29 +127,29 @@ function BlogPage({ data }) {
       </section>
 
       <section id={styles.topicOne}>
-        <div id={styles.topicOneHeader}>
-          <img src={separator} className={styles.topicHeaderBack}></img>
+        <div id={styles.topicHeader}>
           <h2 className={styles.titleAccent} id={styles.topicOneTitle}> Tu guia para el ahorro </h2>
         </div>
-        <div id={styles.recentPostList}>
+        <div className={styles.topicPostList}>
           <PostList posts={data.topicOne.nodes} style="title-under-long" carousel={false} />
         </div>
       </section>
 
-      <section className={styles.tallCards}>
-        <h2 className={styles.titleBold} id={styles.recentPostsTitle}> Hallazgos <span className={styles.titleAccent}> interesantes </span> </h2>
-        <div id={styles.bestPosts}>
+      <section id={styles.bestPosts}>
+        <div id={styles.topicHeader}>
+          <h2 className={styles.titleBold} id={styles.bestPostsTitle}> Hallazgos <span className={styles.titleAccent}> interesantes </span> </h2>
+        </div>
+        <div id={styles.bestPostsList}>
           <PostList posts={data.tallCards.nodes} style="tall-textInside" carousel={false} />
         </div>
       </section>
 
       <section id={styles.topicTwo}>
-        <div id={styles.topicOneHeader}>
-          <img src={separator} className={styles.topicHeaderBack}></img>
+        <div id={styles.topicHeader}>
           <h2 className={styles.titleAccent} id={styles.topicOneTitle}> ¿Te interesa comenzar a invertir? </h2>
         </div>
-        <div id={styles.recentPostList}>
-          <PostList posts={data.topicOne.nodes} style="title-under-long" carousel={false} />
+        <div className={styles.topicPostList}>
+          <PostList posts={data.topicTwo.nodes} style="title-under-long" carousel={false} />
         </div>
       </section>
 
