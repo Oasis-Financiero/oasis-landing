@@ -7,6 +7,8 @@ import SEO from "../components/seo";
 import PostList from "gatsby-theme-blog-core/src/components/post-list";
 import styles from "./blog.module.css";
 
+import separator from "../images/blog/separator.png"
+
 export const query = graphql`
   query BlogQuery {
     site {
@@ -29,7 +31,24 @@ export const query = graphql`
         tags
         image {
           childImageSharp {
-            fluid(maxWidth: 300, maxHeight: 180, cropFocus: CENTER, fit: COVER) {
+            fluid(maxWidth: 300, maxHeight: 240, cropFocus: CENTER, fit: COVER) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    }
+    topicOne: allBlogPost(sort: { fields: [date, title], order: ASC }, limit: 2) {
+      nodes {
+        id
+        excerpt
+        slug
+        title
+        date(formatString: "DD [de] MMMM, YYYY", locale: "es")
+        tags
+        image {
+          childImageSharp {
+            fluid(maxWidth: 500, maxHeight: 240, cropFocus: CENTER, fit: COVER) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -47,6 +66,23 @@ export const query = graphql`
         image {
           childImageSharp {
             fluid(maxWidth: 600, maxHeight: 922, cropFocus: CENTER, fit: COVER) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    }
+    topicTwo: allBlogPost(sort: { fields: [date, title], order: ASC }, limit: 2) {
+      nodes {
+        id
+        excerpt
+        slug
+        title
+        date(formatString: "DD [de] MMMM, YYYY", locale: "es")
+        tags
+        image {
+          childImageSharp {
+            fluid(maxWidth: 500, maxHeight: 240, cropFocus: CENTER, fit: COVER) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -80,10 +116,30 @@ function BlogPage({ data }) {
         </div>
       </section>
 
+      <section id={styles.topicOne}>
+        <div id={styles.topicOneHeader}>
+          <img src={separator} className={styles.topicHeaderBack}></img>
+          <h2 className={styles.titleAccent} id={styles.topicOneTitle}> Tu guia para el ahorro </h2>
+        </div>
+        <div id={styles.recentPostList}>
+          <PostList posts={data.topicOne.nodes} style="title-under-long" carousel={false} />
+        </div>
+      </section>
+
       <section className={styles.tallCards}>
         <h2 className={styles.titleBold} id={styles.recentPostsTitle}> Hallazgos <span className={styles.titleAccent}> interesantes </span> </h2>
         <div id={styles.bestPosts}>
           <PostList posts={data.tallCards.nodes} style="tall-textInside" carousel={false} />
+        </div>
+      </section>
+
+      <section id={styles.topicTwo}>
+        <div id={styles.topicOneHeader}>
+          <img src={separator} className={styles.topicHeaderBack}></img>
+          <h2 className={styles.titleAccent} id={styles.topicOneTitle}> ¿Te interesa comenzar a invertir? </h2>
+        </div>
+        <div id={styles.recentPostList}>
+          <PostList posts={data.topicOne.nodes} style="title-under-long" carousel={false} />
         </div>
       </section>
 

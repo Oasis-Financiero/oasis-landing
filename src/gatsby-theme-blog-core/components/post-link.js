@@ -28,6 +28,25 @@ const PostLink = ({ title, slug, date, excerpt, image, postStyle}) => {
       </article>
     break;
 
+    case "title-under-long":
+      linkStyle =
+      <article className={PostStyles.articleLong}>
+            <div className={PostStyles.postLinkImageHome}>
+              <Img className={PostStyles.imageHome} fluid={image.childImageSharp.fluid}/>
+            </div>
+            <div className={PostStyles.linkInfoHome}>
+              <header className="post-link-header">
+                <div className={PostStyles.titleTextHome}>{title || slug}</div>
+              </header>
+              <div className={PostStyles.articleHomeLink}>
+                <Link to={slug} className={PostStyles.postLink}>
+                  Leer articulo
+                </Link>
+              </div>
+            </div>
+      </article>
+    break;
+
     case "tall-textInside":
       linkStyle =
       <article className={PostStyles.tall}>
