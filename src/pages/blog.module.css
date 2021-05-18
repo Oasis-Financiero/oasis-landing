@@ -215,3 +215,23 @@ input:focus {
 .topicPostList {
   padding: 0px calc(60px + .6%);
 }
+
+@media screen and (max-width: 539px) {
+
+  #bestPostsList {
+    padding: 0px 7.6%;
+  }
+
+  #recentPostList {
+    margin-top: 25px;
+    padding: 0px 8%;
+  }
+
+  #topicHeader {
+    margin: 0px 8%;
+  }
+
+  .topicPostList {
+    padding: 0px 7.6%;
+  }
+}

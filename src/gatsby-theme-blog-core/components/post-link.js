@@ -31,7 +31,7 @@ const PostLink = ({ title, slug, date, excerpt, image, postStyle}) => {
     case "title-under-long":
       linkStyle =
       <article className={PostStyles.articleLong}>
-            <div className={PostStyles.postLinkImageHome}>
+            <div className={PostStyles.postLinkImage}>
               <Img className={PostStyles.imageHome} fluid={image.childImageSharp.fluid}/>
             </div>
             <div className={PostStyles.linkInfoHome}>

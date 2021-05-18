@@ -150,7 +150,7 @@
   text-decoration: underline;
 }
 
-/* Tall blog link */
+/* Long topic link */
 
 .articleLong {
   flex-basis: 49%;
@@ -195,37 +195,60 @@
 }
 
 .linkInfoTall {
-    position: absolute;
-    bottom: 0px;
-    padding: 22px 30px
+  position: absolute;
+  bottom: 0px;
+  padding: 22px 30px
 }
 
 .titleTextTall {
-    font-family: Poppins;
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 1.45em;
+  font-family: Poppins;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 1.45em;
 }
-
-
 
 
 @media screen and (max-width: 992px) {
-    .articleBlogHome, .articleHome {
-        flex-basis: 47%;
-    }
+  .titleTextTall {
+    font-size: 1.20em;
+  }
 }
 
-@media screen and (max-width: 540px) {
-    .articleBlogHome, .articleHome{
-        flex-basis: 97%;
-    }
+@media screen and (max-width: 992px) {
+  .articleBlogHome, .articleHome {
+      flex-basis: 47%;
+  }
+}
 
-    .titleTextHome {
-      font-size: .9em;
-    }
+@media screen and (max-width: 539px) {
+  .articleBlogHome, .articleHome{
+      flex-basis: 97%;
+  }
 
-    .articleHomeLink {
-      font-size: .8em;
-    }
+  .postLinkImageHome {
+    overflow: hidden;
+    height: 200px;
+  }
+
+  .titleTextHome {
+    font-size: .9em;
+  }
+
+  .articleHomeLink {
+    font-size: .8em;
+  }
+
+  .tall {
+    flex-basis: 100%;
+    height: 200px;
+    border-radius: 20px;
+    margin: 10px 0px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .articleLong {
+    flex-basis: 100%;
+  }
+
 }
