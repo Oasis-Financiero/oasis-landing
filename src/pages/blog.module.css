@@ -127,6 +127,11 @@ input:focus {
   outline: none;
 }
 
+#mobileHeader {
+  display: none;
+  width: 100%;
+}
+
 #blogHeader {
   height: 300px;
   position: relative;
@@ -218,6 +223,24 @@ input:focus {
 
 @media screen and (max-width: 539px) {
 
+  #mobileHeader {
+    display: block;
+  }
+
+  #blogHeader {
+    background-image: none;
+    background-color: #9D94BF;
+    background-size: cover;
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0px;
+  }
+
+  #bannerText {
+    width: 100%;
+    height: 100%;
+  }
+
   #bestPostsList {
     padding: 0px 7.6%;
   }
@@ -233,5 +256,17 @@ input:focus {
 
   .topicPostList {
     padding: 0px 7.6%;
+  }
+
+  #topicOne {
+    margin-top: 0px;
+  }
+
+  #topicTwo {
+    margin-top: 20px;
+  }
+
+  #bestPosts{
+    margin-top: 0px;
   }
 }

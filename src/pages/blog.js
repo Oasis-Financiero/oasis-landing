@@ -7,6 +7,8 @@ import SEO from "../components/seo";
 import PostList from "gatsby-theme-blog-core/src/components/post-list";
 import styles from "./blog.module.css";
 
+import mobileBack from "../images/blog/blog-mobile.png"
+
 export const query = graphql`
   query BlogQuery {
     site {
@@ -111,6 +113,8 @@ function BlogPage({ data }) {
         title="Blog"
         description="El blog de Oasis te ayuda a aprender todo lo que necesitas saber sobre educación financiera."
       />
+
+      <img src={mobileBack} id={styles.mobileHeader}></img>
 
       <header id={styles.blogHeader}>
         <div id={styles.bannerText}>
