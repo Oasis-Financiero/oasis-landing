@@ -71,10 +71,10 @@ function IndexPage({ data }) {
         <div id={styles.heroText}>
           <img id={styles.horizontalWhirl} src={horizontal}></img>
           <div id={styles.textWrapper}>
-            <h1 className={styles.titleThin} id={styles.heroFirstLine}> LIBERA TU POTENCIAL </h1>
-            <h1 className={styles.titleBold} id={styles.heroSecondLine}> FINANCIERO </h1>
+            <h1 className={styles.titleThin} id={styles.heroFirstLine}> TRANSFORMA TU </h1>
+            <h1 className={styles.titleBold} id={styles.heroSecondLine}> VIDA FINANCIERA </h1>
             <p className={styles.paraText} id={styles.heroParagraph}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Oasis es el primer sitio en Mexico que te acompana paso a paso en el viaje para mejorar tus finanzas. Sin costos. Sin complicaciones.
             </p>
             <div id={styles.heroButtons}>
               <button className={styles.purpleBtn}> Unete ahora </button>
@@ -94,7 +94,7 @@ function IndexPage({ data }) {
           <div id={styles.oasisFeaturesText}>
             <h2 className={styles.titleSemiBold} id={styles.featuresTitle}> APRENDE, COMPARA <span className={styles.titleAccentBlack}> Y ELIGE </span></h2>
             <h3 className={styles.subTitle} id={styles.featuresSubTitle}> entre los servicios financieros que ofrecen las Fintech y los Bancos tradicionales </h3>
-            <p className={styles.paraText} id={styles.featuresPara}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi u </p>
+            <p className={styles.paraText} id={styles.featuresPara}> Compara los productos financieros que mejor se adapten a tus necesidades. Personaliza tu experiencia y encuentra opciones alternativas a los bancos. </p>
           </div>
           <div id={styles.featuresMainWrapper}>
             <div id={styles.featuresMain}>
@@ -137,10 +137,10 @@ function IndexPage({ data }) {
         <div id={styles.whyUs}>
           <h2 className={styles.titleBold} id={styles.whyUsTitle}> ¿POR QUÉ OASIS? </h2>
           <p className={styles.paraText} id={styles.whyUsPara}> 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-            uis nostrud exercitation ullamco laboris nisi ut enim ad minim veniam, quis nostr ad minim veniam, 
-            quis nostrud exercitation ulla 
+          Oasis es el lugar en donde encontrarás la información necesaria y relevante para tomar mejores decisiones y transformar tu vida financiera. 
+
+          Creemos en el cambio de paradigmas dentro del ecosistema financiero, innovando y promoviendo la inclusión financiera en México.
+
           </p>
         </div>
         <div id={styles.roadmapWrapper}>
@@ -150,21 +150,21 @@ function IndexPage({ data }) {
               <div className={styles.stepLeft}> <div className={styles.stepNumber}> 1 </div></div>
               <div className={styles.stepRight}>
                 <div className={styles.titleAccentStep}> Aprende </div>
-                <div className={styles.stepPara}> Adquiere conocimientos sobre educación financiera y las tecnologías que están innovando en finanzas personales. Ingresa a nuestro blog. </div>
+                <div className={styles.stepPara}> Adquiere conocimientos sobre finanzas personales, ahorro inteligente y las empresas que están innovando para el beneficio de tu economía. </div>
               </div>
             </div>
             <div className={styles.roadmapStep} id={styles.secondStep}>
               <div className={styles.stepLeft}> <div className={styles.stepNumber}> 2 </div></div>
               <div className={styles.stepRight}>
                 <div className={styles.titleAccentStep}> Compara </div>
-                <div className={styles.stepPara}> Adquiere conocimientos sobre educación financiera y las tecnologías que están innovando en finanzas personales. Ingresa a nuestro blog. </div>
+                <div className={styles.stepPara}> Toma el control y personaliza tu experiencia. Solo te mostraremos la información relevante y opciones que deseas comparar. </div>
               </div>
             </div>
             <div className={styles.roadmapStep} id={styles.thirdStep}>
               <div className={styles.stepLeft}> <div className={styles.stepNumber}> 3 </div></div>
               <div className={styles.stepRight}>
                 <div className={styles.titleAccentStep}> Elige </div>
-                <div className={styles.stepPara}> Adquiere conocimientos sobre educación financiera y las tecnologías que están innovando en finanzas personales. Ingresa a nuestro blog. </div>
+                <div className={styles.stepPara}> Aplica para el producto que mejor se adapta a tus necesidades. Desde nuestra página podrás obtener toda la información antes de contratar. </div>
               </div>
             </div>
           </div>
@@ -177,22 +177,22 @@ function IndexPage({ data }) {
           <div className={styles.leftServWrapper}>
             <div className={styles.servicesItem}>
               <div className={styles.servIconWrapper}><img className={styles.servicesIcon} id={styles.qualityImg} src={calidad}></img></div>
-              <h3 className={styles.servicesTitle}> Expertos a tu servicio </h3>
-              <p className={styles.servicesPara}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
+              <h3 className={styles.servicesTitle}> Finanzas sencillas </h3>
+              <p className={styles.servicesPara}> Te brindamos información financiera relevante y sin complicaciones. </p>
             </div>
           </div>
           <div className={styles.centerServWrapper}>
             <div className={styles.servicesItem}>
               <div className={styles.servIconWrapper}><img className={styles.servicesIcon} id={styles.helpImg} src={ayudar}></img></div>
-              <h3 className={styles.servicesTitle}> Te damos ayuda rapida </h3>
-              <p className={styles.servicesPara}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
+              <h3 className={styles.servicesTitle}> Experiencia personalizada </h3>
+              <p className={styles.servicesPara}> Te damos el control para que Oasis sea tu guía financiero. </p>
             </div>
           </div>
           <div className={styles.rightServWrapper}>
             <div className={styles.servicesItem}>
               <div className={styles.servIconWrapper}><img className={styles.servicesIcon} id={styles.groupImg} src={grupo}></img></div>
-              <h3 className={styles.servicesTitle}> Nos adaptamos a ti </h3>
-              <p className={styles.servicesPara}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
+              <h3 className={styles.servicesTitle}> Inclusión financiera </h3>
+              <p className={styles.servicesPara}> Damos visibilidad y acercamos opciones financieras que se adaptan a tus necesidades. </p>
             </div>
           </div>
         </div>
@@ -216,7 +216,7 @@ function IndexPage({ data }) {
           <div id={styles.newsletterCTA}>
             <h3 className={styles.titleAccent} id={styles.newsletterCTATitle}> NEWSLETTER </h3>
             <h2 className={styles.titleBold} id={styles.newsletterCTAAction}> Suscribase al boletin de Oasis </h2>
-            <div className={styles.subTitle} id={styles.newsletterCTAText}> Registrate para recibir consejos de expertos para ahorrar dinero todos los fines de semana. </div>
+            <div className={styles.subTitle} id={styles.newsletterCTAText}> Regístrate para recibir nuestros mejores tips y ser de los primeros en tener acceso a nuestro comparador. </div>
             <div className={styles.subTitle} id={styles.acceptPrompt}> <input type="checkbox" id={styles.privacyCheck}/> <span id={styles.acceptText}> Acepto las politicas de privacidad de Oasis </span></div>
             <div className={styles.titleThin} id={styles.emailInputWrapper}>
               <input type="email" placeholder="Ingresa tu correo electronico" id={styles.emailInput}/>

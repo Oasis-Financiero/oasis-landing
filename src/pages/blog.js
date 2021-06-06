@@ -119,7 +119,7 @@ function BlogPage({ data }) {
       <header id={styles.blogHeader}>
         <div id={styles.bannerText}>
           <h1 className={styles.titleWhite} id={styles.bannerTitle}> Educación financiera <span className={styles.titleBoldWhite}> al alcance de todos  </span></h1>
-          <h2 className={styles.paraTextWhite} id={styles.bannerSubTitle}> ¿Quieres transformar tu vida financiera? </h2>
+          <h2 className={styles.paraTextWhite} id={styles.bannerSubTitle}>  Información relevante y sin complicaciones. Oasis es tu guía financiero. </h2>
         </div>
       </header>
 
