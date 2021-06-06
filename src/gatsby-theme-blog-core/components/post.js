@@ -4,6 +4,7 @@ import moment from "moment";
 import 'moment/locale/es'
 
 import { MDXRenderer } from "gatsby-plugin-mdx"
+import { MDXProvider } from "@mdx-js/react";
 import SEO from "../../components/seo";
 
 import Layout from "../../components/layout";
@@ -63,7 +64,16 @@ const Post = ({ data }) => {
           <PostHero post={post} className={styles.hero}/>
         </header>
         <section className={styles.body}>
-          <MDXRenderer>{post.body}</MDXRenderer>
+          <MDXProvider
+            components={{
+              h1: function headerOne(props) { return <h1 className={styles.articleTitle} {...props} /> },
+              h2: function headerTwo(props) { return <h2 className={styles.articleSubtitle} {...props} /> },
+              p: function para(props) { return <p className={styles.articlePara} {...props} /> },
+            }} 
+          >
+            <MDXRenderer>{post.body}</MDXRenderer>
+          </MDXProvider>
+          
         </section>
       </article>
     </main>

@@ -37,12 +37,6 @@ ul {
     margin-left: 20px;
 }
 
-h2 {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-weight: 700;
-}
-
 #articleWindow {
     display: flex;
     justify-content: center;
@@ -52,6 +46,16 @@ h2 {
 #article {
     width: 90%;
     max-width: 800px
+}
+
+.articleSubtitle {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.articlePara {
+
 }
 
 .title {

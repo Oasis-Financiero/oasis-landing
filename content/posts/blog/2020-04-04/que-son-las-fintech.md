@@ -9,7 +9,7 @@ En los últimos 5 años se ha visto un avance importante en el desarrollo de los
 
 El aumento de los servicios en línea es algo imparable. Distintos sectores se han adaptado a este movimiento tecnológico. Casos como Amazon, Mercado Libre y Walmart por mencionar algunos, son claves para entender que el ***e-commerce*** (comercio electrónico) juega un papel crucial para los pagos en línea. <br/><br/>
 
-![Las compras en linea se han vuelto increiblemente populares](compras-en-linea.png)
+![Las compras en linea se han vuelto increiblemente populares](compras-en-linea.png) <br/>
 
 ## La pregunta obligada es ¿Que son las Fintech?
 
