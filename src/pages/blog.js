@@ -119,7 +119,7 @@ function BlogPage({ data }) {
       <header id={styles.blogHeader}>
         <div id={styles.bannerText}>
           <h1 className={styles.titleWhite} id={styles.bannerTitle}> Educación financiera <span className={styles.titleBoldWhite}> al alcance de todos  </span></h1>
-          <h2 className={styles.paraTextWhite} id={styles.bannerSubTitle}>  Información relevante y sin complicaciones. Oasis es tu guía financiero. </h2>
+          <h2 className={styles.paraTextWhite} id={styles.bannerSubTitle}>  Información relevante y sin complicaciones. <br/> Oasis es tu guía financiero. </h2>
         </div>
       </header>
 
@@ -132,7 +132,7 @@ function BlogPage({ data }) {
 
       <section id={styles.topicOne}>
         <div id={styles.topicHeader}>
-          <h2 className={styles.titleAccent} id={styles.topicOneTitle}> Tu guia para el ahorro </h2>
+          <h2 className={styles.titleAccent} id={styles.topicOneTitle}> Tu guía para el ahorro </h2>
         </div>
         <div className={styles.topicPostList}>
           <PostList posts={data.topicOne.nodes} style="title-under-long" carousel={false} />

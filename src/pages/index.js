@@ -74,11 +74,11 @@ function IndexPage({ data }) {
             <h1 className={styles.titleThin} id={styles.heroFirstLine}> TRANSFORMA TU </h1>
             <h1 className={styles.titleBold} id={styles.heroSecondLine}> VIDA FINANCIERA </h1>
             <p className={styles.paraText} id={styles.heroParagraph}>
-              Oasis es el primer sitio en Mexico que te acompana paso a paso en el viaje para mejorar tus finanzas. Sin costos. Sin complicaciones.
+              Oasis es el primer sitio en México que te acompaña paso a paso en el viaje para mejorar tus finanzas. Sin costos. Sin complicaciones.
             </p>
             <div id={styles.heroButtons}>
-              <button className={styles.purpleBtn}> Unete ahora </button>
-              <button className={styles.transparentBtn} id={styles.moreBtn}> Conocer mas </button>
+              <button className={styles.purpleBtn}> Únete ahora </button>
+              <button className={styles.transparentBtn} id={styles.moreBtn}> Conocer más </button>
             </div>
           </div>
         </div>
@@ -108,7 +108,7 @@ function IndexPage({ data }) {
                   <div className={styles.featuresItem}> 
                     <img className={styles.featuresItemImg} src={tarjeta}></img>
                     <div className={styles.titleAccentFeat}> Tarjetas de credito </div>
-                    <div className={styles.titleThinFeat}> 0% de recompensas </div>
+                    <div className={styles.titleThinFeat}> 0% de comisión </div>
                   </div>
                   <div className={styles.featuresItem}> 
                     <img className={styles.featuresItemImg} src={alcancia}></img>
@@ -215,11 +215,11 @@ function IndexPage({ data }) {
         <div id={styles.newsletterCTAWrapper}>
           <div id={styles.newsletterCTA}>
             <h3 className={styles.titleAccent} id={styles.newsletterCTATitle}> NEWSLETTER </h3>
-            <h2 className={styles.titleBold} id={styles.newsletterCTAAction}> Suscribase al boletin de Oasis </h2>
+            <h2 className={styles.titleBold} id={styles.newsletterCTAAction}> Suscríbase al boletín de Oasis </h2>
             <div className={styles.subTitle} id={styles.newsletterCTAText}> Regístrate para recibir nuestros mejores tips y ser de los primeros en tener acceso a nuestro comparador. </div>
-            <div className={styles.subTitle} id={styles.acceptPrompt}> <input type="checkbox" id={styles.privacyCheck}/> <span id={styles.acceptText}> Acepto las politicas de privacidad de Oasis </span></div>
+            <div className={styles.subTitle} id={styles.acceptPrompt}> <input type="checkbox" id={styles.privacyCheck}/> <span id={styles.acceptText}> Acepto las políticas de privacidad de Oasis </span></div>
             <div className={styles.titleThin} id={styles.emailInputWrapper}>
-              <input type="email" placeholder="Ingresa tu correo electronico" id={styles.emailInput}/>
+              <input type="email" placeholder="Ingresa tu correo electrónico" id={styles.emailInput}/>
               <div id={styles.subscribeButton}><img id={styles.subscribeArrow} src={arrow}></img></div>
             </div>
           </div>
