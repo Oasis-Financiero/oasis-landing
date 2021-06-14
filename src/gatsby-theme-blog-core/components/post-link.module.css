@@ -227,6 +227,7 @@
 
   .postLinkImageHome {
     overflow: hidden;
+    max-height: 200px;
   }
 
   .titleTextHome {

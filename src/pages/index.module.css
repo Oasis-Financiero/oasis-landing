@@ -930,7 +930,7 @@ input:focus {
   #characterSvg {
     width: 250px;
   }
-  
+
   .titleAccentStep {
     margin-top: 0px;
   }
@@ -948,6 +948,14 @@ input:focus {
   #newsletterCTA {
     margin-right: 0px;
     width: 90%
+  }
+
+  #newsletterCTAText {
+    padding: 0px
+  }
+
+  #acceptPrompt {
+    margin-top: 25px;
   }
 
   #emailInputWrapper {
