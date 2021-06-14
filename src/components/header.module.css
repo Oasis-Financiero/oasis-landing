@@ -15,7 +15,7 @@
 .headerContent {
     box-shadow: 0 1px 3px .5px rgba(50,50,50,.2);
     width: 100%;
-    height: 10vh;
+    height: 66px;
     display: grid;
     grid-template-columns: 1fr 500px 1fr;
     grid-template-areas: "logo nav social";
@@ -79,7 +79,7 @@
 #navDropExpanded {
     position: sticky;
     background-color: #ffffff;
-    height: 90vh;
+    height: calc(100vh - 66px);
     width: 100%;
     padding: 50px;
     display: flex;
@@ -87,7 +87,7 @@
     transition: all .25s cubic-bezier(.02,.01,.47,1);
 }
 
-@media (max-width: 790px){
+@media (max-width: 767px){
 
     .headerContent {
         grid-template-columns: 1fr 70px;
@@ -95,7 +95,7 @@
     }
 
     #logo {
-        width: 160px;
+        width: 120px;
         padding-left: 30px
     }
 

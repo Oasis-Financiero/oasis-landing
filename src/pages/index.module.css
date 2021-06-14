@@ -115,12 +115,21 @@ input:focus {
 
 #hero {
   background-image: url("../images/landing/heroback.png");
-  height: 90vh;
+  height: calc(100vh - 66px);
+  max-height: 750px;
   background-size: cover;
   background-position: center;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
   overflow: hidden;
+}
+
+#heroContent {
+  width: 90%;
+  max-width: 1300px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
 }
 
 #heroText {
@@ -132,29 +141,39 @@ input:focus {
 }
 
 #textWrapper {
-  width: 70%;
+  width: 100%;
 }
 
 #heroFirstLine, #heroSecondLine {
-  font-size: 2.3em;
+  font-size: 2.6em;
   line-height: 1.3em;
 }
 
 #heroParagraph {
-  font-size: .9em;
+  font-size: 15px;
+  font-weight: 400;
   margin-top: 10px;
 }
 
 #heroIllustration {
   flex-grow: 1;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#illustrationWrapper {
+  position: relative;
+  height: 450px;
+  width: 100%;
 }
 
 #rhombusSvg {
   position: absolute;
   width: 576px;
   z-index: 10;
-  top: 65px;
+  top: 15px;
   left: 58px
 }
 
@@ -162,7 +181,7 @@ input:focus {
   position: absolute;
   width: 418px;
   z-index: 30;
-  top: 50px;
+  top: 0px;
   left: 122px
 }
 
@@ -170,33 +189,34 @@ input:focus {
   position: absolute;
   width: 396px;
   z-index: 20;
-  top: 10%;
-  left: 65%
+  top: 0px;
+  left: 450px
 }
 
 #horizontalWhirl {
   position: absolute;
   width: 360px;
   z-index: 20;
-  top: -100px;
-  left: 6%
+  top: -150px;
+  left: 50px
 }
 
 #heroButtons {
   margin-top: 23px;
   display: flex;
+  column-gap: 10px
 }
 
 .purpleBtn {
-  height: 35px;
+  height: 40px;
   background-color: var(--accentPurple);
   border-radius: 500px;
-  padding: 12.5px 15px;
+  padding: 12.5px 20px;
   line-height: 10px;
   vertical-align: middle;
-  font-size: .65em;
+  font-size: .75em;
   font-family: Poppins;
-  font-weight: bold;
+  font-weight: 600;
   color: #ffffff
 }
 
@@ -206,27 +226,27 @@ input:focus {
   color: var(--accentPurple);
 }
 
-#moreBtn {
-  margin-left: 10px;
-}
+
+/* Oasis features section */
 
 #oasisFeatures {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: var(--backgroundBlue);
 }
 
-#oasisFeaturesSquare {
-  width: 100%;
-  height: 100%;
-  /* max-width: 1200px; */
-  background-color: var(--backgroundBlue);
+#oasisFeaturesContent {
+  width: 90%;
+  max-width: 1300px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 75px 
+  padding-top: 75px;
+  padding-bottom: 80px;
 }
 
 #oasisFeaturesText {
-  width: 85%;
+  width: 100%;
 }
 
 #featuresTitle {
@@ -234,37 +254,16 @@ input:focus {
 }
 
 #featuresSubTitle {
-  font-size: 1.2em;
+  margin-top: 5px;
+  display: inline-block;
+  width: 75%;
+  font-size: 1em;
   margin-top: 5px;
 }
 
-#featuresPara {
-  margin-top: 15px;
-  font-size: 1em;
-}
-
-#featuresMainWrapper {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-}
-
-/* #featuresMain {
-  position: absolute;
-  right: 0px;
-  top: 280px;
-  width: 100%;
-  max-width: 1150px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
-
 #featuresMain {
-  margin-top: 50px;
-  margin-bottom: 80px;
+  margin-top: 30px;
   width: 100%;
-  max-width: 1150px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -288,7 +287,7 @@ input:focus {
   background-color: white;
   margin-top: -120px;
   padding: 15px 20px;
-  box-shadow: 0px 0px 10px #292742;
+  box-shadow: 0 1px 10px 5px rgba(50,50,50,.2);
   display: flex;
   flex-direction: column;
 }
@@ -330,8 +329,17 @@ input:focus {
   text-align: center;
 }
 
+
+
+/* Roadmap section */
+
 #oasisRoadmap {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 65px;
+  padding-bottom: 50px;
 }
 
 #whyUs {
@@ -339,25 +347,28 @@ input:focus {
   flex-direction: column;
   align-items: center;
   margin-bottom: 40px;
+  width: 90%;
+  max-width: 1300px;
 }
 
 #whyUsTitle {
-  padding-top: 65px;
   display: inline-flex;
   font-size: 1.8em;
 }
 
 #whyUsPara {
   margin-top: 20px;
-  margin-bottom: 20px;
-  width: 70%;
+  margin-bottom: 10px;
   font-size: 1em;
+  width: 75%
 }
 
 #roadmapWrapper {
   position: relative;
   overflow: hidden;
   height: 414px;
+  width: 90%;
+  max-width: 1300px;
 }
 
 #roadmapBack {
@@ -369,12 +380,13 @@ input:focus {
 }
 
 #roadmapStepsWrapper {
-  width: 600px;
   position: absolute;
+  height: 100%;
   top: 0;
   right: 0;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .roadmapStep {
@@ -423,27 +435,11 @@ input:focus {
   font-size: .8em
 }
 
-#firstStep {
-  margin-bottom: 27px;
-  margin-left: 0px;
-}
-
-#secondStep {
-  margin-left: 50px;
-}
-
-#thirdStep {
-  margin-top: 27px;
-  margin-left: 100px;
-}
-
-
 /* Oasis Professional services section */
 
 #oasisProServices {
   position: relative;
   height: 260px;
-  margin-top: 20px;
 }
 
 #servicesRow {
@@ -490,12 +486,12 @@ input:focus {
 .servicesTitle {
   composes: titleAccent;
   margin-top: 10px;
-  font-size: .9em;
+  font-size: 1em;
 }
 
 .servicesPara {
   composes: paraText;
-  font-size: .8em;
+  font-size: .9em;
   margin-top: 5px;
   text-align: center;
 }
@@ -506,7 +502,6 @@ input:focus {
 
 #helpImg {
   width: 70px
-
 }
 
 #groupImg {
@@ -524,19 +519,24 @@ input:focus {
 /*--------------------- Recent blog posts section ----------------------*/
 
 #recentPosts {
-  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+#recentPostsMain {
+  width: 90%;
+  max-width: 1300px;
+  padding-top: 50px;
+  padding-bottom: 70px;
 }
 
 #recentPostsTitle {
   text-align: center;
   font-size: 1.2em;
-  margin-top: 30px;
-  margin-bottom: 15px;
 }
 
 #linkToBlog {
-  margin-top: 10px;
-  padding: 0px 60px;
+  margin-top: 15px;
   display: flex;
   justify-content: flex-end;
   font-size: .75em;
@@ -544,16 +544,14 @@ input:focus {
 }
 
 #blogLink {
-  margin-right: 15px;
+  margin-right: 5px;
   color: var(--titleBlue);
   text-decoration: underline;
 }
 
 #postsWrapper {
   margin-top: 10px;
-  padding: 0px 60px;
-  display: flex;
-  flex-wrap: wrap;
+  max-width: 1300px;
 }
 
 /* Newsletter section */
@@ -563,12 +561,13 @@ input:focus {
   height: 310px;
   background-image: url("../images/landing/newsletter-banner.png");
   background-size: cover;
+  display: flex;
+  justify-content: center;
 }
 
 #newsletterCTAWrapper {
-  position: absolute;
-  top: 0px;
-  width: 100%;
+  width: 90%;
+  max-width: 1300px;
   height: 100%;
   display: flex;
   justify-content: flex-end;
@@ -576,7 +575,6 @@ input:focus {
 
 #newsletterCTA {
   width: 500px;
-  margin-right: 65px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -665,44 +663,34 @@ input:focus {
 @media (max-width: 992px) {
 
   #hero {
-    height: 480px;
+    height: 680px;
   }
 
   #rhombusSvg {
-    position: absolute;
-    width: 460px;
-    z-index: 10;
-    top: 110px;
+    width: 576px;
+    top: 90px;
     left: 58px
   }
   
   #characterSvg {
-    position: absolute;
-    width: 332px;
-    z-index: 30;
-    top: 90px;
+    width: 300px;
+    top: 80px;
     left: 122px
   }
-
+  
   #verticalWhirl {
-    left: 400px
+    width: 350px;
+    top: 50px;
+    left: 300px
   }
 
   #whyUsPara {
-    width: 85%
+    width: 90%
   }
 
   #roadmapBack {
     width: 100%;
     background-size: cover;
-  }
-
-  #firstStep {
-    margin-left: 100px;
-  }
-  
-  #secondStep {
-    margin-left: 100px;
   }
 
   .servicesItem {
@@ -714,7 +702,6 @@ input:focus {
   }
 
   #newsletterCTA{
-    margin-right: 2%;
     width: 400px
   }
 
@@ -731,7 +718,8 @@ input:focus {
 @media (max-width: 767px) {
 
   #hero {
-    height: 90vh;
+    height: calc(100vh - 66px);
+    max-height: initial;
   }
 
   #heroText {
@@ -751,7 +739,9 @@ input:focus {
 
   #horizontalWhirl {
     max-width: 90vw; 
-    top: -120px;
+    top: -200px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   #heroIllustration {
@@ -761,32 +751,102 @@ input:focus {
   }
 
   #rhombusSvg {
-    width: 360px;
-    top: -20px;
+    width: 400px;
+    top: inherit;
     left: initial;
-    right: 5%;
+    right: 20px;
+    bottom: 12%;
   }
   
   #characterSvg {
     width: 350px;
-    top: -100px;
+    top: inherit;
     left: initial;
-    right: 2%;
+    right: 30px;
+    bottom: 10%;
   }
   
   #verticalWhirl {
-    width: 300px;
-    top: -100px;
+    width: 250px;
+    top: inherit;
     left: initial;
     right: -150px;
+    bottom: 10px;
   }
 
-  #oasisFeaturesSquare {
-    padding-top: 50px 
+  #oasisFeaturesContent {
+    width: 100%;
+  }
+  
+  #oasisFeaturesText {
+    width: 80%;
+  }
+
+  #featuresTitle {
+    font-size: 1.6em;
+  }
+
+  #featuresSubTitle {
+    width: 100%;
+    font-size: 1em;
+  }
+
+  #featuresDisplay {
+    height: auto;
+    margin-top: -20px;
+  }
+
+  .featuresItem {
+    width: 50%;
+    margin-bottom: 15px;
+  }
+
+  #featuresDisplayTitle {
+    font-size: 1.4em;
+    margin-bottom: 25px;
+  }
+
+  #whyUs {
+    margin-bottom: 0px;
   }
 
   #whyUsTitle {
-    padding-top: 50px;
+    font-size: 1.6em;
+  }
+
+  #roadmapWrapper {
+    width: 100%
+  }
+
+  #roadmapBack {
+    margin-top: 50px;
+  }
+
+  #roadmapWrapper {
+    overflow: visible;
+  }
+
+  #roadmapStepsWrapper {
+    width: 95%;
+    margin: 0px 2.5%;
+    position: relative;
+    margin-top: -430px;
+  }
+
+  .roadmapStep {
+    width: 100%;
+    height: 130px
+  }
+
+  .stepLeft {
+    width: 80px
+  }
+
+  .stepRight {
+    padding: 10px 10px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   #oasisProServices {
@@ -820,22 +880,8 @@ input:focus {
     margin-bottom: 30px;
   }
 
-  #featuresDisplay {
-    height: auto;
-    margin-top: -20px;
-  }
-
-  .featuresItem {
-    width: 50%;
-    margin-bottom: 15px;
-  }
-
-  #featuresDisplayTitle {
-    margin-bottom: 15px;
-  }
-
   #oasisProServices {
-    margin-top: 30px;
+    margin-top: 0px;
     background: var(--bannerGradient);;
   }
 
@@ -848,9 +894,12 @@ input:focus {
     margin-bottom: 30px;
   }
 
+  #recentPostsMain {
+    padding-bottom: 40px;
+  }
+
   #recentPostsTitle {
-    margin-top: 50px;
-    padding: 0px 50px;
+    padding: 0px 30px;
     font-size: 1.1em;
   }
 
@@ -860,7 +909,7 @@ input:focus {
   }
 
   #postsWrapper {
-    padding: 0px 40px
+    padding: 0px 30px
   }
 
   #newsletter {
@@ -875,51 +924,7 @@ input:focus {
   }
   
   #characterSvg {
-    width: 300px;
-  }
-
-  #horizontalWhirl {
-    max-width: 90vw; 
-    top: -30vw;
-  }
-
-  #featuresSubTitle {
-    font-size: 1.1em;
-  }
-
-  #roadmapWrapper {
-    overflow: visible;
-  }
-
-  #roadmapStepsWrapper {
-    width: 95%;
-    margin: 0px 2.5%;
-    position: relative;
-    margin-top: -455px;
-  }
-
-  #roadmapBack {
-    margin-top: 70px;
-  }
-
-  .roadmapStep {
-    width: 100%;
-    height: 130px
-  }
-
-  #firstStep, #secondStep, #thirdStep {
-    margin-left: 0px;
-  }
-
-  .stepLeft {
-    width: 80px
-  }
-
-  .stepRight {
-    padding: 10px 10px 10px 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 250px;
   }
 
   .titleAccentStep {
@@ -938,7 +943,7 @@ input:focus {
 
   #newsletterCTA {
     margin-right: 0px;
-    width: 80%
+    width: 90%
   }
 
   #emailInputWrapper {
@@ -956,11 +961,6 @@ input:focus {
     width: 300px;
   }
 
-  #horizontalWhirl {
-    max-width: 90vw; 
-    top: -30vw;
-  }
-
   #emailInput {
     padding: 0px 10px
   }
@@ -969,7 +969,4 @@ input:focus {
     padding-top: 30px 
   }
 
-  #whyUsTitle {
-    padding-top: 30px;
-  }
 }

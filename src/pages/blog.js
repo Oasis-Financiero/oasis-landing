@@ -123,37 +123,43 @@ function BlogPage({ data }) {
         </div>
       </header>
 
-      <section className={styles.carousel}>
-        <h2 className={styles.titleBold} id={styles.recentPostsTitle}> Nuestros últimos <span className={styles.titleAccent}> blog posts </span> </h2>
-        <div id={styles.recentPostList}>
-          <PostList posts={data.carousel.nodes} style="title-under" carousel={true} />
-        </div>
-      </section>
+      <section id={styles.blogMain}>
+        <div id={styles.blogWrapper}>
 
-      <section id={styles.topicOne}>
-        <div id={styles.topicHeader}>
-          <h2 className={styles.titleAccent} id={styles.topicOneTitle}> Tu guía para el ahorro </h2>
-        </div>
-        <div className={styles.topicPostList}>
-          <PostList posts={data.topicOne.nodes} style="title-under-long" carousel={false} />
-        </div>
-      </section>
+          <section className={styles.carousel}>
+            <h2 className={styles.titleBold} id={styles.recentPostsTitle}> Nuestros últimos <span className={styles.titleAccent}> blog posts </span> </h2>
+            <div id={styles.recentPostList}>
+              <PostList posts={data.carousel.nodes} style="title-under" carousel={true} />
+            </div>
+          </section>
 
-      <section id={styles.bestPosts}>
-        <div id={styles.bestPostsHeader}>
-          <h2 className={styles.titleBold} id={styles.bestPostsTitle}> Hallazgos <span className={styles.titleAccent}> interesantes </span> </h2>
-        </div>
-        <div id={styles.bestPostsList}>
-          <PostList posts={data.tallCards.nodes} style="tall-textInside" carousel={false} />
-        </div>
-      </section>
+          <section id={styles.topicOne}>
+            <div id={styles.topicHeader}>
+              <h2 className={styles.titleAccent} id={styles.topicOneTitle}> Tu guía para el ahorro </h2>
+            </div>
+            <div className={styles.topicPostList}>
+              <PostList posts={data.topicOne.nodes} style="title-under-long" carousel={false} />
+            </div>
+          </section>
 
-      <section id={styles.topicTwo}>
-        <div id={styles.topicHeader}>
-          <h2 className={styles.titleAccent} id={styles.topicOneTitle}> ¿Te interesa comenzar a invertir? </h2>
-        </div>
-        <div className={styles.topicPostList}>
-          <PostList posts={data.topicTwo.nodes} style="title-under-long" carousel={false} />
+          <section id={styles.bestPosts}>
+            <div id={styles.bestPostsHeader}>
+              <h2 className={styles.titleBold} id={styles.bestPostsTitle}> Hallazgos <span className={styles.titleAccent}> interesantes </span> </h2>
+            </div>
+            <div id={styles.bestPostsList}>
+              <PostList posts={data.tallCards.nodes} style="tall-textInside" carousel={false} />
+            </div>
+          </section>
+
+          <section id={styles.topicTwo}>
+            <div id={styles.topicHeader}>
+              <h2 className={styles.titleAccent} id={styles.topicOneTitle}> ¿Te interesa comenzar a invertir? </h2>
+            </div>
+            <div className={styles.topicPostList}>
+              <PostList posts={data.topicTwo.nodes} style="title-under-long" carousel={false} />
+            </div>
+          </section>
+
         </div>
       </section>
 

@@ -68,65 +68,66 @@ function IndexPage({ data }) {
       />
 
       <section id={styles.hero}>
-        <div id={styles.heroText}>
-          <img id={styles.horizontalWhirl} src={horizontal}></img>
-          <div id={styles.textWrapper}>
-            <h1 className={styles.titleThin} id={styles.heroFirstLine}> TRANSFORMA TU </h1>
-            <h1 className={styles.titleBold} id={styles.heroSecondLine}> VIDA FINANCIERA </h1>
-            <p className={styles.paraText} id={styles.heroParagraph}>
-              Oasis es el primer sitio en México que te acompaña paso a paso en el viaje para mejorar tus finanzas. Sin costos. Sin complicaciones.
-            </p>
-            <div id={styles.heroButtons}>
-              <button className={styles.purpleBtn}> Únete ahora </button>
-              <button className={styles.transparentBtn} id={styles.moreBtn}> Conocer más </button>
+        <div id={styles.heroContent}>
+          <div id={styles.heroText}>
+            <img id={styles.horizontalWhirl} src={horizontal}></img>
+            <div id={styles.textWrapper}>
+              <h1 className={styles.titleThin} id={styles.heroFirstLine}> TRANSFORMA TU </h1>
+              <h1 className={styles.titleBold} id={styles.heroSecondLine}> VIDA FINANCIERA </h1>
+              <p className={styles.subTitle} id={styles.heroParagraph}>
+                Oasis es el primer sitio en México que te acompaña paso a paso en el viaje para mejorar tus finanzas. Sin costos. Sin complicaciones.
+              </p>
+              <div id={styles.heroButtons}>
+                <button className={styles.purpleBtn}> Únete ahora </button>
+                <button className={styles.transparentBtn} id={styles.moreBtn}> Conocer más </button>
+              </div>
             </div>
           </div>
-        </div>
-        <div id={styles.heroIllustration}>
-          <img id={styles.characterSvg} src={character}></img>
-          <img id={styles.rhombusSvg} src={rhombus}></img>
-          <img id={styles.verticalWhirl} src={vertical}></img>
+          <div id={styles.heroIllustration}>
+            <div id={styles.illustrationWrapper}>
+              <img id={styles.characterSvg} src={character}></img>
+              <img id={styles.rhombusSvg} src={rhombus}></img>
+              <img id={styles.verticalWhirl} src={vertical}></img>
+            </div>
+          </div>
         </div>
       </section>
 
       <section id={styles.oasisFeatures}>
-        <div id={styles.oasisFeaturesSquare}>
+        <div id={styles.oasisFeaturesContent}>
           <div id={styles.oasisFeaturesText}>
             <h2 className={styles.titleSemiBold} id={styles.featuresTitle}> APRENDE, COMPARA <span className={styles.titleAccentBlack}> Y ELIGE </span></h2>
-            <h3 className={styles.subTitle} id={styles.featuresSubTitle}> entre los servicios financieros que ofrecen las Fintech y los Bancos tradicionales </h3>
-            <p className={styles.paraText} id={styles.featuresPara}> Compara los productos financieros que mejor se adapten a tus necesidades. Personaliza tu experiencia y encuentra opciones alternativas a los bancos. </p>
+            <p className={styles.subTitle} id={styles.featuresSubTitle}> Compara los productos financieros que mejor se adapten a tus necesidades. Personaliza tu experiencia y encuentra opciones alternativas a los bancos. </p>
           </div>
-          <div id={styles.featuresMainWrapper}>
-            <div id={styles.featuresMain}>
-              <div id={styles.userPicWrapper}>
-                <img className={styles.userPic} src={man}></img>
-                <img className={styles.userPic} src={woman}></img>
-              </div>
-              <div id={styles.featuresDisplay}>
-                <div id={styles.featuresDisplayTitle} className={styles.titleThin}> COMPARA Y <span className={styles.titleAccent}> AHORRA </span> </div>
-                <div id={styles.featuresWrapper}>
-                  <div className={styles.featuresItem}> 
-                    <img className={styles.featuresItemImg} src={tarjeta}></img>
-                    <div className={styles.titleAccentFeat}> Tarjetas de credito </div>
-                    <div className={styles.titleThinFeat}> 0% de comisión </div>
-                  </div>
-                  <div className={styles.featuresItem}> 
-                    <img className={styles.featuresItemImg} src={alcancia}></img>
-                    <div className={styles.titleAccentFeat}> Cuentas de ahorro </div>
-                    <div className={styles.titleThinFeat}> Gana hasta 1.20% </div>
-                  </div>
-                  <div className={styles.featuresItem}> 
-                    <img className={styles.featuresItemImg} src={coche}></img>
-                    <div className={styles.titleAccentFeat}> Seguro de auto </div>
-                    <div className={styles.titleThinFeat}> 60 aseguradoras </div>
-                  </div>
-                  <div className={styles.featuresItem}> 
-                    <img className={styles.featuresItemImg} src={prestamo}></img>
-                    <div className={styles.titleAccentFeat}> Prestamos </div>
-                    <div className={styles.titleThinFeat}> Tasas desde 4.45% </div>
-                  </div>
-                </div> 
-              </div>
+          <div id={styles.featuresMain}>
+            <div id={styles.userPicWrapper}>
+              <img className={styles.userPic} src={man}></img>
+              <img className={styles.userPic} src={woman}></img>
+            </div>
+            <div id={styles.featuresDisplay}>
+              <div id={styles.featuresDisplayTitle} className={styles.titleThin}> COMPARA Y <span className={styles.titleAccent}> AHORRA </span> </div>
+              <div id={styles.featuresWrapper}>
+                <div className={styles.featuresItem}> 
+                  <img className={styles.featuresItemImg} src={tarjeta}></img>
+                  <div className={styles.titleAccentFeat}> Tarjetas de credito </div>
+                  <div className={styles.titleThinFeat}> 0% de comisión </div>
+                </div>
+                <div className={styles.featuresItem}> 
+                  <img className={styles.featuresItemImg} src={alcancia}></img>
+                  <div className={styles.titleAccentFeat}> Cuentas de ahorro </div>
+                  <div className={styles.titleThinFeat}> Gana hasta 1.20% </div>
+                </div>
+                <div className={styles.featuresItem}> 
+                  <img className={styles.featuresItemImg} src={coche}></img>
+                  <div className={styles.titleAccentFeat}> Seguro de auto </div>
+                  <div className={styles.titleThinFeat}> 60 aseguradoras </div>
+                </div>
+                <div className={styles.featuresItem}> 
+                  <img className={styles.featuresItemImg} src={prestamo}></img>
+                  <div className={styles.titleAccentFeat}> Prestamos </div>
+                  <div className={styles.titleThinFeat}> Tasas desde 4.45% </div>
+                </div>
+              </div> 
             </div>
           </div>
         </div>
@@ -192,7 +193,7 @@ function IndexPage({ data }) {
             <div className={styles.servicesItem}>
               <div className={styles.servIconWrapper}><img className={styles.servicesIcon} id={styles.groupImg} src={grupo}></img></div>
               <h3 className={styles.servicesTitle}> Inclusión financiera </h3>
-              <p className={styles.servicesPara}> Damos visibilidad y acercamos opciones financieras que se adaptan a tus necesidades. </p>
+              <p className={styles.servicesPara}> Damos visibilidad a opciones financieras que se adaptan a tus necesidades. </p>
             </div>
           </div>
         </div>
@@ -200,14 +201,15 @@ function IndexPage({ data }) {
 
       <section id={styles.recentPosts}>
 
-        <div id={styles.recentPostsTitle}>
-          <h2 className={styles.titleBold}> Te ayudaremos a tomar las decisiones <span className={styles.titleAccent}> financieras correctas </span> </h2>
+        <div id={styles.recentPostsMain}>
+          <div id={styles.recentPostsTitle}>
+            <h2 className={styles.titleBold}> Te ayudaremos a tomar las decisiones <span className={styles.titleAccent}> financieras correctas </span> </h2>
+          </div>
+          <div id={styles.linkToBlog}> <Link to="/blog" id={styles.blogLink}> Ver más </Link> </div>
+          <div id={styles.postsWrapper}>
+            <PostList posts={posts} style="title-under" carousel={true} />
+          </div>
         </div>
-        <div id={styles.linkToBlog}> <Link to="/blog" id={styles.blogLink}> Ver más </Link> </div>
-        <div id={styles.postsWrapper}>
-          <PostList posts={posts} style="title-under" carousel={true} />
-        </div>
-        
 
       </section>
 
