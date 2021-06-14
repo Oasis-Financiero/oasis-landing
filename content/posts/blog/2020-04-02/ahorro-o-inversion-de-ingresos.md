@@ -1,6 +1,6 @@
 --- 
 date: '2020-04-02' 
-title: 'Ahorro o inversión ¿Qué hacer con tus ingresos?' 
+title: 'Ahorro o inversión: ¿Qué hacer con tus ingresos?' 
 image: 'registro-de-gastos.png'
 imageAlt: 'El buen manejo de tus ingresos es esencial'
 tags: ["inversion"]

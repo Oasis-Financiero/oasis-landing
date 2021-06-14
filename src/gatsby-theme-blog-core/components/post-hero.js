@@ -17,7 +17,7 @@ const PostHero = ({ post }) => (
 )
 
 PostHero.propTypes = {
-    post: PropTypes.node.isRequired,
+    post: PropTypes.any.isRequired,
 }
 
 export default PostHero

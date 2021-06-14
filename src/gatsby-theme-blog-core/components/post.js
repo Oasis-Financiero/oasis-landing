@@ -20,6 +20,7 @@ import linkedin from "../../images/social/linkedin-dark.svg";
 moment.locale('es')
 
 const Post = ({ data }) => {
+  console.log(data)
   const post = data.blogPost
   return (
     <Layout page="blogpost">
@@ -34,7 +35,11 @@ const Post = ({ data }) => {
         <header>
           <PostTitle className={styles.title}>{post.title}</PostTitle>
           <div className={styles.shareRow}>
-            <PostDate className={styles.date} date={post.date}>{moment(post.date).format('DD [de] MMMM, YYYY')}</PostDate>
+            <div id={styles.postData}>
+              <span id={styles.author}>{post.author}</span>
+              <PostDate className={styles.date} date={post.date}>{moment(post.date).format('DD [de] MMMM, YYYY')}</PostDate>
+            </div>
+
             <div className={styles.iconsPanel} >
               <a href={`https://www.facebook.com/sharer/sharer.php?u=https://oasisfinanciero.mx${post.slug}`}>
                 <img
@@ -60,8 +65,9 @@ const Post = ({ data }) => {
             </div>
             
           </div>
-          
-          <PostHero post={post} className={styles.hero}/>
+          <div className={styles.hero}>
+            <PostHero post={post}/>
+          </div>
         </header>
         <section className={styles.body}>
           <MDXProvider

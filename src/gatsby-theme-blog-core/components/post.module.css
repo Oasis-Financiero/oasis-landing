@@ -40,11 +40,11 @@ ul {
 #articleWindow {
     display: flex;
     justify-content: center;
-    padding: 50px 0px;
+    padding: 70px 0px;
 }
 
 #article {
-    width: 90%;
+    width: 85%;
     max-width: 800px
 }
 
@@ -61,7 +61,7 @@ ul {
 .title {
     font-family: Poppins;
     font-size: 2em;
-    margin-bottom: 8px;
+    margin-bottom: 15px;
     color: #333333;
 }
 
@@ -71,13 +71,17 @@ ul {
     margin-bottom: 5px;
 }
 
-.date {
+#postData {
     padding-left: 3px;
     font-size: 1em;
     font-family: Poppins;
     color: #333333;
     line-height: 25px;
     vertical-align: middle;
+}
+
+.date {
+
 }
 
 .iconsPanel {
@@ -87,7 +91,7 @@ ul {
 
 .socialIcon {
     margin: 0px 3px;
-    width: 22px;
+    width: 18px;
     display: inline-block;
 }
 
@@ -104,7 +108,7 @@ ul {
 @media (max-width: 790px) { 
 
     #articleWindow {
-        padding: 30px 0px;
+        padding: 35px 0px;
     }
 
     .title {
@@ -118,12 +122,9 @@ ul {
 }
 
 @media (max-width: 576px) { 
+
     .body{
         font-size: 1em !important;
-    }
-
-    #articleWindow {
-        padding: 5vw 0px;
     }
 
 }

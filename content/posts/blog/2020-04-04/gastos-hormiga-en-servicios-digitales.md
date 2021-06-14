@@ -1,5 +1,6 @@
 --- 
 date: '2020-04-04' 
+author: 'Genaro Corona'
 title: 'Servicios digitales, gastos hormiga para los Millennials' 
 image: 'gastos-en-linea.png'
 imageAlt: 'Los gastos hormiga por internet se han vuelto mas comunes'
