@@ -163,6 +163,10 @@ input:focus {
   width: 80%
 }
 
+#bannerSpan {
+  display: block;
+}
+
 #blogMain {
   display: flex;
   justify-content: center;
@@ -258,6 +262,10 @@ input:focus {
 
   #bannerSubTitle {
     font-size: 1em;
+  }
+
+  #bannerSpan {
+    display: initial;
   }
 
   #bestPostsList {

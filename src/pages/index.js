@@ -96,7 +96,7 @@ function IndexPage({ data }) {
       <section id={styles.oasisFeatures}>
         <div id={styles.oasisFeaturesContent}>
           <div id={styles.oasisFeaturesText}>
-            <h2 className={styles.titleSemiBold} id={styles.featuresTitle}> APRENDE, COMPARA <span className={styles.titleAccentBlack}> Y ELIGE </span></h2>
+            <h2 className={styles.titleSemiBold} id={styles.featuresTitle}> APRENDE, COMPARA <span className={styles.titleAccentBlack} id={styles.featuresTitleSpan}> Y ELIGE </span></h2>
             <p className={styles.subTitle} id={styles.featuresSubTitle}> Compara los productos financieros que mejor se adapten a tus necesidades. Personaliza tu experiencia y encuentra opciones alternativas a los bancos. </p>
           </div>
           <div id={styles.featuresMain}>
@@ -217,7 +217,7 @@ function IndexPage({ data }) {
         <div id={styles.newsletterCTAWrapper}>
           <div id={styles.newsletterCTA}>
             <h3 className={styles.titleAccent} id={styles.newsletterCTATitle}> NEWSLETTER </h3>
-            <h2 className={styles.titleBold} id={styles.newsletterCTAAction}> Suscríbase al boletín de Oasis </h2>
+            <h2 className={styles.titleBold} id={styles.newsletterCTAAction}> Suscríbete al boletín de Oasis </h2>
             <div className={styles.subTitle} id={styles.newsletterCTAText}> Regístrate para recibir nuestros mejores tips y ser de los primeros en tener acceso a nuestro comparador. </div>
             <div className={styles.subTitle} id={styles.acceptPrompt}> <input type="checkbox" id={styles.privacyCheck}/> <span id={styles.acceptText}> Acepto las políticas de privacidad de Oasis </span></div>
             <div className={styles.titleThin} id={styles.emailInputWrapper}>
