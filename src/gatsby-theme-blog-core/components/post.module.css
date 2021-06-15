@@ -1,31 +1,32 @@
 @font-face {
-    font-family: 'Hind';
-    src:  url('../../fonts/Hind-Regular.woff2') format('woff2'),
-          url('../../fonts/Hind-Regular.woff') format('woff'),
-          url('../../fonts/Hind-Regular.ttf') format('truetype');
+    font-family: 'Poppins';
+    src:  url('../../fonts/Poppins-Regular.woff2') format('woff2'),
+          url('../../fonts/Poppins-Regular.woff') format('woff'),
+          url('../../fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
 }
 
 @font-face {
-    font-family: 'Hind';
-    src:  url('../../fonts/Hind-Bold.woff2') format('woff2'),
-          url('../../fonts/Hind-Bold.woff') format('woff'),
-          url('../../fonts/Hind-Bold.ttf') format('truetype');
-    font-weight: bold;
+    font-family: 'Poppins';
+    src:  url('../../fonts/Poppins-Bold.woff2') format('woff2'),
+          url('../../fonts/Poppins-Bold.woff') format('woff'),
+          url('../../fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: 700;
 }
 
 @font-face {
-    font-family: 'Open-Sans';
-    src:  url('../../fonts/OpenSans-Regular.woff2') format('woff2'),
-          url('../../fonts/OpenSans-Regular.woff') format('woff'),
-          url('../../fonts/OpenSans-Regular.ttf') format('truetype');
+    font-family: 'Nunito';
+    src:  url('../../fonts/NunitoSans-Regular.woff2') format('woff2'),
+          url('../../fonts/NunitoSans-Regular.woff') format('woff'),
+          url('../../fonts/NunitoSans-Regular.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Open-Sans';
-    src:  url('../../fonts/OpenSans-Bold.woff2') format('woff2'),
-          url('../../fonts/OpenSans-Bold.woff') format('woff'),
-          url('../../fonts/OpenSans-Bold.ttf') format('truetype');
-    font-weight: bold;
+    font-family: 'Nunito';
+    src:  url('../../fonts/NunitoSans-Bold.woff2') format('woff2'),
+          url('../../fonts/NunitoSans-Bold.woff') format('woff'),
+          url('../../fonts/NunitoSans-Bold.ttf') format('truetype');
+    font-weight: 700;
 }
 
 ul li {
@@ -36,10 +37,31 @@ ul {
     margin-left: 20px;
 }
 
+#articleWindow {
+    display: flex;
+    justify-content: center;
+    padding: 70px 0px;
+}
+
+#article {
+    width: 85%;
+    max-width: 800px
+}
+
+.articleSubtitle {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.articlePara {
+
+}
+
 .title {
-    font-family: Hind, 'Segoe UI', sans-serif;
+    font-family: Poppins;
     font-size: 2em;
-    margin-bottom: 8px;
+    margin-bottom: 15px;
     color: #333333;
 }
 
@@ -49,11 +71,17 @@ ul {
     margin-bottom: 5px;
 }
 
-.date {
+#postData {
     padding-left: 3px;
     font-size: 1em;
-    font-family: Hind, 'Segoe UI', sans-serif;
+    font-family: Poppins;
     color: #333333;
+    line-height: 25px;
+    vertical-align: middle;
+}
+
+.date {
+
 }
 
 .iconsPanel {
@@ -63,7 +91,7 @@ ul {
 
 .socialIcon {
     margin: 0px 3px;
-    width: 22px;
+    width: 18px;
     display: inline-block;
 }
 
@@ -73,12 +101,30 @@ ul {
 
 .body {
     padding: 0px 5px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Open-Sans, Helvetica, sans-serif;
+    font-family: Nunito;
     font-size: 1.15em !important;
 }
 
+@media (max-width: 790px) { 
+
+    #articleWindow {
+        padding: 35px 0px;
+    }
+
+    .title {
+        font-size: 1.60em;
+    }
+
+    .date {
+        font-size: .9em;
+    }
+
+}
+
 @media (max-width: 576px) { 
+
     .body{
         font-size: 1em !important;
     }
- }
+
+}

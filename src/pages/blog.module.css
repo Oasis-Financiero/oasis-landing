@@ -1,27 +1,299 @@
 @font-face {
-    font-family: 'Hind';
-    src:  url('../fonts/Hind-Regular.woff2') format('woff2'),
-          url('../fonts/Hind-Regular.woff') format('woff'),
-          url('../fonts/Hind-Regular.ttf') format('truetype');
+    font-family: 'Poppins';
+    src:  url('../fonts/Poppins-Regular.woff2') format('woff2'),
+          url('../fonts/Poppins-Regular.woff') format('woff'),
+          url('../fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
 }
 
 @font-face {
-    font-family: 'Hind';
-    src:  url('../fonts/Hind-Bold.woff2') format('woff2'),
-          url('../fonts/Hind-Bold.woff') format('woff'),
-          url('../fonts/Hind-Bold.ttf') format('truetype');
-    font-weight: bold;
+  font-family: 'Poppins';
+  src:  url('../fonts/Poppins-Black.woff2') format('woff2'),
+        url('../fonts/Poppins-Black.woff') format('woff'),
+        url('../fonts/Poppins-Black.ttf') format('truetype');
+  font-weight: 800;
 }
 
-.blogTitle {
-    font-family: Hind, 'Segoe UI', sans-serif;
-    color: #333333;
-    text-align: center;
-    margin-bottom: 30px;
+@font-face {
+    font-family: 'Poppins';
+    src:  url('../fonts/Poppins-Bold.woff2') format('woff2'),
+          url('../fonts/Poppins-Bold.woff') format('woff'),
+          url('../fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: 700;
 }
 
-.postList {
-    display: flex;
-    align-items: stretch;
-    flex-wrap: wrap;
+@font-face {
+  font-family: 'Poppins';
+  src:  url('../fonts/Poppins-SemiBold.woff2') format('woff2'),
+        url('../fonts/Poppins-SemiBold.woff') format('woff'),
+        url('../fonts/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src:  url('../fonts/Poppins-Medium.woff2') format('woff2'),
+        url('../fonts/Poppins-Medium.woff') format('woff'),
+        url('../fonts/Poppins-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src:  url('../fonts/Poppins-Light.woff2') format('woff2'),
+          url('../fonts/Poppins-Light.woff') format('woff'),
+          url('../fonts/Poppins-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src:  url('../fonts/NunitoSans-Regular.woff2') format('woff2'),
+          url('../fonts/NunitoSans-Regular.woff') format('woff'),
+          url('../fonts/NunitoSans-Regular.ttf') format('truetype');
+}
+
+:root {
+  --titleBlue: #526A9B;
+  --subTitleGray: #494949;
+  --paraTextGray: #5B5766;
+  --accentPurple: #6B5FB9;
+  --backgroundBlue: #F1F4F8;
+  --itemBlue: #F0F6F9;
+  --bannerGradient: linear-gradient(#F1F4F8, #ECFEFB)
+}
+
+/* * { border: 1px solid goldenrod; }
+  */
+.title{
+  font-family: Poppins;
+  color: var(--titleBlue);
+  font-weight: 400;
+}
+
+.titleWhite {
+  composes: title;
+  color: #ffffff;
+}
+
+.subTitle {
+  composes: title;
+  color: var(--subTitleGray);
+  font-weight: 500;
+}
+
+.titleThin {
+  composes: title;
+  font-weight: 300;
+}
+
+.titleSemiBold {
+  composes: title;
+  font-weight: 600;
+}
+
+.titleBold {
+  composes: title;
+  font-weight: 700;
+}
+
+.titleBoldWhite {
+  composes: titleBold;
+  color: #ffffff
+}
+
+.titleAccent {
+  composes: title;
+  font-weight: 700;
+  color: var(--accentPurple)
+}
+
+.titleAccentBlack {
+  composes: titleAccent;
+  font-weight: 800;
+}
+
+.paraText {
+  font-family: Nunito;
+  color: var(--paraTextGray);
+}
+
+.paraTextWhite {
+  composes: paraText;
+  color: #ffffff;
+}
+
+input:focus {
+  outline: none;
+}
+
+#mobileHeader {
+  display: none;
+  width: 100%;
+}
+
+#blogHeader {
+  height: 300px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  background-image: url("../images/blog/blogbanner.png");
+  background-size: cover;
+  background-position: center
+}
+
+#bannerText {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#bannerTitle {
+  font-size: 1.7rem;
+  width: 80%
+}
+
+#bannerSubTitle {
+  margin-top: 5px;
+  font-size: 1.1em;
+  font-weight: initial;
+  width: 80%
+}
+
+#bannerSpan {
+  display: block;
+}
+
+#blogMain {
+  display: flex;
+  justify-content: center;
+}
+
+#blogWrapper {
+  width: 100%;
+  max-width: 1300px;
+}
+
+/* ------------ Recent posts section -------------- */
+
+#recentPostsTitle {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#recentPostList {
+  margin-top: 25px;
+  padding: 0px calc(60px + 1%);
+}
+
+
+
+/* ------------ Best posts section -------------- */
+
+#bestPosts{
+  margin-top: 20px;
+}
+
+#bestPostsTitle {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+#bestPostsList {
+  padding: 0px calc(60px + .6%);
+}
+
+
+/* ------------ Topical sections -------------- */
+
+#topicOne {
+  margin-top: 40px;
+}
+
+#topicTwo {
+  margin-top: 30px;
+  margin-bottom: 40px
+}
+
+#topicHeader {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(#F1F4F8, #ECFEFB);
+  margin: 0px calc(60px + 1%)
+}
+
+#topicOneTitle {
+  text-align: center;
+}
+
+.topicPostList {
+  padding: 0px calc(60px + .6%);
+}
+
+@media screen and (max-width: 539px) {
+
+  #mobileHeader {
+    display: block;
+  }
+
+  #blogHeader {
+    background-image: none;
+    background-color: #9D94BF;
+    background-size: cover;
+    flex-direction: column;
+    height: auto;
+    padding: 40px 0px;
+  }
+
+  #bannerText {
+    width: 100%;
+    height: 100%;
+  }
+
+  #bannerTitle {
+    font-size: 1.5rem;
+  }
+
+  #bannerSubTitle {
+    font-size: 1em;
+  }
+
+  #bannerSpan {
+    display: initial;
+  }
+
+  #bestPostsList {
+    padding: 0px 7.6%;
+  }
+
+  #recentPostList {
+    margin-top: 25px;
+    padding: 0px 8%;
+  }
+
+  #topicHeader {
+    margin: 0px 8%;
+  }
+
+  .topicPostList {
+    padding: 0px 7.6%;
+  }
+
+  #topicOne {
+    margin-top: 0px;
+  }
+
+  #topicTwo {
+    margin-top: 20px;
+  }
+
+  #bestPosts{
+    margin-top: 0px;
+  }
 }

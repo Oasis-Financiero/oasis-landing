@@ -19,6 +19,6 @@ Para reducir este gasto, es recomendable comparar las promociones que ofrecen la
 
 En cuanto a preferencias, en general por la comodidad y seguridad, se opta por el uso de auto. Toma en cuenta que si pides Uber y eres el único pasajero, podrías estar contribuyendo a generar más tráfico. Considera usar scooter o una bike si es hora pico y tu destino está a menos de 20 minutos además de ayudar a generar cero emisiones de CO2. <br/><br/>
 
-Próximamente en ***[Oasis Financiero](https://www.oasisfinanciero.mx)*** podrás comparar todas las opciones Fintech y de Banca tradicional en una sola plataforma. <br/><br/>
+Próximamente en **[Oasis Financiero](https://www.oasisfinanciero.mx)** podrás comparar todas las opciones Fintech y de Banca tradicional en una sola plataforma. <br/><br/>
 
 Síguenos en nuestras páginas de **[Facebook](https://facebook.com/oasisfinanciero)**, **[LinkedIn](https://www.linkedin.com/company/oasisfinanciero/)** y **[Twitter](https://twitter.com/oasisfintech)**.

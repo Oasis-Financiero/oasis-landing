@@ -12,7 +12,7 @@ Actualmente la mayoría de los bancos ofrecen cuentas digitales, lo cuál facili
 Las cuentas de ahorro digitales te permiten abrir una cuenta en 5 minutos desde tu teléfono, sólo necesitas tu INE, pasaporte o tarjeta de residencia y llenar datos personales. Además podrás contar con una tarjeta digital que te servirá para realizar compras en línea. En la mayoría de las cuentas puedes pagar servicios (agua, luz, gas, cable, etc), realizar transferencias SPEI y pedir el envío de la tarjeta física. El soporte a clientes puede ser por medio de Whatsapp, lo que hace que la respuesta sea más rápida y en algunos casos es 24/7. <br/><br/>
 
 ## Comisiones
-<br/>
+
 Uno de los puntos más fuertes que tienen las cuentas de ahorro digitales que brindan las Fintech, son las comisiones más bajas o incluso, sin comisión en algunos servicios. Estos son algunos ejemplos en donde no se cobra comisión. <br/><br/>
 
 ![Comisiones de cuentas de ahorro](comisiones.png)<br/>
@@ -27,6 +27,6 @@ Otro punto a favor es que pueden ofrecerte la opción de administración de gast
 
 Te recomendamos darte la oportunidad de probar alguna de las cuentas bancarias digitales y comparar con las cuentas de bancos tradicionales. <br/><br/>
 
-Próximamente en ***[Oasis Financiero](https://www.oasisfinanciero.mx)*** podrás comparar todas las opciones Fintech y de Banca tradicional en una sola plataforma. <br/><br/>
+Próximamente en **[Oasis Financiero](https://www.oasisfinanciero.mx)** podrás comparar todas las opciones Fintech y de Banca tradicional en una sola plataforma. <br/><br/>
 
 Síguenos en nuestras páginas de **[Facebook](https://facebook.com/oasisfinanciero)**, **[LinkedIn](https://www.linkedin.com/company/oasisfinanciero/)** y **[Twitter](https://twitter.com/oasisfintech)**.

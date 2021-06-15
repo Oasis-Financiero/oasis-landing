@@ -1,0 +1,981 @@
+@font-face {
+    font-family: 'Poppins';
+    src:  url('../fonts/Poppins-Regular.woff2') format('woff2'),
+          url('../fonts/Poppins-Regular.woff') format('woff'),
+          url('../fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src:  url('../fonts/Poppins-Black.woff2') format('woff2'),
+        url('../fonts/Poppins-Black.woff') format('woff'),
+        url('../fonts/Poppins-Black.ttf') format('truetype');
+  font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src:  url('../fonts/Poppins-Bold.woff2') format('woff2'),
+          url('../fonts/Poppins-Bold.woff') format('woff'),
+          url('../fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src:  url('../fonts/Poppins-SemiBold.woff2') format('woff2'),
+        url('../fonts/Poppins-SemiBold.woff') format('woff'),
+        url('../fonts/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src:  url('../fonts/Poppins-Medium.woff2') format('woff2'),
+        url('../fonts/Poppins-Medium.woff') format('woff'),
+        url('../fonts/Poppins-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src:  url('../fonts/Poppins-Light.woff2') format('woff2'),
+          url('../fonts/Poppins-Light.woff') format('woff'),
+          url('../fonts/Poppins-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src:  url('../fonts/NunitoSans-Regular.woff2') format('woff2'),
+          url('../fonts/NunitoSans-Regular.woff') format('woff'),
+          url('../fonts/NunitoSans-Regular.ttf') format('truetype');
+}
+
+:root {
+  --titleBlue: #526A9B;
+  --subTitleGray: #494949;
+  --paraTextGray: #5B5766;
+  --accentPurple: #6B5FB9;
+  --backgroundBlue: #F1F4F8;
+  --itemBlue: #F0F6F9;
+  --bannerGradient: linear-gradient(#F1F4F8, #ECFEFB)
+}
+
+/* * { border: 1px solid goldenrod; }
+ */
+.title{
+  font-family: Poppins;
+  color: var(--titleBlue);
+  font-weight: 400;
+}
+
+.subTitle {
+  composes: title;
+  color: var(--subTitleGray);
+  font-weight: 500;
+}
+
+.titleThin {
+  composes: title;
+  font-weight: 300;
+}
+
+.titleSemiBold {
+  composes: title;
+  font-weight: 600;
+}
+
+.titleBold {
+  composes: title;
+  font-weight: 700;
+}
+
+.titleAccent {
+  composes: title;
+  font-weight: 700;
+  color: var(--accentPurple)
+}
+
+.titleAccentBlack {
+  composes: titleAccent;
+  font-weight: 800;
+}
+
+.paraText {
+  font-family: Nunito;
+  color: var(--paraTextGray);
+}
+
+input:focus {
+  outline: none;
+}
+
+
+/* ----------- Hero section -------------- */
+
+#hero {
+  background-image: url("../images/landing/heroback.png");
+  height: calc(100vh - 66px);
+  max-height: 750px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#heroContent {
+  width: 90%;
+  max-width: 1300px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+#heroText {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#textWrapper {
+  width: 100%;
+}
+
+#heroFirstLine, #heroSecondLine {
+  font-size: 2.6em;
+  line-height: 1.3em;
+}
+
+#heroParagraph {
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+#heroIllustration {
+  flex-grow: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#illustrationWrapper {
+  position: relative;
+  height: 450px;
+  width: 100%;
+}
+
+#rhombusSvg {
+  position: absolute;
+  width: 576px;
+  z-index: 10;
+  top: 15px;
+  left: 58px
+}
+
+#characterSvg {
+  position: absolute;
+  width: 418px;
+  z-index: 30;
+  top: 0px;
+  left: 122px
+}
+
+#verticalWhirl {
+  position: absolute;
+  width: 396px;
+  z-index: 20;
+  top: 0px;
+  left: 450px
+}
+
+#horizontalWhirl {
+  position: absolute;
+  width: 360px;
+  z-index: 20;
+  top: -150px;
+  left: 50px
+}
+
+#heroButtons {
+  margin-top: 23px;
+  display: flex;
+  column-gap: 10px
+}
+
+.purpleBtn {
+  height: 40px;
+  background-color: var(--accentPurple);
+  border-radius: 500px;
+  padding: 12.5px 20px;
+  line-height: 10px;
+  vertical-align: middle;
+  font-size: .75em;
+  font-family: Poppins;
+  font-weight: 600;
+  color: #ffffff
+}
+
+.transparentBtn {
+  composes: purpleBtn;
+  background-color: initial;
+  color: var(--accentPurple);
+}
+
+
+/* Oasis features section */
+
+#oasisFeatures {
+  display: flex;
+  justify-content: center;
+  background-color: var(--backgroundBlue);
+}
+
+#oasisFeaturesContent {
+  width: 90%;
+  max-width: 1300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 75px;
+  padding-bottom: 80px;
+}
+
+#oasisFeaturesText {
+  width: 100%;
+}
+
+#featuresTitle {
+  font-size: 2em;
+}
+
+#featuresSubTitle {
+  margin-top: 5px;
+  display: inline-block;
+  width: 75%;
+  font-size: 1em;
+  margin-top: 5px;
+}
+
+#featuresMain {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#userPicWrapper {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+  background-color: white;
+}
+
+.userPic {
+  width: 50%
+}
+
+#featuresDisplay {
+  height: 220px;
+  width: 90%;
+  background-color: white;
+  margin-top: -120px;
+  padding: 15px 20px;
+  box-shadow: 0 1px 10px 5px rgba(50,50,50,.2);
+  display: flex;
+  flex-direction: column;
+}
+
+#featuresDisplayTitle {
+  font-size: 1.8em;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#featuresWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.featuresItem {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.featuresItemImg {
+  width: 50px;
+}
+
+.titleAccentFeat {
+  composes: titleAccent;
+  font-size: 1em;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.titleThinFeat {
+  composes: titleThin;
+  font-size: .8em;
+  text-align: center;
+}
+
+
+
+/* Roadmap section */
+
+#oasisRoadmap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 65px;
+  padding-bottom: 50px;
+}
+
+#whyUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  width: 90%;
+  max-width: 1300px;
+}
+
+#whyUsTitle {
+  display: inline-flex;
+  font-size: 1.8em;
+}
+
+#whyUsPara {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1em;
+  width: 75%
+}
+
+#roadmapWrapper {
+  position: relative;
+  overflow: hidden;
+  height: 414px;
+  width: 90%;
+  max-width: 1300px;
+}
+
+#roadmapBack {
+  height: 100%;
+  width: 850px;
+  background-image: url("../images/landing/roadmap.png");
+  background-size: contain;
+  background-position: top left;
+}
+
+#roadmapStepsWrapper {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.roadmapStep {
+  width: 500px;
+  height: 120px;
+  background-color: var(--itemBlue);
+  display: flex;
+}
+
+.stepLeft {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stepNumber {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  color: var(--titleBlue);
+  font-weight: bold;
+  font-family: Poppins;
+  font-size: 1.1em;
+}
+
+.stepRight {
+  width: 350px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.titleAccentStep {
+  composes: titleAccent;
+  margin-top: 10px;
+}
+
+.stepPara {
+  margin-top: 3px;
+  font-family: Poppins;
+  color: var(--paraTextGray);
+  font-size: .8em
+}
+
+/* Oasis Professional services section */
+
+#oasisProServices {
+  position: relative;
+  height: 260px;
+}
+
+#servicesRow {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.leftServWrapper {
+  flex-grow: 1;
+  width: 420px;
+  z-index: 10;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.rightServWrapper {
+  composes: leftServWrapper;
+  justify-content: flex-start;
+}
+
+.centerServWrapper {
+  width: 420px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+}
+
+.servicesItem {
+  width: 280px;
+  padding: 0px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.servIconWrapper {
+  height: 52px;
+  display: flex;
+  align-items: center;
+}
+
+.servicesTitle {
+  composes: titleAccent;
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+.servicesPara {
+  composes: paraText;
+  font-size: .9em;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#qualityImg {
+  width: 50px
+}
+
+#helpImg {
+  width: 70px
+}
+
+#groupImg {
+  width: 73px
+}
+
+#proServicesBack {
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  height: 200px;
+  background: var(--bannerGradient);
+}
+
+/*--------------------- Recent blog posts section ----------------------*/
+
+#recentPosts {
+  display: flex;
+  justify-content: center;
+}
+
+#recentPostsMain {
+  width: 90%;
+  max-width: 1300px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+#recentPostsTitle {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+#linkToBlog {
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: .75em;
+  font-family: Poppins;
+}
+
+#blogLink {
+  margin-right: 5px;
+  color: var(--titleBlue);
+  text-decoration: underline;
+}
+
+#postsWrapper {
+  margin-top: 10px;
+  max-width: 1300px;
+}
+
+/* Newsletter section */
+
+#newsletter {
+  position: relative;
+  height: 310px;
+  background-image: url("../images/landing/newsletter-banner.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+#newsletterCTAWrapper {
+  width: 90%;
+  max-width: 1300px;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#newsletterCTA {
+  width: 500px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#newsletterCTATitle {
+  font-size: 1.2em;
+  letter-spacing: .4em;
+}
+
+#newsletterCTAAction {
+  margin-top: 5px;
+  font-size: 1.75em;
+  text-align: center;
+}
+
+#newsletterCTAText {
+  margin-top: 5px;
+  padding: 0px 20px;
+  text-align: center;
+  font-size: .9em
+}
+
+#acceptPrompt {
+  margin-top: 10px;
+  font-size: .7em;
+  color: var(--titleBlue);
+  display: flex;
+  align-items: center;
+}
+
+#privacyCheck {
+  margin-right: 5px;
+}
+
+#acceptText {
+  line-height: 16px;
+  vertical-align: middle;
+}
+
+#emailInputWrapper {
+  margin-top: 20px;
+  height: 40px;
+  width: 370px;
+  background-color: white;
+  border-radius: 5px;
+  font-size: .8em;
+  color: var(--accentPurple);
+
+  display: flex;
+  align-items: center;
+}
+
+#emailInput {
+  flex-grow: 1;
+  padding: 0px 25px;
+}
+
+#subscribeButton {
+  height: 100%;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+#subscribeArrow {
+  width: 35px
+}
+
+/* -------------Responsive Media Queries----------------- */
+
+@media (max-width: 1100px){
+  #newsletter {
+    background-position-x: -80px;
+  }
+
+  #newsletterCTA {
+    margin-right: 0px;
+  }
+
+}
+
+@media (max-width: 992px) {
+
+  #hero {
+    height: 680px;
+  }
+
+  #rhombusSvg {
+    width: 576px;
+    top: 90px;
+    left: 58px
+  }
+  
+  #characterSvg {
+    width: 300px;
+    top: 80px;
+    left: 122px
+  }
+  
+  #verticalWhirl {
+    width: 350px;
+    top: 50px;
+    left: 300px
+  }
+
+  #whyUsPara {
+    width: 90%
+  }
+
+  #roadmapBack {
+    width: 100%;
+    background-size: cover;
+  }
+
+  .servicesItem {
+    width: 250px;
+  }
+
+  #newsletter {
+    height: 250px;
+  }
+
+  #newsletterCTA{
+    width: 400px
+  }
+
+  #newsletterCTATitle {
+    font-size: 1em;
+  }
+  
+  #newsletterCTAAction {
+    font-size: 1.5em;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  #hero {
+    height: calc(100vh - 66px);
+    min-height: 600px;
+    max-height: 650px;
+  }
+
+  #heroText {
+    width: 100%;
+    height: 50vh
+  }
+
+  #textWrapper {
+    width: 90%;
+    margin-top: 0px;
+  }
+
+  #heroFirstLine, #heroSecondLine {
+    font-size: 2em;
+    line-height: 1.3em;
+  }
+
+  #horizontalWhirl {
+    max-width: 90vw; 
+    top: -200px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #heroIllustration {
+    flex-grow: initial;
+    width: 100%;
+    height: 40%;
+  }
+
+  #rhombusSvg {
+    width: 400px;
+    top: inherit;
+    left: initial;
+    right: 20px;
+    bottom: 12%;
+  }
+  
+  #characterSvg {
+    width: 350px;
+    top: inherit;
+    left: initial;
+    right: 30px;
+    bottom: 10%;
+  }
+  
+  #verticalWhirl {
+    width: 250px;
+    top: inherit;
+    left: initial;
+    right: -150px;
+    bottom: 10px;
+  }
+
+  #oasisFeaturesContent {
+    width: 100%;
+  }
+  
+  #oasisFeaturesText {
+    width: 80%;
+  }
+
+  #featuresTitle {
+    font-size: 1.6em;
+  }
+
+  #featuresSubTitle {
+    width: 100%;
+    font-size: 1em;
+    font-weight: 400;
+  }
+
+  #featuresDisplay {
+    height: auto;
+    margin-top: -20px;
+  }
+
+  .featuresItem {
+    width: 50%;
+    margin-bottom: 15px;
+  }
+
+  #featuresDisplayTitle {
+    font-size: 1.4em;
+    margin-bottom: 25px;
+  }
+
+  #whyUs {
+    margin-bottom: 0px;
+  }
+
+  #whyUsTitle {
+    font-size: 1.6em;
+  }
+
+  #roadmapWrapper {
+    width: 100%
+  }
+
+  #roadmapBack {
+    margin-top: 50px;
+  }
+
+  #roadmapWrapper {
+    overflow: visible;
+  }
+
+  #roadmapStepsWrapper {
+    width: 95%;
+    margin: 0px 2.5%;
+    position: relative;
+    margin-top: -430px;
+  }
+
+  .roadmapStep {
+    width: 100%;
+    height: 130px
+  }
+
+  .stepLeft {
+    width: 80px
+  }
+
+  .stepRight {
+    padding: 10px 10px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #oasisProServices {
+    height: auto;
+    margin-top: 20px;
+  }
+
+  #servicesRow {
+    flex-wrap: wrap;
+  }
+
+  .leftServWrapper {
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .rightServWrapper {
+    composes: leftServWrapper;
+    justify-content: center;
+  }
+
+  .centerServWrapper {
+    width: 100%;
+  }
+
+  .servicesItem {
+    width: 280px;
+    padding: 0px 5px;
+    margin-bottom: 30px;
+  }
+
+  #oasisProServices {
+    margin-top: 0px;
+    background: var(--bannerGradient);;
+  }
+
+  #proServicesBack {
+    display: none;
+  }
+
+  #servicesRow {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  #recentPostsMain {
+    padding-bottom: 40px;
+  }
+
+  #recentPostsTitle {
+    padding: 0px 30px;
+    font-size: 1.1em;
+  }
+
+  #linkToBlog {
+    margin-top: 30px;
+    padding: 0px 30px
+  }
+
+  #postsWrapper {
+    padding: 0px 30px
+  }
+
+  #newsletter {
+    background-position-x: -300px;
+  }
+
+}
+
+@media (max-width: 539px) {
+  #rhombusSvg {
+    width: 310px;
+  }
+  
+  #characterSvg {
+    width: 250px;
+  }
+
+  .titleAccentStep {
+    margin-top: 0px;
+  }
+
+  #newsletter {
+    height: 350px;
+    background-position-x: 0px;
+    background-position: top right;
+  }
+
+  #newsletterCTAWrapper {
+    justify-content: center;
+  }
+
+  #newsletterCTA {
+    margin-right: 0px;
+    width: 90%
+  }
+
+  #newsletterCTAText {
+    padding: 0px
+  }
+
+  #acceptPrompt {
+    margin-top: 25px;
+  }
+
+  #emailInputWrapper {
+    width: 100%;
+  }
+  
+}
+
+@media (max-width: 414px) {
+
+  #horizontalWhirl {
+    display: none;
+  }
+
+  #featuresTitleSpan {
+    display: block;
+  }
+
+  #emailInput {
+    padding: 0px 10px
+  }
+
+}

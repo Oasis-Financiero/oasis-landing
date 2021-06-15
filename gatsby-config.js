@@ -11,6 +11,7 @@ module.exports = {
     author: `@edchavezb`,
   },
   plugins: [
+    `gatsby-plugin-mdx`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-eslint`,
     `gatsby-plugin-react-helmet`,

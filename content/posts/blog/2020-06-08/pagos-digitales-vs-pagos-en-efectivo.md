@@ -3,6 +3,7 @@ date: '2020-06-08'
 title: 'Pagos digitales y sus ventajas ante el uso de efectivo' 
 image: 'digital-payment-phone.png'
 imageAlt: 'Aplicaciones de pagos digitales'
+tags: ["promovidos"]
 --- 
 
 El uso del efectivo está fuertemente arraigado en nuestra vida diaria, desde pagar el transporte, comprar en comercios formales e informales y pagar servicios básicos como luz, agua o teléfono. <br/><br/>
@@ -12,7 +13,6 @@ La introducción de Smartphones en nuestras vidas, tuvo un cambio radical en div
 Cada vez son más los comercios que migran a lo digital. La aceptación aún está en una etapa temprana en México, sin embargo, el Ecommerce (Mercado libre, Amazon) y los servicios digitales como streaming (Netflix, Amazon video, Spotify) o transporte privado (Uber, Didi) han puesto un peso importante en la balanza. <br/><br/>
 
 ## ¿Cuáles son las ventajas de los pagos digitales? 
-<br/>
 
 **Seguridad** — Esta es una de las principales preocupaciones. Actualmente existen diversos filtros y procesos para asegurar que tu pago estará seguro. Las empresas que ofrecen pagos en línea, deben cumplir con la protección hacia sus usuarios, por lo que ya existen diversas herramientas y plataformas que ofrecen una seguridad muy alta. <br/><br/>
 
@@ -24,6 +24,6 @@ Cada vez son más los comercios que migran a lo digital. La aceptación aún est
 
 **Negocio** — Cada vez más son los comercios que habilitan los pagos digitales. Esto les permite aumentar sus ventas al llegar a más clientes y facilitar los pagos, ya sea en una página web o por medio de puntos de venta para aceptar pagos con tarjeta. <br/><br/>
 
-Próximamente en ***[Oasis Financiero](https://www.oasisfinanciero.mx)*** podrás comparar todas las opciones Fintech y de Banca tradicional en una sola plataforma. <br/><br/>
+Próximamente en **[Oasis Financiero](https://www.oasisfinanciero.mx)** podrás comparar todas las opciones Fintech y de Banca tradicional en una sola plataforma. <br/><br/>
 
 Síguenos en nuestras páginas de **[Facebook](https://facebook.com/oasisfinanciero)**, **[LinkedIn](https://www.linkedin.com/company/oasisfinanciero/)** y **[Twitter](https://twitter.com/oasisfintech)**.

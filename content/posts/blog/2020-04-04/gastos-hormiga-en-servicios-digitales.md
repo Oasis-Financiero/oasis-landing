@@ -1,8 +1,10 @@
 --- 
 date: '2020-04-04' 
+author: 'Genaro Corona'
 title: 'Servicios digitales, gastos hormiga para los Millennials' 
 image: 'gastos-en-linea.png'
 imageAlt: 'Los gastos hormiga por internet se han vuelto mas comunes'
+tags: ["promovidos"]
 --- 
 
 La generación ***Millennial*** vive inmersa en servicios digitales que han evolucionado y siguen creciendo junto a ellos. Esto ha llevado a que startups resuelvan la necesidad de la inmediates en servicios como música, entretenimiento o transporte. <br/><br/>
@@ -37,6 +39,6 @@ Te invitamos a realizar tu propio ejercicio. ¿Cuántos servicios pagas al mes? 
 
 Crear un presupuesto y apegarte a el, puede ayudarte a reducir significativamente tus gastos hormiga. <br/><br/>
 
-Próximamente en ***[Oasis Financiero](https://www.oasisfinanciero.mx)*** podrás comparar todas las opciones Fintech y de Banca tradicional en una sola plataforma. <br/><br/>
+Próximamente en **[Oasis Financiero](https://www.oasisfinanciero.mx)** podrás comparar todas las opciones Fintech y de Banca tradicional en una sola plataforma. <br/><br/>
 
 Síguenos en nuestras páginas de **[Facebook](https://facebook.com/oasisfinanciero)**, **[LinkedIn](https://www.linkedin.com/company/oasisfinanciero/)** y **[Twitter](https://twitter.com/oasisfintech)**.
