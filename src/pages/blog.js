@@ -21,7 +21,7 @@ export const query = graphql`
         }
       }
     }
-    carousel: allBlogPost(sort: { fields: [date, title], order: ASC }, limit: 8) {
+    carousel: allBlogPost(sort: { fields: [date, title], order: DESC }, limit: 8) {
       nodes {
         id
         excerpt
@@ -39,7 +39,7 @@ export const query = graphql`
       }
     }
     topicOne: allBlogPost(
-      sort: { fields: [date, title], order: ASC }, 
+      sort: { fields: [date, title], order: DESC }, 
       filter: {tags: {in: "ahorro"}},
       limit: 2
     ) {
@@ -60,7 +60,7 @@ export const query = graphql`
     }
   }
     tallCards: allBlogPost(
-        sort: { fields: [date, title], order: ASC }, 
+        sort: { fields: [date, title], order: DESC }, 
         filter: {tags: {in: "promovidos"}},
         limit: 3
       ) {
@@ -81,7 +81,7 @@ export const query = graphql`
       }
     }
     topicTwo: allBlogPost(
-        sort: { fields: [date, title], order: ASC }, 
+        sort: { fields: [date, title], order: DESC }, 
         filter: {tags: {in: "inversion"}},
         limit: 2
       ) {

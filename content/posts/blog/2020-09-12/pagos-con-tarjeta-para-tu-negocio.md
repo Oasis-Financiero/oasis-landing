@@ -1,5 +1,5 @@
 --- 
-date: '2020-06-12' 
+date: '2020-09-12' 
 title: 'Alternativas para agregar pagos con tarjeta en tu negocio' 
 image: 'pago-tarjeta.png'
 imageAlt: 'Pagos con tarjeta en México'
