@@ -13,10 +13,10 @@ function NotFoundPage() {
         <div id={styles.notFoundContainer}>
           <img
             alt="Ghost getting abducted by aliens"
-            className="block mx-auto w-1/2"
+            className="block mx-auto w-3/4"
             src={abductionIllustration}
           />
-          <h2 className="bg-yellow-400 text-2xl font-bold inline-block my-8 p-3">
+          <h2 id={styles.notFoundMsg}>
             Lo sentimos, no pudimos encontrar la página que estás buscando.
           </h2>
         </div> 
