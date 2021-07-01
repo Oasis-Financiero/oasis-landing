@@ -44,6 +44,6 @@ Existen diversas opciones para realizar tus aportaciones. <br/><br/>
 + Por internet, a través los portales de las Afore
 + App Afore Móvil <br/><br/>
 
-Puedes conocer **[La regla 50/20/30](https://www.oasisfinanciero.mx/blog/2020-07-12/regla-50-20-30/)** para el ahorro y así comenzar con este hábito. Una vez que lo hayas aplicado, podrás destinar una parte a tu retiro. <br/><br/>
+Puedes conocer **[La regla 50/20/30](/blog/2020-07-12/regla-50-20-30)** para el ahorro y así comenzar con este hábito. Una vez que lo hayas aplicado, podrás destinar una parte a tu retiro. <br/><br/>
 
 Síguenos en nuestras páginas de **[Facebook](https://facebook.com/oasisfinanciero)**, **[LinkedIn](https://www.linkedin.com/company/oasisfinanciero/)** y **[Twitter](https://twitter.com/oasisfintech)** para más tips de cómo invertir tu dinero que te ayudarán a liberar tu potencial financiero.
