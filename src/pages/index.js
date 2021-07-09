@@ -55,6 +55,14 @@ export const query = graphql`
     }
   }
 `
+const scrollHandler = () => {
+  if (typeof window !== "undefined") {
+    window.scrollTo({
+      top: document.querySelector('.subscribe').getBoundingClientRect().top + window.pageYOffset, // scroll so that the element is at the top of the view
+      behavior: 'smooth' // smooth scroll
+    })
+  }
+}
 
 function IndexPage({ data }) {
 
@@ -78,8 +86,8 @@ function IndexPage({ data }) {
                 Oasis es el primer sitio en México que te acompaña paso a paso en el viaje para mejorar tus finanzas. Sin costos. Sin complicaciones.
               </p>
               <div id={styles.heroButtons}>
-                <button className={styles.purpleBtn}> Únete ahora </button>
-                <button className={styles.transparentBtn} id={styles.moreBtn}> Conocer más </button>
+                <button className={styles.purpleBtn} onClick={scrollHandler}> Únete ahora </button>
+                <Link to="/blog"><button className={styles.transparentBtn} id={styles.moreBtn}> Conoce el blog </button></Link>
               </div>
             </div>
           </div>
@@ -213,7 +221,7 @@ function IndexPage({ data }) {
 
       </section>
 
-      <section id={styles.newsletter}>
+      <section className='subscribe' id={styles.newsletter}>
         <div id={styles.newsletterCTAWrapper}>
           <div id={styles.newsletterCTA}>
             <h3 className={styles.titleAccent} id={styles.newsletterCTATitle}> NEWSLETTER </h3>
