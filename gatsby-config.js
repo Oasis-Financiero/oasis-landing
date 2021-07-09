@@ -24,6 +24,14 @@ module.exports = {
       }  
     },
     {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        includeInDevelopment: false,
+        id: 2488279,
+        sv: 6,
+      },
+    },
+    {
       resolve: `gatsby-theme-blog-core`,
       options: {
       },
