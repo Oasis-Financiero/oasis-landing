@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Poppins';
+    src:  url('../fonts/Poppins-Regular.woff2') format('woff2'),
+          url('../fonts/Poppins-Regular.woff') format('woff'),
+          url('../fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src:  url('../fonts/Poppins-Black.woff2') format('woff2'),
+        url('../fonts/Poppins-Black.woff') format('woff'),
+        url('../fonts/Poppins-Black.ttf') format('truetype');
+  font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src:  url('../fonts/Poppins-Bold.woff2') format('woff2'),
+          url('../fonts/Poppins-Bold.woff') format('woff'),
+          url('../fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src:  url('../fonts/Poppins-SemiBold.woff2') format('woff2'),
+        url('../fonts/Poppins-SemiBold.woff') format('woff'),
+        url('../fonts/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src:  url('../fonts/Poppins-Medium.woff2') format('woff2'),
+        url('../fonts/Poppins-Medium.woff') format('woff'),
+        url('../fonts/Poppins-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src:  url('../fonts/Poppins-Light.woff2') format('woff2'),
+          url('../fonts/Poppins-Light.woff') format('woff'),
+          url('../fonts/Poppins-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src:  url('../fonts/NunitoSans-Regular.woff2') format('woff2'),
+          url('../fonts/NunitoSans-Regular.woff') format('woff'),
+          url('../fonts/NunitoSans-Regular.ttf') format('truetype');
+}
+
+:root {
+  --titleBlue: #526A9B;
+  --subTitleGray: #494949;
+  --paraTextGray: #5B5766;
+  --accentPurple: #6B5FB9;
+  --backgroundBlue: #F1F4F8;
+  --itemBlue: #F0F6F9;
+  --bannerGradient: linear-gradient(#F1F4F8, #ECFEFB)
+}
+
+.title{
+    font-family: Poppins;
+    color: var(--titleBlue);
+    font-weight: 400;
+  }
+  
+  .subTitle {
+    composes: title;
+    color: var(--subTitleGray);
+    font-weight: 500;
+  }
+  
+  .titleThin {
+    composes: title;
+    font-weight: 300;
+  }
+  
+  .titleSemiBold {
+    composes: title;
+    font-weight: 600;
+  }
+  
+  .titleBold {
+    composes: title;
+    font-weight: 700;
+  }
+  
+  .titleAccent {
+    composes: title;
+    font-weight: 700;
+    color: var(--accentPurple)
+  }
+  
+  .titleAccentBlack {
+    composes: titleAccent;
+    font-weight: 800;
+  }
+  
+  .paraText {
+    font-family: Nunito;
+    color: var(--paraTextGray);
+  }
