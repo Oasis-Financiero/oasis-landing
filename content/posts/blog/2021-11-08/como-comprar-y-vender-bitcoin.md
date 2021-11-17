@@ -31,7 +31,7 @@ Requisitos para crear tu cuenta: <br/><br/>
 + Contar con CURP <br/><br/>
 
 
-**[Haz clic aquí para crear tu cuenta y comenzar a comprar criptomonedas.](https://www.bitso.com)** <br/><br/>
+**[Haz clic aquí para crear tu cuenta y comenzar a comprar criptomonedas.](https://bitso.com/register?ref=lzgl)** <br/><br/>
 
 
 ## Compra y vende Bitcoin y criptomonedas
@@ -39,6 +39,7 @@ Requisitos para crear tu cuenta: <br/><br/>
 
 Antes de comprar debes fondear tu cuenta, puedes hacerlo mediante una transferencia bancaria SPEI. Puedes empezar a comprar desde $100 MXN. <br/><br/>
 
+![Cómo fondear tu cuenta en Bitso](fondearcuenta.png) <br/>
 
 Dentro de tu cuenta da clic en la parte superior izquierda Menú y luego en Deposita en tu cuenta. Te aparecerán los datos que deberás usar para transferir fondos desde tu banco. En tu app bancaria, en el nombre del banco deberás buscar STP (Sistema de transferencias y Pagos) ya que no aparecerá Bitso. <br/><br/>
 
@@ -80,14 +81,14 @@ Para acceder solo debes entrar a tu cuenta desde un explorador y dar clic en Tra
 Esta es la plataforma Profesional de Bitso en donde encontrarás herramientas avanzadas para hacer análisis técnico y gráficas de vela. También encontrarás diferentes tipos de órdenes como Mercado, Limitada y Stop Limit. <br/><br/>
 
 
-![Comprar Bitcoin desde Alpha Pro](alphapro.png)
+![Comprar Bitcoin desde Alpha Pro](alphapropro.png)
 <br/>
 
 
 Para acceder solo debes entrar a tu cuenta desde un explorador y dar clic en Trading y luego Alpha Pro. También está disponible para Android y iOS. <br/><br/>
 
 
-**[Haz clic aquí para crear tu cuenta y comenzar a comprar criptomonedas.](https://www.bitso.com)** <br/><br/>
+**[Haz clic aquí para crear tu cuenta y comenzar a comprar criptomonedas.](https://bitso.com/register?ref=lzgl)** <br/><br/>
 
 
 Síguenos en nuestras páginas de **[Facebook](https://facebook.com/oasisfinanciero)**, **[LinkedIn](https://www.linkedin.com/company/oasisfinanciero/)** e **[Instagram](https://www.instagram.com/oasis_financiero/)** para más tips de cómo transformar tu vida financiera.
