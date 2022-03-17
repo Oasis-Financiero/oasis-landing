@@ -62,7 +62,7 @@ function Footer() {
         </div>
       </div>
       <div id={styles.legalInfo}>
-        <div> © Oasis Financiero 2020 </div>
+        <div> © Oasis Financiero 2022 </div>
         <div id={styles.privacyPolicy}> Aviso de Privacidad </div>
       </div>
 
