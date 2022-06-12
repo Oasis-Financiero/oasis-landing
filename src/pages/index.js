@@ -5,7 +5,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import PropTypes from "prop-types";
 
-import PostList from "gatsby-theme-blog-core/src/components/post-list";
+import PostList from "../components/post-list";
 
 import character from "../images/landing/characterr.svg"
 import rhombus from "../images/landing/rhombus.svg"
@@ -30,10 +30,6 @@ export const query = graphql`
       siteMetadata {
         siteUrl
         title
-        social {
-          name
-          url
-        }
       }
     }
     allBlogPost(sort: { fields: [date, title], order: DESC }, limit: 4) {

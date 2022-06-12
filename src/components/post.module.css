@@ -1,31 +1,31 @@
 @font-face {
     font-family: 'Poppins';
-    src:  url('../../fonts/Poppins-Regular.woff2') format('woff2'),
-          url('../../fonts/Poppins-Regular.woff') format('woff'),
-          url('../../fonts/Poppins-Regular.ttf') format('truetype');
+    src:  url('../fonts/Poppins-Regular.woff2') format('woff2'),
+          url('../fonts/Poppins-Regular.woff') format('woff'),
+          url('../fonts/Poppins-Regular.ttf') format('truetype');
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Poppins';
-    src:  url('../../fonts/Poppins-Bold.woff2') format('woff2'),
-          url('../../fonts/Poppins-Bold.woff') format('woff'),
-          url('../../fonts/Poppins-Bold.ttf') format('truetype');
+    src:  url('../fonts/Poppins-Bold.woff2') format('woff2'),
+          url('../fonts/Poppins-Bold.woff') format('woff'),
+          url('../fonts/Poppins-Bold.ttf') format('truetype');
     font-weight: 700;
 }
 
 @font-face {
     font-family: 'Nunito';
-    src:  url('../../fonts/NunitoSans-Regular.woff2') format('woff2'),
-          url('../../fonts/NunitoSans-Regular.woff') format('woff'),
-          url('../../fonts/NunitoSans-Regular.ttf') format('truetype');
+    src:  url('../fonts/NunitoSans-Regular.woff2') format('woff2'),
+          url('../fonts/NunitoSans-Regular.woff') format('woff'),
+          url('../fonts/NunitoSans-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Nunito';
-    src:  url('../../fonts/NunitoSans-Bold.woff2') format('woff2'),
-          url('../../fonts/NunitoSans-Bold.woff') format('woff'),
-          url('../../fonts/NunitoSans-Bold.ttf') format('truetype');
+    src:  url('../fonts/NunitoSans-Bold.woff2') format('woff2'),
+          url('../fonts/NunitoSans-Bold.woff') format('woff'),
+          url('../fonts/NunitoSans-Bold.ttf') format('truetype');
     font-weight: 700;
 }
 
