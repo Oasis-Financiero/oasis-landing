@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import PostList from "gatsby-theme-blog-core/src/components/post-list";
+import PostList from "../components/post-list";
 import styles from "./blog.module.css";
 
 import mobileBack from "../images/blog/blog-mobile.png"
@@ -15,10 +15,6 @@ export const query = graphql`
       siteMetadata {
         siteUrl
         title
-        social {
-          name
-          url
-        }
       }
     }
     carousel: allBlogPost(sort: { fields: [date, title], order: DESC }, limit: 8) {

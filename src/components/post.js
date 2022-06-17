@@ -5,17 +5,17 @@ import 'moment/locale/es'
 
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { MDXProvider } from "@mdx-js/react";
-import SEO from "../../components/seo";
+import SEO from "./seo";
 
-import Layout from "../../components/layout";
-import PostTitle from "gatsby-theme-blog-core/src/components/post-title"
-import PostDate from "gatsby-theme-blog-core/src/components/post-date"
-import PostHero from "gatsby-theme-blog-core/src/components/post-hero"
+import Layout from "./layout";
+import PostTitle from "./post-title"
+import PostDate from "./post-date"
+import PostHero from "./post-hero"
 import styles from "./post.module.css"
 
-import facebook from "../../images/social/facebook-dark.svg";
-import twitter from "../../images/social/twitter-dark.svg";
-import linkedin from "../../images/social/linkedin-dark.svg";
+import facebook from "../images/social/facebook-dark.svg";
+import twitter from "../images/social/twitter-dark.svg";
+import linkedin from "../images/social/linkedin-dark.svg";
 
 moment.locale('es')
 
