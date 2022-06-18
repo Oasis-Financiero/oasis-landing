@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import PostList from "../components/post-list";
-import styles from "./blog.module.css";
+import * as styles from "./blog.module.css";
 
 import mobileBack from "../images/blog/blog-mobile.png"
 
@@ -27,9 +27,7 @@ export const query = graphql`
         tags
         image {
           childImageSharp {
-            fluid(maxWidth: 300, maxHeight: 240, cropFocus: CENTER, fit: COVER) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(layout: CONSTRAINED, width: 300, height: 240, transformOptions: {cropFocus: CENTER, fit: COVER})
           }
         }
       }
@@ -48,9 +46,7 @@ export const query = graphql`
       tags
       image {
         childImageSharp {
-          fluid(maxWidth: 500, maxHeight: 240, cropFocus: CENTER, fit: COVER) {
-            ...GatsbyImageSharpFluid
-          }
+          gatsbyImageData(layout: CONSTRAINED, width: 500, height: 240, transformOptions: {cropFocus: CENTER, fit: COVER})
         }
       }
     }
@@ -69,9 +65,7 @@ export const query = graphql`
         tags
         image {
           childImageSharp {
-            fluid(maxWidth: 600, maxHeight: 922, cropFocus: CENTER, fit: COVER) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(layout: CONSTRAINED, width: 600, height: 922, transformOptions: {cropFocus: CENTER, fit: COVER})
           }
         }
       }
@@ -90,9 +84,7 @@ export const query = graphql`
         tags
         image {
           childImageSharp {
-            fluid(maxWidth: 500, maxHeight: 240, cropFocus: CENTER, fit: COVER) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(layout: CONSTRAINED, width: 500, height: 240, transformOptions: {cropFocus: CENTER, fit: COVER})
           }
         }
       }

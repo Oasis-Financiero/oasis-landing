@@ -228,6 +228,10 @@ input:focus {
   color: var(--accentPurple);
 }
 
+#moreBtn {
+  
+}
+
 
 /* Oasis features section */
 
@@ -483,6 +487,10 @@ input:focus {
   height: 52px;
   display: flex;
   align-items: center;
+}
+
+.servicesIcon {
+
 }
 
 .servicesTitle {

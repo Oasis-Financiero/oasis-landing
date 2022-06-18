@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "./footer.module.css"
+import * as styles from "./footer.module.css"
 
 import oasisNombre from "../images/logos/logo-nombre.svg";
 import facebook from "../images/social/facebook-dark.svg";

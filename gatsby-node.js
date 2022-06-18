@@ -48,7 +48,7 @@ const mdxResolverPassthrough = (fieldName) => async (
 exports.createSchemaCustomization = ({ actions, schema }, themeOptions) => {
   const { excerptLength } = withDefaults(themeOptions)
   const { createTypes } = actions
-  createTypes(`interface BlogPost @nodeInterface {
+  createTypes(`interface BlogPost implements Node {
       id: ID!
       title: String!
       body: String!
@@ -56,9 +56,9 @@ exports.createSchemaCustomization = ({ actions, schema }, themeOptions) => {
       date: Date! @dateformat
       tags: [String]!
       excerpt: String!
-      image: File
+      image: File @fileByRelativePath
       imageAlt: String
-      socialImage: File
+      socialImage: File @fileByRelativePath
   }`)
 
   createTypes(
@@ -122,19 +122,21 @@ exports.createSchemaCustomization = ({ actions, schema }, themeOptions) => {
   )
 }
 
-function processRelativeImage(source, context, type) {
+async function processRelativeImage(source, context, type) {
   // Image is a relative path - find a corresponding file
   const mdxFileNode = context.nodeModel.findRootNodeAncestor(
     source,
     (node) => node.internal && node.internal.type === `File`
   )
+  
   if (!mdxFileNode) {
     return
   }
   const imagePath = slash(path.join(mdxFileNode.dir, source[type]))
 
-  const fileNodes = context.nodeModel.getAllNodes({ type: `File` })
-  for (const file of fileNodes) {
+  const fileNodes = await context.nodeModel.findAll({ type: `File` })
+  
+  for (const file of fileNodes.entries) {
     if (file.absolutePath === imagePath) {
       return file
     }
@@ -197,6 +199,7 @@ exports.onCreateNode = async (
       slug,
       date: node.frontmatter.date,
       image: node.frontmatter.image,
+      imageAlt: node.frontmatter.imageAlt,
       socialImage: node.frontmatter.socialImage,
     }
 
@@ -295,9 +298,12 @@ exports.createPages = async ({ graphql, actions, reporter }, themeOptions) => {
   })
 
   // // Create the Posts page
-  createPage({
+ /*  createPage({
     path: basePath,
     component: PostsTemplate,
     context: {},
-  })
+  }) */
 }
+
+var SegfaultHandler = require('segfault-handler');
+SegfaultHandler.registerHandler("crash.log");

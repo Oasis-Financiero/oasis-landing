@@ -11,7 +11,7 @@ import Layout from "./layout";
 import PostTitle from "./post-title"
 import PostDate from "./post-date"
 import PostHero from "./post-hero"
-import styles from "./post.module.css"
+import * as styles from "./post.module.css"
 
 import facebook from "../images/social/facebook-dark.svg";
 import twitter from "../images/social/twitter-dark.svg";
@@ -20,7 +20,6 @@ import linkedin from "../images/social/linkedin-dark.svg";
 moment.locale('es')
 
 const Post = ({ data }) => {
-  console.log(data)
   const post = data.blogPost
   return (
     <Layout page="blogpost">

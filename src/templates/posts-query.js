@@ -3,7 +3,7 @@ import PostsPage from "../components/posts"
 
 export default PostsPage
 
-export const query = graphql`
+/* export const query = graphql`
   query PostsQuery {
     site {
       siteMetadata {
@@ -22,3 +22,4 @@ export const query = graphql`
     }
   }
 `
+ */

@@ -22,7 +22,7 @@ import prestamo from "../images/landing/prestamo.png"
 import tarjeta from "../images/landing/tarjeta.png"
 import arrow from "../images/landing/arrow.png"
 
-import styles from "./index.module.css"
+import * as styles from "./index.module.css"
 
 export const query = graphql`
   query HomePosts {
@@ -42,11 +42,10 @@ export const query = graphql`
         tags
         image {
           childImageSharp {
-            fluid(maxWidth: 300, maxHeight: 200, cropFocus: CENTER, fit: COVER) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(layout: CONSTRAINED, width: 300, height: 200, transformOptions: {cropFocus: CENTER, fit: COVER})
           }
         }
+        imageAlt
       }
     }
   }
@@ -151,21 +150,21 @@ function IndexPage({ data }) {
         <div id={styles.roadmapWrapper}>
           <div id={styles.roadmapBack}> </div>
           <div id={styles.roadmapStepsWrapper}> 
-            <div className={styles.roadmapStep} id={styles.firstStep}>
+            <div className={styles.roadmapStep}>
               <div className={styles.stepLeft}> <div className={styles.stepNumber}> 1 </div></div>
               <div className={styles.stepRight}>
                 <div className={styles.titleAccentStep}> Aprende </div>
                 <div className={styles.stepPara}> Adquiere conocimientos sobre finanzas personales, ahorro inteligente y las empresas que están innovando para el beneficio de tu economía. </div>
               </div>
             </div>
-            <div className={styles.roadmapStep} id={styles.secondStep}>
+            <div className={styles.roadmapStep}>
               <div className={styles.stepLeft}> <div className={styles.stepNumber}> 2 </div></div>
               <div className={styles.stepRight}>
                 <div className={styles.titleAccentStep}> Compara </div>
                 <div className={styles.stepPara}> Toma el control y personaliza tu experiencia. Solo te mostraremos la información relevante y opciones que deseas comparar. </div>
               </div>
             </div>
-            <div className={styles.roadmapStep} id={styles.thirdStep}>
+            <div className={styles.roadmapStep}>
               <div className={styles.stepLeft}> <div className={styles.stepNumber}> 3 </div></div>
               <div className={styles.stepRight}>
                 <div className={styles.titleAccentStep}> Elige </div>

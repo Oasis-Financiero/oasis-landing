@@ -25,10 +25,7 @@ export const query = graphql`
       date(formatString: "MMMM DD, YYYY")
       image {
         childImageSharp {
-          fluid(maxWidth: $maxWidth) {
-            ...GatsbyImageSharpFluid
-            src
-          }
+          gatsbyImageData(layout: CONSTRAINED, width: $maxWidth)
         }
       }
       imageAlt

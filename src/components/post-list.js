@@ -6,11 +6,9 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 
 import PostLink from "./post-link"
-import styles from "./post-list.module.css"
+import * as styles from "./post-list.module.css"
 
 const PostList = ({ posts, style, carousel }) => {
-
-  console.log(style)
 
   const settings = {
     dots: false,

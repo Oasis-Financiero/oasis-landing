@@ -1,10 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types";
-import PostStyles from "./post-link.module.css"
-import Img from "gatsby-image"
+import * as PostStyles from "./post-link.module.css"
+import { GatsbyImage } from "gatsby-plugin-image"
 
-const PostLink = ({ title, slug, date, excerpt, image, postStyle}) => {
+const PostLink = ({ title, slug, date, excerpt, image, imageAlt, postStyle}) => {
 
   let linkStyle
 
@@ -13,7 +13,8 @@ const PostLink = ({ title, slug, date, excerpt, image, postStyle}) => {
       linkStyle =
       <article className={PostStyles.articleHome}>
             <div className={PostStyles.postLinkImageHome}>
-              <Img className={PostStyles.imageHome} fluid={image.childImageSharp.fluid}/>
+              <GatsbyImage className={PostStyles.imageHome} image={image.childImageSharp.gatsbyImageData}
+                alt={imageAlt || title}/>
             </div>
             <div className={PostStyles.linkInfoHome}>
               <header className="post-link-header">
@@ -32,7 +33,8 @@ const PostLink = ({ title, slug, date, excerpt, image, postStyle}) => {
       linkStyle =
       <article className={PostStyles.articleLong}>
             <div className={PostStyles.postLinkImage}>
-              <Img className={PostStyles.imageHome} fluid={image.childImageSharp.fluid}/>
+              <GatsbyImage className={PostStyles.imageHome} image={image.childImageSharp.gatsbyImageData}
+                alt={imageAlt || title}/>
             </div>
             <div className={PostStyles.linkInfoHome}>
               <header className="post-link-header">
@@ -51,7 +53,8 @@ const PostLink = ({ title, slug, date, excerpt, image, postStyle}) => {
       linkStyle =
       <article className={PostStyles.tall}>
             <div className={PostStyles.postLinkImageTall}>
-              <Img className={PostStyles.imageTall} fluid={image.childImageSharp.fluid}/>
+              <GatsbyImage className={PostStyles.imageTall} image={image.childImageSharp.gatsbyImageData}
+                alt={imageAlt || title}/>
             </div>
             <div className={PostStyles.linkInfoTall}>
               <Link to={slug} className={PostStyles.postLink}>
@@ -69,7 +72,8 @@ const PostLink = ({ title, slug, date, excerpt, image, postStyle}) => {
       <article className={PostStyles.articleBlogHome}>
         <Link to={slug} className={PostStyles.postLink}>
             <div className={PostStyles.postLinkImage}>
-              <Img className={PostStyles.image} fluid={image.childImageSharp.fluid}/>
+              <GatsbyImage className={PostStyles.image} image={image.childImageSharp.gatsbyImageData}
+                alt={imageAlt || title}/>
             </div>
             <div className={PostStyles.postLinkInfo}>
               <header className="post-link-header">
