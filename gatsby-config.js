@@ -15,6 +15,7 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-eslint`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-netlify-cms`,
     {
       resolve: 'gatsby-plugin-gtag',
       options: {

@@ -1,0 +1,24 @@
+backend:
+  name: git-gateway
+  branch: netlify-cms-setup # Branch to update (optional; defaults to master)
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: 'blog'
+    label: 'Blog'
+    folder: 'content/posts/blog'
+    create: true
+    slug: '{{title}}'
+    media_folder: ''
+    public_folder: ''
+    path: '{{date}}/{{urlTitle}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'URL Title', name: 'urlTitle', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
