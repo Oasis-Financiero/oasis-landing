@@ -36,7 +36,7 @@ const Post = ({ data }) => {
           <div className={styles.shareRow}>
             <div id={styles.postData}>
               <span id={styles.author}>{post.author}</span>
-              <PostDate className={styles.date} date={post.date}>{moment(post.date).format('DD [de] MMMM, YYYY')}</PostDate>
+              <PostDate className={styles.date} date={post.date}>{moment(new Date(post.date)).format('DD [de] MMMM, YYYY')}</PostDate>
             </div>
 
             <div className={styles.iconsPanel} >

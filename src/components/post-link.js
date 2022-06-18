@@ -14,7 +14,7 @@ const PostLink = ({ title, slug, date, excerpt, image, imageAlt, postStyle}) => 
       <article className={PostStyles.articleHome}>
             <div className={PostStyles.postLinkImageHome}>
               <GatsbyImage className={PostStyles.imageHome} image={image.childImageSharp.gatsbyImageData}
-                alt={imageAlt || title}/>
+                alt={imageAlt || title} placeholder={"blurred"} />
             </div>
             <div className={PostStyles.linkInfoHome}>
               <header className="post-link-header">
