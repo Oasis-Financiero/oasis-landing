@@ -10,7 +10,8 @@ collections:
     label: 'Blog'
     folder: 'content/posts/blog'
     create: true
-    slug: 'blog/{{slug}}'
+    preview_path: "blog/{{year}}-{{month}}-{{day}}/{{slug}}"
+    slug: '{{slug}}'
     media_folder: ''
     public_folder: ''
     path: '{{date}}/{{slug}}'
@@ -19,7 +20,7 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Slug', name: 'slug', widget: 'string', hint: 'El texto que se mostrará en el URL del artículo. Formato: Minúsculas separadas por guiones.'}
-      - { label: 'Publish Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD', date_format: 'YYYY-MM-DD', time_format: 'false'}
+      - { label: 'Publish Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD', date_format: 'YYYY-MM-DD'}
       - { label: "Featured Image", name: "image", widget: "image", choose_url: false }
       - { label: "Image Alt", name: "imageAlt", widget: "string", hint: 'Una breve descripción para la imagen subida.' }
       - { label: "Tags", name: "tags", widget: "list" }
