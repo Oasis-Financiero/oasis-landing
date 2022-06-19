@@ -9,6 +9,7 @@ collections:
   - name: 'blog'
     label: 'Blog'
     folder: 'content/posts/blog'
+    publish_mode: editorial_workflow
     create: true
     media_folder: ''
     public_folder: ''
