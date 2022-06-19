@@ -15,7 +15,7 @@ collections:
     public_folder: ''
     slug: '{{fields.slug}}'
     path: '{{date}}/{{slug}}'
-    preview_path: "{{slug}}"
+    preview_path: '{{slug}}'
     editor:
       preview: true
     fields:
