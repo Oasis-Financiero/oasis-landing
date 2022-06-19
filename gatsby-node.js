@@ -172,7 +172,7 @@ exports.onCreateNode = async (
 
   if (node.internal.type === `Mdx` && source === contentPath) {
     let slug
-    if (node.frontmatter.slug) {
+    if (node.frontmatter.slug?.match(/\//)) {
       if (path.isAbsolute(node.frontmatter.slug)) {
         // absolute paths take precedence
         slug = node.frontmatter.slug
