@@ -12,13 +12,13 @@ collections:
     create: true
     media_folder: ''
     public_folder: ''
-    path: '{{date}}/{{slug}}'
-    preview_path: "blog/{{year}}-{{month}}-{{day}}/{{slug}}"
+    path: '{{date}}/{{fileName}}'
+    preview_path: "blog/{{date}}/{{fileName}}"
     editor:
       preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Slug', name: 'slug', widget: 'string', hint: 'El texto que se mostrará en el URL del artículo. Formato: Minúsculas separadas por guiones.'}
+      - { label: 'File Name', name: 'fileName', widget: 'string', hint: 'El texto que se mostrará en el URL del artículo. Formato: Minúsculas separadas por guiones.'}
       - { label: 'Publish Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD', date_format: 'YYYY-MM-DD'}
       - { label: "Featured Image", name: "image", widget: "image", choose_url: false }
       - { label: "Image Alt", name: "imageAlt", widget: "string", hint: 'Una breve descripción para la imagen subida.' }
