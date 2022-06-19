@@ -7,6 +7,8 @@ imageAlt: nft apebored, cryptopunks y kaizen corps
 tags:
   - nft
   - criptomonedas
+  - videojuegos
+  - arte
 ---
 <!--StartFragment-->
 
