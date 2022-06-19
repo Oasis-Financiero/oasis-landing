@@ -1,11 +1,16 @@
---- 
-date: '2021-07-05' 
-title: 'Plataformas para invertir en Bitcoin y criptomonedas.' 
-image: 'cryptos.jpg'
-imageAlt: 'Criptomonedas'
-tags: ["inversion", "acciones"]
---- 
-
+---
+title: Plataformas para invertir en Bitcoin y criptomonedas.
+slug: plataformas-para-invertir-en-criptomonedas
+date: 2021-07-05
+image: cryptos.jpg
+imageAlt: Criptomonedas
+tags:
+  - inversion
+  - acciones
+  - criptomonedas
+  - bitcoin
+  - ethereum
+---
 **Bitcoin** es una criptomoneda que está revolucionando las finanzas y está abriendo oportunidades de inversión a todo el mundo. <br/><br/>
 
 La llegada de Bitcoin trajo innovación y nuevas criptomonedas que poco a poco han demostrado ser proyectos escalables y atractivos para invertir. <br/><br/>
@@ -19,38 +24,45 @@ Son monedas virtuales descentralizadas ya que ningún gobierno o entidad financi
 Estas son las plataformas para invertir en criptomonedas. <br/><br/>
 
 ## [Bitso](https://bitso.com/register?ref=lzgl)
+
 Es una empresa mexicana que cuenta con una licencia de criptomonedas internacional y su filial Nvio fue la primera empresa en lograr la autorización para operar como Institución de Fondos de Pago Electrónico bajo el marco de la ley para Regular las Instituciones de Tecnología Financiera, o Ley Fintech. Esto fue otorgado por la Comisión Nacional Bancaria y de Valores. <br/><br/>
 
-Esto permite fondear la cuenta con una transferencia interbancaria SPEI y desde Oxxo además de realizar transferencias de criptomonedas sin costo entre usuarios de Bitso, agregar beneficiarios y depositar dólares con transferencia SWIFT.<br/><br/>
+Esto permite fondear la cuenta con una transferencia interbancaria SPEI además de realizar transferencias de criptomonedas sin costo entre usuarios de Bitso, agregar beneficiarios y depositar dólares con transferencia SWIFT.<br/><br/>
 
-Tiene listadas 9 criptomonedas: Bitcoin, Ethereum, XRP, Litecoin, Bitcoin Cash, True USD, DAI, BAT y MANA. <br/><br/>
+Tiene listadas más de 35 criptomonedas entre ellas Bitcoin, Ethereum, XRP, Litecoin, Solana, Cardano, Polkadot, Dogecoin y se ha hecho habitual que casi cada semana lisgan nuevas criptos. . <br/><br/>
 
-Cuenta con 6 mercados para operar: Pesos mexicanos (MXN), Pesos argentinos (ARS), Reales brasileños (BRL), dólares estadounidenses (USD), Bitcoin y DAI. <br/><br/>
+Cuenta con 7 mercados para operar: Pesos mexicanos (MXN), pesos argentinos (ARS), reales brasileños (BRL) pesos colombianos (COP), USD stablecoins (USD), Bitcoin y DAI. <br/><br/>
 
 Bitso se ha convertido en la segunda empresa mexicana en ser unicornio (empresas que alcanzan o sobrepasan el valor de los 1,000 millones de dólares) con su reciente levantamiento de capital. <br/><br/>
 
 ***[Haz clic aquí para crear tu cuenta en Bitso.](https://bitso.com/register?ref=lzgl)*** <br/><br/>
 
 ## [Tauros](https://tauros.io/signup?ref=LT1J34TC)
+
 Es una plataforma mexicana donde puedes comprar criptomonedas con pesos mexicanos. Cuenta con una tarjeta de débito virtual y física que puedes fondear con una transferencia SPEI. <br/><br/>
 
 La tarjeta tiene un costo de envío de $300 MXN y estas son sus características: <br/><br/>
 
-+ Sin cuotas anuales. 
-+ Sin saldo mínimo. 
-+ Sin cargos por manejo de cuenta. 
-+ Sin comisiones por transacción. 
-+ Sin comisiones por fondeo o retiro <br/><br/>
+* Sin cuotas anuales. 
+* Sin saldo mínimo. 
+* Sin cargos por manejo de cuenta. 
+* Sin comisiones por transacción. 
+* Sin comisiones por fondeo o retiro <br/><br/>
 
-Algo que diferencia a Tauros es que tienen la opción de recibir crypto-cashback semanalmente al pagar con la tarjeta. En este momento se puede recibir el 0.5% en Bitcoin, Litecoin y Dash cada semana. <br/><br/>
+Algo que diferencia a Tauros es que tienen la opción de recibir crypto-cashback semanalmente al pagar con la tarjeta. En este momento se puede recibir el 0.1% en Bitcoin y Litecoin cada semana. <br/><br/>
 
 Tiene listadas 7 criptomonedas: Bitcoin, Ethereum, Stellar, Litecoin, Bitcoin Cash, USDC y Dash. <br/><br/>
 
-*Cabe recalcar que en la página de Tauros se indica que los servicios financieros de apertura y operación de cuentas de fondo de pago electrónico son operados por Cacao Paycard Solutions S.A. de C.V. (“Cacao”) quien está en espera de la autorización por parte Ley para Regular las Instituciones de Tecnología Financiera (“Ley Fintech”) y en este momento no es supervisada por las Autoridades financieras competentes. <br/><br/>
+Algo importante a recalcar es que ha habilitado las redes Polygon para los retiros y depósitos con USDC y la red Lightning para Bitcoin.
+
+Estas redes ayudan a que las transferencias sean más rápidas y a menor costo lo que puede ayudar en pagos y remesas. Un ejemplo es que desde Estados Unidos se puede enviar USDC a la cuenta de Tauros usando la red Polygon con una comisión de centavos de USDC.
+
+\*Cabe recalcar que en la página de Tauros se indica que los servicios financieros de apertura y operación de cuentas de fondo de pago electrónico son operados por Cacao Paycard Solutions S.A. de C.V. (“Cacao”) quien está en espera de la autorización por parte Ley para Regular las Instituciones de Tecnología Financiera (“Ley Fintech”) y en este momento no es supervisada por las Autoridades financieras competentes. <br/><br/>
 
 ***[Haz clic aquí para crear tu cuenta en Tauros.](https://tauros.io/signup?ref=LT1J34TC)*** <br/><br/>
 
 ## [Mexo](https://www.mexo.io/register/WNpqnD)
+
 Mexo es una exchange perteneciente a la consultora de marketing de blockchain Krypital Group. En Mexo puedes comprar y vender más de 70 criptomonedas en 3 mercados que son BTC, USDT y MMXN. <br/><br/>
 
 MMXN es una stablecoin (moneda estable) que tiene paridad 1:1 con el peso mexicano y fue emitida por Moneta Digital Company. <br/><br/>
@@ -66,6 +78,7 @@ Mexo tiene su página de academia en donde podrás encontrar tutoriales, webinar
 ***[Haz clic aquí para crear tu cuenta en Mexo.](https://www.mexo.io/register/WNpqnD)*** <br/><br/>
 
 ## [Binance](https://www.binance.com/es-MX/register?ref=10616307)
+
 Binance es la plataforma de compra/venta de criptomonedas con mayor volumen de transacciones en el mundo. Tiene su propia criptomoneda llamada BNB y más de 150 criptomonedas para operar. <br/><br/>
 
 Ofrece 23 mercados para operar entre los que se encuentran BTC, USDT, BNB y mercados  fíat (dinero fiduciario). Se pueden comprar criptomonedas con tarjeta de crédito o débito y comercio P2P. <br/><br/>
