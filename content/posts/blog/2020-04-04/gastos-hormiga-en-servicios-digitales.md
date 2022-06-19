@@ -8,6 +8,7 @@ imageAlt: Los gastos hormiga por internet se han vuelto mas comunes
 tags:
   - gastos
   - ahorro
+  - promovidos
 ---
 La generación ***Millennial*** vive inmersa en servicios digitales que han evolucionado y siguen creciendo junto a ellos. Esto ha llevado a que startups resuelvan la necesidad de la inmediates en servicios como música, entretenimiento o transporte. <br/><br/>
 
