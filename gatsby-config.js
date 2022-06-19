@@ -15,6 +15,7 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-eslint`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-netlify-cms`,
     {
       resolve: 'gatsby-plugin-gtag',
       options: {
@@ -101,7 +102,8 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`
   ],
 };

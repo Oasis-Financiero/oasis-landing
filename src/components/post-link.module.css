@@ -131,6 +131,10 @@
     
 }
 
+.imageHome {
+
+}
+
 .linkInfoHome {
   padding: 10px 5px 15px 5px;
 }
@@ -181,6 +185,10 @@
   margin-right: .5%;
   margin-left: .5%;
   position: relative;
+}
+
+.imageTall {
+  
 }
 
 .postLinkImageTall:after {

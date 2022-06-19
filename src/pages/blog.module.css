@@ -177,6 +177,10 @@ input:focus {
   max-width: 1300px;
 }
 
+.carousel {
+  
+}
+
 /* ------------ Recent posts section -------------- */
 
 #recentPostsTitle {
@@ -195,6 +199,10 @@ input:focus {
 
 #bestPosts{
   margin-top: 20px;
+}
+
+#bestPostsHeader {
+
 }
 
 #bestPostsTitle {

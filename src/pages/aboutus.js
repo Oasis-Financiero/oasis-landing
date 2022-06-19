@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 
 //import PostList from "gatsby-theme-blog-core/src/components/post-list";
 
-import styles from "./aboutus.module.css"
+import * as styles from "./aboutus.module.css"
 
 function IndexPage() {
 

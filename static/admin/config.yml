@@ -1,0 +1,26 @@
+backend:
+  name: git-gateway
+  branch: dev # Branch to update (optional; defaults to master)
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: 'blog'
+    label: 'Blog'
+    folder: 'content/posts/blog'
+    create: true
+    media_folder: ''
+    public_folder: ''
+    path: '{{date}}/{{slug}}'
+    preview_path: "blog/{{date}}/{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'File Name', name: 'slug', widget: 'string', hint: 'El texto que se mostrará en el URL del artículo. Formato: Minúsculas separadas por guiones.'}
+      - { label: 'Publish Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD', date_format: 'YYYY-MM-DD'}
+      - { label: "Featured Image", name: "image", widget: "image", choose_url: false }
+      - { label: "Image Alt", name: "imageAlt", widget: "string", hint: 'Una breve descripción para la imagen subida.' }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
