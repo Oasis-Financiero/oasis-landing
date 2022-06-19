@@ -13,8 +13,8 @@ collections:
     create: true
     media_folder: ''
     public_folder: ''
-    path: '{{date}}/{{slug}}'
-    preview_path: "blog/{{date}}/{{slug}}"
+    path: '{{date}}/{{fields.slug}}'
+    preview_path: "blog/{{date}}/{{fields.slug}}"
     editor:
       preview: true
     fields:
