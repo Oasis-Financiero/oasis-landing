@@ -15,13 +15,13 @@ El Metaverso es un mundo virtual en el que nos conectaremos desde un smartphone 
 
 
 
-En este momento existen los metaveros centralizados como Meta (antes facebook) o Roblox y los descentralizados como The Sandbox o Decentraland.
+En este momento existen los metaveros centralizados como Meta (antes facebook) o Roblox y los 
+
+descentralizados como The Sandbox o Decentraland.
 
 
 
 En este artículo nos enfocaremos en los metaversos descentralizados.
-
-
 
 **Decentraland** es un Metaverso que se ejecuta en la blockchain de Ethereum y aquí podemos comprar y vender terrenos virtuales y también explorar los ya existentes, también podemos asistir a eventos exclusivos. Una de las características en estos metaversos descentralizados es que podemos crear obras de arte y exponerlas en las galerías virtuales, podemos crear desafíos y participar en eventos.
 
