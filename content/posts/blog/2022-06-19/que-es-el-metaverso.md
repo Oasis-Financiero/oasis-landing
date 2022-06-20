@@ -13,7 +13,13 @@ tags:
 
 El Metaverso es un mundo virtual en el que nos conectaremos desde un smartphone o computadora y en algunos casos podremos hacer uso de un VR (Virtual Reality) para tener una experiencia inmersiva.
 
-En este momento existen los metaveros centralizados como Meta (antes facebook) o Roblox y los descentralizados como The Sandbox o Decentraland.
+
+
+En este momento existen los metaveros centralizados como Meta (antes facebook) o Roblox y los 
+
+descentralizados como The Sandbox o Decentraland.
+
+
 
 En este artículo nos enfocaremos en los metaversos descentralizados.
 
