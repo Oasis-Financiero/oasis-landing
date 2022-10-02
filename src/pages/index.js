@@ -104,7 +104,7 @@ function IndexPage({ data }) {
                 Cuentas de ahorro
               </div>
               <div className={styles.compareItemCaption}>
-                Gana hasta 1.20%
+                Gana hasta 4.0%
               </div>
             </div>
           </div>
@@ -130,7 +130,7 @@ function IndexPage({ data }) {
                 Inversiones
               </div>
               <div className={styles.compareItemCaption}>
-
+                Crece tu dinero
               </div>
             </div>
           </div>
@@ -143,7 +143,7 @@ function IndexPage({ data }) {
                 Criptomonedas
               </div>
               <div className={styles.compareItemCaption}>
-
+                Compra coins y NFTs
               </div>
             </div>
           </div>
@@ -196,7 +196,7 @@ function IndexPage({ data }) {
           <div id={styles.newsletterCTA}>
             <h3 className={styles.titleAccent} id={styles.newsletterCTATitle}> NEWSLETTER </h3>
             <h2 className={styles.titleBold} id={styles.newsletterCTAAction}> Suscríbete al boletín de Oasis </h2>
-            <div className={styles.subTitle} id={styles.newsletterCTAText}> Regístrate para recibir nuestros mejores tips y ser de los primeros en tener acceso a nuestro comparador. </div>
+            <div className={styles.subTitle} id={styles.newsletterCTAText}> Regístrate para recibir nuestros mejores tips y ser de los primeros en tener acceso a nuestras herramientas. </div>
             <div className={styles.subTitle} id={styles.acceptPrompt}> <input type="checkbox" id={styles.privacyCheck}/> <span id={styles.acceptText}> Acepto las políticas de privacidad de Oasis </span></div>
             <div className={styles.titleThin} id={styles.emailInputWrapper}>
               <input type="email" placeholder="Ingresa tu correo electrónico" id={styles.emailInput}/>
