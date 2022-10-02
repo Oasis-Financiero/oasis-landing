@@ -53,28 +53,62 @@
           url('../fonts/NunitoSans-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/Manrope-Regular.woff2') format('woff2'),
+      url('../fonts/Manrope-Regular.woff') format('woff'),
+      url('../fonts/Manrope-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/Manrope-SemiBold.woff2') format('woff2'),
+      url('../fonts/Manrope-SemiBold.woff') format('woff'),
+      url('../fonts/Manrope-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/Manrope-Bold.woff2') format('woff2'),
+      url('../fonts/Manrope-Bold.woff') format('woff'),
+      url('../fonts/Manrope-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
 :root {
   --titleBlue: #526A9B;
-  --subTitleGray: #494949;
+  --titleBlack: #042552;
+  --subTitleGray: #042552B3;
   --paraTextGray: #5B5766;
   --accentPurple: #6B5FB9;
+  --accentTextPurple: #A86EFF;
   --backgroundBlue: #F1F4F8;
   --itemBlue: #F0F6F9;
-  --bannerGradient: linear-gradient(#F1F4F8, #ECFEFB)
+  --bannerGradient: linear-gradient(#F1F4F8, #ECFEFB);
+  --secondaryBackground: #FAFBFC;
 }
 
 /* * { border: 1px solid goldenrod; }
  */
 .title{
-  font-family: Poppins;
-  color: var(--titleBlue);
-  font-weight: 400;
+  font-family: Manrope;
+  color: var(--titleBlack);
+  font-weight: 700;
 }
 
-.subTitle {
-  composes: title;
+.sectionHeader {
+  font-family: Manrope;
+  color: var(--accentTextPurple);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.sectionDetails {
+  font-family: Poppins;
   color: var(--subTitleGray);
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .titleThin {
@@ -116,9 +150,8 @@ input:focus {
 /* ----------- Hero section -------------- */
 
 #hero {
-  background-image: url("../images/landing/heroback.png");
   height: calc(100vh - 66px);
-  max-height: 750px;
+  max-height: 600px;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -127,80 +160,48 @@ input:focus {
 }
 
 #heroContent {
-  width: 90%;
+  width: 85%;
   max-width: 1300px;
   display: flex;
-  flex-wrap: wrap;
-  position: relative;
+  flex-wrap: nowrap;
+  column-gap: 30px;
 }
 
 #heroText {
-  width: 40%;
+  width: 50%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
 }
 
 #textWrapper {
+  max-width: 420px;
   width: 100%;
 }
 
-#heroFirstLine, #heroSecondLine {
-  font-size: 2.6em;
+#heroFirstLine {
+  font-size: 3rem;
   line-height: 1.3em;
 }
 
 #heroParagraph {
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 1rem;
   margin-top: 10px;
 }
 
 #heroIllustration {
   flex-grow: 1;
-  position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-}
-
-#illustrationWrapper {
-  position: relative;
-  height: 450px;
-  width: 100%;
-}
-
-#rhombusSvg {
-  position: absolute;
-  width: 576px;
-  z-index: 10;
-  top: 15px;
-  left: 58px
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 #characterSvg {
-  position: absolute;
-  width: 418px;
+  width: 100%;
+  max-width: 500px;
   z-index: 30;
-  top: 0px;
-  left: 122px
-}
-
-#verticalWhirl {
-  position: absolute;
-  width: 396px;
-  z-index: 20;
-  top: 0px;
-  left: 450px
-}
-
-#horizontalWhirl {
-  position: absolute;
-  width: 360px;
-  z-index: 20;
-  top: -150px;
-  left: 50px
+  margin-right: 30px;
 }
 
 #heroButtons {
@@ -210,9 +211,9 @@ input:focus {
 }
 
 .purpleBtn {
-  height: 40px;
-  background-color: var(--accentPurple);
-  border-radius: 500px;
+  height: 35px;
+  background-color: var(--accentTextPurple);
+  border-radius: 5px;
   padding: 12.5px 20px;
   line-height: 10px;
   vertical-align: middle;
@@ -225,308 +226,152 @@ input:focus {
 .transparentBtn {
   composes: purpleBtn;
   background-color: initial;
-  color: var(--accentPurple);
+  color: var(--accentTextPurple);
 }
 
 #moreBtn {
   
 }
 
+/* Oasis compare section */
 
-/* Oasis features section */
+#oasisCompare {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-#oasisFeatures {
+#compareTextWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#compareTitle {
+  width: 65%;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+#compareDetails {
+  margin-top: 10px;
+  max-width: 500px;
+  text-align: center;
+}
+
+#compareItemsWrapper {
+  margin-top: 50px;
+  margin-bottom: 56px;
+  width: 75%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.compareCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22%;
+  height: 100px;
+  border-radius: 10px;
+  padding-right: 10px;
+  padding-left: 5px;
+}
+
+.cardIconImg {
+  height: 50px;
+}
+
+.compareCardIcon {
+  width: 35%;
   display: flex;
   justify-content: center;
-  background-color: var(--backgroundBlue);
 }
 
-#oasisFeaturesContent {
-  width: 90%;
-  max-width: 1300px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 75px;
-  padding-bottom: 80px;
+.compareCardText {
+  width: 65%
 }
 
-#oasisFeaturesText {
-  width: 100%;
-}
-
-#featuresTitle {
-  font-size: 2em;
-}
-
-#featuresSubTitle {
-  margin-top: 5px;
-  display: inline-block;
-  width: 75%;
-  font-size: 1em;
-  margin-top: 5px;
-}
-
-#featuresMain {
-  margin-top: 30px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#userPicWrapper {
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  padding: 10px;
-  background-color: white;
-}
-
-.userPic {
-  width: 50%
-}
-
-#featuresDisplay {
-  height: 220px;
-  width: 90%;
-  background-color: white;
-  margin-top: -120px;
-  padding: 15px 20px;
-  box-shadow: 0 1px 10px 5px rgba(50,50,50,.2);
-  display: flex;
-  flex-direction: column;
-}
-
-#featuresDisplayTitle {
-  font-size: 1.8em;
+.compareItemName {
+  composes: title;
+  font-size: .8rem;
   text-align: center;
-  margin-bottom: 5px;
 }
 
-#featuresWrapper {
+.compareItemCaption {
+  composes: sectionDetails;
+  font-size: .7rem;
+  text-align: center;
+}
+
+#cardOne {
+  background-color: #DBE6FD;
+}
+
+#cardTwo {
+  background-color: #D9F8F1;
+}
+
+#cardThree {
+  background-color: #FFF4DD;
+}
+
+#cardFour {
+  background-color: #FFDBEC;
+}
+
+/* Oasis calculator section */
+#oasisCalculator {
+  background-color: var(--secondaryBackground);
+  display: flex;
+  justify-content: center;
+  padding: 60px 0px;
+}
+
+#calculatorWrapper {
+  width: 85%;
+  max-width: 1000px;
   display: flex;
   flex-wrap: wrap;
-  flex-grow: 1;
+  column-gap: 60px;
 }
 
-.featuresItem {
-  width: 25%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+#calculatorIllustration {
+  width: calc(50% - 30px);
 }
 
-.featuresItemImg {
-  width: 50px;
-}
-
-.titleAccentFeat {
-  composes: titleAccent;
-  font-size: 1em;
-  margin-top: 10px;
-  text-align: center;
-}
-
-.titleThinFeat {
-  composes: titleThin;
-  font-size: .8em;
-  text-align: center;
-}
-
-
-
-/* Roadmap section */
-
-#oasisRoadmap {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 65px;
-  padding-bottom: 50px;
-}
-
-#whyUs {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 40px;
-  width: 90%;
-  max-width: 1300px;
-}
-
-#whyUsTitle {
-  display: inline-flex;
-  font-size: 1.8em;
-}
-
-#whyUsPara {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  font-size: 1em;
-  width: 75%
-}
-
-#roadmapWrapper {
-  position: relative;
-  overflow: hidden;
-  height: 414px;
-  width: 90%;
-  max-width: 1300px;
-}
-
-#roadmapBack {
-  height: 100%;
-  width: 850px;
-  background-image: url("../images/landing/roadmap.png");
-  background-size: contain;
-  background-position: top left;
-}
-
-#roadmapStepsWrapper {
-  position: absolute;
-  height: 100%;
-  top: 0;
-  right: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.roadmapStep {
-  width: 500px;
-  height: 120px;
-  background-color: var(--itemBlue);
-  display: flex;
-}
-
-.stepLeft {
-  width: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.stepNumber {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #ffffff;
-  text-align: center;
-  line-height: 40px;
-  vertical-align: middle;
-  color: var(--titleBlue);
-  font-weight: bold;
-  font-family: Poppins;
-  font-size: 1.1em;
-}
-
-.stepRight {
-  width: 350px;
-  padding: 10px;
-  overflow: hidden;
-}
-
-.titleAccentStep {
-  composes: titleAccent;
-  margin-top: 10px;
-}
-
-.stepPara {
-  margin-top: 3px;
-  font-family: Poppins;
-  color: var(--paraTextGray);
-  font-size: .8em
-}
-
-/* Oasis Professional services section */
-
-#oasisProServices {
-  position: relative;
-  height: 260px;
-}
-
-#servicesRow {
+#calculatorImg {
   width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
+  max-width: 500px;
 }
 
-.leftServWrapper {
-  flex-grow: 1;
-  width: 420px;
-  z-index: 10;
+#calculatorText {
+  width: calc(50% - 30px);
   display: flex;
-  justify-content: flex-end;
-}
-
-.rightServWrapper {
-  composes: leftServWrapper;
-  justify-content: flex-start;
-}
-
-.centerServWrapper {
-  width: 420px;
-  z-index: 10;
-  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
-.servicesItem {
-  width: 280px;
-  padding: 0px 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#calculatorTextWrapper {
+  max-width: 420px;
 }
 
-.servIconWrapper {
-  height: 52px;
-  display: flex;
-  align-items: center;
-}
-
-.servicesIcon {
-
-}
-
-.servicesTitle {
-  composes: titleAccent;
-  margin-top: 10px;
-  font-size: 1em;
-}
-
-.servicesPara {
-  composes: paraText;
-  font-size: .9em;
-  margin-top: 5px;
-  text-align: center;
-}
-
-#qualityImg {
-  width: 50px
-}
-
-#helpImg {
-  width: 70px
-}
-
-#groupImg {
-  width: 73px
-}
-
-#proServicesBack {
-  position: absolute;
-  top: 30px;
-  width: 100%;
-  height: 200px;
-  background: var(--bannerGradient);
+#calculatorFirstLine {
+  font-size: 2.5rem;
+  line-height: 1.3em;
 }
 
 /*--------------------- Recent blog posts section ----------------------*/
+
+#blogTitle {
+  width: 50%;
+  font-size: 2.5rem;
+  text-align: center;
+}
 
 #recentPosts {
   display: flex;
@@ -536,7 +381,6 @@ input:focus {
 #recentPostsMain {
   width: 90%;
   max-width: 1300px;
-  padding-top: 50px;
   padding-bottom: 70px;
 }
 
@@ -546,6 +390,7 @@ input:focus {
 }
 
 #linkToBlog {
+  width: 89%;
   margin-top: 15px;
   display: flex;
   justify-content: flex-end;
@@ -672,14 +517,8 @@ input:focus {
 
 @media (max-width: 992px) {
 
-  #hero {
-    height: 680px;
-  }
-
-  #rhombusSvg {
-    width: 576px;
-    top: 90px;
-    left: 58px
+  #heroIllustration {
+    justify-content: center;
   }
   
   #characterSvg {
@@ -687,24 +526,22 @@ input:focus {
     top: 80px;
     left: 122px
   }
-  
-  #verticalWhirl {
-    width: 350px;
-    top: 50px;
-    left: 300px
+
+  #linkToBlog {
+    width: 98%;
   }
 
-  #whyUsPara {
-    width: 90%
+  #compareTextWrapper {
+    margin-top: 0px;
   }
 
-  #roadmapBack {
-    width: 100%;
-    background-size: cover;
+  #compareItemsWrapper {
+    flex-wrap: wrap;
+    row-gap: 20px;
   }
 
-  .servicesItem {
-    width: 250px;
+  .compareCard {
+    width: 44%;
   }
 
   #newsletter {
@@ -728,182 +565,84 @@ input:focus {
 @media (max-width: 767px) {
 
   #hero {
-    height: calc(100vh - 66px);
-    min-height: 600px;
-    max-height: 650px;
+    height: auto;
+    max-height: none;
+  }
+
+  #heroContent {
+    padding-top: 50px;
+    flex-wrap: wrap;
   }
 
   #heroText {
     width: 100%;
-    height: 50vh
+    align-items: center;
   }
 
   #textWrapper {
+    max-width: initial;
     width: 90%;
-    margin-top: 0px;
   }
 
-  #heroFirstLine, #heroSecondLine {
-    font-size: 2em;
+  #heroFirstLine {
+    font-size: 2.2rem;
     line-height: 1.3em;
   }
 
-  #horizontalWhirl {
-    max-width: 90vw; 
-    top: -200px;
-    left: 50%;
-    transform: translateX(-50%);
+  #heroFirstLine, #heroParagraph {
+    text-align: center;
+  }
+
+  #heroButtons {
+    justify-content: center;
   }
 
   #heroIllustration {
-    flex-grow: initial;
-    width: 100%;
-    height: 40%;
+    align-items: center;
   }
 
-  #rhombusSvg {
-    width: 400px;
-    top: inherit;
-    left: initial;
-    right: 20px;
-    bottom: 12%;
-  }
-  
   #characterSvg {
-    width: 350px;
-    top: inherit;
-    left: initial;
-    right: 30px;
-    bottom: 10%;
-  }
-  
-  #verticalWhirl {
-    width: 250px;
-    top: inherit;
-    left: initial;
-    right: -150px;
-    bottom: 10px;
+    width: 70%;
+    margin-top: 50px;
+    margin-right: 0px;
   }
 
-  #oasisFeaturesContent {
-    width: 100%;
-  }
-  
-  #oasisFeaturesText {
-    width: 80%;
-  }
-
-  #featuresTitle {
-    font-size: 1.6em;
-  }
-
-  #featuresSubTitle {
-    width: 100%;
-    font-size: 1em;
-    font-weight: 400;
-  }
-
-  #featuresDisplay {
-    height: auto;
-    margin-top: -20px;
-  }
-
-  .featuresItem {
-    width: 50%;
-    margin-bottom: 15px;
-  }
-
-  #featuresDisplayTitle {
-    font-size: 1.4em;
-    margin-bottom: 25px;
-  }
-
-  #whyUs {
-    margin-bottom: 0px;
-  }
-
-  #whyUsTitle {
-    font-size: 1.6em;
-  }
-
-  #roadmapWrapper {
-    width: 100%
-  }
-
-  #roadmapBack {
+  #compareTextWrapper {
     margin-top: 50px;
   }
 
-  #roadmapWrapper {
-    overflow: visible;
+  #compareTitle, #blogTitle {
+    width: 80%;
+    font-size: 1.8rem;
   }
 
-  #roadmapStepsWrapper {
-    width: 95%;
-    margin: 0px 2.5%;
-    position: relative;
-    margin-top: -430px;
+  #calculatorWrapper {
+    flex-direction: column;
+    align-items: center;
   }
 
-  .roadmapStep {
-    width: 100%;
-    height: 130px
+  #calculatorIllustration {
+    width: 80%;
+    display: flex;
+    justify-content: center;
   }
 
-  .stepLeft {
-    width: 80px
+  #calculatorImg {
+    max-width: 450px;
   }
-
-  .stepRight {
-    padding: 10px 10px 10px 0px;
+  
+  #calculatorText {
+    width: 80%;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
 
-  #oasisProServices {
-    height: auto;
-    margin-top: 20px;
-  }
-
-  #servicesRow {
-    flex-wrap: wrap;
-  }
-
-  .leftServWrapper {
-    width: 100%;
-    z-index: 10;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .rightServWrapper {
-    composes: leftServWrapper;
-    justify-content: center;
-  }
-
-  .centerServWrapper {
-    width: 100%;
-  }
-
-  .servicesItem {
-    width: 280px;
-    padding: 0px 5px;
-    margin-bottom: 30px;
-  }
-
-  #oasisProServices {
-    margin-top: 0px;
-    background: var(--bannerGradient);;
-  }
-
-  #proServicesBack {
-    display: none;
-  }
-
-  #servicesRow {
-    margin-top: 50px;
-    margin-bottom: 30px;
+  #calculatorFirstLine {
+    text-align: center;
+    font-size: 1.8rem;
   }
 
   #recentPostsMain {
@@ -931,16 +670,27 @@ input:focus {
 }
 
 @media (max-width: 539px) {
-  #rhombusSvg {
-    width: 310px;
-  }
-  
-  #characterSvg {
-    width: 250px;
+
+  #heroContent {
+    padding-top: 30px;
+    width: 92%;
   }
 
-  .titleAccentStep {
-    margin-top: 0px;
+  #linkToBlog {
+    width: 100%;
+  }
+
+  #compareDetails {
+    width: 70%;
+    max-width: 400px;
+  }
+
+  #compareWrapper {
+    width: 85%;
+  }
+
+  .compareCard {
+    width: 90%
   }
 
   #newsletter {
@@ -973,14 +723,6 @@ input:focus {
 }
 
 @media (max-width: 414px) {
-
-  #horizontalWhirl {
-    display: none;
-  }
-
-  #featuresTitleSpan {
-    display: block;
-  }
 
   #emailInput {
     padding: 0px 10px

@@ -6,7 +6,7 @@
 }
 
 #footerLinks {
-    height: 90px;
+    min-height: 75px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -47,7 +47,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3C5890;
+    background-color: #6B5FB9;
     font-family: Poppins;
     color: #ffffff;
     font-size: .7em;

@@ -29,6 +29,30 @@
     font-weight: 700;
 }
 
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-Regular.woff2') format('woff2'),
+        url('../fonts/Manrope-Regular.woff') format('woff'),
+        url('../fonts/Manrope-Regular.ttf') format('truetype');
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-SemiBold.woff2') format('woff2'),
+        url('../fonts/Manrope-SemiBold.woff') format('woff'),
+        url('../fonts/Manrope-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+  }
+  
+  @font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-Bold.woff2') format('woff2'),
+        url('../fonts/Manrope-Bold.woff') format('woff'),
+        url('../fonts/Manrope-Bold.ttf') format('truetype');
+    font-weight: 700;
+  }
+
 ul li {
     list-style: initial;
 }
@@ -67,23 +91,25 @@ ul {
 }
 
 .title {
-    font-family: Poppins;
-    font-size: 2em;
-    margin-bottom: 15px;
+    font-family: Manrope;
+    font-weight: 700;
+    font-size: 2.2em;
+    margin-bottom: 10px;
     color: #333333;
 }
 
 .shareRow {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 
 #postData {
     padding-left: 3px;
     font-size: 1em;
+    font-weight: 300;
     font-family: Poppins;
-    color: #333333;
+    color: #666666;
     line-height: 25px;
     vertical-align: middle;
 }

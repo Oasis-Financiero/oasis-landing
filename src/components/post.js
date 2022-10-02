@@ -35,7 +35,7 @@ const Post = ({ data }) => {
           <PostTitle className={styles.title}>{post.title}</PostTitle>
           <div className={styles.shareRow}>
             <div id={styles.postData}>
-              <span id={styles.author}>{post.author}</span>
+              <span id={styles.author}>{post.author ? `${post.author} - ` : ''}</span>
               <PostDate className={styles.date} date={post.date}>{moment(new Date(post.date)).format('DD [de] MMMM, YYYY')}</PostDate>
             </div>
 

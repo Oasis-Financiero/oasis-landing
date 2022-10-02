@@ -1,6 +1,5 @@
 import { /* graphql, useStaticQuery, */ Link } from "gatsby";
 import React, { useState, useEffect } from "react";
-
 import * as headerStyles from "./header.module.css"
 import oasisNombre from "../images/logos/logo-nombre.svg";
 import facebook from "../images/social/facebook-dark.svg";
@@ -9,16 +8,8 @@ import linkedin from "../images/social/linkedin-dark.svg";
 
 function Header() {
 
+  const location = typeof window !== "undefined" ? window.location.pathname : '';
   const [isExpanded, toggleExpansion] = useState(false);
-  /* const { site } = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `); */
 
   useEffect(() => {
     if (typeof window === "undefined" || !window.document) {
@@ -48,7 +39,7 @@ function Header() {
       },
     ].map((link) => (
       <Link
-        className={`${headerStyles.navLink} no-underline`}
+        className={`${location === link.route ? headerStyles.navLinkActive : headerStyles.navLink}`}
         key={link.title}
         to={link.route}
       >

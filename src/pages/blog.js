@@ -7,7 +7,7 @@ import SEO from "../components/seo";
 import PostList from "../components/post-list";
 import * as styles from "./blog.module.css";
 
-import mobileBack from "../images/blog/blog-mobile.png"
+import treelearner from "../images/blog/treelearner.png"
 
 export const query = graphql`
   query BlogQuery {
@@ -17,74 +17,71 @@ export const query = graphql`
         title
       }
     }
-    carousel: allBlogPost(sort: { fields: [date, title], order: DESC }, limit: 8) {
+    upper: allBlogPost(sort: { fields: [date, title], order: DESC }, limit: 2) {
       nodes {
         id
+        body
         excerpt
         slug
         title
-        date(formatString: "DD [de] MMMM, YYYY", locale: "es")
+        date(formatString: "D [de] MMMM", locale: "es")
         tags
         image {
           childImageSharp {
-            gatsbyImageData(layout: CONSTRAINED, width: 300, height: 240, transformOptions: {cropFocus: CENTER, fit: COVER})
+            gatsbyImageData(layout: CONSTRAINED, width: 450, height: 320, transformOptions: {cropFocus: CENTER, fit: COVER})
           }
         }
       }
     }
-    topicOne: allBlogPost(
-      sort: { fields: [date, title], order: DESC }, 
-      filter: {tags: {in: "ahorro"}},
-      limit: 2
-    ) {
-    nodes {
-      id
-      excerpt
-      slug
-      title
-      date(formatString: "DD [de] MMMM, YYYY", locale: "es")
-      tags
-      image {
-        childImageSharp {
-          gatsbyImageData(layout: CONSTRAINED, width: 500, height: 240, transformOptions: {cropFocus: CENTER, fit: COVER})
+    central: allBlogPost(sort: { fields: [date, title], order: DESC }, limit: 1, skip: 2) {
+      nodes {
+        id
+        body
+        excerpt
+        slug
+        title
+        date(formatString: "D [de] MMMM", locale: "es")
+        tags
+        image {
+          childImageSharp {
+            gatsbyImageData(layout: CONSTRAINED, width: 450, height: 320, transformOptions: {cropFocus: CENTER, fit: COVER})
+          }
         }
       }
     }
-  }
+    lower: allBlogPost(sort: { fields: [date, title], order: DESC }, limit: 2, skip: 3) {
+      nodes {
+        id
+        body
+        excerpt
+        slug
+        title
+        date(formatString: "D [de] MMMM", locale: "es")
+        tags
+        image {
+          childImageSharp {
+            gatsbyImageData(layout: CONSTRAINED, width: 450, height: 320, transformOptions: {cropFocus: CENTER, fit: COVER})
+          }
+        }
+      }
+    }
     tallCards: allBlogPost(
         sort: { fields: [date, title], order: DESC }, 
-        filter: {tags: {in: "promovidos"}},
-        limit: 3
+        filter: {tags: {in: "criptomonedas"}},
+        limit: 3,
+        skip: 1
       ) {
       nodes {
         id
+        body
         excerpt
         slug
         title
-        date(formatString: "DD [de] MMMM, YYYY", locale: "es")
+        date(formatString: "D [de] MMMM", locale: "es")
         tags
         image {
           childImageSharp {
-            gatsbyImageData(layout: CONSTRAINED, width: 600, height: 922, transformOptions: {cropFocus: CENTER, fit: COVER})
-          }
-        }
-      }
-    }
-    topicTwo: allBlogPost(
-        sort: { fields: [date, title], order: DESC }, 
-        filter: {tags: {in: "inversion"}},
-        limit: 2
-      ) {
-      nodes {
-        id
-        excerpt
-        slug
-        title
-        date(formatString: "DD [de] MMMM, YYYY", locale: "es")
-        tags
-        image {
-          childImageSharp {
-            gatsbyImageData(layout: CONSTRAINED, width: 500, height: 240, transformOptions: {cropFocus: CENTER, fit: COVER})
+            gatsbyImageData(layout: CONSTRAINED, width: 600, height: 722, transformOptions: {cropFocus: CENTER, fit: COVER})
           }
         }
       }
@@ -102,49 +99,50 @@ function BlogPage({ data }) {
         description="El blog de Oasis te ayuda a aprender todo lo que necesitas saber sobre educación financiera."
       />
 
-      <img src={mobileBack} id={styles.mobileHeader}></img>
-
-      <header id={styles.blogHeader}>
-        <div id={styles.bannerText}>
-          <h1 className={styles.titleWhite} id={styles.bannerTitle}> Educación financiera <span className={styles.titleBoldWhite}> al alcance de todos  </span></h1>
-          <h2 className={styles.paraTextWhite} id={styles.bannerSubTitle}>  Información relevante y sin complicaciones. <span id={styles.bannerSpan}> Oasis es tu guía financiero. </span> </h2>
+      <section id={styles.hero}>
+        <div id={styles.heroContent}>
+          <div id={styles.heroText}>
+            <div id={styles.textWrapper}>
+              <h1 className={styles.title} id={styles.heroFirstLine}> Conviértete en experto de las finanzas personales </h1>
+              <p className={styles.sectionDetails} id={styles.heroParagraph}>
+                Explora las publicaciones y aprende a mejorar tus finanzas, ahorrar e invertir.
+              </p>
+            </div>
+          </div>
+          <div id={styles.heroIllustration}>
+            <img id={styles.characterSvg} src={treelearner} alt='Usuario explorando opciones financieras' />
+          </div>
         </div>
-      </header>
+      </section>
 
       <section id={styles.blogMain}>
         <div id={styles.blogWrapper}>
 
-          <section className={styles.carousel}>
-            <h2 className={styles.titleBold} id={styles.recentPostsTitle}> Nuestros últimos <span className={styles.titleAccent}> blog posts </span> </h2>
-            <div id={styles.recentPostList}>
-              <PostList posts={data.carousel.nodes} style="title-under" carousel={true} />
-            </div>
-          </section>
+          <div id={styles.recentPostsTitle} className={styles.title}>
+            Últimos blog posts
+          </div>
 
-          <section id={styles.topicOne}>
-            <div id={styles.topicHeader}>
-              <h2 className={styles.titleAccent} id={styles.topicOneTitle}> Tu guía para el ahorro </h2>
+          <section>
+            <div className={styles.blogPostsWrapper}> 
+              <PostList posts={data.upper.nodes} style="double-card" />
             </div>
-            <div className={styles.topicPostList}>
-              <PostList posts={data.topicOne.nodes} style="title-under-long" carousel={false} />
+
+            <div className={styles.centralBlogPostWrapper}> 
+              <PostList posts={data.central.nodes} style="central-blogpost" />
             </div>
+
+            <div className={styles.blogPostsWrapper}> 
+              <PostList posts={data.lower.nodes} style="double-card" />
+            </div>
+            
           </section>
 
           <section id={styles.bestPosts}>
             <div id={styles.bestPostsHeader}>
-              <h2 className={styles.titleBold} id={styles.bestPostsTitle}> Hallazgos <span className={styles.titleAccent}> interesantes </span> </h2>
+              <h2 className={styles.title} id={styles.bestPostsTitle}> Tu guía para entender crypto </h2>
             </div>
             <div id={styles.bestPostsList}>
               <PostList posts={data.tallCards.nodes} style="tall-textInside" carousel={false} />
-            </div>
-          </section>
-
-          <section id={styles.topicTwo}>
-            <div id={styles.topicHeader}>
-              <h2 className={styles.titleAccent} id={styles.topicOneTitle}> ¿Te interesa comenzar a invertir? </h2>
-            </div>
-            <div className={styles.topicPostList}>
-              <PostList posts={data.topicTwo.nodes} style="title-under-long" carousel={false} />
             </div>
           </section>
 
