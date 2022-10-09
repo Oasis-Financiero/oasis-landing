@@ -44,7 +44,7 @@ export const query = graphql`
         tags
         image {
           childImageSharp {
-            gatsbyImageData(layout: CONSTRAINED, width: 450, height: 320, transformOptions: {cropFocus: CENTER, fit: COVER})
+            gatsbyImageData(layout: CONSTRAINED, width: 675, height: 480, transformOptions: {cropFocus: CENTER, fit: COVER})
           }
         }
       }

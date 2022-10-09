@@ -547,7 +547,7 @@
   }
 
   .cbpImageMobile {
-    display: inline-block;
+    display: inline-block !important;
     height: 180px;
     margin-top: 15px;
   }
