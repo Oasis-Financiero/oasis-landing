@@ -31,17 +31,19 @@ const PostLink = ({ title, slug, excerpt, date, body, image, imageAlt, postStyle
     case "tall-textInside":
       linkStyle =
       <article className={PostStyles.tall}>
+        <Link to={slug} className={PostStyles.postLinkLight}>
             <div className={PostStyles.postLinkImageTall}>
               <GatsbyImage className={PostStyles.imageTall} image={image.childImageSharp.gatsbyImageData}
                 alt={imageAlt || title}/>
             </div>
             <div className={PostStyles.linkInfoTall}>
-              <Link to={slug} className={PostStyles.postLinkLight}>
+              
                 <header className="post-link-header">
                   <div className={PostStyles.titleTextTall}>{title || slug}</div>
                 </header>
-              </Link>
+              
             </div>
+        </Link>
       </article>
     break;
 
