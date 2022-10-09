@@ -85,7 +85,8 @@
   --accentPurple: #6B5FB9;
   --backgroundBlue: #F1F4F8;
   --itemBlue: #F0F6F9;
-  --bannerGradient: linear-gradient(#F1F4F8, #ECFEFB)
+  --bannerGradient: linear-gradient(#F1F4F8, #ECFEFB);
+  --secondaryBackground: #F9F7F8B8;
 }
 
 /* * { border: 1px solid goldenrod; }
@@ -235,7 +236,7 @@ input:focus {
 }
 
 .centralBlogPostWrapper {
-  background-color: #FAFBFC;
+  background-color: var(--secondaryBackground);
 }
 
 /* */
@@ -445,6 +446,6 @@ input:focus {
   }
 
   #bestPostsList {
-    padding: 0px 6%;
+    padding: 0px 0px;
   }
 }

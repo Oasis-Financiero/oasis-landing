@@ -1,7 +1,7 @@
 import { /* graphql, useStaticQuery, */ Link } from "gatsby";
 import React, { useState, useEffect } from "react";
 import * as headerStyles from "./header.module.css"
-import oasisNombre from "../images/logos/logo-nombre.svg";
+import oasisNombre from "../images/logos/logo-oasis.svg";
 import facebook from "../images/social/facebook-dark.svg";
 import twitter from "../images/social/twitter-dark.svg";
 import linkedin from "../images/social/linkedin-dark.svg";

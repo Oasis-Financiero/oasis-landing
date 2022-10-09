@@ -22,3 +22,10 @@
 .slides {
     
 }
+
+@media screen and (max-width: 539px) {
+    .postsWrapperBlog {
+        padding: 0px 30px;
+    }
+  
+}

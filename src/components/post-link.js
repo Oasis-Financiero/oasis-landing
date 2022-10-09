@@ -58,6 +58,8 @@ const PostLink = ({ title, slug, excerpt, date, body, image, imageAlt, postStyle
                 <div className={PostStyles.cbpPostTitle}>{title || slug}</div>
               </header>
             </Link>
+            <GatsbyImage className={PostStyles.cbpImageMobile} image={image.childImageSharp.gatsbyImageData}
+              alt={imageAlt || title}/>
             <div className={PostStyles.cbpPostInfo}>
               {`Genaro Corona - ${date} (${Math.floor(body.length / 5 / 300)} min lectura)`}
             </div>
@@ -67,7 +69,7 @@ const PostLink = ({ title, slug, excerpt, date, body, image, imageAlt, postStyle
           </div>
         </div>
         <div className={PostStyles.cbpImageColumn}>
-          <GatsbyImage className={PostStyles.cbpImage} image={image.childImageSharp.gatsbyImageData}
+          <GatsbyImage className={PostStyles.cbpImageDesktop} image={image.childImageSharp.gatsbyImageData}
             alt={imageAlt || title}/>
         </div>
       </article>
