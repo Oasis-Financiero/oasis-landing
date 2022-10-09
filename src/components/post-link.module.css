@@ -294,7 +294,7 @@
 }
 
 .cbpImageMobile {
-  display: none;
+  display: none !important;
   width: 100%;
   border-radius: 8px;
 }
