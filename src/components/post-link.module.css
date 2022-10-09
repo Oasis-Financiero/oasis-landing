@@ -181,6 +181,10 @@
   border-radius: 7px;
 }
 
+.imageHome img {
+  border-radius: 7px;
+}
+
 .linkInfoHome {
   padding: 10px 5px 15px 5px;
 }
@@ -282,6 +286,10 @@
   border-radius: 8px;
 }
 
+.cbpImageMobile img {
+  border-radius: 8px;
+}
+
 .cbpImageDesktop {
   width: 100%;
   border-radius: 8px;
@@ -344,6 +352,10 @@
 
 .doubleCardImage {
   width: 100%;
+  border-radius: 7px;
+}
+
+.doubleCardImage img {
   border-radius: 7px;
 }
 
@@ -457,7 +469,12 @@
     border-radius: 7px;
   }
 
-  .postLinkImageTall {
+  .imageTall {
+    border-radius: 7px;
+    overflow: hidden;
+  }
+
+  .imageTall img {
     border-radius: 7px;
     overflow: hidden;
   }
