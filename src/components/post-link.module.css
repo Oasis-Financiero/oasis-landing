@@ -459,6 +459,7 @@
 
   .postLinkImageTall {
     border-radius: 7px;
+    overflow: hidden;
   }
 
   .linkInfoTall {
@@ -513,9 +514,10 @@
     height: 180px;
     margin-top: 15px;
   }
-  
-  .cbpImageDesktop {
+
+  .cbpImageColumn, .cbpImageDesktop {
     display: none;
+    visibility: hidden;
   }
 
   .cbpExcerptText {
