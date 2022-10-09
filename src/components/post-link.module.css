@@ -215,7 +215,7 @@
 }
 
 .imageTall {
-  
+  overflow: hidden;
 }
 
 .postLinkImageTall:after {
@@ -440,7 +440,6 @@
   .tall {
     flex-basis: 80%;
     height: 200px;
-    border-radius: 20px;
     margin: 0px 0px;
   }
 
@@ -467,6 +466,7 @@
   .tall {
     flex-basis: 90%;
     border-radius: 7px;
+    overflow: hidden;
   }
 
   .imageTall {
@@ -476,7 +476,6 @@
 
   .imageTall img {
     border-radius: 7px;
-    overflow: hidden;
   }
 
   .linkInfoTall {
