@@ -34,15 +34,14 @@ collections:
 
   - name: 'authors'
     label: 'Authors'
-    file: 'content/authors/authors.json'
     extension: "json"
     create: false
-    media_folder: ''
-    public_folder: ''
-    slug: '{{name}}'
-    fields:
-      - { label: Name, name: name, widget: string }
-      - { label: Title, name: title, widget: string }
-      - { label: Email, name: email, widget: string }
-      - { label: Shortbio, name: shortbio, widget: text }
-      - { label: Image, name: authorimage, widget: image }
+    hide: true
+    files:
+      - file: 'content/authors/authors.json'
+      fields:
+        - { label: Name, name: name, widget: string }
+        - { label: Title, name: title, widget: string }
+        - { label: Email, name: email, widget: string }
+        - { label: Shortbio, name: shortbio, widget: text }
+        - { label: Image, name: authorimage, widget: image }
