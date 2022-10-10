@@ -24,6 +24,7 @@ export const query = graphql`
         excerpt
         slug
         title
+        author
         date(formatString: "D [de] MMMM", locale: "es")
         tags
         image {
@@ -40,6 +41,7 @@ export const query = graphql`
         excerpt
         slug
         title
+        author
         date(formatString: "D [de] MMMM", locale: "es")
         tags
         image {
@@ -56,6 +58,7 @@ export const query = graphql`
         excerpt
         slug
         title
+        author
         date(formatString: "D [de] MMMM", locale: "es")
         tags
         image {
@@ -77,6 +80,7 @@ export const query = graphql`
         excerpt
         slug
         title
+        author
         date(formatString: "D [de] MMMM", locale: "es")
         tags
         image {
@@ -84,6 +88,13 @@ export const query = graphql`
             gatsbyImageData(layout: CONSTRAINED, width: 600, height: 722, transformOptions: {cropFocus: CENTER, fit: COVER})
           }
         }
+      }
+    }
+    authors: allAuthorsJson {
+      nodes {
+        id
+        name
+        email
       }
     }
   }
@@ -124,15 +135,15 @@ function BlogPage({ data }) {
 
           <section>
             <div className={styles.blogPostsWrapper}> 
-              <PostList posts={data.upper.nodes} style="double-card" />
+              <PostList posts={data.upper.nodes} authors={data.authors.nodes} style="double-card" />
             </div>
 
             <div className={styles.centralBlogPostWrapper}> 
-              <PostList posts={data.central.nodes} style="central-blogpost" />
+              <PostList posts={data.central.nodes} authors={data.authors.nodes} style="central-blogpost" />
             </div>
 
             <div className={styles.blogPostsWrapper}> 
-              <PostList posts={data.lower.nodes} style="double-card" />
+              <PostList posts={data.lower.nodes} authors={data.authors.nodes} style="double-card" />
             </div>
             
           </section>
@@ -142,7 +153,7 @@ function BlogPage({ data }) {
               <h2 className={styles.title} id={styles.bestPostsTitle}> Tu guía para entender crypto </h2>
             </div>
             <div id={styles.bestPostsList}>
-              <PostList posts={data.tallCards.nodes} style="tall-textInside" carousel={false} />
+              <PostList posts={data.tallCards.nodes} authors={data.authors.nodes} style="tall-textInside" carousel={false} />
             </div>
           </section>
 

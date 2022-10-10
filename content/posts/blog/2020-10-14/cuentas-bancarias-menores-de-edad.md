@@ -1,6 +1,7 @@
 --- 
 date: '2020-10-14' 
 title: 'Menores de edad ya podrán abrir cuentas bancarias en México' 
+author: 'coronagenaro@gmail.com'
 image: 'cuentasahorromenores.jpg'
 imageAlt: 'Menores de edad en México'
 --- 

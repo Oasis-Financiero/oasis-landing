@@ -1,6 +1,7 @@
 --- 
 date: '2020-04-02' 
 title: 'Ahorro o inversión: ¿Qué hacer con tus ingresos?' 
+author: 'navafonseca.carlos@gmail.com'
 image: 'registro-de-gastos.png'
 imageAlt: 'El buen manejo de tus ingresos es esencial'
 tags: ["inversion"]

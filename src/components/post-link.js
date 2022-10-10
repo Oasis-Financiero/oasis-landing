@@ -4,9 +4,10 @@ import PropTypes from "prop-types";
 import * as PostStyles from "./post-link.module.css"
 import { GatsbyImage } from "gatsby-plugin-image"
 
-const PostLink = ({ title, slug, excerpt, date, body, image, imageAlt, postStyle, tags }) => {
+const PostLink = ({ title, author, slug, excerpt, date, body, image, imageAlt, postStyle, allAuthors, tags }) => {
 
-  console.log(date)
+  const postAuthor = allAuthors.find(person => person.email === author)
+  console.log(author)
   let linkStyle
 
   switch(postStyle){
@@ -63,7 +64,7 @@ const PostLink = ({ title, slug, excerpt, date, body, image, imageAlt, postStyle
             <GatsbyImage className={PostStyles.cbpImageMobile} image={image.childImageSharp.gatsbyImageData}
               alt={imageAlt || title}/>
             <div className={PostStyles.cbpPostInfo}>
-              {`Genaro Corona - ${date} (${Math.floor(body.length / 5 / 300)} min lectura)`}
+              {`${postAuthor.name} - ${date} (${Math.floor(body.length / 5 / 300)} min lectura)`}
             </div>
             <p className={PostStyles.cbpExcerptText}>
               {excerpt} <span> <Link to={slug} className={PostStyles.inlinePostLink}> Leer más </Link> </span>
@@ -95,7 +96,7 @@ const PostLink = ({ title, slug, excerpt, date, body, image, imageAlt, postStyle
               </header>
             </Link>
             <div className={PostStyles.doubleCardPostInfo}>
-              {`Genaro Corona - ${date}`}
+              {`${postAuthor.name} - ${date}`}
             </div>
             <div className={PostStyles.doubleCardReadingTime}>
               {`(${Math.floor(body.length / 5 / 300)} min lectura)`}

@@ -21,6 +21,7 @@ export const query = graphql`
       body
       slug
       title
+      author
       tags
       date(formatString: "MMMM DD, YYYY")
       image {
@@ -34,6 +35,18 @@ export const query = graphql`
           fluid {
             ...GatsbyImageSharpFluid
             src
+          }
+        }
+      }
+    }
+    authors: allAuthorsJson {
+      nodes {
+        id
+        name
+        email
+        image {
+          childImageSharp {
+            gatsbyImageData(layout: CONSTRAINED, width: 40, height: 40, transformOptions: {cropFocus: CENTER, fit: COVER})
           }
         }
       }

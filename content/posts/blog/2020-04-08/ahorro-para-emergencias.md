@@ -1,5 +1,6 @@
 --- 
 date: '2020-04-08' 
+author: 'coronagenaro@gmail.com'
 title: 'Ahorro para emergencias: ¿Que tan preparados estamos?' 
 image: 'alcancia-ahorro.png'
 imageAlt: 'Alcancia para ahorro de emergencias'

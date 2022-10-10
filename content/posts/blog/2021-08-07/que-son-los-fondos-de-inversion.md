@@ -1,6 +1,7 @@
 --- 
 date: '2021-08-07' 
 title: '¿Qué son los Fondos de inversión?' 
+author: 'coronagenaro@gmail.com'
 image: 'funds.jpg'
 imageAlt: 'Fondos de inversión'
 tags: ["inversion", "acciones"]

@@ -1,6 +1,7 @@
 --- 
 date: '2021-06-19' 
 title: 'Bitcoin: ¿Qué es, cómo funciona y cómo puedes invertir?' 
+author: 'coronagenaro@gmail.com'
 image: 'bitcoin.jpg'
 imageAlt: 'Bitcoin es cada vez más popular'
 tags: ["inversion", "criptomonedas", "bitcoin"]

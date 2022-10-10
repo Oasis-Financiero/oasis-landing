@@ -1,6 +1,7 @@
 ---
 title: ¿Qué es el Metaverso?
 slug: que-es-el-metaverso
+author: 'coronagenaro@gmail.com'
 date: 2022-06-19
 image: metaverso.jpg
 imageAlt: metaverso

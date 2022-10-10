@@ -1,6 +1,7 @@
 --- 
 date: '2021-07-01' 
 title: 'Invierte en acciones. Estas son las opciones para hacerlo.' 
+author: 'coronagenaro@gmail.com'
 image: 'compra-acciones.jpg'
 imageAlt: 'Aplicaciones móviles para comprar acciones'
 tags: ["inversion", "acciones"]

@@ -72,10 +72,6 @@ ul {
     max-width: 800px
 }
 
-#author {
-
-}
-
 .articleTitle {
     
 }
@@ -106,26 +102,51 @@ ul {
 
 #postData {
     padding-left: 3px;
-    font-size: 1em;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    line-height: 18px;
+}
+
+#authorDate {
+    display: flex;
+    flex-direction: column;
+}
+
+#authorImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#authorName {
+    font-size: .9em;
+    font-weight: 600;
+    font-family: Poppins;
+    color: #333333;
+}
+
+#date {
+    font-size: .8em;
     font-weight: 300;
     font-family: Poppins;
     color: #666666;
-    line-height: 25px;
-    vertical-align: middle;
-}
-
-.date {
-
 }
 
 .iconsPanel {
     display: flex;
+    align-items: center;
     padding-right: 5px;
+}
+
+.iconsPanel a {
+    display: flex;
+    align-items: center;
 }
 
 .socialIcon {
     margin: 0px 3px;
-    width: 18px;
+    width: 22px;
     display: inline-block;
 }
 
@@ -149,7 +170,7 @@ ul {
         font-size: 1.60em;
     }
 
-    .date {
+    #date {
         font-size: .9em;
     }
 

@@ -1,6 +1,7 @@
 --- 
 date: '2020-04-28' 
 title: 'Apps de movilidad. ¿Cuánto gastamos y cuáles preferimos?' 
+author: 'coronagenaro@gmail.com'
 image: 'mobility-apps.jpg'
 imageAlt: 'Opciones de apps de movilidad en Mexico'
 --- 

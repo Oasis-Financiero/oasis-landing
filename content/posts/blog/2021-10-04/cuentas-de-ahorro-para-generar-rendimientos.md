@@ -1,6 +1,7 @@
 --- 
 date: '2021-10-04' 
 title: 'Las mejores cuentas de ahorro para generar rendimientos en México' 
+author: 'coronagenaro@gmail.com'
 image: 'alcancia.png'
 imageAlt: 'Alcancia de ahorro'
 tags: ["ahorro", "rendimientos"]

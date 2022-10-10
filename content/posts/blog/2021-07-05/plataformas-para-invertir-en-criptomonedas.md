@@ -1,5 +1,6 @@
 ---
 title: Plataformas para invertir en Bitcoin y criptomonedas.
+author: 'coronagenaro@gmail.com'
 slug: plataformas-para-invertir-en-criptomonedas
 date: 2021-07-05
 image: cryptos.jpg

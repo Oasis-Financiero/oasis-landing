@@ -40,6 +40,13 @@ export const query = graphql`
         imageAlt
       }
     }
+    authors: allAuthorsJson {
+      nodes {
+        id
+        name
+        email
+      }
+    }
   }
 `
 const scrollHandler = () => {
@@ -185,7 +192,7 @@ function IndexPage({ data }) {
           </div>
           <div id={styles.linkToBlog}> <Link to="/blog" id={styles.blogLink}> Ver más </Link> </div>
           <div id={styles.postsWrapper}>
-            <PostList posts={posts} style="title-under" page={'home'} />
+            <PostList posts={posts} authors={data.authors.nodes} style="title-under" page={'home'} />
           </div>
         </div>
 

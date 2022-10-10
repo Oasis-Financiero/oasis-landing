@@ -1,6 +1,6 @@
 ---
 date: 2020-04-04
-author: Genaro Corona
+author: 'coronagenaro@gmail.com'
 title: Servicios digitales, gastos hormiga para los Millennials.
 slug: gastos-hormiga-en-servicios-digitales
 image: gastos-en-linea.png
