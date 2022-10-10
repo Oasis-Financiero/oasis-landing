@@ -102,6 +102,8 @@ export const query = graphql`
 
 function BlogPage({ data }) {
 
+  console.log(data.authors.nodes)
+
   return (
     <Layout page="blog">
       <SEO

@@ -32,17 +32,18 @@ collections:
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   
-  - name: 'authors'
-    label: 'Authors'
+  - name: authors
+    label: Authors
+    folder: 'content/authors'
+    media_folder: ''
+    public_folder: ''
+    format: json
     create: false
     hide: true
-    files:
-      - file: 'content/authors/authors.json'
-        label: 'All authors'
-        name: 'authordata'
-        fields:
-          - { label: Name, name: name, widget: string }
-          - { label: Title, name: title, widget: string }
-          - { label: Email, name: email, widget: string }
-          - { label: Shortbio, name: shortbio, widget: text }
-          - { label: Image, name: authorimage, widget: image }
+    slug: "{{name}}"
+    fields:
+      - { label: Name, name: name, widget: string }
+      - { label: Title, name: title, widget: string }
+      - { label: Email, name: email, widget: string }
+      - { label: Shortbio, name: shortbio, widget: text }
+      - { label: Image, name: image, widget: image }
