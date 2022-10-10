@@ -31,17 +31,18 @@ collections:
       - { label: "Image Alt", name: "imageAlt", widget: "string", hint: 'Una breve descripción para la imagen subida.' }
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-
+  
   - name: 'authors'
     label: 'Authors'
-    extension: "json"
     create: false
     hide: true
     files:
       - file: 'content/authors/authors.json'
-      fields:
-        - { label: Name, name: name, widget: string }
-        - { label: Title, name: title, widget: string }
-        - { label: Email, name: email, widget: string }
-        - { label: Shortbio, name: shortbio, widget: text }
-        - { label: Image, name: authorimage, widget: image }
+        label: 'All authors'
+        name: 'authordata'
+        fields:
+          - { label: Name, name: name, widget: string }
+          - { label: Title, name: title, widget: string }
+          - { label: Email, name: email, widget: string }
+          - { label: Shortbio, name: shortbio, widget: text }
+          - { label: Image, name: authorimage, widget: image }
