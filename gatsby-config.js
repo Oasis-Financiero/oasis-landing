@@ -51,6 +51,19 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-transformer-json",
+        options: {
+          path: `content/authors`,
+        },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `content/authors`,
+        name: `content/authors`,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `content/posts`,
@@ -105,5 +118,6 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    `gatsby-transformer-json`
   ],
 };

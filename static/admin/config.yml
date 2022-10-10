@@ -4,6 +4,7 @@ backend:
 
 media_folder: static/img
 public_folder: /img
+publish_mode: editorial_workflow
 
 collections:
   - name: 'blog'
@@ -12,15 +13,37 @@ collections:
     create: true
     media_folder: ''
     public_folder: ''
+    slug: '{{fields.slug}}'
     path: '{{date}}/{{slug}}'
-    preview_path: "blog/{{date}}/{{slug}}"
+    preview_path: 'blog/{{date}}/{{fields.slug}}'
     editor:
       preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'File Name', name: 'slug', widget: 'string', hint: 'El texto que se mostrará en el URL del artículo. Formato: Minúsculas separadas por guiones.'}
+      - { label: "Author", name: "author", widget: "relation", 
+        collection: "authors", 
+        value_field: "email", 
+        display_fields: [ "name" ], 
+        search_fields: [ "name", "email" ] }
       - { label: 'Publish Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD', date_format: 'YYYY-MM-DD'}
       - { label: "Featured Image", name: "image", widget: "image", choose_url: false }
       - { label: "Image Alt", name: "imageAlt", widget: "string", hint: 'Una breve descripción para la imagen subida.' }
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  
+  - name: authors
+    label: Authors
+    folder: 'content/authors'
+    media_folder: ''
+    public_folder: ''
+    format: json
+    create: false
+    hide: true
+    slug: "{{name}}"
+    fields:
+      - { label: Name, name: name, widget: string }
+      - { label: Title, name: title, widget: string }
+      - { label: Email, name: email, widget: string }
+      - { label: Shortbio, name: shortbio, widget: text }
+      - { label: Image, name: image, widget: image }

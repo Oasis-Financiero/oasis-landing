@@ -6,6 +6,7 @@ import 'moment/locale/es'
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { MDXProvider } from "@mdx-js/react";
 import SEO from "./seo";
+import { GatsbyImage } from "gatsby-plugin-image"
 
 import Layout from "./layout";
 import PostTitle from "./post-title"
@@ -21,6 +22,8 @@ moment.locale('es')
 
 const Post = ({ data }) => {
   const post = data.blogPost
+  const author = data.authors.nodes.find(author => author.email === post.author)
+  console.log(author)
   return (
     <Layout page="blogpost">
     <SEO
@@ -35,8 +38,18 @@ const Post = ({ data }) => {
           <PostTitle className={styles.title}>{post.title}</PostTitle>
           <div className={styles.shareRow}>
             <div id={styles.postData}>
-              <span id={styles.author}>{post.author}</span>
-              <PostDate className={styles.date} date={post.date}>{moment(new Date(post.date)).format('DD [de] MMMM, YYYY')}</PostDate>
+              {
+                author.image &&
+                <GatsbyImage
+                  image={author.image.childImageSharp.gatsbyImageData}
+                  alt={author.name ? author.name : ''}
+                  id={styles.authorImage}
+                />
+              }
+              <div id={styles.authorDate}>
+                <div id={styles.authorName}>{author.name? `Por ${author.name}` : ''}</div>
+                <PostDate id={styles.date} date={post.date}>{moment(new Date(post.date)).format('DD [de] MMMM, YYYY')}</PostDate>
+              </div>
             </div>
 
             <div className={styles.iconsPanel} >

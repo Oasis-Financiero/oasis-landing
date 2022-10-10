@@ -1,6 +1,7 @@
 --- 
 date: '2020-06-08' 
 title: 'Pagos digitales y sus ventajas ante el uso de efectivo' 
+author: 'coronagenaro@gmail.com'
 image: 'digital-payment-phone.png'
 imageAlt: 'Aplicaciones de pagos digitales'
 tags: ["promovidos"]

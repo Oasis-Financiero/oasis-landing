@@ -1,6 +1,7 @@
 ---
 date: '2021-11-08'
 title: '¿Cómo comprar y vender Bitcoin y criptomonedas en Bitso?'
+author: 'coronagenaro@gmail.com'
 image: 'bitcoin.jpg'
 imageAlt: 'Representación física de un bitcoin'
 tags: ["criptomonedas"]

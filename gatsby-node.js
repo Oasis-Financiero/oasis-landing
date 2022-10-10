@@ -51,6 +51,7 @@ exports.createSchemaCustomization = ({ actions, schema }, themeOptions) => {
   createTypes(`interface BlogPost implements Node {
       id: ID!
       title: String!
+      author: String!
       body: String!
       slug: String!
       date: Date! @dateformat
@@ -59,7 +60,8 @@ exports.createSchemaCustomization = ({ actions, schema }, themeOptions) => {
       image: File @fileByRelativePath
       imageAlt: String
       socialImage: File @fileByRelativePath
-  }`)
+  }`
+  )
 
   createTypes(
     schema.buildObjectType({
@@ -68,6 +70,12 @@ exports.createSchemaCustomization = ({ actions, schema }, themeOptions) => {
         id: { type: `ID!` },
         title: {
           type: `String!`,
+        },
+        author: {
+          type: `String!`,
+        },
+        authorFull: {
+          type: `AuthorsJson`
         },
         slug: {
           type: `String!`,
@@ -201,6 +209,7 @@ exports.onCreateNode = async (
       image: node.frontmatter.image,
       imageAlt: node.frontmatter.imageAlt,
       socialImage: node.frontmatter.socialImage,
+      author: node.frontmatter.author
     }
 
     if (validURL(node.frontmatter.image)) {

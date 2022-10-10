@@ -2,11 +2,30 @@
     width: 100%
 }
 
-.postsWrapper {
+.postsWrapperBlog {
     display: flex;
     flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.postsWrapperHome {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2%;
+    row-gap: 25px;
+    justify-content: center;
+    max-width: 1200px;
 }
 
 .slides {
     
+}
+
+@media screen and (max-width: 539px) {
+    .postsWrapperBlog {
+        padding: 0px 20px;
+    }
+  
 }
