@@ -239,47 +239,6 @@ input:focus {
   background-color: var(--secondaryBackground);
 }
 
-/* */
-#mobileHeader {
-  display: none;
-  width: 100%;
-}
-
-#blogHeader {
-  height: 300px;
-  position: relative;
-  display: flex;
-  justify-content: flex-end;
-  background-image: url("../images/blog/blogbanner.png");
-  background-size: cover;
-  background-position: center
-}
-
-#bannerText {
-  width: 40%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-#bannerTitle {
-  font-size: 1.7rem;
-  width: 80%
-}
-
-#bannerSubTitle {
-  margin-top: 5px;
-  font-size: 1.1em;
-  font-weight: initial;
-  width: 80%
-}
-
-#bannerSpan {
-  display: block;
-}
-
 #blogMain {
   display: flex;
   justify-content: center;
@@ -325,35 +284,6 @@ input:focus {
   margin-top: 30px;
   margin-bottom: 40px;
   font-size: 2em;
-}
-
-
-/* ------------ Topical sections -------------- */
-
-#topicOne {
-  margin-top: 40px;
-}
-
-#topicTwo {
-  margin-top: 30px;
-  margin-bottom: 40px
-}
-
-#topicHeader {
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: linear-gradient(#F1F4F8, #ECFEFB);
-  margin: 0px calc(60px + 1%)
-}
-
-#topicOneTitle {
-  text-align: center;
-}
-
-.topicPostList {
-  padding: 0px calc(60px + .6%);
 }
 
 @media (max-width: 767px) {
@@ -442,10 +372,15 @@ input:focus {
   #bestPostsTitle {
     margin-top: 60px;
     margin-bottom: 20px;
-    font-size: 1.8em;
   }
 
   #bestPostsList {
     padding: 0px 0px;
+  }
+
+  #recentPostsTitle, #bestPostsTitle {
+    text-align: left;
+    padding: 0px calc(20px + 5%);
+    font-size: 1.6em;
   }
 }
