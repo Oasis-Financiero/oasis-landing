@@ -21,4 +21,8 @@ Las mayores stablecoins son Tether (USDT), USDC, BUSD y DAI. Estas mantienen el 
 
 **Las stablecoins sirven para protegerse contra la volatilidad que tiene Bitcoin y otras criptomonedas.**<br/><br/>
 
-L﻿a tecnología blockchaion
+L﻿a tecnología blockchain es usada en estos tokens ya que los antes mencionados están creados en Ethereum y actualmenten han surgido más stablecoins en otras redes de blockchain.
+
+### ¿﻿Para qué se pueden usar las stablecoins?
+
+C﻿omo se mencionó anteriormente estas pueden usarse para protegerse de la voltalidad que tienen Bitcoin y otras criptomonedas ya que en diversas plataformas de criptomonedas existen mercados donde puedes comprar y vender criptomonedas con USDC, USDT, DAI por mencionar algunas. Con esto podrás vender tus BTC por una stablecoin
