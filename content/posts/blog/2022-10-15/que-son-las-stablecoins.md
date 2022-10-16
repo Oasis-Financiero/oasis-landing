@@ -21,8 +21,16 @@ Las mayores stablecoins son Tether (USDT), USDC, BUSD y DAI. Estas mantienen el 
 
 **Las stablecoins sirven para protegerse contra la volatilidad que tiene Bitcoin y otras criptomonedas.**<br/><br/>
 
-L﻿a tecnología blockchain es usada en estos tokens ya que los antes mencionados están creados en Ethereum y actualmenten han surgido más stablecoins en otras redes de blockchain.
+L﻿a tecnología blockchain es usada en estos tokens ya que los antes mencionados están creados en Ethereum y actualmenten han surgido más stablecoins en otras redes de blockchain.<br/><br/>
 
-### ¿﻿Para qué se pueden usar las stablecoins?
+### ¿﻿Para qué se pueden usar las stablecoins?<br/><br/>
 
-C﻿omo se mencionó anteriormente estas pueden usarse para protegerse de la voltalidad que tienen Bitcoin y otras criptomonedas ya que en diversas plataformas de criptomonedas existen mercados donde puedes comprar y vender criptomonedas con USDC, USDT, DAI por mencionar algunas. Con esto podrás vender tus BTC por una stablecoin
+C﻿omo se mencionó anteriormente estas pueden usarse para protegerse de la voltalidad que tienen Bitcoin y otras criptomonedas ya que en diversas plataformas de criptomonedas existen mercados donde puedes comprar y vender criptomonedas con USDC, USDT, DAI por mencionar algunas. Digamos que hubo una noticias que movió por completo el mercado de criptomonedas y no deseas tener posibles pérdidas, es aquí cuando puedes vender tus BTC por USDC o alguna otra moneda estable. Así tus fondos se mantendrán sin riesgo de volatilidad.<br/><br/>
+
+#### R﻿emesas<br/><br/>
+
+O﻿tro uso que está creciendo es el de las remesas ya que estas monedas estables pueden estar en diversas redes de blockchain, esto permite que las comisiones por transferencia entre una cartera a otra sea más accesible. Además las transferencias pueden tardar segundos o pocos minutos por lo que transfererir USDC entre Estados Unidos y México se realiza a un costo mucho menor al que te cobrarían empresas como Moneygram o WesterUnion.<br/><br/>
+
+#### P﻿agos<br/><br/>
+
+L﻿os pagos con criptomonedas han empezado a ser una opción en tiendas en línea ya las carteras de criptomonedas se pueden guardar en tu navegador o en el móvil. Esto facilita la operación en diversas plataformas. Los negocios locales como tiendas de ropa, comida, cafeterías o librerías están agregando los pagos con criptomonedas y poco a poco están prefiriendo las monedas estables ya así no estarán expuestos a la volatilidad del mercado dando mayor seguridad a su economía.<br/><br/>
