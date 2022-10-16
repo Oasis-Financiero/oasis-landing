@@ -34,3 +34,9 @@ O﻿tro uso que está creciendo es el de las remesas ya que estas monedas establ
 #### P﻿agos<br/><br/>
 
 L﻿os pagos con criptomonedas han empezado a ser una opción en tiendas en línea ya las carteras de criptomonedas se pueden guardar en tu navegador o en el móvil. Esto facilita la operación en diversas plataformas. Los negocios locales como tiendas de ropa, comida, cafeterías o librerías están agregando los pagos con criptomonedas y poco a poco están prefiriendo las monedas estables ya así no estarán expuestos a la volatilidad del mercado dando mayor seguridad a su economía.<br/><br/>
+
+### ¿﻿Que es lo que respalda el valor de las stablecoins?<br/><br/>
+
+E﻿xisten diveros tipos de stablecoins como las colateralizadas, 
+
+esto se refiere a que están respaldadas por una moneda FIAT como dólar, euro, bienes inmuebles, metales preciosos u otra criptomoneda.
