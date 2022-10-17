@@ -35,6 +35,12 @@ O﻿tro uso que está creciendo es el de las remesas ya que estas monedas establ
 
 L﻿os pagos con criptomonedas han empezado a ser una opción en tiendas en línea ya las carteras de criptomonedas se pueden guardar en tu navegador o en el móvil. Esto facilita la operación en diversas plataformas. Los negocios locales como tiendas de ropa, comida, cafeterías o librerías están agregando los pagos con criptomonedas y poco a poco están prefiriendo las monedas estables ya así no estarán expuestos a la volatilidad del mercado dando mayor seguridad a su economía.<br/><br/>
 
+### I﻿nflación<br/><br/>
+
+L﻿as stablecoins con valor en dolares son a las que más recurren los países con alta inflación como Argentina o Venezuela ya que su moneda nacional constantemente pierde valor. Al convertir sus pesos a USDC o USDT se protegen de la constante devaluación de su moneda y con esto hacen frente día a día.<br/><br/>
+
+E﻿sto hace de Latinoamérica una de las mayores regiones en el mundo donde las stablecoins son vitales para mejorar la economía de la sociedad.<br/><br/>
+
 ### ¿﻿Que es lo que respalda a las stablecoins?<br/><br/>
 
 E﻿xisten varios tipos de stablecoins, las que son r espaldadas con dinero FIAT, respaldadas por otras criptomonedas o algorítmicas.<br/><br/>
@@ -54,3 +60,7 @@ En este escenario se puede usar DAI como ejemplo. Para poder obtener DAI es nece
 E﻿n este escenario no existen activos como colaterales como paso con los ejemplos anteriores. Es un algoritmo el que se encarga de dar estabilidad a la moneda. En este caso si la demanda de la moneda aumenta, se emitirán n uevas stablecoins y ante caídas el sistema ofrecerá acciones y comprará la moneda hasta estabilizar el precio.<br/><br/> 
 
 R﻿ecientemente la mayor stablecoin algorítmica Terra UST sufrió un colpaso, perdió su paridad con el dolar y esto trajo que su toekn con el que mantenía el valor Luna también colapsara. Esto trajo garndes repercusiones en el mercado y ha provocado que las stablecoins algorítmincas sean las menos populares en este momento.<br/><br/>
+
+### ¿﻿Cuáles son las stablecoins existentes en México?
+
+E﻿n México ya existen varias stablecoins con paridad 1:1 al peso mexicano. Recientemente Tether (USDT) ha lanzado MXNT la cuál apunta a usarse en las remesas. Esta moneda podrá ya está disponible en las redes de Ethereum, Tron y Polygon
