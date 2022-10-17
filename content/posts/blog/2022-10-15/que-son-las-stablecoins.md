@@ -45,8 +45,12 @@ Por cada unidad de Stablecoin que se emite, se deposita en garantía una unidad 
 
 ##### S﻿tablecoins respaldadas con criptomonedas.<br/><br/>
 
-E﻿n este caso se utiliza una o varias criptomonedas para respaldar a la stablecoins. Esto puede ser el Bitcoin, Ethereum o una canasta en donde se incluyan varias. Este proceso se hace mediante contratos inteligentes y son estos los que mantendrán los ajustes para que exista la paridad 1:1. 
+E﻿n este caso se utiliza una o varias criptomonedas para respaldar a la stablecoins. Esto puede ser el Bitcoin, Ethereum o una canasta en donde se incluyan varias. Este proceso se hace mediante contratos inteligentes y son estos los que mantendrán los ajustes para que exista la paridad 1:1. <br/><br/>
 
-En este escenario se puede usar DAI como ejemplo. Para poder obtener DAI es necesario dejar como colateral una cantidad de Ethereum. Si se requieren 100 DAI = 100 USD, se deberá dejar una cantidad mayor a lo solicitado y esto debe ser en Ethereum.
+En este escenario se puede usar DAI como ejemplo. Para poder obtener DAI es necesario dejar como colateral una cantidad de Ethereum. Si se requieren 100 DAI = 100 USD, se deberá dejar una cantidad mayor a lo solicitado y esto debe ser en Ethereum.<br/><br/>
 
-##### S﻿tablecoins respaldadas con algoritmos.
+##### S﻿tablecoins respaldadas con algoritmos.<br/><br/>
+
+E﻿n este escenario no existen activos como colaterales como paso con los ejemplos anteriores. Es un algoritmo el que se encarga de dar estabilidad a la moneda. En este caso si la demanda de la moneda aumenta, se emitirán n uevas stablecoins y ante caídas el sistema ofrecerá acciones y comprará la moneda hasta estabilizar el precio.<br/><br/> 
+
+R﻿ecientemente la mayor stablecoin algorítmica Terra UST sufrió un colpaso, perdió su paridad con el dolar y esto trajo que su toekn con el que mantenía el valor Luna también colapsara. Esto trajo garndes repercusiones en el mercado y ha provocado que las stablecoins algorítmincas sean las menos populares en este momento.<br/><br/>
