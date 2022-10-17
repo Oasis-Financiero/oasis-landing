@@ -36,3 +36,17 @@ O﻿tro uso que está creciendo es el de las remesas ya que estas monedas establ
 L﻿os pagos con criptomonedas han empezado a ser una opción en tiendas en línea ya las carteras de criptomonedas se pueden guardar en tu navegador o en el móvil. Esto facilita la operación en diversas plataformas. Los negocios locales como tiendas de ropa, comida, cafeterías o librerías están agregando los pagos con criptomonedas y poco a poco están prefiriendo las monedas estables ya así no estarán expuestos a la volatilidad del mercado dando mayor seguridad a su economía.<br/><br/>
 
 ### ¿﻿Que es lo que respalda a las stablecoins?<br/><br/>
+
+E﻿xisten varios tipos de stablecoins, las que son r espaldadas con dinero FIAT, respaldadas por otras criptomonedas o algorítmicas.<br/><br/>
+
+##### S﻿tablecoins respaldadas con FIAT. <br/><br/>
+
+Por cada unidad de Stablecoin que se emite, se deposita en garantía una unidad de moneda equivalente. Por ejemplo si se emiten 1000 stablecoins deben existir 1000 como colateral. Este colateral deben ser recursos en moneda nacional y estarán en una cuenta que será menejada por la organización que emite los stablecoins.<br/><br/>
+
+##### S﻿tablecoins respaldadas con criptomonedas.<br/><br/>
+
+E﻿n este caso se utiliza una o varias criptomonedas para respaldar a la stablecoins. Esto puede ser el Bitcoin, Ethereum o una canasta en donde se incluyan varias. Este proceso se hace mediante contratos inteligentes y son estos los que mantendrán los ajustes para que exista la paridad 1:1. 
+
+En este escenario se puede usar DAI como ejemplo. Para poder obtener DAI es necesario dejar como colateral una cantidad de Ethereum. Si se requieren 100 DAI = 100 USD, se deberá dejar una cantidad mayor a lo solicitado y esto debe ser en Ethereum.
+
+##### S﻿tablecoins respaldadas con algoritmos.
