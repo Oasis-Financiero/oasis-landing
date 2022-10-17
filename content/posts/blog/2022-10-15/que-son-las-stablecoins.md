@@ -61,6 +61,10 @@ E﻿n este escenario no existen activos como colaterales como paso con los ejemp
 
 R﻿ecientemente la mayor stablecoin algorítmica Terra UST sufrió un colpaso, perdió su paridad con el dolar y esto trajo que su toekn con el que mantenía el valor Luna también colapsara. Esto trajo garndes repercusiones en el mercado y ha provocado que las stablecoins algorítmincas sean las menos populares en este momento.<br/><br/>
 
-### ¿﻿Cuáles son las stablecoins existentes en México?
+### ¿﻿Cuáles son las stablecoins existentes en México?<br/><br/>
 
-E﻿n México ya existen varias stablecoins con paridad 1:1 al peso mexicano. Recientemente Tether (USDT) ha lanzado MXNT la cuál apunta a usarse en las remesas. Esta moneda podrá ya está disponible en las redes de Ethereum, Tron y Polygon
+E﻿n México ya existen varias stablecoins con paridad 1:1 al peso mexicano. Recientemente Tether (USDT) ha lanzado MXNT la cuál apunta a usarse en las remesas. Esta moneda podrá ya está disponible en las redes de Ethereum, Tron y Polygon.<br/><br/>
+
+P﻿or otro lado PXO, MMXN, JMXN y Xocolatl son stablecoins con paridad al peso mexicano que están tomando renombre y casos de uso en el país.<br/><br/>
+
+#### C﻿onoce más sobre Xocolatl (XOC) Primer protocolo mexicano descentralizado.
