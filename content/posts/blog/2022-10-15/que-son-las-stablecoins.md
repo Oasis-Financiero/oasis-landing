@@ -25,7 +25,7 @@ L﻿a tecnología blockchain es usada en estos tokens ya que los antes mencionad
 
 ### **¿﻿Para qué se pueden usar las stablecoins?<br/><br/>**
 
-C﻿omo se mencionó anteriormente estas pueden usarse para protegerse de la voltalidad que tienen Bitcoin y otras criptomonedas ya que en diversas plataformas de criptomonedas existen mercados donde puedes comprar y vender criptomonedas con USDC, USDT, DAI por mencionar algunas. Digamos que hubo una noticias que movió por completo el mercado de criptomonedas y no deseas tener posibles pérdidas, es aquí cuando puedes vender tus BTC por USDC o alguna otra moneda estable. Así tus fondos se mantendrán sin riesgo de volatilidad.<br/><br/>
+C﻿omo se mencionó anteriormente estas pueden usarse para protegerse de la volatilidad que tienen Bitcoin y otras criptomonedas ya que en diversas plataformas de criptomonedas existen mercados donde puedes comprar y vender criptomonedas con USDC, USDT, DAI por mencionar algunas. Digamos que hubo una noticias que movió por completo el mercado de criptomonedas y no deseas tener posibles pérdidas, es aquí cuando puedes vender tus BTC por USDC o alguna otra moneda estable. Así tus fondos se mantendrán sin riesgo de volatilidad.<br/><br/>
 
 #### **R﻿emesas<br/><br/>**
 
