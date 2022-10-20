@@ -13,7 +13,9 @@ tags:
   - blockchain
   - criptomoneda
 ---
-L﻿a economía actual ha tenido diversos altibajos los cuáles han afectado la situación financiera de la sociedad en diferentes ámbitos. Durante y después de la pandemia el empleo ha sido uno de los más golpeados.<br/><br/>
+L﻿a economía actual ha tenido diversos altibajos los cuáles han afectado la situación financiera de la sociedad en diferentes ámbitos. Durante y después de la pandemia el desempleo y la inflación son de las consecuencias que más están afectando a México y Latinoamérica.<br/><br/>
+
+E﻿s en estas situaciones mundiales donde nuevas tecnologías y proyectos surgen y 
 
 
 
