@@ -49,4 +49,6 @@ Web: https://xocolatl.club/
 
 T﻿witter: https://twitter.com/PipilaDAO
 
-L﻿inkedIn: https://www.linkedin.com/company/xocolatl-finance/
+L﻿inkedIn: https://www.linkedin.com/company/xocolatl-finance/<br/><br/>
+
+***[E﻿ntra al siguiente artículo para saber Que son los NFTs y su valor en el arte y videojuegos](https://www.oasisfinanciero.mx/blog/2022-06-18/qu%C3%A9-son-los-nft-y-su-valor-en-el-arte-y-videojuegos/)***
