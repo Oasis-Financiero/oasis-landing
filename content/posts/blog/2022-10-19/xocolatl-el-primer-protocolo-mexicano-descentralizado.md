@@ -15,9 +15,13 @@ tags:
 ---
 L﻿a economía actual ha tenido diversos altibajos los cuáles han afectado la situación financiera de la sociedad en diferentes ámbitos. Durante y después de la pandemia el desempleo y la inflación son de las consecuencias que más están afectando a México y Latinoamérica.<br/><br/>
 
-E﻿s aquí en donde la tecnología blockchain a servido para crear nuevos modelos como las finanzas descentralizadas.
+E﻿s aquí en donde la tecnología blockchain a servido para crear nuevos modelos como las finanzas descentralizadas (DeFi - Decentralized Finance).<br/><br/>
+
+DeFi es un ecosistema financiero construido sobre la tecnología blockchain y es en este donde los propios usuarios son quienes intercambian activos y servicios financieros directamente entre ellos, sin intermediarios y para usarlos como mecanismo de inversión o financiación.<br/><br/>
 
 Es aquí donde proyectos como **Xocolatl, el primer protocolo mexicano descentralizado** el cuál tiene su propia stablecoin **XOC** que tiene paridad 1:1 con el peso mexicano.<br/><br/>
+
+I﻿van Flores es uno de los miembros fundadores de Xocolatl y nos platica un poco sobre el proyecto.<br/><br/>
 
 **¿Que es $XOC?**<br/><br/>
 
