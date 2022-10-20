@@ -17,11 +17,13 @@ L﻿a economía actual ha tenido diversos altibajos los cuáles han afectado la 
 
 E﻿s en estas situaciones mundiales donde nuevas tecnologías y proyectos surgen y 
 
-
-
 **¿Cómo surge el proyecto Xocolatl?**<br/><br/>Basado en el exito que ha tenido DeFi hasta hoy con protocolos como Aave, Compound y MakerDAO, nos dimos cuenta que todo empieza con una stablecoin, en ese caso el de DAI, en nuestro caso XOC. Así cualquier hacker o emprendedor tiene un ERC20 con paridad al peso MXN para construir una applicacion decentralizada usando practicamente pesos MXN. Asi surge el protocolo del Xocolatl. <br/><br/>
 
 **¿Porque Xocolatl?** Nuestro intención fue distinguir que hace cientos de años los aztecas y mayas usaban semillas de cacáo como moneda, así XOC es una nueva moneda que mueva a México a un nuevo sistema de finanzas decentralizadas.<br/><br/>
+
+![Xocolatl es un protocolo descentralizado de origen mexicano. Tiene su propia stablecoin XOC.](cover_image.png "Xocolatl cover image")
+
+
 
 **¿Que diferencía a Xoc de otras stablecoins mexicanas?**<br/><br/>XOC es un stablecoin sobre-colaterizado usando Wrapped Ether, nuestra contraparte en Polygon - Jarvis Synthetic Mexican Peso (jMXN) usa USDC para colaterizar su moneda. Hasta ahorita son las unicas dos stablecoins MXN con utilidad en el blockchain. Con XOC puedes comprar o vender por cualquier otro token ERC20, comprar acciones de La DAO y al final del día pagar directamente a cualquier otra persona donde ella puede usar Suarmi para depositar en su banco usando SPEI. Nuestro Roadmap es ser la stablecoin MXN que México identifique como legiítima y segura.<br/><br/>
 
