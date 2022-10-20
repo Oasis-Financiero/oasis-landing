@@ -15,7 +15,9 @@ tags:
 ---
 L﻿a economía actual ha tenido diversos altibajos los cuáles han afectado la situación financiera de la sociedad en diferentes ámbitos. Durante y después de la pandemia el desempleo y la inflación son de las consecuencias que más están afectando a México y Latinoamérica.<br/><br/>
 
-E﻿s en estas situaciones mundiales donde nuevas tecnologías y proyectos surgen y 
+E﻿s en estas situaciones mundiales donde las nuevas tecnologías sirven de base para dar forma a ideas, donde los emprendedores crean proyectos que buscan resolver problemas.<br/><br/>
+
+Es aquí donde proyectos como **Xocolatl** innovan con tecnología y 
 
 **¿Cómo surge el proyecto Xocolatl?**<br/><br/>Basado en el exito que ha tenido DeFi hasta hoy con protocolos como Aave, Compound y MakerDAO, nos dimos cuenta que todo empieza con una stablecoin, en ese caso el de DAI, en nuestro caso XOC. Así cualquier hacker o emprendedor tiene un ERC20 con paridad al peso MXN para construir una applicacion decentralizada usando practicamente pesos MXN. Asi surge el protocolo del Xocolatl. <br/><br/>
 
