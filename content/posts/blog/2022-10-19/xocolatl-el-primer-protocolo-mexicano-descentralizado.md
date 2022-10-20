@@ -23,7 +23,7 @@ Es aquí donde proyectos como **Xocolatl, el primer protocolo mexicano descentra
 
 ***[E﻿ntra al siguiente artículo para conocer ¿Qué son las stablecoins?](https://www.oasisfinanciero.mx/blog/2022-10-15/que-son-las-stablecoins/)***<br/><br/>
 
-***[](https://www.oasisfinanciero.mx/blog/2022-10-15/que-son-las-stablecoins/)I﻿van Flores*** es uno de los miembros fundadores de Xocolatl y nos platica un poco sobre el proyecto.<br/><br/>
+[](https://www.oasisfinanciero.mx/blog/2022-10-15/que-son-las-stablecoins/)***I﻿van Flores*** es uno de los miembros fundadores de Xocolatl y nos platica un poco sobre el proyecto.<br/><br/>
 
 **¿Que es $XOC?**<br/><br/>
 
@@ -35,7 +35,7 @@ Es aquí donde proyectos como **Xocolatl, el primer protocolo mexicano descentra
 
 ![Xocolatl es un protocolo descentralizado de origen mexicano. Tiene su propia stablecoin XOC.](cover_image.png "Xocolatl cover image")
 
-
+<br/><br/>
 
 **¿Que diferencía a Xoc de otras stablecoins mexicanas?**<br/><br/>XOC es un stablecoin sobre-colaterizado usando Wrapped Ether, nuestra contraparte en Polygon - Jarvis Synthetic Mexican Peso (jMXN) usa USDC para colaterizar su moneda. Hasta ahorita son las unicas dos stablecoins MXN con utilidad en el blockchain. Con XOC puedes comprar o vender por cualquier otro token ERC20, comprar acciones de La DAO y al final del día pagar directamente a cualquier otra persona donde ella puede usar Suarmi para depositar en su banco usando SPEI. Nuestro Roadmap es ser la stablecoin MXN que México identifique como legiítima y segura.<br/><br/>
 
