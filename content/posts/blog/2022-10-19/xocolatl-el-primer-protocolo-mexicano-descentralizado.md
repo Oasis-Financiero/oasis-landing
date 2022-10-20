@@ -40,3 +40,9 @@ I﻿van Flores es uno de los miembros fundadores de Xocolatl y nos platica un po
 **¿Cuáles son los objetivos que quieren cumplir con Xoc?**<br/><br/>Los primeros objetivos son crear un DeFi en México donde cualquier persona pueda transicionar a web3, usando XOC para comprar NFTs, prestar en mercados decentralizados y tener suficiente liquidez para experimentar con casos de uso como remesas.<br/><br/>
 
 **¿Cómo y en donde podemos empezar a usar Xoc?**<br/><br/>La manera mas facil de empezar es usando Suarmi para comprar XOC en Polygon, usarios nativos a la web3 pueden comprar XOC en Uniswap o Curve y en enuestro Discord pueden preguntar cualquier duda y unirse al movimiento que estamos construyendo.<br/><br/>
+
+P﻿uedes conocer más sobre Xocolatl en su página web y no olvides seguirlos en sus redes sociales.<br/><br/>
+
+Web: https://xocolatl.club/
+
+T﻿witter: https://twitter.com/PipilaDAO
