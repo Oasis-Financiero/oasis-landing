@@ -15,7 +15,7 @@ tags:
 ---
 L﻿a economía actual ha tenido diversos altibajos los cuáles han afectado la situación financiera de la sociedad en diferentes ámbitos. Durante y después de la pandemia el desempleo y la inflación son de las consecuencias que más están afectando a México y Latinoamérica.<br/><br/>
 
-E﻿s en estas situaciones mundiales donde las nuevas tecnologías sirven de base para dar forma a ideas, donde los emprendedores crean proyectos que buscan resolver problemas.<br/><br/>
+E﻿s aquí en donde la tecnología blockchain a servido para crear nuevos modelos como las finanzas descentralizadas.
 
 Es aquí donde proyectos como **Xocolatl, el primer protocolo mexicano descentralizado** el cuál tiene su propia stablecoin **XOC** que tiene paridad 1:1 con el peso mexicano.<br/><br/>
 
