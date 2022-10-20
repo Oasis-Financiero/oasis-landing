@@ -21,7 +21,9 @@ DeFi es un ecosistema financiero construido sobre la tecnología blockchain y es
 
 Es aquí donde proyectos como **Xocolatl, el primer protocolo mexicano descentralizado** el cuál tiene su propia stablecoin **XOC** que tiene paridad 1:1 con el peso mexicano.<br/><br/>
 
-I﻿van Flores es uno de los miembros fundadores de Xocolatl y nos platica un poco sobre el proyecto.<br/><br/>
+***[E﻿ntra al siguiente artículo para conocer ¿Qué son las stablecoins?](https://www.oasisfinanciero.mx/blog/2022-10-15/que-son-las-stablecoins/)***<br/><br/>
+
+***[](https://www.oasisfinanciero.mx/blog/2022-10-15/que-son-las-stablecoins/)I﻿van Flores*** es uno de los miembros fundadores de Xocolatl y nos platica un poco sobre el proyecto.<br/><br/>
 
 **¿Que es $XOC?**<br/><br/>
 
@@ -46,3 +48,5 @@ P﻿uedes conocer más sobre Xocolatl en su página web y no olvides seguirlos e
 Web: https://xocolatl.club/
 
 T﻿witter: https://twitter.com/PipilaDAO
+
+L﻿inkedIn: https://www.linkedin.com/company/xocolatl-finance/
