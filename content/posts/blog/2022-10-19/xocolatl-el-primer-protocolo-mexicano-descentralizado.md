@@ -13,7 +13,7 @@ tags:
   - blockchain
   - criptomoneda
 ---
-L﻿a economía actual ha tenido diversos altibajos los cuáles han afectado la situación financiera de la sociedad en diferentes ámbitos. Durante y después de la pandemia el empleo
+L﻿a economía actual ha tenido diversos altibajos los cuáles han afectado la situación financiera de la sociedad en diferentes ámbitos. Durante y después de la pandemia el empleo ha sido uno de los más golpeados.
 
 
 
