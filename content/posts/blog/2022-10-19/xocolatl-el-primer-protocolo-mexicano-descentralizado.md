@@ -19,7 +19,7 @@ E﻿s aquí en donde la tecnología blockchain a servido para crear nuevos model
 
 DeFi es un ecosistema financiero construido sobre la tecnología blockchain y es en este donde los propios usuarios son quienes intercambian activos y servicios financieros directamente entre ellos, sin intermediarios y para usarlos como mecanismo de inversión o financiación.<br/><br/>
 
-Es aquí donde proyectos como **Xocolatl, el primer protocolo mexicano descentralizado** el cuál tiene su propia stablecoin **XOC** que tiene paridad 1:1 con el peso mexicano.<br/><br/>
+Es aquí donde surjen proyectos que innovan y ofrecen nuevos modelos financieros como **Xocolatl, el primer protocolo mexicano descentralizado** el cuál tiene su propia stablecoin **XOC** que tiene paridad 1:1 con el peso mexicano.<br/><br/>
 
 ***[E﻿ntra al siguiente artículo para conocer ¿Qué son las stablecoins?](https://www.oasisfinanciero.mx/blog/2022-10-15/que-son-las-stablecoins/)***<br/><br/>
 
