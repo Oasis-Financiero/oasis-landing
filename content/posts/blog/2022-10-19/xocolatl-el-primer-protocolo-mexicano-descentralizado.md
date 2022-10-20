@@ -17,7 +17,11 @@ L﻿a economía actual ha tenido diversos altibajos los cuáles han afectado la 
 
 E﻿s en estas situaciones mundiales donde las nuevas tecnologías sirven de base para dar forma a ideas, donde los emprendedores crean proyectos que buscan resolver problemas.<br/><br/>
 
-Es aquí donde proyectos como **Xocolatl** innovan con tecnología y 
+Es aquí donde proyectos como **Xocolatl, el primer protocolo mexicano descentralizado** el cuál tiene su propia stablecoin **XOC** que tiene paridad 1:1 con el peso mexicano.<br/><br/>
+
+**¿Que es $XOC?**<br/><br/>
+
+**$XOC** es un token ERC20 viviendo en Polygon. Es una moneda estable en paridad 1:1 al peso MXN al momento de acuñarse. Es la primer moneda estable creada y gobernada por la comunidad en México que necesita un stablecoin legítimo para construir financas decentralizadas justas e inclusivas.<br/><br/>
 
 **¿Cómo surge el proyecto Xocolatl?**<br/><br/>Basado en el exito que ha tenido DeFi hasta hoy con protocolos como Aave, Compound y MakerDAO, nos dimos cuenta que todo empieza con una stablecoin, en ese caso el de DAI, en nuestro caso XOC. Así cualquier hacker o emprendedor tiene un ERC20 con paridad al peso MXN para construir una applicacion decentralizada usando practicamente pesos MXN. Asi surge el protocolo del Xocolatl. <br/><br/>
 
