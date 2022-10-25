@@ -1,5 +1,5 @@
 ---
-title: Qué son los NFT y su valor en el arte y videojuegos
+title: ¿Qué son los NFT y su valor en el arte y videojuegos?
 slug: que-son-los-nft-y-su-valor-en-el-arte-videojuegos
 author: coronagenaro@gmail.com
 date: 2022-06-18
@@ -36,5 +36,9 @@ Estos NFT pueden ser vendidos en plataformas como Opensea, Magic Eden, Rarible e
 Si el artista ya tiene una comunidad en redes sociales y se apoya de la misma, podría tener un gran apoyo y al mismo tiempo podría crecer su comunidad al agregar utilidad a sus NFT. Esta utildad puede ser acceso a nuevas colecciones, eventos exclusivos para coleccionistas de sus obras, airdrops, etc. <br/><br/>
 
 Los NFT están llegando a varias industrias ya que no solo se pueden aprovechar en arte o videojuegos. 
+
+T﻿railer: 
+
+![](introducción-a-los-nfts.png "Curso online Introducción a los NFTs")
 
 <!--EndFragment-->
