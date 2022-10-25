@@ -37,8 +37,8 @@ Si el artista ya tiene una comunidad en redes sociales y se apoya de la misma, p
 
 Los NFT están llegando a varias industrias ya que no solo se pueden aprovechar en arte o videojuegos. 
 
-T﻿railer: 
+T﻿railer: https://youtu.be/UM_ksFZIrs4
 
-![](introducción-a-los-nfts.png "Curso online Introducción a los NFTs")
+![](https://youtu.be/UM_ksFZIrs4 "Curso online Introducción a los NFTs")
 
 <!--EndFragment-->
