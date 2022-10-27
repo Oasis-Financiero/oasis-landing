@@ -3,7 +3,7 @@ title: ¿Qué son los NFT y su valor en el arte y videojuegos?
 slug: que-son-los-nft-y-su-valor-en-el-arte-videojuegos
 author: coronagenaro@gmail.com
 date: 2022-06-18
-image: introducción-a-los-nfts.png
+image: nftportada.png
 imageAlt: nft apebored, cryptopunks y kaizen corps
 tags:
   - nft
