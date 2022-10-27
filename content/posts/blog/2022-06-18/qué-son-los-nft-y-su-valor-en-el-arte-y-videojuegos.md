@@ -1,10 +1,10 @@
 ---
-title: ¿Qué son los NFT y su valor en el arte y videojuegos?
-slug: que-son-los-nft-y-su-valor-en-el-arte-videojuegos
+title: ¿Qué son los NFT?
+slug: que-son-los-nft-
 author: coronagenaro@gmail.com
 date: 2022-06-18
-image: quesonlosnft.jpg
-imageAlt: nft apebored, cryptopunks y kaizen corps
+image: nftportada.png
+imageAlt: nft-doodles-azuki
 tags:
   - nft
   - criptomonedas
@@ -21,7 +21,15 @@ Fue en 2012 cuando los primeros NFTs fueron creados, estos fueron los Colored C
 
 Son 10,000 NFTs de 8 bits con una estética Punk de los años 70s. Cada Cryptopunk tiene características diferentes  con 3 clases diferentes: zombies, simios y aliens. <br/><br/>
 
+![cryptopunks-nft-arte](cryptopunks.png "cryptopunks")
+
+<br/><br/>
+
 En 2017 también hicieron su aparición los Cryptokitties. Estos tienen diferentes atributos que los hacen únicos y fueron creados en Ethereum al igual que los Cryptopunks. <br/><br/>
+
+![nft-arte-cryptokkities](fanciesfront.png "Cryptokitties")
+
+<br/><br/>
 
 El mercado explotó hacia fines de 2020 y principios de 2021 con especial enfoque a los videojuegos ya que es una industria que en 2021 generó 180,300 millones de dólares. <br/><br/>
 
