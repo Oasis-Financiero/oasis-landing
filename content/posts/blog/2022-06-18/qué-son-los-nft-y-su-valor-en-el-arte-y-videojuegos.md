@@ -1,6 +1,6 @@
 ---
 title: ¿Qué son los NFT?
-slug: que-son-los-nft-
+slug: que-son-los-nft
 author: coronagenaro@gmail.com
 date: 2022-06-18
 image: nftportada.png
