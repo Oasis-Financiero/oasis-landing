@@ -41,6 +41,8 @@ Este es solo un ejemplo de como los NFT estánagrendo valor a las obras de arte 
 
 Estos NFT pueden ser vendidos en plataformas como Opensea, Magic Eden, Rarible entre otras. Son los artistas quienes deciden el valor por cada NFT creado y estas plataformas permiten que el artista tenga regalías de hasta el 10% por cada reventa. <br/><br/>
 
+![](opensea.png)
+
 Si el artista ya tiene una comunidad en redes sociales y se apoya de la misma, podría tener un gran apoyo y al mismo tiempo podría crecer su comunidad al agregar utilidad a sus NFT. Esta utildad puede ser acceso a nuevas colecciones, eventos exclusivos para coleccionistas de sus obras, airdrops, etc. <br/><br/>
 
 ### O﻿tros casos de uso para los NFTs.<br/><br/>
@@ -55,9 +57,7 @@ L﻿a industria de los videojuegos es de las más exitosas desde hace varios añ
 
 <br/><br/>
 
-### [S﻿i quieres saber más sobre NFTs, te invitamos a tomar el **Curso online de Introducción a los NFTs**<br/><br/>](https://www.crehana.com/cursos-online-data/introduccion-a-los-nfts-1/?source_page=Catalog&__country_code=mx)
-
-<!--StartFragment-->
+## ¡Y﻿a disponible! [**Curso online de Introducción a los NFTs**<br/><br/>](https://www.crehana.com/cursos-online-data/introduccion-a-los-nfts-1/?source_page=Catalog&__country_code=mx)
 
 ## ¿Qué aprenderás en el curso Introducción a los NFTs?
 
