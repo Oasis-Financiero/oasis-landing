@@ -55,9 +55,7 @@ L﻿a industria de los videojuegos es de las más exitosas desde hace varios añ
 
 <br/><br/>
 
-
-
-## S﻿i quieres saber más sobre NFTs, te invitamos a tomar el **[Curso online de Introducción a los NFTs](https://www.crehana.com/cursos-online-data/introduccion-a-los-nfts-1/?source_page=Catalog&__country_code=mx)**<br/><br/>
+### [S﻿i quieres saber más sobre NFTs, te invitamos a tomar el **Curso online de Introducción a los NFTs**<br/><br/>](https://www.crehana.com/cursos-online-data/introduccion-a-los-nfts-1/?source_page=Catalog&__country_code=mx)
 
 <!--StartFragment-->
 
@@ -67,5 +65,9 @@ L﻿a industria de los videojuegos es de las más exitosas desde hace varios añ
 * Harás un repaso sobre la tecnología que se usa para que los NFTs sean únicos.
 * Revisarás cuáles son las industrias en donde se están aplicando los NFTs como valor agregado a sus usuarios.
 * Analizarás cómo los NFTs pueden ayudar a la propiedad intelectual y cómo evitar estafas en el mercado actual.
+
+## [I﻿ngresa aquí para tomar el curso](https://www.crehana.com/cursos-online-data/introduccion-a-los-nfts-1/?source_page=Catalog&__country_code=mx)
+
+[](https://www.crehana.com/cursos-online-data/introduccion-a-los-nfts-1/?source_page=Catalog&__country_code=mx)
 
 <!--EndFragment-->
