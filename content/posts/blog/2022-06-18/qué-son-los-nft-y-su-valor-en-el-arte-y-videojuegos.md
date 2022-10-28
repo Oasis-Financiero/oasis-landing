@@ -47,6 +47,16 @@ Si el artista ya tiene una comunidad en redes sociales y se apoya de la misma, p
 
 Los NFT están llegando a varias industrias ya que no solo se pueden aprovechar en arte o videojuegos. Gracias a la tecnología blockchain estos pueden ser usados para crear tickets de cines o conciertos, en el sector inmobiliario, identificación digital entre otros.<br/><br/>
 
+#### ***N﻿FTs en los videojuegos***<br/><br/>
+
+L﻿a industria de los videojuegos es de las más exitosas desde hace varios años y es en esta donde los NFTs están cambiando las reglas. Esto se está logrando al hacer que los personajes sean NFTs por lo que al ser comprados, el comprador se vuelve dueño del personaje y puede revenderlo o rentarlo.<br/><br/>
+
+![nft-game](nyanheros.png "Nyan Heros")
+
+<br/><br/>
+
+
+
 ## S﻿i quieres saber más sobre NFTs, te invitamos a tomar el **[Curso online de Introducción a los NFTs](https://www.crehana.com/cursos-online-data/introduccion-a-los-nfts-1/?source_page=Catalog&__country_code=mx)**<br/><br/>
 
 <!--StartFragment-->
@@ -57,7 +67,5 @@ Los NFT están llegando a varias industrias ya que no solo se pueden aprovechar 
 * Harás un repaso sobre la tecnología que se usa para que los NFTs sean únicos.
 * Revisarás cuáles son las industrias en donde se están aplicando los NFTs como valor agregado a sus usuarios.
 * Analizarás cómo los NFTs pueden ayudar a la propiedad intelectual y cómo evitar estafas en el mercado actual.
-
-
 
 <!--EndFragment-->
