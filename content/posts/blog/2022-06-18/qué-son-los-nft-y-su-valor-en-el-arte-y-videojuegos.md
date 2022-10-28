@@ -33,7 +33,7 @@ En 2017 también hicieron su aparición los Cryptokitties. Estos tienen diferent
 
 El mercado explotó hacia fines de 2020 y principios de 2021 con especial enfoque a los videojuegos ya que es una industria que en 2021 generó 180,300 millones de dólares. <br/><br/>
 
-## Los NFTs en el arte.
+## Los NFTs en el arte.<br/><br/>
 
  El artista digital Mike Winkelmann (Beeple) vendió en 69 millones de dólares su denominada “The first 5000 days”. Esta fue un NFT y es un collage compuesto por 5000 piezas de trabajo que el artista había ido creando cada día desde 2007. <br/><br/>
 
@@ -43,10 +43,21 @@ Estos NFT pueden ser vendidos en plataformas como Opensea, Magic Eden, Rarible e
 
 Si el artista ya tiene una comunidad en redes sociales y se apoya de la misma, podría tener un gran apoyo y al mismo tiempo podría crecer su comunidad al agregar utilidad a sus NFT. Esta utildad puede ser acceso a nuevas colecciones, eventos exclusivos para coleccionistas de sus obras, airdrops, etc. <br/><br/>
 
-Los NFT están llegando a varias industrias ya que no solo se pueden aprovechar en arte o videojuegos. 
+### O﻿tros casos de uso para los NFTs.<br/><br/>
 
-T﻿railer: https://youtu.be/UM_ksFZIrs4
+Los NFT están llegando a varias industrias ya que no solo se pueden aprovechar en arte o videojuegos. Gracias a la tecnología blockchain estos pueden ser usados para crear tickets de cines o conciertos, en el sector inmobiliario, identificación digital entre otros.<br/><br/>
 
-![](https://youtu.be/UM_ksFZIrs4 "Curso online Introducción a los NFTs")
+## S﻿i quieres saber más sobre NFTs, te invitamos a tomar el **[Curso online de Introducción a los NFTs](https://www.crehana.com/cursos-online-data/introduccion-a-los-nfts-1/?source_page=Catalog&__country_code=mx)**<br/><br/>
+
+<!--StartFragment-->
+
+## ¿Qué aprenderás en el curso Introducción a los NFTs?
+
+* Comprenderás qué son los NFTs y la diferencia entre fungible y no fungible.
+* Harás un repaso sobre la tecnología que se usa para que los NFTs sean únicos.
+* Revisarás cuáles son las industrias en donde se están aplicando los NFTs como valor agregado a sus usuarios.
+* Analizarás cómo los NFTs pueden ayudar a la propiedad intelectual y cómo evitar estafas en el mercado actual.
+
+
 
 <!--EndFragment-->
