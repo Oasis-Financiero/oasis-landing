@@ -59,6 +59,8 @@ L﻿a industria de los videojuegos es de las más exitosas desde hace varios añ
 
 ## ¡Y﻿a disponible! [**Curso online de Introducción a los NFTs**<br/><br/>](https://www.crehana.com/cursos-online-data/introduccion-a-los-nfts-1/?source_page=Catalog&__country_code=mx)
 
+![nft-curso-crehana](blogperfilcurso.png "Introducción a los NFTs")
+
 ## ¿Qué aprenderás en el curso Introducción a los NFTs?
 
 * Comprenderás qué son los NFTs y la diferencia entre fungible y no fungible.
