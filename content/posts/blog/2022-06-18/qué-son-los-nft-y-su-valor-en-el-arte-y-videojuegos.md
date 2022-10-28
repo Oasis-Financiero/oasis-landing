@@ -15,7 +15,7 @@ tags:
 
 NFT por sus siglas en inglés significa Non Fungible Token, token no fungible. Estos son activos digitales que se crean y existen en una blockchain (cadena de bloques) y al mismo tiempo almacenan información que no puede ser manipulada ni duplicada. <br/><br/>
 
-Un Token es un archivo digital dentro de la blockchain por lo que tiene un registro y es traceable. <br/><br/>
+Un Token es un archivo digital dentro de la blockchain por lo que tiene un registro y es traceable. Estos archivos digitales pueden ser imagen, video, audio o modelos 3D.<br/><br/>
 
 Fue en 2012 cuando los primeros NFTs fueron creados, estos fueron los Colored Coins pero fue hasta 2017 donde uno de los proyectos más conocidos en el ecosistema hice su aparición, los Cryptopunks. <br/><br/>
 
