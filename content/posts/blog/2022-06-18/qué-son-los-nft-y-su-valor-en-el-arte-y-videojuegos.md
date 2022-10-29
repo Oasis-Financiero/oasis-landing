@@ -59,7 +59,7 @@ L﻿a industria de los videojuegos es de las más exitosas desde hace varios añ
 
 ## ¡Y﻿a disponible! [**Curso online de Introducción a los NFTs**<br/>](https://www.crehana.com/cursos-online-data/introduccion-a-los-nfts-1/?source_page=Catalog&__country_code=mx)
 
-![nft-curso-crehana](blogperfilcurso.png "Introducción a los NFTs")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UM_ksFZIrs4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## ¿Qué aprenderás en el curso Introducción a los NFTs?
 
@@ -68,10 +68,8 @@ L﻿a industria de los videojuegos es de las más exitosas desde hace varios añ
 * Revisarás cuáles son las industrias en donde se están aplicando los NFTs como valor agregado a sus usuarios.
 * Analizarás cómo los NFTs pueden ayudar a la propiedad intelectual y cómo evitar estafas en el mercado actual.
 
-## [I﻿ngresa aquí para tomar el curso](https://www.crehana.com/cursos-online-data/introduccion-a-los-nfts-1/?source_page=Catalog&__country_code=mx)
+## [I﻿ngresa aquí para tomar el c](https://www.crehana.com/cursos-online-data/introduccion-a-los-nfts-1/?source_page=Catalog&__country_code=mx)
 
-[](https://www.crehana.com/cursos-online-data/introduccion-a-los-nfts-1/?source_page=Catalog&__country_code=mx)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lJIrF4YjHfQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <!--EndFragment-->
