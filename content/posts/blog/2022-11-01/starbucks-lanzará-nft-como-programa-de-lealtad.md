@@ -27,9 +27,9 @@ E﻿stos NFTs edición limitada serán vendidos por Starbucks y podrán ser comp
 
 Starbucks trabajará con **Polygon** para proporcionar la tecnología **blockchain** y construir la experiencia Web3 ***Starbucks Odyssey***.<br/><br/>
 
-C﻿omo se indica en el comunicado oficial de Polygon
+C﻿omo se indica en el comunicado oficial de Polygon<br/><br/>
 
-> Como resultado de la asociación, esta nueva experiencia impulsada por Web3 permitirá a los miembros del programa de lealtad de Starbucks Rewards y socios de Starbucks (empleados) en los Estados Unidos ganar y comprar sellos coleccionables digitales en forma de tokens no fungibles (NFT). Esta experiencia de programa de fidelización única en su tipo está impulsada por las tarifas bajas y las altas velocidades de transacción en la red Polygon PoS.<br/><br/>
+> ***Como resultado de la asociación, esta nueva experiencia impulsada por Web3 permitirá a los miembros del programa de lealtad de Starbucks Rewards y socios de Starbucks (empleados) en los Estados Unidos ganar y comprar sellos coleccionables digitales en forma de tokens no fungibles (NFT). Esta experiencia de programa de fidelización única en su tipo está impulsada por las tarifas bajas y las altas velocidades de transacción en la red Polygon PoS.<br/><br/>***
 
 *Polygon es una sidechain de Ethereum que permite transacciones más rápidas, más baratas y más eficientes.*<br/><br/>
 
