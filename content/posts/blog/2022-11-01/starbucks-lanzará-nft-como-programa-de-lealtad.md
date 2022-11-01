@@ -25,14 +25,10 @@ E﻿ste programa será una extensión del programa Starbucks Rewards donde los c
 
 E﻿stos NFTs edición limitada serán vendidos por Starbucks y podrán ser comprados con tarjetas de crédito sin la necesidad de usar criptomonedas. Starbucks Odyssey contará con un mercado secundario que permitirá comprar y vender los NFTs.<br/><br/>
 
-E﻿sta 
+Starbucks trabajará con **Polygon** para proporcionar la tecnología **blockchain** y construir la experiencia Web3 ***Starbucks Odyssey***.<br/><br/>
 
+C﻿omo se indica en el comunicado oficial de Polygon
 
+> Como resultado de la asociación, esta nueva experiencia impulsada por Web3 permitirá a los miembros del programa de lealtad de Starbucks Rewards y socios de Starbucks (empleados) en los Estados Unidos ganar y comprar sellos coleccionables digitales en forma de tokens no fungibles (NFT). Esta experiencia de programa de fidelización única en su tipo está impulsada por las tarifas bajas y las altas velocidades de transacción en la red Polygon PoS.<br/><br/>
 
-
-
-
-
-C﻿omo lo indica 
-
-> Como resultado de la asociación, esta nueva experiencia impulsada por Web3 permitirá a los miembros del programa de lealtad de Starbucks Rewards y socios de Starbucks (empleados) en los Estados Unidos ganar y comprar sellos coleccionables digitales en forma de tokens no fungibles (NFT). Esta experiencia de programa de fidelización única en su tipo está impulsada por las tarifas bajas y las altas velocidades de transacción en la red Polygon PoS.
+### ¿﻿Qué es Polygon?
