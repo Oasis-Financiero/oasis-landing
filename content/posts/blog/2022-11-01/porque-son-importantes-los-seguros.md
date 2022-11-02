@@ -36,3 +36,5 @@ A﻿l presentarse enfermedades podrás tener seguiridad para cubrir los gastos m
 S﻿i estás pensando en el retiro, existen seguros que tienen planes para el horizonte que se tenga pensado y estos pueden adaptarse a tu posibilidad de pago.<br/><br/>
 
 ***L﻿as mascotas también están contempladas ya que existen diversos seguros especializados en ellas.***<br/><br/>
+
+**L﻿os seguros son parte indispensable en la educacón financiera ya que nos protegen ante situaciones imprevistas como accidentes o enfermedades y nos pueden dar tranquilidad financiera para enfrentar estas adversidades.**
