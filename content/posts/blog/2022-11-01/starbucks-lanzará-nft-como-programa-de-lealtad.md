@@ -1,5 +1,5 @@
 ---
-title: Starbucks lanzará NFTs como programa de lealtad
+title: Starbucks lanzará NFTs como programa de lealtad.
 slug: Starbucks-lanzará-NFT-como-programa-de-lealtad
 author: coronagenaro@gmail.com
 date: 2022-11-01
