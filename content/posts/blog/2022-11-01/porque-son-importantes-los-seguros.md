@@ -13,7 +13,7 @@ E﻿n la vida diaria nos enfrentamos a diversos riesgos, ya sea en la casa, el t
 
 E﻿n estos casos es cuando los seguros se vuelven indispensables para apoyarnos en situaciones imprevistas que pueden afectar la salud y economía de una familia.<br/><br/>
 
-## ¿Qué son los seguros?<br/><br/>
+## ¿Qué son los seguros?
 
 Los seguros son productos financieros que están diseñados para ofrecer protección contra pérdidas, daños o robos. Estos pueden proteger tu vivienda, tu auto, teléfono por mencionar cosas materiales.<br/><br/>
 
