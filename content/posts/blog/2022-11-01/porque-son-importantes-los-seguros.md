@@ -19,11 +19,11 @@ Los seguros son productos financieros que están diseñados para ofrecer protecc
 
 D﻿e igual manera pueden proteger tu salud y la de tu familia. Esto gracias a diversas opciones que existen donde al asesorate podrás ver los beneficios.<br/><br/>
 
-### ¿Qué es una póliza de seguro?<br/><br/>
+### **¿Qué es una póliza de seguro?<br/><br/>**
 
 Es el documento que detalla el Contrato de Seguro y en este se encuentran las coberturas entre el asegurado y la compañía de seguros. Esta póliza se caracteriza por contar con todos los derechos y obligaciones que hay entre las partes.<br/><br/>
 
-### ¿Cuáles son los beneficios de tener un seguro?<br/><br/>
+### **¿Cuáles son los beneficios de tener un seguro?<br/><br/>**
 
 T﻿e ayudan a conservar tu patrimonio al protegerte contra siniestros naturales como sismos, huracanes o incendios. Además existen seguros especializados en reparaciones del hogar.<br/><br/>
 
