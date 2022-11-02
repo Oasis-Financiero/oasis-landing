@@ -20,3 +20,15 @@ Los seguros son productos financieros que están diseñados para ofrecer protecc
 D﻿e igual manera pueden proteger tu salud y la de tu familia. Esto gracias a diversas opciones que existen donde al asesorate podrás ver los beneficios.<br/><br/>
 
 ### ¿Cuáles son los beneficios de tener un seguro?<br/><br/>
+
+T﻿e ayudan a conservar tu patrimonio al protegerte contra siniestros naturales como sismos, huracanes o incendios. Además existen seguros especializados en reparaciones del hogar.<br/><br/>
+
+D﻿e igual manera si se llega a presentar un siniestro a tu auto, podrás tener certeza con los gastos que podrán ser cubiertos y tener garantía financiera si se tiene un ahorro para emergencias.<br/><br/>
+
+A﻿l tener un seguro puedes tener mayor tranquilidad ante eventos como accidentes que provoquen incapacidad parcial o total. <br/><br/>
+
+A﻿l presentarse enfermedades podrás tener seguiridad para cubrir los gastos médicos, análisis o cirugías.<br/><br/>
+
+S﻿i estás pensando en el retiro, existen seguros que tienen planes para el horizonte que se tenga pensado y estos pueden adaptarse a tu posibilidad de pago.<br/><br/>
+
+***L﻿as mascotas también están contempladas ya que existen diversos seguros especializados en ellas.***<br/><br/>
