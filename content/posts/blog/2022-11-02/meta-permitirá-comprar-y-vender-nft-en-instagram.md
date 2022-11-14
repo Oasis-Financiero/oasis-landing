@@ -1,6 +1,6 @@
 ---
 title: Meta permitirá comprar y vender NFT en Instagram.
-slug: Meta-permitirá-comprar-y-vender-NFT -en-Instagram.
+slug: Meta-permitira-comprar-y-vender-NFT -en-Instagram.
 author: coronagenaro@gmail.com
 date: 2022-11-02
 image: meta-instagram-nft.png
@@ -10,4 +10,4 @@ tags:
   - instagram
   - meta
 ---
-MInstagram ha habilitado la función para conectarse con las carteras
+Instagram ha habilitado la función para conectarse con carteras descentralizadas como Trustwallet, Metamask,
