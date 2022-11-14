@@ -20,7 +20,7 @@ E﻿sta experiencia es la que están llevando a otro nivel con su nuevo programa
 
 NFT por sus siglas en inglés significa Non Fungible Token, token no fungible. Estos son activos digitales que se crean y existen en una blockchain (cadena de bloques) y al mismo tiempo almacenan información que no puede ser manipulada ni duplicada.<b></b>
 
-### [A﻿prende más sobre los NFTs en el siguiente artículo ¿Qué son los NFT?](https://www.oasisfinanciero.mx/blog/2022-06-18/qu%C3%A9-son-los-nft-y-su-valor-en-el-arte-y-videojuegos/)<b></b>
+### **[A﻿prende más sobre los NFTs en el siguiente artículo ¿Qué son los NFT?](https://www.oasisfinanciero.mx/blog/2022-06-18/qu%C3%A9-son-los-nft-y-su-valor-en-el-arte-y-videojuegos/)**<b></b>
 
 E﻿ste programa será una extensión del programa Starbucks Rewards donde los clientes podrán ganar NFTs “sello de viaje” completando retos y jugando a juegos interactivos a través de la aplicación.<b></b>
 
@@ -38,6 +38,6 @@ E﻿stos sellos incluirán valor en puntos basándose en su rareza y cada vez qu
 
 Estas experiencias pueden variar desde una clase virtual para preparar martini espresso, hasta acceso a productos exclusivos y colaboraciones de artistas, invitaciones a eventos exclusivos en Starbucks Reserve Roasteries o incluso viajes a la finca de café Starbucks Hacienda Alsacia en Costa Rica.<b></b>
 
-### [A﻿prende más sobre los NFTs en el siguiente artículo ¿Qué son los NFT?](https://www.oasisfinanciero.mx/blog/2022-06-18/qu%C3%A9-son-los-nft-y-su-valor-en-el-arte-y-videojuegos/)<b></b>
+### **[A﻿prende más sobre los NFTs en el siguiente artículo ¿Qué son los NFT?](https://www.oasisfinanciero.mx/blog/2022-06-18/qu%C3%A9-son-los-nft-y-su-valor-en-el-arte-y-videojuegos/)**<b></b>
 
 <!--EndFragment-->
