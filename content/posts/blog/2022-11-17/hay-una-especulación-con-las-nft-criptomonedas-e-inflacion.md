@@ -1,6 +1,6 @@
 ---
-title: ¿Hay una especulación con las nft, criptomonedas e Inflación?
-slug: Hay-una-especulacion-con-las-nft-criptomonedas-e-Inflacion
+title: ¿Hay una especulación con los nft y criptomonedas?
+slug: Hay-una-especulacion-con-los-nft-y-criptomonedas
 author: coronagenaro@gmail.com
 date: 2022-11-17
 image: ¿hay-una-especulación-con-las-nft-criptomonedas-e-inflación.png
@@ -26,9 +26,9 @@ Las criptomonedas son un tipo de activo financiero que no está sujeto a regulac
 
 El primer consejo es asegurarse de que comprende el funcionamiento del mercado. Puedes empezar por leer algunos artículos sobre la tecnología blockchain y las criptomonedas en general. <br/><br/>
 
-Si todavía no tienes claro qué es una moneda digital, puedes leer nuestros artículos:
+Si todavía no tienes claro qué es una moneda digital, puedes leer nuestros artículos:<br/><br/>
 
-**[Bitcoin: ¿Qué es, cómo funciona y cómo puedes invertir?](https://www.oasisfinanciero.mx/blog/2021-06-19/que-es-bitcoin/)**
+**[Bitcoin: ¿Qué es, cómo funciona y cómo puedes invertir?](https://www.oasisfinanciero.mx/blog/2021-06-19/que-es-bitcoin/)**<br/><br/>
 
 **[¿Qué son las stablecoins?](https://www.oasisfinanciero.mx/blog/2022-10-15/que-son-las-stablecoins/)**<br/><br/>
 
