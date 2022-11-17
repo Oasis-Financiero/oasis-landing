@@ -12,9 +12,9 @@ tags:
   - criptomonedas
   - inflacion
 ---
-¿Por qué los precios de las Nft fluctúan tan rápido? ¿Cómo podemos evitar la especulación con las criptomonedas y mantener nuestro dinero seguro? En este artículo, discutiremos estas preocupaciones y te daremos algunos consejos para que puedas protegerte a ti mismo.<br/><br/>
+¿Por qué los precios de las nft fluctúan tan rápido? ¿Cómo podemos evitar la especulación con las criptomonedas y mantener nuestro dinero seguro? En este artículo, discutiremos estas preocupaciones y te daremos algunos consejos para que puedas protegerte a ti mismo.<br/><br/>
 
-La especulación es mala para el valor de las Nft. Las criptomonedas son una forma de dinero digital que tiene un valor intrínseco y se puede usar para comprar productos en línea o reales. El valor de la moneda está basado en su demanda, lo que significa que si hay muchas personas que quieren comprarla, entonces el precio subirá. Por otro lado, si hay muchos vendedores dispuestos a vender sus criptomonedas a bajo costo, entonces los precios caerán.<br/><br/>
+La especulación es mala para el valor de las **nft**. Las criptomonedas son una forma de dinero digital que tiene un valor intrínseco y se puede usar para comprar productos en línea o reales. El valor de la moneda está basado en su demanda, lo que significa que si hay muchas personas que quieren comprarla, entonces el precio subirá. Por otro lado, si hay muchos vendedores dispuestos a vender sus criptomonedas a bajo costo, entonces los precios caerán.<br/><br/>
 
 Esto significa que la especulación es importante para el valor de las criptomonedas. Sin embargo, algunas personas creen que el hecho de que estas monedas digitales se puedan usar como un activo financiero más en lugar de solo un medio de pago los hace menos útiles.<br/><br/>
 
