@@ -36,28 +36,20 @@ En este momento desde tu perfil en el menú puedes conectar tu cartera en la sec
 
 <br/><br/>
 
-
-
 Posteriormente te permitirá seleccionar entre las carteras Coinbase wallet, Dapper, Metamask, Phantom, Rainbow o Trust Wallet.<br/><br/>
-
-
 
 ![](instagram-art-coleccionables1.jpg)
 
 <br/><br/>
 
-
-
 Para esto debes tener una cuenta en alguna de estas carteras en primer lugar. Cuando se hace la conexión, Instagram mostrará los NFT que se tengan en las diferentes carteras conectadas.<br/><br/>
-
-
 
 ![](instagram-art-coleccionables2.jpg)
 
 <br/><br/>
 
-
-
 Por el momento solo es posible visualizar pero se tiene el objetivo de permitir la compra y venta de NFTs en el futuro cercano.<br/><br/>
+
+#### **[Conoce más en nuestro artículo: Starbucks lanzará NFTs como programa de lealtad.](https://www.oasisfinanciero.mx/blog/2022-11-14/starbucks-lanzara-nfts-como-programa-de-lealtad/)<br/><br/>**
 
 <!--EndFragment-->
