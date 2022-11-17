@@ -1,6 +1,6 @@
 ---
-title: ¿Hay una especulación con las nft, criptomonedas e Inflación?
-slug: Hay-una-especulacion-con-las-nft-criptomonedas-e-Inflacion
+title: ¿Hay una especulación con los nft y criptomonedas?
+slug: Hay-una-especulacion-con-los-nft-y-criptomonedas
 author: coronagenaro@gmail.com
 date: 2022-11-17
 image: ¿hay-una-especulación-con-las-nft-criptomonedas-e-inflación.png
