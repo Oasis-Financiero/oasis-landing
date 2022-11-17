@@ -32,9 +32,31 @@ Instagram puede ser el medio perfecto para que las personas se familiaricen con 
 
 En este momento desde tu perfil en el menú puedes conectar tu cartera en la sección Artículos coleccionables digitales.<br/><br/>
 
+![](instagram-art-coleccionables.jpg)
+
+<br/><br/>
+
+
+
 Posteriormente te permitirá seleccionar entre las carteras Coinbase wallet, Dapper, Metamask, Phantom, Rainbow o Trust Wallet.<br/><br/>
 
+
+
+![](instagram-art-coleccionables1.jpg)
+
+<br/><br/>
+
+
+
 Para esto debes tener una cuenta en alguna de estas carteras en primer lugar. Cuando se hace la conexión, Instagram mostrará los NFT que se tengan en las diferentes carteras conectadas.<br/><br/>
+
+
+
+![](instagram-art-coleccionables2.jpg)
+
+<br/><br/>
+
+
 
 Por el momento solo es posible visualizar pero se tiene el objetivo de permitir la compra y venta de NFTs en el futuro cercano.<br/><br/>
 
