@@ -24,9 +24,15 @@ Las criptomonedas son un tipo de activo financiero que no está sujeto a regulac
 
 ### **¿Cómo podemos evitar la especulación con las criptomonedas y mantener nuestro dinero seguro?**
 
-El primer consejo es asegurarse de que comprende el funcionamiento del mercado. Puedes empezar por leer algunos artículos sobre la tecnología blockchain y las criptomonedas en general. Si todavía no tienes claro qué es una moneda digital, puedes leer nuestro artículo de introducción para principiantes.<br/><br/>
+El primer consejo es asegurarse de que comprende el funcionamiento del mercado. Puedes empezar por leer algunos artículos sobre la tecnología blockchain y las criptomonedas en general. <br/><br/>
 
-El segundo consejo es no comprar más de lo que puedas permitirte perder. Siempre ten en cuenta que las criptomonedas son un activo extremadamente volátil, por lo que debes ser consciente del riesgo asociado a este tipo de inversiones.<br/><br/>
+Si todavía no tienes claro qué es una moneda digital, puedes leer nuestros artículos:
+
+**[Bitcoin: ¿Qué es, cómo funciona y cómo puedes invertir?](https://www.oasisfinanciero.mx/blog/2021-06-19/que-es-bitcoin/)**
+
+**[¿Qué son las stablecoins?](https://www.oasisfinanciero.mx/blog/2022-10-15/que-son-las-stablecoins/)**<br/><br/>
+
+[](https://www.oasisfinanciero.mx/blog/2022-10-15/que-son-las-stablecoins/)El segundo consejo es no comprar más de lo que puedas permitirte perder. Siempre ten en cuenta que las criptomonedas son un activo extremadamente volátil, por lo que debes ser consciente del riesgo asociado a este tipo de inversiones.<br/><br/>
 
 El tercer consejo es mantener una estrategia de trading consistente y disciplinada. Esto significa evitar la especulación y centrarse en el largo plazo. En muchos casos, el mercado se comporta como un reflejo del valor real de las em presas en el mercado.<br/><br/>
 
