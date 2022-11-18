@@ -24,4 +24,6 @@ R﻿ecordemos que los NFT son activos digitales que se crean y existen en una bl
 
 ### **[A﻿prende más sobre los NFTs en el siguiente artículo ¿Qué son los NFT?](https://www.oasisfinanciero.mx/blog/2022-06-18/qu%C3%A9-son-los-nft-y-su-valor-en-el-arte-y-videojuegos/)**<br/><br/>
 
-E﻿ste es un momento muy complicado para todo el ecosistema cripto y nft pero la tecnología blockhain va más allá al permitir que diferentes industrias aprovechen esta tecnología al crear nuevos modelos de negocio y sistemas que permiten dar más participación y propiedad a sus usuarios.
+E﻿ste es un momento muy complicado para todo el ecosistema cripto y nft pero la tecnología blockhain va más allá al permitir que diferentes industrias aprovechen esta tecnología al crear nuevos modelos de negocio y sistemas que permiten dar más participación y propiedad a sus usuarios.<br/><br/>
+
+E﻿staremos atentos al lanzamiento de esta plataforma para darte los pormenores.
