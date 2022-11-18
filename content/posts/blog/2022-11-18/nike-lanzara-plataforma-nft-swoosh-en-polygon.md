@@ -16,8 +16,12 @@ En este año 2022 **Polygon** se ha consolidado como la plataforma blockchain pr
 
 A﻿hora es momento de que tome un lugar en el creciente ecosistema ***NFT*** al lanzar su propia plataforma ***.Swoosh*** en la red Polygon.<br/><br/>
 
-***.Swoosh*** es el hogar de todas las creaciones virtuales de Nike. P﻿odrás coleccionar tus zapatos, camisetas o accesorios virtuales favoritos. Y con esto se pretende que la comunidad intercambie y también sea creadora de productos virtuales.
+***.Swoosh*** es el hogar de todas las creaciones virtuales de Nike. P﻿odrás coleccionar tus zapatos, camisetas o accesorios virtuales favoritos. Y con esto se pretende que la comunidad intercambie y también sea creadora de productos virtuales.<br/><br/>
 
-D﻿e esta manera es como Nike estará evolucionando su interacción con su comunidad al darles mayor participación en la cro creación de los productos virtuales y al poder intercambiarlos Recordemos que al comprar un NFT, uno se vuelve dueño de ese artículo y si la plataforma lo permite, se podría monetizar al venderlo.
+D﻿e esta manera es como Nike estará evolucionando su interacción con su comunidad al darles mayor participación en la cro creación de los productos virtuales y al poder intercambiarlos Recordemos que al comprar un NFT, uno se vuelve dueño de ese artículo y si la plataforma lo permite, se podría monetizar al venderlo.<br/><br/>
 
-C﻿onoce más sobre los NFT en este artículo.
+R﻿ecordemos que los NFT son activos digitales que se crean y existen en una blockchain (cadena de bloques) y al mismo tiempo almacenan información que no puede ser manipulada ni duplicada.<br/><br/>
+
+### **[A﻿prende más sobre los NFTs en el siguiente artículo ¿Qué son los NFT?](https://www.oasisfinanciero.mx/blog/2022-06-18/qu%C3%A9-son-los-nft-y-su-valor-en-el-arte-y-videojuegos/)**<br/><br/>
+
+E﻿ste es un momento muy complicado para todo el ecosistema cripto y nft pero la tecnología blockhain va más allá al permitir que diferentes industrias aprovechen esta tecnología al crear nuevos modelos de negocio y sistemas que permiten dar más participación y propiedad a sus usuarios.
