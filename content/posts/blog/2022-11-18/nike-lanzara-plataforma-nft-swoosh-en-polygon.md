@@ -17,3 +17,7 @@ En este año 2022 **Polygon** se ha consolidado como la plataforma blockchain pr
 A﻿hora es momento de que tome un lugar en el creciente ecosistema ***NFT*** al lanzar su propia plataforma ***.Swoosh*** en la red Polygon.<br/><br/>
 
 ***.Swoosh*** es el hogar de todas las creaciones virtuales de Nike. P﻿odrás coleccionar tus zapatos, camisetas o accesorios virtuales favoritos. Y con esto se pretende que la comunidad intercambie y también sea creadora de productos virtuales.
+
+D﻿e esta manera es como Nike estará evolucionando su interacción con su comunidad al darles mayor participación en la cro creación de los productos virtuales y al poder intercambiarlos Recordemos que al comprar un NFT, uno se vuelve dueño de ese artículo y si la plataforma lo permite, se podría monetizar al venderlo.
+
+C﻿onoce más sobre los NFT en este artículo.
