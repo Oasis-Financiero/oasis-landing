@@ -71,6 +71,8 @@ Está basado en el mundo utópico de Thanabus, que contiene cuatro regiones: Dus
 
 ![Fuente: KlayMeta](klaymeta.jpg "Fuente: KlayMeta")
 
+<br/><br/>
+
 KLAYMETA es un metaverso play-and-earn, construido sobre la Blockchain Klaytn. Hace hincapié en la creación de juegos divertidos, con la oportunidad de ganar por jugar como una característica adicional, no como su función principal.<br/><br/>
 
 La plataforma ha lanzado recientemente sus características iniciales de juego, incluyendo el modo aventura, mientras que el lanzamiento completo está previsto para principios de 2023.<br/><br/>
