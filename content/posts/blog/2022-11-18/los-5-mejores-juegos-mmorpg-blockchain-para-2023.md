@@ -59,7 +59,7 @@ Ember Sword es un MMORPG basado en Blockchain, creado por Bright Star Studios. E
 
 Los jugadores pueden poseer, intercambiar y vender activos del juego y ganar cripto-recompensas por completar misiones, participar en actividades del juego y poseer terrenos. Es uno de los primeros juegos basados en Blockchain, cuyo primer tráiler se publicó hace más de cuatro años.<br/><br/>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mrmUZkribyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>\[](https://www.youtube.com/watch?v=mrmUZkribyo&t=1s)<br/><br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mrmUZkribyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>\<br/><br/>
 
 Ember Sword también introdujo los NFT como característica cosmética, que complementa el arte y el juego tipo aventuras.<br/><br/>
 
@@ -81,6 +81,8 @@ KLAYMETA utiliza su metaverso para llevar los juegos Web3 al mainstream. La plat
 
 ![Fuente: Axie Infinity](axie-infinity.jpg "Fuente: Axie Infinity")
 
+<br/><br/>
+
 Axie Infinity es un metaverso de juego basado en Blockchain creado por Sky Mavis. Está considerado como la puerta de entrada a los juegos de Blockchain tras inspirar la aparición de los MMORPG de la Web3. El juego de Axie Infinity permite a los jugadores criar, criar, comerciar y luchar contra criaturas fantásticas llamadas Axies. El juego cuenta con una amplia colección de especies únicas de Axies con diferentes apariencias, habilidades y comportamientos.<br/><br/>
 
 El juego cuenta con una “economía tokenizada” (3), propiedad total de los usuarios. A través de la cría, Axie permite a los jugadores criar personajes mascota, que luego pueden vender con beneficio en sus diferentes etapas de desarrollo.<br/><br/>
@@ -94,6 +96,8 @@ El juego afirma tener más de 150.000 usuarios activos mensuales, lo que lo conv
 ### **5﻿. Treeverse (Ethereum).**<br/><br/>
 
 ![Fuente: Treeverse](treeverse.jpg "Fuente: Treeverse")
+
+<br/><br/>
 
 Treeverse es un juego social y cooperativo ambientado en un mundo exuberante y místico que presenta hermosos paisajes dominados por los árboles y un combate de ritmo rápido y muy dinámico. <br/><br/>
 
