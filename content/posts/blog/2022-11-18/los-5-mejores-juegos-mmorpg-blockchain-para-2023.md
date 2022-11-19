@@ -17,17 +17,17 @@ tags:
   - Treeverse
   - OuterRing
 ---
-**Los 5 mejores juegos MMORPG Blockchain para 2023.**
+# **Los 5 mejores juegos MMORPG Blockchain para 2023.**
 
-Los juegos de rol masivos en línea basados en Blockchain (MMORPG- Massive Multiplayer Online Role Playing Game) son cada vez más populares a medida que las principales compañías de videojuegos continúan moviéndose hacia la Web3.
+## Los juegos de rol masivos en línea basados en Blockchain (MMORPG- Massive Multiplayer Online Role Playing Game) son cada vez más populares a medida que las principales compañías de videojuegos continúan moviéndose hacia la Web3.
 
-Una visión rápida:
+### Una visión rápida:
 
-•	Los juegos Web3 se perciben como el futuro de los juegos en línea.
+### •	Los juegos Web3 se perciben como el futuro de los juegos en línea.
 
-•	Los fabricantes de videojuegos tradicionales están comenzando a migrar hacia la Web3 a medida que los MMORPG basados en Blockchain ganan popularidad.
+### •	Los fabricantes de videojuegos tradicionales están comenzando a migrar hacia la Web3 a medida que los MMORPG basados en Blockchain ganan popularidad.
 
-•	KlayMeta y Ember Sword son algunos de los MMORPG más interesantes de cara a 2023.
+### •	KlayMeta y Ember Sword son algunos de los MMORPG más interesantes de cara a 2023.
 
    La evolución de la industria de los videojuegos está a punto de dar paso a una nueva era de juegos. Los desarrolladores de videojuegos están empezando a aceptar que el concepto de juego basado en Blockchain que recompensa a sus usuarios es el futuro.
 
@@ -39,7 +39,7 @@ La Web3 se describe generalmente como una Internet basada en Blockchain que da p
 
 Como resultado, los jugadores pueden beneficiarse más de los juegos a través del mecanismo de juego Play-to-earn (P2E) y el comercio de personajes en el juego en forma de avatares NFT.
 
-1﻿. MMO VS. MMORPG.
+### 1﻿. MMO VS. MMORPG.
 
 Un MMORPG es un tipo de juego de rol en línea en el que varios jugadores interactúan entre sí mediante competiciones y equipos en mundos virtuales. Por otro lado, los MMO (massively multiplayer online) pueden ser de un solo jugador o multijugador. Todo depende del diseño del juego.
 
@@ -51,7 +51,7 @@ Todos los MMORPG son MMO, pero no todos los MMO son MMORPG.
 
 Sin un orden en particular, aquí están 5 de los mejores MMORPG basados en Blockchain para 2023. Aunque hay varias características similares entre unos y otros, cada uno de ellos ofrece algo distintivo que su comunidad encuentra más entretenido y gratificante en comparación con los demás.
 
-2. Ember Sword (Polygon). 
+### 2.Ember Sword (Polygon). 
 
 ![Fuente: Outer Ring](ember-sword.jpg "Fuente: Outer Ring")
 
@@ -65,7 +65,7 @@ Ember Sword también introdujo los NFT como característica cosmética, que comp
 
 Está basado en el mundo utópico de Thanabus, que contiene cuatro regiones: Duskeron, Ediseau, Sevrend y Solarwood.
 
-3﻿. KLAYMETA (Klaytn).
+### 3﻿. KLAYMETA (Klaytn).
 
 ![Fuente: KlayMeta](klaymeta.jpg "Fuente: KlayMeta")
 
@@ -77,7 +77,7 @@ Klaymeta utiliza Blockchain para ofrecer recompensas y NFTs a los jugadores, que
 
 KLAYMETA utiliza su metaverso para llevar los juegos Web3 al mainstream. La plataforma KLAYMETA permite a los desarrolladores más pequeños crear juegos de Blockchain aprovechando su función sin código que permite experimentar con cripto y NFTs.
 
-4﻿. Axie Infinity (Ethereum).
+### 4﻿. Axie Infinity (Ethereum).
 
 ![Fuente: Axie Infinity](axie-infinity.jpg "Fuente: Axie Infinity")
 
@@ -91,7 +91,7 @@ Los jugadores crían Axies utilizando los recursos del juego (SLP y $AXS) que pu
 
 El juego afirma tener más de 150.000 usuarios activos mensuales, lo que lo convierte en uno de los juegos NFT más populares. Los jugadores han elogiado a Axie por ofrecer una experiencia de juego casi similar a la de los juegos online tradicionales, un factor no muy común en los juegos de Blockchain. Algunos lo ven más como un juego de Pokemon con características de Play-To-Earn.
 
-5﻿. Treeverse (Ethereum).
+### 5﻿. Treeverse (Ethereum).
 
 ![Fuente: Treeverse](treeverse.jpg "Fuente: Treeverse")
 
@@ -105,7 +105,7 @@ El juego también cuenta con los coleccionables Treeverse, que son tokens no fun
 
 Treeverse está siendo desarrollado por Endless Clouds, un estudio de desarrollo de juegos de Blockchain dirigido por un equipo que ha contribuido a juegos como League of Legends y Rainbow 6 Siege.
 
-6﻿. Outer Ring (BNB).
+### 6﻿. Outer Ring (BNB).
 
 ![Fuente: Outer Ring](outer-ring.jpg "Fuente: Outer Ring")
 
@@ -119,13 +119,13 @@ Los jugadores que contribuyen al ecosistema son recompensados por el tiempo que 
 
 El universo del juego está basado en la Saga del Anillo Exterior, una novela con cinco especies divididas en cuatro facciones que luchan por el control de planetas y recursos.
 
-7﻿. Conclusiones
+### 7﻿. Conclusiones
 
 Los expertos predicen que la industria del juego en la Web3 seguirá experimentando un crecimiento significativo y superará los 200.000 millones de dólares a finales de 2023.
 
 Esto explica el por qué los desarrolladores de videojuegos convencionales están buscando volcarse sobre el mercado de los juegos de Blockchain. Algunos han integrado los NFTs, mientras que otros están lanzando títulos independientes para los jugadores de Blockchain.
 
-**G﻿losario**
+## **G﻿losario**
 
 1.Trustless o "Sin Confianza": en el mundo del crypto significa que no es necesario depositar toda la confianza en un solo ente, individuo o institución para que un sistema funcione. Es por eso que cuando dos usuarios realizan una transacción a través de Blockchain, no tienen que depender de un tercero o intermediario que regule el proceso.
 
