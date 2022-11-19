@@ -85,10 +85,23 @@ Axie Infinity es un metaverso de juego basado en Blockchain creado por Sky Mavis
 
 El juego cuenta con una “economía tokenizada” (3), propiedad total de los usuarios. A través de la cría, Axie permite a los jugadores criar personajes mascota, que luego pueden vender con beneficio en sus diferentes etapas de desarrollo.
 
+<https://www.youtube.com/watch?v=ksoKap3t-gU&feature=emb_logo>
+
 Los jugadores crían Axies utilizando los recursos del juego (SLP y $AXS) que pueden vender a otros jugadores.
 
 El juego afirma tener más de 150.000 usuarios activos mensuales, lo que lo convierte en uno de los juegos NFT más populares. Los jugadores han elogiado a Axie por ofrecer una experiencia de juego casi similar a la de los juegos online tradicionales, un factor no muy común en los juegos de Blockchain. Algunos lo ven más como un juego de Pokemon con características de Play-To-Earn.
 
 5﻿. Treeverse (Ethereum).
 
-![]()
+![Fuente: Treeverse](treeverse.jpg "Fuente: Treeverse")
+
+Treeverse es un juego social y cooperativo ambientado en un mundo exuberante y místico que presenta hermosos paisajes dominados por los árboles y un combate de ritmo rápido y muy dinámico. 
+
+Este MMORPG centrado en el usuario permite a los jugadores la propiedad de cualquier cosa que adquieran o compren en el juego, incluyendo NFTrees, viviendas y parcelas.
+
+<https://www.youtube.com/watch?v=pA31rxn3hYM&feature=emb_logo>
+
+El juego también cuenta con los coleccionables Treeverse, que son tokens no fungibles (NFT) basados en Ethereum. Los jugadores pueden comprar y vender NFTs de Treeverse cuando lo deseen. El juego debutará como un juego gratuito de jugador contra entorno (PVE) en su lanzamiento antes de lanzar la versión de jugador contra jugador (PVP) en el futuro.
+
+Treeverse está siendo desarrollado por Endless Clouds, un estudio de desarrollo de juegos de Blockchain dirigido por un equipo que ha contribuido a juegos como League of Legends y Rainbow 6 Siege.
+
