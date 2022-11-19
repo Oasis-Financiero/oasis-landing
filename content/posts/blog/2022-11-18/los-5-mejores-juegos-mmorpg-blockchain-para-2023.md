@@ -55,3 +55,12 @@ Sin un orden en particular, aquí están 5 de los mejores MMORPG basados en Bloc
 
 ![Fuente: Outer Ring](ember-sword.jpg "Fuente: Outer Ring")
 
+Ember Sword es un MMORPG basado en Blockchain, creado por Bright Star Studios. El juego ofrece una experiencia de juego muy socializada, impulsada por la comunidad a través de la propiedad de activos digitales como skins y avatares.
+
+Los jugadores pueden poseer, intercambiar y vender activos del juego y ganar cripto-recompensas por completar misiones, participar en actividades del juego y poseer terrenos. Es uno de los primeros juegos basados en Blockchain, cuyo primer tráiler se publicó hace más de cuatro años.
+
+<https://www.youtube.com/watch?v=mrmUZkribyo&t=1s>
+
+Ember Sword también introdujo los NFT como característica cosmética, que complementa el arte y el juego tipo aventuras.
+
+Está basado en el mundo utópico de Thanabus, que contiene cuatro regiones: Duskeron, Ediseau, Sevrend y Solarwood.
