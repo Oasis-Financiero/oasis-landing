@@ -125,11 +125,9 @@ Los expertos predicen que la industria del juego en la Web3 seguirá experimenta
 
 Esto explica el por qué los desarrolladores de videojuegos convencionales están buscando volcarse sobre el mercado de los juegos de Blockchain. Algunos han integrado los NFTs, mientras que otros están lanzando títulos independientes para los jugadores de Blockchain.
 
-
-
 **G﻿losario**
 
-1. Trustless o "Sin Confianza": en el mundo del crypto significa que no es necesario depositar toda la confianza en un solo ente, individuo o institución para que un sistema funcione. Es por eso que cuando dos usuarios realizan una transacción a través de Blockchain, no tienen que depender de un tercero o intermediario que regule el proceso.
+1.Trustless o "Sin Confianza": en el mundo del crypto significa que no es necesario depositar toda la confianza en un solo ente, individuo o institución para que un sistema funcione. Es por eso que cuando dos usuarios realizan una transacción a través de Blockchain, no tienen que depender de un tercero o intermediario que regule el proceso.
 
 2﻿. Crafteo: es un elemento básico en los videojuegos de rol y supervivencia, ya que nos permite crear armas, armaduras, pociones y otros objetos para mejorar nuestras estadísticas.
 
