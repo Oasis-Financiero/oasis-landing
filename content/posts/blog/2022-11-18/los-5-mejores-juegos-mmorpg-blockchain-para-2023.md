@@ -59,7 +59,7 @@ Ember Sword es un MMORPG basado en Blockchain, creado por Bright Star Studios. E
 
 Los jugadores pueden poseer, intercambiar y vender activos del juego y ganar cripto-recompensas por completar misiones, participar en actividades del juego y poseer terrenos. Es uno de los primeros juegos basados en Blockchain, cuyo primer tráiler se publicó hace más de cuatro años.<br/><br/>
 
-<https://www.youtube.com/watch?v=mrmUZkribyo&t=1s><br/><br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mrmUZkribyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>[](https://www.youtube.com/watch?v=mrmUZkribyo&t=1s)<br/><br/>
 
 Ember Sword también introdujo los NFT como característica cosmética, que complementa el arte y el juego tipo aventuras.<br/><br/>
 
@@ -85,7 +85,7 @@ Axie Infinity es un metaverso de juego basado en Blockchain creado por Sky Mavis
 
 El juego cuenta con una “economía tokenizada” (3), propiedad total de los usuarios. A través de la cría, Axie permite a los jugadores criar personajes mascota, que luego pueden vender con beneficio en sus diferentes etapas de desarrollo.<br/><br/>
 
-<https://www.youtube.com/watch?v=ksoKap3t-gU&feature=emb_logo><br/><br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ksoKap3t-gU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/><br/>
 
 Los jugadores crían Axies utilizando los recursos del juego (SLP y $AXS) que pueden vender a otros jugadores.<br/><br/>
 
@@ -99,7 +99,7 @@ Treeverse es un juego social y cooperativo ambientado en un mundo exuberante y m
 
 Este MMORPG centrado en el usuario permite a los jugadores la propiedad de cualquier cosa que adquieran o compren en el juego, incluyendo NFTrees, viviendas y parcelas.<br/><br/>
 
-<https://www.youtube.com/watch?v=pA31rxn3hYM&feature=emb_logo><br/><br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pA31rxn3hYM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/><br/>
 
 El juego también cuenta con los coleccionables Treeverse, que son tokens no fungibles (NFT) basados en Ethereum. Los jugadores pueden comprar y vender NFTs de Treeverse cuando lo deseen. El juego debutará como un juego gratuito de jugador contra entorno (PVE) en su lanzamiento antes de lanzar la versión de jugador contra jugador (PVP) en el futuro.<br/><br/>
 
@@ -113,7 +113,7 @@ Outer Ring está ambientado en un vasto universo que combina varios géneros en 
 
 El proyecto Outer Ring está gestionado por la comunidad a través del token $GQ y se puede jugar como un “juego freemium” (4) en el que los jugadores pueden acceder y jugar sin comprar NFTs, sólo interactuando con la tecnología tokenizada a voluntad. <br/><br/>
 
-[https://www.youtube.com/watch?v=_jG_xfPTTU0&feature=emb_logo](https://www.youtube.com/watch?v=_jG_xfPTTU0&feature=emb_logo)<br/><br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_jG_xfPTTU0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/><br/>
 
 Los jugadores que contribuyen al ecosistema son recompensados por el tiempo que invierten y, en consecuencia, dan forma al modelo de economía impulsada por el jugador.<br/><br/>
 
