@@ -105,3 +105,16 @@ El juego también cuenta con los coleccionables Treeverse, que son tokens no fun
 
 Treeverse está siendo desarrollado por Endless Clouds, un estudio de desarrollo de juegos de Blockchain dirigido por un equipo que ha contribuido a juegos como League of Legends y Rainbow 6 Siege.
 
+6﻿. Outer Ring (BNB).
+
+![Fuente: Outer Ring](outer-ring.jpg "Fuente: Outer Ring")
+
+Outer Ring está ambientado en un vasto universo que combina varios géneros en un MMORPG de disparos en tercera persona. El ecosistema de Outer Ring, estimulado por los jugadores, se está desarrollando con la visión de un metaverso impulsado por el token $GQ. 
+
+El proyecto Outer Ring está gestionado por la comunidad a través del token $GQ y se puede jugar como un “juego freemium”  en el que los jugadores pueden acceder y jugar sin comprar NFTs, sólo interactuando con la tecnología tokenizada a voluntad. 
+
+[https://www.youtube.com/watch?v=_jG_xfPTTU0&feature=emb_logo](https://www.youtube.com/watch?v=_jG_xfPTTU0&feature=emb_logo)
+
+Los jugadores que contribuyen al ecosistema son recompensados por el tiempo que invierten y, en consecuencia, dan forma al modelo de economía impulsada por el jugador.
+
+El universo del juego está basado en la Saga del Anillo Exterior, una novela con cinco especies divididas en cuatro facciones que luchan por el control de planetas y recursos.
