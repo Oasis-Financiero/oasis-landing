@@ -64,3 +64,31 @@ Los jugadores pueden poseer, intercambiar y vender activos del juego y ganar cri
 Ember Sword también introdujo los NFT como característica cosmética, que complementa el arte y el juego tipo aventuras.
 
 Está basado en el mundo utópico de Thanabus, que contiene cuatro regiones: Duskeron, Ediseau, Sevrend y Solarwood.
+
+3﻿. KLAYMETA (Klaytn).
+
+![Fuente: KlayMeta](klaymeta.jpg "Fuente: KlayMeta")
+
+KLAYMETA es un metaverso play-and-earn, construido sobre la Blockchain Klaytn. Hace hincapié en la creación de juegos divertidos, con la oportunidad de ganar por jugar como una característica adicional, no como su función principal.
+
+La plataforma ha lanzado recientemente sus características iniciales de juego, incluyendo el modo aventura, mientras que el lanzamiento completo está previsto para principios de 2023.
+
+Klaymeta utiliza Blockchain para ofrecer recompensas y NFTs a los jugadores, que pueden ser ganados jugando. También pueden optar por comprar, vender, intercambiar o convertir tokens y activos del juego en tokens de utilidad de $META.
+
+KLAYMETA utiliza su metaverso para llevar los juegos Web3 al mainstream. La plataforma KLAYMETA permite a los desarrolladores más pequeños crear juegos de Blockchain aprovechando su función sin código que permite experimentar con cripto y NFTs.
+
+4﻿. Axie Infinity (Ethereum).
+
+![Fuente: Axie Infinity](axie-infinity.jpg "Fuente: Axie Infinity")
+
+Axie Infinity es un metaverso de juego basado en Blockchain creado por Sky Mavis. Está considerado como la puerta de entrada a los juegos de Blockchain tras inspirar la aparición de los MMORPG de la Web3. El juego de Axie Infinity permite a los jugadores criar, criar, comerciar y luchar contra criaturas fantásticas llamadas Axies. El juego cuenta con una amplia colección de especies únicas de Axies con diferentes apariencias, habilidades y comportamientos.
+
+El juego cuenta con una “economía tokenizada” (3), propiedad total de los usuarios. A través de la cría, Axie permite a los jugadores criar personajes mascota, que luego pueden vender con beneficio en sus diferentes etapas de desarrollo.
+
+Los jugadores crían Axies utilizando los recursos del juego (SLP y $AXS) que pueden vender a otros jugadores.
+
+El juego afirma tener más de 150.000 usuarios activos mensuales, lo que lo convierte en uno de los juegos NFT más populares. Los jugadores han elogiado a Axie por ofrecer una experiencia de juego casi similar a la de los juegos online tradicionales, un factor no muy común en los juegos de Blockchain. Algunos lo ven más como un juego de Pokemon con características de Play-To-Earn.
+
+5﻿. Treeverse (Ethereum).
+
+![]()
