@@ -111,10 +111,28 @@ Treeverse está siendo desarrollado por Endless Clouds, un estudio de desarrollo
 
 Outer Ring está ambientado en un vasto universo que combina varios géneros en un MMORPG de disparos en tercera persona. El ecosistema de Outer Ring, estimulado por los jugadores, se está desarrollando con la visión de un metaverso impulsado por el token $GQ. 
 
-El proyecto Outer Ring está gestionado por la comunidad a través del token $GQ y se puede jugar como un “juego freemium”  en el que los jugadores pueden acceder y jugar sin comprar NFTs, sólo interactuando con la tecnología tokenizada a voluntad. 
+El proyecto Outer Ring está gestionado por la comunidad a través del token $GQ y se puede jugar como un “juego freemium” (4) en el que los jugadores pueden acceder y jugar sin comprar NFTs, sólo interactuando con la tecnología tokenizada a voluntad. 
 
 [https://www.youtube.com/watch?v=_jG_xfPTTU0&feature=emb_logo](https://www.youtube.com/watch?v=_jG_xfPTTU0&feature=emb_logo)
 
 Los jugadores que contribuyen al ecosistema son recompensados por el tiempo que invierten y, en consecuencia, dan forma al modelo de economía impulsada por el jugador.
 
 El universo del juego está basado en la Saga del Anillo Exterior, una novela con cinco especies divididas en cuatro facciones que luchan por el control de planetas y recursos.
+
+7﻿. Conclusiones
+
+Los expertos predicen que la industria del juego en la Web3 seguirá experimentando un crecimiento significativo y superará los 200.000 millones de dólares a finales de 2023.
+
+Esto explica el por qué los desarrolladores de videojuegos convencionales están buscando volcarse sobre el mercado de los juegos de Blockchain. Algunos han integrado los NFTs, mientras que otros están lanzando títulos independientes para los jugadores de Blockchain.
+
+
+
+**G﻿losario**
+
+1. Trustless o "Sin Confianza": en el mundo del crypto significa que no es necesario depositar toda la confianza en un solo ente, individuo o institución para que un sistema funcione. Es por eso que cuando dos usuarios realizan una transacción a través de Blockchain, no tienen que depender de un tercero o intermediario que regule el proceso.
+
+2﻿. Crafteo: es un elemento básico en los videojuegos de rol y supervivencia, ya que nos permite crear armas, armaduras, pociones y otros objetos para mejorar nuestras estadísticas.
+
+3﻿. Tokenomics o economía del token: el token sustituye en el entorno digital al dinero fiat o, al menos, se convierte en alternativa válida.
+
+4﻿. Juego Freemium: Es la nomenclatura para un juego que es gratis pero cuyos avances están determinados por el dinero que gastes en él.
