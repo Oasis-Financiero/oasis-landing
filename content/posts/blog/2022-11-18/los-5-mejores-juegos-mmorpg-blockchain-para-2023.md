@@ -51,7 +51,7 @@ Todos los MMORPG son MMO, pero no todos los MMO son MMORPG.<br/><br/>
 
 Sin un orden en particular, aquí están 5 de los mejores MMORPG basados en Blockchain para 2023. Aunque hay varias características similares entre unos y otros, cada uno de ellos ofrece algo distintivo que su comunidad encuentra más entretenido y gratificante en comparación con los demás.<br/><br/>
 
-### 2.Ember Sword (Polygon).<br/><br/>
+### **2.Ember Sword (Polygon).**<br/><br/>
 
 ![Fuente: Outer Ring](ember-sword.jpg "Fuente: Outer Ring")
 
@@ -59,13 +59,13 @@ Ember Sword es un MMORPG basado en Blockchain, creado por Bright Star Studios. E
 
 Los jugadores pueden poseer, intercambiar y vender activos del juego y ganar cripto-recompensas por completar misiones, participar en actividades del juego y poseer terrenos. Es uno de los primeros juegos basados en Blockchain, cuyo primer tráiler se publicó hace más de cuatro años.<br/><br/>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mrmUZkribyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>[](https://www.youtube.com/watch?v=mrmUZkribyo&t=1s)<br/><br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mrmUZkribyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>\[](https://www.youtube.com/watch?v=mrmUZkribyo&t=1s)<br/><br/>
 
 Ember Sword también introdujo los NFT como característica cosmética, que complementa el arte y el juego tipo aventuras.<br/><br/>
 
 Está basado en el mundo utópico de Thanabus, que contiene cuatro regiones: Duskeron, Ediseau, Sevrend y Solarwood.<br/><br/>
 
-### 3﻿. KLAYMETA (Klaytn).<br/><br/>
+### **3﻿. KLAYMETA (Klaytn).**<br/><br/>
 
 ![Fuente: KlayMeta](klaymeta.jpg "Fuente: KlayMeta")
 
@@ -77,7 +77,7 @@ Klaymeta utiliza Blockchain para ofrecer recompensas y NFTs a los jugadores, que
 
 KLAYMETA utiliza su metaverso para llevar los juegos Web3 al mainstream. La plataforma KLAYMETA permite a los desarrolladores más pequeños crear juegos de Blockchain aprovechando su función sin código que permite experimentar con cripto y NFTs.<br/><br/>
 
-### 4﻿. Axie Infinity (Ethereum).<br/><br/>
+### **4﻿. Axie Infinity (Ethereum).**<br/><br/>
 
 ![Fuente: Axie Infinity](axie-infinity.jpg "Fuente: Axie Infinity")
 
@@ -91,7 +91,7 @@ Los jugadores crían Axies utilizando los recursos del juego (SLP y $AXS) que pu
 
 El juego afirma tener más de 150.000 usuarios activos mensuales, lo que lo convierte en uno de los juegos NFT más populares. Los jugadores han elogiado a Axie por ofrecer una experiencia de juego casi similar a la de los juegos online tradicionales, un factor no muy común en los juegos de Blockchain. Algunos lo ven más como un juego de Pokemon con características de Play-To-Earn.<br/><br/>
 
-### 5﻿. Treeverse (Ethereum).<br/><br/>
+### **5﻿. Treeverse (Ethereum).**<br/><br/>
 
 ![Fuente: Treeverse](treeverse.jpg "Fuente: Treeverse")
 
@@ -105,7 +105,7 @@ El juego también cuenta con los coleccionables Treeverse, que son tokens no fun
 
 Treeverse está siendo desarrollado por Endless Clouds, un estudio de desarrollo de juegos de Blockchain dirigido por un equipo que ha contribuido a juegos como League of Legends y Rainbow 6 Siege.<br/><br/>
 
-### 6﻿. Outer Ring (BNB).<br/><br/>
+### **6﻿. Outer Ring (BNB).**<br/><br/>
 
 ![Fuente: Outer Ring](outer-ring.jpg "Fuente: Outer Ring")
 
@@ -119,7 +119,7 @@ Los jugadores que contribuyen al ecosistema son recompensados por el tiempo que 
 
 El universo del juego está basado en la Saga del Anillo Exterior, una novela con cinco especies divididas en cuatro facciones que luchan por el control de planetas y recursos.<br/><br/>
 
-### 7﻿. Conclusiones<br/><br/>
+### **7﻿. Conclusiones**<br/><br/>
 
 Los expertos predicen que la industria del juego en la Web3 seguirá experimentando un crecimiento significativo y superará los 200.000 millones de dólares a finales de 2023.<br/><br/>
 
