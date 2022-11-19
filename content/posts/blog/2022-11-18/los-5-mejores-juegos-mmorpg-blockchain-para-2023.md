@@ -21,7 +21,7 @@ tags:
 
 ## Los juegos de rol masivos en línea basados en Blockchain (MMORPG- Massive Multiplayer Online Role Playing Game) son cada vez más populares a medida que las principales compañías de videojuegos continúan moviéndose hacia la Web3.
 
-### Una visión rápida:
+### Una visión rápida:<br/><br/>
 
 ### •	Los juegos Web3 se perciben como el futuro de los juegos en línea.
 
@@ -54,6 +54,8 @@ Sin un orden en particular, aquí están 5 de los mejores MMORPG basados en Bloc
 ### **2.Ember Sword (Polygon).**<br/><br/>
 
 ![Fuente: Outer Ring](ember-sword.jpg "Fuente: Outer Ring")
+
+<br/><br/>
 
 Ember Sword es un MMORPG basado en Blockchain, creado por Bright Star Studios. El juego ofrece una experiencia de juego muy socializada, impulsada por la comunidad a través de la propiedad de activos digitales como skins y avatares.<br/><br/>
 
@@ -112,6 +114,8 @@ Treeverse está siendo desarrollado por Endless Clouds, un estudio de desarrollo
 ### **6﻿. Outer Ring (BNB).**<br/><br/>
 
 ![Fuente: Outer Ring](outer-ring.jpg "Fuente: Outer Ring")
+
+<br/><br/>
 
 Outer Ring está ambientado en un vasto universo que combina varios géneros en un MMORPG de disparos en tercera persona. El ecosistema de Outer Ring, estimulado por los jugadores, se está desarrollando con la visión de un metaverso impulsado por el token $GQ. <br/><br/>
 
