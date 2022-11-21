@@ -35,7 +35,7 @@ Trust Wallet es una cartera sin custodia que ofrece una amplia variedad de funci
 
 Los usuarios de Trust Wallet tienen control total sobre su frase semilla, lo que hace que sea una aplicación sin custodia. Adicionalmente se puede navegar en diferentes Dapps dentro de Trust Wallet.<br/><br/>
 
-#### ¿Qué puedes hacer con Trust Wallet?<br/><br/>
+#### ***¿Qué puedes hacer con Trust Wallet?<br/><br/>***
 
 **Staking:** Por el momento puedes hacer statking con las siguientes criptomonedas.<br/><br/>
 
