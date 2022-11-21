@@ -54,3 +54,7 @@ Los usuarios de Trust Wallet tienen control total sobre su frase semilla, lo que
 ![](comprastrsut.jpg "¿Qué puedes hacer con Trust Wallet?")
 
 <br/><br/>
+
+Trust Wallet se puede descargar para iOS, Android y ha lanzado la extensión web la cuál ya puedes agregar a diversos navegadores.<br/><br/>
+
+**T﻿rust Wallet es una de varias opciones, sin embargo el diseño que ofrece la hace fácil de usar y entender además de ofrecer dentro de la aplicaciones varias opciones para compra y resguardo.**
