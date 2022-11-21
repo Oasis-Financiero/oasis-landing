@@ -29,4 +29,6 @@ D﻿entro de las Hot wallets están las que ofrecen los exchanges como Bitso o B
 
 A﻿unque todo parece muy bien de primera vista, estas carteras custodiadas están 100% manejadas por los exchanges y por ende sujetas a sus reglas y políticas por lo que no eres dueño de las mismas. Si estas plataformas deciden bloquear tu cartera es muy probable que no puedas acceder a tus fondos y perderlos. ***Not your keys, not your coins***<br/><br/>
 
-En el caso de las Cold Wallets
+## T﻿rust Wallet
+
+Trust Wallet es una billetera de criptomonedas móvil y sin custodia fundada en 2017. Ofrece una amplia variedad de funcionalidades y permite a los usuarios acceder a una gran selección de blockchains, activos digitales y DApps.
