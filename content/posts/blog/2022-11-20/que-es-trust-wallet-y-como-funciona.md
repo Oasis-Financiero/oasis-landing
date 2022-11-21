@@ -29,6 +29,28 @@ D﻿entro de las Hot wallets están las que ofrecen los exchanges como Bitso o B
 
 A﻿unque todo parece muy bien de primera vista, estas carteras custodiadas están 100% manejadas por los exchanges y por ende sujetas a sus reglas y políticas por lo que no eres dueño de las mismas. Si estas plataformas deciden bloquear tu cartera es muy probable que no puedas acceder a tus fondos y perderlos. ***Not your keys, not your coins***<br/><br/>
 
-## T﻿rust Wallet
+## T﻿rust Wallet.<br/><br/>
 
-Trust Wallet es una billetera de criptomonedas móvil y sin custodia fundada en 2017. Ofrece una amplia variedad de funcionalidades y permite a los usuarios acceder a una gran selección de blockchains, activos digitales y DApps.
+Trust Wallet es una cartera sin custodia que ofrece una amplia variedad de funcionalidades y y compatible con múltiples monedas que ofreciendo acceso a varias cadenas en una única aplicación. <br/><br/>
+
+Los usuarios de Trust Wallet tienen control total sobre su frase semilla, lo que hace que sea una aplicación sin custodia. Adicionalmente se puede navegar en diferentes Dapps dentro de Trust Wallet.<br/><br/>
+
+#### ¿Qué puedes hacer con Trust Wallet?<br/><br/>
+
+**Staking:** Por el momento puedes hacer statking con las siguientes criptomonedas.<br/><br/>
+
+![](trustwallet-staking.jpg "¿Qué puedes hacer con Trust Wallet?")
+
+<br/><br/>
+
+**Swap:** Se puede realizar intercambio dentro de la aplicación y son nativos cross-chain.<br/><br/>
+
+![](swap.jpg "¿Qué puedes hacer con Trust Wallet?")
+
+<br/><br/>
+
+**Compras:** Los usuarios pueden comprar criptomonedas con fiat mediante seis proveedores. Se pueden comprar más de 40 criptomonedas con tarjeta de crédito o débito incluso con Apple Pay, Google Pay o transferencia bancaria en ciertos países.<br/><br/>
+
+![](comprastrsut.jpg "¿Qué puedes hacer con Trust Wallet?")
+
+<br/><br/>
