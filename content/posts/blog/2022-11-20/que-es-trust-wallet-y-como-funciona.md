@@ -57,4 +57,6 @@ Los usuarios de Trust Wallet tienen control total sobre su frase semilla, lo que
 
 Trust Wallet se puede descargar para iOS, Android y ha lanzado la extensión web la cuál ya puedes agregar a diversos navegadores.<br/><br/>
 
-**T﻿rust Wallet es una de varias opciones, sin embargo el diseño que ofrece la hace fácil de usar y entender además de ofrecer dentro de la aplicaciones varias opciones para compra y resguardo.**
+T﻿rust Wallet es una de varias opciones, sin embargo el diseño que ofrece la hace fácil de usar y entender además de ofrecer dentro de la aplicaciones varias opciones para compra y resguardo.<br/><br/>
+
+### **C﻿onoce más sobre las criptomonedas con nuestro artículo: *[¿Qué son las stablecoins?](https://www.oasisfinanciero.mx/blog/2022-10-15/que-son-las-stablecoins/)***
