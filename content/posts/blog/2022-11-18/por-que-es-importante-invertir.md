@@ -39,6 +39,8 @@ E﻿stos son algunos de los instrumentos de inversión.<br/><br/>
 
 Puedes establecer ciertos objetivos para alcanzar tus metas de inversión. E﻿stos son algunos ejemplos que puedes considerar: C﻿ontratar un seguro para la educación de tus hijos, invertir en bienes inmuebles desde plataformas reguladas, contratar un plan para el retiro.<br/><br/>
 
+***Es recomendable asesorarte con un especialista en inversiones para a clarar todas las dudas en cuanto a requisitos, riesgos y temas fiscales en cada instrumento de inversión.***<br/><br/>
+
 Infórmate te da un paso de ahorrador a inversionista.
 
 S﻿i quieres saber más sobre cuentas de ahorro con inversión, entra al siguiente artículo. <br/><br/>
