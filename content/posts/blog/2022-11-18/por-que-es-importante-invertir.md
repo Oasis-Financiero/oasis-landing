@@ -37,4 +37,22 @@ E﻿stos son algunos de los instrumentos de inversión.<br/><br/>
 * M﻿ercado de valores
 * B﻿ienes raíces
 
-S﻿i quieres saber más sobre cuentas de ahorro con inversión, entra al siguiente artículo.
+Puedes establecer ciertos objetivos para alcanzar tus metas de inversión. E﻿stos son algunos ejemplos que puedes considerar:
+
+C﻿ontratar un seguro para la educación de tus hijos.
+
+Asegurar una educación profesional para ti o para tus hijos. 
+
+Hacer crecer tus recursos para asegurar un retiro digno. 
+
+Iniciar o incrementar tu patrimonio: comprar una vivienda. 
+
+Infórmate te da un paso de ahorrador a inversionista.
+
+
+
+
+
+S﻿i quieres saber más sobre cuentas de ahorro con inversión, entra al siguiente artículo. <br/><br/>
+
+### [Las mejores cuentas de ahorro para generar rendimientos en México](https://www.oasisfinanciero.mx/blog/2021-10-04/cuentas-de-ahorro-para-generar-rendimientos/)
