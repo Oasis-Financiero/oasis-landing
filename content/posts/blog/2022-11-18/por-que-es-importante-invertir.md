@@ -22,7 +22,7 @@ S﻿in embargo ahorrar no es suficiente ya que la inflación provoca que que tus
 
 Son diversas herramientas en donde puedes invertir tu capital y diversificarlo para poder hacer crecer tu dinero. Existen diversas opciones en las que las personas puedes invertir pero antes debes saber como funcionan para poder sacarle el provecho al instrumento que mejor se adapte a tus necesidades.<br/><br/>
 
-#### Tipos de instrumentos de inversión.**<br/><br/>**
+#### **Tipos de instrumentos de inversión.<br/><br/>**
 
 Las inversiones puedes hacerlas en títulos o propiedades. En el caso de los títulos estos pueden representar propiedades o deudas y también el derecho para adquirir ciertos bienes. Entre los más populares se encuentran las acciones (Facebook, Tesla, Disney) o bonos.<br/><br/>
 
@@ -30,9 +30,11 @@ E﻿n el caso de las propiedades pueden ser inversiones en bienes tangibles como
 
 E﻿stos son algunos de los instrumentos de inversión.<br/><br/>
 
-1. P﻿agarés bancarios
-2. C﻿etes
-3. S﻿eguros de inversión
-4. F﻿ondos de inversión
-5. M﻿ercado de valores
-6. B﻿ienes raíces
+* P﻿agarés bancarios
+* C﻿etes
+* S﻿eguros de inversión
+* F﻿ondos de inversión
+* M﻿ercado de valores
+* B﻿ienes raíces
+
+S﻿i quieres saber más sobre cuentas de ahorro con inversión, entra al siguiente artículo.
