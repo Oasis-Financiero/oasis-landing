@@ -9,4 +9,4 @@ tags:
   - NFT
   - colección
 ---
-Human Kind, la nueva colección NFT de Pablo Stanley.
+Human Kind
