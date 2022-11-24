@@ -23,3 +23,9 @@ E﻿n este 2022 el ecosistema cripto y fintech se ha visto muy afectado por los 
 S﻿in embargo en el comunidado se aclara que esta decisión no está relacionada con FTX.<br/><br/>
 
 > "¿Esta medida está relacionada de alguna forma con lo sucedido con FTX? No, una decisión tan difícil e indeseada no se toma en cuestión de semanas. Este era el camino a seguir y lo sabemos desde hace un tiempo."<br/><br/>
+
+L﻿emon Cash se ha sumado a empresas como Coinbase, Meta, Bitso que se han visto obligados a despedir a sus empleados por el estado tan difícil del mercado.<br/><br/>
+
+P﻿uedes leer el comunicado completo en este enlace: **[Carta abierta a la comunidad](https://medium.com/@limoncit0/carta-abierta-a-la-comunidad-5b8b277ad3dd)**<br/><br/>
+
+### E﻿ste artículo puede interesarte:**[ ¿Hay una especulación con los nft y criptomonedas?](https://www.oasisfinanciero.mx/blog/2022-11-17/hay-una-especulaci%C3%B3n-con-las-nft-criptomonedas-e-inflacion/)**
