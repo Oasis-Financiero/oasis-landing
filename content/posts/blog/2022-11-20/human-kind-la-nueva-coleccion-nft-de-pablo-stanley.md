@@ -3,7 +3,7 @@ title: Humankind, la nueva colección NFT de Pablo Stanley.
 slug: Humankind-la-nueva-coleccion-NFT-de-Pablo-Stanley.
 author: coronagenaro@gmail.com
 date: 2022-11-20
-image: humankindnft.png
+image: humankindportadablog.png
 imageAlt: Human Kind, la nueva colección NFT de Pablo Stanley.
 tags:
   - NFT
