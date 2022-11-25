@@ -4,12 +4,12 @@ slug: Humankind-la-nueva-coleccion-NFT-de-Pablo-Stanley.
 author: coronagenaro@gmail.com
 date: 2022-11-20
 image: humankindportada.png
-imageAlt: Human Kind, la nueva colección NFT de Pablo Stanley.
+imageAlt: Humankind, la nueva colección NFT de Pablo Stanley.
 tags:
   - NFT
   - colección
 ---
-Pablo Stanley fundador de la colección Robotos ha lanzado su nueva colección Human Kind.<br/><br/>
+Pablo Stanley fundador de la colección Robotos ha lanzado su nueva colección Humankind.<br/><br/>
 
 H﻿umankind es una colección de 10,000 NFT que nos presenta diferentes personajes como Maya, Dallas, Skipper y Ankka the Hunter. Con estos NFTs se tendrá acceso al mundo Humankind y al mismo tiempo se apoyará a HK Studios.<br/><br/>
 
@@ -17,9 +17,9 @@ H﻿umankind es una colección de 10,000 NFT que nos presenta diferentes persona
 
 E﻿stos nft darán acceso a merchandising, acceso anticipado a nuevos proyectos como Creaturekind, Spiritkind y Monsterkind.<br/><br/>
 
-E﻿l pasado fue el lanzamiento de Lunchboxes los cuáles desbloquearán un Humankind. Estas Lunchboxes tiene distintos diseños los cuáles tendrán que ser quedamos para obtener a un personaje.<br/><br/>
+E﻿sta colección de Lunchboxes ya tiene la venta secundaria en Opensea y estos desbloquearán un Humankind. Estas Lunchboxes tiene distintos diseños los cuáles tendrán que ser quedamos para obtener a un personaje.<br/><br/>
 
-![NFT HumanKind](humankindpropio.png "Human Kind, la nueva colección NFT de Pablo Stanley.")
+![NFT HumanKind](humankindlunchbox.png "Human Kind, la nueva colección NFT de Pablo Stanley.")
 
 <br/><br/>
 
