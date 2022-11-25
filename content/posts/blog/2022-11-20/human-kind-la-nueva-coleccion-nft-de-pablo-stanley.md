@@ -23,6 +23,14 @@ E﻿l pasado fue el lanzamiento de Lunchboxes los cuáles desbloquearán un Huma
 
 <br/><br/>
 
+## **HUMANKIND FUND**<br/><br/>
+
+E﻿ste es un fondo que tiene como objetivo ayudar a los artistas a enfocarse en la creación de su arte ya que se les brindará una renta básica durante un año. Con esto los artistas seleccionados podrán aprender sobre web3 y apoyarse de sus comunidades para llegar a más personas con sus creaciones.<br/><br/>
+
+¿De dónde viene el dinero? <br/><br/>
+
+E﻿stos fondos provendrán inicialmente de un porcentaje de los ingresos obtenidos con el minteo y las ventas secundarias de las colecciones de Humankind.
+
 P﻿uedes encontrar toda la información en el siguiente enlace: *https://www.humankind.art/*<br/><br/>
 
 C﻿onoce más sobre NFTs en el siguiente artículo. **[¿Qué son los NFT?](https://www.oasisfinanciero.mx/blog/2022-06-18/qu%C3%A9-son-los-nft-y-su-valor-en-el-arte-y-videojuegos/)**
