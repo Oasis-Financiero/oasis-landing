@@ -10,7 +10,7 @@ tags:
   - ahorro
   - Fintual
 ---
-***F﻿intual*** es una plataforma de inversión que te permite invertir de una manera fácildesde una aplicación o sitio web.<br/><br/>
+***F﻿intual*** es una plataforma de inversión que te permite invertir de una manera fácil desde una aplicación o sitio web.<br/><br/>
 
 S﻿e trata de una empresa de origen chileno que tiene operaciones en México desde el 2019. Fintual es una fintech, regulada en México por la Comisión Nacional Bancaria  y de Valores (CNBV).<br/><br/>
 
