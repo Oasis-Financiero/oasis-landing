@@ -36,6 +36,6 @@ T﻿us objetivos pueden ser ahorros para el retiro, comprar una casa, las próxi
 
 ### **¿En qué invierte Fintual?**<br/><br/>
 
-E﻿l modelo es invertir en muchos instrumentos finnancieros a la vez. D﻿e esta forma tus ahorros pueden crecer a largo plazo ya que se invierten en diversas empresas como IBM, Apple, Visa, Microsoft, o fondos ETF (Exchange Traded Funds) que permite la inversión a largo plazo. También se invertirá en deuda del gobierno (Cetes, BPAS y BONDES) y de empresas nacionales.<br/><br/>
+E﻿l modelo es invertir en muchos instrumentos financieros a la vez. D﻿e esta forma tus ahorros pueden crecer a largo plazo ya que se invierten en diversas empresas como IBM, Apple, Visa, Microsoft, o fondos ETF (Exchange Traded Funds) que permite la inversión a largo plazo. También se invertirá en deuda del gobierno (Cetes, BPAS y BONDES) y de empresas nacionales.<br/><br/>
 
 ### C﻿omienza a crear tu patrimonio en Fintual desde este enlace: **[Comienza a invertir aquí](https://fintual.mx/r/genaroc6)**
