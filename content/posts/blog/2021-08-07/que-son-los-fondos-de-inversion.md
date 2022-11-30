@@ -1,15 +1,14 @@
 ---
 title: ¿Qué son los Fondos de inversión?
+slug: Que-son-los-Fondos-de-inversión
 author: coronagenaro@gmail.com
 date: 2021-08-07
 image: funds.jpg
-imageAlt: Fondos de inversión
+imageAlt: ¿Qué son los Fondos de inversión?
 tags:
   - inversion
-  - acciones
+  - accionesahorro
 ---
- 
-
 Es un producto de inversión que reúne a un grupo de personas (inversionistas) con la finalidad de invertir sus ahorros en conjunto para generar ganancias. <br/><br/>
 
 El fondo toma los recursos y los invierte en diversos instrumentos financieros como son acciones, inmuebles, bonos de deuda, divisas, etc. Esto varía en cada fondo de inversión. <br/><br/>
@@ -22,11 +21,11 @@ Los inversionistas colocan su dinero en un fondo y este administra el dinero rea
 
 Cada fondo tiene un plazo que pueden ser a corto, mediano o largo plazo y al final de cada uno, se entregan los beneficios que se generan. <br/><br/>
 
-*Corto plazo:* Es de uno a tres meses y su exposición al riesgo es mínima además de que  puedes obtener acceso al capital diariamente. <br/><br/>
+***Corto plazo**:* Es de uno a tres meses y su exposición al riesgo es mínima además de que  puedes obtener acceso al capital diariamente. <br/><br/>
 
-*Mediano plazo:* Tiene un horizonte de 1 a 3 años. Puedes encontrar activos de renta fija y del mercado de dinero. <br/><br/>
+***Mediano plazo**:* Tiene un horizonte de 1 a 3 años. Puedes encontrar activos de renta fija y del mercado de dinero. <br/><br/>
 
-*Largo plazo:* Su horizonte es más de 3 años y su rendimiento dependerá de los activos que lo conformen por lo que el riesgo puede ser mayor para los inversionistas. <br/><br/>
+***Largo plazo**:* Su horizonte es más de 3 años y su rendimiento dependerá de los activos que lo conformen por lo que el riesgo puede ser mayor para los inversionistas. <br/><br/>
 
 Los fondos de inversión ayudan a diversificar tus inversiones y son un instrumento que puedes usar para tener acceso al mercado de valores con un mínimo de inversión. <br/><br/>
 
