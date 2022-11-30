@@ -28,7 +28,11 @@ E﻿stos son: **Muy Conservador, Conservador, Moderado y Arriesgado.**<br/><br/>
 
 U﻿na vez que se ha creado tu portafolio, deposita directamente desde la app o el sitio web para que tus fondos se inviertan y crezcan en el tiempo estipulado en tu portafolio.<br/><br/>
 
-T﻿us objetivos pueden ser ahorros para el retiro, comprar una casa, las próximas vacaciones, etc.<br/><br/>
+T﻿us objetivos pueden ser ahorros para el retiro, comprar una casa, las próximas vacaciones, etc. A﻿demás puedes calcular el ahorro necesario para cumplir con tus objetivos a largo plazo.<br/><br/>
+
+![](calculadorafintual.jpg "¿Qué es Fintual y cómo te ayuda a invertir de manera fácil?")
+
+<br/><br/>
 
 ### **¿En qué invierte Fintual?**<br/><br/>
 
