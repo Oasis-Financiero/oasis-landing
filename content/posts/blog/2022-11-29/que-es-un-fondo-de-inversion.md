@@ -9,10 +9,6 @@ tags:
   - Inversión
   - ahorro
 ---
-
-
-
-
 Es un producto de inversión que reúne a un grupo de personas (inversionistas) con la finalidad de invertir sus ahorros en conjunto para generar ganancias. <br/><br/>
 
 El fondo toma los recursos y los invierte en diversos instrumentos financieros como son acciones, inmuebles, bonos de deuda, divisas, etc. Esto varía en cada fondo de inversión. <br/><br/>
@@ -43,9 +39,7 @@ Son instrumentos con bajo riesgo y su rentabilidad es reducida en comparación c
 
 Generan una mayor rentabilidad que las inversiones de renta fija, pero presentan un mayor riesgo. <br/><br/>
 
-#### C﻿omienza a crear tu patrimonio en Fintual desde este enlace: **[Comienza a invertir aquí](https://fintual.mx/r/genaroc6)**<br/><br/>
-
-
+### **C﻿omienza a crear tu patrimonio en Fintual desde este enlace: [Comienza a invertir aquí](https://fintual.mx/r/genaroc6)<br/><br/>**
 
 ![](fintualportafablog.png)
 
