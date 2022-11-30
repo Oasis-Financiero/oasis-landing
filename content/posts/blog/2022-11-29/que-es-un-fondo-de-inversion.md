@@ -39,4 +39,4 @@ Son instrumentos con bajo riesgo y su rentabilidad es reducida en comparación c
 
 Generan una mayor rentabilidad que las inversiones de renta fija, pero presentan un mayor riesgo. <br/><br/>
 
-#### I﻿ngresa en el siguiente artículo para saber la importancia de invertir:*** [¿Porqué es importante invertir?](https://www.oasisfinanciero.mx/blog/2022-11-18/por-que-es-importante-invertir/)***
+#### C﻿omienza a crear tu patrimonio en Fintual desde este enlace: **[Comienza a invertir aquí](https://fintual.mx/r/genaroc6)**
