@@ -16,7 +16,7 @@ S﻿e trata de una empresa de origen chileno que tiene operaciones en México de
 
 M﻿ediante su app o versión web podrás invertir en activos a largo plazo en donde podrás poner tus metas con diferentes esquemas de inversión.<br/><br/>
 
-### **¿﻿Cómo creas un objetivo de inversión?**
+### **¿﻿Cómo creas un objetivo de inversión?**<br/><br/>
 
 A﻿l crear tu cuenta la plataforma de Fintual empezará con el proceso de construir tu portafolio personalizado dependiendo de tu perfil de riesgo.<br/><br/>
 
@@ -30,8 +30,8 @@ U﻿na vez que se ha creado tu portafolio, deposita directamente desde la app o 
 
 T﻿us objetivos pueden ser ahorros para el retiro, comprar una casa, las próximas vacaciones, etc.<br/><br/>
 
-### **¿En qué invierte Fintual?**
+### **¿En qué invierte Fintual?**<br/><br/>
 
 E﻿l modelo es invertir en muchos instrumentos finnancieros a la vez. D﻿e esta forma tus ahorros pueden crecer a largo plazo ya que se invierten en diversas empresas como IBM, Apple, Visa, Microsoft, o fondos ETF (Exchange Traded Funds) que permite la inversión a largo plazo. También se invertirá en deuda del gobierno (Cetes, BPAS y BONDES) y de empresas nacionales.<br/><br/>
 
-#### C﻿omienza a crear tu patrimonio en Fintual desde este enlace: **[Comienza a invertir aquí](https://fintual.mx/r/genaroc6)**
+### C﻿omienza a crear tu patrimonio en Fintual desde este enlace: **[Comienza a invertir aquí](https://fintual.mx/r/genaroc6)**
