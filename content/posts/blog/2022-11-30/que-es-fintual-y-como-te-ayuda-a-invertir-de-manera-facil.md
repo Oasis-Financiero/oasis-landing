@@ -10,7 +10,7 @@ tags:
   - ahorro
   - Fintual
 ---
-***F﻿intual*** es una plataforma de inversión que te permite invertir de una manera fácildesde una aplicación o sitio web.<br/><br/>
+***F﻿intual*** es una plataforma de inversión que te permite invertir de una manera fácil desde una aplicación o sitio web.<br/><br/>
 
 S﻿e trata de una empresa de origen chileno que tiene operaciones en México desde el 2019. Fintual es una fintech, regulada en México por la Comisión Nacional Bancaria  y de Valores (CNBV).<br/><br/>
 
@@ -36,6 +36,6 @@ T﻿us objetivos pueden ser ahorros para el retiro, comprar una casa, las próxi
 
 ### **¿En qué invierte Fintual?**<br/><br/>
 
-E﻿l modelo es invertir en muchos instrumentos finnancieros a la vez. D﻿e esta forma tus ahorros pueden crecer a largo plazo ya que se invierten en diversas empresas como IBM, Apple, Visa, Microsoft, o fondos ETF (Exchange Traded Funds) que permite la inversión a largo plazo. También se invertirá en deuda del gobierno (Cetes, BPAS y BONDES) y de empresas nacionales.<br/><br/>
+E﻿l modelo es invertir en muchos instrumentos financieros a la vez. D﻿e esta forma tus ahorros pueden crecer a largo plazo ya que se invierten en diversas empresas como IBM, Apple, Visa, Microsoft, o fondos ETF (Exchange Traded Funds) que permite la inversión a largo plazo. También se invertirá en deuda del gobierno (Cetes, BPAS y BONDES) y de empresas nacionales.<br/><br/>
 
 ### C﻿omienza a crear tu patrimonio en Fintual desde este enlace: **[Comienza a invertir aquí](https://fintual.mx/r/genaroc6)**
