@@ -19,3 +19,9 @@ S﻿in embargo se imponen nuevas reglas de supervisión y cumplimiento para las 
 * Las empresas que operan con Bitcoin deberán tener una sede física en Brasil.
 * E﻿l uso de Bitcoin como medio de pago e intercambio será regulado por el Banco Central de Brail.
 * E﻿l uso de Bitcoin como activo de inversión será supervisado por la Comisión de Valores Mobiliarios (CVM).<br/><br/>
+
+*E﻿sta ley no convierte a Bitcoin ni a ninguna criptomoneda en monedas de curso legal en Brasil.<br/><br/>*
+
+C﻿on esto la nueva ley busca regular
+
+El proyecto de ley busca regular el establecimiento y la operación de proveedores de servicios de Bitcoin en Brasil, definiendo tales entidades como aquellas que brindan comercio, transferencia, custodia, administración o venta de criptomonedas en nombre de un tercero.
