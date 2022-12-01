@@ -6,6 +6,7 @@ date: 2022-11-30
 image: bitcoin-brasil.png
 imageAlt: Bitcoin se vuelve método de pago legal en Brasil.
 tags:
+  - Noticias
   - Bitcoin
   - Brasil
   - criptomonedas
