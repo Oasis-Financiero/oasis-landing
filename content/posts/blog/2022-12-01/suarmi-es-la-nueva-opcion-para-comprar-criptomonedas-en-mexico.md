@@ -3,7 +3,7 @@ title: Suarmi es la nueva opción para comprar criptomonedas en México.
 slug: Suarmi-es-la-nueva-opcion-para-comprar-criptomonedas-en-Mexico
 author: coronagenaro@gmail.com
 date: 2022-12-01
-image: suarmi_horizontal.png
+image: suarmi-2-.png
 imageAlt: Suarmi es la nueva opción para comprar criptomonedas en México.
 tags:
   - Criptomonedas
