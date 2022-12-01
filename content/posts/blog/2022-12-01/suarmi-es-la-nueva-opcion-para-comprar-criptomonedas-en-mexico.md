@@ -17,8 +17,6 @@ E﻿sto provoca comisiones extras por cada transacción ya que se le paga la com
 
 Con esta experiencia es como Roberto y Cuauhtémoc co fundadores de Suarmi se propusieron cambiar la forma en que compramos criptomonedas en México y nos platican al respecto.<br/><br/>
 
-
-
 **¿Cómo surge el proyecto Suarmi?<br/><br/>**
 
 Por necesidades propias. Durante nuestro camino de aprendizaje en web3 nos encontramos con buenos proyectos en favor de la innovación. Sin embargo, cuando llegó el momento de conectar con ese mundo mediante moneda fiat de una manera práctica, nos encontramos con que las principales opciones disponibles parecían más bancos que otra cosa y eso no era precísamente lo que necesitabamos, nos cansamos de tener que hacer varios movimientos entre distintas wallets y exchanges para poder lograr lo que realmente queríamos hacer en protocolos web3. Fue entonces que creamos el puente más sencillo que se nos ocurrió entre pesos y cripto, le llamamos suarmi.<br/><br/>
@@ -33,6 +31,12 @@ Más que obstaculizarnos, comprender las sutiliezas de lo que implica para nosot
 
 **¿Cuáles son los objetivos que quieren cumplir con Suarmi? <br/><br/>**
 
-Creemos que el cielo es el límite. La revolución de blockchain apenas comienza y nuestra meta es convertirnos en la principal rampa entre fiat y web3 en America Latina. Lo más importante para nosotros es que el ecosistema vaya creciendo. Siempre decimos que si suarmi tiene éxito va a ser porque el ecosistema entero está cambiando como hacemos e interactuamos en internet.
+Creemos que el cielo es el límite. La revolución de blockchain apenas comienza y nuestra meta es convertirnos en la principal rampa entre fiat y web3 en America Latina. Lo más importante para nosotros es que el ecosistema vaya creciendo. Siempre decimos que si suarmi tiene éxito va a ser porque el ecosistema entero está cambiando como hacemos e interactuamos en internet.**<br/><br/>**
 
-<!--EndFragment-->
+**A﻿ctualmente desde Suarmi puedes enviar y recibir en carteras de BSC, Tezos, MATIC/Polygon, Fantom, Avalanche, Algorand y Bitcoin Lightning Network.<br/><br/>**
+
+![](suarmiswap1.jpg)
+
+<br/><br/>
+
+P﻿or si fuera poco, desde Suarmi es posible comprar y enviarte stablecoins como B﻿USD, USDT,DAI, USDC, jMXN, jEUR y XOC. <br/><br/>
