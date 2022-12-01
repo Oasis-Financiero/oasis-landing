@@ -45,6 +45,4 @@ P﻿or si fuera poco, desde Suarmi es posible comprar y enviarte stablecoins com
 
 S﻿uarmi es un proyecto que sigue en desarrollo y poco a poco va agregando redes blockchain para facilitar la compra, venta y envíos de criptomonedas.<br/><br/>
 
-P﻿uedes seguirlos en sus redes sociales:
-
-[F﻿acebook](https://www.facebook.com/SuarmiExchange), [Twitter](https://twitter.com/0xsuarmi)
+P﻿uedes seguirlos en sus redes sociales: [F﻿acebook](https://www.facebook.com/SuarmiExchange), [I﻿nstagram](https://www.instagram.com/suarmi_exchange/)y﻿ [Twitter](https://twitter.com/0xsuarmi)<br/><br/>
