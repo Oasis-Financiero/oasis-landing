@@ -23,3 +23,7 @@ S﻿in embargo se imponen nuevas reglas de supervisión y cumplimiento para las 
 *E﻿sta ley no convierte a Bitcoin ni a ninguna criptomoneda en monedas de curso legal en Brasil.<br/><br/>*
 
 C﻿on esto la nueva ley busca regular a los proveedores de servicios de Bitcoin y estas se defifinirán como aquellas que brindan el comercio, transferencia, custodia, administración o venta de criptomonedas en nombre de un tercero.<br/><br/>
+
+E﻿sta ley se está desarrollando en medio de una elección presidencial polémica. Jair Bolonaro el actual presidente es quién tiene la última palabra ya que solo falta su aprovación.<br/><br/>
+
+Ante este escenario aún se tienen dudas si realmente se aprovará la ley por parte del actual presidente.<br/><br/>
