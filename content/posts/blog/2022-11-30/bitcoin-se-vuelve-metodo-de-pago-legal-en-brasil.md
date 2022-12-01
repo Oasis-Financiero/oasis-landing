@@ -22,6 +22,4 @@ S﻿in embargo se imponen nuevas reglas de supervisión y cumplimiento para las 
 
 *E﻿sta ley no convierte a Bitcoin ni a ninguna criptomoneda en monedas de curso legal en Brasil.<br/><br/>*
 
-C﻿on esto la nueva ley busca regular
-
-El proyecto de ley busca regular el establecimiento y la operación de proveedores de servicios de Bitcoin en Brasil, definiendo tales entidades como aquellas que brindan comercio, transferencia, custodia, administración o venta de criptomonedas en nombre de un tercero.
+C﻿on esto la nueva ley busca regular a los proveedores de servicios de Bitcoin y estas se defifinirán como aquellas que brindan el comercio, transferencia, custodia, administración o venta de criptomonedas en nombre de un tercero.<br/><br/>
