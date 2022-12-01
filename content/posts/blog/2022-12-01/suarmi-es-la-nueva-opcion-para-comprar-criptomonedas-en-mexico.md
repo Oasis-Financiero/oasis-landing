@@ -40,3 +40,11 @@ Creemos que el cielo es el límite. La revolución de blockchain apenas comienza
 <br/><br/>
 
 P﻿or si fuera poco, desde Suarmi es posible comprar y enviarte stablecoins como B﻿USD, USDT,DAI, USDC, jMXN, jEUR y XOC. <br/><br/>
+
+### **[C﻿onoce más en nuestro artículo: ¿Qué son las stablecoins?](https://www.oasisfinanciero.mx/blog/2022-10-15/que-son-las-stablecoins/)**<br/><br/>
+
+S﻿uarmi es un proyecto que sigue en desarrollo y poco a poco va agregando redes blockchain para facilitar la compra, venta y envíos de criptomonedas.<br/><br/>
+
+P﻿uedes seguirlos en sus redes sociales:
+
+[F﻿acebook](https://www.facebook.com/SuarmiExchange), [Twitter](https://twitter.com/0xsuarmi)
