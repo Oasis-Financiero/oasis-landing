@@ -15,9 +15,9 @@ S﻿in embargo aún hay procesos que dificultan la compra de criptomonedas de ma
 
 E﻿sto provoca comisiones extras por cada transacción ya que se le paga la comisión al exchange por compra/venta y se paga comisión por los retiros hacia las carteras. Estos últimos son variables y dependen de la cadena blockchain que se ocupa.<br/><br/>
 
-E﻿sto se vuelve más costo si la plataforma de intercambio no soporta la red blockchain de tu cartera final, por lo que tendrías que enviar primero los fondos desde tu banco a la plataforma 1, comprar/vender
+Con esta experiencia es como Roberto y Cuauhtémoc co fundadores de Suarmi se propusieron cambiar la forma en que compramos criptomonedas en México y nos platican al respecto.<br/><br/>
 
-tienes que enviar tus criptomonedas de una plataforma a otra para finalmente poder enviar tus fondos a tu cartera final.
+
 
 **¿Cómo surge el proyecto Suarmi?<br/><br/>**
 
