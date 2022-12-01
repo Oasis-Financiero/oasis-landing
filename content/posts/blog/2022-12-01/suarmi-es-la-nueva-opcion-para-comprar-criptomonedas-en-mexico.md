@@ -9,7 +9,7 @@ tags:
   - Criptomonedas
   - Suarmi
 ---
-<!--StartFragment-->
+C﻿omprar criptomonedas 
 
 ¿Cómo surge el proyecto Suarmi? 
 
