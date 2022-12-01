@@ -35,6 +35,8 @@ Creemos que el cielo es el límite. La revolución de blockchain apenas comienza
 
 **A﻿ctualmente desde Suarmi puedes enviar y recibir en carteras de BSC, Tezos, MATIC/Polygon, Fantom, Avalanche, Algorand y Bitcoin Lightning Network.<br/><br/>**
 
+### **[C﻿rea tu cuenta de Suarmi aquí](https://www.suarmi.com/index)**<br/><br/>
+
 ![](suarmiswap1.jpg)
 
 <br/><br/>
@@ -44,6 +46,8 @@ P﻿or si fuera poco, desde Suarmi es posible comprar y enviarte stablecoins com
 ### **[C﻿onoce más en nuestro artículo: ¿Qué son las stablecoins?](https://www.oasisfinanciero.mx/blog/2022-10-15/que-son-las-stablecoins/)**<br/><br/>
 
 S﻿uarmi es un proyecto que sigue en desarrollo y poco a poco va agregando redes blockchain para facilitar la compra, venta y envíos de criptomonedas.<br/><br/>
+
+### **[C﻿rea tu cuenta de Suarmi aquí](https://www.suarmi.com/index)**<br/><br/>
 
 P﻿uedes seguirlos en sus redes sociales: [F﻿acebook](https://www.facebook.com/SuarmiExchange), [I﻿nstagram](https://www.instagram.com/suarmi_exchange/)y﻿ [Twitter](https://twitter.com/0xsuarmi)<br/><br/>
 
