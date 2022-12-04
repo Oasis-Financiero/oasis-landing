@@ -28,7 +28,7 @@ L﻿os expertos tienen varias recomendaciones para proteger tus finanzas ante la
 
 E﻿stos son algunos ejemplos:<br/><br/>
 
-**Cafés:** Tal vez no lo creas pero comprarte cafés de Starbucks o Cielito lindo pueden ser uno de los mayores gastos hormiga si tomamos en cuenta el costo promedio rondando los $85 pesos y una compra habitual de 4 cafés a la semana. <br/><br/>
+**Cafés.** Tal vez no lo creas pero comprarte cafés de Starbucks o Cielito lindo pueden ser uno de los mayores gastos hormiga si tomamos en cuenta el costo promedio rondando los $85 pesos y una compra habitual de 4 cafés a la semana. <br/><br/>
 
 85x4(días)=340 a la semana
 
@@ -36,11 +36,19 @@ E﻿stos son algunos ejemplos:<br/><br/>
 
 1360x12(meses)=16,320 al año<br/><br/>
 
+**Membresías.** Es recomendable cancelar membresías que te ofrecen el mismo servicio. Por ejemplo tener Netflix, Disney plus, HBO, Amazon video. Todas te ofrecen el mismo servicio.<br/><br/>
+
+M﻿embresías de entrega como Rappi, Didi food, Uber Eats te ofrecen el mismo servicio, si pagas más de una membresía es recomendable solo usar una o simplemente salir por la comida al super mercado o pedir directamente a la tienda ya que estos servicios pueden ser gratuitos.<br/><br/>
+
+**P﻿agar deudas.** Una de las principales causas de estrés financiero es no pagar las deudas cuando se tiene la oportunidad. A fin de año es cuando se suelen recibir bonos en los trabajos y es aquí donde se podría pagar una deuda total o parcialmente. <br/><br/>
+
+**Busca otras fuentes de ingresos**. Esta es una opción que puedes explorar si tienes habilidades que puedes enseñar en clases, talleres o cursos ya sean en persona o pre grabados y ponerlos a la venta en diferentes plataformas. Además podrías buscar empleos freelance donde podrás cobrar por proyecto o tiempo parcial.<br/><br/>
 
 
-**Membresías:** Es recomendable cancelar membresías que te ofrecen el mismo servicio. Por ejemplo tener Netflix, Disney plus, HBO, Amazon video. Todas te ofrecen el mismo servicio.
 
-Con pequeños recortes de gastos es posible generar ahorros. Al tener en detalle el presupuesto familiar, viene el momento de decidir cuáles “pequeños y recurrentes gastos” tienen un impacto significativo en el presupuesto y son prescindibles para el núcleo familiar. Ejemplo: esa “bebida refrescante” extra que acompaña a nuestra comida principal, su valor intrínseco no es elevado pero a final de mes sí representa un monto de ahorro en la medida que prescindimos de ella.
+Hacer un uso responsable e inteligente de la Tarjeta de Crédito. Si bien la Tarjeta de Crédito es un instrumento financiero de gran ayuda, se aconseja –especialmente en períodos de inflación- utilizarla para artículos importantes, no para “gustos superfluos”.
+
+
 
 ### **C﻿omienza a crear tu patrimonio en Fintual desde este enlace: [Comienza a invertir aquí](https://fintual.mx/r/genaroc6)**<br/><br/>
 
