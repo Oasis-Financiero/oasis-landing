@@ -36,7 +36,7 @@ E﻿stos son algunos ejemplos:<br/><br/>
 
 1360x12(meses)=16,320 al año<br/><br/>
 
-**Membresías.** Es recomendable cancelar membresías que te ofrecen el mismo servicio. Por ejemplo tener Netflix, Disney plus, HBO, Amazon video. Todas te ofrecen el mismo servicio.<br/><br/>
+**Membresías.** Es recomendable cancelar membresías que te ofrecen el mismo servicio. Por ejemplo tener Netflix, Disney plus, HBO o Amazon video, todas te ofrecen el mismo servicio.<br/><br/>
 
 M﻿embresías de entrega como Rappi, Didi food, Uber Eats te ofrecen el mismo servicio, si pagas más de una membresía es recomendable solo usar una o simplemente salir por la comida al super mercado o pedir directamente a la tienda ya que estos servicios pueden ser gratuitos.<br/><br/>
 
@@ -44,11 +44,7 @@ M﻿embresías de entrega como Rappi, Didi food, Uber Eats te ofrecen el mismo s
 
 **Busca otras fuentes de ingresos**. Esta es una opción que puedes explorar si tienes habilidades que puedes enseñar en clases, talleres o cursos ya sean en persona o pre grabados y ponerlos a la venta en diferentes plataformas. Además podrías buscar empleos freelance donde podrás cobrar por proyecto o tiempo parcial.<br/><br/>
 
-
-
-Hacer un uso responsable e inteligente de la Tarjeta de Crédito. Si bien la Tarjeta de Crédito es un instrumento financiero de gran ayuda, se aconseja –especialmente en períodos de inflación- utilizarla para artículos importantes, no para “gustos superfluos”.
-
-
+**I﻿nvertir.** Ahorrar no es suficiente ya que tu dinero perderá su valor adquisitivo con la inflación por lo que se recomienda hacer crecer tu dinero en instrumentos de inversión. Existen plataformas en donde puedes invertir de manera fácil y totalmente en línea. Una de estas es **Fintual** en donde podrás invertir en diversas empresas al mismo tiempo y desde $1 peso.<br/><br/>
 
 ### **C﻿omienza a crear tu patrimonio en Fintual desde este enlace: [Comienza a invertir aquí](https://fintual.mx/r/genaroc6)**<br/><br/>
 
