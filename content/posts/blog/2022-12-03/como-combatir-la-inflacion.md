@@ -24,7 +24,21 @@ L﻿os expertos tienen varias recomendaciones para proteger tus finanzas ante la
 
 **E﻿labora un presupuesto**. Ten en cuenta tus ingresos contra la suma de tus gastos totales ya que esto te dará mayor control de tus finanzas. Es importante priorizar cuáles son los gastos esenciales y cuáles  gastos puedes dejar a un lado.<br/><br/>
 
-**R﻿ecorta gastos hormiga.** Aprovecha lo visto en el punto anterior e identifica los gastos hormiga. Son esos gastos que son pequeños pero recurrentes. Como ejemplo, podrías encontrar los siguientes: Cafés (Starbuks), pago de membresías (Netflix, Spotify, 
+**R﻿ecorta gastos hormiga.** Aprovecha lo visto en el punto anterior e identifica los gastos hormiga. Son esos gastos que son pequeños pero recurrentes. <br/><br/>
+
+E﻿stos son algunos ejemplos:<br/><br/>
+
+**Cafés:** Tal vez no lo creas pero comprarte cafés de Starbucks o Cielito lindo pueden ser uno de los mayores gastos hormiga si tomamos en cuenta el costo promedio rondando los $85 pesos y una compra habitual de 4 cafés a la semana. <br/><br/>
+
+85x4(días)=340 a la semana
+
+340x4(semanas)=1,360 al mes
+
+1360x12(meses)=16,320 al año<br/><br/>
+
+
+
+**Membresías:** Es recomendable cancelar membresías que te ofrecen el mismo servicio. Por ejemplo tener Netflix, Disney plus, HBO, Amazon video. Todas te ofrecen el mismo servicio.
 
 Con pequeños recortes de gastos es posible generar ahorros. Al tener en detalle el presupuesto familiar, viene el momento de decidir cuáles “pequeños y recurrentes gastos” tienen un impacto significativo en el presupuesto y son prescindibles para el núcleo familiar. Ejemplo: esa “bebida refrescante” extra que acompaña a nuestra comida principal, su valor intrínseco no es elevado pero a final de mes sí representa un monto de ahorro en la medida que prescindimos de ella.
 
