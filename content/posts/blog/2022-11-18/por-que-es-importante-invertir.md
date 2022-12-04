@@ -43,4 +43,6 @@ Puedes establecer ciertos objetivos para alcanzar tus metas de inversión. E﻿s
 
 ### C﻿omienza a crear tu patrimonio en Fintual desde este enlace: **[Comienza a invertir aquí](https://fintual.mx/r/genaroc6)**<br/><br/>
 
+U﻿na vez que se ha creado tu portafolio, deposita directamente desde la app o el sitio web para que tus fondos se inviertan y crezcan en el tiempo estipulado en tu portafolio. **P﻿uedes empezar a invertir desde $1 peso.**<br/><br/>
+
 ![](fintualportafablog.png)
