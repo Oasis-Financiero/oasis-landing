@@ -41,6 +41,6 @@ Puedes establecer ciertos objetivos para alcanzar tus metas de inversión. E﻿s
 
 ***Es recomendable asesorarte con un especialista en inversiones para a clarar todas las dudas en cuanto a requisitos, riesgos y temas fiscales en cada instrumento de inversión.***<br/><br/>
 
-### C﻿omienza a crear tu patrimonio en Fintual desde este enlace: [Comienza a invertir aquí](https://fintual.mx/r/genaroc6)<br/><br/>
+### C﻿omienza a crear tu patrimonio en Fintual desde este enlace: **[Comienza a invertir aquí](https://fintual.mx/r/genaroc6)**<br/><br/>
 
 ![](fintualportafablog.png)
