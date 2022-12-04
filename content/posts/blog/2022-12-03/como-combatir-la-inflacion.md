@@ -20,13 +20,13 @@ L﻿os precios de los bienes y servicios están sujetos a cambios, algunos aumen
 
 **¿Cómo combatir la inflación?**<br/><br/>
 
+L﻿os expertos tienen varias recomendaciones para proteger tus finanzas ante la inflación. Aquí te presento algunas:<br/><br/>
 
+**E﻿labora un presupuesto**. Ten en cuenta tus ingresos contra la suma de tus gastos totales ya que esto te dará mayor control de tus finanzas. Es importante priorizar cuáles son los gastos esenciales y cuáles  gastos puedes dejar a un lado.<br/><br/>
 
+**R﻿ecorta gastos hormiga.** Aprovecha lo visto en el punto anterior e identifica los gastos hormiga. Son esos gastos que son pequeños pero recurrentes. Como ejemplo, podrías encontrar los siguientes: Cafés (Starbuks), pago de membresías (Netflix, Spotify, 
 
-
-
-
-
+Con pequeños recortes de gastos es posible generar ahorros. Al tener en detalle el presupuesto familiar, viene el momento de decidir cuáles “pequeños y recurrentes gastos” tienen un impacto significativo en el presupuesto y son prescindibles para el núcleo familiar. Ejemplo: esa “bebida refrescante” extra que acompaña a nuestra comida principal, su valor intrínseco no es elevado pero a final de mes sí representa un monto de ahorro en la medida que prescindimos de ella.
 
 ### **C﻿omienza a crear tu patrimonio en Fintual desde este enlace: [Comienza a invertir aquí](https://fintual.mx/r/genaroc6)**<br/><br/>
 
