@@ -41,6 +41,16 @@ Puedes establecer ciertos objetivos para alcanzar tus metas de inversión. E﻿s
 
 ***Es recomendable asesorarte con un especialista en inversiones para a clarar todas las dudas en cuanto a requisitos, riesgos y temas fiscales en cada instrumento de inversión.***<br/><br/>
 
-### C﻿omienza a crear tu patrimonio en Fintual desde este enlace: [Comienza a invertir aquí](https://fintual.mx/r/genaroc6)<br/><br/>
+### **C﻿omienza a crear tu patrimonio en Fintual desde este enlace: [Comienza a invertir aquí](https://fintual.mx/r/genaroc6)**<br/><br/>
+
+U﻿na vez que se ha creado tu portafolio, deposita directamente desde la app o el sitio web para que tus fondos se inviertan y crezcan en el tiempo estipulado en tu portafolio. **P﻿uedes empezar a invertir desde $1 peso.**<br/><br/>
 
 ![](fintualportafablog.png)
+
+<br/><br/>
+
+C﻿onoce más sobre Fintual y como empezar hacer crecer tus ahorros con nuestro artículo: <br/><br/>
+
+## **[¿Qué es Fintual y cómo te ayuda a invertir de manera fácil?](https://www.oasisfinanciero.mx/blog/2022-11-30/que-es-fintual-y-como-te-ayuda-a-invertir-de-manera-facil/)**
+
+<!--EndFragment-->
