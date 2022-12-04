@@ -35,6 +35,16 @@ Algunas ***Fintech*** te permiten incrementar tus ahorros al ofrecer un interés
 
 **Siempre disponible:** Dado que las emergencias pueden presentarse de imprevisto, por lo que debes tener accesos de inmediato. <br/><br/>
 
-Próximamente en **[Oasis Financiero](https://www.oasisfinanciero.mx)** podrás comparar todas las opciones Fintech y de Banca tradicional en una sola plataforma. <br/><br/>
+## **C﻿omienza a crear tu patrimonio en Fintual desde este enlace: [Comienza a invertir aquí](https://fintual.mx/r/genaroc6)** <br/><br/>
 
-Síguenos en nuestras páginas de **[Facebook](https://facebook.com/oasisfinanciero)**, **[LinkedIn](https://www.linkedin.com/company/oasisfinanciero/)** y **[Twitter](https://twitter.com/oasisfintech)**.
+U﻿na vez que se ha creado tu portafolio, deposita directamente desde la app o el sitio web para que tus fondos se inviertan y crezcan en el tiempo estipulado en tu portafolio. **P﻿uedes empezar a invertir desde $1 peso.**<br/><br/>
+
+![](fintual.png)
+
+<br/><br/>
+
+C﻿onoce más sobre Fintual y como empezar hacer crecer tus ahorros con nuestro artículo: <br/><br/>
+
+## **[¿Qué es Fintual y cómo te ayuda a invertir de manera fácil?](https://www.oasisfinanciero.mx/blog/2022-11-30/que-es-fintual-y-como-te-ayuda-a-invertir-de-manera-facil/)**
+
+<!--EndFragment-->
