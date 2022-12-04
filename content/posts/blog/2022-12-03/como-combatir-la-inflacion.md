@@ -14,6 +14,12 @@ A﻿ dos años del inicio de la pandemia, la inflación es una de las principale
 
 T﻿an solo en este 2022, la inflación Argentina ha sido por 88%, mientras que en México ha alcanzado el 8.41%. Otras dos grandes economías en el continente americano están situaciones similares con Estados Unidos con 7.7% y Brasil con 6.47%.<br/><br/>
 
+**¿﻿Qué es la inflación?**<br/><br/>
+
+L﻿os precios de los bienes y servicios están sujetos a cambios, algunos aumentan y otros disminuyen. La inflación se produce cuando aumentan los precios en general, que da como resultado que con cada peso o dólar puedan adquirirse menos bienes o servicios cada día. Esro quiere decir que la inflación reduce el valor de la moneda de cada país.<br/><br/>
+
+
+
 
 
 
