@@ -10,6 +10,8 @@ tags:
   - ahorro
   - ""
 ---
+
+
 C﻿uando inviertes tienes la posibilidad de hacer crecer tu dinero además de construir un patrimonio para el futuro.<br/><br/>
 
 P﻿ara poder invertir se recomienda tener un hábito de ahorro ya que de este es donde se pueden tomar los fondos para la inversión.<br/><br/>
@@ -46,3 +48,9 @@ Puedes establecer ciertos objetivos para alcanzar tus metas de inversión. E﻿s
 U﻿na vez que se ha creado tu portafolio, deposita directamente desde la app o el sitio web para que tus fondos se inviertan y crezcan en el tiempo estipulado en tu portafolio. **P﻿uedes empezar a invertir desde $1 peso.**<br/><br/>
 
 ![](fintualportafablog.png)
+
+C﻿onoce más sobre Fintual y como empezar hacer crecer tus ahorros con nuestro artículo: <br/><br/>
+
+## **[¿Qué es Fintual y cómo te ayuda a invertir de manera fácil?](https://www.oasisfinanciero.mx/blog/2022-11-30/que-es-fintual-y-como-te-ayuda-a-invertir-de-manera-facil/)**
+
+<!--EndFragment-->
