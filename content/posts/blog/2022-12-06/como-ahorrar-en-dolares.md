@@ -9,7 +9,7 @@ tags:
   - Ahorro
   - dólares
 ---
-E﻿n varios países de latinoamérica el poder ahorrar en dólares es una de las formas en las que combaten la inflación. Venezuela, Argentina y Colombia son algunos ejemplos de países en donde los dólares ayudan a mantener una economía más estable.<br/><br/>
+E﻿n varios países de latinoamérica el poder ahorrar en **dólares** es una de las formas en las que combaten la inflación. **Venezuela, Argentina y Colombia** son algunos ejemplos de países en donde los dólares ayudan a mantener una economía más estable.<br/><br/>
 
 Hay muchas formas de ahorrar dólares, pero no todas son iguales. En este artículo te explicamos cuáles son las mejores formas de ahorrar dólares y cómo puedes hacerlo con éxito.<br/><br/>
 
@@ -23,7 +23,7 @@ Algo que debes tener en cuenta es que la cuenta en dólares genere algún inter�
 
 E﻿sta es una de las opciones que hace años no eran posibles pero gracias a la tecnología blockchain esto es una realidad.<br/><br/>
 
-L﻿as stablecoins (monedas estables) tienen como propósito estar pegadas al precio de una moneda FIAT (monedas fiduciarias) como el dolar. Algunos ejemplos son BUSD, USDC, USDT y DAI. <br/><br/>
+L﻿as stablecoins (monedas estables) tienen como propósito estar pegadas al precio de una moneda FIAT (monedas fiduciarias) como el dolar. Algunos ejemplos son **BUSD, USDC, USDT y DAI**. <br/><br/>
 
 P﻿uedes comprar stalecoins en varias plataformas de intercambio como Bitso, Binance, Ripio, Lemon Cash, etc. Aquí te dejamos las plataformas disponibles en algunos países.<br/><br
 
@@ -59,6 +59,12 @@ Cuenta con 8 mercados para operar: Pesos mexicanos (MXN), pesos argentinos (ARS)
 
 Cuenta con más de 3.000.000 de usuarios, ofrece un total de 21 criptomonedas, incluyendo Ripio Coin (RPC), token nativo de la plataforma.<br/><br/>
 
-E﻿n esta plataforma es posible comprar Stablecoins como USDC, USDT (Tether) y DAI. Tienen operaciones en Argentina, Brasil, México, Uruguay y está abriendo su operación en Estados Unidos.<br/><br/>
+E﻿n esta plataforma es posible comprar Stablecoins como USDC, USDT (Tether) y DAI. Tienen operaciones en **Argentina, Brasil, México, Uruguay** y está abriendo su operación en **Estados Unidos**.<br/><br/>
 
 P﻿uedes depositar con transferencia bancaria directamente a tu cuenta de Ripio.<br/><br/>
+
+### **B﻿uenbit**
+
+### **S﻿UARMI**
+
+B﻿USD, USDC, USDT y DAI
