@@ -29,18 +29,18 @@ P﻿uedes comprar stalecoins en varias plataformas de intercambio como Bitso, Bi
 
 ### **B﻿inance**
 
-Binance es la plataforma de compra/venta de criptomonedas con mayor volumen de transacciones en el mundo. Tiene su propia criptomoneda llamada BNB y más de 300 criptomonedas para operar. <br/><br/>
-
-Ofrece 23 mercados para operar entre los que se encuentran BTC, USDT, BNB y mercados  fíat (dinero fiduciario). Se pueden comprar criptomonedas con tarjeta de crédito o débito y comercio P2P. <br/><br/>
+Binance es la plataforma de compra/venta de criptomonedas con mayor volumen de transacciones en el mundo. Tiene su propia stablecoin BUSD la cuál puedes comprar y vender desde su app y sitio web. Además se pueden comprar criptomonedas con tarjeta de crédito o débito y comercio P2P.<br/><br/>
 
 Cuenta con diversas herramientas para realizar trading en su plataforma. Puedes usar la versión intermedia o avanzada, apalancamientos y derivados. <br/><br/>
 
 Binance ofrece ganar intereses por hacer staking de tus criptomonedas, es decir mantenerlas bloqueadas en la cartera con la finalidad de recibir ganancias o recompensas. Esto en su opción de Binance Earn. <br/><br/>
 
-Otras opciones que ofrece es el solicitar un préstamos con tus criptos como colateral, es decir que a cambio de recibir el préstamo, deberás dejar tus criptomonedas como garantía. <br/><br/>
+Actualmente es la plataforma con el mayor volúmen de operaciones en el mundo con un volumen de transacciones diario de 76 millones de dólares a partir de agosto de 2022 y 90 millones de clientes en todo el mundo.<br/><br/>
 
-Adicional a todas estas herramientas, se ha incorporado un mercado exclusivo para adquirir NFT's. <br/><br/>
+El ecosistema de Binance se compone de Binance Exchange, Labs, Launchpad, Info, Academy, Research, Trust Wallet, Charity, NFT y más.<br/><br/>
 
-NFT (Non Fungible Token) son las siglas en inglés de token no fungible. Son activos únicos que se pueden utilizar como prueba de autenticidad y propiedad. <br/><br/>
+A﻿ctualmente tiene operaciones en **México, Argentina, Brasil, Ecuador, Perú, Colombia y Bolivia**.<br/><br/>
 
-***[Haz clic aquí para crear tu cuenta en Binance.](https://www.binance.com/es-MX/register?ref=10616307)*** <br/><br/>
+### **[C﻿rea tu cuenta en Binance y gana 100 USDT al depositar 50 USD](https://www.binance.com/en/activity/referral-entry/CPA?fromActivityPage=true&ref=CPA_00ENPN26FP)**<br/><br/>
+
+### **B﻿itso**
