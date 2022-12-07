@@ -19,13 +19,15 @@ E﻿n México y varios países de latinoamérica es posible abrir una cuenta en 
 
 Algo que debes tener en cuenta es que la cuenta en dólares genere algún interés y que sus comisiones de manejo de cuenta sean bajas.<br/><br/>
 
-### **A﻿horro en Stablecoins (monedas estables).** <br/><br/>
+## **A﻿horro en Stablecoins (monedas estables).** <br/><br/>
 
 E﻿sta es una de las opciones que hace años no eran posibles pero gracias a la tecnología blockchain esto es una realidad.<br/><br/>
 
 L﻿as stablecoins (monedas estables) tienen como propósito estar pegadas al precio de una moneda FIAT (monedas fiduciarias) como el dolar. Algunos ejemplos son BUSD, USDC, USDT y DAI. <br/><br/>
 
 P﻿uedes comprar stalecoins en varias plataformas de intercambio como Bitso, Binance, Ripio, Lemon Cash, etc. Aquí te dejamos las plataformas disponibles en algunos países.<br/><br
+
+E﻿n este artículo te explicamos todo. 
 
 ### **B﻿inance**
 
@@ -45,10 +47,20 @@ A﻿ctualmente tiene operaciones en **México, Argentina, Brasil, Ecuador, Perú
 
 ### **B﻿itso**
 
-Es una empresa mexicana que cuenta con una licencia de criptomonedas internacional y su filial Nvio fue la primera empresa en lograr la autorización para operar como Institución de Fondos de Pago Electrónico bajo el marco de la ley para Regular las Instituciones de Tecnología Financiera, o Ley Fintech. Esto fue otorgado por la Comisión Nacional Bancaria y de Valores. <br/><br/>
+Es una empresa mexicana con más de 5 millones de usuarios y que cuenta con una licencia de criptomonedas internacional y su filial Nvio fue la primera empresa en lograr la autorización para operar como Institución de Fondos de Pago Electrónico bajo el marco de la ley para Regular las Instituciones de Tecnología Financiera, o Ley Fintech. Esto fue otorgado por la Comisión Nacional Bancaria y de Valores. <br/><br/>
 
 Cuenta con 8 mercados para operar: Pesos mexicanos (MXN), pesos argentinos (ARS), reales brasileños (BRL) pesos colombianos (COP), USD stablecoins (USD), Tether (USDT), Bitcoin y DAI. <br/><br/>
 
 **P﻿uedes comprar USD stablecoins con pesos mexicanos, pesos colombianos, pesos argentinos y reales brasileños.**<br/><br/>
 
 ***[Haz clic aquí para crear tu cuenta en Bitso.](https://bitso.com/register?ref=lzgl)*** <br/><br/>
+
+### **R﻿ipio**
+
+Cuenta con más de 3.000.000 de usuarios, ofrece un total de 21 criptomonedas, incluyendo Ripio Coin (RPC), token nativo de la plataforma.<br/><br/>
+
+E﻿n esta plataforma es posible comprar Stablecoins como USDC, USDT (Tether) y DAI. Tienen operaciones en Argentina, Brasil, México, Uruguay y está abriendo su operación en Estados Unidos.<br/><br/>
+
+P﻿uedes depositar con transferencia bancaria directamente a tu cuenta de Ripio.<br/><br/>
+
+### **L﻿emon Cash**
