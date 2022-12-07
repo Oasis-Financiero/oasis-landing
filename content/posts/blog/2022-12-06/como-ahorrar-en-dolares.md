@@ -55,7 +55,7 @@ Cuenta con 8 mercados para operar: Pesos mexicanos (MXN), pesos argentinos (ARS)
 
 ***[Haz clic aquí para crear tu cuenta en Bitso.](https://bitso.com/register?ref=lzgl)*** <br/><br/>
 
-### **R﻿ipio**<br/><br/>
+## **R﻿ipio**<br/><br/>
 
 Cuenta con más de 3.000.000 de usuarios, ofrece un total de 21 criptomonedas, incluyendo Ripio Coin (RPC), token nativo de la plataforma.<br/><br/>
 
