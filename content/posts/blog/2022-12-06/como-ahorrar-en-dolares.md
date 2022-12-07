@@ -65,6 +65,24 @@ P﻿uedes depositar con transferencia bancaria directamente a tu cuenta de Ripio
 
 ### **B﻿uenbit**
 
+E﻿sta plataforma opera en Argentina, Perú y México y puedes comprar USDC, USDT, BUSD y DAI. Solo en Perú y Argentina se puede depositar directamente desde una cuenta bancaria y de igual manera el retiro hacia la cuenta.<br/><br/>
+
+L﻿anzó su tarjeta Mastercard en Octubre del 2022 en Argentina y permite pagos directos con criptomonedas, rendimientos anuales y finanziación mediente préstamos.<br/><br/>
+
+O﻿pera en México pero no se tiene habilitada la opción de depósitos y retiros hacia cuentas bancarias aunque sí puedes depositar otras criptomonedas para comprar stablecoins.<br/><br/>
+
 ### **S﻿UARMI**
 
-B﻿USD, USDC, USDT y DAI
+E﻿s la nueva plataforma de intercambio en México ya que permite comprar stablecoins como BUSD, USDC, USDT y DAI. Esto se hace diretamente con una transferencia SPEI y Suarmi te manda directamente a la dirección de tu cartera.<br/><br/>
+
+**A﻿ctualmente desde Suarmi puedes enviar y recibir en carteras de BSC, Tezos, MATIC/Polygon, Fantom, Avalanche, Algorand y Bitcoin Lightning Network.**<br/><br/>
+
+### **[C﻿rea tu cuenta de Suarmi aquí](https://www.suarmi.com/index)**<br/><br/>
+
+![suarmiswap1](https://www.oasisfinanciero.mx/static/6897a9fe384700f659e9e7ac28a6a18c/fce5f/suarmiswap1.jpg "suarmiswap1")
+
+### <br/><br/>
+
+### C﻿onoce más en este artículo: **[Suarmi es la nueva opción para comprar criptomonedas en México.](https://www.oasisfinanciero.mx/blog/2022-12-01/suarmi-es-la-nueva-opcion-para-comprar-criptomonedas-en-mexico/)**
+
+[](https://www.oasisfinanciero.mx/blog/2022-12-01/suarmi-es-la-nueva-opcion-para-comprar-criptomonedas-en-mexico/)<!--EndFragment-->
