@@ -86,3 +86,9 @@ A﻿ctualmente desde Suarmi puedes enviar y recibir en carteras de BSC, Tezos, M
 ### C﻿onoce más en este artículo: **[Suarmi es la nueva opción para comprar criptomonedas en México.](https://www.oasisfinanciero.mx/blog/2022-12-01/suarmi-es-la-nueva-opcion-para-comprar-criptomonedas-en-mexico/)**
 
 [](https://www.oasisfinanciero.mx/blog/2022-12-01/suarmi-es-la-nueva-opcion-para-comprar-criptomonedas-en-mexico/)<!--EndFragment-->
+
+T﻿e recomendamos leer: <!--StartFragment-->
+
+## **[¿Cómo combatir la inflación?](https://www.oasisfinanciero.mx/blog/2022-12-03/como-combatir-la-inflacion/)**
+
+[](https://www.oasisfinanciero.mx/blog/2022-12-03/como-combatir-la-inflacion/)
