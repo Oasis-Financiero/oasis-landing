@@ -25,11 +25,11 @@ E﻿sta es una de las opciones que hace años no eran posibles pero gracias a la
 
 L﻿as stablecoins (monedas estables) tienen como propósito estar pegadas al precio de una moneda FIAT (monedas fiduciarias) como el dolar. Algunos ejemplos son **BUSD, USDC, USDT y DAI**. <br/><br/>
 
-P﻿uedes comprar stalecoins en varias plataformas de intercambio como Bitso, Binance, Ripio, Lemon Cash, etc. Aquí te dejamos las plataformas disponibles en algunos países.<br/><br
+P﻿uedes comprar stalecoins en varias plataformas de intercambio como Bitso, Binance, Ripio, Lemon Cash, etc. Aquí te dejamos las plataformas disponibles en algunos países.<br/><br/>
 
 ### **E﻿n este artículo te explicamos todo. [¿Qué son las stablecoins?](https://www.oasisfinanciero.mx/blog/2022-10-15/que-son-las-stablecoins/)**<br/><br/>
 
-### **B﻿inance**<br/><br/>
+## **B﻿inance**<br/><br/>
 
 Binance es la plataforma de compra/venta de criptomonedas con mayor volumen de transacciones en el mundo. Tiene su propia stablecoin BUSD la cuál puedes comprar y vender desde su app y sitio web. Además se pueden comprar criptomonedas con tarjeta de crédito o débito y comercio P2P.<br/><br/>
 
@@ -45,7 +45,7 @@ A﻿ctualmente tiene operaciones en **México, Argentina, Brasil, Ecuador, Perú
 
 ### **[C﻿rea tu cuenta en Binance y gana 100 USDT al depositar 50 USD](https://www.binance.com/en/activity/referral-entry/CPA?fromActivityPage=true&ref=CPA_00ENPN26FP)**<br/><br/>
 
-### **B﻿itso**<br/><br/>
+## **B﻿itso**<br/><br/>
 
 Es una empresa mexicana con más de 5 millones de usuarios y que cuenta con una licencia de criptomonedas internacional y su filial Nvio fue la primera empresa en lograr la autorización para operar como Institución de Fondos de Pago Electrónico bajo el marco de la ley para Regular las Instituciones de Tecnología Financiera, o Ley Fintech. Esto fue otorgado por la Comisión Nacional Bancaria y de Valores. <br/><br/>
 
@@ -63,7 +63,7 @@ E﻿n esta plataforma es posible comprar Stablecoins como USDC, USDT (Tether) y 
 
 P﻿uedes depositar con transferencia bancaria directamente a tu cuenta de Ripio.<br/><br/>
 
-### **B﻿uenbit**
+## **B﻿uenbit**<br/><br/>
 
 E﻿sta plataforma opera en Argentina, Perú y México y puedes comprar USDC, USDT, BUSD y DAI. Solo en Perú y Argentina se puede depositar directamente desde una cuenta bancaria y de igual manera el retiro hacia la cuenta.<br/><br/>
 
@@ -71,7 +71,7 @@ L﻿anzó su tarjeta Mastercard en Octubre del 2022 en Argentina y permite pagos
 
 O﻿pera en México pero no se tiene habilitada la opción de depósitos y retiros hacia cuentas bancarias aunque sí puedes depositar otras criptomonedas para comprar stablecoins.<br/><br/>
 
-### **S﻿UARMI**
+## **S﻿UARMI**<br/><br/>
 
 E﻿s la nueva plataforma de intercambio en México ya que permite comprar stablecoins como BUSD, USDC, USDT y DAI. Esto se hace diretamente con una transferencia SPEI y Suarmi te manda directamente a la dirección de tu cartera.<br/><br/>
 
