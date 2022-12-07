@@ -13,14 +13,8 @@ Hay muchas formas de ahorrar dólares, pero no todas son iguales. En este artíc
 
 ### **Cuenta bancaría en dólares.**<br/><br/>
 
-E﻿n México es posible abrir una cuenta en dólares en la mayoría de los bancos. Los requisitos varían con cada banco por lo que es recomendable 
+E﻿n México y varios países de latinoamérica es posible abrir una cuenta en dólares en la mayoría de los bancos. Los requisitos varían con cada banco por lo que es recomendable revisar los requisitos, comisiones, beneficios y como funciona en cada institución.<br/><br/>
 
-Aunque el peso es la moneda nacional, se puede ahorrar en dólares en México directamente en bancos que ofrezcan **cuentas especiales en dólares**, las cuales se expresan en esta divisa.
+Algo que debes tener en cuenta es que la cuenta en dólares genere algún interés y que sus comisiones de manejo de cuenta sean bajas.<br/><br/>
 
-Las condiciones de cada cuenta **varían según el banco**, por lo que se recomienda consultar directamente en cada entidad los requisitos, comisiones, beneficios y funcionamiento.
-
-Generalmente, los retiros, depósitos y conversiones de divisas se tasan según el cambio oficial del día.
-
-Es recomendable ahorrar en dólares con cuentas bancarias que generen algún interés y tengan bajas comisiones de manejo, por lo que las cuentas de ahorro son mejores frente a las corrientes.
-
-<!--EndFragment-->
+### **A﻿horro en Stablecoins (monedas estables).** <br/><br/>
