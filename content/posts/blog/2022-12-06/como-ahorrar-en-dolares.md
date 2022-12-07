@@ -75,7 +75,7 @@ O﻿pera en México pero no se tiene habilitada la opción de depósitos y retir
 
 E﻿s la nueva plataforma de intercambio en México ya que permite comprar stablecoins como BUSD, USDC, USDT y DAI. Esto se hace diretamente con una transferencia SPEI y Suarmi te manda directamente a la dirección de tu cartera.<br/><br/>
 
-**A﻿ctualmente desde Suarmi puedes enviar y recibir en carteras de BSC, Tezos, MATIC/Polygon, Fantom, Avalanche, Algorand y Bitcoin Lightning Network.**<br/><br/>
+A﻿ctualmente desde Suarmi puedes enviar y recibir en carteras de BSC, Tezos, MATIC/Polygon, Fantom, Avalanche, Algorand y Bitcoin Lightning Network.<br/><br/>
 
 ### **[C﻿rea tu cuenta de Suarmi aquí](https://www.suarmi.com/index)**<br/><br/>
 
