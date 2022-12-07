@@ -27,9 +27,9 @@ L﻿as stablecoins (monedas estables) tienen como propósito estar pegadas al pr
 
 P﻿uedes comprar stalecoins en varias plataformas de intercambio como Bitso, Binance, Ripio, Lemon Cash, etc. Aquí te dejamos las plataformas disponibles en algunos países.<br/><br
 
-E﻿n este artículo te explicamos todo. 
+### **E﻿n este artículo te explicamos todo. [¿Qué son las stablecoins?](https://www.oasisfinanciero.mx/blog/2022-10-15/que-son-las-stablecoins/)**<br/><br/>
 
-### **B﻿inance**
+### **B﻿inance**<br/><br/>
 
 Binance es la plataforma de compra/venta de criptomonedas con mayor volumen de transacciones en el mundo. Tiene su propia stablecoin BUSD la cuál puedes comprar y vender desde su app y sitio web. Además se pueden comprar criptomonedas con tarjeta de crédito o débito y comercio P2P.<br/><br/>
 
@@ -45,7 +45,7 @@ A﻿ctualmente tiene operaciones en **México, Argentina, Brasil, Ecuador, Perú
 
 ### **[C﻿rea tu cuenta en Binance y gana 100 USDT al depositar 50 USD](https://www.binance.com/en/activity/referral-entry/CPA?fromActivityPage=true&ref=CPA_00ENPN26FP)**<br/><br/>
 
-### **B﻿itso**
+### **B﻿itso**<br/><br/>
 
 Es una empresa mexicana con más de 5 millones de usuarios y que cuenta con una licencia de criptomonedas internacional y su filial Nvio fue la primera empresa en lograr la autorización para operar como Institución de Fondos de Pago Electrónico bajo el marco de la ley para Regular las Instituciones de Tecnología Financiera, o Ley Fintech. Esto fue otorgado por la Comisión Nacional Bancaria y de Valores. <br/><br/>
 
@@ -55,12 +55,10 @@ Cuenta con 8 mercados para operar: Pesos mexicanos (MXN), pesos argentinos (ARS)
 
 ***[Haz clic aquí para crear tu cuenta en Bitso.](https://bitso.com/register?ref=lzgl)*** <br/><br/>
 
-### **R﻿ipio**
+### **R﻿ipio**<br/><br/>
 
 Cuenta con más de 3.000.000 de usuarios, ofrece un total de 21 criptomonedas, incluyendo Ripio Coin (RPC), token nativo de la plataforma.<br/><br/>
 
 E﻿n esta plataforma es posible comprar Stablecoins como USDC, USDT (Tether) y DAI. Tienen operaciones en Argentina, Brasil, México, Uruguay y está abriendo su operación en Estados Unidos.<br/><br/>
 
 P﻿uedes depositar con transferencia bancaria directamente a tu cuenta de Ripio.<br/><br/>
-
-### **L﻿emon Cash**
