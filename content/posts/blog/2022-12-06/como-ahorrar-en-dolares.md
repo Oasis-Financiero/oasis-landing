@@ -44,3 +44,11 @@ A﻿ctualmente tiene operaciones en **México, Argentina, Brasil, Ecuador, Perú
 ### **[C﻿rea tu cuenta en Binance y gana 100 USDT al depositar 50 USD](https://www.binance.com/en/activity/referral-entry/CPA?fromActivityPage=true&ref=CPA_00ENPN26FP)**<br/><br/>
 
 ### **B﻿itso**
+
+Es una empresa mexicana que cuenta con una licencia de criptomonedas internacional y su filial Nvio fue la primera empresa en lograr la autorización para operar como Institución de Fondos de Pago Electrónico bajo el marco de la ley para Regular las Instituciones de Tecnología Financiera, o Ley Fintech. Esto fue otorgado por la Comisión Nacional Bancaria y de Valores. <br/><br/>
+
+Cuenta con 8 mercados para operar: Pesos mexicanos (MXN), pesos argentinos (ARS), reales brasileños (BRL) pesos colombianos (COP), USD stablecoins (USD), Tether (USDT), Bitcoin y DAI. <br/><br/>
+
+**P﻿uedes comprar USD stablecoins con pesos mexicanos, pesos colombianos, pesos argentinos y reales brasileños.**<br/><br/>
+
+***[Haz clic aquí para crear tu cuenta en Bitso.](https://bitso.com/register?ref=lzgl)*** <br/><br/>
