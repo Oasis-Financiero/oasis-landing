@@ -15,7 +15,7 @@ Los préstamos personales son una solución de financiación sencilla y flexible
 
 El cliente debe presentar una solicitud de préstamo indicando el importe que desea solicitar, el plazo en el que desea devolverlo, el destino del dinero y sus datos personales. El prestamista evaluará la solicitud del cliente y, si decide aceptarla, le acordará un determinado préstamo con unas condiciones establecidas.<br/><br/><!--StartFragment-->
 
-**¿Cuales son los requisitos para pedir un prestamo?** <br/><br/>
+### **¿Cuales son los requisitos para pedir un prestamo?** <br/><br/>
 
 Los requisitos para pedir un préstamo varían según el tipo de préstamo y el prestamista. En general, los requisitos comunes para solicitar un préstamo incluyen: <br/><br/>
 
@@ -27,13 +27,13 @@ Los requisitos para pedir un préstamo varían según el tipo de préstamo y el 
 
 • Proporcionar documentación financiera, como estados de cuenta bancarios y declaraciones de impuestos.
 
- • Proporcionar información personal, como identificación con foto y comprobante de domicilio.
+ • Proporcionar información personal, como identificación con foto y comprobante de domicilio.<br/><br/>
 
-<!--EndFragment-->
+### **¿Qué pasa si me atraso en los pagos de un préstamo? <br/><br/>**
 
-<!--StartFragment-->
+Si te atrasas en los pagos de un préstamo, podrías incurrir en cargos por pagos atrasados, así como en intereses y cargos adicionales. Esto podría afectar tu crédito a largo plazo, ya que tus acreedores verán que no has cumplido con tus obligaciones de pago. Si te atrasas en los pagos sin remediarlo, podrías llegar a tener problemas para obtener préstamos en el futuro.<br/><br/>
 
-**¿Cuales son las mejores plataformas para pedir prestamos en México?** <br/><br/>
+### **¿Cuales son las mejores plataformas para pedir prestamos en México?** <br/><br/>
 
 Las mejores plataformas para pedir préstamos en México son: <br/><br/>
 
