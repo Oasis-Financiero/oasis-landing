@@ -29,3 +29,11 @@ Es importante tener en cuenta que algunos asesores de inversión están regulado
 Es recomendable tomar asesoría de inversión cuando no se tiene suficiente conocimiento o experiencia en el tema de inversión. Un asesor de inversión puede ayudar a determinar qué tipos de inversiones son adecuados para su situación financiera y objetivos de inversión, y también puede proporcionar asesoramiento sobre cómo diversificar adecuadamente su cartera de inversiones. <br/><br/>
 
 Sin embargo, es importante tener en cuenta que un asesor de inversión no puede garantizar ganancias y que toda inversión conlleva riesgos. Por lo tanto, es importante investigar y comparar diferentes opciones de asesoría antes de tomar una decisión.<br/><br/>
+
+<!--StartFragment-->
+
+T﻿e recomendamos el artículo:<br/><br/>
+
+## **[¿Cómo combatir la inflación?](https://www.oasisfinanciero.mx/blog/2022-12-03/como-combatir-la-inflacion/)**
+
+<!--EndFragment-->
