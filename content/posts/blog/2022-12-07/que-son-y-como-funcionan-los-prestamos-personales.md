@@ -38,11 +38,14 @@ Si te atrasas en los pagos de un préstamo, podrías incurrir en cargos por pago
 Las mejores plataformas para pedir préstamos en México son: <br/><br/>
 
 1. Kueski: Esta plataforma ofrece préstamos rápidos de hasta $5,000 pesos con un plazo de devolución de hasta 30 días. 
-
 2. Credy: Esta plataforma ofrece préstamos personales de hasta $20,000 pesos con un plazo de devolución de hasta 36 meses. 
-
 3. Konfío: Esta plataforma ofrece préstamos personales y comerciales de hasta $500,000 pesos con un plazo de devolución de hasta 60 meses. 
+4. Lendico: Esta plataforma ofrece préstamos personales y comerciales desde $2,000 pesos con un plazo de devolución de hasta 48 meses.<br/><br/>
 
-4. Lendico: Esta plataforma ofrece préstamos personales y comerciales desde $2,000 pesos con un plazo de devolución de hasta 48 meses.
 
-<!--EndFragment-->
+
+### **¿Es conveniente pedir un préstamo?**<br/><br/>
+
+Si necesitas un préstamo, entonces puede ser conveniente solicitar uno siempre y cuando puedas cumplir con las condiciones y términos del mismo y esté seguro de que puedes hacer frente a las cuotas del préstamo. Sin embargo, es importante tener en cuenta que los préstamos deben ser utilizados con prudencia y solo en caso de necesidad, ya que pueden acarrear cargas financieras significativas si no se gestionan adecuadamente. <br/><br/>
+
+Antes de solicitar un préstamo, es recomendable que consideres cuidadosamente tus opciones y busques el consejo de un experto financiero si tienes alguna duda.<br/><br/>
