@@ -32,7 +32,7 @@ Hay varias billeteras que puedes usar para enviar stablecoins, como Metamask, Co
 
 Todas estas billeteras te permiten almacenar y enviar stablecoins, como USDC, DAI y TUSD. Sin embargo, es importante recordar que cada billetera puede ser diferente y es importante investigar y comparar las distintas opciones antes de elegir una billetera. También es importante asegurarse de que la billetera que elijas sea segura y confiable.<br/><br/>
 
-### ¿Cuál es el costo por enviar stablecoins como remesas?<br/><br/>
+### **¿Cuál es el costo por enviar stablecoins como remesas?<br/><br/>**
 
 El costo de enviar stablecoins como remesas dependerá de varios factores, incluyendo la cantidad que está enviando, el destino de la remesa, y la criptomoneda que está utilizando. En general, el costo de enviar stablecoins como remesas suele ser bastante bajo en comparación con el envío de dinero tradicional a través de servicios financieros tradicionales, como bancos o remesadoras.<br/><br/>
 
