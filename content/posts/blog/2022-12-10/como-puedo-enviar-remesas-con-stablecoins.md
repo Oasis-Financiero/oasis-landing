@@ -23,11 +23,11 @@ Las stablecoins son un tipo de criptomoneda que están diseñadas para mantener 
 
 
 
-### **¿Que billeteras puedo usar para enviar stablecoins?**
+### **¿Que billeteras puedo usar para enviar stablecoins?**<br/><br/>
 
 
 
-Hay varias billeteras que puedes usar para enviar stablecoins, como Metamask, Coinbase Wallet, Buenbit, Bitso o **Binance**.br/><br/>
+Hay varias billeteras que puedes usar para enviar stablecoins, como Metamask, Coinbase Wallet, Buenbit, Bitso o **Binance**.<br/><br/>
 
 ### **[C﻿rea tu cuenta en Binance y gana 100 USDT al depositar 50 USD](https://www.binance.com/en/activity/referral-entry/CPA?fromActivityPage=true&ref=CPA_00ENPN26FP)**<br/><br/>
 
