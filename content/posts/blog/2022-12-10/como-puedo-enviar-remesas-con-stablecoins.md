@@ -56,4 +56,6 @@ T﻿e recomendamos:
 
 ## **[¿Cómo ahorrar en dólares?](https://www.oasisfinanciero.mx/blog/2022-12-06/como-ahorrar-en-dolares/)**[](https://www.oasisfinanciero.mx/blog/2022-12-06/como-ahorrar-en-dolares/)
 
+![dolares](remesas.png "¿Cómo ahorrar en dólares?")
+
 <!--EndFragment-->
