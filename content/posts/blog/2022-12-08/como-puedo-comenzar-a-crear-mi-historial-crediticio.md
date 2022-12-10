@@ -18,3 +18,17 @@ Además, algunos bancos ofrecen productos como cuentas de ahorro y cuentas corri
 ### **¿Porqué es importante crear un historial crediticio?**<br/><br/>
 
 Crear un historial crediticio es importante porque muestra a las empresas financieras tu capacidad para manejar tus finanzas y hacer pagos puntuales. Esto puede afectar tu capacidad para obtener préstamos, tarjetas de crédito y otros productos financieros en el futuro. Además, tener un buen historial crediticio puede ayudarte a obtener mejores tasas de interés y condiciones en las financiaciones que solicitas.<br/><br/>
+
+### **¿Qué beneficios hay al tener un buen historial crediticio?**<br/><br/>
+
+Tener un buen historial crediticio puede tener varios beneficios. En primer lugar, puede ayudarte a obtener préstamos o líneas de crédito a mejores tasas de interés, ya que las instituciones financieras considerarán que eres un prestatario confiable. Además, puede ser más fácil obtener una tarjeta de crédito o una hipoteca. <br/><br/>
+
+Un buen historial crediticio también puede ayudarte a obtener un seguro de auto o de salud a un precio más bajo, ya que las compañías de seguros también consideran el historial crediticio al determinar la prima que te cobrarán. <br/><br/>
+
+Por último, tener un buen historial crediticio puede ser beneficioso en situaciones en las que se requiera una verificación de crédito, como al alquilar un apartamento o solicitar un trabajo.<br/><br/>
+
+### **¿Qué pasa si tengo un mal historial crediticio?<br/><br/>**
+
+Si tienes un mal historial crediticio, es probable que te resulte más difícil obtener préstamos o tarjetas de crédito. Las empresas de préstamos y tarjetas de crédito utilizan tu historial crediticio para determinar si eres un buen candidato para un préstamo o una tarjeta de crédito. <br/><br/>
+
+Si tu historial crediticio es malo, es posible que te den menos dinero en un préstamo, o que te den una tasa de interés más alta. También es posible que no te den una tarjeta de crédito en absoluto.<br/><br/>
