@@ -39,4 +39,15 @@ Todas estas billeteras te permiten almacenar y enviar stablecoins, como USDC, DA
 
 El costo de enviar stablecoins como remesas dependerá de varios factores, incluyendo la cantidad que está enviando, el destino de la remesa, y la criptomoneda que está utilizando. En general, el costo de enviar stablecoins como remesas suele ser bastante bajo en comparación con el envío de dinero tradicional a través de servicios financieros tradicionales, como bancos o remesadoras.<br/><br/>
 
-E﻿sto es gracias a la tecnología blockchain ya que permite la transferencia casi inmediata dependiente de la red en la que la stablecoin esté operando. Por ejemplo enviar USDC en la red Ethereum
+E﻿sto es gracias a la tecnología blockchain ya que permite la transferencia casi inmediata dependiente de la red en la que la stablecoin esté operando. <br/><br/>
+
+### **¿Qué es blockchain y como ayuda en el envío de las remesas?**
+
+\
+Blockchain es una tecnología de registro distribuido que se utiliza para registrar y verificar transacciones. En el caso del envío de remesas, la tecnología blockchain puede ayudar a hacer que el proceso sea más rápido, seguro y rentable.<br/><br/>
+
+Al utilizar una red blockchain, las transacciones de remesas pueden ser verificadas de manera más eficiente, lo que permite que el dinero llegue a su destino de manera más rápida. Además, debido a la naturaleza segura y encriptada de la tecnología blockchain, las transacciones de remesas son más seguras y menos propensas a ser alteradas o fraudes.<br/><br/>
+
+Finalmente, al utilizar blockchain para el envío de remesas, las comisiones y otros costos asociados con el procesamiento de transacciones pueden ser reducidos, lo que resulta en una mayor rentabilidad para las personas que envían y reciben remesas.<br/><br/>
+
+En resumen, la tecnología blockchain puede ayudar en el envío de remesas al hacer el proceso más rápido, seguro y rentable.
