@@ -34,6 +34,8 @@ Sin embargo, es importante tener en cuenta que un asesor de inversión no puede 
 
 T﻿e recomendamos el artículo:<br/><br/>
 
-## **[¿Cómo combatir la inflación?](https://www.oasisfinanciero.mx/blog/2022-12-03/como-combatir-la-inflacion/)**
+## **[¿Cómo combatir la inflación?](https://www.oasisfinanciero.mx/blog/2022-12-03/como-combatir-la-inflacion/)**<br/><br/>
+
+![Calculadora, dolares](inflación.png "¿Cómo combatir la inflación?")
 
 <!--EndFragment-->
