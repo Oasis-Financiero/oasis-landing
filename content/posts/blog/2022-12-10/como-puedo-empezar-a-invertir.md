@@ -29,3 +29,9 @@ Hay varias plataformas de inversión no bancarias disponibles en México, alguna
 * Fondos de inversión: Son vehículos de inversión que reúnen el dinero de muchos inversores y lo invierten en una cartera diversificada de activos.<br/><br/>
 
 Es importante mencionar que, antes de invertir en cualquiera de estas plataformas, es importante investigar cuidadosamente y entender los riesgos y beneficios potenciales de cada una. También es recomendable consultar con un asesor financiero calificado para obtener una asesoría personalizada.<br/><br/>
+
+T﻿e recomendamos:<br/><br/>
+
+## **[¿Porqué es importante contar con asesoría financiera?](https://www.oasisfinanciero.mx/blog/2022-12-08/porque-es-importante-contar-con-asesor%C3%ADa-financiera/)**
+
+![Asesor](asesores.png "¿Porqué es importante contar con asesoría financiera?")
