@@ -32,3 +32,7 @@ Por último, tener un buen historial crediticio puede ser beneficioso en situaci
 Si tienes un mal historial crediticio, es probable que te resulte más difícil obtener préstamos o tarjetas de crédito. Las empresas de préstamos y tarjetas de crédito utilizan tu historial crediticio para determinar si eres un buen candidato para un préstamo o una tarjeta de crédito. <br/><br/>
 
 Si tu historial crediticio es malo, es posible que te den menos dinero en un préstamo, o que te den una tasa de interés más alta. También es posible que no te den una tarjeta de crédito en absoluto.<br/><br/>
+
+T﻿e recomendamos nuestro artículo:<br/><br/>
+
+## **[¿Porqué es importante contar con asesoría financiera?](https://www.oasisfinanciero.mx/blog/2022-12-08/porque-es-importante-contar-con-asesor%C3%ADa-financiera/)**
