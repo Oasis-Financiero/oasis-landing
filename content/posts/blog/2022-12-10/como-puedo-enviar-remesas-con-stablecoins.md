@@ -50,4 +50,12 @@ Al utilizar una red blockchain, las transacciones de remesas pueden ser verifica
 
 Finalmente, al utilizar blockchain para el envío de remesas, las comisiones y otros costos asociados con el procesamiento de transacciones pueden ser reducidos, lo que resulta en una mayor rentabilidad para las personas que envían y reciben remesas.<br/><br/>
 
-En resumen, la tecnología blockchain puede ayudar en el envío de remesas al hacer el proceso más rápido, seguro y rentable.
+En resumen, la tecnología blockchain puede ayudar en el envío de remesas al hacer el proceso más rápido, seguro y rentable.<br/><br/>
+
+T﻿e recomendamos:
+
+<!--StartFragment-->
+
+## **[¿Cómo ahorrar en dólares?](https://www.oasisfinanciero.mx/blog/2022-12-06/como-ahorrar-en-dolares/)**[](https://www.oasisfinanciero.mx/blog/2022-12-06/como-ahorrar-en-dolares/)
+
+<!--EndFragment-->
