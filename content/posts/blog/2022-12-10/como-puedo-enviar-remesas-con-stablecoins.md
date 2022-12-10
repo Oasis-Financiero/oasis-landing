@@ -27,10 +27,10 @@ Las stablecoins son un tipo de criptomoneda que están diseñadas para mantener 
 
 
 
-Hay varias billeteras que puedes usar para enviar stablecoins, como Metamask, Coinbase Wallet, Binance o Bitso.
+Hay varias billeteras que puedes usar para enviar stablecoins, como Metamask, Coinbase Wallet, Buenbit, Bitso o **Binance**.
 
-Todas estas billeteras te permiten almacenar y enviar stablecoins, como USDC, DAI y TUSD. Sin embargo, es importante recordar que cada billetera puede ser diferente y es importante investigar y comparar las distintas opciones antes de elegir una billetera. También es importante asegurarse de que la billetera que elijas sea segura y confiable.
+<!--StartFragment-->
 
-<!--EndFragment-->
+### **[C﻿rea tu cuenta en Binance y gana 100 USDT al depositar 50 USD](https://www.binance.com/en/activity/referral-entry/CPA?fromActivityPage=true&ref=CPA_00ENPN26FP)**<br/><br/>
 
-<!--EndFragment-->
+Todas estas billeteras te permiten almacenar y enviar stablecoins, como USDC, DAI y TUSD. Sin embargo, es importante recordar que cada billetera puede ser diferente y es importante investigar y comparar las distintas opciones antes de elegir una billetera. También es importante asegurarse de que la billetera que elijas sea segura y confiable.<br/><br/>
