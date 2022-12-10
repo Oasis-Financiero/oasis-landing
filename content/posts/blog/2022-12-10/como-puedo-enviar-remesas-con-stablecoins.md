@@ -16,10 +16,9 @@ Para enviar la remesa, simplemente ingresa la dirección de la billetera del des
 
 ### **¿Qué son las stablecoins?**<br/><br/>
 
-\
 Las stablecoins son un tipo de criptomoneda que están diseñadas para mantener un valor estable en relación con un activo real, como el dólar estadounidense o el oro. Esto se logra mediante la creación de un sistema de respaldo en el que cada stablecoin está respaldada por una cantidad equivalente de la moneda o activo subyacente en una cuenta bancaria. De esta manera, se espera que las stablecoins mantengan un valor estable y sean una forma confiable de almacenar y transferir valor.<br/><br/>
 
-#### *A﻿quí te explciamos todo: **[¿Qué son las stablecoins?](https://www.oasisfinanciero.mx/blog/2022-10-15/que-son-las-stablecoins/)**<br/><br/>*
+#### *A﻿quí te explicamos todo: **[¿Qué son las stablecoins?](https://www.oasisfinanciero.mx/blog/2022-10-15/que-son-las-stablecoins/)**<br/><br/>*
 
 
 
