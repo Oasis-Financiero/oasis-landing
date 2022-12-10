@@ -15,6 +15,10 @@ Luego, puedes empezar por investigar las diferentes opciones de inversión dispo
 
 Una vez que hayas elegido una o más opciones de inversión, puedes abrir una cuenta de inversión con una firma de corretaje en línea o un banco y comenzar a invertir tu dinero. Es importante recordar que invertir implica riesgos, por lo que es importante hacerlo de manera responsable y mantenerse informado sobre el rendimiento de tus inversiones.<br/><br/>
 
+### **¿Qué debo tomar en cuenta antes de invertir?<br/><br/>**
+
+Antes de invertir, es importante que considere varios factores, incluyendo su situación financiera actual, sus objetivos de inversión a largo y corto plazo, su tolerancia al riesgo y cualquier cambio potencial en las condiciones del mercado. También es importante que investigues cuidadosamente las opciones de inversión disponibles y que busques asesoramiento de un profesional financiero calificado antes de tomar una decisión de inversión.<br/><br/>
+
 ### ¿Que plataformas de inversion no bancarias existen en México?<br/><br/>
 
 Hay varias plataformas de inversión no bancarias disponibles en México, algunas de ellas son:<br/><br/>
@@ -24,8 +28,4 @@ Hay varias plataformas de inversión no bancarias disponibles en México, alguna
 * Bolsa de valores: Es un mercado en el que se negocian valores como acciones de empresas, bonos y otros instrumentos financieros.
 * Fondos de inversión: Son vehículos de inversión que reúnen el dinero de muchos inversores y lo invierten en una cartera diversificada de activos.<br/><br/>
 
-Es importante mencionar que, antes de invertir en cualquiera de estas plataformas, es importante investigar cuidadosamente y entender los riesgos y beneficios potenciales de cada una. También es recomendable consultar con un asesor financiero calificado para obtener una asesoría personalizada
-
-<!--EndFragment-->
-
-<!--EndFragment-->
+Es importante mencionar que, antes de invertir en cualquiera de estas plataformas, es importante investigar cuidadosamente y entender los riesgos y beneficios potenciales de cada una. También es recomendable consultar con un asesor financiero calificado para obtener una asesoría personalizada.<br/><br/>
