@@ -30,6 +30,20 @@ Hay varias plataformas de inversión no bancarias disponibles en México, alguna
 
 Es importante mencionar que, antes de invertir en cualquiera de estas plataformas, es importante investigar cuidadosamente y entender los riesgos y beneficios potenciales de cada una. También es recomendable consultar con un asesor financiero calificado para obtener una asesoría personalizada.<br/><br/>
 
+¿Porqué es importante asesorarse con un contador al invertir?
+
+Es importante asesorarse con un contador al invertir por varias razones. 
+
+En primer lugar, un contador profesional está bien informado sobre las leyes fiscales y los cambios en la legislación fiscal, por lo que puede ayudarlo a tomar decisiones de inversión que maximicen sus beneficios y minimicen su impuesto sobre la renta. 
+
+En segundo lugar, un contador también puede ayudarlo a desarrollar un plan fiscal a largo plazo que se adapte a sus objetivos de inversión y a su situación financiera individual. Además, un contador también puede ayudarlo a llevar una contabilidad precisa de sus inversiones, lo que puede ser especialmente importante en caso de que tenga que presentar una declaración de impuestos o enfrentarse a una auditoría fiscal. 
+
+En resumen, asesorarse con un contador puede ayudarlo a tomar decisiones de inversión informadas y a gestionar de manera eficiente sus finanzas personales.
+
+<!--EndFragment-->
+
+<!--EndFragment-->
+
 T﻿e recomendamos:<br/><br/>
 
 ## **[¿Porqué es importante contar con asesoría financiera?](https://www.oasisfinanciero.mx/blog/2022-12-08/porque-es-importante-contar-con-asesor%C3%ADa-financiera/)**
