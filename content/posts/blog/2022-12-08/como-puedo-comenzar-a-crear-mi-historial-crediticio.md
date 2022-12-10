@@ -9,6 +9,12 @@ tags:
   - Credito
   - historial
 ---
-Para comenzar a crear tu historial crediticio, primero debes obtener una tarjeta de crédito. Esto te permitirá realizar compras con la tarjeta y luego pagar el saldo a tiempo. Esto ayudará a construir tu historial crediticio al demostrar que eres responsable con el manejo de tu dinero. También puedes solicitar un préstamo para ayudarte a construir tu historial crediticio. Al pagar el préstamo a tiempo, esto demostrará que eres capaz de manejar tus finanzas y te ayudará a construir un buen historial crediticio.
+### **¿Que instrumentos financieros sirven para crear mi historial crediticio?**<br/><br/>
 
-<!--EndFragment-->
+Existen varios instrumentos financieros que pueden ayudarte a crear un historial crediticio. Uno de ellos es una tarjeta de crédito, que te permite comprar bienes y servicios y pagar por ellos después. Otra opción es un préstamo personal, que te permite obtener una cantidad de dinero prestada y devolverla con intereses en un plazo acordado. <br/><br/>
+
+Además, algunos bancos ofrecen productos como cuentas de ahorro y cuentas corrientes que también pueden ayudarte a establecer un historial crediticio. En general, cualquier instrumento financiero que te permita demostrar que eres capaz de manejar tus finanzas de manera responsable y cumplir con tus compromisos financieros puede ayudarte a crear un historial crediticio.<br/><br/>
+
+### **¿Porqué es importante crear un historial crediticio?**<br/><br/>
+
+Crear un historial crediticio es importante porque muestra a las empresas financieras tu capacidad para manejar tus finanzas y hacer pagos puntuales. Esto puede afectar tu capacidad para obtener préstamos, tarjetas de crédito y otros productos financieros en el futuro. Además, tener un buen historial crediticio puede ayudarte a obtener mejores tasas de interés y condiciones en las financiaciones que solicitas.<br/><br/>
