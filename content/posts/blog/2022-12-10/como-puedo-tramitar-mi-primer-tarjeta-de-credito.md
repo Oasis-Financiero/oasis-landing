@@ -10,7 +10,7 @@ tags:
   - Tarjeta
   - Finanzas
 ---
-Para tramitar tu primer tarjeta de crédito, lo primero que debes hacer es buscar diferentes opciones de tarjetas de crédito y comparar sus términos y condiciones. Una vez que hayas elegido la tarjeta que mejor se adapte a tus necesidades, puedes solicitarla a través del sitio web de la entidad emisora de la tarjeta o acudir a una sucursal de la entidad bancaria en persona.<br/><br/>
+Para tramitar tu primer **tarjeta de crédito**, lo primero que debes hacer es buscar diferentes opciones de tarjetas de crédito y comparar sus términos y condiciones. Una vez que hayas elegido la tarjeta que mejor se adapte a tus necesidades, puedes solicitarla a través del sitio web de la entidad emisora de la tarjeta o acudir a una sucursal de la entidad bancaria en persona.<br/><br/>
 
 En la mayoría de los casos, para solicitar una tarjeta de crédito será necesario cumplir con ciertos requisitos, como tener una edad mínima (normalmente entre 18 y 21 años), tener una fuente de ingresos comprobable y no tener antecedentes de impago o morosidad en otras tarjetas o préstamos.<br/><br/>
 
