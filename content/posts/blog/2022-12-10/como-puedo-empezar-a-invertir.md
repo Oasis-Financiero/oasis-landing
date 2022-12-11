@@ -19,7 +19,7 @@ Una vez que hayas elegido una o más opciones de inversión, puedes abrir una cu
 
 Antes de invertir, es importante que considere varios factores, incluyendo su situación financiera actual, sus objetivos de inversión a largo y corto plazo, su tolerancia al riesgo y cualquier cambio potencial en las condiciones del mercado. También es importante que investigues cuidadosamente las opciones de inversión disponibles y que busques asesoramiento de un profesional financiero calificado antes de tomar una decisión de inversión.<br/><br/>
 
-### ¿Que plataformas de inversion no bancarias existen?<br/><br/>
+### **¿Que plataformas de inversion no bancarias existen?<br/><br/>**
 
 Hay varias plataformas de inversión no bancarias disponibles en México, algunas de ellas son:<br/><br/>
 
