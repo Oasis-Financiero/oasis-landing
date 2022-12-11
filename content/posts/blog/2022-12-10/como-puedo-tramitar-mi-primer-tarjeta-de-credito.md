@@ -3,7 +3,7 @@ title: ¿Cómo puedo tramitar mi primer tarjeta de credito?
 slug: Como-puedo-tramitar-mi-primer-tarjeta-de-credito
 author: coronagenaro@gmail.com
 date: 2022-12-10
-image: tarjetacredito.png
+image: primer-tarjeta.png
 imageAlt: Tarjeta credito
 tags:
   - Crédito
