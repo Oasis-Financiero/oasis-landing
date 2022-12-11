@@ -25,3 +25,9 @@ Es importante que leas atentamente la información que se incluya en el paquete 
 * Los beneficios y recompensas: Verifica si la tarjeta que estás solicitando ofrece beneficios y recompensas que puedan ser interesantes para ti. Por ejemplo, si eres un amante de la moda, quizás una tarjeta que te ofrezca descuentos en tiendas de ropa sea una buena opción para ti.<br/><br/>
 * Los requisitos de aprobación: Asegúrate de cumplir con los requisitos de aprobación de la tarjeta que estás solicitando. La mayoría de las entidades emisoras de tarjetas requieren que tengas una edad mínima, una fuente de ingresos comprobable y un historial crediticio sano para aprobar tu solicitud.<br/><br/>
 * La información de la tarjeta: Asegúrate de leer atentamente la información que se incluya en el paquete de bienvenida de la tarjeta, y que entiendas bien los términos y condiciones de la tarjeta, así como el funcionamiento del sistema de pago y los cargos y comisiones que se apliquen. También es importante que establezcas un límite de gasto que puedas permitirte pagar cada mes y que te comprometas a no exceder ese límite.<br/><br/>
+
+T﻿e recomendamos:<br/><br/>
+
+## [¿Cuáles son los tipos de tarjetas de crédito que existen?](https://www.oasisfinanciero.mx/blog/2022-12-10/cuales-son-los-tipos-de-tarjetas-de-credito-que-existen/)
+
+![Tarjeta de crédito](tarjetacredito.png "¿Cuáles son los tipos de tarjetas de crédito que existen?")

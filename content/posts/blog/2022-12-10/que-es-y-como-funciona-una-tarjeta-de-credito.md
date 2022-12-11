@@ -40,8 +40,6 @@ Por lo tanto, es importante que te comprometas a pagar la tarjeta de crédito en
 \
 T﻿e recomendamos:<br/><br/>
 
+## **[¿Cómo puedo tramitar mi primer tarjeta de credito?](https://www.oasisfinanciero.mx/blog/2022-12-10/como-puedo-tramitar-mi-primer-tarjeta-de-credito/)**
 
-
-
-
-<br/><br/>
+![Millennial con tarjeta de crédito](primer-tarjeta.png "¿Cómo puedo tramitar mi primer tarjeta de credito?")
