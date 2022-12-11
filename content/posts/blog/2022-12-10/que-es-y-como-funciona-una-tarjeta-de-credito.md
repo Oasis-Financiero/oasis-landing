@@ -26,6 +26,22 @@ Las tarjetas de crédito suelen cobrar diferentes tipos de comisiones por el uso
 
 Es importante que leas atentamente los términos y condiciones de la tarjeta de crédito para conocer todas las comisiones y cargos que se apliquen. También es importante que establezcas un límite de gasto que puedas permitirte pagar cada mes y que te comprometas a no exceder ese límite para evitar endeudarte y tener dificultades para pagar tus cuotas.<br/><br/>
 
+### **¿Qué pasa si me retraso en los pagos o no pago la tarjeta de crédito?<br/><br/>**
+
+Si te retrasas en los pagos o no pagas la tarjeta de crédito, el banco o la entidad emisora de la tarjeta puede tomar medidas para recuperar el dinero que le debes. Algunas de las medidas que pueden tomar en caso de impago son:<br/><br/>
+
+* Cobrarte intereses de mora: Si te retrasas en los pagos de tu tarjeta de crédito, el banco o la entidad emisora de la tarjeta puede cobrarte una tasa de interés de mora, que es un porcentaje adicional sobre el saldo pendiente que se aplica cada mes.<br/><br/>
+* Cobrarte comisiones por mora: Además de los intereses de mora, el banco o la entidad emisora de la tarjeta puede cobrarte una comisión por mora, que es una cantidad fija que se aplica cada vez que te retrasas en un pago.<br/><br/>
+* Reportar tu impago a las centrales de riesgo: Si no pagas la tarjeta de crédito, el banco o la entidad emisora de la tarjeta puede reportar tu impago a las centrales de riesgo, que son entidades encargadas de recopilar y difundir información sobre el historial crediticio de las personas. Si tu impago es reportado a una central de riesgo, puede afectar negativamente tu historial crediticio y dificultar que obtengas créditos en el futuro.<br/><br/>
+* Iniciar un proceso de cobranza: Si no pagas la tarjeta de crédito, el banco o la entidad emisora de la tarjeta puede iniciar un proceso de cobranza para recuperar el dinero que le debes. En este caso, te enviarán recordatorios de pago y te llamarán para solicitar el pago de tu deuda. Si no logran contactarte o no puedes pagar la deuda, pueden iniciar un proceso judicial para recuperar el dinero que te deben.<br/><br/>
+
+Por lo tanto, es importante que te comprometas a pagar la tarjeta de crédito en tiempo y forma para evitar tener problemas con el banco o la entidad emisora de la tarjeta. Si tienes dificultades para pagar la tarjeta de crédito, es importante que contactes al banco o la entidad emisora de la tarjeta para informarles de tu situación y tratar de llegar a un acuerdo para regularizar tu situación.<br/><br/>
+
+\
+T﻿e recomendamos:<br/><br/>
+
+
+
 
 
 <br/><br/>
