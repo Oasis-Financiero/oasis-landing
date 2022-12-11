@@ -17,8 +17,12 @@ Existen diferentes tipos de tarjetas de crédito, cada una con sus propias carac
 * Tarjetas de crédito para mal crédito: Estas tarjetas están diseñadas para personas que tienen un mal historial crediticio o que no han tenido una tarjeta de crédito antes. Suelen tener una línea de crédito más baja que las tarjetas de crédito tradicionales y una tasa de interés más alta. La finalidad de estas tarjetas es ayudarte a mejorar tu historial crediticio y a construir una base sólida para obtener una tarjeta de crédito tradicional en el futuro.<br/><br/>
 * Tarjetas de crédito sin intereses: Algunas tarjetas de crédito ofrecen un período de tiempo en el que no cobran intereses por el uso de la tarjeta, lo que puede ser una buena opción si tienes un gasto mayor de lo habitual y necesitas financiar.<br/><br/>
 
+### **¿Cómo sé cuál tarjeta de crédito es la ideal para mi?<br/><br/>**
 
+La mejor tarjeta de crédito para ti dependerá de tus necesidades y hábitos de gasto. Primero, piensa en cómo planeas usar la tarjeta. ¿La usarás principalmente para comprar cosas en línea? ¿Planeas viajar mucho y quieres obtener recompensas por tus compras en el camino? Una vez que sepas cómo planeas usar la tarjeta, puedes comenzar a comparar las diferentes opciones disponibles.<br/><br/>
 
+T﻿e recomendamos:<br/><br/>
 
+## **[¿Porqué es importante contar con asesoría financiera?](https://www.oasisfinanciero.mx/blog/2022-12-08/porque-es-importante-contar-con-asesor%C3%ADa-financiera/)**
 
-<br/><br/>
+![Asesores](asesores.png "¿Porqué es importante contar con asesoría financiera?")
