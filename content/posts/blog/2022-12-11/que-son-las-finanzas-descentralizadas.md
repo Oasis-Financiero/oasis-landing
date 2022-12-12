@@ -13,7 +13,7 @@ Las finanzas descentralizadas, también conocidas como DeFi, son un conjunto de 
 
 Esto se logra mediante el uso de contratos inteligentes y otras tecnologías basadas en blockchain que permiten que las operaciones financieras se lleven a cabo de manera segura, transparente y descentralizada. <br/><br/>
 
-En general, las finanzas descentralizadas buscan ofrecer a las personas un mayor control sobre sus finanzas y un acceso más amplio a servicios financieros en comparación con los sistemas financieros tradicionales.<br/><br/>
+En general buscan ofrecer a las personas un mayor control sobre sus finanzas y un acceso más amplio a servicios financieros en comparación con los sistemas financieros tradicionales.<br/><br/>
 
 ### **¿Cómo puedo empezar a utilizar las finanzas descentralizadas?<br/><br/>**
 
