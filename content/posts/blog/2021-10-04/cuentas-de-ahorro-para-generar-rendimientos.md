@@ -95,4 +95,10 @@ Ahorro: Smart cash donde el dinero se invierte en CETES y bonos gubernamentales 
 
 Se puede disponer del dinero todos los días hábiles en horario de operación de 7:30 a 13:00 horas. <br/><br/>
 
-Síguenos en nuestras páginas de **[Facebook](https://facebook.com/oasisfinanciero)**, **[LinkedIn](https://www.linkedin.com/company/oasisfinanciero/)** e **[Instagram](https://www.instagram.com/oasis_financiero/)** para más tips de cómo transformar tu vida financiera.
+T﻿e recomendamos:<br/><br/>
+
+## **[¿Porqué es importante contar con asesoría financiera?](https://www.oasisfinanciero.mx/blog/2022-12-08/porque-es-importante-contar-con-asesor%C3%ADa-financiera/)**
+
+![Asesor](https://www.oasisfinanciero.mx/static/df3b13fa3020ad45622bb002e5157853/b1001/asesores.png "¿Porqué es importante contar con asesoría financiera?")
+
+<!--EndFragment-->
