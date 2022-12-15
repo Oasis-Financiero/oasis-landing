@@ -1,5 +1,5 @@
 ---
-title: Las mejores cuentas de ahorro para generar rendimientos en México
+title: Las mejores cuentas de ahorro para generar rendimientos en México.
 slug: Las-mejores-cuentas-de-ahorro-para-generar-rendimientos-en-Mexico
 author: coronagenaro@gmail.com
 date: 2021-10-04
