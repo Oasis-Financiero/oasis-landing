@@ -50,6 +50,6 @@ Antes de solicitar un préstamo, es recomendable que consideres cuidadosamente t
 
 T﻿e recomendamos el artículo: <br/><br/>
 
-# **[¿Cómo combatir la inflación?](https://www.oasisfinanciero.mx/blog/2022-12-03/como-combatir-la-inflacion/)** <br/><br/>[](https://www.oasisfinanciero.mx/blog/2022-12-03/como-combatir-la-inflacion/)
+# ¿Cómo pedir un préstamo en Kubo Financiero? <br/><br/>[](https://www.oasisfinanciero.mx/blog/2022-12-03/como-combatir-la-inflacion/)
 
 <!--EndFragment-->
