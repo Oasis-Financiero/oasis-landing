@@ -36,14 +36,16 @@ Trámite en línea 100% en línea por lo que no tienes que salir de casa o hacer
 
 ![](simulador-kubo.jpg)
 
-
-
 E﻿ste es un ejemplo obtenido directamente en la página de Kubo Financiero en Diciembre 2022.<br/><br/>
 
-Para simular tu préstamo **[da clic aquí](http://tracking.credy.eu/aff_c?offer_id=1106&aff_id=3802)**<br/><br/>
+#### **Para simular tu préstamo [da clic aquí](http://tracking.credy.eu/aff_c?offer_id=1106&aff_id=3802)<br/><br/>**
 
+T﻿e recomendamos:<br/><br/>
 
+<!--StartFragment-->
 
+## **[¿Qué son y cómo funcionan los préstamos personales?](https://www.oasisfinanciero.mx/blog/2022-12-07/que-son-y-como-funcionan-los-prestamos-personales/)**
 
+<!--EndFragment-->
 
 <br/><br/>
