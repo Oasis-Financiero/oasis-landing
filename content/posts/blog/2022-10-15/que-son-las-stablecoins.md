@@ -67,4 +67,8 @@ E﻿n México ya existen varias stablecoins con paridad 1:1 al peso mexicano. Re
 
 P﻿or otro lado PXO, MMXN, JMXN y Xocolatl son stablecoins con paridad al peso mexicano que están tomando renombre y casos de uso en el país.<br/><br/>
 
-### **[C﻿onoce más sobre Xocolatl (XOC) Primer protocolo mexicano descentralizado.](https://www.oasisfinanciero.mx/blog/2022-10-19/xocolatl-el-primer-protocolo-mexicano-descentralizado/)**
+### T﻿e recomendamos:<br/><br/>
+
+## **[¿Cómo puedo enviar remesas con stablecoins?](https://www.oasisfinanciero.mx/blog/2022-12-10/como-puedo-enviar-remesas-con-stablecoins/)**
+
+![Stablecoins](remesas.png "¿Cómo puedo enviar remesas con stablecoins?")
