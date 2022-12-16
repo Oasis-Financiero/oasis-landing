@@ -37,3 +37,9 @@ Algunas de las operaciones que se pueden realizar en las finanzas descentralizad
 * Pago de servicios: las finanzas descentralizadas también permiten a los usuarios pagar por servicios y bienes usando criptomonedas, lo que puede ser una forma más rápida y segura de realizar pagos en línea.<br/><br/>
 
 En resumen, las finanzas descentralizadas ofrecen una amplia gama de operaciones financieras que pueden ser útiles para diferentes usuarios y propósitos.<br/><br/>
+
+T﻿e recomendamos:<br/><br/>
+
+## **[¿Qué son las stablecoins?](https://www.oasisfinanciero.mx/blog/2022-10-15/que-son-las-stablecoins/)**
+
+![Stablecoins](stablecoins.png "¿Qué son las stablecoins?")
