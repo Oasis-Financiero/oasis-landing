@@ -17,7 +17,15 @@ Para crear un presupuesto de gastos e ingresos, puedes seguir los siguientes pas
 4. Haz ajustes a tu presupuesto: Si encuentras que tienes menos dinero disponible de lo que te gustaría después de hacer tus cálculos, debes hacer ajustes a tu presupuesto para ahorrar más dinero. Esto puede incluir reducir tus gastos, aumentar tus ingresos o ambas cosas.<br/><br/>
 5. Sigue tu presupuesto: Una vez que hayas creado tu presupuesto, es importante seguirlo de cerca para asegurarte de que no te desvíes de tu plan. Esto puede incluir revisar tus cuentas y registros financieros regularmente para asegurarte de que estás gastando y ahorrando de acuerdo a tu presupuesto.<br/><br/>
 
-¿En que opciones puedo invertir mi dinero?<br/><br/>
+
+
+E﻿ste es un ejemplo de como puedes crear una tabla de presupuesto tomando como ingresos 12,000 pesos mensuales.<br/><br/>
+
+![Gráfica](grafica1.png "¿Cómo puedo crear un presupuesto de gastos e ingresos?")
+
+<br/><br/>
+
+### **¿En que opciones puedo invertir mi dinero?<br/><br/>**
 
 Existen muchas opciones diferentes para invertir tu dinero, y la mejor opción para ti dependerá de tus objetivos y tolerancia al riesgo. Algunas opciones comunes para invertir el dinero incluyen:<br/><br/>
 
