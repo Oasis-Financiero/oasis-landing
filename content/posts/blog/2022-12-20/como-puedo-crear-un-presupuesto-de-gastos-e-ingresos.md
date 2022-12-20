@@ -75,6 +75,16 @@ Es importante recordar que es normal tener problemas financieros de vez en cuand
 
 Te recomendamos:<br/><br/>
 
-## [¿Porqué es importante contar con asesoría financiera?](https://www.oasisfinanciero.mx/blog/2022-12-08/porque-es-importante-contar-con-asesor%C3%ADa-financiera/)<br/><br/>
+### **C﻿omienza a crear tu patrimonio en Fintual desde este enlace: [Comienza a invertir aquí](https://fintual.mx/r/genaroc6)**<br/><br/>
 
-![](asesores.png)
+U﻿na vez que se ha creado tu portafolio, deposita directamente desde la app o el sitio web para que tus fondos se inviertan y crezcan en el tiempo estipulado en tu portafolio. **P﻿uedes empezar a invertir desde $1 peso.**<br/><br/>
+
+![](fintual.png)
+
+<br/><br/>
+
+C﻿onoce más sobre Fintual y como empezar hacer crecer tus ahorros con nuestro artículo: <br/><br/>
+
+## **[¿Qué es Fintual y cómo te ayuda a invertir de manera fácil?](https://www.oasisfinanciero.mx/blog/2022-11-30/que-es-fintual-y-como-te-ayuda-a-invertir-de-manera-facil/)**
+
+<!--EndFragment-->
