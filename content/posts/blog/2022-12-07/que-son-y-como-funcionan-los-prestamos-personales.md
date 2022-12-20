@@ -45,6 +45,8 @@ T﻿e recomendamos el artículo: <br/><br/>
 
 ## **[¿Cómo pedir un préstamo en Kubo Financiero?](https://www.oasisfinanciero.mx/blog/2022-12-16/como-pedir-un-prestamo-en-kubo-financiero/)** <br/><br/>
 
+O﻿btén tu pre aprobación en 5 minutos y el depósito del préstamo en 24 horas hábiles en tu cuenta.<br/><br/>
+
 ![](kubofinanciero.png)
 
 <!--EndFragment-->
