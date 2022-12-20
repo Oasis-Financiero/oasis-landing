@@ -19,9 +19,43 @@ Para crear un presupuesto de gastos e ingresos, puedes seguir los siguientes pas
 
 
 
-E﻿ste es un ejemplo de como puedes crear una tabla de presupuesto tomando como ingresos 12,000 pesos mensuales.<br/><br/>
+E﻿ste es un ejemplo de como puedes crear una tabla de presupuesto tomando como ingresos 12,000 pesos mensuales donde los datos son los siguientes:<br/><br/>
+
+|                            |        |
+| -------------------------- | ------ |
+| Ingresos mensuales         | 12,000 |
+| Gastos en comida           | 2,500  |
+| Gastos en servicios        | 2,000  |
+| Gastos en diversión        | 2,000  |
+| Pago de tarjeta de crédito | 1,500  |
+| Total de gastos            | 8,000  |
+| Dinero restante            | 4,000  |
+
+<br/><br/
+
+
 
 ![Gráfica](grafica1.png "¿Cómo puedo crear un presupuesto de gastos e ingresos?")
+
+<br/><br/>
+
+E﻿n este otro ejemplo se tiene el mismo ejemplo de ingresos pero con mayores gastos cada mes en donde se muestra que al final del mes quedamos con números rojos, es decir que estamos gastando más de lo que se gana al mes.<br/><br/>
+
+<!--StartFragment-->
+
+|                            |        |
+| -------------------------- | ------ |
+| Ingresos mensuales         | 12,000 |
+| Gastos en comida           | 2,500  |
+| Gastos en servicios        | 2,500  |
+| Gastos en diversión        | 3,000  |
+| Pago de tarjeta de crédito | 5,000  |
+| Total de gastos            | 13,000 |
+| Dinero restante            | \-1000 |
+
+<br/><br/>
+
+![Gráfica](grafica2.png "¿Cómo puedo crear un presupuesto de gastos e ingresos?")
 
 <br/><br/>
 
