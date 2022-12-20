@@ -19,3 +19,7 @@ A medida que comenzamos otro año, muchas personas se proponen mejorar sus finan
 5. Obtén asesoría financiera: Si te sientes abrumado o no estás seguro de cómo mejorar tus finanzas, no dudes en buscar ayuda de un profesional financiero. Un asesor financiero o un planificador financiero pueden ayudarte a establecer un plan de acción y a alcanzar tus metas financieras.<br/><br/>
 
 Con estos consejos en mente, podrás empezar el año con una mejor comprensión de tus finanzas y un plan para mejorarlas.<br/><br/>
+
+### T﻿e recomendamos: **[¿Porqué es importante contar con asesoría financiera?](https://www.oasisfinanciero.mx/blog/2022-12-08/porque-es-importante-contar-con-asesor%C3%ADa-financiera/)**<br/><br/>
+
+![](asesores.png)
