@@ -8,7 +8,7 @@ imageAlt: Hipoteca
 tags:
   - Hipoteca
 ---
-¿Qué es un crédito hipotecario?<br/><br/>
+### **¿Qué es un crédito hipotecario?<br/><br/>**
 
 Un crédito hipotecario es un tipo de préstamo que se utiliza para adquirir una propiedad inmueble, como una casa o departamento. Este tipo de préstamo se denomina "hipotecario" porque la propiedad se convierte en garantía del préstamo. Si el prestatario no puede devolver el préstamo, el banco o financiera puede embargar la propiedad y venderla para recuperar el dinero prestado.<br/><br/>
 
@@ -18,7 +18,7 @@ Los créditos hipotecarios suelen tener plazos más largos que otros tipos de pr
 
 Un crédito hipotecario puede ser una excelente opción para aquellos que desean adquirir una propiedad y no tienen suficiente dinero para pagarla de contado. Sin embargo, es importante tener en cuenta que los créditos hipotecarios también conllevan ciertos riesgos, como la posibilidad de embargar la propiedad si no se puede devolver el préstamo. Por lo tanto, es importante evaluar cuidadosamente si un crédito hipotecario es la opción adecuada para ti antes de tomar una decisión.<br/><br/>
 
-Para obtener un crédito hipotecario en México, es necesario seguir los siguientes pasos:<br/><br/>
+### **Para obtener un crédito hipotecario en México, es necesario seguir los siguientes pasos:<br/><br/>**
 
 1. Verificar si cumples con los requisitos: Los requisitos para obtener un crédito hipotecario en México pueden variar según el banco o financiera que elijas, pero en general, se requiere tener una buena historia crediticia, un trabajo estable y una cantidad suficiente de ingresos para hacer frente a las mensualidades del préstamo.<br/><br/>
 2. Seleccionar una propiedad: Antes de solicitar un crédito hipotecario, es necesario tener una propiedad en mente para la que se solicitará el préstamo. Asegúrate de realizar una investigación exhaustiva sobre la propiedad y asegurarte de que es una buena inversión.<br/><br/>
