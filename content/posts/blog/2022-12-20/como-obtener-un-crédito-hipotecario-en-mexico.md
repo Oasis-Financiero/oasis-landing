@@ -20,6 +20,16 @@ Los créditos hipotecarios suelen tener plazos más largos que otros tipos de pr
 
 Un crédito hipotecario puede ser una excelente opción para aquellos que desean adquirir una propiedad y no tienen suficiente dinero para pagarla de contado. Sin embargo, es importante tener en cuenta que los créditos hipotecarios también conllevan ciertos riesgos, como la posibilidad de embargar la propiedad si no se puede devolver el préstamo. Por lo tanto, es importante evaluar cuidadosamente si un crédito hipotecario es la opción adecuada para ti antes de tomar una decisión.<br/><br/>
 
+### **¿Qué opciones se tienen en México para solicitar un crédito hipotecario?<br/><br/>**
+
+En México, hay varias opciones disponibles para solicitar un crédito hipotecario. Algunas de ellas son:<br/><br/>
+
+1. **Bancos**: Muchos bancos en México ofrecen créditos hipotecarios. Algunos de los bancos más grandes que ofrecen este tipo de préstamos son Bancomer, Santander y HSBC. Los bancos suelen tener tasas de interés más bajas que otras opciones de financiamiento, pero pueden tener requisitos más estrictos para otorgar un crédito hipotecario.<br/><br/>
+2. **Financieras**: Otra opción es solicitar un crédito hipotecario a través de una financiera. Estas empresas suelen ser más flexibles que los bancos en cuanto a los requisitos para otorgar un crédito hipotecario, pero las tasas de interés pueden ser más altas. Algunas financieras que ofrecen créditos hipotecarios en México son Infonavit y Fovissste.<br/><br/>
+3. **Fondos de inversión**: Otro lugar donde puedes solicitar un crédito hipotecario es a través de un fondo de inversión. Estos fondos suelen tener tasas de interés más bajas que las financieras, pero también pueden tener requisitos más estrictos.<br/><br/>
+
+Es importante tener en cuenta que cada opción de financiamiento tendrá sus propias tasas de interés y requisitos para otorgar un crédito hipotecario. Por lo tanto, es importante comparar diferentes opciones y elegir la que mejor se ajuste a tus necesidades y circunstancias financieras. También es recomendable obtener asesoramiento financiero profesional antes de tomar una decisión.<br/><br/>
+
 ### **Para obtener un crédito hipotecario en México, es necesario seguir los siguientes pasos:<br/><br/>**
 
 1. **Verificar si cumples con los requisitos**: Los requisitos para obtener un crédito hipotecario en México pueden variar según el banco o financiera que elijas, pero en general, se requiere tener una buena historia crediticia, un trabajo estable y una cantidad suficiente de ingresos para hacer frente a las mensualidades del préstamo.<br/><br/>
