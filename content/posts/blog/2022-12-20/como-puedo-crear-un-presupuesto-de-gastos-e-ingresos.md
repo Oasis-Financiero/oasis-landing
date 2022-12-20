@@ -11,10 +11,10 @@ tags:
 ---
 Un presupuesto es una herramienta importante para planificar y controlar sus finanzas personales. Al hacer un presupuesto podrás:<br/><br/>
 
-1. Establecer metas financieras: Un presupuesto le ayuda a definir sus metas financieras a corto y largo plazo, como ahorrar para una casa o jubilarse temprano.<br/><br/>
-2. Controlar sus gastos: Un presupuesto le permite ver claramente dónde va su dinero y cómo puede reducir sus gastos innecesarios.<br/><br/>
-3. Ahorrar dinero: Al hacer un presupuesto y controlar sus gastos, puede ahorrar dinero para situaciones imprevistas o para alcanzar sus metas financieras.<br/><br/>
-4. Evitar endeudamiento: Un presupuesto le ayuda a evitar endeudarse más de lo que puede pagar y a controlar su deuda existente.<br/><br/>
+1. **Establecer metas financieras**: Un presupuesto le ayuda a definir sus metas financieras a corto y largo plazo, como ahorrar para una casa o jubilarse temprano.<br/><br/>
+2. **Controlar sus gastos**: Un presupuesto le permite ver claramente dónde va su dinero y cómo puede reducir sus gastos innecesarios.<br/><br/>
+3. **Ahorrar dinero**: Al hacer un presupuesto y controlar sus gastos, puede ahorrar dinero para situaciones imprevistas o para alcanzar sus metas financieras.<br/><br/>
+4. **Evitar endeudamiento**: Un presupuesto le ayuda a evitar endeudarse más de lo que puede pagar y a controlar su deuda existente.<br/><br/>
 
 En resumen, hacer un presupuesto le ayuda a tomar el control de sus finanzas y a alcanzar sus metas financieras.<br/><br/>
 
@@ -39,8 +39,6 @@ E﻿ste es un ejemplo de como puedes crear una tabla de presupuesto tomando como
 | Dinero restante            | 4,000  |
 
 <br/><br/>
-
-
 
 ![Gráfica](grafica1.png "¿Cómo puedo crear un presupuesto de gastos e ingresos?")
 
@@ -68,15 +66,25 @@ E﻿n este otro ejemplo se tiene el mismo ejemplo de ingresos pero con mayores g
 
 Si tienes más gastos que ingresos, es importante tomar medidas para equilibrar tu presupuesto y asegurarte de que tienes suficiente dinero para cubrir tus necesidades básicas y tus deudas. Algunas posibles soluciones incluyen:<br/><br/>
 
-1. Reducir tus gastos: Revisa tus gastos y busca formas de reducirlos. Esto puede incluir cosas como cortar servicios innecesarios, buscar ofertas en tus compras, cocinar en casa en lugar de salir a comer y encontrar maneras de ahorrar en tu factura de energía.<br/><br/>
-2. Aumentar tus ingresos: Si tienes espacio para aumentar tus ingresos, considera buscar un trabajo adicional o un trabajo en el que puedas ganar más dinero. También puedes considerar hacer trabajos temporales o freelance para obtener un ingreso adicional.<br/><br/>
-3. Priorizar tus pagos: Si tienes deudas, debes asegurarte de que tus pagos más importantes, como el alquiler o la hipoteca, estén al día. Si tienes problemas para paar tus deudas, habla con tus acreedores y trabaja con ellos para llegar a un acuerdo sobre tus pagos.<br/><br/>
-4. Obtener ayuda financiera: Si tienes problemas para equilibrar tus ingresos y tus gastos, puedes considerar obtener ayuda financiera. Esto puede incluir cosas como programas gubernamentales de asistencia económica o consejería financiera.<br/><br/>
+1. **Reducir tus gastos**: Revisa tus gastos y busca formas de reducirlos. Esto puede incluir cosas como cortar servicios innecesarios, buscar ofertas en tus compras, cocinar en casa en lugar de salir a comer y encontrar maneras de ahorrar en tu factura de energía.<br/><br/>
+2. **Aumentar tus ingresos**: Si tienes espacio para aumentar tus ingresos, considera buscar un trabajo adicional o un trabajo en el que puedas ganar más dinero. También puedes considerar hacer trabajos temporales o freelance para obtener un ingreso adicional.<br/><br/>
+3. **Priorizar tus pagos**: Si tienes deudas, debes asegurarte de que tus pagos más importantes, como el alquiler o la hipoteca, estén al día. Si tienes problemas para paar tus deudas, habla con tus acreedores y trabaja con ellos para llegar a un acuerdo sobre tus pagos.<br/><br/>
+4. **Obtener ayuda financiera**: Si tienes problemas para equilibrar tus ingresos y tus gastos, puedes considerar obtener ayuda financiera. Esto puede incluir cosas como programas gubernamentales de asistencia económica o consejería financiera.<br/><br/>
 
 Es importante recordar que es normal tener problemas financieros de vez en cuando, pero lo importante es tomar medidas para resolverlos y evitar que se conviertan en un problema mayor a largo plazo.<br/><br/>
 
 Te recomendamos:<br/><br/>
 
-## [¿Porqué es importante contar con asesoría financiera?](https://www.oasisfinanciero.mx/blog/2022-12-08/porque-es-importante-contar-con-asesor%C3%ADa-financiera/)<br/><br/>
+### **C﻿omienza a crear tu patrimonio en Fintual desde este enlace: [Comienza a invertir aquí](https://fintual.mx/r/genaroc6)**<br/><br/>
 
-![](asesores.png)
+U﻿na vez que se ha creado tu portafolio, deposita directamente desde la app o el sitio web para que tus fondos se inviertan y crezcan en el tiempo estipulado en tu portafolio. **P﻿uedes empezar a invertir desde $1 peso.**<br/><br/>
+
+![](fintual.png)
+
+<br/><br/>
+
+C﻿onoce más sobre Fintual y como empezar hacer crecer tus ahorros con nuestro artículo: <br/><br/>
+
+## **[¿Qué es Fintual y cómo te ayuda a invertir de manera fácil?](https://www.oasisfinanciero.mx/blog/2022-11-30/que-es-fintual-y-como-te-ayuda-a-invertir-de-manera-facil/)**
+
+<!--EndFragment-->
