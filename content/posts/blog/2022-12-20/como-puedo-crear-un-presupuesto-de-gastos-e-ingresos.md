@@ -19,7 +19,7 @@ Para crear un presupuesto de gastos e ingresos, puedes seguir los siguientes pas
 
 
 
-E﻿ste es un ejemplo de como puedes crear una tabla de presupuesto tomando como ingresos 12,000 pesos mensuales donde los datos son los siguientes:<br/><br/>
+E﻿ste es un ejemplo de como puedes crear una tabla de presupuesto tomando como ingresos 12,000 pesos mensuales y logrando tener dinero disponible al final del mes. Los datos son los siguientes:<br/><br/>
 
 |                            |        |
 | -------------------------- | ------ |
@@ -31,7 +31,7 @@ E﻿ste es un ejemplo de como puedes crear una tabla de presupuesto tomando como
 | Total de gastos            | 8,000  |
 | Dinero restante            | 4,000  |
 
-<br/><br/
+<br/><br/>
 
 
 
@@ -59,14 +59,15 @@ E﻿n este otro ejemplo se tiene el mismo ejemplo de ingresos pero con mayores g
 
 <br/><br/>
 
-### **¿En que opciones puedo invertir mi dinero?<br/><br/>**
+Que puedo hacer si tengo más gastos que ingresos?<br/><br/>
 
-Existen muchas opciones diferentes para invertir tu dinero, y la mejor opción para ti dependerá de tus objetivos y tolerancia al riesgo. Algunas opciones comunes para invertir el dinero incluyen:<br/><br/>
+Si tienes más gastos que ingresos, es importante tomar medidas para equilibrar tu presupuesto y asegurarte de que tienes suficiente dinero para cubrir tus necesidades básicas y tus deudas. Algunas posibles soluciones incluyen:<br/><br/>
 
-1. Fondos mutuos o ETF: Estos son vehículos de inversión que te permiten invertir en una amplia variedad de activos, como acciones, bonos y otros instrumentos financieros. Los fondos mutuos y ETF te permiten diversificar tu inversión y distribuir el riesgo.<br/><br/>
-2. Acciones: Las acciones son una parte de propiedad de una empresa. Si compras acciones de una empresa, te conviertes en un accionista y tienes derecho a participar en la distribución de los beneficios de la empresa.
-3. Bonos: Los bonos son instrumentos de deuda emitidos por empresas o gobiernos. Si compras un bono, prestas dinero a la empresa o al gobierno a cambio de intereses.<br/><br/>
-4. Propiedades: La inversión en propiedades puede incluir la compra de una casa para vivir en ella o la compra de una propiedad como inversión. Si compras una propiedad para alquilarla, puedes obtener ingresos mensuales a cambio de permitir que otras personas vivan en ella.<br/><br/>
-5. Criptomonedas: Las criptomonedas son monedas digitales que utilizan tecnología de criptografía para asegurar y verificar las transacciones. Algunas criptomonedas populares incluyen Bitcoin, Ethereum y Litecoin.<br/><br/>
+1. Reducir tus gastos: Revisa tus gastos y busca formas de reducirlos. Esto puede incluir cosas como cortar servicios innecesarios, buscar ofertas en tus compras, cocinar en casa en lugar de salir a comer y encontrar maneras de ahorrar en tu factura de energía.<br/><br/>
+2. Aumentar tus ingresos: Si tienes espacio para aumentar tus ingresos, considera buscar un trabajo adicional o un trabajo en el que puedas ganar más dinero. También puedes considerar hacer trabajos temporales o freelance para obtener un ingreso adicional.<br/><br/>
+3. Priorizar tus pagos: Si tienes deudas, debes asegurarte de que tus pagos más importantes, como el alquiler o la hipoteca, estén al día. Si tienes problemas para paar tus deudas, habla con tus acreedores y trabaja con ellos para llegar a un acuerdo sobre tus pagos.<br/><br/>
+4. Obtener ayuda financiera: Si tienes problemas para equilibrar tus ingresos y tus gastos, puedes considerar obtener ayuda financiera. Esto puede incluir cosas como programas gubernamentales de asistencia económica o consejería financiera.<br/><br/>
 
-   Es importante tener en cuenta que cada opción de inversión conlleva un cierto nivel de riesgo, y es importante evaluar cuidadosamente las opciones disponibles y comprender los riesgos y las recompensas potenciales antes de tomar una decisión de inversión. También es importante hablar con un profesional financiero o un asesor de inversiones para obtener asesoramiento y consejos sobre cómo invertir tu dinero de manera adecuada.<br/><br/>
+Es importante recordar que es normal tener problemas financieros de vez en cuando, pero lo importante es tomar medidas para resolverlos y evitar que se conviertan en un problema mayor a largo plazo.<br/><br/>
+
+<br/><br/>
