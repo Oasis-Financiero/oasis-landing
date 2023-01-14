@@ -8,6 +8,16 @@ imageAlt: ¿Como puedo empezar a ahorrar en 2023?
 tags:
   - Ahorro
 ---
+Para empezar, es importante que sepas que no puedes hacerlo todo al mismo tiempo. En otras palabras, si intentas ahorrar dinero en tu vida diaria y en la de tu familia sin ningún plan de acción definido, probablemente fracasarás.
+
+Es mejor que empieces con un plan simple y fácil de seguir para que puedas hacerlo en poco tiempo. Una vez que entiendas cómo funciona, podrás expandirlo para cubrir todas las áreas de tu vida. Para empezar, debes decidir cuánto dinero quieres ahorrar en 2023 y por qué. 
+
+El motivo es importante porque te ayudará a mantenerte motivado cuando las cosas se pongan difíciles. Por ejemplo, si tu meta es comprar un automóvil nuevo para que tu familia tenga un transporte más seguro, sería menos probable que te desalientes si alguien dañara el viejo auto o si necesitase reparaciones costosas.
+
+Por otra parte, si tu meta es comprar una casa en el campo, puedes utilizar este plan para ahorrar cada mes hasta que tengas el dinero suficiente. Si no sabes cuánto dinero quieres ahorrar, puedes empezar con 5% de tu ingreso o con 10% del monto que deseas tener al final de 2023.
+
+Puedes hacer una lista de las cosas que necesitas y quieres hacer para lograr tu meta. Piensa en todas las actividades que harías si ya hubieras logrado tu objetivo, como viajar a Europa o construir una casa en el campo. Conviértete en un experto sobre tu meta: Si no sabes mucho acerca de lo que te gustaría tener al final del período de planeación, aprende sobre el tema.
+
 Aquí hay algunos consejos para empezar a ahorrar en 2023:
 
 1. Establezca un objetivo de ahorro específico. ¿Cuánto dinero quieres ahorrar y para qué? Tener un objetivo específico en mente te ayudará a determinar cuánto dinero necesitas ahorrar cada mes.
