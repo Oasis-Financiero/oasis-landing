@@ -420,6 +420,7 @@ input:focus {
   background-size: cover;
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
 #newsletterCTAWrapper {
@@ -474,17 +475,41 @@ input:focus {
   vertical-align: middle;
 }
 
-#emailInputWrapper {
+#openModal {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#ctaButton {
+  background-color: #6B5FB9;
   margin-top: 20px;
   height: 40px;
-  width: 370px;
-  background-color: white;
+  width: 200px;
   border-radius: 5px;
   font-size: .8em;
-  color: var(--accentPurple);
-
   display: flex;
   align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#ctaButtonDisabled {
+  margin-top: 20px;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+  font-size: .8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+  background-color: #807aaa;
+}
+
+.ctaText {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.1em;
 }
 
 #emailInput {
