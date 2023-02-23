@@ -17,7 +17,7 @@ En primer lugar, los seguros de auto ofrecen protección financiera en caso de a
 
 Además, los seguros de auto también ofrecen una protección adicional para ti y para tus pasajeros en caso de lesiones o daños a la salud. Un seguro de auto puede cubrir los gastos médicos y de hospitalización, así como la pérdida de ingresos en caso de que tengas que faltar al trabajo debido a una lesión. En algunos casos, el seguro también puede cubrir el transporte alternativo mientras tu vehículo está siendo reparado.<br/><br/>
 
-### [C﻿otiza tu seguro de auto online con Guros y Oasis Financiero aquí](https://www.guros.com/?PROMOCODE=OASISFINANCIERO)<br/><br/>
+## ***[C﻿otiza tu seguro de auto online con Guros y Oasis Financiero aquí](https://www.guros.com/?PROMOCODE=OASISFINANCIERO)***<br/><br/>
 
 #### **5 puntos clave que debes tener en cuenta al momento de contratar un seguro de auto:**<br/><br/>
 
@@ -29,6 +29,6 @@ Además, los seguros de auto también ofrecen una protección adicional para ti 
 
 En conclusión, contratar un seguro de auto es una decisión inteligente y responsable para proteger tu patrimonio y garantizar tu tranquilidad financiera. Asegúrate de seleccionar un plan de seguro que se ajuste a tus necesidades y presupuesto. Y recuerda que la protección de tu vehículo y de tus finanzas personales no tiene precio.<br/><br/>
 
-### [C﻿otiza tu seguro de auto online con Guros y Oasis Financiero aquí](https://www.guros.com/?PROMOCODE=OASISFINANCIERO)<br/><br/>
+## ***[C﻿otiza tu seguro de auto online con Guros y Oasis Financiero aquí](https://www.guros.com/?PROMOCODE=OASISFINANCIERO)***<br/><br/>
 
 ![](guros-oasis-1.png)
