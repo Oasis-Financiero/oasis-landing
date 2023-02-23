@@ -29,6 +29,6 @@ En conclusión, contratar un seguro de auto es una decisión inteligente y respo
 4. **Descuentos y promociones**: busca las compañías de seguros que ofrezcan descuentos o promociones especiales, como descuentos por buen conductor, descuentos por estudiantes o paquetes de seguros combinados. Estos descuentos pueden ayudarte a ahorrar dinero en tu prima de seguro.<br/><br/>
 5. **Comparación de seguros**: por último, es importante comparar diferentes opciones de seguros antes de tomar una decisión. Al comparar diferentes planes de seguro, podrás identificar las diferencias en cobertura y precio, lo que te permitirá elegir el plan que mejor se ajuste a tus necesidades y presupuesto. La comparación de seguros puede ayudarte a ahorrar dinero y a obtener una mejor protección para tu vehículo.<br/><br/>
 
-### **[C﻿otiza tu seguro de auto aquí](https://www.guros.com/?PROMOCODE=OASISFINANCIERO)**<br/><br/>
+### [C﻿otiza tu seguro de auto online con Guros y Oasis Financiero aquí](https://www.guros.com/?PROMOCODE=OASISFINANCIERO)<br/><br/>
 
 ![](guros-oasis-1.png)
