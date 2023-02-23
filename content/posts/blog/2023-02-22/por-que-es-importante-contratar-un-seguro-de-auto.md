@@ -19,6 +19,12 @@ Además, los seguros de auto también ofrecen una protección adicional para ti 
 
 ## ***[C﻿otiza tu seguro de auto online con Guros y Oasis Financiero aquí](https://www.guros.com/?PROMOCODE=OASISFINANCIERO)***<br/><br/>
 
+![](guros-oasis-1.png)
+
+
+
+
+
 #### **5 puntos clave que debes tener en cuenta al momento de contratar un seguro de auto:**<br/><br/>
 
 1. **Cobertura:** es importante que te asegures de que el plan que elijas cubra todas tus necesidades. Cada compañía de seguros ofrece diferentes opciones de cobertura, por lo que es importante que te informes sobre lo que cada plan incluye y qué es lo que no cubre.<br/><br/>
