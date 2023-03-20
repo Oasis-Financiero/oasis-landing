@@ -23,8 +23,6 @@ Además, los seguros de auto también ofrecen una protección adicional para ti 
 
 ## <br/><br/>
 
-
-
 #### **5 puntos clave que debes tener en cuenta al momento de contratar un seguro de auto:**<br/><br/>
 
 <ol>
@@ -40,6 +38,10 @@ Además, los seguros de auto también ofrecen una protección adicional para ti 
 <li>Comparación de seguros: por último, es importante comparar diferentes opciones de seguros antes de tomar una decisión. Al comparar diferentes planes de seguro, podrás identificar las diferencias en cobertura y precio, lo que te permitirá elegir el plan que mejor se ajuste a tus necesidades y presupuesto. La comparación de seguros puede ayudarte a ahorrar dinero y a obtener una mejor protección para tu vehículo.</li><br/><br/>
 
  </ol>
+
+
+
+1. C﻿omparación de seguros
 
 En conclusión, contratar un seguro de auto es una decisión inteligente y responsable para proteger tu patrimonio y garantizar tu tranquilidad financiera. Asegúrate de seleccionar un plan de seguro que se ajuste a tus necesidades y presupuesto. Y recuerda que la protección de tu vehículo y de tus finanzas personales no tiene precio.<br/><br/>
 
