@@ -61,6 +61,10 @@ ul {
     margin-left: 20px;
 }
 
+ol {
+    list-style: decimal;
+}
+
 #articleWindow {
     display: flex;
     justify-content: center;
