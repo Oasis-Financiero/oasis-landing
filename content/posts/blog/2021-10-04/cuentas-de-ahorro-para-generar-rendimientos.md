@@ -69,14 +69,11 @@ EVEREST es un fondo agresivo de Actinver que permite acceder a activos globales 
 Estrategia de protección cambiaria con el fondo de inversión ACTDUAL:<br/><br/>
 ACTDUAL es un fondo de inversión de Actinver que protege contra la volatilidad cambiaria. Invierte en deuda en pesos mexicanos y dólares, optimizando su posición en ambas divisas. Detalles clave: Bajo riesgo, alta volatilidad (12%), rendimiento anual esperado del 6% y una permanencia sugerida de 1 año.<br/><br/>
 
+### **¡Te regalamos $100 extra para invertir!**
 
+Abre tu cuenta utilizando el código genc199 y realiza un depósito de $1,000 para obtener $100 más para invertir. Aplican términos y condiciones.<br/><br/>
 
-**¡Te regalamos $100 extra para invertir!**
-
-Abre tu cuenta utilizando el código genc199 y realiza un depósito de $1,000 para obtener $100 más para invertir. Aplican términos y condiciones.
-
-
-Descarga la app y abre tu cuenta en menos de 5 minutos. [](<¡Descarga la app aquí!>)[](<[http://onelink.to/p7343z ](<¡Descarga la app aquí!>)>)
+#### **[Descarga la app y abre tu cuenta en menos de 5 minutos. ](http://onelink.to/p7343z)**<br/><br/>
 
 [](https://www.oasisfinanciero.mx/blog/2022-12-03/como-combatir-la-inflacion/)
 
