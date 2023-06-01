@@ -51,6 +51,30 @@ U﻿na vez que se ha creado tu portafolio, deposita directamente desde la app o 
 
 <br/><br/>
 
+## Dinn<br/><br/>
+
+DINN pertenece a Grupo Financiero Actinver. Está supervisado y regulado por la CNBV, la SHCP y BANXICO. El dinero que se invierte está en un fondo de inversión operado por Actinver. <br/><br/>
+
+**Productos**<br/><br/>
+
+Estrategia conservadora con el fondo de inversión ACTIMED:<br/><br/>
+ACTIMED es un fondo conservador de Actinver que invierte en deuda gubernamental y empresas de alta calificación crediticia. Destaca por su estabilidad y rendimientos constantes. Detalles clave: Bajo riesgo, baja volatilidad (7%), rendimiento anual esperado del 6% y una permanencia sugerida de 6 meses.<br/><br/>
+
+Estrategia balanceada con el fondo de inversión IMPULSA:<br/><br/>
+IMPULSA es un fondo balanceado de Actinver que ofrece diversificación en su cartera. Incluye instrumentos de deuda, acciones locales e internacionales, y dólares. Detalles clave: Riesgo moderado, volatilidad media (7%), rendimiento anual esperado del 5% y una permanencia sugerida de 1 año.<br/><br/>
+
+Estrategia agresiva con el fondo de inversión EVEREST:<br/><br/>
+EVEREST es un fondo agresivo de Actinver que permite acceder a activos globales y nacionales para obtener rendimientos potencialmente altos. Detalles clave: Alto riesgo, alta volatilidad (8%), rendimiento anual esperado del 8% y una permanencia sugerida de 3 años.<br/><br/>
+
+Estrategia de protección cambiaria con el fondo de inversión ACTDUAL:<br/><br/>
+ACTDUAL es un fondo de inversión de Actinver que protege contra la volatilidad cambiaria. Invierte en deuda en pesos mexicanos y dólares, optimizando su posición en ambas divisas. Detalles clave: Bajo riesgo, alta volatilidad (12%), rendimiento anual esperado del 6% y una permanencia sugerida de 1 año.<br/><br/>
+
+### **¡Te regalamos $100 extra para invertir!**
+
+Abre tu cuenta utilizando el código genc199 y realiza un depósito de $1,000 para obtener $100 más para invertir. Aplican términos y condiciones.<br/><br/>
+
+#### **[Descarga la app y abre tu cuenta en menos de 5 minutos. ](http://onelink.to/p7343z)**<br/><br/>
+
 [](https://www.oasisfinanciero.mx/blog/2022-12-03/como-combatir-la-inflacion/)
 
 ## Kubo Financiero<br/><br/>
@@ -74,16 +98,6 @@ Hey, Banco es una marca registrada propiedad de Banregio Grupo Financiero. Ofrec
 Ahorro: Recibe rendimiento anual del 4.00%. Sin plazos forzosos y tu dinero siempre disponible. Cuenta con tarjeta física y digital. <br/><br/>
 
 Inversión: Tiene un plazo a 7 días y una tasa de Rendimiento Anual Fija de 5.0%. Comienza tu inversión a partir de $5,000.00 pesos. <br/><br/>
-
-## Dinn<br/><br/>
-
-DINN pertenece a Grupo Financiero Actinver. Está supervisado y regulado por la CNBV, la SHCP y BANXICO. El dinero que se invierte está en un fondo de inversión operado por Actinver. <br/><br/>
-
-**Productos**<br/><br/>
-
-Ahorro: Puedes disponer de tu dinero y el saldo que se mantenga en la tarjeta de débito.  Generar intereses diarios del 50% de Cetes a 28 días. Cuenta con tarjeta física y digital. <br/><br/>
-
-Inversión: Estrategia conservadora con un rendimiento anual esperado del 4%. Estrategia balanceada con un rendimiento anual esperado del 5%. <br/><br/>
 
 ## GBM Plus<br/><br/>
 
