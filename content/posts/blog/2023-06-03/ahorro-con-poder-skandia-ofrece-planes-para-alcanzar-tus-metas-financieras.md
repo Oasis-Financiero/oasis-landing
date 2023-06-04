@@ -26,7 +26,13 @@ Visión Flex es un plan de ahorro que reconoce la importancia de estar preparado
 
 ### **CREA: El inicio de algo maravilloso.**
 
-Por otro lado, CREA es el plan ideal para aquellos millennials que tienen metas financieras claras y desean comenzar a formar un capital a través del ahorro. Este plan brinda la oportunidad de ahorrar cantidades accesibles de manera regular, con el acompañamiento de expertos financieros de Skandia. Ya sea que deseen financiar la educación universitaria, adquirir una vivienda, emprender un negocio propio o planificar su retiro, CREA ofrece una solución integral que combina ahorro, inversión, protección y beneficios fiscales. Además, los millennials pueden realizar sus aportaciones de manera sencilla a través de diferentes métodos de pago y tienen acceso a herramientas digitales para dar seguimiento a su inversión.
+Por otro lado, CREA es el plan ideal para aquellos que tienen metas financieras claras y desean comenzar a formar un capital a través del ahorro. Este plan brinda la oportunidad de ahorrar cantidades accesibles de manera regular, con el acompañamiento de expertos financieros de Skandia. 
+
+Ya sea que deseen financiar la educación universitaria, adquirir una vivienda, emprender un negocio propio o planificar su retiro, CREA ofrece una solución integral que combina ahorro, inversión, protección y beneficios fiscales. Además, puedes realizar tus aportaciones de manera sencilla a través de diferentes métodos de pago y tienen acceso a herramientas digitales para dar seguimiento a su inversión.
+
+![Imagen con texto](crea-beneficios.png "Beneficios del plan crea")
+
+
 
 Tanto Visión Flex como CREA ofrecen beneficios adicionales que pueden ser especialmente atractivos para los millennials. Ambos planes incluyen un seguro de vida que proporciona cobertura en caso de fallecimiento o invalidez total y permanente. Esta protección adicional brinda tranquilidad tanto a los millennials como a sus seres queridos, asegurando que sus metas financieras estén protegidas en caso de circunstancias imprevistas.
 
