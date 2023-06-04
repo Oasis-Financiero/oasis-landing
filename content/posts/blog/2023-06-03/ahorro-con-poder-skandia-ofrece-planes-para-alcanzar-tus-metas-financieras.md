@@ -20,7 +20,9 @@ Skandia México reconoce la importancia del ahorro y ha desarrollado planes como
 
 ## **¿﻿Qué es Skandia?**<br/><br/>
 
-Skandia México es una empresa con más de 65 años de experiencia en el país, comprometida en empoderar a las personas para construir un futuro financiero sólido. Con un enfoque en la creación de planes financieros personalizados, Skandia asesora a sus clientes en cómo invertir, ahorrar y protegerse, brindando soluciones integrales adaptadas a sus necesidades. Respaldada por un holding financiero internacional sólido, cuenta con un equipo de expertos en administración de inversiones y ha obtenido reconocimientos como la certificación Top Employer y calificaciones destacadas de calificadoras como Fitch Ratings y CityWire.<br/><br/>
+Skandia México es una empresa con más de 65 años de experiencia en el país, comprometida en empoderar a las personas para construir un futuro financiero sólido. Con un enfoque en la creación de planes financieros personalizados, Skandia asesora a sus clientes en cómo invertir, ahorrar y protegerse, brindando soluciones integrales adaptadas a sus necesidades. <br/><br/>
+
+Respaldada por un holding financiero internacional sólido, cuenta con un equipo de expertos en administración de inversiones y ha obtenido reconocimientos como la certificación Top Employer y calificaciones destacadas de calificadoras como Fitch Ratings y CityWire.<br/><br/>
 
 ### **Visión Flex: Si lo planeas, lo logras.**<br/><br/>
 
