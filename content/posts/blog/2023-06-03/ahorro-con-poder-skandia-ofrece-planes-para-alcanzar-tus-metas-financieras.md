@@ -16,11 +16,13 @@ La falta de hábito de ahorro es una situación común en la sociedad actual, y 
 
 Ahorrar dinero regularmente permite a las personas construir un fondo de emergencia que les brinda tranquilidad y protección en caso de situaciones inesperadas. Contar con ahorros puede marcar la diferencia entre afrontar una emergencia de manera efectiva o caer en dificultades financieras que afectan la calidad de vida.<br/><br/>
 
-Skandia México reconoce la importancia del ahorro y ha desarrollado planes como Visión Flex y CREA para fomentar este hábito y ayudar a las personas a construir un futuro financiero sólido. Estos planes ofrecen una combinación única de beneficios, como la posibilidad de contar con un fondo de emergencia, ahorrar para metas específicas y acceder a protección financiera a través de seguros de vida.<br/><br/>
+**Skandia México** reconoce la importancia del ahorro y ha desarrollado planes como Visión Flex y CREA para fomentar este hábito y ayudar a las personas a construir un futuro financiero sólido. Estos planes ofrecen una combinación única de beneficios, como la posibilidad de contar con un fondo de emergencia, ahorrar para metas específicas y acceder a protección financiera a través de seguros de vida.<br/><br/>
 
 ## **¿﻿Qué es Skandia?**<br/><br/>
 
-Skandia México es una empresa con más de 65 años de experiencia en el país, comprometida en empoderar a las personas para construir un futuro financiero sólido. Con un enfoque en la creación de planes financieros personalizados, Skandia asesora a sus clientes en cómo invertir, ahorrar y protegerse, brindando soluciones integrales adaptadas a sus necesidades. Respaldada por un holding financiero internacional sólido, cuenta con un equipo de expertos en administración de inversiones y ha obtenido reconocimientos como la certificación Top Employer y calificaciones destacadas de calificadoras como Fitch Ratings y CityWire.<br/><br/>
+Skandia México es una empresa con más de 65 años de experiencia en el país, comprometida en empoderar a las personas para construir un futuro financiero sólido. Con un enfoque en la creación de planes financieros personalizados, Skandia asesora a sus clientes en cómo invertir, ahorrar y protegerse, brindando soluciones integrales adaptadas a sus necesidades. <br/><br/>
+
+Respaldada por un holding financiero internacional sólido, cuenta con un equipo de expertos en administración de inversiones y ha obtenido reconocimientos como la certificación Top Employer y calificaciones destacadas de calificadoras como Fitch Ratings y CityWire.<br/><br/>
 
 ### **Visión Flex: Si lo planeas, lo logras.**<br/><br/>
 
