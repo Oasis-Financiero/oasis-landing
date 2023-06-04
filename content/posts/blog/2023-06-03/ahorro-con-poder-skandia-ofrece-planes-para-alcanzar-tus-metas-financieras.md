@@ -16,7 +16,7 @@ La falta de hábito de ahorro es una situación común en la sociedad actual, y 
 
 Ahorrar dinero regularmente permite a las personas construir un fondo de emergencia que les brinda tranquilidad y protección en caso de situaciones inesperadas. Contar con ahorros puede marcar la diferencia entre afrontar una emergencia de manera efectiva o caer en dificultades financieras que afectan la calidad de vida.<br/><br/>
 
-Skandia México reconoce la importancia del ahorro y ha desarrollado planes como Visión Flex y CREA para fomentar este hábito y ayudar a las personas a construir un futuro financiero sólido. Estos planes ofrecen una combinación única de beneficios, como la posibilidad de contar con un fondo de emergencia, ahorrar para metas específicas y acceder a protección financiera a través de seguros de vida.<br/><br/>
+**Skandia México** reconoce la importancia del ahorro y ha desarrollado planes como Visión Flex y CREA para fomentar este hábito y ayudar a las personas a construir un futuro financiero sólido. Estos planes ofrecen una combinación única de beneficios, como la posibilidad de contar con un fondo de emergencia, ahorrar para metas específicas y acceder a protección financiera a través de seguros de vida.<br/><br/>
 
 ## **¿﻿Qué es Skandia?**<br/><br/>
 
