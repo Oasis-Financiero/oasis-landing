@@ -62,7 +62,9 @@ Visión Flex y CREA son dos planes de ahorro que están diseñados para ayudarte
 
 Te invitamos a contactar a uno de nuestros asesores expertos. Ellos estarán encantados de brindarte toda la información que necesitas y guiarte en el proceso de contratación.<br/><br/>
 
-#### Haz clic en el siguiente enlace para acceder a nuestro formulario de contacto y solicitar una asesoría personalizada:[ **Enlace al formulario de contacto**](https://docs.google.com/forms/d/e/1FAIpQLSev-GJI8NVfKd_wN65mKoWWtLePumYbSNYj3mIGzbSsLA3uxA/viewform?usp=sf_link)**.**<br/><br/>
+#### Haz clic en el siguiente enlace para acceder a nuestro formulario de contacto y solicitar una asesoría personalizada:[ ](https://docs.google.com/forms/d/e/1FAIpQLSev-GJI8NVfKd_wN65mKoWWtLePumYbSNYj3mIGzbSsLA3uxA/viewform?usp=sf_link)<br/><br/>
+
+### **[Enlace al formulario de contacto](https://docs.google.com/forms/d/e/1FAIpQLSev-GJI8NVfKd_wN65mKoWWtLePumYbSNYj3mIGzbSsLA3uxA/viewform?usp=sf_link).**<br/><br/>
 
 Nuestros asesores te brindarán una atención personalizada y te ayudarán a seleccionar el plan de ahorro que mejor se adapte a tus necesidades y metas financieras. <br/><br/>
 
