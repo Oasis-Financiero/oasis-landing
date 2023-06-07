@@ -67,6 +67,18 @@ Esta solución de inversión ofrece la posibilidad de maximizar un capital al ob
 
 ![Imagen con texto](10.png "Skanda Capital Plus")
 
-
-
 <br/><br/>
+
+#### **¡No esperes más y comienza a construir tu futuro financiero!** <br/><br/>
+
+Te invitamos a contactar a uno de nuestros asesores expertos. Ellos estarán encantados de brindarte toda la información que necesitas y guiarte en el proceso de contratación.<br/><br/>
+
+#### Haz clic en el siguiente enlace para acceder a nuestro formulario de contacto y solicitar una asesoría personalizada:[ ](https://docs.google.com/forms/d/e/1FAIpQLSev-GJI8NVfKd_wN65mKoWWtLePumYbSNYj3mIGzbSsLA3uxA/viewform?usp=sf_link)<br/><br/>
+
+### **[Enlace al formulario de contacto](https://docs.google.com/forms/d/e/1FAIpQLSev-GJI8NVfKd_wN65mKoWWtLePumYbSNYj3mIGzbSsLA3uxA/viewform?usp=sf_link).**<br/><br/>
+
+Nuestros asesores te brindarán una atención personalizada y te ayudarán a seleccionar el plan de i que mejor se adapte a tus necesidades y metas financieras. <br/><br/>nversión
+
+Haz clic en el enlace y da el primer paso hacia una vida financiera segura y próspera. ¡Te esperamos para acompañarte en esta emocionante travesía hacia el éxito financiero!<br/><br/>
+
+<!--EndFragment-->
