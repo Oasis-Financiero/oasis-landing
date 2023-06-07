@@ -93,7 +93,7 @@ Haz clic en el enlace y da el primer paso hacia una vida financiera segura y pr�
 
 <!--StartFragment-->
 
-#### T﻿e recomendamos el artículo:
+#### T﻿e recomendamos el artículo:<br/><br/>
 
 # [Ahorro con poder: Skandia ofrece planes para alcanzar tus metas financieras.](https://www.oasisfinanciero.mx/blog/2023-06-03/ahorro-con-poder-skandia-ofrece-planes-para-alcanzar-tus-metas-financieras/)
 
