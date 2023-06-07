@@ -35,10 +35,26 @@ Multitrust es un producto de Skandia diseñado para inversionistas que desean pr
 
 <br/><br/>
 
-
-
 ![Imagen con texto](6.png "Skanda Multitrust beneficios")
 
 <br/><br/>
+
+## **CAPITAL SEGURO**​​​​<br/><br/>
+
+#### UNA INVERSIÓN QUE VALORA Y PROTEGE A LOS QUE MÁS AMA​.<br/><br/>
+
+Capital Seguro es una inversión diseñada para valorar y proteger a las personas más importantes en su vida. Se trata de un plan de inversión que combina dos beneficios clave, permitiéndole proteger a su familia, pareja, padres u otros seres queridos como beneficiarios, con un monto que puede ser hasta el doble de su saldo. Al mismo tiempo, este plan le brinda la oportunidad de mantener o aumentar el valor de su capital a través de una amplia variedad de instrumentos financieros tanto a nivel local como global.<br/><br/>
+
+<br/><br/>
+
+![Imagen con texto](7.png "Skanda Capital Seguro")
+
+<br/><br/>
+
+![Imagen con texto](8.png "Skanda Capital Seguro")
+
+#### <br/><br/>
+
+
 
 <br/><br/>
