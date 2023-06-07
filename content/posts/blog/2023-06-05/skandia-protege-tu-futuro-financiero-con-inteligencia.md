@@ -25,7 +25,7 @@ Respaldada por un holding financiero internacional sólido, cuenta con un equipo
 
 ## **MULTITRUST**​​​​<br/><br/>
 
-#### **PA​RA INVERSIONISTAS QUE DESEAN PRESERVAR SU CAPITAL**<br/><br/>
+#### PA​RA INVERSIONISTAS QUE DESEAN PRESERVAR SU CAPITAL.<br/><br/>
 
 <!--EndFragment-->
 
@@ -41,7 +41,7 @@ Multitrust es un producto de Skandia diseñado para inversionistas que desean pr
 
 ## **CAPITAL SEGURO**​​​​<br/><br/>
 
-#### UNA INVERSIÓN QUE VALORA Y PROTEGE A LOS QUE MÁS AMA​.<br/><br/>
+#### **UNA INVERSIÓN QUE VALORA Y PROTEGE A LOS QUE MÁS AMA​**.<br/><br/>
 
 Capital Seguro es una inversión diseñada para valorar y proteger a las personas más importantes en su vida. Se trata de un plan de inversión que combina dos beneficios clave, permitiéndole proteger a su familia, pareja, padres u otros seres queridos como beneficiarios, con un monto que puede ser hasta el doble de su saldo. Al mismo tiempo, este plan le brinda la oportunidad de mantener o aumentar el valor de su capital a través de una amplia variedad de instrumentos financieros tanto a nivel local como global.<br/><br/>
 
@@ -57,7 +57,7 @@ Capital Seguro es una inversión diseñada para valorar y proteger a las persona
 
 ## **CAPITAL PLUS**​​​​<br/><br/>
 
-#### EL PLUS QUE TU CAPITAL ESPERABA ​<br/><br/>
+#### **EL PLUS QUE TU CAPITAL ESPERABA.** ​<br/><br/>
 
 Esta solución de inversión ofrece la posibilidad de maximizar un capital al obtener los mejores rendimientos a través de Fondos administrados según el perfil del inversionista, con un enfoque en un horizonte de tiempo de mediano a largo plazo.<br/><br/>
 
@@ -85,7 +85,7 @@ Te invitamos a contactar a uno de nuestros asesores expertos. Ellos estarán enc
 
 ### **[Enlace al formulario de contacto](https://docs.google.com/forms/d/e/1FAIpQLSev-GJI8NVfKd_wN65mKoWWtLePumYbSNYj3mIGzbSsLA3uxA/viewform?usp=sf_link).**<br/><br/>
 
-Nuestros asesores te brindarán una atención personalizada y te ayudarán a seleccionar el plan de i que mejor se adapte a tus necesidades y metas financieras. <br/><br/>nversión
+Nuestros asesores te brindarán una atención personalizada y te ayudarán a seleccionar el plan de inversión que mejor se adapte a tus necesidades y metas financieras. <br/><br/>
 
 Haz clic en el enlace y da el primer paso hacia una vida financiera segura y próspera. ¡Te esperamos para acompañarte en esta emocionante travesía hacia el éxito financiero!<br/><br/>
 
