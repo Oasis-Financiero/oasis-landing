@@ -69,6 +69,14 @@ Esta solución de inversión ofrece la posibilidad de maximizar un capital al ob
 
 <br/><br/>
 
+<!--StartFragment-->
+
+En conclusión, **Skandia México** es una empresa de renombre con una amplia experiencia en el sector financiero, comprometida en brindar soluciones financieras personalizadas para construir un futuro sólido. Respaldada por un holding financiero internacional y respaldada por expertos en administración de inversiones, Skandia asesora a sus clientes en cómo invertir, ahorrar y protegerse.<br/><br/>
+
+Con Skandia, los inversionistas tienen acceso a una variedad de opciones adaptadas a sus necesidades individuales, respaldadas por una empresa confiable y reconocida en el mercado. Ya sea para preservar el capital, proteger a los seres queridos o maximizar los rendimientos, Skandia ofrece soluciones integrales que ayudan a los inversionistas a alcanzar sus metas financieras.<br/><br/>
+
+<!--EndFragment-->
+
 #### **¡No esperes más y comienza a construir tu futuro financiero!** <br/><br/>
 
 Te invitamos a contactar a uno de nuestros asesores expertos. Ellos estarán encantados de brindarte toda la información que necesitas y guiarte en el proceso de contratación.<br/><br/>
