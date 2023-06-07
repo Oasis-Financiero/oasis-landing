@@ -1,6 +1,6 @@
 ---
 title: Blockchain y Metaverso en el Código Nacional de Procedimientos Civiles y
-  Familiares
+  Familiares.
 slug: Blockchain-y-Metaverso-en-el-Codigo-Nacional-de-Procedimientos-Civiles-y-Familiares
 author: corinemont@gmail.com
 date: 2023-06-07
@@ -44,7 +44,6 @@ Este nuevo Código Nacional entrará en vigor a más tardar el 1o. de abril de 2
 1. En el Orden Federal aplicará mediante declaratoria que realicen las Cámaras de Diputados y Senadores previa solicitud del Poder Judicial de la Federación.<br/><br/>
 2. En las Entidades Federativas, entrará en vigor en cada una de éstas de conformidad con la declaratoria que al efecto emita el Congreso Local, previa solicitud del Poder Judicial de la entidad correspondiente.<br/><br/>
 
-\
 ***Entre la referida declaratoria y la entrada en vigor del Código Nacional, deberán mediar máximo 120 días naturales. En todos los casos, vencido el plazo, sin que se hubiera emitido dicha declaratoria, la entrada en vigor será automática en todo el territorio nacional.<br/><br/>***
 
 En suma, la llegada de este Código innova para mejorar sus procesos y dar mejores soluciones que afronten el cambio tecnológico reciente, contemplando la existencia del blockchain y del metaverso, abriendo la posibilidad de que los activos virtuales en blockchain públicas puedan entrar en los juicios sucesorios y en los juicios de divorcio, entre otros. No obstante, faltaría implementar en el Código Nacional de Procedimientos Penales estos conceptos, debido a que internacionalmente ya se están presentando casos de abuso sexual en el metaverso, por lo cual, en México debemos estar preparados para este tipo penal como para otros que también podrían suscitarse en los metaversos que existen y en los que se seguirán creando en un futuro muy próximo. 
