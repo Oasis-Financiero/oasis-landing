@@ -55,6 +55,18 @@ Capital Seguro es una inversión diseñada para valorar y proteger a las persona
 
 #### <br/><br/>
 
+## **CAPITAL PLUS**​​​​<br/><br/>
+
+#### EL PLUS QUE TU CAPITAL ESPERABA ​<br/><br/>
+
+Esta solución de inversión ofrece la posibilidad de maximizar un capital al obtener los mejores rendimientos a través de Fondos administrados según el perfil del inversionista, con un enfoque en un horizonte de tiempo de mediano a largo plazo.<br/><br/>
+
+![Imagen con texto](9.png "Skanda Capital Plus")
+
+<br/><br/>
+
+![Imagen con texto](10.png "Skanda Capital Plus")
+
 
 
 <br/><br/>
