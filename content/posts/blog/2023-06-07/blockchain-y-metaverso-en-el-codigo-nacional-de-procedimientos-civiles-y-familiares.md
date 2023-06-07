@@ -17,7 +17,7 @@ El día de hoy se publicó en el Diario Oficial de la Federación el decreto por
 
 El nuevo Código destaca el uso de tecnologías de la información para garantizar una tecnología digital equitativa y segura, medios alternativos, la implementación de la oralidad, juicio oral sumario y creación de una plataforma electrónica.<br/><br/>
 
-Ahora se contemplan conceptos innovadores como la cadena de bloques o “blockchain” y el “metaverso” con las siguientes definiciones:<br/><br/>
+Ahora se contemplan conceptos innovadores como la cadena de bloques o ***“blockchain”*** y el ***“metaverso”*** con las siguientes definiciones:<br/><br/>
 
 > Cadena de bloques. Conjunto de tecnologías cuyas características buscan posibilitar la transferencia de valor en entornos digitales a través de métodos de consenso y cifrado. Desde un punto de vista técnico, y atendiendo a sus características, una cadena de bloques es una base de datos, descentralizada y distribuida en una red de computadoras, formada por un conjunto de registros vinculados donde se almacenan transacciones o datos, que han sido diseñados para evitar su modificación o manipulación no autorizada, una vez que un dato ha sido publicado. Una cadena de bloques es pública cuando es abierta, transparente, cualquiera puede unirse, tener acceso a ella, enviar transacciones y participar en el proceso de consenso o validación de datos. Se consideran cadenas de bloques sin permiso o no permisionadas, ya que no hay restricciones y la participación en ellas no está controlada por un administrador o por un cuerpo central de gobierno;<br/><br/>
 >
