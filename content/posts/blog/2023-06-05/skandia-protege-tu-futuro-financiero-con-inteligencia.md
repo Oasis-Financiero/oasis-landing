@@ -11,9 +11,19 @@ tags:
 ---
 <!--StartFragment-->
 
-En un entorno financiero en constante cambio, donde la estabilidad puede parecer esquiva, las inversiones seguras se convierten en un ancla vital para la seguridad y el crecimiento de los ahorros de cada individuo. Estas inversiones ofrecen una alternativa confiable y rentable a largo plazo, permitiendo que los millennials alcancen sus metas financieras sin comprometer su tranquilidad.<br/><br/>
+En un entorno financiero en constante cambio, donde la estabilidad puede parecer esquiva, las inversiones seguras se convierten en un ancla vital para la seguridad y el crecimiento de los ahorros de cada individuo. Estas inversiones ofrecen una alternativa confiable y rentable a largo plazo, permitiendo que las personas alcancen sus metas financieras sin comprometer su tranquilidad.<br/><br/>
 
 La importancia de contar con este instrumento financiero no puede ser subestimada. Más allá de simplemente ahorrar, las inversiones seguras permiten a través de una cuidadosa selección de instrumentos financieros diseñados para minimizar los riesgos, es posible obtener rendimientos estables y consistentes en el tiempo.<br/><br/>
+
+<!--StartFragment-->
+
+La visión de **Skandia** es ser uno de los aliados más confiables y apasionados en la contribución al logro de los objetivos financieros de sus clientes. Por esta razón, Skandia se preocupa por ofrecer productos que ponen a disposición de sus clientes una multiplataforma de inversión con los mejores fondos de renta variable y deuda, tanto a nivel nacional como internacional, provenientes de instituciones financieras sólidas y bien posicionadas en el mercado.<br/><br/>
+
+Asimismo, Skandia permite a sus clientes definir el manejo de su dinero a través de portafolios personalizados, o pueden optar por los novedosos Portafolios Premium o Portafolios Skandia.<br/><br/>
+
+Skandia cuenta con productos destacados como **MULTITRUST**, **CAPITAL SEGURO** y **CAPITAL PLUS**, cada uno diseñado para satisfacer diferentes necesidades y objetivos de inversión. Estos productos ofrecen a los clientes de Skandia la flexibilidad y diversificación necesarias para alcanzar sus metas financieras de manera eficiente y adaptada a sus circunstancias individuales.<br/><br/>
+
+<!--EndFragment-->
 
 ## **¿﻿Qué es Skandia?**<br/><br/>
 
@@ -25,7 +35,7 @@ Respaldada por un holding financiero internacional sólido, cuenta con un equipo
 
 ## **MULTITRUST**​​​​<br/><br/>
 
-#### PA​RA INVERSIONISTAS QUE DESEAN PRESERVAR SU CAPITAL.<br/><br/>
+#### **PA​RA INVERSIONISTAS QUE DESEAN PRESERVAR SU CAPITAL.**<br/><br/>
 
 <!--EndFragment-->
 
@@ -41,7 +51,7 @@ Multitrust es un producto de Skandia diseñado para inversionistas que desean pr
 
 ## **CAPITAL SEGURO**​​​​<br/><br/>
 
-#### **UNA INVERSIÓN QUE VALORA Y PROTEGE A LOS QUE MÁS AMA​**.<br/><br/>
+#### **UNA INVERSIÓN QUE VALORA Y PROTEGE A LOS QUE MÁS AMA​.**<br/><br/>
 
 Capital Seguro es una inversión diseñada para valorar y proteger a las personas más importantes en su vida. Se trata de un plan de inversión que combina dos beneficios clave, permitiéndole proteger a su familia, pareja, padres u otros seres queridos como beneficiarios, con un monto que puede ser hasta el doble de su saldo. Al mismo tiempo, este plan le brinda la oportunidad de mantener o aumentar el valor de su capital a través de una amplia variedad de instrumentos financieros tanto a nivel local como global.<br/><br/>
 
