@@ -46,20 +46,14 @@ Este nuevo Código Nacional entrará en vigor a más tardar el 1o. de abril de 2
 
 ***Entre la referida declaratoria y la entrada en vigor del Código Nacional, deberán mediar máximo 120 días naturales. En todos los casos, vencido el plazo, sin que se hubiera emitido dicha declaratoria, la entrada en vigor será automática en todo el territorio nacional.<br/><br/>***
 
-En suma, la llegada de este Código innova para mejorar sus procesos y dar mejores soluciones que afronten el cambio tecnológico reciente, contemplando la existencia del blockchain y del metaverso, abriendo la posibilidad de que los activos virtuales en blockchain públicas puedan entrar en los juicios sucesorios y en los juicios de divorcio, entre otros. No obstante, faltaría implementar en el Código Nacional de Procedimientos Penales estos conceptos, debido a que internacionalmente ya se están presentando casos de abuso sexual en el metaverso, por lo cual, en México debemos estar preparados para este tipo penal como para otros que también podrían suscitarse en los metaversos que existen y en los que se seguirán creando en un futuro muy próximo. 
+En suma, la llegada de este Código innova para mejorar sus procesos y dar mejores soluciones que afronten el cambio tecnológico reciente, contemplando la existencia del blockchain y del metaverso, abriendo la posibilidad de que los activos virtuales en blockchain públicas puedan entrar en los juicios sucesorios y en los juicios de divorcio, entre otros. No obstante, faltaría implementar en el Código Nacional de Procedimientos Penales estos conceptos, debido a que internacionalmente ya se están presentando casos de abuso sexual en el metaverso, por lo cual, en México debemos estar preparados para este tipo penal como para otros que también podrían suscitarse en los metaversos que existen y en los que se seguirán creando en un futuro muy próximo. <br/><br/>
 
 <!--EndFragment-->
 
-
-
 <!--StartFragment-->
 
-#### T﻿e recomendamos el artículo:
-
-<!--StartFragment-->
+#### T﻿e recomendamos el artículo:<br/><br/>
 
 # [Ahorro con poder: Skandia ofrece planes para alcanzar tus metas financieras.](https://www.oasisfinanciero.mx/blog/2023-06-03/ahorro-con-poder-skandia-ofrece-planes-para-alcanzar-tus-metas-financieras/)
-
-
 
 <!--EndFragment-->
