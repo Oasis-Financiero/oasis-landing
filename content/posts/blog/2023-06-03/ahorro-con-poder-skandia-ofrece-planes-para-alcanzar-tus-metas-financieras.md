@@ -73,3 +73,11 @@ Nuestros asesores te brindarán una atención personalizada y te ayudarán a sel
 Recuerda, el momento de comenzar a ahorrar es ahora. Haz clic en el enlace y da el primer paso hacia una vida financiera segura y próspera. ¡Te esperamos para acompañarte en esta emocionante travesía hacia el éxito financiero!<br/><br/>
 
 <!--EndFragment-->
+
+### **T﻿e recomendamos el artículo**:<br/><br/>
+
+<!--StartFragment-->
+
+# **[Skandia protege tu futuro financiero con inteligencia](https://www.oasisfinanciero.mx/blog/2023-06-05/skandia-protege-tu-futuro-financiero-con-inteligencia/)**
+
+<!--EndFragment-->
