@@ -1,18 +1,27 @@
 import React from "react";
 import Layout from "../components/layout";
 import Calculator from "../components/calculator";
-import wallet from '../images/landing/wallet.svg'
+// import wallet from '../images/landing/wallet.svg'
 import * as style from './compara.module.css'
 
 
 
 const Compara = () => {
+
     return (
         <Layout page='compara'>
-            <h1 id="title">Préstamos personales para surfear las emergencias</h1>
-            <div className='grid grid-cols-1 place-items-center md:flex flex-row justify-center'>
-                <Calculator />
-                <Calculator />
+            <div className='flex flex-col min-w-full justify-center md:flex md:justify-center md:items-center'>
+
+                <div className="md:flex md:flex-col md:justify-center md:items-start md:p-[100px]">
+                <h1 id={style.title}>Préstamos personales para <span id={style.word}>surfear</span> las emergencias</h1>
+                    <div className="p-5 md:flex md:flex-row md:gap-2">
+                        <Calculator className="" />
+                        <Calculator className="" />
+                    </div>
+                </div>
+
+
+
             </div>
         </Layout>
     )
