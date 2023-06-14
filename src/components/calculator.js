@@ -1,8 +1,8 @@
 import React from "react";
 import * as style from './calculator.module.css'
 import Box from '@mui/material/Box';
-import Sliders from "./styled/Slider/Slider";
 import tailwind from "./calculator.tailwind";
+import AppSlider from "./styled/Slider/Slider";
 
 
 
@@ -17,17 +17,17 @@ const Calculator = () => {
 
                 <div className={tailwind.titleContainer}>
                     <h1 id={style.slideTitle}>Préstamo: <b>$40,000 mxn</b></h1>
-                    <Sliders />
+                    <AppSlider />
                 </div>
 
                 <div className={tailwind.titleContainer}>
                     <h1 id={style.slideTitle}>Ingresos: <b>$20,000 mxn</b></h1>
-                    <Sliders />
+                    <AppSlider />
                 </div>
 
                 <div className={tailwind.titleContainer}>
                     <h1 id={style.slideTitle}>Préstamo: <b>$40,000 mxn</b></h1>
-                    <Sliders />
+                    <AppSlider />
                 </div>
             </div>
         </Box>

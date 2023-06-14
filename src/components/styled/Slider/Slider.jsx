@@ -3,7 +3,7 @@ import { Slider } from "@mui/material";
 import styles from "./styles";
 import colors from "../../../constants/colors";
 
-const Sliders = () => {
+const AppSlider = () => {
     return (
         <>
             <Slider
@@ -23,4 +23,4 @@ const Sliders = () => {
     )
 }
 
-export default Sliders
+export default AppSlider
