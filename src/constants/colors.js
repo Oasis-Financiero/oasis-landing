@@ -6,7 +6,8 @@ const colors = {
     logo: '#6B5FB9',
     fdoGris: '#F9F9F9',
     fdoCalido: '#F8F8F2',
-    gris: '#A4ABB5'
+    gris: '#A4ABB5',
+    slide: '#4D5C75'
 }
 
 export default colors
