@@ -3,7 +3,7 @@ import * as style from './calculator.module.css'
 import Box from '@mui/material/Box';
 import tailwind from "./calculator.tailwind";
 import AppSlider from "./styled/Slider/Slider";
-import Dropdown from "./styled/Dropdown/Dropdown";
+import AppSelect from "./styled/Dropdown/Dropdown";
 
 
 
@@ -31,7 +31,7 @@ const Calculator = () => {
                 </div>
 
                 <div className={`${tailwind.titleContainer} ${tailwind.dropdown}`}>
-                    <Dropdown 
+                    <AppSelect 
                     title="Pago Mensual"
                     tagLabel="Pago Mensual"
                     items={pagos}
@@ -44,7 +44,7 @@ const Calculator = () => {
                 </div>
 
                 <div className={`${tailwind.titleContainer} ${tailwind.dropdown}`}>
-                    <Dropdown 
+                    <AppSelect 
                     title="Ciudad de Mexico"
                     tagLabel="Ciudad de Mexico"
                     items={ciudades}

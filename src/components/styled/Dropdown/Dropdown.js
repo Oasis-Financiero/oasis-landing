@@ -10,25 +10,10 @@ import { SlArrowDown } from 'react-icons/sl'
 
 
 
-const Dropdown = ({ title, tagLabel, items }) => {
+const AppSelect = ({ title, tagLabel, items }) => {
 
-    const CustomizeSelect = styled(Select)`
-    border-radius: 6px;
-    background-color : #F9F9F9;
-
-    & .${selectClasses.icon} {
-        color: ${colors.resalte1};
-      }
+    const SelectComponent = styled(Select)`
     
-      & .${outlinedInputClasses.notchedOutline} {
-        border-color: ${colors.resalte1};
-      }
-    
-      &.${outlinedInputClasses.focused} .${outlinedInputClasses.notchedOutline} 
-      {
-        border-color: ${colors.resalte1};
-        
-      }
     
     `
 
@@ -41,12 +26,31 @@ const Dropdown = ({ title, tagLabel, items }) => {
         <>
             <FormControl sx={{ m: 1, width: 214 }} size="small">
                 <InputLabel id="demo-simple-select-helper-label">{tagLabel}</InputLabel>
-                <CustomizeSelect
+                <SelectComponent
                     labelId="demo-simple-select-helper-label"
                     id="demo-simple-select-helper"
                     label={title}
                     autoWidth
                     IconComponent={SlArrowDown}
+                    sx={`
+                    border-radius: 6px;
+                    background-color : #F9F9F9;
+
+                    & .${selectClasses.icon} 
+                    {
+                    color: ${colors.resalte1};
+                    }
+
+                    & .${outlinedInputClasses.notchedOutline} 
+                    {
+                    border-color: ${colors.resalte1};
+                    }
+    
+                    &.${outlinedInputClasses.focused} .${outlinedInputClasses.notchedOutline} 
+                    {
+                    border-color: ${colors.resalte1};
+                            
+                    }`}
                 >
 
                     <MenuItem value="">
@@ -54,10 +58,10 @@ const Dropdown = ({ title, tagLabel, items }) => {
                     </MenuItem>
 
                     {item}
-                </CustomizeSelect>
+                </SelectComponent>
             </FormControl>
         </>
     )
 }
 
-export default Dropdown
+export default AppSelect
