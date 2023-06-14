@@ -10,13 +10,13 @@ const Compara = () => {
 
     return (
         <Layout page='compara'>
-            <div className='flex flex-col min-w-full justify-center md:flex md:justify-center md:items-center'>
+            <div className='flex flex-col justify-center md:flex md:justify-center md:items-center'>
 
                 <div className="md:flex md:flex-col md:justify-center md:items-start md:p-[100px]">
                 <h1 id={style.title}>Préstamos personales para <span id={style.word}>surfear</span> las emergencias</h1>
-                    <div className="p-5 md:flex md:flex-row md:gap-2">
-                        <Calculator className="" />
-                        <Calculator className="" />
+                    <div className="flex flex-col gap-12 p-3 md:flex md:flex-row md:gap-2">
+                        <Calculator/>
+                        <Calculator/>
                     </div>
                 </div>
 

@@ -110,7 +110,7 @@ function Header() {
         <div id={headerStyles.buttonWrapper}>
           <button
             id={headerStyles.navButton}
-            className="flex items-center block px-3 py-2 text-black border border-black rounded"
+            className=" items-center block px-3 py-2 text-black border border-black rounded"
             onClick={() => toggleExpansion(!isExpanded)}
           >
             <svg

@@ -37,3 +37,16 @@
     padding-top: 28px;
     font: normal normal bold 22px/26px Poppins;
 }
+
+@media (max-width:960px) {
+    #title{
+      font-size: 28px;
+    }
+}
+
+#slideTitle{
+  font-size: 15px;
+  text-align: center;
+  font-weight: 400;
+  font-family: Poppins;
+}
