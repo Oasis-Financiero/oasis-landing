@@ -1,6 +1,7 @@
 --- 
 date: '2020-11-19' 
 title: 'Cómo invertir en tu retiro con el ahorro voluntario' 
+author: 'coronagenaro@gmail.com'
 image: 'ahorromonedas.jpg'
 imageAlt: 'Ahorro creciente'
 tags: ["inversion"]

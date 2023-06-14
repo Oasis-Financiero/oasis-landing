@@ -53,33 +53,61 @@
           url('../fonts/NunitoSans-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/Manrope-Regular.woff2') format('woff2'),
+      url('../fonts/Manrope-Regular.woff') format('woff'),
+      url('../fonts/Manrope-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/Manrope-SemiBold.woff2') format('woff2'),
+      url('../fonts/Manrope-SemiBold.woff') format('woff'),
+      url('../fonts/Manrope-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/Manrope-Bold.woff2') format('woff2'),
+      url('../fonts/Manrope-Bold.woff') format('woff'),
+      url('../fonts/Manrope-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
 :root {
+  --titleBlack: #042552;
   --titleBlue: #526A9B;
   --subTitleGray: #494949;
   --paraTextGray: #5B5766;
   --accentPurple: #6B5FB9;
   --backgroundBlue: #F1F4F8;
   --itemBlue: #F0F6F9;
-  --bannerGradient: linear-gradient(#F1F4F8, #ECFEFB)
+  --bannerGradient: linear-gradient(#F1F4F8, #ECFEFB);
+  --secondaryBackground: #F9F7F8B8;
 }
 
 /* * { border: 1px solid goldenrod; }
   */
 .title{
+  font-family: Manrope;
+  color: var(--titleBlack);
+  font-weight: 700;
+}
+
+.sectionHeader {
+  font-family: Manrope;
+  color: var(--accentTextPurple);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.sectionDetails {
   font-family: Poppins;
-  color: var(--titleBlue);
-  font-weight: 400;
-}
-
-.titleWhite {
-  composes: title;
-  color: #ffffff;
-}
-
-.subTitle {
-  composes: title;
   color: var(--subTitleGray);
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .titleThin {
@@ -95,11 +123,6 @@
 .titleBold {
   composes: title;
   font-weight: 700;
-}
-
-.titleBoldWhite {
-  composes: titleBold;
-  color: #ffffff
 }
 
 .titleAccent {
@@ -118,53 +141,102 @@
   color: var(--paraTextGray);
 }
 
-.paraTextWhite {
-  composes: paraText;
-  color: #ffffff;
-}
 
 input:focus {
   outline: none;
 }
 
-#mobileHeader {
-  display: none;
-  width: 100%;
-}
-
-#blogHeader {
-  height: 300px;
-  position: relative;
-  display: flex;
-  justify-content: flex-end;
-  background-image: url("../images/blog/blogbanner.png");
+/* Hero */
+#hero {
+  height: calc(100vh - 66px);
+  max-height: 750px;
   background-size: cover;
-  background-position: center
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
 }
 
-#bannerText {
-  width: 40%;
-  height: 100%;
+#heroContent {
+  width: 85%;
+  max-width: 1300px;
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 30px;
+}
+
+#heroText {
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+#textWrapper {
+  max-width: 480px;
+  width: 100%;
+}
+
+#heroFirstLine, #heroSecondLine {
+  font-size: 3rem;
+  line-height: 1.3em;
+}
+
+#heroParagraph {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+#heroIllustration {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#characterSvg {
+  width: 100%;
+  max-width: 500px;
+  z-index: 30;
+  margin-right: 30px;
+}
+
+#heroButtons {
+  margin-top: 23px;
+  display: flex;
+  column-gap: 10px
+}
+
+.purpleBtn {
+  height: 35px;
+  background-color: var(--accentPurple);
+  border-radius: 5px;
+  padding: 12.5px 20px;
+  line-height: 10px;
+  vertical-align: middle;
+  font-size: .75em;
+  font-family: Poppins;
+  font-weight: 600;
+  color: #ffffff
+}
+
+.transparentBtn {
+  composes: purpleBtn;
+  background-color: initial;
+  color: var(--accentPurple);
+}
+
+/* */
+
+.blogPostsWrapper, .centralBlogPostWrapper, #bestPostsList {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
-#bannerTitle {
-  font-size: 1.7rem;
-  width: 80%
-}
-
-#bannerSubTitle {
-  margin-top: 5px;
-  font-size: 1.1em;
-  font-weight: initial;
-  width: 80%
-}
-
-#bannerSpan {
-  display: block;
+.centralBlogPostWrapper {
+  background-color: var(--secondaryBackground);
 }
 
 #blogMain {
@@ -174,7 +246,10 @@ input:focus {
 
 #blogWrapper {
   width: 100%;
-  max-width: 1300px;
+}
+
+.carousel {
+  
 }
 
 /* ------------ Recent posts section -------------- */
@@ -182,6 +257,8 @@ input:focus {
 #recentPostsTitle {
   text-align: center;
   margin-top: 40px;
+  margin-bottom: 15px;
+  font-size: 2em;
 }
 
 #recentPostList {
@@ -195,45 +272,73 @@ input:focus {
 
 #bestPosts{
   margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+#bestPostsHeader {
+
 }
 
 #bestPostsTitle {
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 15px;
-}
-
-#bestPostsList {
-  padding: 0px calc(60px + .6%);
-}
-
-
-/* ------------ Topical sections -------------- */
-
-#topicOne {
-  margin-top: 40px;
-}
-
-#topicTwo {
   margin-top: 30px;
-  margin-bottom: 40px
+  margin-bottom: 40px;
+  font-size: 2em;
 }
 
-#topicHeader {
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: linear-gradient(#F1F4F8, #ECFEFB);
-  margin: 0px calc(60px + 1%)
-}
+@media (max-width: 767px) {
 
-#topicOneTitle {
-  text-align: center;
-}
+  #hero {
+    height: auto;
+    max-height: none;
+  }
 
-.topicPostList {
-  padding: 0px calc(60px + .6%);
+  #heroContent {
+    padding-top: 50px;
+    flex-wrap: wrap;
+  }
+
+  #heroText {
+    width: 100%;
+    align-items: center;
+  }
+
+  #textWrapper {
+    max-width: initial;
+    width: 90%;
+  }
+
+  #heroFirstLine {
+    font-size: 2.2rem;
+    line-height: 1.3em;
+  }
+
+  #heroFirstLine, #heroParagraph {
+    text-align: center;
+  }
+
+  #heroButtons {
+    justify-content: center;
+  }
+
+  #heroIllustration {
+    align-items: center;
+  }
+
+  #characterSvg {
+    width: 70%;
+    margin-top: 50px;
+    margin-right: 0px;
+  }
+
+  .blogPostsWrapper {
+    margin: 50px 0px;
+  }
+
+  #bestPostsList {
+    padding: 0px 7.6%;
+  }
+
 }
 
 @media screen and (max-width: 539px) {
@@ -251,49 +356,31 @@ input:focus {
     padding: 40px 0px;
   }
 
-  #bannerText {
-    width: 100%;
-    height: 100%;
+  #recentPostsTitle {
+    margin-top: 80px;
+    font-size: 1.8em;
   }
 
-  #bannerTitle {
-    font-size: 1.5rem;
+  .blogPostsWrapper {
+    margin: 30px 0px;
   }
 
-  #bannerSubTitle {
-    font-size: 1em;
+  #bestPosts {
+    margin-bottom: 30px;
   }
 
-  #bannerSpan {
-    display: initial;
+  #bestPostsTitle {
+    margin-top: 60px;
+    margin-bottom: 20px;
   }
 
   #bestPostsList {
-    padding: 0px 7.6%;
+    padding: 0px 0px;
   }
 
-  #recentPostList {
-    margin-top: 25px;
-    padding: 0px 8%;
-  }
-
-  #topicHeader {
-    margin: 0px 8%;
-  }
-
-  .topicPostList {
-    padding: 0px 7.6%;
-  }
-
-  #topicOne {
-    margin-top: 0px;
-  }
-
-  #topicTwo {
-    margin-top: 20px;
-  }
-
-  #bestPosts{
-    margin-top: 0px;
+  #recentPostsTitle, #bestPostsTitle {
+    text-align: left;
+    padding: 0px calc(20px + 5%);
+    font-size: 1.6em;
   }
 }

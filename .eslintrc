@@ -5,7 +5,13 @@
     "node": true
   },
   // https://github.com/babel/babel-eslint
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "requireConfigFile": false,
+    "babelOptions": {
+      "presets": ["@babel/preset-react"]
+   }
+  },
   "rules": {
     // https://eslint.org/docs/2.0.0/rules/strict
     "strict": 0

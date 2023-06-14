@@ -1,6 +1,7 @@
 --- 
 date: '2020-04-14' 
 title: 'Soft skills y Hard skills: Las habilidades en las que necesitas invertir' 
+author: 'coronagenaro@gmail.com'
 image: 'habilidades-para-startups.png'
 imageAlt: 'El analisis de datos es una habilidad en alta demanda'
 tags: ["promovidos"]

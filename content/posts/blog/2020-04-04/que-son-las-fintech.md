@@ -1,6 +1,7 @@
 --- 
 date: '2020-04-04' 
 title: 'Fintech ¿Qué son y que alternativas existen?' 
+author: 'coronagenaro@gmail.com'
 image: 'fintech-opciones.png'
 imageAlt: 'Elige la fintech que mas te conviene'
 --- 

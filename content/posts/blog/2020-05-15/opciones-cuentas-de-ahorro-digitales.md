@@ -1,6 +1,7 @@
 --- 
 date: '2020-05-15' 
 title: 'Cuentas de ahorro digitales ¿Qué opciones existen?' 
+author: 'coronagenaro@gmail.com'
 image: 'cuentas-ahorro-digitales.jpg'
 imageAlt: 'Opciones de cuentas de ahorro'
 --- 

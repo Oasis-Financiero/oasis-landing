@@ -15,10 +15,11 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-eslint`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-netlify-cms`,
     {
       resolve: 'gatsby-plugin-gtag',
       options: {
-        trackingId: 'UA-162797637-2',
+        trackingId: 'G-F9ZWN5BH73',
         head: true,
         anonymize: true,
       }  
@@ -47,6 +48,19 @@ module.exports = {
           { resolve: `gatsby-remark-smartypants` },
         ],
         remarkPlugins: [require(`remark-slug`)],
+      },
+    },
+    {
+      resolve: "gatsby-transformer-json",
+        options: {
+          path: `content/authors`,
+        },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `content/authors`,
+        name: `content/authors`,
       },
     },
     {
@@ -101,7 +115,9 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`
+    `gatsby-transformer-json`
   ],
 };

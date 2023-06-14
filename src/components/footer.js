@@ -1,8 +1,8 @@
 import React from "react";
 
-import styles from "./footer.module.css"
+import * as styles from "./footer.module.css"
 
-import oasisNombre from "../images/logos/logo-nombre.svg";
+import oasisNombre from "../images/logos/logo-oasis.svg";
 import facebook from "../images/social/facebook-dark.svg";
 import twitter from "../images/social/twitter-dark.svg";
 import linkedin from "../images/social/linkedin-dark.svg";
@@ -62,7 +62,7 @@ function Footer() {
         </div>
       </div>
       <div id={styles.legalInfo}>
-        <div> © Oasis Financiero 2020 </div>
+        <div> © Oasis Financiero 2022 </div>
         <div id={styles.privacyPolicy}> Aviso de Privacidad </div>
       </div>
 

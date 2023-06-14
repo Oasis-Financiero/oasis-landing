@@ -3,7 +3,7 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import abductionIllustration from "../images/abduction-illustration.svg";
-import styles from "./404.module.css";
+import * as styles from "./404.module.css";
 
 function NotFoundPage() {
   return (
