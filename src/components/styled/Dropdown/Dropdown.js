@@ -20,6 +20,7 @@ const AppSelect = ({ title, tagLabel, items }) => {
             <FormControl sx={{ m: 1, width: 214 }} size="small">
                 <InputLabel sx={{
                     fontFamily: 'Inter',
+                    fontWeight:'regular',
                     fontSize: '14px'
                 }}>{tagLabel}</InputLabel>
                 <Select
