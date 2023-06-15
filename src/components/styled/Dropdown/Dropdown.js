@@ -17,7 +17,9 @@ const AppSelect = ({ title, tagLabel, items }) => {
 
     return (
         <>
-            <FormControl sx={{ m: 1, width: 214 }} size="small">
+            <FormControl sx={{
+                m: 1,
+            }} size="small">
                 <InputLabel sx={{
                     fontFamily: 'Inter',
                     fontSize: '14px'
@@ -28,7 +30,7 @@ const AppSelect = ({ title, tagLabel, items }) => {
                         '& .MuiSelect-icon': {
                             fill: colors.resalte1,
                         },
-                
+
                         '& .MuiSelect-outlined': {
                             border: `2px solid ${colors.resalte1}`,
                             borderRadius: '6px',
@@ -37,6 +39,7 @@ const AppSelect = ({ title, tagLabel, items }) => {
                     }}
                     inputProps='Without label'
                     displayEmpty
+                    className="w-[166px] md:w-[214px]"
                 >
                     <MenuItem value="">
                         <em>{title}</em>
