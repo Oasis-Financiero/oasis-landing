@@ -1,4 +1,5 @@
 import React from "react";
+import './Dropdown.css'
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
@@ -17,7 +18,10 @@ const AppSelect = ({ title, tagLabel, items }) => {
     return (
         <>
             <FormControl sx={{ m: 1, width: 214 }} size="small">
-                <InputLabel>{tagLabel}</InputLabel>
+                <InputLabel sx={{
+                    fontFamily: 'Inter',
+                    fontSize: '14px'
+                }}>{tagLabel}</InputLabel>
                 <Select
                     IconComponent={SlArrowDown}
                     sx={{
