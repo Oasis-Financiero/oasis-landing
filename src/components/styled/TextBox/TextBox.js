@@ -29,6 +29,7 @@ const AppTextBox = ({ label }) => {
                             fontFamily: 'Inter',
                             backgroundColor: colors.fdoGris,
                         }}
+                    className="w-[166px] md:w-[214px]"
                     />
                 </div>
             </Box>
