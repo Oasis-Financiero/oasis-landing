@@ -1,25 +1,18 @@
-import { selectClasses } from '@mui/material/Select';
-import { outlinedInputClasses } from "@mui/material";
 import colors from "../../../constants/colors";
 
-const selectStyle = `
-border-radius: 6px;
-background-color : #F9F9F9;
+const styles = {
+    selectComp: {
+        '& .MuiSelect-icon': {
+            fill: colors.resalte1,
+        },
 
-& .${selectClasses.icon} 
-{
-color: ${colors.resalte1};
+        '& .MuiSelect-outlined': {
+            border: `2px solid ${colors.resalte1}`,
+            borderRadius: '6px',
+            backgroundColor: colors.fdoGris,
+        }
+    }
+
 }
 
-& .${outlinedInputClasses.notchedOutline} 
-{
-border-color: ${colors.resalte1};
-}
-
-&.${outlinedInputClasses.focused} .${outlinedInputClasses.notchedOutline} 
-{
-border-color: ${colors.resalte1};
-        
-}`
-
-export default selectStyle
+export default styles

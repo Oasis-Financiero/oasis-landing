@@ -46,7 +46,7 @@ const Calculator = () => {
                 <div className={`${tailwind.titleContainer} ${tailwind.dropdown}`}>
                     <AppSelect 
                     title="Ciudad de Mexico"
-                    tagLabel="Ciudad de Mexico"
+                    tagLabel="Ciudad"
                     items={ciudades}
                     />
                 </div>
