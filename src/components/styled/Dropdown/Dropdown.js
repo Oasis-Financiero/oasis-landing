@@ -7,7 +7,7 @@ import Select from '@mui/material/Select';
 import { SlArrowDown } from 'react-icons/sl'
 import colors from "../../../constants/colors";
 
-const AppSelect = ({ title, tagLabel, items }) => {
+const AppSelect = ({ title, tagLabel, items, width }) => {
 
     const item = items.map(i => {
         return (
@@ -39,7 +39,7 @@ const AppSelect = ({ title, tagLabel, items }) => {
                     }}
                     inputProps='Without label'
                     displayEmpty
-                    className="w-[166px] md:w-[214px]"
+                    className={width}
                 >
                     <MenuItem value="">
                         <em>{title}</em>

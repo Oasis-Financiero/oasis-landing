@@ -33,6 +33,7 @@ const Calculator = () => {
 
                 <div className={`${tailwind.titleContainer} ${tailwind.dropdown}`}>
                     <AppSelect
+                        width="w-[214px]"
                         title="Pago Mensual"
                         tagLabel="Pago Mensual"
                         items={pagos}
@@ -47,7 +48,7 @@ const Calculator = () => {
             </div>
 
             <div className="flex flex-row md:flex md:flex-row md:justify-center">
-                
+
                 <div>
                     <AppTextBox
                         label='Correo electronico'
@@ -56,6 +57,7 @@ const Calculator = () => {
 
                 <div>
                     <AppSelect
+                        width="w-[166px] md:w-[214px]"
                         title="Ciudad"
                         tagLabel="Ciudad"
                         items={ciudades}
