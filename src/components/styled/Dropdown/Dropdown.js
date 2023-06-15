@@ -4,7 +4,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import { SlArrowDown } from 'react-icons/sl'
-import styles from "./styles";
+import colors from "../../../constants/colors";
 
 const AppSelect = ({ title, tagLabel, items }) => {
 
@@ -20,7 +20,17 @@ const AppSelect = ({ title, tagLabel, items }) => {
                 <InputLabel>{tagLabel}</InputLabel>
                 <Select
                     IconComponent={SlArrowDown}
-                    sx={styles.selectComp}
+                    sx={{
+                        '& .MuiSelect-icon': {
+                            fill: colors.resalte1,
+                        },
+                
+                        '& .MuiSelect-outlined': {
+                            border: `2px solid ${colors.resalte1}`,
+                            borderRadius: '6px',
+                            backgroundColor: colors.fdoGris,
+                        }
+                    }}
                     inputProps='Without label'
                     displayEmpty
                 >
