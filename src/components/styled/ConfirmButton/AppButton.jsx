@@ -8,7 +8,7 @@ const AppButton = () => {
             <div>
                 <button
                     id="button"
-                    className={`flex flex-row justify-center items-center w-[214px] p-2`}
+                    className={`flex flex-row justify-center items-center p-2`}
                 >
                     Calcular préstamo
                     <MdOutlineKeyboardArrowRight
