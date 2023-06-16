@@ -5,6 +5,7 @@ import tailwind from "./calculator.tailwind";
 import AppSlider from "./styled/Slider/Slider";
 import AppSelect from "./styled/Dropdown/Dropdown";
 import AppTextBox from "./styled/TextBox/TextBox";
+import AppButton from "./styled/ConfirmButton/AppButton";
 
 
 
@@ -63,6 +64,12 @@ const Calculator = () => {
                         items={ciudades}
                     />
                 </div>
+            </div>
+
+            <div className={'flex justify-center items-center p-8 md:p-6'}>
+                <AppButton
+                tag="Calcular préstamo"
+                />
             </div>
 
         </Box>
