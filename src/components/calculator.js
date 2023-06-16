@@ -4,6 +4,7 @@ import Box from '@mui/material/Box';
 import tailwind from "./calculator.tailwind";
 import AppSlider from "./styled/Slider/Slider";
 import AppSelect from "./styled/Dropdown/Dropdown";
+import AppTextBox from "./styled/TextBox/TextBox";
 
 
 
@@ -31,10 +32,11 @@ const Calculator = () => {
                 </div>
 
                 <div className={`${tailwind.titleContainer} ${tailwind.dropdown}`}>
-                    <AppSelect 
-                    title="Pago Mensual"
-                    tagLabel="Pago Mensual"
-                    items={pagos}
+                    <AppSelect
+                        width="w-[214px]"
+                        title="Pago Mensual"
+                        tagLabel="Pago Mensual"
+                        items={pagos}
                     />
                 </div>
 
@@ -43,15 +45,26 @@ const Calculator = () => {
                     <AppSlider />
                 </div>
 
-                <div className={`${tailwind.titleContainer} ${tailwind.dropdown}`}>
-                    <AppSelect 
-                    title="Ciudad"
-                    tagLabel="Ciudad"
-                    items={ciudades}
+            </div>
+
+            <div className="flex flex-row md:flex md:flex-row md:justify-center">
+
+                <div>
+                    <AppTextBox
+                        label='Correo electronico'
                     />
                 </div>
 
+                <div>
+                    <AppSelect
+                        width="w-[166px] md:w-[214px]"
+                        title="Ciudad"
+                        tagLabel="Ciudad"
+                        items={ciudades}
+                    />
+                </div>
             </div>
+
         </Box>
 
     )
