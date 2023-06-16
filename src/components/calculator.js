@@ -67,7 +67,9 @@ const Calculator = () => {
             </div>
 
             <div className={'flex justify-center items-center p-8 md:p-6'}>
-                <AppButton/>
+                <AppButton
+                tag="Calcular préstamo"
+                />
             </div>
 
         </Box>
