@@ -3,6 +3,7 @@ import Layout from "../components/layout";
 import Calculator from "../components/calculator";
 import wallet from '../images/herramientas/img-prestamos-personales-main.webp'
 import * as style from './compara.module.css'
+import AppFaq from "../components/styled/FAQs/AppFaq";
 
 
 
@@ -23,6 +24,11 @@ const Compara = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+
+
+            <div>
+                <AppFaq/>
             </div>
         </Layout>
     )
