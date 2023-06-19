@@ -27,7 +27,8 @@ const Compara = () => {
             </div>
 
 
-            <div>
+            <div className="flex flex-col gap-2">
+                <h1 className="flex justify-center" id={style.faq}>FAQs</h1>
                 <AppFaq/>
             </div>
         </Layout>

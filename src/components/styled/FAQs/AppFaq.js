@@ -46,7 +46,7 @@ const AppFaq = () => {
         <div className="flex justify-center">
             <div className="flex flex-col md:grid md:grid-cols-2 md:gap-6">
                 {menuItems.map((item, index) => (
-                    <div key={index} className="p-4 md:w-[500px] border-b-2">
+                    <div key={index} className="p-4 md:w-[500px] border-b-4">
                         <span
                             className="flex flex-row w-[340px] items-center justify-between md:w-[450px]"
                             id={style.question}
@@ -63,7 +63,7 @@ const AppFaq = () => {
                             </div>
                         </span>
                         {activeIndex === index && (
-                            <div className="w-[336px]">{item.answer}</div>
+                            <div className="w-full">{item.answer}</div>
                         )}
                     </div>
                 ))}
