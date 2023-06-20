@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FaPlus } from 'react-icons/fa'
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
@@ -9,18 +9,22 @@ import '../Dropdown/Dropdown.css'
 
 
 const AppAccordion = ({ item }) => {
+    const [expanded, setExpanded] = useState(null)
 
+    const handleChange = (index) => (event, isExpanded) => {
+        setExpanded(isExpanded ? index : null)
+    }
 
-    const accordion = item.map((items) => {
+    const accordion = item.map((items, index) => {
 
         return <div className='border-b-4 p-2'>
             <Accordion
+            expanded={expanded === index} onChange={handleChange(index)}
                 elevation={0}
                 square
                 sx={{
                     maxWidth: 520,
                     borderBottom: '1px solid black',
-
                 }}
             >
                 <AccordionSummary
