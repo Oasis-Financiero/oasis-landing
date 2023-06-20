@@ -16,6 +16,10 @@
     font: normal normal 600 40px/50px Poppins;
 }
 
+#titles{
+    font: normal normal 600 40px/50px Poppins;
+}
+
 @media (max-width:960px) {
     #title{
         font: normal normal 600 28px/34px Poppins;
@@ -23,6 +27,11 @@
         padding-left: 25px;
         padding-bottom: 10px;
         padding-top: 20px;
+    }
+
+    #titles{
+        font: normal normal 600 28px/34px Poppins;
+
     }
 }
 
