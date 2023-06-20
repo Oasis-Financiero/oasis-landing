@@ -1,11 +1,4 @@
-import React, { useState } from 'react';
-import { FaPlus } from 'react-icons/fa'
-import * as style from './AppFaq.module.css'
-import colors from '../../../constants/colors'
-import Accordion from '@mui/material/Accordion';
-import AccordionSummary from '@mui/material/AccordionSummary';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import Typography from '@mui/material/Typography';
+import React from 'react';
 import AppAccordion from '../Accordion/Accordion';
 
 const AppFaq = () => {

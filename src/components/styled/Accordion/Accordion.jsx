@@ -21,15 +21,15 @@ const AppAccordion = ({ item, item2 }) => {
                 sx={{
                     maxWidth: 500,
                     borderBottom: '1px solid black',
-                    
+
                 }}
             >
                 <AccordionSummary
                     expandIcon={<FaPlus style={{ fill: colors.resalte1, fontSize: 25 }}
                     />}
                 >
-                    <Typography sx={{ fontFamily: 'Poppins', fontWeight:'bold' }} className="font-bold">
-                        {items.question}<span style={{color: 'transparent'}}>...............................</span>
+                    <Typography sx={{ fontFamily: 'Poppins', fontWeight: 'bold' }} className="font-bold">
+                        {items.question}<span style={{ color: 'transparent' }}>...............................</span>
                     </Typography>
                 </AccordionSummary>
                 <AccordionDetails
@@ -60,7 +60,7 @@ const AppAccordion = ({ item, item2 }) => {
                         id="panel1bh-header"
                     />}
                 >
-                    <Typography sx={{ fontFamily: 'Poppins', fontWeight:'bold' }}>
+                    <Typography sx={{ fontFamily: 'Poppins', fontWeight: 'bold' }}>
                         {items.question}
                     </Typography>
                 </AccordionSummary>
