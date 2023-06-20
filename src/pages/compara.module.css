@@ -8,7 +8,15 @@
     color: #A86EFF ;
 }
 
+#faqc{
+    background-color: #F9F9F9 ;
+}
+
 #faq{
+    font: normal normal 600 40px/50px Poppins;
+}
+
+#titles{
     font: normal normal 600 40px/50px Poppins;
 }
 
@@ -19,6 +27,11 @@
         padding-left: 25px;
         padding-bottom: 10px;
         padding-top: 20px;
+    }
+
+    #titles{
+        font: normal normal 600 28px/34px Poppins;
+
     }
 }
 
