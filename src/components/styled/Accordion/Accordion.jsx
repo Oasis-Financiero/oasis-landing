@@ -6,7 +6,6 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import colors from '../../../constants/colors';
 import '../Dropdown/Dropdown.css'
-import * as styles from './Accordion.modules.css'
 
 
 const AppAccordion = ({ item, item2 }) => {
