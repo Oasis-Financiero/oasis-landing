@@ -48,7 +48,7 @@ const Calculator = () => {
 
             </div>
 
-            <div className="flex flex-row md:flex md:flex-row md:justify-center">
+            <div className="flex flex-row justify-center md:flex md:flex-row md:justify-center">
 
                 <div>
                     <AppTextBox
