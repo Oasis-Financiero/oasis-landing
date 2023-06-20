@@ -36,10 +36,13 @@ const AppFaq = () => {
     ]
 
     return (
-        <div className='flex justify-center'>
+        <div className='md:flex md:justify-center'>
             <AppAccordion
                 item={menuItems}
-                item2={menuItems2}
+            />
+
+            <AppAccordion
+                item={menuItems2}
             />
         </div>
     );

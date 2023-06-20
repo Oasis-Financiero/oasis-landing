@@ -8,18 +8,17 @@ import colors from '../../../constants/colors';
 import '../Dropdown/Dropdown.css'
 
 
-const AppAccordion = ({ item, item2 }) => {
+const AppAccordion = ({ item }) => {
 
 
     const accordion = item.map((items) => {
 
         return <div className='border-b-4 p-2'>
-
             <Accordion
                 elevation={0}
                 square
                 sx={{
-                    maxWidth: 500,
+                    maxWidth: 520,
                     borderBottom: '1px solid black',
 
                 }}
@@ -39,59 +38,16 @@ const AppAccordion = ({ item, item2 }) => {
                         }}
                         className="font-bold"
                     >
-                        {items.question}<span style={{ color: 'transparent' }}>...............................</span>
-                    </Typography>
-                </AccordionSummary>
-                <AccordionDetails
-                >
-                    <Typography>
-                        {items.answer}
-                    </Typography>
-                </AccordionDetails>
-            </Accordion>
-
-        </div>
-    })
-
-    const accordion2 = item2.map((items) => {
-
-        return <div className='border-b-4 p-2'>
-
-            <Accordion
-                elevation={0}
-                square
-                sx={{
-                    maxWidth: 500,
-                    borderBottom: '1px solid black'
-                }}
-            >
-                <AccordionSummary
-                    expandIcon={<FaPlus
-                        style={{
-                            fill: colors.resalte1,
-                            fontSize: 25
-                        }}
-                        id="panel1bh-header"
-                    />}
-                >
-                    <Typography
-                        sx={{
-                            fontFamily: 'Poppins',
-                            fontWeight: 'bold'
-                        }}
-                    >
                         {items.question}
                     </Typography>
                 </AccordionSummary>
                 <AccordionDetails
-
                 >
                     <Typography>
                         {items.answer}
                     </Typography>
                 </AccordionDetails>
             </Accordion>
-
         </div>
     })
 
@@ -100,10 +56,6 @@ const AppAccordion = ({ item, item2 }) => {
         <div className='md:flex md:flex-row'>
             <div className="">
                 {accordion}
-            </div>
-
-            <div>
-                {accordion2}
             </div>
         </div>
 
