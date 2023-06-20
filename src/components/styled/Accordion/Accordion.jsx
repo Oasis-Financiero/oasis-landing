@@ -8,22 +8,15 @@ import colors from '../../../constants/colors';
 import '../Dropdown/Dropdown.css'
 
 
-const AppAccordion = ({ item }) => {
-    const [expanded, setExpanded] = useState(null)
+const AppAccordion = ({ question, answer }) => {
 
-    const handleChange = (index) => (event, isExpanded) => {
-        setExpanded(isExpanded ? index : null)
-    }
-
-    const accordion = item.map((items, index) => {
-
-        return <div className='border-b-4 p-2'>
+    
+        return (
+        <div className='border-b-4 p-2'>
             <Accordion
-            expanded={expanded === index} onChange={handleChange(index)}
                 elevation={0}
                 square
                 sx={{
-                    maxWidth: 520,
                     borderBottom: '1px solid black',
                 }}
             >
@@ -42,28 +35,19 @@ const AppAccordion = ({ item }) => {
                         }}
                         className="font-bold"
                     >
-                        {items.question}
+                        {question}
                     </Typography>
                 </AccordionSummary>
                 <AccordionDetails
                 >
                     <Typography>
-                        {items.answer}
+                        {answer}
                     </Typography>
                 </AccordionDetails>
             </Accordion>
         </div>
-    })
-
-
-    return (
-        <div className='md:flex md:flex-row'>
-            <div className="">
-                {accordion}
-            </div>
-        </div>
-
     )
+
 }
 
 export default AppAccordion
