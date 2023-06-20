@@ -7,7 +7,9 @@ const colors = {
     fdoGris: '#F9F9F9',
     fdoCalido: '#F8F8F2',
     gris: '#A4ABB5',
-    slide: '#4D5C75'
+    slide: '#4D5C75',
+    card1: '#D8E2FB',
+    card2: '#C3F7EA'
 }
 
 export default colors
