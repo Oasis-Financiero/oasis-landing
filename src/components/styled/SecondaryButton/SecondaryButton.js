@@ -4,7 +4,7 @@ import { HiArrowSmRight } from 'react-icons/hi'
 import colors from "../../../constants/colors";
 import '../Dropdown/Dropdown.css'
 
-const AppSecondaryButton = () => {
+const AppSecondaryButton = ({text}) => {
     return (
         <div>
             <Button
@@ -17,7 +17,7 @@ const AppSecondaryButton = () => {
                 }}
                 className="flex gap-2 items-center"
             >
-                Comparar <HiArrowSmRight
+                {text} <HiArrowSmRight
                     size={27}
                     fill={colors.resalte1}
                 />

@@ -45,11 +45,15 @@ const Compara = () => {
 
                     <div className="flex justify-center p-8 gap-2 w-full">
                         <div>
-                            <AppSecondaryButton />
+                            <AppSecondaryButton 
+                            text="Comparar"
+                            />
                         </div>
 
                         <div>
-                            <AppSecondaryButton />
+                            <AppSecondaryButton 
+                            text="Comparar"
+                            />
                         </div>
                     </div>
 
