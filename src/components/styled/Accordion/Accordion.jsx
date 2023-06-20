@@ -6,6 +6,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import colors from '../../../constants/colors';
 import '../Dropdown/Dropdown.css'
+import * as styles from './Accordion.modules.css'
 
 
 const AppAccordion = ({ item, item2 }) => {
@@ -23,8 +24,8 @@ const AppAccordion = ({ item, item2 }) => {
                         id="panel1bh-header"
                     />}
                 >
-                    <Typography sx={{ fontFamily: 'Poppins', fontSize: 20 }} className='font-bold'>
-                        {items.question}<span style={{color: 'transparent'}}>...............................</span>
+                    <Typography sx={{ fontFamily: 'Poppins' }} className={`font-bold ${styles.tipo}`}>
+                        {items.question}<span style={{color:' transparent'}}>...............................</span>
                     </Typography>
                 </AccordionSummary>
                 <AccordionDetails
@@ -52,7 +53,7 @@ const AppAccordion = ({ item, item2 }) => {
                         id="panel1bh-header"
                     />}
                 >
-                    <Typography sx={{ fontFamily: 'Poppins', fontSize: 20 }} className='font-bold'>
+                    <Typography sx={{ fontFamily: 'Poppins' }} className='font-bold'>
                         {items.question}
                     </Typography>
                 </AccordionSummary>
