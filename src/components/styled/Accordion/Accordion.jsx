@@ -17,9 +17,11 @@ const AppAccordion = ({ item, item2 }) => {
 
             <Accordion
                 elevation={0}
+                square
                 sx={{
                     maxWidth: 500,
-                    borderBottom: '1px solid black'
+                    borderBottom: '1px solid black',
+                    
                 }}
             >
                 <AccordionSummary
@@ -47,6 +49,7 @@ const AppAccordion = ({ item, item2 }) => {
 
             <Accordion
                 elevation={0}
+                square
                 sx={{
                     maxWidth: 500,
                     borderBottom: '1px solid black'
