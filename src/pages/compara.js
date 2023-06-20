@@ -4,6 +4,7 @@ import Calculator from "../components/calculator";
 import wallet from '../images/herramientas/img-prestamos-personales-main.webp'
 import * as style from './compara.module.css'
 import AppFaq from "../components/styled/FAQs/AppFaq";
+import AppSecondaryButton from "../components/styled/SecondaryButton/SecondaryButton";
 
 
 
@@ -27,10 +28,31 @@ const Compara = () => {
             </div>
 
 
-            <div className="flex flex-col gap-2">
+
+
+
+            <div id={style.faqc} className="md:p-10">
                 <h1 className="flex justify-center" id={style.faq}>FAQs</h1>
-                <AppFaq/>
+                <AppFaq />
             </div>
+
+
+            <div className="flex flex-col justify-center items-center">
+                
+                <h1 className="text-center">Compara nuestros <br></br>productos <span id={style.word}>financieros</span></h1>
+
+                <div className="flex p-8 gap-2">
+                    <div>
+                        <AppSecondaryButton />
+                    </div>
+
+                    <div>
+                        <AppSecondaryButton />
+                    </div>
+                </div>
+
+            </div>
+
         </Layout>
     )
 }

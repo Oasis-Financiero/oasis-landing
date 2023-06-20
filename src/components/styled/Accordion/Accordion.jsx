@@ -18,6 +18,7 @@ const AppAccordion = ({ question, answer }) => {
                 square
                 sx={{
                     borderBottom: '1px solid black',
+                    backgroundColor: 'transparent'
                 }}
             >
                 <AccordionSummary
