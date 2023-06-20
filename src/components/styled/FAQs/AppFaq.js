@@ -5,7 +5,7 @@ const AppFaq = () => {
 
 
     return (
-        <div className='md:flex md:justify-center'>
+        <div className='md:flex md:justify-center md:gap-16'>
             <div className='md:w-[470px]'>
                 <AppAccordion
                     question='¿Cuáles son los requisitos para un préstamo personal?'
