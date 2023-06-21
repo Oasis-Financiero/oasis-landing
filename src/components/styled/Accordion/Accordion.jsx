@@ -10,12 +10,12 @@ import '../Dropdown/Dropdown.css'
 
 const AppAccordion = ({ question, answer, elevation, background, line, color }) => {
 
-    
-        return (
+
+    return (
         <div className='border-b-4 p-2'>
             <Accordion
                 elevation={elevation ? elevation : 0}
-                
+
                 sx={{
                     borderBottom: `${line ? line : '1px solid black'}`,
                     backgroundColor: `${background ? background : 'transparent'}`,
