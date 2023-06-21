@@ -8,31 +8,32 @@ import colors from '../../../constants/colors';
 import '../Dropdown/Dropdown.css'
 
 
-const AppAccordion = ({ question, answer }) => {
+const AppAccordion = ({ question, answer, elevation, background, line, color }) => {
 
     
         return (
         <div className='border-b-4 p-2'>
             <Accordion
-                elevation={0}
-                square
+                elevation={elevation ? elevation : 0}
+                
                 sx={{
-                    borderBottom: '1px solid black',
-                    backgroundColor: 'transparent'
+                    borderBottom: `${line ? line : '1px solid black'}`,
+                    backgroundColor: `${background ? background : 'transparent'}`,
                 }}
             >
                 <AccordionSummary
                     expandIcon={<FaPlus
                         style={{
                             fill: colors.resalte1,
-                            fontSize: 25
+                            fontSize: 25,
                         }}
                     />}
                 >
                     <Typography
                         sx={{
                             fontFamily: 'Poppins',
-                            fontWeight: 'bold'
+                            fontWeight: 'bold',
+                            color: `${color ? color : colors.brand1}`
                         }}
                         className="font-bold"
                     >

@@ -9,7 +9,9 @@ import AppCardSection from "../components/styled/CardSection/CardSection";
 import colors from "../constants/colors";
 import iconSeguro from '../images/herramientas/ico-seguro-auto.svg'
 import iconPrestamo from '../images/herramientas/ico-prestamos-personales.svg'
-import AppLinedButton from "../components/styled/LinedButton/LinedButton";
+import AppLinedCard from "../components/styled/LinedCard/LinedCard";
+import RelevantPoints from "../components/styled/RelevantPoints/RelevantPoints";
+import { Hidden } from "@mui/material";
 
 
 
@@ -68,13 +70,52 @@ const Compara = () => {
                                 title="Seguros de auto"
                                 subtitle="Cobertura amplia y limitada"
                             />
-                             {/* <AppSecondaryButton
+                            <AppSecondaryButton
                                 text="Comparar"
-                            /> */}
-                            <AppLinedButton
-                                title="Guardar producto"
                             />
                         </div>
+                    </div>
+
+                </div>
+
+
+                <div className="w-full flex flex-col justify-center items-center gap-10 p-10" id={style.six}>
+
+                    <h1>6 Puntos Relevantes</h1>
+                    <div className="hidden md:grid md:grid-cols-3 md:place-items-center md:gap-10">
+                        <AppLinedCard
+                            title="1. Cobertura adecuada"
+                            subtitle="Verifica que incluya tanto la responsabilidad civil como la cobertura de colisión y daños, protección contra robos, etc. Guíate por la cobertura."
+                        />
+
+                        <AppLinedCard
+                            title="2. Costo y deducible"
+                            subtitle="Considera el costo total del seguro, incluyendo prima mensual o anual, así como el deducible: la cantidad que deberás pagar de tu bolsillo en caso de un incidente."
+                        />
+
+                        <AppLinedCard
+                            title="3. Reputación"
+                            subtitle="Consulta opiniones y testimonios de otros clientes de la compañía de seguros para evaluar su confiabilidad y eficiencia en el manejo de reclamaciones."
+                        />
+
+                        <AppLinedCard
+                            title="4. Servicio al cliente"
+                            subtitle="Asegúrate de que sean accesibles y brinden asistencia rápida y eficiente en caso de accidentes, consultas o reclamaciones."
+                        />
+
+                        <AppLinedCard
+                            title="5. Otros beneficios"
+                            subtitle="Algunas compañías ofrecen servicios de asistencia en carretera, reemplazo de vehículo de alquiler y descuentos por buenos conductores."
+                        />
+
+                        <AppLinedCard
+                            title="6. Compara opciones"
+                            subtitle="Compara siempre diferentes compañías para obtener la mejor relación calidad-precio. Utiliza Oasis Financiero, consulta a agentes y compara coberturas, costos y beneficios."
+                        />
+                    </div>
+
+                    <div className="md:hidden">
+                        <RelevantPoints />
                     </div>
 
                 </div>
