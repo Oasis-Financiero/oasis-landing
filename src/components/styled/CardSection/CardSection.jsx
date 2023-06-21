@@ -26,7 +26,7 @@ const AppCardSection = ({ color, icon, title, subtitle }) => {
                     <img style={{
                         width: 100,
                         display:'flex',
-                        padding: 10,  
+                        padding: 15,  
                     }} src={icon} alt="icon"/>
 
 
@@ -34,11 +34,14 @@ const AppCardSection = ({ color, icon, title, subtitle }) => {
                         <span style={{
                             fontFamily: 'Poppins',
                             fontWeight: 'bolder',
-                            fontSize: 12
+                            fontSize: 14,
+                            textAlign: 'center'
                         }}>{title}</span>
                         <span style={{
                             fontFamily: 'Inter',
-                            fontSize: 13
+                            fontSize: 13,
+                            textAlign: 'center'
+                            
                         }}>{subtitle}</span>
                     </div>
 
