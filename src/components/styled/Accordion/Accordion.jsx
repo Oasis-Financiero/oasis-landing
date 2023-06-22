@@ -43,7 +43,11 @@ const AppAccordion = ({ question, answer, elevation, background, line, color, sq
                 </AccordionSummary>
                 <AccordionDetails
                 >
-                    <Typography>
+                    <Typography
+                    sx={{
+                        font: 'normal normal normal 15px/22px Inter'
+                    }}
+                    >
                         {answer}
                     </Typography>
                 </AccordionDetails>
