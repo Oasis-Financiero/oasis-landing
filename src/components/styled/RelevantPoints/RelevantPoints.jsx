@@ -55,6 +55,8 @@ const RelevantPoints = () => {
                         square={true}
                         background="white"
                         radius='25px'
+                        w="336px"
+                        h="66px"
                     />
 
                     <AppAccordion
@@ -65,6 +67,7 @@ const RelevantPoints = () => {
                         line={true}
                         square={true}
                         radius='25px'
+                        h="66px"
                         background="white"
                     />
 
@@ -76,6 +79,7 @@ const RelevantPoints = () => {
                         color={colors.resalte1}
                         square={true}
                         radius='25px'
+                        h="66px"
                         line={true}
                     />
 
@@ -87,6 +91,7 @@ const RelevantPoints = () => {
                         color={colors.resalte1}
                         square={true}
                         radius='25px'
+                        h="66px"
                         line={true}
                     />
 
@@ -98,6 +103,7 @@ const RelevantPoints = () => {
                         color={colors.resalte1}
                         square={true}
                         radius='25px'
+                        h="66px"
                         line={true}
                     />
 
@@ -109,6 +115,7 @@ const RelevantPoints = () => {
                         background="white"
                         line={true}
                         radius='25px'
+                        h="66px"
                         square={true}
                     />
                 </div>

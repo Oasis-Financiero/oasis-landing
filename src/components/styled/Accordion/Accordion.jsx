@@ -8,7 +8,7 @@ import colors from '../../../constants/colors';
 import '../Dropdown/Dropdown.css'
 
 
-const AppAccordion = ({ question, answer, elevation, background, line, color, square, radius }) => {
+const AppAccordion = ({ question, answer, elevation, background, line, color, square, radius, w, h}) => {
 
 
     return (
@@ -19,7 +19,7 @@ const AppAccordion = ({ question, answer, elevation, background, line, color, sq
                 sx={{
                     borderBottom: `${line ? line : '1px solid black'}`,
                     backgroundColor: `${background ? background : 'transparent'}`,
-                    borderRadius: `${radius ? radius : 0}`
+                    borderRadius: `${radius ? radius : 0}`,
                 }}
             >
                 <AccordionSummary
@@ -27,8 +27,15 @@ const AppAccordion = ({ question, answer, elevation, background, line, color, sq
                         style={{
                             fill: colors.resalte1,
                             fontSize: 25,
+                            display: 'flex',                          
                         }}
+                       
                     />}
+                    style={{
+                        display: 'flex',
+                        width: `${w ? w : null}`,
+                        height: `${h ? h : null}`
+                    }}
                 >
                     <Typography
                         sx={{
