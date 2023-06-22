@@ -10,7 +10,9 @@ const RelevantPoints = () => {
 
             <div className="w-full flex flex-col justify-center items-center gap-10 p-10">
 
-                <h1>6 Puntos Relevantes</h1>
+                <h1 className="text-center" style={{
+                    font: 'normal normal 600 40px/50px Poppins'
+                }}>6 Puntos Relevantes</h1>
                 <div className="hidden md:grid md:grid-cols-3 md:place-items-center md:gap-10">
                     <AppLinedCard
                         title="1. Cobertura adecuada"
