@@ -55,7 +55,6 @@ const RelevantPoints = () => {
                         square={true}
                         background="white"
                         radius='25px'
-                        w="336px"
                         h="66px"
                     />
 
