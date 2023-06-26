@@ -1,27 +1,31 @@
-#title{
+#title {
     font: normal normal 600 40px/50px Poppins;
     width: 592px;
     padding-left: 20px;
 }
 
-#word{
-    color: #A86EFF ;
+#word {
+    color: #A86EFF;
 }
 
-#faqc{
-    background-color: #F9F9F9 ;
+#faqc {
+    background-color: #F9F9F9;
 }
 
-#faq{
+#faq {
     font: normal normal 600 40px/50px Poppins;
 }
 
-#titles{
+#titles {
     font: normal normal 600 40px/50px Poppins;
+}
+
+#six {
+    background-color: #F9F9F9;
 }
 
 @media (max-width:960px) {
-    #title{
+    #title {
         font: normal normal 600 28px/34px Poppins;
         max-width: 100%;
         padding-left: 25px;
@@ -29,9 +33,8 @@
         padding-top: 20px;
     }
 
-    #titles{
+    #titles {
         font: normal normal 600 28px/34px Poppins;
 
     }
 }
-

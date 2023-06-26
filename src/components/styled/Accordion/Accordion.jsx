@@ -8,31 +8,40 @@ import colors from '../../../constants/colors';
 import '../Dropdown/Dropdown.css'
 
 
-const AppAccordion = ({ question, answer }) => {
+const AppAccordion = ({ question, answer, elevation, background, line, color, square, radius, w, h}) => {
 
-    
-        return (
+
+    return (
         <div className='border-b-4 p-2'>
             <Accordion
-                elevation={0}
-                square
+                elevation={elevation ? elevation : 0}
+                square={square ? square : true}
                 sx={{
-                    borderBottom: '1px solid black',
-                    backgroundColor: 'transparent'
+                    borderBottom: `${line ? line : '1px solid black'}`,
+                    backgroundColor: `${background ? background : 'transparent'}`,
+                    borderRadius: `${radius ? radius : 0}`,
                 }}
             >
                 <AccordionSummary
                     expandIcon={<FaPlus
                         style={{
                             fill: colors.resalte1,
-                            fontSize: 25
+                            fontSize: 25,
+                            display: 'flex',                          
                         }}
+                       
                     />}
+                    style={{
+                        display: 'flex',
+                        width: `${w ? w : null}`,
+                        height: `${h ? h : null}`
+                    }}
                 >
                     <Typography
                         sx={{
                             fontFamily: 'Poppins',
-                            fontWeight: 'bold'
+                            fontWeight: 'bold',
+                            color: `${color ? color : colors.brand1}`
                         }}
                         className="font-bold"
                     >
@@ -41,7 +50,11 @@ const AppAccordion = ({ question, answer }) => {
                 </AccordionSummary>
                 <AccordionDetails
                 >
-                    <Typography>
+                    <Typography
+                    sx={{
+                        font: 'normal normal normal 15px/22px Inter'
+                    }}
+                    >
                         {answer}
                     </Typography>
                 </AccordionDetails>

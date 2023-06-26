@@ -9,7 +9,9 @@ import AppCardSection from "../components/styled/CardSection/CardSection";
 import colors from "../constants/colors";
 import iconSeguro from '../images/herramientas/ico-seguro-auto.svg'
 import iconPrestamo from '../images/herramientas/ico-prestamos-personales.svg'
-import AppLinedButton from "../components/styled/LinedButton/LinedButton";
+import AppLinedCard from "../components/styled/LinedCard/LinedCard";
+import RelevantPoints from "../components/styled/RelevantPoints/RelevantPoints";
+import { Hidden } from "@mui/material";
 
 
 
@@ -68,15 +70,17 @@ const Compara = () => {
                                 title="Seguros de auto"
                                 subtitle="Cobertura amplia y limitada"
                             />
-                             {/* <AppSecondaryButton
+                            <AppSecondaryButton
                                 text="Comparar"
-                            /> */}
-                            <AppLinedButton
-                                title="Guardar producto"
                             />
                         </div>
                     </div>
 
+                </div>
+
+
+                <div className={`bg-[${colors.fdoGris}]`}>
+                    <RelevantPoints/>
                 </div>
 
             </div>
