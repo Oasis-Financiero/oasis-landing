@@ -11,7 +11,7 @@ import iconSeguro from '../images/herramientas/ico-seguro-auto.svg'
 import iconPrestamo from '../images/herramientas/ico-prestamos-personales.svg'
 import AppLinedCard from "../components/styled/LinedCard/LinedCard";
 import RelevantPoints from "../components/styled/RelevantPoints/RelevantPoints";
-import { Hidden } from "@mui/material";
+import CardsInsuranceTypes from "../components/styled/CardTypeSecure/CardsInsuranceTypes";
 
 
 
@@ -79,8 +79,8 @@ const Compara = () => {
                 </div>
 
 
-                <div className={`bg-[${colors.fdoGris}]`}>
-                    <RelevantPoints/>
+                <div className={`bg-[${colors.fdoGris}] flex justify-center`}>
+                    <CardsInsuranceTypes/>
                 </div>
 
             </div>
