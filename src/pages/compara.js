@@ -11,7 +11,7 @@ import iconSeguro from '../images/herramientas/ico-seguro-auto.svg'
 import iconPrestamo from '../images/herramientas/ico-prestamos-personales.svg'
 import AppLinedCard from "../components/styled/LinedCard/LinedCard";
 import RelevantPoints from "../components/styled/RelevantPoints/RelevantPoints";
-import CardTypeSecure from "../components/styled/CardTypeSecure/CardTypeSecure";
+import CardsInsuranceTypes from "../components/styled/CardTypeSecure/CardTypeSecure";
 
 
 
@@ -80,7 +80,7 @@ const Compara = () => {
 
 
                 <div className={`bg-[${colors.fdoGris}] flex justify-center`}>
-                    <CardTypeSecure/>
+                    <CardsInsuranceTypes/>
                 </div>
 
             </div>

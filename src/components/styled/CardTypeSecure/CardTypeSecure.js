@@ -11,7 +11,7 @@ import especial from '../../../images/seguros/especial.webp'
 
 
 
-const CardTypeSecure = () => {
+const CardsInsuranceTypes = () => {
     return (
         <div className="grid grid-cols-2 md:grid-cols-4 place-items-center gap-2 w-[900px] md:w-[1000px] md:gap-4">
             <div className="w-[170px] md:w-[234px] text-[14px] md:text-[18px] text-center relative">
@@ -106,4 +106,4 @@ const CardTypeSecure = () => {
     )
 }
 
-export default CardTypeSecure
+export default CardsInsuranceTypes
