@@ -24,6 +24,11 @@
     background-color: #F9F9F9;
 }
 
+#steps{
+    background-image: url('../images/steps/fdo.webp');
+    background-size: cover;
+}
+
 @media (max-width:960px) {
     #title {
         font: normal normal 600 28px/34px Poppins;

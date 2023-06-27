@@ -12,6 +12,7 @@ import iconPrestamo from '../images/herramientas/ico-prestamos-personales.svg'
 import AppLinedCard from "../components/styled/LinedCard/LinedCard";
 import RelevantPoints from "../components/styled/RelevantPoints/RelevantPoints";
 import CardsInsuranceTypes from "../components/styled/CardTypeSecure/CardsInsuranceTypes";
+import AppSteps from "../components/styled/Steps/Steps";
 
 
 
@@ -37,6 +38,9 @@ const Compara = () => {
                 </div>
 
 
+                <div id={style.steps}>
+                    <AppSteps/>
+                </div>
 
 
 

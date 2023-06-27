@@ -1,0 +1,9 @@
+#titlec{
+    font: normal normal 600 40px/50px Poppins;
+}
+
+@media (max-width:960px){
+    #titlec{
+        font: normal normal 600 28px/34px Poppins;
+    }
+}
