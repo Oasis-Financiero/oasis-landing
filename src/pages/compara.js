@@ -3,6 +3,7 @@ import Layout from "../components/layout";
 import Calculator from "../components/calculator";
 import wallet from '../images/herramientas/img-prestamos-personales-main.webp'
 import * as style from './compara.module.css'
+import woman from '../images/landing/img-girl.webp'
 import AppFaq from "../components/styled/FAQs/AppFaq";
 import AppSecondaryButton from "../components/styled/SecondaryButton/SecondaryButton";
 import AppCardSection from "../components/styled/CardSection/CardSection";
@@ -13,6 +14,7 @@ import AppLinedCard from "../components/styled/LinedCard/LinedCard";
 import RelevantPoints from "../components/styled/RelevantPoints/RelevantPoints";
 import CardsInsuranceTypes from "../components/styled/CardTypeSecure/CardsInsuranceTypes";
 import AppSteps from "../components/styled/Steps/Steps";
+import {IoIosArrowDroprightCircle} from 'react-icons/io'
 
 
 
@@ -39,9 +41,25 @@ const Compara = () => {
 
 
                 <div id={style.steps}>
-                    <AppSteps/>
+                    <AppSteps />
                 </div>
 
+                <div className="flex justify-center p-4 pt-[250px] md:pt-[150px]">
+                    <div className="flex flex-row w-[1080px] h-[427px] rounded-[25px] relative" style={{ backgroundColor: colors.fdoMdo }}>
+                        <div className="flex flex-col gap-4 md:w-[640px] p-8 md:pt-16">
+                            <h1 id={style.discover} className="text-white">Descubre y compara los mejores productos financieros en México</h1>
+                            <span id={style.discoverSub} className="text-white">Ahorra tiempo, dinero y toma decisiones informadas. ¡Encuentra el producto perfecto para tus necesidades hoy mismo!</span>
+                            <div className="flex flex-col gap-4 md:flex-row md:gap-10">
+                                <span id={style.discoverLink} className="text-white flex flex-row items-center gap-2"><IoIosArrowDroprightCircle/>Prestamos personales</span>
+                                <span id={style.discoverLink} className="text-white flex flex-row items-center gap-2"><IoIosArrowDroprightCircle/>Seguros de auto</span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <img src={woman} alt="woman" className="w-[202px] flex absolute bottom-[427px] right-[75px] md:w-[444px] md:bottom-0 md:left-[620px]" />
+                        </div>
+                    </div>
+                </div>
 
 
                 <div id={style.faqc} className="md:p-10">
@@ -84,7 +102,7 @@ const Compara = () => {
 
 
                 <div className={`bg-[${colors.fdoGris}] flex justify-center`}>
-                    <CardsInsuranceTypes/>
+                    <CardsInsuranceTypes />
                 </div>
 
             </div>

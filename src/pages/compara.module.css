@@ -29,6 +29,18 @@
     background-size: cover;
 }
 
+#discover{
+    font: normal normal bold 46px/54px Poppins;
+}
+
+#discoverSub {
+    font: normal normal normal 18px/23px Inter;
+}
+
+#discoverLink {
+    font: normal normal bold 18px/23px Inter;
+}
+
 @media (max-width:960px) {
     #title {
         font: normal normal 600 28px/34px Poppins;
@@ -41,5 +53,17 @@
     #titles {
         font: normal normal 600 28px/34px Poppins;
 
+    }
+
+    #discover{
+        font: normal normal bold 28px/34px Poppins;
+    }
+
+    #discoverSub{
+        font: normal normal normal 16px/20px Inter;
+    }
+
+    #discoverLink{
+        font: normal normal bold 18px/23px Inter;
     }
 }
