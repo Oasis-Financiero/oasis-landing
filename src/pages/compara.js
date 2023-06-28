@@ -15,6 +15,7 @@ import RelevantPoints from "../components/styled/RelevantPoints/RelevantPoints";
 import CardsInsuranceTypes from "../components/styled/CardTypeSecure/CardsInsuranceTypes";
 import AppSteps from "../components/styled/Steps/Steps";
 import {IoIosArrowDroprightCircle} from 'react-icons/io'
+import AppSecondaryCalculator from "../components/styled/SecondaryCalculator/SecondaryCalculator";
 
 
 
@@ -42,6 +43,10 @@ const Compara = () => {
 
                 <div id={style.steps}>
                     <AppSteps />
+                </div>
+
+                <div className="flex justify-center pt-16">
+                   <AppSecondaryCalculator/>
                 </div>
 
                 <div className="flex justify-center p-4 pt-[250px] md:pt-[150px]">

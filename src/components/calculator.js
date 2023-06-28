@@ -23,13 +23,17 @@ const Calculator = () => {
             <div className={tailwind.container}>
 
                 <div className={tailwind.titleContainer}>
-                    <h1 id={style.slideTitle}>Préstamo: <b>$40,000 mxn</b></h1>
-                    <AppSlider />
+                    <AppSlider 
+                    type="Préstamo"
+                    coin={true}
+                    />
                 </div>
 
                 <div className={tailwind.titleContainer}>
-                    <h1 id={style.slideTitle}>Ingresos: <b>$22,000 mxn</b></h1>
-                    <AppSlider />
+                    <AppSlider 
+                    type="Ingresos"
+                    coin={true}
+                    />
                 </div>
 
                 <div className={`${tailwind.titleContainer} ${tailwind.dropdown}`}>
@@ -42,8 +46,9 @@ const Calculator = () => {
                 </div>
 
                 <div className={tailwind.titleContainer}>
-                    <h1 id={style.slideTitle}>Plazo: <b>10 meses</b></h1>
-                    <AppSlider />
+                    <AppSlider 
+                    type="Plazo"
+                    />
                 </div>
 
             </div>

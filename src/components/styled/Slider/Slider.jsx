@@ -1,23 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import { Slider } from "@mui/material";
-import styles from "./styles";
+import styles from "./styles.js";
 import colors from "../../../constants/colors";
+import * as style from '../../calculator.module.css'
 
-const AppSlider = () => {
+const AppSlider = ({type, coin}) => {
+
+    const [value, setValue] = useState(0)
+
+    const onSlide = (e, newValue) => {
+        e.preventDefault
+        setValue(newValue)
+    }
+
+    console.log(value)
     return (
         <>
+            <h1 id={style.slideTitle}>{`${type}: `} <span className="font-bold">{coin ? `$${value}, 000 mxn` : `${value} meses`}</span></h1>
             <Slider
+                onChange={onSlide}
+                value={value}
                 size="medium"
-                defaultValue={20}
+                defaultValue={value}
                 aria-label="Default"
                 valueLabelDisplay="auto"
                 style={styles.slide}
                 sx={{
-                    color: colors.resalte1,             
+                    color: colors.resalte1,
                     '& .MuiSlider-rail': {
-                      backgroundColor: colors.slide,    
+                        backgroundColor: colors.slide,
                     },
-                  }}
+                }}
             />
         </>
     )
