@@ -4,18 +4,18 @@ import regist from '../../../images/steps/ico-registro.svg'
 import aut from '../../../images/steps/ico-autorizar.svg'
 import docs from '../../../images/steps/ico-documentos.svg'
 import firma from '../../../images/steps/ico-firmar.svg'
-import './Steps.modules.css'
+import * as styles from './steps.module.css'
 
 const AppSteps = () => {
     return (
         <div className="h-[514px] flex flex-col justify-center items-center gap-10">
-            <h1 id="titlec" className="text-center text-white">Obtén tu préstamo <br /><span style={{ color: colors.resalte1 }}>en minutos</span></h1>
+            <h1 id={styles.title} className="text-center text-white">Obtén tu préstamo <br /><span style={{ color: colors.resalte1 }}>en minutos</span></h1>
 
             <div className="grid grid-cols-2 gap-4 md:flex md:flex-row md:gap-5">
 
                 <div style={{ border: `4px solid ${colors.resalte1}` }} className={`w-[156px] h-[156px] md:w-[196px] md:h-[196px] bg-white rounded-[25px] flex flex-col justify-center items-center relative`}>
                     <div className="absolute right-[-3px] top-[-3px]">
-                        <span style={{ backgroundColor: colors.resalte1, fontFamily: 'Inter', fontWeight: 'bold', color: 'white' }} className="rounded-full p-3"><span className="text-transparent">.</span>1<span className="text-transparent">.</span></span>
+                        <span style={{ backgroundColor: colors.resalte1, fontFamily: 'Inter', fontWeight: 'bold', color: 'white' }} className="rounded-full p-3"><span className="text-transparent">/</span>1<span className="text-transparent">.</span></span>
                     </div>
 
                     <img src={regist} alt="image_regist" className="w-[72px] md:w-[90px]" />
