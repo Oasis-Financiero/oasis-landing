@@ -28,7 +28,7 @@ const ProductTable = () => {
     return (
         <section className="w-[1080px] flex justify-center items-center">
             <ul className="w-[1080px] h-[96px] flex flex-row justify-between items-center text-center" style={{ font: "normal normal 600 18px/21px Inter", color: colors.logo }}>
-                <li className="w-full h-full flex justify-center items-center rounded-tl-lg rounded-tr-lg" >
+                <li className="w-full h-full flex justify-center items-center rounded-tl-lg" >
                     Producto
                 </li>
 
@@ -50,7 +50,7 @@ const ProductTable = () => {
                     Comisión <br /> por apertura
                 </li>
 
-                <li className="w-full h-full flex justify-center items-center rounded-tl-lg rounded-tr-lg" style={{ backgroundColor: colors.fdoGris }}>
+                <li className="w-full h-full flex justify-center items-center rounded-tr-lg" style={{ backgroundColor: colors.fdoGris }}>
                     ¡Lo quiero!
                 </li>
             </ul>
