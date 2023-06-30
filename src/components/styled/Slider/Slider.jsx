@@ -4,7 +4,7 @@ import styles from "./styles.js";
 import colors from "../../../constants/colors";
 import * as style from '../../calculator.module.css'
 
-const AppSlider = ({type, coin}) => {
+const AppSlider = ({type, coin, hidden}) => {
 
     const [value, setValue] = useState(0)
 
@@ -18,6 +18,7 @@ const AppSlider = ({type, coin}) => {
         <>
             <h1 id={style.slideTitle}>{`${type}: `} <span className="font-bold">{coin ? `$${value}, 000 mxn` : `${value} meses`}</span></h1>
             <Slider
+                className={hidden ? 'hidden md:block' : 'block'}
                 onChange={onSlide}
                 value={value}
                 size="medium"
