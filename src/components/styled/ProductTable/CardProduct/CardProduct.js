@@ -18,7 +18,7 @@ const CardProduct = ({ img, tasa, mensual, total, comision, producto }) => {
                     </li>
 
                     <li className="w-full h-full flex justify-center items-center gap-1" style={{ backgroundColor: colors.fdoGris }}>
-                        {`  ${tasa.anual}.00`} <br /> {`(hasta ${tasa.hasta}.00)`}
+                        {`  ${tasa.anual}.00%`} <br /> {`(hasta ${tasa.hasta}.00%)`}
                     </li>
 
                     <li className="w-full h-full flex justify-center items-center gap-1" >
