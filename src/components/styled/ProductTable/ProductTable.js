@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import colors from "../../../constants/colors";
 import { TbSquareRoundedArrowDownFilled, TbSquareRoundedArrowUpFilled } from 'react-icons/tb'
 import CardProduct from "./CardProduct/CardProduct";
-import { products, anualSorted, anualSortedReverse, mensualSorted, mensualSortedReverse } from "./CardProduct/products";
+import products from "./CardProduct/products";
+import { anualSorted, anualSortedReverse, mensualSorted, mensualSortedReverse } from "./CardProduct/helpers";
 
 
 const ProductTable = () => {
@@ -19,7 +20,7 @@ const ProductTable = () => {
                     anualSortedReverse()
                 }
                 setTasaSort(!tasaSort)
-
+                break
 
 
             case 'mensual':
@@ -29,7 +30,7 @@ const ProductTable = () => {
                     mensualSortedReverse()
                 }
                 setMonthSort(!monthSort)
-
+                break
 
             default:
                 null
@@ -37,15 +38,10 @@ const ProductTable = () => {
     }
 
 
-    const tableItem = products.map((prod, index) => {
+    const tableItem = products.map((props) => {
         return <CardProduct
-            producto={prod.producto}
-            img={prod.img}
-            tasa={prod.tasa}
-            mensual={prod.mensual}
-            total={prod.total}
-            comision={prod.comision}
-            key={index}
+            {...props}
+            key={props.key}
         />
     })
 

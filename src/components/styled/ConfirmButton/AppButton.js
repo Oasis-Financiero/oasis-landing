@@ -6,7 +6,7 @@ import { Button } from "@mui/material";
 const AppButton = ({tag, width}) => {
     return (
         <>
-            <div className="">
+            <div>
                 <Button
                     id="button"
                     className={`flex flex-row justify-center items-center p-2`}
