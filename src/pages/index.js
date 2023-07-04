@@ -11,6 +11,7 @@ import credito from "../images/landing/credito.svg"
 import wallet from "../images/landing/wallet.svg"
 import bitcoin from "../images/landing/bitcoin.svg"
 import calculator from "../images/landing/calculator.png"
+import money from "../images/landing/money-prestamo.svg"
 //import arrow from "../images/landing/arrow.png"
 import * as styles from "./index.module.css"
 
@@ -146,14 +147,14 @@ function IndexPage({ data }) {
             </div>
             <div id={styles.cardFour} className={styles.compareCard}>
               <div className={styles.compareCardIcon}>
-                <img className={styles.cardIconImg} src={bitcoin}></img>
+                <img className={styles.cardIconImg} src={money}></img>
               </div>
               <div className={styles.compareCardText}>
                 <div className={styles.compareItemName}>
-                  Criptomonedas
+                  Préstamos
                 </div>
                 <div className={styles.compareItemCaption}>
-                  Compra coins y NFTs
+                  Contrata en 5 minutos
                 </div>
               </div>
             </div>
