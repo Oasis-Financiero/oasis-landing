@@ -7,7 +7,7 @@ const RedirectionCard = () => {
     return (
         <div className="w-[903px] flex justify-center m-2" style={{ border: `2px solid ${colors.resalte1}` }}>
             <div className="w-auto md:w-full p-4 flex flex-col justify-center items-center gap-4 md:gap-6">
-                <img src={kreditiweb} alt="krediti" className="w-[200px]" />
+                <img src={kreditiweb} alt="krediti" className="w-[100px] md:w-[200px]" />
                 <h2 id={styles.subtitle}
                     className="bg-slate-800 rounded-[50px] h-[100%] px-6 text-sm text-white">
                     Soluciones reales para gente como tú
