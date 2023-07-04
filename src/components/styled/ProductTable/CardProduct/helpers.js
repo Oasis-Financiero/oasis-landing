@@ -15,13 +15,13 @@ const anualSortedReverse = () => {
 }
 
 const mensualSorted = () => {
-   products = products.sort(function (a, b) {
+   products = products.toSorted(function (a, b) {
         return b.mensual - a.mensual
     })
 }
 
 const mensualSortedReverse = () => {
-   products = products.sort(function (a, b) {
+   products = products.toSorted(function (a, b) {
         return a.mensual - b.mensual
     })
 }
