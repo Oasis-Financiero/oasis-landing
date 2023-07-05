@@ -16,6 +16,7 @@ import CardsInsuranceTypes from "../components/styled/CardTypeSecure/CardsInsura
 import AppSteps from "../components/styled/Steps/Steps";
 import {IoIosArrowDroprightCircle} from 'react-icons/io'
 import AppSecondaryCalculator from "../components/styled/SecondaryCalculator/SecondaryCalculator";
+import RedirectionCard from "../components/styled/RedirectionCard/RedirectionCard";
 
 
 
@@ -107,7 +108,7 @@ const Compara = () => {
 
 
                 <div className={`bg-[${colors.fdoGris}] flex justify-center`}>
-                    <CardsInsuranceTypes />
+                    <RedirectionCard/>
                 </div>
 
             </div>
