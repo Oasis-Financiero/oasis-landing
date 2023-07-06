@@ -3,7 +3,7 @@ import AppSlider from "../Slider/Slider";
 import AppSelect from "../Dropdown/Dropdown";
 import colors from "../../../constants/colors";
 import AppButton from "../ConfirmButton/AppButton";
-import { BsFillArrowDownCircleFill } from 'react-icons/bs'
+import { BsFillArrowDownCircleFill, BsFillArrowUpCircleFill } from 'react-icons/bs'
 import { anual, comision, mensualPay, text1, text2, text3, totalPay } from "./text";
 
 
@@ -85,10 +85,10 @@ const InformativeCard = () => {
                 <div
                     className="md:hidden relative flex justify-center bottom-4"
                     onClick={onHiddeResponsive}
-                ><BsFillArrowDownCircleFill size={30} fill={colors.resalte1}/></div>
+                >{accordion ? <BsFillArrowDownCircleFill size={30} fill={colors.resalte1}/> : <BsFillArrowUpCircleFill size={30} fill={colors.resalte1}/>}</div>
 
                 <div className={` ${accordion ?
-                    'relative animate-fade-down animate-ease-in animate-delay-0 hidden'
+                    'relative animate-fade-down animate-ease-in animate-delay-0 hidden md:flex'
                     :
                     'flex flex-row animate-fade-down animate-ease-in animate-delay-0'}`}>
                     <div
