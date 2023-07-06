@@ -19,6 +19,7 @@ const AppSecondaryCalculator = () => {
                             type="Préstamo"
                             coin={true}
                             hidden={true}
+                            classes='w-[207px]'
                         />
                     </div>
                 </div>
@@ -29,6 +30,7 @@ const AppSecondaryCalculator = () => {
                             type="Ingresos"
                             coin={true}
                             hidden={true}
+                            classes='w-[207px]'
                         /></div>
                 </div>
 
@@ -37,6 +39,7 @@ const AppSecondaryCalculator = () => {
                         <AppSlider
                             type="Plazos"
                             hidden={true}
+                            classes='w-[207px]'
                         />
                     </div>
                 </div>

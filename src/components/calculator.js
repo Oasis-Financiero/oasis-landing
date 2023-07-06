@@ -11,9 +11,9 @@ import AppButton from "./styled/ConfirmButton/AppButton";
 
 const Calculator = () => {
 
-    const pagos = ["10,000 mx", "20,000 mxn", "40,000 mxn", "15,000 mxn"]
+    const pagos = ["", "10,000 mx", "20,000 mxn", "40,000 mxn", "15,000 mxn"]
 
-    const ciudades = ["CDMX", "Chihuahua", "Durango", "Monterrey"]
+    const ciudades = ["", "CDMX", "Chihuahua", "Durango", "Monterrey"]
 
     return (
 
@@ -23,16 +23,18 @@ const Calculator = () => {
             <div className={tailwind.container}>
 
                 <div className={tailwind.titleContainer}>
-                    <AppSlider 
-                    type="Préstamo"
-                    coin={true}
+                    <AppSlider
+                        type="Préstamo"
+                        coin={true}
+                        classes='w-[207px]'
                     />
                 </div>
 
                 <div className={tailwind.titleContainer}>
-                    <AppSlider 
-                    type="Ingresos"
-                    coin={true}
+                    <AppSlider
+                        type="Ingresos"
+                        coin={true}
+                        classes='w-[207px]'
                     />
                 </div>
 
@@ -46,8 +48,9 @@ const Calculator = () => {
                 </div>
 
                 <div className={tailwind.titleContainer}>
-                    <AppSlider 
-                    type="Plazo"
+                    <AppSlider
+                        type="Plazo"
+                        classes='w-[214px]'
                     />
                 </div>
 
@@ -73,7 +76,7 @@ const Calculator = () => {
 
             <div className={'flex justify-center items-center p-8 md:p-6'}>
                 <AppButton
-                tag="Calcular préstamo"
+                    tag="Calcular préstamo"
                 />
             </div>
 
