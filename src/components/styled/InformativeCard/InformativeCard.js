@@ -85,7 +85,7 @@ const InformativeCard = () => {
                 <div
                     className="md:hidden relative flex justify-center bottom-4"
                     onClick={onHiddeResponsive}
-                ><BsFillArrowDownCircleFill size={30} /></div>
+                ><BsFillArrowDownCircleFill size={30} fill={colors.resalte1}/></div>
 
                 <div className={` ${accordion ?
                     'relative animate-fade-down animate-ease-in animate-delay-0 hidden'
