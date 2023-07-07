@@ -40,8 +40,9 @@ const AppSelect = ({ title, tagLabel, items, width }) => {
                     inputProps='Without label'
                     displayEmpty
                     className={width}
+                    value={""}
                 >
-                    <MenuItem value="">
+                    <MenuItem value={title}>
                         <em>{title}</em>
                     </MenuItem>
                     {item}

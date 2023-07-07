@@ -17,6 +17,7 @@ import AppSteps from "../components/styled/Steps/Steps";
 import {IoIosArrowDroprightCircle} from 'react-icons/io'
 import AppSecondaryCalculator from "../components/styled/SecondaryCalculator/SecondaryCalculator";
 import RedirectionCard from "../components/styled/RedirectionCard/RedirectionCard";
+import InformativeCard from "../components/styled/InformativeCard/InformativeCard";
 
 
 
@@ -62,7 +63,7 @@ const Compara = () => {
                         </div>
 
                         <div>
-                            <img src={woman} alt="woman" className="w-[202px] flex absolute bottom-[427px] right-[75px] md:w-[444px] md:bottom-0 md:left-[620px]" />
+                            <img src={woman} alt="woman" className="w-[202px] flex absolute bottom-[427px] right-[75px] md:w-[444px] md:bottom-0 md:left-[620px] transition animate-fade-down " />
                         </div>
                     </div>
                 </div>
@@ -107,8 +108,8 @@ const Compara = () => {
                 </div>
 
 
-                <div className={`bg-[${colors.fdoGris}] flex justify-center`}>
-                    <RedirectionCard/>
+                <div className={`bg-[${colors.fdoGris}] flex justify-center p-2`}>
+                    <InformativeCard/>
                 </div>
 
             </div>
