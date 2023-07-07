@@ -12,7 +12,6 @@ const AppSlider = ({ type, coin, size, classes }) => {
         setValue(newValue)
     }
 
-    console.log(value)
     return (
         <div className={`flex flex-col justify-center items-center`}>
             <h1 id={size === 'responsive' ? style.responsive : style.normal }>{`${type}: `} <span className="font-bold">{coin ? `$${value}, 000 mxn` : `${value} meses`}</span></h1>

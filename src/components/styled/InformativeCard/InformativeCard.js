@@ -15,7 +15,6 @@ const InformativeCard = () => {
         setAccordion(!accordion)
     }
 
-    console.log(accordion);
 
     return (
         <section className="w-[963px] md:h-[517px] flex flex-col md:flex-row rounded-[25px]">
@@ -53,11 +52,10 @@ const InformativeCard = () => {
                     </div>
                 </div>
 
-
             </div>
 
-            <div style={{ backgroundColor: colors.fdoCalido, border: `2px solid ${colors.gris} ` }}
-                className="flex flex-col w-full h-full md:rounded-tr-[25px] md:rounded-bl-[0px] rounded-bl-[25px] rounded-br-[25px]">
+            <div style={{ backgroundColor: colors.fdoCalido }}
+                className="flex flex-col w-full h-full md:rounded-tr-[25px] md:rounded-bl-[0px] rounded-bl-[25px] rounded-br-[25px] border-gray-300 border-2 md:border-l-0 border-l-2 md:border-t-2 border-t-0">
                 <div style={{ font: 'normal normal 600 17px/21px Inter', color: colors.logo }}
                     className={`grid grid-cols-2 text-center gap-4 md:gap-12 md:flex flex-row justify-around items-center p-10 `}>
                     <div className="flex flex-col gap-0 md:gap-3">
@@ -81,11 +79,11 @@ const InformativeCard = () => {
                     </div>
                 </div>
 
-                <div className="border border-gray-300 mx-4 md:mx-8"></div>
+                <div className="mx-4 md:mx-8"></div>
                 <div
                     className="md:hidden relative flex justify-center bottom-4"
                     onClick={onHiddeResponsive}
-                >{accordion ? <IoIosArrowDropdownCircle size={30} fill={colors.resalte1}/> : <IoIosArrowDropupCircle size={30} fill={colors.resalte1}/>}</div>
+                >{accordion ? <IoIosArrowDropdownCircle size={30} fill={colors.resalte1} /> : <IoIosArrowDropupCircle size={30} fill={colors.resalte1} />}</div>
 
                 <div className={` ${accordion ?
                     'relative animate-fade-down animate-ease-in animate-delay-0 hidden md:flex'
@@ -100,13 +98,10 @@ const InformativeCard = () => {
                             <div>{text2}</div>
                         </div>
 
-
                         <div style={{ font: 'normal normal normal 15px/20px Inter', color: colors.brand1 }} className="text-center">
                             {text3}
                         </div>
                     </div>
-
-
 
                 </div>
 
