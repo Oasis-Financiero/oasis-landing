@@ -79,7 +79,7 @@ const InformativeCard = () => {
                     </div>
                 </div>
 
-                <div className="mx-4 md:mx-8"></div>
+                <div className="mx-4 md:mx-8 border"></div>
                 <div
                     className="md:hidden relative flex justify-center bottom-4"
                     onClick={onHiddeResponsive}
