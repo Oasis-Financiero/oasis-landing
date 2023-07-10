@@ -9,11 +9,15 @@ import AppButton from "./styled/ConfirmButton/AppButton";
 
 
 
-const Calculator = () => {
+const Calculator = ({loanAmount, setLoanAmount, loanTerm, setLoanTerm, incomeAmount, setIncomeAmount}) => {
 
     const pagos = ["", "10,000 mx", "20,000 mxn", "40,000 mxn", "15,000 mxn"]
 
     const ciudades = ["", "CDMX", "Chihuahua", "Durango", "Monterrey"]
+
+
+
+    // console.log(loanAmount, incomeAmount, loanTerm)
 
     return (
 
@@ -27,6 +31,8 @@ const Calculator = () => {
                         type="Préstamo"
                         coin={true}
                         classes='w-[207px]'
+                        value={loanAmount}
+                        onValueChange={setLoanAmount}
                     />
                 </div>
 
@@ -35,6 +41,8 @@ const Calculator = () => {
                         type="Ingresos"
                         coin={true}
                         classes='w-[207px]'
+                        value={incomeAmount}
+                        onValueChange={setIncomeAmount}
                     />
                 </div>
 
@@ -51,6 +59,9 @@ const Calculator = () => {
                     <AppSlider
                         type="Plazo"
                         classes='w-[214px]'
+                        limit={18}
+                        value={loanTerm}
+                        onValueChange={setLoanTerm}
                     />
                 </div>
 

@@ -11,7 +11,7 @@ const AppSelect = ({ title, tagLabel, items, width }) => {
 
     const item = items.map(i => {
         return (
-            <MenuItem value={i}>{i}</MenuItem>
+            <MenuItem value={i} key={i}>{i}</MenuItem>
         )
     })
 
@@ -37,7 +37,6 @@ const AppSelect = ({ title, tagLabel, items, width }) => {
                             backgroundColor: colors.fdoGris,
                         }
                     }}
-                    inputProps='Without label'
                     displayEmpty
                     className={width}
                     value={""}
