@@ -9,7 +9,7 @@ import AppButton from "./styled/ConfirmButton/AppButton";
 
 
 
-const Calculator = ({loanAmount, setLoanAmount, loanTerm, setLoanTerm, incomeAmount, setIncomeAmount}) => {
+const Calculator = ({loanAmount, setLoanAmount, loanTerm, setLoanTerm, incomeAmount, setIncomeAmount, setHiddeTable}) => {
 
     const pagos = ["", "10,000 mx", "20,000 mxn", "40,000 mxn", "15,000 mxn"]
 
@@ -85,10 +85,10 @@ const Calculator = ({loanAmount, setLoanAmount, loanTerm, setLoanTerm, incomeAmo
                 </div>
             </div>
 
-            <div className={'flex justify-center items-center p-8 md:p-6'}>
-                <AppButton
+            <div className={'flex justify-center items-center p-8 md:p-6 cursor-pointer'} onClick={() => setHiddeTable(false)}>
+                <a href="#secondaryCalculator"><AppButton
                     tag="Calcular préstamo"
-                />
+                /></a>
             </div>
 
         </Box>
