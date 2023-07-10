@@ -6,6 +6,7 @@ import AppSlider from "./styled/Slider/Slider";
 import AppSelect from "./styled/Dropdown/Dropdown";
 import AppTextBox from "./styled/TextBox/TextBox";
 import AppButton from "./styled/ConfirmButton/AppButton";
+import { Link } from "gatsby";
 
 
 
@@ -86,9 +87,9 @@ const Calculator = ({loanAmount, setLoanAmount, loanTerm, setLoanTerm, incomeAmo
             </div>
 
             <div className={'flex justify-center items-center p-8 md:p-6 cursor-pointer'} onClick={() => setHiddeTable(false)}>
-                <a href="#secondaryCalculator"><AppButton
+                <Link href="#secondaryCalculator"><AppButton
                     tag="Calcular préstamo"
-                /></a>
+                /></Link>
             </div>
 
         </Box>
