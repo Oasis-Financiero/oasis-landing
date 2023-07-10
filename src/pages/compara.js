@@ -85,7 +85,7 @@ const Compara = () => {
                         </div>
 
                         <div>
-                            <img src={woman} alt="woman" className="w-[202px] flex absolute bottom-[427px] right-[75px] md:w-[444px] md:bottom-0 md:left-[620px] transition animate-fade-down " />
+                            <img src={woman} alt="woman" className="w-[202px] flex absolute bottom-[427px] right-[55px] md:w-[444px] md:bottom-0 md:left-[620px] transition animate-fade-down " />
                         </div>
                     </div>
                 </div>
