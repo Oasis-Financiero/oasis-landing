@@ -32,7 +32,7 @@ const Compara = () => {
 
     return (
         <Layout page='compara'>
-            <div className="flex flex-col gap-10 md:gap-0">
+            <div className="flex flex-col gap-10 md:gap-0 animate-fade-down animate-once animate-ease-in delay-0">
 
                 <div className='flex flex-col justify-center md:flex md:justify-center md:items-center'>
                     <div className="md:flex md:flex-col md:justify-center md:items-start md:p-[100px]">
