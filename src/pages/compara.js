@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Layout from "../components/layout";
 import Calculator from "../components/calculator";
 import wallet from '../images/herramientas/img-prestamos-personales-main.webp'
@@ -14,7 +14,7 @@ import AppLinedCard from "../components/styled/LinedCard/LinedCard";
 import RelevantPoints from "../components/styled/RelevantPoints/RelevantPoints";
 import CardsInsuranceTypes from "../components/styled/CardTypeSecure/CardsInsuranceTypes";
 import AppSteps from "../components/styled/Steps/Steps";
-import {IoIosArrowDroprightCircle} from 'react-icons/io'
+import { IoIosArrowDroprightCircle } from 'react-icons/io'
 import AppSecondaryCalculator from "../components/styled/SecondaryCalculator/SecondaryCalculator";
 import RedirectionCard from "../components/styled/RedirectionCard/RedirectionCard";
 import InformativeCard from "../components/styled/InformativeCard/InformativeCard";
@@ -22,6 +22,13 @@ import InformativeCard from "../components/styled/InformativeCard/InformativeCar
 
 
 const Compara = () => {
+
+    const [loanAmount, setLoanAmount] = useState(10)
+    const [incomeAmount, setIncomeAmount] = useState(10)
+    const [loanTerm, setLoanTerm] = useState(12);
+
+    const [hiddeTable, setHiddeTable] = useState(true)
+    console.log(hiddeTable);
 
     return (
         <Layout page='compara'>
@@ -31,7 +38,15 @@ const Compara = () => {
                     <div className="md:flex md:flex-col md:justify-center md:items-start md:p-[100px]">
                         <h1 id={style.title}>Préstamos personales para <span id={style.word}>surfear</span> las emergencias</h1>
                         <div className="flex flex-col justify-center items-center p-2 md:flex md:flex-row md:gap-4">
-                            <Calculator />
+                            <Calculator
+                                loanAmount={loanAmount}
+                                setLoanAmount={setLoanAmount}
+                                loanTerm={loanTerm}
+                                setLoanTerm={setLoanTerm}
+                                incomeAmount={incomeAmount}
+                                setIncomeAmount={setIncomeAmount}
+                                setHiddeTable={setHiddeTable}
+                            />
                             <div className="max-md:hidden md:w-[503px] md:h-[497px] md:relative md:bottom-3">
                                 <img
                                     src={wallet}
@@ -47,9 +62,16 @@ const Compara = () => {
                     <AppSteps />
                 </div>
 
-                <div className="flex justify-center pt-16">
-                   <AppSecondaryCalculator/>
-                </div>
+                {hiddeTable ? null : <div id="secondaryCalculator" className="flex justify-center pt-16 animate-fade-down delay-75">
+                    <AppSecondaryCalculator
+                        loanAmount={loanAmount}
+                        setLoanAmount={setLoanAmount}
+                        loanTerm={loanTerm}
+                        setLoanTerm={setLoanTerm}
+                        incomeAmount={incomeAmount}
+                        setIncomeAmount={setIncomeAmount}
+                    />
+                </div>}
 
                 <div className="flex justify-center p-4 pt-[250px] md:pt-[150px]">
                     <div className="flex flex-row w-[1080px] h-[427px] rounded-[25px] relative" style={{ backgroundColor: colors.fdoMdo }}>
@@ -57,13 +79,13 @@ const Compara = () => {
                             <h1 id={style.discover} className="text-white">Descubre y compara los mejores productos financieros en México</h1>
                             <span id={style.discoverSub} className="text-white">Ahorra tiempo, dinero y toma decisiones informadas. ¡Encuentra el producto perfecto para tus necesidades hoy mismo!</span>
                             <div className="flex flex-col gap-4 md:flex-row md:gap-10">
-                                <span id={style.discoverLink} className="text-white flex flex-row items-center gap-2"><IoIosArrowDroprightCircle/>Prestamos personales</span>
-                                <span id={style.discoverLink} className="text-white flex flex-row items-center gap-2"><IoIosArrowDroprightCircle/>Seguros de auto</span>
+                                <span id={style.discoverLink} className="text-white flex flex-row items-center gap-2"><IoIosArrowDroprightCircle />Prestamos personales</span>
+                                <span id={style.discoverLink} className="text-white flex flex-row items-center gap-2"><IoIosArrowDroprightCircle />Seguros de auto</span>
                             </div>
                         </div>
 
                         <div>
-                            <img src={woman} alt="woman" className="w-[202px] flex absolute bottom-[427px] right-[75px] md:w-[444px] md:bottom-0 md:left-[620px] transition animate-fade-down " />
+                            <img src={woman} alt="woman" className="w-[202px] flex absolute bottom-[427px] right-[55px] md:w-[444px] md:bottom-0 md:left-[620px] transition animate-fade-down " />
                         </div>
                     </div>
                 </div>
@@ -109,7 +131,7 @@ const Compara = () => {
 
 
                 <div className={`bg-[${colors.fdoGris}] flex justify-center p-2`}>
-                    <InformativeCard/>
+                    <InformativeCard />
                 </div>
 
             </div>

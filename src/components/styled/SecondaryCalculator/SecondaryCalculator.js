@@ -4,7 +4,7 @@ import AppSlider from "../Slider/Slider";
 import * as style from './SecondaryCalculator.module.css'
 import ProductTable from "../ProductTable/ProductTable";
 
-const AppSecondaryCalculator = () => {
+const AppSecondaryCalculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTerm, incomeAmount, setIncomeAmount }) => {
     return (
         <section className="flex flex-col justify-center items-center gap-3 overflow-x-hidden">
             <section className="md:w-[1080px] md:h-[160px] m-2 gap-4 md:gap-0 p-4 md:p-0 rounded-[25px] flex flex-col md:flex-row md:justify-around md:items-center" style={{ border: `2px solid ${colors.resalte1}` }}>
@@ -20,6 +20,8 @@ const AppSecondaryCalculator = () => {
                             coin={true}
                             hidden={true}
                             classes='w-[207px]'
+                            value={loanAmount}
+                            onValueChange={setLoanAmount}
                         />
                     </div>
                 </div>
@@ -31,6 +33,8 @@ const AppSecondaryCalculator = () => {
                             coin={true}
                             hidden={true}
                             classes='w-[207px]'
+                            value={incomeAmount}
+                            onValueChange={setIncomeAmount}
                         /></div>
                 </div>
 
@@ -38,8 +42,11 @@ const AppSecondaryCalculator = () => {
                     <div>
                         <AppSlider
                             type="Plazos"
+                            limit={18}
                             hidden={true}
                             classes='w-[207px]'
+                            value={loanTerm}
+                            onValueChange={setLoanTerm}
                         />
                     </div>
                 </div>
@@ -47,8 +54,11 @@ const AppSecondaryCalculator = () => {
             </section >
 
             <section className="flex overflow-x-scroll w-screen md:w-full md:overflow-hidden">
-                
-                <ProductTable />
+
+                <ProductTable
+                    loanAmount={loanAmount}
+                    loanTerm={loanTerm}
+                />
 
             </section>
         </section>

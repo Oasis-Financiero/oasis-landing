@@ -6,14 +6,19 @@ import AppSlider from "./styled/Slider/Slider";
 import AppSelect from "./styled/Dropdown/Dropdown";
 import AppTextBox from "./styled/TextBox/TextBox";
 import AppButton from "./styled/ConfirmButton/AppButton";
+import { Link } from "gatsby";
 
 
 
-const Calculator = () => {
+const Calculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTerm, incomeAmount, setIncomeAmount, setHiddeTable }) => {
 
     const pagos = ["", "10,000 mx", "20,000 mxn", "40,000 mxn", "15,000 mxn"]
 
     const ciudades = ["", "CDMX", "Chihuahua", "Durango", "Monterrey"]
+
+
+
+    // console.log(loanAmount, incomeAmount, loanTerm)
 
     return (
 
@@ -27,6 +32,8 @@ const Calculator = () => {
                         type="Préstamo"
                         coin={true}
                         classes='w-[207px]'
+                        value={loanAmount}
+                        onValueChange={setLoanAmount}
                     />
                 </div>
 
@@ -35,6 +42,8 @@ const Calculator = () => {
                         type="Ingresos"
                         coin={true}
                         classes='w-[207px]'
+                        value={incomeAmount}
+                        onValueChange={setIncomeAmount}
                     />
                 </div>
 
@@ -51,6 +60,9 @@ const Calculator = () => {
                     <AppSlider
                         type="Plazo"
                         classes='w-[214px]'
+                        limit={18}
+                        value={loanTerm}
+                        onValueChange={setLoanTerm}
                     />
                 </div>
 
@@ -74,10 +86,10 @@ const Calculator = () => {
                 </div>
             </div>
 
-            <div className={'flex justify-center items-center p-8 md:p-6'}>
-                <AppButton
+            <div className={'flex justify-center items-center p-8 md:p-6 cursor-pointer'} onClick={() => setHiddeTable(false)}>
+                <Link href="#secondaryCalculator"><AppButton
                     tag="Calcular préstamo"
-                />
+                /></Link>
             </div>
 
         </Box>
