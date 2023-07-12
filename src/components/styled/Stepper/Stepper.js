@@ -14,11 +14,16 @@ export const AppStepper = ({ steps }) => {
     const [stepsActive, setStepsActive] = useState(0)
 
 
-    const onHandleCompeted = () => {
-        setStepsActive(stepsActive + 1)
-        if (stepsActive >= steps.length - 1) {
+    const onHandleCompleted = () => {
+        if (stepsActive !== steps.length) {
+            setStepsActive(stepsActive + 1)
+        } if (stepsActive === steps.length - 1)
             setIsCompleted(true)
-        } else {
+    }
+
+    const onBackHandleCompleted = () => {
+        if (stepsActive !== 0) {
+            setStepsActive(stepsActive - 1)
             setIsCompleted(false)
         }
     }
@@ -31,7 +36,7 @@ export const AppStepper = ({ steps }) => {
                 {steps.map((label) => (
                     <Step key={label} sx={{
                         '& .MuiStepLabel-root .Mui-completed': {
-                            color: colors.resalte1, // circle color (COMPLETED)
+                            color: colors.resalte1,
                         },
                         '& .MuiStepLabel-label.Mui-completed.MuiStepLabel-alternativeLabel':
                         {
@@ -62,7 +67,8 @@ export const AppStepper = ({ steps }) => {
                     </Step>
                 ))}
             </Stepper>
-            <div onClick={() => onHandleCompeted()}><AppButton /></div>
+            <div onClick={() => onHandleCompleted()}><AppButton /></div>
+            <div onClick={() => onBackHandleCompleted()}><AppButton /></div>
         </div>
     )
 }
