@@ -18,6 +18,7 @@ import { IoIosArrowDroprightCircle } from 'react-icons/io'
 import AppSecondaryCalculator from "../components/styled/SecondaryCalculator/SecondaryCalculator";
 import RedirectionCard from "../components/styled/RedirectionCard/RedirectionCard";
 import InformativeCard from "../components/styled/InformativeCard/InformativeCard";
+import AppStepper from "../components/styled/Stepper/Stepper";
 
 
 
@@ -32,7 +33,7 @@ const Compara = () => {
 
     return (
         <Layout page='compara'>
-            <div className="flex flex-col gap-10 md:gap-0">
+            <div className="flex flex-col gap-10 md:gap-0 animate-fade-down animate-once animate-ease-in delay-0">
 
                 <div className='flex flex-col justify-center md:flex md:justify-center md:items-center'>
                     <div className="md:flex md:flex-col md:justify-center md:items-start md:p-[100px]">
@@ -131,7 +132,9 @@ const Compara = () => {
 
 
                 <div className={`bg-[${colors.fdoGris}] flex justify-center p-2`}>
-                    <InformativeCard />
+                    <AppStepper
+                    steps={['Tipo de Seguro y Vehiculo', ' Datos Solicitante', 'Confirmar Solicitud']}
+                    />
                 </div>
 
             </div>
