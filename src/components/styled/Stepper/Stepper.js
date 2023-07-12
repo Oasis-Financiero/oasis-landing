@@ -22,9 +22,9 @@ const StepIcon = (props) => {
         <div className={className}>
             {
                 completed ?
-                    < BsCircleFill style={iconStyleCompleted} className="rounded-[50%]"/>
+                    < BsCircleFill style={iconStyleCompleted} className="rounded-[50%]" />
                     :
-                    < BsCircleFill style={iconStyleActive} className="rounded-[50%]"/>
+                    < BsCircleFill style={iconStyleActive} className="rounded-[50%]" />
             }
         </div>
     );
@@ -33,6 +33,23 @@ const StepIcon = (props) => {
 export const AppStepper = ({ steps }) => {
     const [isCompleted, setIsCompleted] = useState(false);
     const [stepsActive, setStepsActive] = useState(0);
+
+    const styleSx = {
+        '& .MuiStepLabel-label.MuiStepLabel-alternativeLabel':
+        {
+            font: 'normal normal 600 16px/17px Inter',
+        },
+        '.MuiStepLabel-iconContainer': {
+            marginTop: "5px",
+        },
+        '.MuiStepConnector-root': {
+            left: "calc(-50% + 10px)",
+            right: "calc(50% + 10px)"
+        },
+        '.MuiStepConnector-line': {
+            borderTopWidth: "2px"
+        }
+    }
 
     const onHandleCompleted = () => {
         if (stepsActive !== steps.length) {
@@ -55,13 +72,7 @@ export const AppStepper = ({ steps }) => {
             <Stepper activeStep={stepsActive} alternativeLabel>
                 {steps.map((label) => (
                     <Step key={label} completed={isCompleted}
-                        sx={{
-                            '& .MuiStepLabel-label.MuiStepLabel-alternativeLabel':
-                            {
-                                font: 'normal normal 600 16px/17px Inter',
-                            },
-
-                        }}>
+                        sx={styleSx}>
                         <StepLabel
                             className="text-center"
                             StepIconComponent={StepIcon}
