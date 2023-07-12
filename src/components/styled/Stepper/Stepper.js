@@ -47,7 +47,7 @@ export const AppStepper = ({ steps }) => {
                             font: 'normal normal 600 16px/17px Inter'
                         },
                         '& .MuiStepLabel-root .Mui-active .MuiStepIcon-text': {
-                            fill: 'black',
+                            fill: 'white',
                         },
 
                     }}
