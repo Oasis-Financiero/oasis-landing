@@ -35,7 +35,7 @@ export const AppStepper = ({ steps }) => {
                         },
                         '& .MuiStepLabel-label.Mui-completed.MuiStepLabel-alternativeLabel':
                         {
-                            color: colors.gris,
+                            color: colors.resalte1,
                             font: 'normal normal 600 16px/17px Inter'
                         },
                         '& .MuiStepLabel-root .Mui-active': {
@@ -45,6 +45,10 @@ export const AppStepper = ({ steps }) => {
                         {
                             color: colors.brand1,
                             font: 'normal normal 600 16px/17px Inter'
+                        },
+                        '& .MuiStepLabel-label.MuiStepLabel-alternativeLabel':
+                        {
+                            font: 'normal normal 600 16px/17px Inter',
                         },
                         '& .MuiStepLabel-root .Mui-active .MuiStepIcon-text': {
                             fill: 'white',
