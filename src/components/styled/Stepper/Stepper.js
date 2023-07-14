@@ -84,12 +84,6 @@ export const AppStepper = ({ steps }) => {
                     </Step>
                 ))}
             </Stepper>
-            <div onClick={onHandleCompleted}>
-                <AppButton />
-            </div>
-            <div onClick={onBackHandleCompleted}>
-                <AppButton />
-            </div>
         </div>
     );
 };

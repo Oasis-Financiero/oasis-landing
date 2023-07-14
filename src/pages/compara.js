@@ -19,6 +19,7 @@ import AppSecondaryCalculator from "../components/styled/SecondaryCalculator/Sec
 import RedirectionCard from "../components/styled/RedirectionCard/RedirectionCard";
 import InformativeCard from "../components/styled/InformativeCard/InformativeCard";
 import AppStepper from "../components/styled/Stepper/Stepper";
+import InformativeText from "../components/styled/InformativeText/InformativeText";
 
 
 
@@ -132,9 +133,7 @@ const Compara = () => {
 
 
                 <div className={`bg-[${colors.fdoGris}] flex justify-center p-2`}>
-                    <AppStepper
-                    steps={['Tipo de Seguro y Vehiculo', ' Datos Solicitante', 'Confirmar Solicitud']}
-                    />
+                    <InformativeText/>
                 </div>
 
             </div>
