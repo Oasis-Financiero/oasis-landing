@@ -7,18 +7,16 @@ import Select from '@mui/material/Select';
 import { SlArrowDown } from 'react-icons/sl'
 import colors from "../../../constants/colors";
 
-const AppSelect = ({ title, tagLabel, items, width }) => {
-    const [selectedItem, setSelectedItem] = useState(title)
+const AppSelect = ({ title, tagLabel, items, width, selected, setSelected }) => {
 
     const handleChange = (e) => {
-        setSelectedItem(e.target.value);
+        setSelected(e.target.value);
     };
 
     const itemElements = items.map(i => (
         <MenuItem value={i} key={i}>{i}</MenuItem>
     ));
 
-    console.log(selectedItem);
 
     return (
         <>
@@ -38,8 +36,8 @@ const AppSelect = ({ title, tagLabel, items, width }) => {
                     }}
                     displayEmpty
                     className={width}
-                    value={selectedItem}
-                    onChange={handleChange} // Actualiza el estado cuando se selecciona un nuevo item
+                    value={selected}
+                    onChange={handleChange}
                 >
                     <MenuItem value={title}>
                         <em>{title}</em>

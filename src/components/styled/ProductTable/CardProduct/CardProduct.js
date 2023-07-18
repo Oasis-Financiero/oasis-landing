@@ -2,7 +2,7 @@ import React from "react";
 import colors from "../../../../constants/colors";
 import AppButton from '../../ConfirmButton/AppButton'
 
-const CardProduct = ({ img, tasa, comision, producto, loanAmount, loanTerm }) => {
+const CardProduct = ({ img, tasa, comision, producto, loanAmount, loanTerm, selectedTypePay }) => {
 
     const loanAmountPay = parseInt(loanAmount + '000')
     const totalPayWithInterest = loanAmountPay + (loanAmountPay * (tasa.anual / 100))
@@ -14,17 +14,25 @@ const CardProduct = ({ img, tasa, comision, producto, loanAmount, loanTerm }) =>
 
 
     const monthPay = (totalPayWithInterest / loanTerm)
+    const fortnightlyPay = (totalPayWithInterest / loanTerm) / 2
+
+    const fortnightlyPayFinal = fortnightlyPay.toLocaleString('en-US', {
+        style: 'currency',
+        currency: 'USD',
+        maximumFractionDigits: 0,
+    })
+
     const monthPayFinal = monthPay.toLocaleString('en-US', {
         style: 'currency',
         currency: 'USD',
         maximumFractionDigits: 0,
     })
 
-    console.log(loanAmount);
+    console.log(loanAmount , fortnightlyPay);
 
     return (
         <>
-            <ul className="w-[1080px] h-[96px] flex flex-row justify-between items-center text-center mt-1" style={{ font: "normal normal 600 20px/26px Inter", color: colors.brand1 }}>
+            <ul className="w-[1080px] h-[96px] flex flex-row justify-between items-center text-center mt-1" style={{ font: "normal normal 600 19px/26px Inter", color: colors.brand1 }}>
                 <div className={`w-[1080px] h-[96px] flex flex-row justify-between items-center text-center`} style={producto === 'MrFinan' || producto === 'KreditiWeb' ? { border: `2px solid ${colors.resalte1}`, borderRadius: '15px' } : null}>
                     <li className="w-full h-full flex justify-center items-center">
                         <img src={img} alt={producto} className="w-[154px] p-2" />
@@ -35,7 +43,7 @@ const CardProduct = ({ img, tasa, comision, producto, loanAmount, loanTerm }) =>
                     </li>
 
                     <li className="w-full h-full flex justify-center items-center gap-1" >
-                        {`${monthPayFinal}`}
+                        {selectedTypePay === "Pagos Mensuales" ? monthPayFinal : fortnightlyPayFinal }
 
                     </li>
 

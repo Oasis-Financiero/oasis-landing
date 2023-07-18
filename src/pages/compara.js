@@ -29,6 +29,10 @@ const Compara = () => {
     const [incomeAmount, setIncomeAmount] = useState(10)
     const [loanTerm, setLoanTerm] = useState(12);
     const [hiddeTable, setHiddeTable] = useState(true)
+    const [selectedState, setSelectedState] = useState("")
+    const [selectedTypePay, setSelectedTypePay] = useState("")
+
+    console.log(selectedTypePay);
 
     return (
         <Layout page='compara'>
@@ -46,6 +50,10 @@ const Compara = () => {
                                 incomeAmount={incomeAmount}
                                 setIncomeAmount={setIncomeAmount}
                                 setHiddeTable={setHiddeTable}
+                                selectedState={selectedState}
+                                setSelectedState={setSelectedState}
+                                selectedTypePay={selectedTypePay}
+                                setSelectedTypePay={setSelectedTypePay}
                             />
                             <div className="max-md:hidden md:w-[503px] md:h-[497px] md:relative md:bottom-3">
                                 <img
@@ -70,6 +78,7 @@ const Compara = () => {
                         setLoanTerm={setLoanTerm}
                         incomeAmount={incomeAmount}
                         setIncomeAmount={setIncomeAmount}
+                        selectedTypePay={selectedTypePay}
                     />
                 </div>}
 
@@ -131,7 +140,7 @@ const Compara = () => {
 
 
                 <div className={`bg-[${colors.fdoGris}] flex justify-center p-2`}>
-                    <InformativeCard/>
+                    {/* <InformativeCard/> */}
                 </div>
 
             </div>

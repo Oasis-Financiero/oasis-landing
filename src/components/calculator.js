@@ -10,11 +10,11 @@ import { Link } from "gatsby";
 
 
 
-const Calculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTerm, incomeAmount, setIncomeAmount, setHiddeTable }) => {
+const Calculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTerm, incomeAmount, setIncomeAmount, setHiddeTable, selectedState, setSelectedState, selectedTypePay, setSelectedTypePay }) => {
 
-    const pagos = ["", "Pagos Mensuales", "Pagos Quincenales"]
+    const pagos = ["Pagos Mensuales", "Pagos Quincenales"]
 
-    const estados = ["", 'Aguascalientes',
+    const estados = ['Aguascalientes',
         'Baja California',
         'Baja California Sur',
         'Campeche',
@@ -82,6 +82,8 @@ const Calculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTerm, incomeAm
                         title="Tipo de Pago"
                         tagLabel="Tipo de Pago"
                         items={pagos}
+                        selected={selectedTypePay}
+                        setSelected={setSelectedTypePay}
                     />
                 </div>
 
@@ -111,12 +113,14 @@ const Calculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTerm, incomeAm
                         title="Estado"
                         tagLabel="Estado"
                         items={estados}
+                        selected={selectedState}
+                        setSelected={setSelectedState}
                     />
                 </div>
             </div>
 
             <div className={'flex justify-center items-center p-8 md:p-6 cursor-pointer'} onClick={() => setHiddeTable(false)}>
-                <Link href="#secondaryCalculator"><AppButton
+                <Link to="#secondaryCalculator"><AppButton
                     tag="Calcular préstamo"
                 /></Link>
             </div>

@@ -6,7 +6,7 @@ import products from "./CardProduct/products";
 import { anualSorted, anualSortedReverse, mensualSorted, mensualSortedReverse } from "./CardProduct/helpers";
 
 
-const ProductTable = ({loanAmount, loanTerm}) => {
+const ProductTable = ({loanAmount, loanTerm, selectedTypePay}) => {
 
     const [tasaSort, setTasaSort] = useState(false)
     const [monthSort, setMonthSort] = useState(false)
@@ -44,6 +44,7 @@ const ProductTable = ({loanAmount, loanTerm}) => {
             key={props.key}
             loanAmount={loanAmount}
             loanTerm={loanTerm}
+            selectedTypePay={selectedTypePay}
         />
     })
 
@@ -61,7 +62,7 @@ const ProductTable = ({loanAmount, loanTerm}) => {
                 </li>
 
                 <li className="w-full h-full flex justify-center items-center gap-1" >
-                    Pago mensual
+                    {selectedTypePay === "Pagos Mensuales" ? 'Pago Mensual' : 'Pago Quincenal'}
                     {monthSort ? <TbSquareRoundedArrowUpFilled className="cursor-pointer" onClick={() => handleSort('mensual')} /> : <TbSquareRoundedArrowDownFilled className="cursor-pointer" onClick={() => handleSort('mensual')} />}
                 </li>
 
