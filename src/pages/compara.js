@@ -28,9 +28,7 @@ const Compara = () => {
     const [loanAmount, setLoanAmount] = useState(10)
     const [incomeAmount, setIncomeAmount] = useState(10)
     const [loanTerm, setLoanTerm] = useState(12);
-
     const [hiddeTable, setHiddeTable] = useState(true)
-    console.log(hiddeTable);
 
     return (
         <Layout page='compara'>
@@ -133,7 +131,7 @@ const Compara = () => {
 
 
                 <div className={`bg-[${colors.fdoGris}] flex justify-center p-2`}>
-                    <InformativeText/>
+                    <InformativeCard/>
                 </div>
 
             </div>

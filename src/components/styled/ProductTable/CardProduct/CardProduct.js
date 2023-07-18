@@ -20,7 +20,7 @@ const CardProduct = ({ img, tasa, comision, producto, loanAmount, loanTerm }) =>
         maximumFractionDigits: 0,
     })
 
-    // console.log(totalPayWithInterest);
+    console.log(loanAmount);
 
     return (
         <>

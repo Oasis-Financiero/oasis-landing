@@ -14,12 +14,11 @@ const AppSecondaryCalculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTe
                 </div>
 
                 <div className="flex flex-col items-center">
-                    <div>
+                    <div className="w-[207px]">
                         <AppSlider
                             type="Préstamo"
                             coin={true}
                             hidden={true}
-                            classes='w-[207px]'
                             value={loanAmount}
                             onValueChange={setLoanAmount}
                         />
@@ -27,24 +26,22 @@ const AppSecondaryCalculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTe
                 </div>
 
                 <div className="flex flex-col items-center">
-                    <div>
+                    <div className="w-[207px]">
                         <AppSlider
                             type="Ingresos"
                             coin={true}
                             hidden={true}
-                            classes='w-[207px]'
                             value={incomeAmount}
                             onValueChange={setIncomeAmount}
                         /></div>
                 </div>
 
                 <div className="flex flex-col items-center">
-                    <div>
+                    <div className="w-[207px]">
                         <AppSlider
                             type="Plazos"
                             limit={18}
                             hidden={true}
-                            classes='w-[207px]'
                             value={loanTerm}
                             onValueChange={setLoanTerm}
                         />
