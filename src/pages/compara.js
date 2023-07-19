@@ -20,6 +20,7 @@ import RedirectionCard from "../components/styled/RedirectionCard/RedirectionCar
 import InformativeCard from "../components/styled/InformativeCard/InformativeCard";
 import AppStepper from "../components/styled/Stepper/Stepper";
 import InformativeText from "../components/styled/InformativeText/InformativeText";
+import ContactForm from "../components/styled/ContactForm/ContactForm";
 
 
 
@@ -139,7 +140,7 @@ const Compara = () => {
 
 
                 <div className={`bg-[${colors.fdoGris}] flex justify-center p-2`}>
-                    {/* <InformativeCard/> */}
+                    <ContactForm/>
                 </div>
 
             </div>
