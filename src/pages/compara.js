@@ -32,7 +32,6 @@ const Compara = () => {
     const [selectedState, setSelectedState] = useState("")
     const [selectedTypePay, setSelectedTypePay] = useState("")
 
-    console.log(selectedTypePay);
 
     return (
         <Layout page='compara'>
