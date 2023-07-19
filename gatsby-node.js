@@ -7,9 +7,34 @@ const {
   createRemoteFileNode,
 } = require(`gatsby-source-filesystem`)
 const { urlResolve, createContentDigest, slash } = require(`gatsby-core-utils`)
-
 const debugTheme = debug(`gatsby-theme-blog-core`)
 const withDefaults = require(`./default-options`)
+const INSURANCE_PRODUCTS = require('./content/products/insurance.json');
+const LENDING_PRODUCTS = require('./content/products/lending.json');
+
+exports.sourceNodes = ({ actions: { createNode }, createContentDigest }) => {
+  INSURANCE_PRODUCTS?.forEach((data, index) => {
+    createNode({
+      ...data,
+      id: `insurance-${index}`,
+      internal: {
+        type: `insuranceProduct`,
+        contentDigest: createContentDigest(data)
+      }
+    });
+  });
+
+  LENDING_PRODUCTS?.forEach((data, index) => {
+    createNode({
+      ...data,
+      id: `lending-${index + 1}`,
+      internal: {
+        type: `lendingProduct`,
+        contentDigest: createContentDigest(data)
+      }
+    });
+  });
+};
 
 // Ensure that content directories exist at site-level
 exports.onPreBootstrap = ({ store }, themeOptions) => {

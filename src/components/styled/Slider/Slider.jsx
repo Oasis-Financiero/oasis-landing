@@ -5,7 +5,6 @@ import * as style from '../Slider/Slider.module.css'
 
 const AppSlider = ({ type, coin, size, classes, value, onValueChange, limit }) => {
 
-
     const onSlide = (e, newValue) => {
         e.preventDefault
         onValueChange(newValue)
@@ -13,7 +12,7 @@ const AppSlider = ({ type, coin, size, classes, value, onValueChange, limit }) =
 
     return (
         <div className={`flex flex-col justify-center items-center`}>
-            <h1 id={size === 'responsive' ? style.responsive : style.normal }>{`${type}: `} <span className="font-bold">{coin ? `$${value}, 000 mxn` : `${value} meses`}</span></h1>
+            <h1 id={size === 'responsive' ? style.responsive : style.normal }>{`${type}: `} <span className="font-bold">{coin ? `$${value},000 mxn` : `${value} meses`}</span></h1>
             <Slider
                 max={limit}
                 className={classes ? classes : null}

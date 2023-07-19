@@ -1,0 +1,69 @@
+#title {
+    font: normal normal 600 40px/50px Poppins;
+    width: 592px;
+    padding-left: 20px;
+}
+
+#word {
+    color: #A86EFF;
+}
+
+#faqc {
+    background-color: #F9F9F9;
+}
+
+#faq {
+    font: normal normal 600 40px/50px Poppins;
+}
+
+#titles {
+    font: normal normal 600 40px/50px Poppins;
+}
+
+#six {
+    background-color: #F9F9F9;
+}
+
+#steps{
+    background-image: url('../../../images/steps/fdo.webp');
+    background-size: cover;
+}
+
+#discover{
+    font: normal normal bold 46px/54px Poppins;
+}
+
+#discoverSub {
+    font: normal normal normal 18px/23px Inter;
+}
+
+#discoverLink {
+    font: normal normal bold 18px/23px Inter;
+}
+
+@media (max-width:960px) {
+    #title {
+        font: normal normal 600 28px/34px Poppins;
+        max-width: 100%;
+        padding-left: 25px;
+        padding-bottom: 10px;
+        padding-top: 20px;
+    }
+
+    #titles {
+        font: normal normal 600 28px/34px Poppins;
+
+    }
+
+    #discover{
+        font: normal normal bold 28px/34px Poppins;
+    }
+
+    #discoverSub{
+        font: normal normal normal 16px/20px Inter;
+    }
+
+    #discoverLink{
+        font: normal normal bold 18px/23px Inter;
+    }
+}
