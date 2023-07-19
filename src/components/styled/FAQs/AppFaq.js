@@ -1,5 +1,6 @@
 import React from 'react';
 import AppAccordion from '../Accordion/Accordion';
+import answers from './anwers';
 
 const AppFaq = () => {
 
@@ -9,26 +10,26 @@ const AppFaq = () => {
             <div className='md:w-[470px]'>
                 <AppAccordion
                     question='¿Cuáles son los requisitos para un préstamo personal?'
-                    answer='Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+                    answer={answers.requisitos}
                 />
                 <AppAccordion
                     question='¿Cómo obtener un préstamo?'
-                    answer='Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+                    answer={answers.obtener}
                 />
                 <AppAccordion
                     question='¿Cómo se calcula el CAT anual?'
-                    answer='Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+                    answer={answers.cat}
                 />
             </div>
 
             <div className='md:w-[470px]'>
                 <AppAccordion
                     question='¿Puedo pagar mi préstamo de forma anticipada?'
-                    answer='Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+                    answer={answers.pago}
                 />
                 <AppAccordion
                     question='¿Cómo funcionan los préstamos personales?'
-                    answer='Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+                    answer={answers.personales}
                 />
             </div>
 

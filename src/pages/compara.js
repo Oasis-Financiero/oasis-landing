@@ -139,7 +139,7 @@ const Compara = () => {
                 </div>
 
 
-                <div className={`bg-[${colors.fdoGris}] flex justify-center p-2`}>
+                <div style={{backgroundColor: colors.fdoGris}} className="flex justify-center p-10">
                     <ContactForm/>
                 </div>
 

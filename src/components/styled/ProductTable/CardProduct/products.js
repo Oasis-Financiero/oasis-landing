@@ -30,18 +30,18 @@ const products = [
         total: 28890,
         comision: 0
     },
-    {
-        producto: 'Kubo Financiero',
-        key: 3,
-        img: kubofinanciero,
-        tasa: {
-            anual: 32.00,
-            hasta: 42.00
-        },
-        mensual: 2090,
-        total: 28120,
-        comision: 0
-    },
+    // {
+    //     producto: 'Kubo Financiero',
+    //     key: 3,
+    //     img: kubofinanciero,
+    //     tasa: {
+    //         anual: 32.00,
+    //         hasta: 42.00
+    //     },
+    //     mensual: 2090,
+    //     total: 28120,
+    //     comision: 0
+    // },
     {
         producto: 'Fidea',
         key: 4,
