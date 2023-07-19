@@ -4,7 +4,7 @@ import AppSlider from "../Slider/Slider";
 import * as style from './SecondaryCalculator.module.css'
 import ProductTable from "../ProductTable/ProductTable";
 
-const AppSecondaryCalculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTerm, incomeAmount, setIncomeAmount }) => {
+const AppSecondaryCalculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTerm, incomeAmount, setIncomeAmount, selectedTypePay }) => {
     return (
         <section className="flex flex-col justify-center items-center gap-3 overflow-x-hidden">
             <section className="md:w-[1080px] md:h-[160px] m-2 gap-4 md:gap-0 p-4 md:p-0 rounded-[25px] flex flex-col md:flex-row md:justify-around md:items-center" style={{ border: `2px solid ${colors.resalte1}` }}>
@@ -14,12 +14,11 @@ const AppSecondaryCalculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTe
                 </div>
 
                 <div className="flex flex-col items-center">
-                    <div>
+                    <div className="w-[207px]">
                         <AppSlider
                             type="Préstamo"
                             coin={true}
                             hidden={true}
-                            classes='w-[207px]'
                             value={loanAmount}
                             onValueChange={setLoanAmount}
                         />
@@ -27,24 +26,22 @@ const AppSecondaryCalculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTe
                 </div>
 
                 <div className="flex flex-col items-center">
-                    <div>
+                    <div className="w-[207px]">
                         <AppSlider
                             type="Ingresos"
                             coin={true}
                             hidden={true}
-                            classes='w-[207px]'
                             value={incomeAmount}
                             onValueChange={setIncomeAmount}
                         /></div>
                 </div>
 
                 <div className="flex flex-col items-center">
-                    <div>
+                    <div className="w-[207px]">
                         <AppSlider
                             type="Plazos"
                             limit={18}
                             hidden={true}
-                            classes='w-[207px]'
                             value={loanTerm}
                             onValueChange={setLoanTerm}
                         />
@@ -58,6 +55,7 @@ const AppSecondaryCalculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTe
                 <ProductTable
                     loanAmount={loanAmount}
                     loanTerm={loanTerm}
+                    selectedTypePay={selectedTypePay}
                 />
 
             </section>

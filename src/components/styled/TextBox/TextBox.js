@@ -4,7 +4,15 @@ import TextField from '@mui/material/TextField';
 import '../Dropdown/Dropdown.css'
 import colors from "../../../constants/colors";
 
-const AppTextBox = ({ label }) => {
+const AppTextBox = ({ label, size }) => {
+
+    let sizeContainer
+if(size === "contactMessage") {
+     sizeContainer = "w-[349px] md:w-[445px]"
+} else {
+     sizeContainer = "w-[166px] md:w-[214px]"
+}
+
     return (
         <>
             <Box
@@ -14,7 +22,6 @@ const AppTextBox = ({ label }) => {
                         m: 1,
                         border: `2px solid ${colors.resalte1}`,
                         borderRadius: '6px',
-
                     },
                 }}
 
@@ -23,13 +30,12 @@ const AppTextBox = ({ label }) => {
                 <div>
                     <TextField
                         label={label}
-                        id="outlined-size-small"
                         size="small"
                         sx={{
                             fontFamily: 'Inter',
                             backgroundColor: colors.fdoGris,
                         }}
-                    className="w-[166px] md:w-[214px]"
+                    className={sizeContainer}
                     />
                 </div>
             </Box>

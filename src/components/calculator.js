@@ -10,11 +10,42 @@ import { Link } from "gatsby";
 
 
 
-const Calculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTerm, incomeAmount, setIncomeAmount, setHiddeTable }) => {
+const Calculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTerm, incomeAmount, setIncomeAmount, setHiddeTable, selectedState, setSelectedState, selectedTypePay, setSelectedTypePay }) => {
 
-    const pagos = ["", "10,000 mx", "20,000 mxn", "40,000 mxn", "15,000 mxn"]
+    const pagos = ["Pagos Mensuales", "Pagos Quincenales"]
 
-    const ciudades = ["", "CDMX", "Chihuahua", "Durango", "Monterrey"]
+    const estados = ['Aguascalientes',
+        'Baja California',
+        'Baja California Sur',
+        'Campeche',
+        'Chiapas',
+        'Chihuahua',
+        'Coahuila de Zaragoza',
+        'Colima',
+        'Ciudad de México',
+        'Durango',
+        'Guanajuato',
+        'Guerrero',
+        'Hidalgo',
+        'Jalisco',
+        'Mexico',
+        'Michoacan de Ocampo',
+        'Morelos',
+        'Nayarit',
+        'Nuevo Leon',
+        'Oaxaca',
+        'Puebla',
+        'Queretaro de Arteaga',
+        'Quintana Roo',
+        'San Luis Potosi',
+        'Sinaloa',
+        'Sonora',
+        'Tabasco',
+        'Tamaulipas',
+        'Tlaxcala',
+        'Veracruz-Llave',
+        'Yucatan',
+        'Zacatecas']
 
 
 
@@ -31,7 +62,6 @@ const Calculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTerm, incomeAm
                     <AppSlider
                         type="Préstamo"
                         coin={true}
-                        classes='w-[207px]'
                         value={loanAmount}
                         onValueChange={setLoanAmount}
                     />
@@ -41,18 +71,19 @@ const Calculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTerm, incomeAm
                     <AppSlider
                         type="Ingresos"
                         coin={true}
-                        classes='w-[207px]'
                         value={incomeAmount}
                         onValueChange={setIncomeAmount}
                     />
                 </div>
 
-                <div className={`${tailwind.titleContainer} ${tailwind.dropdown}`}>
+                <div className={`${tailwind.dropdown}`}>
                     <AppSelect
                         width="w-[214px]"
-                        title="Pago Mensual"
-                        tagLabel="Pago Mensual"
+                        title="Tipo de Pago"
+                        tagLabel="Tipo de Pago"
                         items={pagos}
+                        selected={selectedTypePay}
+                        setSelected={setSelectedTypePay}
                     />
                 </div>
 
@@ -79,15 +110,17 @@ const Calculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTerm, incomeAm
                 <div>
                     <AppSelect
                         width="w-[166px] md:w-[214px]"
-                        title="Ciudad"
-                        tagLabel="Ciudad"
-                        items={ciudades}
+                        title="Estado"
+                        tagLabel="Estado"
+                        items={estados}
+                        selected={selectedState}
+                        setSelected={setSelectedState}
                     />
                 </div>
             </div>
 
             <div className={'flex justify-center items-center p-8 md:p-6 cursor-pointer'} onClick={() => setHiddeTable(false)}>
-                <Link href="#secondaryCalculator"><AppButton
+                <Link to="#secondaryCalculator"><AppButton
                     tag="Calcular préstamo"
                 /></Link>
             </div>

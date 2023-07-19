@@ -16,7 +16,7 @@ const AppSlider = ({ type, coin, size, classes, value, onValueChange, limit }) =
             <h1 id={size === 'responsive' ? style.responsive : style.normal }>{`${type}: `} <span className="font-bold">{coin ? `$${value}, 000 mxn` : `${value} meses`}</span></h1>
             <Slider
                 max={limit}
-                className={classes}
+                className={classes ? classes : null}
                 onChange={onSlide}
                 value={value}
                 defaultValue={value}

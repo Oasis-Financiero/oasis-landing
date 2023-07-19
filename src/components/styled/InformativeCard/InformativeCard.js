@@ -23,25 +23,30 @@ const InformativeCard = () => {
                 <h1 style={{ font: 'normal normal bold 22px/26px Poppins' }} className="pt-6 md:pt-12">Monto que solicitas</h1>
 
                 <div className="grid grid-cols-2 p-4 gap-4 place-items-center md:flex flex-col justify-center items-center pt-4 md:pt-2">
-                    <AppSlider
-                        type='Prestamo'
-                        coin={true}
-                        classes='w-[152px] md:w-[214px]'
-                        size='responsive'
-                    />
+                    <div className="w-[152px] md:w-[214px]">
+                        <AppSlider
+                            type='Prestamo'
+                            coin={true}
+                            size='responsive'
+                        />
+                    </div>
 
-                    <AppSlider
-                        type='Ingresos'
-                        classes='w-[152px] md:w-[214px]'
-                        coin={true}
-                        size='responsive'
-                    />
+                    <div className="w-[152px] md:w-[214px]">
+                        <AppSlider
+                            type='Ingresos'
+                            coin={true}
+                            size='responsive'
+                        />
+                    </div>
 
-                    <AppSlider
-                        classes='w-[152px] md:w-[214px]'
-                        type='Plazo'
-                        size='responsive'
-                    />
+
+                    <div className="w-[152px] md:w-[214px]">
+                        <AppSlider
+                            type='Plazo'
+                            size='responsive'
+                        />
+                    </div>
+
                     <div className="md:p-14">
                         <AppSelect
                             tagLabel='Pagos mensuales'
