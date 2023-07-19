@@ -7,14 +7,16 @@ import { IoIosArrowDropdownCircle, IoIosArrowDropupCircle } from 'react-icons/io
 import { anual, comision, mensualPay, text1, text2, text3, totalPay } from "./text";
 
 
-const InformativeCard = () => {
+const InformativeCard = ({montoParam, ingresosParam, plazoParam}) => {
     const pagos = ["", "10,000 mx", "20,000 mxn", "40,000 mxn", "15,000 mxn"]
     const [accordion, setAccordion] = useState(true)
+    const [amount, setAmount] = useState(montoParam ? +montoParam : 5000)
+    const [income, setIncome] = useState(ingresosParam ? +ingresosParam : 10000)
+    const [term, setTerm] = useState(plazoParam ? +plazoParam : 12)
 
     const onHiddeResponsive = () => {
         setAccordion(!accordion)
     }
-
 
     return (
         <section className="w-[963px] md:h-[517px] flex flex-col md:flex-row rounded-[25px]">
@@ -27,6 +29,8 @@ const InformativeCard = () => {
                         <AppSlider
                             type='Prestamo'
                             coin={true}
+                            value={amount}
+                            onValueChange={newValue => setAmount(newValue)}
                             size='responsive'
                         />
                     </div>
@@ -35,6 +39,8 @@ const InformativeCard = () => {
                         <AppSlider
                             type='Ingresos'
                             coin={true}
+                            value={income}
+                            onValueChange={newValue => setIncome(newValue)}
                             size='responsive'
                         />
                     </div>
@@ -43,6 +49,8 @@ const InformativeCard = () => {
                     <div className="w-[152px] md:w-[214px]">
                         <AppSlider
                             type='Plazo'
+                            value={term}
+                            onValueChange={newValue => setTerm(newValue)}
                             size='responsive'
                         />
                     </div>
