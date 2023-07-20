@@ -29,7 +29,7 @@ const LendingProduct = ({ data }) => {
 
   const getImage = (product) => {
     let imageSrc;
-    switch(product) {
+    switch (product) {
       case "Kreditiweb":
         imageSrc = kreditiweb
         break;
@@ -48,11 +48,13 @@ const LendingProduct = ({ data }) => {
 
   return (
     <Layout page='product'>
-      <div className="flex flex-col gap-10 md:gap-0 animate-fade-down animate-once animate-ease-in delay-0">
+      <div className="flex flex-col gap-16 md:gap-16 animate-fade-down animate-once animate-ease-in delay-0">
 
-        <div className="flex flex-col items-center">
-          <img src={getImage(name)} alt='logo' />
-          <InformativeCard montoParam={montoParam} ingresosParam={ingresosParam} plazoParam={plazoParam} />
+        <div className="flex flex-col items-center justify-center gap-8">
+          <img src={getImage(name)} alt='logo' className="p-10 pb-0"/>
+          <div className="flex justify-center items-center w-full p-3">
+            <InformativeCard montoParam={montoParam} ingresosParam={ingresosParam} plazoParam={plazoParam} />
+          </div>
         </div>
 
         <div id={style.steps}>

@@ -150,10 +150,10 @@ function IndexPage({ data }) {
               </div>
               <div className={styles.compareCardText}>
                 <div className={styles.compareItemName}>
-                  Criptomonedas
+                  Prestamos
                 </div>
                 <div className={styles.compareItemCaption}>
-                  Compra coins y NFTs
+                  Contrata en 5 minutos
                 </div>
               </div>
             </div>
@@ -172,7 +172,7 @@ function IndexPage({ data }) {
                   Lograr tus objetivos de ahorro al comparar las mejores opciones para construir tu patrimonio.
                 </p>
                 <div id={styles.heroButtons}>
-                  <button className={styles.purpleBtn}> Empieza a usarla ahora </button>
+                  <Link to="/compara"><button className={styles.purpleBtn}> Empieza a usarla ahora </button></Link>
                 </div>
               </div>
             </div>

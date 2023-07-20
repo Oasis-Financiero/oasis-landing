@@ -7,8 +7,9 @@ import { IoIosArrowDropdownCircle, IoIosArrowDropupCircle } from 'react-icons/io
 import { anual, comision, mensualPay, text1, text2, text3, totalPay } from "./text";
 
 
-const InformativeCard = ({montoParam, ingresosParam, plazoParam}) => {
-    const pagos = ["", "10,000 mx", "20,000 mxn", "40,000 mxn", "15,000 mxn"]
+const InformativeCard = ({ montoParam, ingresosParam, plazoParam }) => {
+    const pagos = ["", "Pagos Mensuales", "Pagos Quincenales"]
+    const [paySelected, setPaySelected] = useState('')
     const [accordion, setAccordion] = useState(true)
     const [amount, setAmount] = useState(montoParam ? +montoParam : 5000)
     const [income, setIncome] = useState(ingresosParam ? +ingresosParam : 10000)
@@ -19,7 +20,7 @@ const InformativeCard = ({montoParam, ingresosParam, plazoParam}) => {
     }
 
     return (
-        <section className="w-[963px] md:h-[517px] flex flex-col md:flex-row rounded-[25px]">
+        <section className="m-0 w-[963px] md:h-[517px] flex flex-col md:flex-row rounded-[25px]">
 
             <div style={{ border: `2px solid ${colors.resalte1}` }} className="w-[full] md:h-full md:w-[31%] flex flex-col justify-center items-center md:gap-16 pt-0 md:pt-14 bg-white md:rounded-tr-[0px] rounded-tr-[25px] rounded-tl-[25px] md:rounded-bl-[25px]">
                 <h1 style={{ font: 'normal normal bold 22px/26px Poppins' }} className="pt-6 md:pt-12">Monto que solicitas</h1>
@@ -32,6 +33,8 @@ const InformativeCard = ({montoParam, ingresosParam, plazoParam}) => {
                             value={amount}
                             onValueChange={newValue => setAmount(newValue)}
                             size='responsive'
+                            limit={100000}
+                            step={1000}
                         />
                     </div>
 
@@ -42,6 +45,8 @@ const InformativeCard = ({montoParam, ingresosParam, plazoParam}) => {
                             value={income}
                             onValueChange={newValue => setIncome(newValue)}
                             size='responsive'
+                            limit={100000}
+                            step={1000}
                         />
                     </div>
 
@@ -52,6 +57,7 @@ const InformativeCard = ({montoParam, ingresosParam, plazoParam}) => {
                             value={term}
                             onValueChange={newValue => setTerm(newValue)}
                             size='responsive'
+                            limit={18}
                         />
                     </div>
 
@@ -61,6 +67,8 @@ const InformativeCard = ({montoParam, ingresosParam, plazoParam}) => {
                             title={'Pagos mensuales'}
                             items={pagos}
                             width={'w-[152px] md:w-[214px]'}
+                            selected={paySelected}
+                            setSelected={setPaySelected}
                         />
                     </div>
                 </div>

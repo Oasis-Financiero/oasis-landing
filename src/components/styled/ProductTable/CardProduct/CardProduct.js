@@ -1,10 +1,13 @@
 import React from "react";
 import colors from "../../../../constants/colors";
 import AppButton from '../../ConfirmButton/AppButton'
+import { Link } from "gatsby";
 
-const CardProduct = ({ img, tasa, comision, producto, loanAmount, loanTerm, selectedTypePay }) => {
+const CardProduct = ({ img, tasa, comision, producto, loanAmount, loanTerm, selectedTypePay, incomeAmount }) => {
 
-    const loanAmountPay = parseInt(loanAmount + '000')
+
+
+    const loanAmountPay = parseInt(loanAmount)
     const totalPayWithInterest = loanAmountPay + (loanAmountPay * (tasa.anual / 100))
     const totalPay = new Intl.NumberFormat('en-US', {
         style: 'currency',
@@ -28,7 +31,6 @@ const CardProduct = ({ img, tasa, comision, producto, loanAmount, loanTerm, sele
         maximumFractionDigits: 0,
     })
 
-    console.log(loanAmount , fortnightlyPay);
 
     return (
         <>
@@ -43,7 +45,7 @@ const CardProduct = ({ img, tasa, comision, producto, loanAmount, loanTerm, sele
                     </li>
 
                     <li className="w-full h-full flex justify-center items-center gap-1" >
-                        {selectedTypePay === "Pagos Mensuales" ? monthPayFinal : fortnightlyPayFinal }
+                        {selectedTypePay === "Pagos Mensuales" ? monthPayFinal : fortnightlyPayFinal}
 
                     </li>
 
@@ -55,11 +57,15 @@ const CardProduct = ({ img, tasa, comision, producto, loanAmount, loanTerm, sele
                         {`${comision}%`}
                     </li>
 
-                    <li className="w-full h-full flex justify-center items-center rounded-[15px]" style={{ backgroundColor: colors.fdoGris }}>
-                        <AppButton
+                    <li className="w-full h-full flex justify-center items-center rounded-[15px]"
+                        style={{ backgroundColor: colors.fdoGris }}
+                        onClick=""
+                    >
+                        <Link to={`/productos/prestamos/${producto.toLowerCase()}?monto=${loanAmount}&ingresos=${incomeAmount}&plazos=${loanTerm}`}><AppButton
                             tag={'Solicitar'}
                             width={133}
-                        />
+                        /></Link>
+
                     </li>
                 </div>
 

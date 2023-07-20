@@ -97,6 +97,8 @@ const Calculator = ({ loanAmount,
                         coin={true}
                         value={loanAmount}
                         onValueChange={setLoanAmount}
+                        limit={100000}
+                        step={1000}
                     />
                 </div>
 
@@ -106,6 +108,8 @@ const Calculator = ({ loanAmount,
                         coin={true}
                         value={incomeAmount}
                         onValueChange={setIncomeAmount}
+                        limit={100000}
+                        step={1000}
                     />
                 </div>
 
@@ -127,6 +131,8 @@ const Calculator = ({ loanAmount,
                         limit={18}
                         value={loanTerm}
                         onValueChange={setLoanTerm}
+                        step={1}
+                        min={1}
                     />
                 </div>
 

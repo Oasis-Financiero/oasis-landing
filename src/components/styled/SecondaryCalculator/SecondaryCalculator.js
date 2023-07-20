@@ -22,6 +22,8 @@ const AppSecondaryCalculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTe
                             hidden={true}
                             value={loanAmount}
                             onValueChange={setLoanAmount}
+                            limit={100000}
+                            step={1000}
                         />
                     </div>
                 </div>
@@ -34,6 +36,8 @@ const AppSecondaryCalculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTe
                             hidden={true}
                             value={incomeAmount}
                             onValueChange={setIncomeAmount}
+                            limit={100000}
+                            step={1000}
                         /></div>
                 </div>
 
@@ -45,6 +49,8 @@ const AppSecondaryCalculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTe
                             hidden={true}
                             value={loanTerm}
                             onValueChange={setLoanTerm}
+                            step={1}
+                            min={1}
                         />
                     </div>
                 </div>
@@ -57,6 +63,7 @@ const AppSecondaryCalculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTe
                     loanAmount={loanAmount}
                     loanTerm={loanTerm}
                     selectedTypePay={selectedTypePay}
+                    incomeAmount={incomeAmount}
                 />
 
             </section>
