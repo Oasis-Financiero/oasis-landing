@@ -57,7 +57,7 @@ const products = [
     },
     {
         producto: 'Escampa',
-        key: 4,
+        key: 5,
         img: escampa,
         tasa: {
             anual: 75.00,
