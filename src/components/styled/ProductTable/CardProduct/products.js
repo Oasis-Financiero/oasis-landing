@@ -66,8 +66,7 @@ const products = [
         mensual: 4050,
         total: 28890,
         comision: 0
-    },
-
+    }
 ]
 
 
