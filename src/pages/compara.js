@@ -26,8 +26,8 @@ import ContactForm from "../components/styled/ContactForm/ContactForm";
 
 const Compara = () => {
 
-    const [loanAmount, setLoanAmount] = useState(10)
-    const [incomeAmount, setIncomeAmount] = useState(10)
+    const [loanAmount, setLoanAmount] = useState(1000)
+    const [incomeAmount, setIncomeAmount] = useState(1000)
     const [loanTerm, setLoanTerm] = useState(12);
     const [hiddeTable, setHiddeTable] = useState(true)
     const [selectedState, setSelectedState] = useState("")
@@ -139,7 +139,7 @@ const Compara = () => {
                 </div>
 
 
-                <div className={`bg-[${colors.fdoGris}] flex justify-center p-2`}>
+                <div style={{backgroundColor: colors.fdoGris}} className="flex justify-center p-10">
                     <ContactForm/>
                 </div>
 

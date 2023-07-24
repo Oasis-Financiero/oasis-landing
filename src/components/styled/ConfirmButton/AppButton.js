@@ -3,10 +3,10 @@ import './AppButton.css'
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
 import { Button } from "@mui/material";
 
-const AppButton = ({tag, width}) => {
+const AppButton = ({tag, width, onClick}) => {
     return (
         <>
-            <div>
+            <form onClick={onClick}>
                 <Button
                     id="button"
                     className={`flex flex-row justify-center items-center p-2`}
@@ -14,13 +14,14 @@ const AppButton = ({tag, width}) => {
                         textTransform: 'none',
                         maxWidth: `${width}px`
                     }}
+                    
                 >
                     {tag}
                     <MdOutlineKeyboardArrowRight
                         size={25}
                     />
                 </Button>
-            </div>
+            </form>
         </>
     )
 }

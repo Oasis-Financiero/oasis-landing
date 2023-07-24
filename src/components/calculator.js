@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import * as style from './calculator.module.css'
 import Box from '@mui/material/Box';
 import tailwind from "./calculator.tailwind";
@@ -10,7 +10,20 @@ import { Link } from "gatsby";
 
 
 
-const Calculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTerm, incomeAmount, setIncomeAmount, setHiddeTable, selectedState, setSelectedState, selectedTypePay, setSelectedTypePay }) => {
+const Calculator = ({ loanAmount,
+    setLoanAmount,
+    loanTerm,
+    setLoanTerm,
+    incomeAmount,
+    setIncomeAmount,
+    setHiddeTable,
+    selectedState,
+    setSelectedState,
+    selectedTypePay,
+    setSelectedTypePay }) => {
+
+    const [email, setEmail] = useState("")
+    const [redirectToLink, setRedirectToLink] = useState(false);
 
     const pagos = ["Pagos Mensuales", "Pagos Quincenales"]
 
@@ -49,7 +62,27 @@ const Calculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTerm, incomeAm
 
 
 
-    // console.log(loanAmount, incomeAmount, loanTerm)
+    console.log(email)
+
+    const onEmailChange = (e) => {
+        e.preventDefault()
+        setEmail(e.target.value)
+    }
+
+    const onSubmitButton = () => {
+        const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        if (!emailRegex.test(email)) {
+            return alert("Escribe un email valido")
+        } else {
+            setRedirectToLink(false)
+            setHiddeTable(false)
+        }
+    }
+
+    if (redirectToLink) {
+        return <Link to="#secondaryCalculator" />;
+
+    }
 
     return (
 
@@ -64,6 +97,8 @@ const Calculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTerm, incomeAm
                         coin={true}
                         value={loanAmount}
                         onValueChange={setLoanAmount}
+                        limit={100000}
+                        step={1000}
                     />
                 </div>
 
@@ -73,6 +108,8 @@ const Calculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTerm, incomeAm
                         coin={true}
                         value={incomeAmount}
                         onValueChange={setIncomeAmount}
+                        limit={100000}
+                        step={1000}
                     />
                 </div>
 
@@ -94,6 +131,8 @@ const Calculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTerm, incomeAm
                         limit={18}
                         value={loanTerm}
                         onValueChange={setLoanTerm}
+                        step={1}
+                        min={1}
                     />
                 </div>
 
@@ -104,6 +143,7 @@ const Calculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTerm, incomeAm
                 <div>
                     <AppTextBox
                         label='Correo electronico'
+                        onChangeValue={onEmailChange}
                     />
                 </div>
 
@@ -119,9 +159,10 @@ const Calculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTerm, incomeAm
                 </div>
             </div>
 
-            <div className={'flex justify-center items-center p-8 md:p-6 cursor-pointer'} onClick={() => setHiddeTable(false)}>
+            <div className={'flex justify-center items-center p-8 md:p-6'} >
                 <Link to="#secondaryCalculator"><AppButton
                     tag="Calcular préstamo"
+                    onClick={onSubmitButton}
                 /></Link>
             </div>
 

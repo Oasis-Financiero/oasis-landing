@@ -4,7 +4,7 @@ import TextField from '@mui/material/TextField';
 import '../Dropdown/Dropdown.css'
 import colors from "../../../constants/colors";
 
-const AppTextBox = ({ label, size }) => {
+const AppTextBox = ({ label, size, onChangeValue }) => {
 
     let sizeContainer
 if(size === "contactMessage") {
@@ -36,6 +36,7 @@ if(size === "contactMessage") {
                             backgroundColor: colors.fdoGris,
                         }}
                     className={sizeContainer}
+                    onChange={onChangeValue}
                     />
                 </div>
             </Box>
