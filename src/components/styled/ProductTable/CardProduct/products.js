@@ -60,7 +60,7 @@ const products = [
         key: 4,
         img: escampa,
         tasa: {
-            anual: 47.00,
+            anual: 75.00,
             hasta: 65.00
         },
         mensual: 4050,
