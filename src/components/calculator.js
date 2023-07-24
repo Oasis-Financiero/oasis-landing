@@ -27,7 +27,7 @@ const Calculator = ({ loanAmount,
     secondaryCalculatorRef }) => {
 
     const [email, setEmail] = useState("")
-    const [redirectToLink, setRedirectToLink] = useState(false);
+    const [handleError, setHandleError] = useState(null)
 
     const pagos = ["Pagos Mensuales", "Pagos Quincenales"]
 
@@ -71,24 +71,34 @@ const Calculator = ({ loanAmount,
     const onEmailChange = (e) => {
         e.preventDefault()
         setEmail(e.target.value)
+        const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
+        if(!emailRegex.test(email)){
+            setHandleError(true)
+        } else {
+            setHandleError(false)
+        }
     }
 
 
     const onSubmitButton = async (e) => {
         e.preventDefault()
-        const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
         if (!emailRegex.test(email)) {
-            return alert("Escribe un email valido")
         } else {
             if (secondaryCalculatorRef.current) {
-                secondaryCalculatorRef.current.scrollIntoView({ behavior: "smooth" })
+                secondaryCalculatorRef.current.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start",
+                    inline: "nearest"
+                })
             }
             setHiddeTable(false)
             await addDoc(collection(db, "emails"), { email: email })
             setEmail("")
         }
     }
-    
+
+
     console.log(secondaryCalculatorRef);
 
     return (
@@ -145,13 +155,14 @@ const Calculator = ({ loanAmount,
 
             </div>
 
-            <div className="flex flex-row justify-center md:flex md:flex-row md:justify-center">
+            <div className="flex flex-row justify-center items-center gap-2 md:flex md:flex-row md:justify-center">
 
-                <div>
+                <div className="relative left-1.5 md:left-0">
                     <AppTextBox
                         label='Correo electronico'
                         onChangeValue={onEmailChange}
                         value={email}
+                        error={handleError}
                     />
                 </div>
 

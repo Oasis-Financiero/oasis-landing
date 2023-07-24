@@ -73,4 +73,4 @@ const CardProduct = ({ img, tasa, comision, producto, loanAmount, loanTerm, sele
     )
 }
 
-export default CardProduct
+export {CardProduct}
