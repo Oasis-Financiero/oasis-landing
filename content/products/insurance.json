@@ -1,1 +1,7 @@
-[]
+[
+    {
+        "id": 1,
+        "route": "guros",
+        "name": "Guros"
+    }
+]
