@@ -159,9 +159,10 @@ const Calculator = ({ loanAmount,
                 </div>
             </div>
 
-            <div className={'flex justify-center items-center p-8 md:p-6 cursor-pointer'} onClick={onSubmitButton}>
+            <div className={'flex justify-center items-center p-8 md:p-6'} >
                 <Link to="#secondaryCalculator"><AppButton
                     tag="Calcular préstamo"
+                    onClick={onSubmitButton}
                 /></Link>
             </div>
 

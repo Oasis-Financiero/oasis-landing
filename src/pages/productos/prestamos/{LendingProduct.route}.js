@@ -13,6 +13,7 @@ import InformativeCard from "../../../components/styled/InformativeCard/Informat
 import kreditiweb from '../../../images/products/logo_kreditiweb.png'
 import mrfinan from '../../../images/products/logo_mrfinan.png'
 import fidea from '../../../images/products/logo--dark.svg'
+import escampa from '../../../images/products/escampa.png'
 
 
 const LendingProduct = ({ data }) => {
@@ -39,6 +40,9 @@ const LendingProduct = ({ data }) => {
       case "Mr Finan":
         imageSrc = mrfinan
         break;
+      case "Escampa":
+        imageSrc = escampa
+        break;
       default:
         imageSrc = "";
         break
@@ -51,7 +55,7 @@ const LendingProduct = ({ data }) => {
       <div className="flex flex-col gap-16 md:gap-16 animate-fade-down animate-once animate-ease-in delay-0">
 
         <div className="flex flex-col items-center justify-center gap-8">
-          <img src={getImage(name)} alt='logo' className="p-10 pb-0"/>
+          <img src={getImage(name)} alt='logo' className="p-10 pb-0" />
           <div className="flex justify-center items-center w-full p-3">
             <InformativeCard montoParam={montoParam} ingresosParam={ingresosParam} plazoParam={plazoParam} />
           </div>

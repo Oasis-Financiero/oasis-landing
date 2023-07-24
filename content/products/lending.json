@@ -13,5 +13,10 @@
         "id": 3,
         "route": "fidea",
         "name": "Fidea"
+    },
+    {
+        "id": 3,
+        "route": "escampa",
+        "name": "Escampa"
     }
 ]
