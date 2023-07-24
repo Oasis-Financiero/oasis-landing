@@ -8,6 +8,18 @@ import escampa from '../../../../images/products/escampa.png'
 
 const products = [
     {
+        producto: 'Escampa',
+        key: 5,
+        img: escampa,
+        tasa: {
+            anual: 75.00,
+            hasta: 65.00
+        },
+        mensual: 4050,
+        total: 28890,
+        comision: 8
+    },
+    {
         producto: 'MrFinan',
         key: 1,
         img: mrfinan,
@@ -55,18 +67,7 @@ const products = [
         total: 28890,
         comision: 0
     },
-    {
-        producto: 'Escampa',
-        key: 5,
-        img: escampa,
-        tasa: {
-            anual: 75.00,
-            hasta: 65.00
-        },
-        mensual: 4050,
-        total: 28890,
-        comision: 0
-    }
+
 ]
 
 
