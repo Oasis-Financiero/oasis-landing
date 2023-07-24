@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import * as style from './calculator.module.css'
 import Box from '@mui/material/Box';
 import tailwind from "./calculator.tailwind";
@@ -7,6 +7,9 @@ import AppSelect from "./styled/Dropdown/Dropdown";
 import AppTextBox from "./styled/TextBox/TextBox";
 import AppButton from "./styled/ConfirmButton/AppButton";
 import { Link } from "gatsby";
+import { collection, addDoc } from "@firebase/firestore";
+import { db } from "../../gatsby-browser";
+
 
 
 
@@ -20,7 +23,8 @@ const Calculator = ({ loanAmount,
     selectedState,
     setSelectedState,
     selectedTypePay,
-    setSelectedTypePay }) => {
+    setSelectedTypePay,
+    secondaryCalculatorRef }) => {
 
     const [email, setEmail] = useState("")
     const [redirectToLink, setRedirectToLink] = useState(false);
@@ -69,20 +73,23 @@ const Calculator = ({ loanAmount,
         setEmail(e.target.value)
     }
 
-    const onSubmitButton = () => {
+
+    const onSubmitButton = async (e) => {
+        e.preventDefault()
         const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
         if (!emailRegex.test(email)) {
             return alert("Escribe un email valido")
         } else {
-            setRedirectToLink(false)
+            if (secondaryCalculatorRef.current) {
+                secondaryCalculatorRef.current.scrollIntoView({ behavior: "smooth" })
+            }
             setHiddeTable(false)
+            await addDoc(collection(db, "emails"), { email: email })
+            setEmail("")
         }
     }
-
-    if (redirectToLink) {
-        return <Link to="#secondaryCalculator" />;
-
-    }
+    
+    console.log(secondaryCalculatorRef);
 
     return (
 
@@ -144,6 +151,7 @@ const Calculator = ({ loanAmount,
                     <AppTextBox
                         label='Correo electronico'
                         onChangeValue={onEmailChange}
+                        value={email}
                     />
                 </div>
 
@@ -159,11 +167,11 @@ const Calculator = ({ loanAmount,
                 </div>
             </div>
 
-            <div className={'flex justify-center items-center p-8 md:p-6'} >
-                <Link to="#secondaryCalculator"><AppButton
+            <div className={'flex justify-center items-center p-8 md:p-6'}>
+                <AppButton
                     tag="Calcular préstamo"
                     onClick={onSubmitButton}
-                /></Link>
+                />
             </div>
 
         </Box>

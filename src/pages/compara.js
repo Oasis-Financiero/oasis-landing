@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import Layout from "../components/layout";
 import Calculator from "../components/calculator";
 import wallet from '../images/herramientas/img-prestamos-personales-main.webp'
@@ -31,6 +31,7 @@ const Compara = () => {
     const [loanTerm, setLoanTerm] = useState(12);
     const [hiddeTable, setHiddeTable] = useState(true)
     const [selectedState, setSelectedState] = useState("")
+    const secondaryCalculatorRef = useRef(null);
     const [selectedTypePay, setSelectedTypePay] = useState("")
 
 
@@ -54,6 +55,7 @@ const Compara = () => {
                                 setSelectedState={setSelectedState}
                                 selectedTypePay={selectedTypePay}
                                 setSelectedTypePay={setSelectedTypePay}
+                                secondaryCalculatorRef={secondaryCalculatorRef}
                             />
                             <div className="max-md:hidden md:w-[503px] md:h-[497px] md:relative md:bottom-3">
                                 <img
@@ -70,7 +72,7 @@ const Compara = () => {
                     <AppSteps />
                 </div>
 
-                {hiddeTable ? null : <div id="secondaryCalculator" className="flex justify-center pt-16 animate-fade-down delay-75">
+                {hiddeTable ? <div id="secondaryCalculator" ref={secondaryCalculatorRef} className="flex justify-center pt-16 animate-fade-down delay-75"></div> : <div id="secondaryCalculator" ref={secondaryCalculatorRef} className="flex justify-center pt-16 animate-fade-down delay-75">
                     <AppSecondaryCalculator
                         loanAmount={loanAmount}
                         setLoanAmount={setLoanAmount}
@@ -139,8 +141,8 @@ const Compara = () => {
                 </div>
 
 
-                <div style={{backgroundColor: colors.fdoGris}} className="flex justify-center p-10">
-                    <ContactForm/>
+                <div style={{ backgroundColor: colors.fdoGris }} className="flex justify-center p-10">
+                    <ContactForm />
                 </div>
 
             </div>
