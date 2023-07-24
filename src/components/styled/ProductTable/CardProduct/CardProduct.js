@@ -35,7 +35,7 @@ const CardProduct = ({ img, tasa, comision, producto, loanAmount, loanTerm, sele
     return (
         <>
             <ul className="w-[1080px] h-[96px] flex flex-row justify-between items-center text-center mt-1" style={{ font: "normal normal 600 19px/26px Inter", color: colors.brand1 }}>
-                <div className={`w-[1080px] h-[96px] flex flex-row justify-between items-center text-center`} style={producto === 'MrFinan' || producto === 'KreditiWeb' ? { border: `2px solid ${colors.resalte1}`, borderRadius: '15px' } : null}>
+                <div className={`w-[1080px] h-[96px] flex flex-row justify-between items-center text-center`} style={producto === 'Escampa' ? { border: `2px solid ${colors.resalte1}`, borderRadius: '15px' } : null}>
                     <li className="w-full h-full flex justify-center items-center">
                         <img src={img} alt={producto} className="w-[154px] p-2" />
                     </li>
