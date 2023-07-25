@@ -6,11 +6,9 @@ import AppSlider from "./styled/Slider/Slider";
 import AppSelect from "./styled/Dropdown/Dropdown";
 import AppTextBox from "./styled/TextBox/TextBox";
 import AppButton from "./styled/ConfirmButton/AppButton";
-import { Link } from "gatsby";
 import { collection, addDoc, serverTimestamp } from "@firebase/firestore";
 import { db } from "../../gatsby-browser";
-
-
+import { estados, pagos } from "./calculatorHelpers";
 
 
 const Calculator = ({ loanAmount,
@@ -28,45 +26,6 @@ const Calculator = ({ loanAmount,
 
     const [email, setEmail] = useState("")
     const [handleError, setHandleError] = useState(null)
-
-    const pagos = ["Pagos Mensuales", "Pagos Quincenales"]
-
-    const estados = ['Aguascalientes',
-        'Baja California',
-        'Baja California Sur',
-        'Campeche',
-        'Chiapas',
-        'Chihuahua',
-        'Coahuila de Zaragoza',
-        'Colima',
-        'Ciudad de México',
-        'Durango',
-        'Guanajuato',
-        'Guerrero',
-        'Hidalgo',
-        'Jalisco',
-        'Mexico',
-        'Michoacan de Ocampo',
-        'Morelos',
-        'Nayarit',
-        'Nuevo Leon',
-        'Oaxaca',
-        'Puebla',
-        'Queretaro de Arteaga',
-        'Quintana Roo',
-        'San Luis Potosi',
-        'Sinaloa',
-        'Sonora',
-        'Tabasco',
-        'Tamaulipas',
-        'Tlaxcala',
-        'Veracruz-Llave',
-        'Yucatan',
-        'Zacatecas']
-
-
-
-    console.log(email)
 
     const onEmailChange = (e) => {
         e.preventDefault()
