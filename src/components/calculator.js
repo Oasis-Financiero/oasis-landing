@@ -7,7 +7,7 @@ import AppSelect from "./styled/Dropdown/Dropdown";
 import AppTextBox from "./styled/TextBox/TextBox";
 import AppButton from "./styled/ConfirmButton/AppButton";
 import { Link } from "gatsby";
-import { collection, addDoc } from "@firebase/firestore";
+import { collection, addDoc, serverTimestamp } from "@firebase/firestore";
 import { db } from "../../gatsby-browser";
 
 
@@ -93,8 +93,17 @@ const Calculator = ({ loanAmount,
                 })
             }
             setHiddeTable(false)
-            await addDoc(collection(db, "emails"), { email: email })
+            await addDoc(collection(db, "calculator users"), { 
+                loanAmount: loanAmount,
+                incomeAmount: incomeAmount,
+                typePay: selectedTypePay,
+                email: email,
+                state: selectedState,
+                timestamp: serverTimestamp()
+            })
             setEmail("")
+            setSelectedState("")
+            setSelectedTypePay("")
         }
     }
 
