@@ -67,7 +67,7 @@ const Calculator = ({ loanAmount,
     }
 
 
-    console.log(secondaryCalculatorRef);
+    console.log(selectedTypePay);
 
     return (
 

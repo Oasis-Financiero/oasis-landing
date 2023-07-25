@@ -31,7 +31,7 @@ const CardProduct = ({ img, tasa, comision, producto, loanAmount, loanTerm, sele
         maximumFractionDigits: 0,
     })
 
-
+    console.log(selectedTypePay);
     return (
         <>
             <ul className="w-[1080px] h-[96px] flex flex-row justify-between items-center text-center mt-1" style={{ font: "normal normal 600 19px/26px Inter", color: colors.brand1 }}>
@@ -60,7 +60,7 @@ const CardProduct = ({ img, tasa, comision, producto, loanAmount, loanTerm, sele
                     <li className="w-full h-full flex justify-center items-center rounded-[15px]"
                         style={{ backgroundColor: colors.fdoGris }}
                     >
-                        <Link to={`/productos/prestamos/${producto.toLowerCase()}?monto=${loanAmount}&ingresos=${incomeAmount}&plazos=${loanTerm}`}><AppButton
+                        <Link to={`/productos/prestamos/${producto.toLowerCase()}?monto=${loanAmount}&ingresos=${incomeAmount}&plazos=${loanTerm}&type=${producto.toLowerCase()}`}><AppButton
                             tag={'Solicitar'}
                             width={133}
                         /></Link>
@@ -73,4 +73,4 @@ const CardProduct = ({ img, tasa, comision, producto, loanAmount, loanTerm, sele
     )
 }
 
-export {CardProduct}
+export { CardProduct }

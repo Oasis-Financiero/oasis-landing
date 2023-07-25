@@ -49,6 +49,8 @@ const ProductTable = ({ loanAmount, loanTerm, selectedTypePay, incomeAmount }) =
         />
     })
 
+    console.log(selectedTypePay)
+
 
     return (
         <section className="w-[1080px] flex flex-col justify-center items-center">

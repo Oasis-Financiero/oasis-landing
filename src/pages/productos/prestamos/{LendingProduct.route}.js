@@ -17,13 +17,14 @@ import escampa from '../../../images/products/escampa.png'
 
 
 const LendingProduct = ({ data }) => {
-  let montoParam, ingresosParam, plazoParam;
+  let montoParam, ingresosParam, plazoParam, type;
   if (typeof window !== "undefined") {
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
     montoParam = urlParams.get('monto');
     ingresosParam = urlParams.get('ingresos');
     plazoParam = urlParams.get('plazo');
+    type = urlParams.get('type')
   }
   const { lendingProduct } = data;
   const { id, name } = lendingProduct;
@@ -57,7 +58,7 @@ const LendingProduct = ({ data }) => {
         <div className="flex flex-col items-center justify-center gap-8">
           <img src={getImage(name)} alt='logo' className="p-10 pb-0" />
           <div className="flex justify-center items-center w-full p-3">
-            <InformativeCard montoParam={montoParam} ingresosParam={ingresosParam} plazoParam={plazoParam} />
+            <InformativeCard montoParam={montoParam} ingresosParam={ingresosParam} plazoParam={plazoParam} type={type} />
           </div>
         </div>
 
