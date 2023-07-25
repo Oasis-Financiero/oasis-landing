@@ -163,6 +163,7 @@ const Calculator = ({ loanAmount,
                         onChangeValue={onEmailChange}
                         value={email}
                         error={handleError}
+                        helperText="Email Invalido"
                     />
                 </div>
 

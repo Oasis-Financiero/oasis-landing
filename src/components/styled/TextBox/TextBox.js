@@ -47,9 +47,8 @@ const AppTextBox = ({ label, size, onChangeValue, value, error, helperText }) =>
                     className={sizeContainer}
                     onChange={onChangeValue}
                     value={value}
-                    id={error ? "Introduzca correo valido" : null}
                     error={error}
-                    helperText={helperText}
+                    helperText={error ? helperText : null}
                 />
 
             </Box>
