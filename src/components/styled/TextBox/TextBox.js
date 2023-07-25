@@ -1,7 +1,6 @@
 import React from "react";
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
-import '../Dropdown/Dropdown.css'
 import colors from "../../../constants/colors";
 
 const AppTextBox = ({ label, size, onChangeValue, value, error, helperText }) => {
@@ -41,7 +40,9 @@ const AppTextBox = ({ label, size, onChangeValue, value, error, helperText }) =>
                                 }
                             }
                         },
-                        
+                        '& .MuiOutlinedInput-root:hover' : {
+                            outline: 'none'
+                        }
                     }}
                     className={sizeContainer}
                     onChange={onChangeValue}

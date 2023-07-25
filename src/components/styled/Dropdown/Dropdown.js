@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
+import Box from '@mui/material/Box';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
@@ -18,26 +19,26 @@ const AppSelect = ({ title, tagLabel, items, width, selected, setSelected }) => 
 
 
     return (
-        <>
-            <FormControl sx={{ 
+        <Box>
+            <FormControl sx={{
                 m: 1,
-                '& .MuiSelect-select' : {
-                    border: `2px solid ${colors.resalte1}`,
-                    borderRadius: '6px'
-                } 
-                }} size="small">
-                <InputLabel sx={{ fontFamily: 'Inter', fontSize: '16px' }}>{tagLabel}</InputLabel>
+
+            }} fullWidth size="small">
+                <InputLabel>{tagLabel}</InputLabel>
                 <Select
                     IconComponent={SlArrowDown}
                     sx={{
                         '& .MuiSelect-icon': {
                             fill: colors.resalte1,
                         },
+                        '& .MuiSelect-outlined': {
+                            border: `2px solid ${colors.resalte1}`,
+                          },
                     }}
-                    displayEmpty
                     className={width}
                     value={selected}
                     onChange={handleChange}
+                    // variant="outlined"
                 >
                     <MenuItem value={title}>
                         <em>{title}</em>
@@ -45,7 +46,7 @@ const AppSelect = ({ title, tagLabel, items, width, selected, setSelected }) => 
                     {itemElements}
                 </Select>
             </FormControl>
-        </>
+        </Box>
     )
 }
 
