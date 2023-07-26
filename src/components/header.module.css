@@ -131,6 +131,7 @@
     transition: all .25s cubic-bezier(.02, .01, .47, 1);
 }
 
+
 @media (max-width: 767px) {
 
     .headerContent {
