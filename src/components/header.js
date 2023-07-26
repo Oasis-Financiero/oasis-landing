@@ -7,16 +7,19 @@ import twitter from "../images/social/twitter-dark.svg";
 import linkedin from "../images/social/linkedin-dark.svg";
 import { Menu, MenuItem } from "@mui/material";
 import Fade from '@mui/material/Fade';
+import { display } from "@mui/system";
+import colors from "../constants/colors";
 
 function Header() {
 
   const location = typeof window !== "undefined" ? window.location.pathname : '';
   const [isExpanded, toggleExpansion] = useState(false);
   const [subMenuExpanded, setSubMenuExpanded] = useState(false)
-
-  const handleClick = () => {
+  const [anchorEl, setAnchorEl] = useState(null)
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
     setSubMenuExpanded(!subMenuExpanded)
-  }
+  };;
 
   useEffect(() => {
     if (typeof window === "undefined" || !window.document) {
@@ -26,7 +29,7 @@ function Header() {
     isExpanded ? (html.style.overflow = 'hidden') : (html.style.overflow = 'visible')
   }, [isExpanded])
 
-  
+
   const links =
     [
       {
@@ -50,13 +53,36 @@ function Header() {
         onClick={link.title === 'Comparar Productos' ? handleClick : null}
       >
         <span>{link.title}</span>
-        <nav>
-
-        </nav>
+        {link.title === 'Comparar Productos' && (
+          <Menu
+            anchorEl={anchorEl}
+            open={subMenuExpanded}
+            onClose={handleClick}
+            TransitionComponent={Fade}
+            transitionDuration={300}
+            sx={{
+              '& .MuiMenu-list': {
+                width: '235px',
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'center',
+                alignItems: 'center',
+              }
+            }}
+          >
+            <Link to="/compara"> <MenuItem onClick={handleClick} sx={{
+              font: 'normal normal 600 16px/20px Inter',
+              color: colors.resalte1
+            }}>Prestamos Personales</MenuItem></Link>
+            <Link to='/seguros'> <MenuItem onClick={handleClick} sx={{
+              font: 'normal normal 600 16px/20px Inter',
+              color: colors.resalte1
+            }}>Seguros de Auto</MenuItem></Link>
+          </Menu>)}
       </Link>
     ))
 
-    
+
 
   const social =
     <div id={headerStyles.iconsTray}>
