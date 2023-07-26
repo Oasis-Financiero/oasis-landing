@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import * as style from './calculator.module.css'
 import Box from '@mui/material/Box';
 import tailwind from "./calculator.tailwind";
@@ -6,8 +6,9 @@ import AppSlider from "./styled/Slider/Slider";
 import AppSelect from "./styled/Dropdown/Dropdown";
 import AppTextBox from "./styled/TextBox/TextBox";
 import AppButton from "./styled/ConfirmButton/AppButton";
-import { Link } from "gatsby";
-
+import { collection, addDoc, serverTimestamp } from "@firebase/firestore";
+import { db } from "../../gatsby-browser";
+import { estados, pagos } from "./calculatorHelpers";
 
 
 const Calculator = ({ loanAmount,
@@ -20,69 +21,53 @@ const Calculator = ({ loanAmount,
     selectedState,
     setSelectedState,
     selectedTypePay,
-    setSelectedTypePay }) => {
+    setSelectedTypePay,
+    secondaryCalculatorRef }) => {
 
     const [email, setEmail] = useState("")
-    const [redirectToLink, setRedirectToLink] = useState(false);
-
-    const pagos = ["Pagos Mensuales", "Pagos Quincenales"]
-
-    const estados = ['Aguascalientes',
-        'Baja California',
-        'Baja California Sur',
-        'Campeche',
-        'Chiapas',
-        'Chihuahua',
-        'Coahuila de Zaragoza',
-        'Colima',
-        'Ciudad de México',
-        'Durango',
-        'Guanajuato',
-        'Guerrero',
-        'Hidalgo',
-        'Jalisco',
-        'Mexico',
-        'Michoacan de Ocampo',
-        'Morelos',
-        'Nayarit',
-        'Nuevo Leon',
-        'Oaxaca',
-        'Puebla',
-        'Queretaro de Arteaga',
-        'Quintana Roo',
-        'San Luis Potosi',
-        'Sinaloa',
-        'Sonora',
-        'Tabasco',
-        'Tamaulipas',
-        'Tlaxcala',
-        'Veracruz-Llave',
-        'Yucatan',
-        'Zacatecas']
-
-
-
-    console.log(email)
+    const [handleError, setHandleError] = useState(null)
 
     const onEmailChange = (e) => {
         e.preventDefault()
         setEmail(e.target.value)
-    }
-
-    const onSubmitButton = () => {
-        const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-        if (!emailRegex.test(email)) {
-            return alert("Escribe un email valido")
+        const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
+        if(!emailRegex.test(email)){
+            setHandleError(true)
         } else {
-            setRedirectToLink(false)
-            setHiddeTable(false)
+            setHandleError(false)
         }
     }
 
-    if (redirectToLink) {
-        return <Link to="#secondaryCalculator" />;
 
+    const onSubmitButton = async (e) => {
+        e.preventDefault()
+        const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
+        if (!emailRegex.test(email)) {
+        } else {
+            if (secondaryCalculatorRef.current) {
+                secondaryCalculatorRef.current.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start",
+                    inline: "nearest"
+                })
+            }
+            setHiddeTable(false)
+            await addDoc(collection(db, "calculator users"), { 
+                loanAmount: loanAmount,
+                incomeAmount: incomeAmount,
+                typePay: selectedTypePay,
+                email: email,
+                state: selectedState,
+                timestamp: serverTimestamp()
+            })
+            setEmail("")
+            setSelectedState("")
+            setSelectedTypePay("")
+        }
     }
+
+
+    console.log(selectedTypePay);
 
     return (
 
@@ -138,12 +123,15 @@ const Calculator = ({ loanAmount,
 
             </div>
 
-            <div className="flex flex-row justify-center md:flex md:flex-row md:justify-center">
+            <div className="flex flex-row justify-center items-center gap-2 md:flex md:flex-row md:justify-center">
 
-                <div>
+                <div className="relative left-1.5 md:left-0">
                     <AppTextBox
                         label='Correo electronico'
                         onChangeValue={onEmailChange}
+                        value={email}
+                        error={handleError}
+                        helperText="Email Invalido"
                     />
                 </div>
 
@@ -159,11 +147,11 @@ const Calculator = ({ loanAmount,
                 </div>
             </div>
 
-            <div className={'flex justify-center items-center p-8 md:p-6'} >
-                <Link to="#secondaryCalculator"><AppButton
+            <div className={'flex justify-center items-center p-8 md:p-6'}>
+                <AppButton
                     tag="Calcular préstamo"
                     onClick={onSubmitButton}
-                /></Link>
+                />
             </div>
 
         </Box>

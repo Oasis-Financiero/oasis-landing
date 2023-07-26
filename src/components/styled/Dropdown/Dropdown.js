@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import './Dropdown.css'
+import React from "react";
+import Box from '@mui/material/Box';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
@@ -19,9 +19,12 @@ const AppSelect = ({ title, tagLabel, items, width, selected, setSelected }) => 
 
 
     return (
-        <>
-            <FormControl sx={{ m: 1 }} size="small">
-                <InputLabel sx={{ fontFamily: 'Inter', fontSize: '14px' }}>{tagLabel}</InputLabel>
+        <Box>
+            <FormControl sx={{
+                m: 1,
+
+            }} fullWidth size="small">
+                <InputLabel>{tagLabel}</InputLabel>
                 <Select
                     IconComponent={SlArrowDown}
                     sx={{
@@ -30,14 +33,12 @@ const AppSelect = ({ title, tagLabel, items, width, selected, setSelected }) => 
                         },
                         '& .MuiSelect-outlined': {
                             border: `2px solid ${colors.resalte1}`,
-                            borderRadius: '6px',
-                            backgroundColor: colors.fdoGris,
-                        }
+                          },
                     }}
-                    displayEmpty
                     className={width}
                     value={selected}
                     onChange={handleChange}
+                    // variant="outlined"
                 >
                     <MenuItem value={title}>
                         <em>{title}</em>
@@ -45,7 +46,7 @@ const AppSelect = ({ title, tagLabel, items, width, selected, setSelected }) => 
                     {itemElements}
                 </Select>
             </FormControl>
-        </>
+        </Box>
     )
 }
 

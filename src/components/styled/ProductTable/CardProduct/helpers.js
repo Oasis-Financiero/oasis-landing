@@ -1,4 +1,5 @@
 import products from "./products";
+import { monthPayFinal } from "./CardProduct";
 
 const anualSorted = () => {
    products = products.toSorted(function (a, b) {

@@ -2,7 +2,6 @@ import { Button } from "@mui/material";
 import React from "react";
 import { HiArrowSmRight } from 'react-icons/hi'
 import colors from "../../../constants/colors";
-import '../Dropdown/Dropdown.css'
 
 const AppSecondaryButton = ({text}) => {
     return (

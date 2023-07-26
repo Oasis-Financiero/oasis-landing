@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import colors from "../../../constants/colors";
 import { TbSquareRoundedArrowDownFilled, TbSquareRoundedArrowUpFilled } from 'react-icons/tb'
-import CardProduct from "./CardProduct/CardProduct";
+import { CardProduct } from "./CardProduct/CardProduct";
 import products from "./CardProduct/products";
 import { anualSorted, anualSortedReverse, mensualSorted, mensualSortedReverse } from "./CardProduct/helpers";
 
 
-const ProductTable = ({loanAmount, loanTerm, selectedTypePay, incomeAmount}) => {
+const ProductTable = ({ loanAmount, loanTerm, selectedTypePay, incomeAmount }) => {
 
     const [tasaSort, setTasaSort] = useState(false)
     const [monthSort, setMonthSort] = useState(false)
@@ -48,6 +48,8 @@ const ProductTable = ({loanAmount, loanTerm, selectedTypePay, incomeAmount}) => 
             incomeAmount={incomeAmount}
         />
     })
+
+    console.log(selectedTypePay)
 
 
     return (

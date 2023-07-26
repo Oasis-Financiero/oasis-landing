@@ -5,7 +5,6 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import colors from '../../../constants/colors';
-import '../Dropdown/Dropdown.css'
 
 
 const AppAccordion = ({ question, answer, elevation, background, line, color, square, radius, w, h}) => {
