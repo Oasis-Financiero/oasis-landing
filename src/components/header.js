@@ -26,12 +26,8 @@ function Header() {
         title: `Inicio`,
       },
       {
-        route: "/nosotros",
-        title: `Sobre nosotros`,
-      },
-      {
         route: "/compara",
-        title: `Nuestras herramientas`,
+        title: `Comparar Productos`,
       },
       {
         route: "/blog",
@@ -124,9 +120,7 @@ function Header() {
           </button>
         </div>
   
-        <div id={headerStyles.navSocial}>
-          {social}
-        </div>
+       
 
       </div>
 

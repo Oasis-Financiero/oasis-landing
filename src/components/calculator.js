@@ -26,6 +26,7 @@ const Calculator = ({ loanAmount,
 
     const [email, setEmail] = useState("")
     const [handleError, setHandleError] = useState(null)
+    const [handleAnimateError, setHandleAnimateError] = useState(false)
 
     const onEmailChange = (e) => {
         e.preventDefault()
@@ -35,6 +36,7 @@ const Calculator = ({ loanAmount,
             setHandleError(true)
         } else {
             setHandleError(false)
+            setHandleAnimateError(false)
         }
     }
 
@@ -43,6 +45,7 @@ const Calculator = ({ loanAmount,
         e.preventDefault()
         const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
         if (!emailRegex.test(email)) {
+            setHandleAnimateError(true)
         } else {
             if (secondaryCalculatorRef.current) {
                 secondaryCalculatorRef.current.scrollIntoView({
@@ -125,7 +128,7 @@ const Calculator = ({ loanAmount,
 
             <div className="flex flex-row justify-center items-center gap-2 md:flex md:flex-row md:justify-center">
 
-                <div className="relative left-1.5 md:left-0">
+                <div className={`relative left-1.5 md:left-0 ${handleAnimateError ? "animate-wiggle animate-once" : null}`}>
                     <AppTextBox
                         label='Correo electronico'
                         onChangeValue={onEmailChange}
