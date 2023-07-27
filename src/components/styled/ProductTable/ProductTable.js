@@ -65,7 +65,7 @@ const ProductTable = ({ loanAmount, loanTerm, selectedTypePay, incomeAmount }) =
                 </li>
 
                 <li className="w-full h-full flex justify-center items-center gap-1" >
-                    {selectedTypePay === "Pagos Mensuales" ? 'Pago Mensual' : 'Pago Quincenal'}
+                    {selectedTypePay === "Pagos Mensuales" || selectedTypePay === "" ? 'Pago Mensual' : 'Pago Quincenal'}
                     {monthSort ? <TbSquareRoundedArrowUpFilled className="cursor-pointer" onClick={() => handleSort('mensual')} /> : <TbSquareRoundedArrowDownFilled className="cursor-pointer" onClick={() => handleSort('mensual')} />}
                 </li>
 
