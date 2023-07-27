@@ -65,7 +65,7 @@ const Calculator = ({ loanAmount,
             })
             setEmail("")
             setSelectedState("")
-            setSelectedTypePay("")
+            // setSelectedTypePay("")
         }
     }
 

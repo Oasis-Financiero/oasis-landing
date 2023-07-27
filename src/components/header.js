@@ -67,6 +67,7 @@ function Header() {
                 flexDirection: 'column',
                 justifyContent: 'center',
                 alignItems: 'center',
+                gap: '20px'
               }
             }}
           >
