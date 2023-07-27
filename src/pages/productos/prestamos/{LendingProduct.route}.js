@@ -23,7 +23,7 @@ const LendingProduct = ({ data }) => {
     const urlParams = new URLSearchParams(queryString);
     montoParam = urlParams.get('monto');
     ingresosParam = urlParams.get('ingresos');
-    plazoParam = urlParams.get('plazo');
+    plazoParam = urlParams.get('plazos');
     type = urlParams.get('type')
   }
   const { lendingProduct } = data;

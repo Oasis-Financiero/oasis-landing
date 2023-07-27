@@ -32,7 +32,7 @@ const Compara = () => {
     const [hiddeTable, setHiddeTable] = useState(true)
     const [selectedState, setSelectedState] = useState("")
     const secondaryCalculatorRef = useRef(null);
-    const [selectedTypePay, setSelectedTypePay] = useState("")
+    const [selectedTypePay, setSelectedTypePay] = useState("Pagos Mensuales")
 
 
     return (

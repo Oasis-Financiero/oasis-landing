@@ -45,7 +45,7 @@ const CardProduct = ({ img, tasa, comision, producto, loanAmount, loanTerm, sele
                     </li>
 
                     <li className="w-full h-full flex justify-center items-center gap-1" >
-                        {selectedTypePay === "Pagos Mensuales" ? monthPayFinal : fortnightlyPayFinal}
+                        {selectedTypePay === "Pagos Mensuales" || selectedTypePay === "" ? monthPayFinal : fortnightlyPayFinal}
 
                     </li>
 
