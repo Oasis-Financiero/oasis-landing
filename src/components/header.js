@@ -17,6 +17,7 @@ function Header() {
   const [subMenuExpanded, setSubMenuExpanded] = useState(false)
   const [anchorEl, setAnchorEl] = useState(null)
   const handleClick = (event) => {
+    event.preventDefault()
     setAnchorEl(event.currentTarget);
     setSubMenuExpanded(!subMenuExpanded)
   };;
@@ -39,6 +40,7 @@ function Header() {
       {
         route: "",
         subroute: '/compara',
+        subroute2: '/seguro_de_auto',
         title: `Comparar Productos`,
       },
       {
@@ -47,7 +49,7 @@ function Header() {
       },
     ].map((link) => (
       <Link
-        className={`${location === link.route || location === link.subroute ? headerStyles.navLinkActive : headerStyles.navLink}`}
+        className={`${location === link.route || location === link.subroute || location === link.subroute2 ? headerStyles.navLinkActive : headerStyles.navLink}`}
         key={link.title}
         to={link.route}
         onClick={link.title === 'Comparar Productos' ? handleClick : null}
@@ -71,11 +73,11 @@ function Header() {
               }
             }}
           >
-            <Link to="/compara"> <MenuItem onClick={handleClick} sx={{
+            <Link to="/compara"> <MenuItem sx={{
               font: 'normal normal 600 16px/20px Inter',
               color: colors.resalte1
             }}>Prestamos Personales</MenuItem></Link>
-            <Link to='/seguros'> <MenuItem onClick={handleClick} sx={{
+            <Link to='/seguro_de_auto'> <MenuItem sx={{
               font: 'normal normal 600 16px/20px Inter',
               color: colors.resalte1
             }}>Seguros de Auto</MenuItem></Link>

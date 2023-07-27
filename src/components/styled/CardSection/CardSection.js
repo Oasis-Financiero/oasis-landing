@@ -1,5 +1,4 @@
 import React from "react";
-import Container from '@mui/material/Container';
 import { Box } from "@mui/material";
 import './CardSection.modules.css'
 
@@ -8,7 +7,7 @@ import './CardSection.modules.css'
 const AppCardSection = ({ color, icon, title, subtitle }) => {
     return (
         <>
-            <Container maxWidth="sm">
+            
                 <Box sx={{
                     bgcolor: color,
                     height: '120px',
@@ -48,7 +47,7 @@ const AppCardSection = ({ color, icon, title, subtitle }) => {
                 </div>
 
                 </Box>
-            </Container>
+           
         </>
     )
 }

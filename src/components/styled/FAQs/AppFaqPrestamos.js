@@ -1,8 +1,8 @@
 import React from 'react';
 import AppAccordion from '../Accordion/Accordion';
-import answers from './anwers';
+import answers from './answersPrestamos';
 
-const AppFaq = () => {
+const AppFaqPrestamos = () => {
 
 
     return (
@@ -38,5 +38,5 @@ const AppFaq = () => {
     );
 };
 
-export default AppFaq;
+export default AppFaqPrestamos;
 
