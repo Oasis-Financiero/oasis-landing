@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { graphql } from "gatsby"
 import Layout from "../../../components/layout";
 import * as style from './insuranceProduct.module.css'
-import AppFaq from "../../../components/styled/FAQs/AppFaq";
+import AppFaqPrestamos from "../../../components/styled/FAQs/AppFaqPrestamos";
 import AppSecondaryButton from "../../../components/styled/SecondaryButton/SecondaryButton";
 import AppCardSection from "../../../components/styled/CardSection/CardSection";
 import colors from "../../../constants/colors";
@@ -26,7 +26,7 @@ const InsuranceProduct = ({ data }) => {
 
         <div id={style.faqc} className="md:p-10">
           <h1 className="flex justify-center" id={style.faq}>FAQs</h1>
-          <AppFaq />
+          <AppFaqPrestamos />
         </div>
 
 
