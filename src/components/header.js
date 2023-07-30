@@ -47,6 +47,10 @@ function Header() {
         route: "/blog",
         title: `Blog`,
       },
+      {
+        route:'/nosotros',
+        title: 'Nosotros'
+      }
     ].map((link) => (
       <Link
         className={`${location === link.route || location === link.subroute || location === link.subroute2 ? headerStyles.navLinkActive : headerStyles.navLink}`}

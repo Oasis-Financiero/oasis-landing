@@ -11,45 +11,55 @@ import AppButton from "../ConfirmButton/AppButton";
 import InformativeText from "../InformativeText/InformativeText";
 import colors from "../../../constants/colors";
 import RelevantPoints from "../RelevantPoints/RelevantPoints";
+import { Link } from "gatsby";
 
 const CardsInsuranceTypes = () => {
 
     const seguros = [
-        {
+        {   
+            name: 'turismo',
             title: <span>Transporte Turistico <br /> y de Personal</span>,
             image: turismo,
         },
         {
+            name: 'taxi',
             title: 'Taxis',
             image: taxi,
         },
         {
+            name: 'app',
             title: <span>Transporte Apps <br /> (Uber / Didi)</span>,
             image: app,
         },
         {
+            name: 'moto',
             title: 'Motocicletas',
             image: moto,
         },
         {
+            name: 'pick',
             title: <span>Pick Up <br /> de carga</span>,
             image: pick,
         },
         {
+            name: 'camion',
             title: <span>Camiones de <br /> 3.5 toneladas</span>,
             image: camion,
         },
         {
+            name: 'especial',
             title: <span>Chasis con <br /> adaptaciones especiales</span>,
             image: especial
         },
         {
+            name: 'chasis',
             title: <span> Chasis <br /> Cabina</span>,
             image: chasis
         }
-    ].map(item => {
+    ].map((item, index) => {
         return (
-            <div className="w-[170px] md:w-[234px] text-[14px] md:text-[18px] text-center relative md:hover:animate-jump animate-once">
+            <Link to="/">
+            <div key={index} className="w-[170px] md:w-[234px] text-[14px] md:text-[18px] text-center relative md:hover:animate-jump animate-once">
                 <img
                     src={item.image}
                     alt="image"
@@ -58,7 +68,7 @@ const CardsInsuranceTypes = () => {
                 <span className="absolute bottom-[20px] left-0 right-0 text-white font-medium" style={{ fontFamily: 'Inter' }}>
                     {item.title}
                 </span>
-            </div>
+            </div></Link>
         )
     })
 
