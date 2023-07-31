@@ -34,9 +34,9 @@ const Calculator = ({ loanAmount,
         const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
         if(!emailRegex.test(email)){
             setHandleError(true)
+            setHandleAnimateError(false)
         } else {
             setHandleError(false)
-            setHandleAnimateError(false)
         }
     }
 
@@ -65,6 +65,7 @@ const Calculator = ({ loanAmount,
             })
             setEmail("")
             setSelectedState("")
+            setSelectedTypePay("")
         }
     }
 
@@ -125,9 +126,9 @@ const Calculator = ({ loanAmount,
 
             </div>
 
-            <div className="flex flex-row justify-center items-center gap-2 md:flex md:flex-row md:justify-center">
+            <div className="flex flex-row justify-center items-center gap-2 md:gap-4 md:flex md:flex-row md:justify-center md:px-5 md:py-2">
 
-                <div className={`relative left-1.5 md:left-0 ${handleAnimateError ? "animate-wiggle animate-once" : null}`}>
+                <div className={`relative left-1.5 md:left-0 ${handleAnimateError ? 'animate-wiggle animate-infinite' : null}`}>
                     <AppTextBox
                         label='Correo electronico'
                         onChangeValue={onEmailChange}
@@ -139,7 +140,7 @@ const Calculator = ({ loanAmount,
 
                 <div>
                     <AppSelect
-                        width="w-[166px] md:w-[214px]"
+                        width="w-[150px] md:w-[214px]"
                         title="Estado"
                         tagLabel="Estado"
                         items={estados}

@@ -20,10 +20,7 @@ const AppSelect = ({ title, tagLabel, items, width, selected, setSelected }) => 
 
     return (
         <Box>
-            <FormControl sx={{
-                m: 1,
-
-            }} fullWidth size="small">
+            <FormControl fullWidth size="small">
                 <InputLabel>{tagLabel}</InputLabel>
                 <Select
                     IconComponent={SlArrowDown}

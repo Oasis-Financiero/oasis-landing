@@ -8,6 +8,8 @@ const AppTextBox = ({ label, size, onChangeValue, value, error, helperText }) =>
     let sizeContainer
     if (size === "contactMessage") {
         sizeContainer = "w-[349px] md:w-[445px]"
+    } if (size === "form") {
+        sizeContainer = "md:w-[556px] md:h-[96px]"
     } else {
         sizeContainer = "w-[166px] md:w-[214px]"
     }
