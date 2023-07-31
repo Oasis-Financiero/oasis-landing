@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
-import saly from '../images/about/Saly-15.png'
+import saly from '../images/about/saly-15.png'
 import colors from "../constants/colors";
 import elige from '../images/about/1.svg'
 import compara from '../images/about/2.svg'
@@ -11,9 +11,9 @@ const Nosotros = () => {
         <Layout page='about'>
             <div className="animate-fade-down flex flex-col justify-center">
                 <div className="flex flex-col-reverse md:flex-row w-full justify-center p-8 md:p-16">
-                    <div className="md:w-[50%] md:p-24 text-center md:text-start">
-                        <h1 className="md:text-[53px] text-[28px]" style={{ fontFamily: 'Poppins', color: colors.resalte1 }}>Transforma tu vida financiera</h1>
-                        <h1 className="pt-12" style={{ color: colors.brand2, fontFamily: 'Inter' }}>
+                    <div className="md:w-[50%] md:p-[70px] text-center md:text-start">
+                        <h1 className="md:text-[53px] text-[28px]" style={{ fontFamily: 'Manrope', color: colors.brand1 }}>Transforma tu vida financiera</h1>
+                        <h1 className="pt-2" style={{ color: colors.brand2, fontFamily: 'Poppins' }}>
                             Oasis es el primer sitio en México que te acompaña paso a paso en el viaje para mejorar tus finanzas.
                             <span style={{ color: colors.resalte1 }}> Sin costos.
                                 Sin complicaciones.</span></h1>
@@ -26,13 +26,13 @@ const Nosotros = () => {
 
 
                 <div className="flex flex-col justify-center items-center gap-6 text-center md:p-16">
-                    <h3 style={{ color: colors.resalte1, fontFamily: 'Inter' }}
-                        className="text-[18px]"
+                    <h3 style={{ color: colors.resalte1, fontFamily: 'Manrope' }}
+                        className="text-[28px]"
                     >¿Por qué Oasis?</h3>
-                    <h1 style={{ color: colors.brand1, fontFamily: 'Poppins' }}
+                    <h1 style={{ color: colors.brand1, fontFamily: 'Manrope' }}
                         className="md:text-[53px] md:w-[1000px]"
                     >Te ayudaremos a tomar mejores decisiones financieras</h1>
-                    <h2 style={{ color: colors.brand1, fontFamily: 'Inter' }}
+                    <h2 style={{ color: colors.brand1, fontFamily: 'Poppins' }}
                         className="md:text-[30px] md:w-[1000px] font-light">Creemos en el cambio de paradigmas dentro del ecosistema
                         financiero, innovando y promoviendo la inclusión
                         financiera en México</h2>
