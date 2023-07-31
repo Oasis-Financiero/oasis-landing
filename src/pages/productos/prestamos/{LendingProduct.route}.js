@@ -14,6 +14,7 @@ import kreditiweb from '../../../images/products/logo_kreditiweb.png'
 import mrfinan from '../../../images/products/logo_mrfinan.png'
 import fidea from '../../../images/products/logo--dark.svg'
 import escampa from '../../../images/products/escampa.png'
+import AppEscampa from "../../../components/styled/FAQs/FAQsProducts/FAQsEscampa";
 
 
 const LendingProduct = ({ data }) => {
@@ -51,6 +52,25 @@ const LendingProduct = ({ data }) => {
     return imageSrc;
   }
 
+  let questions;
+  switch (type) {
+    case "kreditiweb":
+      questions = <AppFaqPrestamos />
+      break;
+    case "fidea":
+      questions = <AppFaqPrestamos />
+      break;
+    case "mr Finan":
+      questions = <AppFaqPrestamos />
+      break;
+    case "escampa":
+      questions = <AppEscampa />
+      break;
+    default:
+      questions = <AppFaqPrestamos />
+      break
+  }
+
   return (
     <Layout page='product'>
       <div className="flex flex-col gap-16 md:gap-16 animate-fade-down animate-once animate-ease-in delay-0">
@@ -68,7 +88,7 @@ const LendingProduct = ({ data }) => {
 
         <div id={style.faqc} className="md:p-10">
           <h1 className="flex justify-center" id={style.faq}>FAQs</h1>
-          <AppFaqPrestamos />
+          {questions}
         </div>
 
 
