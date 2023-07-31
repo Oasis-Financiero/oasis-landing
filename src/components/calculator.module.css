@@ -97,8 +97,11 @@
 }
 
 @media (max-width:960px) {
-    #title{
-      font-size: 28px;
+    #title {
+      font-size: 22px;
+    }
+    #titleContainer {
+      padding: 0px 60px;
     }
 }
 
