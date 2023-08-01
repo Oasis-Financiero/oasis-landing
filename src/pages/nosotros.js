@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
-import saly from '../images/about/saly-15.png'
+import saly from '../images/about/Saly-15.png'
 import colors from "../constants/colors";
 import elige from '../images/about/1.svg'
 import compara from '../images/about/2.svg'
