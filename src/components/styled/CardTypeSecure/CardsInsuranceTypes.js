@@ -74,9 +74,6 @@ const CardsInsuranceTypes = () => {
                 <div className="grid grid-cols-2 md:grid-cols-4 place-items-center gap-2 md:w-[1000px] md:gap-4">
                     {seguros}
                 </div>
-                <AppButton
-                tag="Cotizar Seguro"
-                />
             </div>
 
         </div>

@@ -32,6 +32,7 @@ const Calculator = ({ loanAmount,
         e.preventDefault()
         const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
         if (!emailRegex.test(email)) {
+            setHandleError(true)
         } else {
             if (secondaryCalculatorRef.current) {
                 secondaryCalculatorRef.current.scrollIntoView({
@@ -52,6 +53,7 @@ const Calculator = ({ loanAmount,
             setEmail("")
             setSelectedState("")
             // setSelectedTypePay("")
+            setHandleError(false)
         }
     }
 
