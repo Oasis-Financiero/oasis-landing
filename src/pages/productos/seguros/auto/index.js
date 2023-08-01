@@ -63,7 +63,7 @@ const SeguroAuto = ({ data }) => {
                     icon={iconSeguro}
                     color={colors.card1}
                 />
-                <Link to="/compara"> <AppSecondaryButton
+                <Link to="/compara/prestamos-personales"> <AppSecondaryButton
                     text="Comparar"
                 /></Link>
             </div>

@@ -15,7 +15,7 @@ import AppSecondaryCalculator from "../../components/styled/SecondaryCalculator/
 import ContactForm from "../../components/styled/ContactForm/ContactForm";
 import { Link } from "gatsby";
 
-const Compara = () => {
+const PrestamosPersonales = () => {
     const [loanAmount, setLoanAmount] = useState(1000)
     const [incomeAmount, setIncomeAmount] = useState(1000)
     const [loanTerm, setLoanTerm] = useState(12);
@@ -104,7 +104,7 @@ const Compara = () => {
                                 title="Seguros de auto"
                                 subtitle="Cobertura amplia y limitada"
                             />
-                            <Link to="/seguro_de_auto"> <AppSecondaryButton
+                            <Link to="/productos/seguros/auto"> <AppSecondaryButton
                                 text="Comparar"
                             /></Link>
                         </div>
@@ -120,4 +120,4 @@ const Compara = () => {
     )
 }
 
-export default Compara
+export default PrestamosPersonales;
