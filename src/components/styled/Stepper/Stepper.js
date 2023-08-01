@@ -30,9 +30,8 @@ const StepIcon = (props) => {
     );
 };
 
-export const AppStepper = ({ steps }) => {
-    const [isCompleted, setIsCompleted] = useState(false);
-    const [stepsActive, setStepsActive] = useState(0);
+export const AppStepper = ({ steps, isCompleted, stepsActive }) => {
+    
 
     const styleSx = {
         '& .MuiStepLabel-label.MuiStepLabel-alternativeLabel':
@@ -51,21 +50,7 @@ export const AppStepper = ({ steps }) => {
         }
     }
 
-    const onHandleCompleted = () => {
-        if (stepsActive !== steps.length) {
-            setStepsActive(stepsActive + 1);
-        }
-        if (stepsActive === steps.length - 1) {
-            setIsCompleted(true);
-        }
-    };
-
-    const onBackHandleCompleted = () => {
-        if (stepsActive !== 0) {
-            setStepsActive(stepsActive - 1);
-            setIsCompleted(false);
-        }
-    };
+    
 
     return (
         <div className="md:w-[60%]">

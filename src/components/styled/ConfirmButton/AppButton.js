@@ -3,7 +3,7 @@ import './AppButton.css'
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
 import { Button } from "@mui/material";
 
-const AppButton = ({tag, width, onClick}) => {
+const AppButton = ({ tag, width, onClick, type }) => {
     return (
         <>
             <form onClick={onClick}>
@@ -14,7 +14,7 @@ const AppButton = ({tag, width, onClick}) => {
                         textTransform: 'none',
                         maxWidth: `${width}px`
                     }}
-                    
+                    type={type}
                 >
                     {tag}
                     <MdOutlineKeyboardArrowRight

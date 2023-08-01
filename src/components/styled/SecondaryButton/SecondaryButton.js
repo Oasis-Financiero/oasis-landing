@@ -1,9 +1,9 @@
 import { Button } from "@mui/material";
 import React from "react";
-import { HiArrowSmRight } from 'react-icons/hi'
+import { HiArrowSmRight, HiArrowSmLeft } from 'react-icons/hi'
 import colors from "../../../constants/colors";
 
-const AppSecondaryButton = ({text}) => {
+const AppSecondaryButton = ({ text, back, onClick }) => {
     return (
         <div>
             <Button
@@ -12,14 +12,21 @@ const AppSecondaryButton = ({text}) => {
                     fontSize: '20px',
                     color: colors.brand1,
                     fontFamily: 'Poppins'
-                    
+
                 }}
                 className="flex gap-2 items-center"
+                onClick={onClick}
             >
-                {text} <HiArrowSmRight
+                {text} {back ? <HiArrowSmLeft
+                    size={27}
+                    fill={colors.resalte1}
+                /> 
+                : 
+                <HiArrowSmRight
                     size={27}
                     fill={colors.resalte1}
                 />
+                }
             </Button>
         </div>
     )

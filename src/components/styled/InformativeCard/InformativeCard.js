@@ -4,7 +4,7 @@ import AppSelect from "../Dropdown/Dropdown";
 import colors from "../../../constants/colors";
 import AppButton from "../ConfirmButton/AppButton";
 import { IoIosArrowDropdownCircle, IoIosArrowDropupCircle } from 'react-icons/io'
-import { anual, comision, text1, text2, text3 } from "./text";
+import { fidea } from "./text";
 import products from "../ProductTable/CardProduct/products";
 import { Link } from "gatsby";
 
@@ -46,13 +46,16 @@ const InformativeCard = ({ montoParam, ingresosParam, plazoParam, type }) => {
         maximumFractionDigits: 0,
     })
 
-    let link;
+    let link, text1, text2, text3;
     switch (type) {
         case "kreditiweb":
             link = 'http://clean.tracksacai.com/aff_c?offer_id=2885&aff_id=2524'
             break;
         case "fidea":
             link = ' https://www.fidea.mx/?refName=2023041314ef&refSubId=oasis_financiero&refTransactionId=banner_comparador'
+            text1 = fidea.text1
+            text2 = fidea.text2
+            text3 = fidea.text3
             break;
         case "mrfinan":
             link = 'http://clean.tracksacai.com/aff_c?offer_id=3364&aff_id=2524&aff_sub=banner_oasis_financiero'

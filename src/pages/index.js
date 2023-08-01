@@ -6,11 +6,13 @@ import SEO from "../components/seo";
 import PropTypes from "prop-types";
 import PostList from "../components/post-list";
 import mainhero from "../images/landing/mainhero.png"
-import alcancia from "../images/landing/alcancia.svg"
-import credito from "../images/landing/credito.svg"
-import wallet from "../images/landing/wallet.svg"
-import bitcoin from "../images/landing/bitcoin.svg"
+// import alcancia from "../images/landing/alcancia.svg"
+// import credito from "../images/landing/credito.svg"
+// import wallet from "../images/landing/wallet.svg"
+// import bitcoin from "../images/landing/bitcoin.svg"
 import calculator from "../images/landing/calculator.png"
+import iconSeguro from '../images/herramientas/ico-seguro-auto.svg'
+import auto from '../images/herramientas/ico-prestamos-personales.svg'
 //import arrow from "../images/landing/arrow.png"
 import * as styles from "./index.module.css"
 
@@ -107,46 +109,22 @@ function IndexPage({ data }) {
           <div id={styles.compareItemsWrapper}>
             <div id={styles.cardOne} className={styles.compareCard}>
               <div className={styles.compareCardIcon}>
-                <img className={styles.cardIconImg} src={alcancia}></img>
+                <img className={styles.cardIconImg} src={iconSeguro}></img>
               </div>
               <div className={styles.compareCardText}>
                 <div className={styles.compareItemName}>
-                  Cuentas de ahorro
+                  Seguros de auto
                 </div>
                 <div className={styles.compareItemCaption}>
-                  Gana hasta 4.0%
+                  Cobertura amplia e ilimitada
                 </div>
               </div>
             </div>
-            <div id={styles.cardTwo} className={styles.compareCard}>
-              <div className={styles.compareCardIcon}>
-                <img className={styles.cardIconImg} src={credito}></img>
-              </div>
-              <div className={styles.compareCardText}>
-                <div className={styles.compareItemName}>
-                  Tarjetas de crédito
-                </div>
-                <div className={styles.compareItemCaption}>
-                  0% de comisión
-                </div>
-              </div>
-            </div>
-            <div id={styles.cardThree} className={styles.compareCard}>
-              <div className={styles.compareCardIcon}>
-                <img className={styles.cardIconImg} src={wallet}></img>
-              </div>
-              <div className={styles.compareCardText}>
-                <div className={styles.compareItemName}>
-                  Inversiones
-                </div>
-                <div className={styles.compareItemCaption}>
-                  Crece tu dinero
-                </div>
-              </div>
-            </div>
+            
+            
             <div id={styles.cardFour} className={styles.compareCard}>
               <div className={styles.compareCardIcon}>
-                <img className={styles.cardIconImg} src={bitcoin}></img>
+                <img className={styles.cardIconImg} src={auto}></img>
               </div>
               <div className={styles.compareCardText}>
                 <div className={styles.compareItemName}>
