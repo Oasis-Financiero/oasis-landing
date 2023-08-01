@@ -22,12 +22,12 @@ const SeguroAuto = ({ data }) => {
                 <div className=" flex flex-col justify-center gap-10 mx-56 md:relative left-10">
                     <h1 className="md:w-[533px] text-[28px] md:text-[40px]"
                         style={{ fontFamily: 'Poppins', color: colors.brand1 }}>Cotiza tu seguro de auto y <span style={{ color: colors.resalte1 }}>elige el que te convenga</span> en un par de minutos</h1>
-                    <h3 className="md:w-[446px] text-[16px]" 
-                    style={{ fontFamily: 'Poppins', color: colors.brand1 }}>
+                    <h3 className="md:w-[446px] text-[16px]"
+                        style={{ fontFamily: 'Poppins', color: colors.brand1 }}>
                         Compara 20 aseguradoras en segundos, contrata en línea <span className="font-bold">sin complicaciones</span> y paga a 3, 6 y 12 meses sin intereses.</h3>
-                    <AppButton
+                    <Link to="https://www.guros.com/?PROMOCODE=OASISFINANCIERO" target="_blank"><AppButton
                         tag="Cotizar"
-                    />
+                    /></Link>
                 </div>
 
                 <div className="md:relative right-40">
@@ -46,9 +46,9 @@ const SeguroAuto = ({ data }) => {
 
             <div className="flex flex-col justify-center items-center md:pt-16 md:pb-16">
                 <RelevantPoints />
-                <AppButton
+                <Link to="https://www.guros.com/?PROMOCODE=OASISFINANCIERO" target="_blank"><AppButton
                     tag={"Cotizar mi seguro"}
-                />
+                /></Link>
             </div>
 
             <div className="pt-16 md:p-16" style={{ backgroundColor: colors.fdoGris }}>
