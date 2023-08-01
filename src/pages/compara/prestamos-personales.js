@@ -1,18 +1,18 @@
 import React, { useRef, useState } from "react";
-import Layout from "../components/layout";
-import Calculator from "../components/calculator";
-import wallet from '../images/herramientas/img-prestamos-personales-main.webp'
-import * as style from './compara.module.css'
-import woman from '../images/landing/img-girl.webp'
-import AppFaqPrestamos from "../components/styled/FAQs/AppFaqPrestamos";
-import AppSecondaryButton from "../components/styled/SecondaryButton/SecondaryButton";
-import AppCardSection from "../components/styled/CardSection/CardSection";
-import colors from "../constants/colors";
-import iconSeguro from '../images/herramientas/ico-seguro-auto.svg'
-import AppSteps from "../components/styled/Steps/Steps";
+import Layout from "../../components/layout";
+import Calculator from "../../components/calculator";
+import wallet from '../../images/herramientas/img-prestamos-personales-main.webp'
+import * as style from './prestamos-personales.module.css'
+import woman from '../../images/landing/img-girl.webp'
+import AppFaqPrestamos from "../../components/styled/FAQs/AppFaqPrestamos";
+import AppSecondaryButton from "../../components/styled/SecondaryButton/SecondaryButton";
+import AppCardSection from "../../components/styled/CardSection/CardSection";
+import colors from "../../constants/colors";
+import iconSeguro from '../../images/herramientas/ico-seguro-auto.svg'
+import AppSteps from "../../components/styled/Steps/Steps";
 import { IoIosArrowDroprightCircle } from 'react-icons/io'
-import AppSecondaryCalculator from "../components/styled/SecondaryCalculator/SecondaryCalculator";
-import ContactForm from "../components/styled/ContactForm/ContactForm";
+import AppSecondaryCalculator from "../../components/styled/SecondaryCalculator/SecondaryCalculator";
+import ContactForm from "../../components/styled/ContactForm/ContactForm";
 import { Link } from "gatsby";
 
 const Compara = () => {

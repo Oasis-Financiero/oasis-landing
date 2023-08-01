@@ -11,7 +11,6 @@ import AppButton from "../ConfirmButton/AppButton";
 import { Link } from "gatsby";
 
 const CardsInsuranceTypes = () => {
-
     const seguros = [
         {   
             name: 'turismo',
@@ -55,7 +54,7 @@ const CardsInsuranceTypes = () => {
         }
     ].map((item, index) => {
         return (
-            <Link to={`/tramite_seguro?type=${item.name}`}>
+            <Link to={`/productos/seguros/auto/seguro-especial?type=${item.name}`}>
             <div key={index} className="w-[170px] md:w-[234px] text-[14px] md:text-[18px] text-center relative md:hover:animate-jump animate-once">
                 <img
                     src={item.image}
@@ -68,7 +67,6 @@ const CardsInsuranceTypes = () => {
             </div></Link>
         )
     })
-
 
     return (
         <div className="flex flex-col justify-center items-center">

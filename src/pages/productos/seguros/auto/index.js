@@ -1,19 +1,20 @@
 import React from "react";
-import Layout from "../components/layout";
-import CardsInsuranceTypes from "../components/styled/CardTypeSecure/CardsInsuranceTypes";
-import InformativeText from "../components/styled/InformativeText/InformativeText";
-import RelevantPoints from "../components/styled/RelevantPoints/RelevantPoints";
-import colors from "../constants/colors";
-import AppButton from "../components/styled/ConfirmButton/AppButton";
-import AppFaqAutos from "../components/styled/FAQs/AppFaqAutos";
-import AppCardSection from "../components/styled/CardSection/CardSection";
-import iconSeguro from '../images/herramientas/ico-prestamos-personales.svg'
-import AppSecondaryButton from "../components/styled/SecondaryButton/SecondaryButton";
+import { graphql } from 'gatsby';
+import Layout from "../../../../components/layout";
+import CardsInsuranceTypes from "../../../../components/styled/CardTypeSecure/CardsInsuranceTypes";
+import InformativeText from "../../../../components/styled/InformativeText/InformativeText";
+import RelevantPoints from "../../../../components/styled/RelevantPoints/RelevantPoints";
+import colors from "../../../../constants/colors";
+import AppButton from "../../../../components/styled/ConfirmButton/AppButton";
+import AppFaqAutos from "../../../../components/styled/FAQs/AppFaqAutos";
+import AppCardSection from "../../../../components/styled/CardSection/CardSection";
+import iconSeguro from '../../../../images/herramientas/ico-prestamos-personales.svg'
+import AppSecondaryButton from "../../../../components/styled/SecondaryButton/SecondaryButton";
 import { Link } from "gatsby";
-import ContactForm from "../components/styled/ContactForm/ContactForm";
-import auto from '../images/seguros-auto/auto.webp'
+import ContactForm from "../../../../components/styled/ContactForm/ContactForm";
+import auto from '../../../../images/seguros-auto/auto.webp'
 
-const Seguro = () => {
+const SeguroAuto = ({ data }) => {
     return (
         <Layout page='seguro'>
 
@@ -74,4 +75,13 @@ const Seguro = () => {
     )
 }
 
-export default Seguro
+export const query = graphql`
+  query($id: String) {
+      insuranceProduct(id: { eq: $id }) {
+        id
+        name
+      }
+  }
+`
+
+export default SeguroAuto;

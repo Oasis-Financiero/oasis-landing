@@ -1,30 +1,26 @@
 import React, { useState } from "react";
-import app from '../images/seguros/app.webp'
-import turismo from '../images/seguros/turismo.webp'
-import taxi from '../images/seguros/taxi.webp'
-import moto from '../images/seguros/moto.webp'
-import pick from '../images/seguros/pick.webp'
-import camion from '../images/seguros/camion.webp'
-import chasis from '../images/seguros/chasis.webp'
-import especial from '../images/seguros/especial.webp'
-import Layout from "../components/layout";
-import AppStepper from "../components/styled/Stepper/Stepper";
-import colors from "../constants/colors";
-import AppTextBox from '../components/styled/TextBox/TextBox'
-import AppSelect from '../components/styled/Dropdown/Dropdown'
-import AppButton from "../components/styled/ConfirmButton/AppButton";
-import AppSecondaryButton from '../components/styled/SecondaryButton/SecondaryButton'
-import { db } from "../../firebase";
+import app from '../../../../images/seguros/app.webp'
+import turismo from '../../../../images/seguros/turismo.webp'
+import taxi from '../../../../images/seguros/taxi.webp'
+import moto from '../../../../images/seguros/moto.webp'
+import pick from '../../../../images/seguros/pick.webp'
+import camion from '../../../../images/seguros/camion.webp'
+import chasis from '../../../../images/seguros/chasis.webp'
+import especial from '../../../../images/seguros/especial.webp'
+import Layout from "../../../../components/layout";
+import AppStepper from "../../../../components/styled/Stepper/Stepper";
+import colors from "../../../../constants/colors";
+import AppTextBox from '../../../../components/styled/TextBox/TextBox'
+import AppSelect from '../../../../components/styled/Dropdown/Dropdown'
+import AppButton from "../../../../components/styled/ConfirmButton/AppButton";
+import AppSecondaryButton from '../../../../components/styled/SecondaryButton/SecondaryButton'
+import AppFaqAutos from "../../../../components/styled/FAQs/AppFaqAutos";
+import { db } from "../../../../../firebase";
 import { collection, addDoc } from "@firebase/firestore";
 import { Link } from "gatsby";
-import AppFaqAutos from "../components/styled/FAQs/AppFaqAutos";
 
-
-
-const Tramite = () => {
-
+const SeguroEspecial = () => {
     const steps = ["Tipo de seguro y datos del vehiculo", "Datos Solicitante", "Confirmar Solicitud"]
-
 
     let type, selected, title, image;
     if (typeof window !== "undefined") {
@@ -44,8 +40,6 @@ const Tramite = () => {
             setFormPage(formPage - 1)
         }
     };
-
-
 
     switch (type) {
         case 'turismo':
@@ -103,10 +97,6 @@ const Tramite = () => {
             break;
     }
 
-
-
-
-
     const [model, setModel] = useState("")
     const [carData, setCarData] = useState({})
     const [carValue, setCarValue] = useState("")
@@ -158,8 +148,6 @@ const Tramite = () => {
             </div>
 
             <div className="flex flex-col md:grid md:grid-cols-2 w-full gap-2">
-
-
                 <AppSelect
                     items={[selected]}
                     selected={selected}
@@ -174,8 +162,6 @@ const Tramite = () => {
                     onChangeValue={setCarValue}
                     value={carValue}
                 />
-
-
 
                 <AppTextBox
                     label="Marca"
@@ -214,8 +200,6 @@ const Tramite = () => {
             />
         </div>
     </div>
-
-
 
     const person = ["Soy Persona Fisica", "Soy Persona Moral"]
     const gnre = ["Masculino", "Femenino"]
@@ -263,19 +247,16 @@ const Tramite = () => {
 
     }
 
-    console.log(cp);
-
     const screenTwo = <div className="flex flex-col justify-center items-center md:p-6 md:w-[961px] rounded-[25px] bg-white relative"
         style={{ border: `1px solid ${colors.gris}` }}
     >
-
-        <div className="absolute md:top-10 md:left-10">
+        <div className="absolute left-5 top-4 md:top-10 md:left-10">
             <AppSecondaryButton
                 back={true}
                 onClick={onBackHandleCompleted}
             />
         </div>
-        <h2 className="md:p-5 text-center">Datos del Solicitante</h2>
+        <h2 className="p-5 text-center">Datos del Solicitante</h2>
         <div className="border border-black md:w-[842px] w-[150px] m-8" style={{ borderColor: colors.gris }}></div>
 
         <div className="flex flex-col md:flex-row gap-11">
@@ -291,7 +272,6 @@ const Tramite = () => {
                     <p>{carData?.year}</p>
                 </div>
             </div>
-
 
             <div className="flex flex-col p-2 gap-2 md:grid md:grid-cols-2 md:gap-1 md:w-[550px] md:p-0 ">
 
@@ -319,7 +299,6 @@ const Tramite = () => {
                     onChangeValue={setLastName}
                     value={lastName}
                 />
-
 
                 <div className="flex items-center p-2 gap-2 rounded-[7px] h-[45px]" style={{ border: `2px solid ${colors.resalte1}` }}>
                     <label className="text-[13px]" style={{ fontFamily: 'Inter', color: colors.gris }}>Fecha de Nacimiento:</label>
@@ -367,7 +346,6 @@ const Tramite = () => {
         if (stepsActive === steps.length - 1) {
             setIsCompleted(true);
         }
-
         setFormPage(formPage + 1)
     }
 
@@ -380,7 +358,7 @@ const Tramite = () => {
                 onClick={onBackHandleCompleted}
             />
         </div>
-        <h2 className="md:p-5 text-center">Confirmar Solicitud</h2>
+        <h2 className="p-5 text-center">Confirmar Solicitud</h2>
         <div className="border border-black md:w-[842px] w-[150px] m-8" style={{ borderColor: colors.gris }}></div>
 
         <div className="flex flex-col md:flex-row gap-8">
@@ -388,7 +366,6 @@ const Tramite = () => {
                 <img src={image} alt={type} className="w-[234px] h-[111px] object-cover rounded-[12px]" />
                 <p className="absolute text-center text-white flex top-9 md:top-14" style={{ font: 'normal normal medium 18px/22px Inter' }}>{title}</p>
             </div>
-
 
             <div className="flex flex-col w-full justify-center items-center md:flex-row gap-2">
                 <div className="flex flex-col gap-2 w-[234px] justify-center items-center">
@@ -421,7 +398,6 @@ const Tramite = () => {
         </div>
     </div>
 
-
     const screenFour = <div className="flex flex-col justify-center items-center py-4 md:p-6 md:w-[961px] rounded-[25px] bg-white"
         style={{ border: `1px solid ${colors.gris}` }}
     >
@@ -431,12 +407,11 @@ const Tramite = () => {
             >¡Gracias por completar el formulario!< br />
                 Nos pondremos en contacto pronto para dar seguimiento a tu cotización.</h1>
 
-            <Link to="/seguro_de_auto"><AppButton
+            <Link to="/productos/seguros/auto"><AppButton
                 tag="Volver al inicio"
             /></Link>
         </div>
     </div>
-
 
     let screenToShow;
     if (formPage === 1) {
@@ -454,22 +429,17 @@ const Tramite = () => {
             <div className="flex flex-col gap-16 justify-center items-center w-full p-1 md:p-10" style={{ backgroundColor: colors.fdoGris }}>
                 <h1
                     style={{ font: 'normal normal 600 40px/50px Poppins' }}
-                    className="md:p-8 p-1 text-center"
+                    className="p-4 md:p-8 p-1 text-center"
                 >
-                    Cotiza un <span style={{ color: colors.resalte1 }}>seguro especial</span></h1>
-
+                    Cotiza un <span style={{ color: colors.resalte1 }}>seguro especial</span>
+                </h1>
                 <AppStepper
                     steps={steps}
                     stepsActive={stepsActive}
                     isCompleted={isCompleted}
                 />
-
-
-
                 {screenToShow}
-
             </div>
-
             <div className="md:p-10">
                 <AppFaqAutos/>
             </div>
@@ -477,4 +447,4 @@ const Tramite = () => {
     )
 }
 
-export default Tramite
+export default SeguroEspecial;

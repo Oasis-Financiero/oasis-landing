@@ -7,11 +7,9 @@ import twitter from "../images/social/twitter-dark.svg";
 import linkedin from "../images/social/linkedin-dark.svg";
 import { Menu, MenuItem } from "@mui/material";
 import Fade from '@mui/material/Fade';
-import { display } from "@mui/system";
 import colors from "../constants/colors";
 
 function Header() {
-
   const location = typeof window !== "undefined" ? window.location.pathname : '';
   const [isExpanded, toggleExpansion] = useState(false);
   const [subMenuExpanded, setSubMenuExpanded] = useState(false)
@@ -29,67 +27,6 @@ function Header() {
     const html = document.querySelector('html')
     isExpanded ? (html.style.overflow = 'hidden') : (html.style.overflow = 'visible')
   }, [isExpanded])
-
-
-  const links =
-    [
-      {
-        route: `/`,
-        title: `Inicio`,
-      },
-      {
-        route: "",
-        subroute: '/compara',
-        subroute2: '/seguro_de_auto',
-        title: `Comparar Productos`,
-      },
-      {
-        route: "/blog",
-        title: `Blog`,
-      },
-      {
-        route:'/nosotros',
-        title: 'Nosotros'
-      }
-    ].map((link) => (
-      <Link
-        className={`${location === link.route || location === link.subroute || location === link.subroute2 ? headerStyles.navLinkActive : headerStyles.navLink}`}
-        key={link.title}
-        to={link.route}
-        onClick={link.title === 'Comparar Productos' ? handleClick : null}
-      >
-        <span>{link.title}</span>
-        {link.title === 'Comparar Productos' && (
-          <Menu
-            anchorEl={anchorEl}
-            open={subMenuExpanded}
-            onClose={handleClick}
-            TransitionComponent={Fade}
-            transitionDuration={300}
-            sx={{
-              '& .MuiMenu-list': {
-                width: '235px',
-                display: 'flex',
-                flexDirection: 'column',
-                justifyContent: 'center',
-                alignItems: 'center',
-                gap: '20px'
-              }
-            }}
-          >
-            <Link to="/compara"> <MenuItem sx={{
-              font: 'normal normal 600 16px/20px Inter',
-              color: colors.resalte1
-            }}>Prestamos Personales</MenuItem></Link>
-            <Link to='/seguro_de_auto'> <MenuItem sx={{
-              font: 'normal normal 600 16px/20px Inter',
-              color: colors.resalte1
-            }}>Seguros de Auto</MenuItem></Link>
-          </Menu>)}
-      </Link>
-    ))
-
-
 
   const social =
     <div id={headerStyles.iconsTray}>
@@ -133,6 +70,70 @@ function Header() {
       </a>
     </div>
 
+  const links = (
+    <>
+      <Link
+        className={`${location === "/" ? headerStyles.navLinkActive : headerStyles.navLink}`}
+        to={"/"}
+      >
+        <span>{"Inicio"}</span>
+      </Link>
+      <Link
+        className={`${location.includes("compara") ||  location.includes("productos") ? headerStyles.navLinkActive : headerStyles.navLink}`}
+        to={""}
+        onClick={handleClick}
+      >
+        <span>{"Comparar Productos"}</span>
+        <Menu
+          anchorEl={anchorEl}
+          open={subMenuExpanded}
+          onClose={handleClick}
+          TransitionComponent={Fade}
+          transitionDuration={300}
+          sx={{
+            '& .MuiMenu-list': {
+              width: '235px',
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'center',
+              alignItems: 'center',
+              gap: '20px'
+            }
+          }}
+        >
+          <Link to="/compara/prestamos-personales">
+            <MenuItem sx={{
+              font: 'normal normal 600 16px/20px Inter',
+              color: colors.resalte1
+            }}>
+              Prestamos Personales
+            </MenuItem>
+          </Link>
+          <Link to='/productos/seguros/auto'>
+            <MenuItem sx={{
+              font: 'normal normal 600 16px/20px Inter',
+              color: colors.resalte1
+            }}>
+              Seguros de Auto
+            </MenuItem>
+          </Link>
+        </Menu>
+      </Link>
+      <Link
+        className={`${location === "/blog" ? headerStyles.navLinkActive : headerStyles.navLink}`}
+        to={"/blog"}
+      >
+        <span>{"Blog"}</span>
+      </Link>
+      <Link
+        className={`${location === "/nosotros" ? headerStyles.navLinkActive : headerStyles.navLink}`}
+        to={"/nosotros"}
+      >
+        <span>{"Nosotros"}</span>
+      </Link>
+    </>
+  )
+
   return (
     <header className={`${headerStyles.header}`}>
       <div className={headerStyles.headerContent}>
@@ -149,9 +150,7 @@ function Header() {
           id={headerStyles.navBar}
         >
           {links}
-
         </nav>
-
 
         <div id={headerStyles.buttonWrapper}>
           <button
@@ -169,16 +168,12 @@ function Header() {
             </svg>
           </button>
         </div>
-
-
-
       </div>
 
       <div id={isExpanded ? headerStyles.navDropExpanded : headerStyles.navDropHidden}>
         {links}
         {social}
       </div>
-
 
     </header>
   );

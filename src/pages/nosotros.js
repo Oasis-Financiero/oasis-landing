@@ -11,12 +11,14 @@ const Nosotros = () => {
         <Layout page='about'>
             <div className="animate-fade-down flex flex-col justify-center">
                 <div className="flex flex-col-reverse md:flex-row w-full justify-center p-8 md:p-16">
-                    <div className="md:w-[50%] md:p-[70px] text-center md:text-start">
+                    <div className="md:w-[50%] md:px-[150px] md:py-[70px] text-center md:text-start">
                         <h1 className="md:text-[53px] text-[28px]" style={{ fontFamily: 'Manrope', color: colors.brand1 }}>Transforma tu vida financiera</h1>
-                        <h1 className="pt-2" style={{ color: colors.brand2, fontFamily: 'Poppins' }}>
+                        <h3 className="pt-2 text-[20px]" style={{ color: colors.brand2, fontFamily: 'Poppins' }}>
                             Oasis es el primer sitio en México que te acompaña paso a paso en el viaje para mejorar tus finanzas.
-                            <span style={{ color: colors.resalte1 }}> Sin costos.
-                                Sin complicaciones.</span></h1>
+                            <span style={{ color: colors.resalte1 }}>
+                                {" Sin costos. Sin complicaciones."}
+                            </span>
+                        </h3>
                     </div>
 
                     <div className="flex justify-center">
@@ -24,8 +26,7 @@ const Nosotros = () => {
                     </div>
                 </div>
 
-
-                <div className="flex flex-col justify-center items-center gap-6 text-center md:p-16">
+                <div className="flex flex-col justify-center items-center gap-6 text-center px-8 md:py-16">
                     <h3 style={{ color: colors.resalte1, fontFamily: 'Manrope' }}
                         className="text-[28px]"
                     >¿Por qué Oasis?</h3>
@@ -33,12 +34,12 @@ const Nosotros = () => {
                         className="md:text-[53px] md:w-[1000px]"
                     >Te ayudaremos a tomar mejores decisiones financieras</h1>
                     <h2 style={{ color: colors.brand1, fontFamily: 'Poppins' }}
-                        className="md:text-[30px] md:w-[1000px] font-light">Creemos en el cambio de paradigmas dentro del ecosistema
+                        className="md:text-[20px] md:w-[1000px] font-light">Creemos en el cambio de paradigmas dentro del ecosistema
                         financiero, innovando y promoviendo la inclusión
-                        financiera en México</h2>
+                        financiera en México.</h2>
                 </div>
 
-                <div className="w-full flex flex-col gap-6 justify-center items-center p-2 md:p-16">
+                <div className="w-full flex flex-col gap-6 justify-center items-center p-2 px-8 md:py-16">
                     <div className="flex flex-col md:flex-row p-10 gap-10 rounded-[8px] items-center"
                         style={{ backgroundColor: colors.fdoCalido }}
                     >
@@ -65,9 +66,9 @@ const Nosotros = () => {
                             >2. Compara</h1>
                             <h3 className="md:text-[22px] text-[18px]"
                                 style={{ color: colors.brand1 }}
-                            >Toma el control y personaliza tu experiencia. Solo 
-                            te mostraremos la información relevante y opciones 
-                            que deseas comparar.</h3>
+                            >Toma el control y personaliza tu experiencia. Solo
+                                te mostraremos la información relevante y opciones
+                                que deseas comparar.</h3>
                         </div>
                     </div>
 
@@ -81,13 +82,12 @@ const Nosotros = () => {
                             >3. Elige</h1>
                             <h3 className="md:text-[22px] text-[18px]"
                                 style={{ color: colors.brand1 }}
-                            >Aplica para el producto que mejor se adapta a tus necesidades. 
-                            Desde nuestra página podrás obtener toda la información 
-                            antes de contratar.</h3>
+                            >Aplica para el producto que mejor se adapta a tus necesidades.
+                                Desde nuestra página podrás obtener toda la información
+                                antes de contratar.</h3>
                         </div>
                     </div>
                 </div>
-
 
             </div>
         </Layout>
