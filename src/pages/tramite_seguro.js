@@ -161,9 +161,8 @@ const Tramite = () => {
 
 
                 <AppSelect
-                    items={[title]}
-                    selected={title}
-                    title='Tipo de Vehiculo'
+                    items={[selected]}
+                    selected={selected}
                 />
                 <AppTextBox
                     label="Modelo"
@@ -426,7 +425,7 @@ const Tramite = () => {
     const screenFour = <div className="flex flex-col justify-center items-center py-4 md:p-6 md:w-[961px] rounded-[25px] bg-white"
         style={{ border: `1px solid ${colors.gris}` }}
     >
-        <div className="flex flex-col justify-center items-center gap-10 p-10">
+        <div className="flex flex-col justify-center items-center gap-10 md:p-10 p-6">
             <h1 className="text-center"
                 style={{ font: 'normal normal 600 30px/50px Poppins' }}
             >¡Gracias por completar el formulario!< br />
@@ -452,10 +451,10 @@ const Tramite = () => {
 
     return (
         <Layout page='tramite'>
-            <div className="flex flex-col gap-16 justify-center items-center w-full p-10" style={{ backgroundColor: colors.fdoGris }}>
+            <div className="flex flex-col gap-16 justify-center items-center w-full p-1 md:p-10" style={{ backgroundColor: colors.fdoGris }}>
                 <h1
                     style={{ font: 'normal normal 600 40px/50px Poppins' }}
-                    className="p-8 text-center"
+                    className="md:p-8 p-1 text-center"
                 >
                     Cotiza un <span style={{ color: colors.resalte1 }}>seguro especial</span></h1>
 
@@ -471,7 +470,7 @@ const Tramite = () => {
 
             </div>
 
-            <div className="p-10">
+            <div className="md:p-10">
                 <AppFaqAutos/>
             </div>
         </Layout>
