@@ -23,7 +23,7 @@ moment.locale('es')
 const Post = ({ data }) => {
   const post = data.blogPost
   const author = data.authors.nodes.find(author => author.email === post.author)
-  console.log(author)
+  console.log("Post:", post.title)
   return (
     <Layout page="blogpost">
     <SEO
