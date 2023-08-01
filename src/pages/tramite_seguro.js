@@ -227,8 +227,8 @@ const Tramite = () => {
         <h2 className="md:p-5 text-center">Datos del Solicitante</h2>
         <div className="border border-black md:w-[842px] w-[150px] m-8" style={{ borderColor: colors.gris }}></div>
 
-        <div className="flex flex-col md:flex-row gap-2">
-            <div className="flex flex-col relative justify-center items-center w-full">
+        <div className="flex flex-col md:flex-row gap-11">
+            <div className="flex flex-col relative justify-center items-center">
                 <img src={image} alt={type} className="w-[234px] h-[111px] object-cover rounded-[12px]" />
                 <p className="absolute text-center text-white flex top-7" style={{ font: 'normal normal medium 18px/22px Inter' }}>{title}</p>
                 <div className="flex flex-col justify-start p-3">
@@ -242,60 +242,57 @@ const Tramite = () => {
             </div>
 
 
-            <div className="flex flex-col md:flex-row gap-1">
-                <div className="w-[284px] flex flex-col gap-2">
-                    <AppSelect
-                        items={person}
-                        selected={selectedOptionsPerson}
-                        setSelected={setSelectedOptionsPerson}
-                        title={selectedOptionsPerson}
-                    />
+            <div className="flex flex-col p-2 gap-2 md:grid md:grid-cols-2 md:gap-1 md:w-[550px] md:p-0 ">
 
-                    <AppTextBox
-                        label="Nombre"
-                        onChangeValue={setName}
-                        value={name}
-                    />
+                <AppSelect
+                    items={person}
+                    selected={selectedOptionsPerson}
+                    setSelected={setSelectedOptionsPerson}
+                    title={selectedOptionsPerson}
+                />
 
-                    <div className="flex items-center p-2 gap-2 rounded-[7px] h-[45px]" style={{ border: `2px solid ${colors.resalte1}` }}>
-                        <label className="text-[13px]" style={{ fontFamily: 'Inter', color: colors.gris }}>Fecha de Nacimiento:</label>
-                        <input type="date" name="birthday" onChange={handleOnDate} className="text-[13px]" style={{ color: colors.gris }} />
-                    </div>
+                <AppTextBox
+                    label="Codigo Postal"
+                    onChangeValue={setCp}
+                    value={cp}
+                />
 
-                    <AppTextBox
-                        label="Correo electronico"
-                        onChangeValue={setEmail}
-                        value={email}
-                    />
+                <AppTextBox
+                    label="Nombre"
+                    onChangeValue={setName}
+                    value={name}
+                />
+
+                <AppTextBox
+                    label="Apellido"
+                    onChangeValue={setLastName}
+                    value={lastName}
+                />
+
+
+                <div className="flex items-center p-2 gap-2 rounded-[7px] h-[45px]" style={{ border: `2px solid ${colors.resalte1}` }}>
+                    <label className="text-[13px]" style={{ fontFamily: 'Inter', color: colors.gris }}>Fecha de Nacimiento:</label>
+                    <input type="date" name="birthday" onChange={handleOnDate} className="text-[13px]" style={{ color: colors.gris }} />
                 </div>
 
-                <div className="w-[284px] flex flex-col gap-2">
-                    <AppTextBox
-                        label="Codigo Postal"
-                        onChangeValue={setCp}
-                        value={cp}
-                    />
+                <AppSelect
+                    items={gnre}
+                    setSelected={setGenero}
+                    selected={genero}
+                    title={genero}
+                />
 
-                    <AppTextBox
-                        label="Apellido"
-                        onChangeValue={setLastName}
-                        value={lastName}
-                    />
+                <AppTextBox
+                    label="Correo electronico"
+                    onChangeValue={setEmail}
+                    value={email}
+                />
 
-
-                    <AppSelect
-                        items={gnre}
-                        setSelected={setGenero}
-                        selected={genero}
-                        title={genero}
-                    />
-
-                    <AppTextBox
-                        label="WhatsApp"
-                        onChangeValue={setNumber}
-                        value={number}
-                    />
-                </div>
+                <AppTextBox
+                    label="WhatsApp"
+                    onChangeValue={setNumber}
+                    value={number}
+                />
 
             </div>
 
