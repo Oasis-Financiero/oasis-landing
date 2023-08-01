@@ -7,7 +7,7 @@ import AppSelect from "./styled/Dropdown/Dropdown";
 import AppTextBox from "./styled/TextBox/TextBox";
 import AppButton from "./styled/ConfirmButton/AppButton";
 import { collection, addDoc, serverTimestamp } from "@firebase/firestore";
-import { db } from "../../gatsby-browser";
+import { db } from "../../firebase";
 import { estados, pagos } from "./calculatorHelpers";
 
 
@@ -27,18 +27,6 @@ const Calculator = ({ loanAmount,
     const [email, setEmail] = useState("")
     const [handleError, setHandleError] = useState(null)
     const [handleAnimateError, setHandleAnimateError] = useState(false)
-
-    const onEmailChange = (e) => {
-        e.preventDefault()
-        setEmail(e.target.value)
-        const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
-        if (!emailRegex.test(email)) {
-            setHandleError(true)
-            setHandleAnimateError(false)
-        } else {
-            setHandleError(false)
-        }
-    }
 
 
     const onSubmitButton = async (e) => {
@@ -65,7 +53,7 @@ const Calculator = ({ loanAmount,
             })
             setEmail("")
             setSelectedState("")
-            setSelectedTypePay("")
+            // setSelectedTypePay("")
         }
     }
 
@@ -129,7 +117,7 @@ const Calculator = ({ loanAmount,
                     <AppTextBox
                         label='Correo electronico'
                         width="214px"
-                        onChangeValue={onEmailChange}
+                        onChangeValue={setEmail}
                         value={email}
                         error={handleError}
                         helperText="Email Invalido"
