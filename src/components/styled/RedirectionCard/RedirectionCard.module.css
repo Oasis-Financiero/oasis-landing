@@ -1,0 +1,31 @@
+#subtitle{
+    font: normal normal 400 18px/20px Inter;
+}
+
+#title{
+    font: normal normal 400 26px/20px Inter;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+#title>span{
+    font-weight: 800;
+}
+
+#button{
+    color: white;
+    font: normal normal 400 16px/20px Inter;
+}
+
+@media (max-width:960px){
+    #subtitle{
+        font: normal normal 400 12px/20px Inter
+    }
+
+    #title{
+        font: normal normal 400 12px/20px Inter;
+        gap: 4px;
+    }
+
+}

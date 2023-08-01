@@ -5,11 +5,20 @@ import oasisNombre from "../images/logos/logo-oasis.svg";
 import facebook from "../images/social/facebook-dark.svg";
 import twitter from "../images/social/twitter-dark.svg";
 import linkedin from "../images/social/linkedin-dark.svg";
+import { Menu, MenuItem } from "@mui/material";
+import Fade from '@mui/material/Fade';
+import colors from "../constants/colors";
 
 function Header() {
-
   const location = typeof window !== "undefined" ? window.location.pathname : '';
   const [isExpanded, toggleExpansion] = useState(false);
+  const [subMenuExpanded, setSubMenuExpanded] = useState(false)
+  const [anchorEl, setAnchorEl] = useState(null)
+  const handleClick = (event) => {
+    event.preventDefault()
+    setAnchorEl(event.currentTarget);
+    setSubMenuExpanded(!subMenuExpanded)
+  };;
 
   useEffect(() => {
     if (typeof window === "undefined" || !window.document) {
@@ -19,75 +28,111 @@ function Header() {
     isExpanded ? (html.style.overflow = 'hidden') : (html.style.overflow = 'visible')
   }, [isExpanded])
 
-  const links = 
-    [
-      {
-        route: `/`,
-        title: `Inicio`,
-      },
-      {
-        route: "/nosotros",
-        title: `Sobre nosotros`,
-      },
-      {
-        route: "/compara",
-        title: `Nuestras herramientas`,
-      },
-      {
-        route: "/blog",
-        title: `Blog`,
-      },
-    ].map((link) => (
-      <Link
-        className={`${location === link.route ? headerStyles.navLinkActive : headerStyles.navLink}`}
-        key={link.title}
-        to={link.route}
-      >
-        {link.title}
-      </Link>
-    ))
-
   const social =
-      <div id={headerStyles.iconsTray}>
-        <a
-          className="font-bold text-white no-underline"
-          href="https://facebook.com/oasisfinanciero"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            alt="Facebook icon"
-            className={headerStyles.socialIcon}
-            src={facebook}
-          />
-        </a>
+    <div id={headerStyles.iconsTray}>
+      <a
+        className="font-bold text-white no-underline"
+        href="https://facebook.com/oasisfinanciero"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          alt="Facebook icon"
+          className={headerStyles.socialIcon}
+          src={facebook}
+        />
+      </a>
 
-        <a
-          className="font-bold text-white no-underline"
-          href="https://twitter.com/oasisfintech"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            alt="Twitter icon"
-            className={headerStyles.socialIcon}
-            src={twitter}
-          />
-        </a>
+      <a
+        className="font-bold text-white no-underline"
+        href="https://twitter.com/oasisfintech"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          alt="Twitter icon"
+          className={headerStyles.socialIcon}
+          src={twitter}
+        />
+      </a>
 
-        <a
-          className="font-bold text-white no-underline"
-          href="https://www.linkedin.com/company/oasisfinanciero/"
-          target="_blank"
-          rel="noopener noreferrer"
+      <a
+        className="font-bold text-white no-underline"
+        href="https://www.linkedin.com/company/oasisfinanciero/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          alt="Linkedin icon"
+          className={headerStyles.socialIcon}
+          src={linkedin}
+        />
+      </a>
+    </div>
+
+  const links = (
+    <>
+      <Link
+        className={`${location === "/" ? headerStyles.navLinkActive : headerStyles.navLink}`}
+        to={"/"}
+      >
+        <span>{"Inicio"}</span>
+      </Link>
+      <Link
+        className={`${location.includes("compara") ||  location.includes("productos") ? headerStyles.navLinkActive : headerStyles.navLink}`}
+        to={""}
+        onClick={handleClick}
+      >
+        <span>{"Comparar Productos"}</span>
+        <Menu
+          anchorEl={anchorEl}
+          open={subMenuExpanded}
+          onClose={handleClick}
+          TransitionComponent={Fade}
+          transitionDuration={300}
+          sx={{
+            '& .MuiMenu-list': {
+              width: '235px',
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'center',
+              alignItems: 'center',
+              gap: '20px'
+            }
+          }}
         >
-          <img
-            alt="Linkedin icon"
-            className={headerStyles.socialIcon}
-            src={linkedin}
-          />
-        </a>
-      </div>
+          <Link to="/compara/prestamos-personales">
+            <MenuItem sx={{
+              font: 'normal normal 600 16px/20px Inter',
+              color: colors.resalte1
+            }}>
+              Prestamos Personales
+            </MenuItem>
+          </Link>
+          <Link to='/productos/seguros/auto'>
+            <MenuItem sx={{
+              font: 'normal normal 600 16px/20px Inter',
+              color: colors.resalte1
+            }}>
+              Seguros de Auto
+            </MenuItem>
+          </Link>
+        </Menu>
+      </Link>
+      <Link
+        className={`${location === "/blog" ? headerStyles.navLinkActive : headerStyles.navLink}`}
+        to={"/blog"}
+      >
+        <span>{"Blog"}</span>
+      </Link>
+      <Link
+        className={`${location === "/nosotros" ? headerStyles.navLinkActive : headerStyles.navLink}`}
+        to={"/nosotros"}
+      >
+        <span>{"Nosotros"}</span>
+      </Link>
+    </>
+  )
 
   return (
     <header className={`${headerStyles.header}`}>
@@ -106,11 +151,11 @@ function Header() {
         >
           {links}
         </nav>
-        
+
         <div id={headerStyles.buttonWrapper}>
           <button
             id={headerStyles.navButton}
-            className="flex items-center block px-3 py-2 text-black border border-black rounded"
+            className=" items-center block px-3 py-2 text-black border border-black rounded"
             onClick={() => toggleExpansion(!isExpanded)}
           >
             <svg
@@ -123,18 +168,12 @@ function Header() {
             </svg>
           </button>
         </div>
-  
-        <div id={headerStyles.navSocial}>
-          {social}
-        </div>
-
       </div>
 
       <div id={isExpanded ? headerStyles.navDropExpanded : headerStyles.navDropHidden}>
         {links}
         {social}
       </div>
-
 
     </header>
   );

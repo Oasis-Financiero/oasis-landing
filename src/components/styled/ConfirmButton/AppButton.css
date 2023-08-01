@@ -1,0 +1,17 @@
+
+
+#button{
+    background-color: #F5267D;
+    border-radius: 20px;
+    color: white;
+    font-family: Inter;
+    font-weight: normal;
+    font-size: 15px;
+    width: 214px;
+}
+
+@media (max-width:960px){
+    #button{
+        width: 298px;
+    }
+}

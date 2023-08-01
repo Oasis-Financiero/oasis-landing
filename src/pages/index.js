@@ -6,13 +6,16 @@ import SEO from "../components/seo";
 import PropTypes from "prop-types";
 import PostList from "../components/post-list";
 import mainhero from "../images/landing/mainhero.png"
-import alcancia from "../images/landing/alcancia.svg"
-import credito from "../images/landing/credito.svg"
-import wallet from "../images/landing/wallet.svg"
-import bitcoin from "../images/landing/bitcoin.svg"
+// import alcancia from "../images/landing/alcancia.svg"
+// import credito from "../images/landing/credito.svg"
+// import wallet from "../images/landing/wallet.svg"
+// import bitcoin from "../images/landing/bitcoin.svg"
 import calculator from "../images/landing/calculator.png"
+import iconSeguro from '../images/herramientas/ico-seguro-auto.svg'
+import auto from '../images/herramientas/ico-prestamos-personales.svg'
 //import arrow from "../images/landing/arrow.png"
 import * as styles from "./index.module.css"
+import AppSecondaryButton from "../components/styled/SecondaryButton/SecondaryButton";
 
 export const query = graphql`
   query HomePosts {
@@ -105,128 +108,109 @@ function IndexPage({ data }) {
             </div>
           </div>
           <div id={styles.compareItemsWrapper}>
+
             <div id={styles.cardOne} className={styles.compareCard}>
               <div className={styles.compareCardIcon}>
-                <img className={styles.cardIconImg} src={alcancia}></img>
+                <img className={styles.cardIconImg} src={iconSeguro}></img>
               </div>
               <div className={styles.compareCardText}>
+              <Link to="/productos/seguros/auto">
                 <div className={styles.compareItemName}>
-                  Cuentas de ahorro
+                  Seguros de auto
                 </div>
                 <div className={styles.compareItemCaption}>
-                  Gana hasta 4.0%
+                  Cobertura amplia e ilimitada
                 </div>
+                </Link>
               </div>
             </div>
-            <div id={styles.cardTwo} className={styles.compareCard}>
-              <div className={styles.compareCardIcon}>
-                <img className={styles.cardIconImg} src={credito}></img>
-              </div>
-              <div className={styles.compareCardText}>
-                <div className={styles.compareItemName}>
-                  Tarjetas de crédito
-                </div>
-                <div className={styles.compareItemCaption}>
-                  0% de comisión
-                </div>
-              </div>
-            </div>
-            <div id={styles.cardThree} className={styles.compareCard}>
-              <div className={styles.compareCardIcon}>
-                <img className={styles.cardIconImg} src={wallet}></img>
-              </div>
-              <div className={styles.compareCardText}>
-                <div className={styles.compareItemName}>
-                  Inversiones
-                </div>
-                <div className={styles.compareItemCaption}>
-                  Crece tu dinero
-                </div>
-              </div>
-            </div>
+
+
             <div id={styles.cardFour} className={styles.compareCard}>
               <div className={styles.compareCardIcon}>
-                <img className={styles.cardIconImg} src={bitcoin}></img>
+                <img className={styles.cardIconImg} src={auto}></img>
               </div>
               <div className={styles.compareCardText}>
-                <div className={styles.compareItemName}>
-                  Criptomonedas
-                </div>
-                <div className={styles.compareItemCaption}>
-                  Compra coins y NFTs
-                </div>
+                <Link to="/compara/prestamos-personales">
+                  <div className={styles.compareItemName}>
+                    Prestamos
+                  </div>
+                  <div className={styles.compareItemCaption}>
+                    Contrata en 5 minutos
+                  </div>
+                  </Link>
               </div>
             </div>
           </div>
-        </section>
+      </section>
 
-        <section id={styles.oasisCalculator}>
-          <div id={styles.calculatorWrapper}>
-            <div id={styles.calculatorIllustration}>
-              <img id={styles.calculatorImg} src={calculator} alt='Usuario explorando opciones financieras' />
-            </div>
-            <div id={styles.calculatorText}>
-              <div id={styles.calculatorTextWrapper}>
-                <h1 className={styles.title} id={styles.calculatorFirstLine}> Con nuestra calculadora digital, puedes: </h1>
-                <p className={styles.sectionDetails} id={styles.heroParagraph}>
-                  Lograr tus objetivos de ahorro al comparar las mejores opciones para construir tu patrimonio.
-                </p>
-                <div id={styles.heroButtons}>
-                  <button className={styles.purpleBtn}> Empieza a usarla ahora </button>
-                </div>
+      <section id={styles.oasisCalculator}>
+        <div id={styles.calculatorWrapper}>
+          <div id={styles.calculatorIllustration}>
+            <img id={styles.calculatorImg} src={calculator} alt='Usuario explorando opciones financieras' />
+          </div>
+          <div id={styles.calculatorText}>
+            <div id={styles.calculatorTextWrapper}>
+              <h1 className={styles.title} id={styles.calculatorFirstLine}>¡Usa nuestro comparador ahora!</h1>
+              <p className={styles.sectionDetails} id={styles.heroParagraph}>
+                Encuentra el préstamo perfecto para ti al comparar las mejores alternativas.
+              </p>
+              <div id={styles.heroButtons}>
+                <Link to="/compara"><button className={styles.purpleBtn}> Comparar préstamos </button></Link>
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section id={styles.recentPosts}>
+      <section id={styles.recentPosts}>
 
-          <div id={styles.recentPostsMain}>
-            <div id={styles.compareTextWrapper}>
-              <div id={styles.compareHeader} className={styles.sectionHeader}>
-                Artículos destacados
-              </div>
-              <div id={styles.blogTitle} className={styles.title}>
-                Encontrarás información relevante
-              </div>
-              <div id={styles.compareDetails} className={styles.sectionDetails}>
-                Aprende sobre finanzas personales en nuestro blog.
-              </div>
+        <div id={styles.recentPostsMain}>
+          <div id={styles.compareTextWrapper}>
+            <div id={styles.compareHeader} className={styles.sectionHeader}>
+              Artículos destacados
             </div>
-            <div id={styles.linkToBlog}> <Link to="/blog" id={styles.blogLink}> Ver más </Link> </div>
-            <div id={styles.postsWrapper}>
-              <PostList posts={posts} authors={data.authors.nodes} style="title-under" page={'home'} />
+            <div id={styles.blogTitle} className={styles.title}>
+              Encontrarás información relevante
+            </div>
+            <div id={styles.compareDetails} className={styles.sectionDetails}>
+              Aprende sobre finanzas personales en nuestro blog.
             </div>
           </div>
+          <div id={styles.linkToBlog}> <Link to="/blog" id={styles.blogLink}> Ver más </Link> </div>
+          <div id={styles.postsWrapper}>
+            <PostList posts={posts} authors={data.authors.nodes} style="title-under" page={'home'} />
+          </div>
+        </div>
 
-        </section>
+      </section>
 
-        <section className='subscribe' id={styles.newsletter}>
-          <div id={styles.newsletterCTAWrapper}>
-            <div id={styles.newsletterCTA}>
-              <h3 className={styles.titleAccent} id={styles.newsletterCTATitle}> NEWSLETTER </h3>
-              <h2 className={styles.titleBold} id={styles.newsletterCTAAction}> Suscríbete al boletín de Oasis </h2>
-              <div className={styles.subTitle} id={styles.newsletterCTAText}> Regístrate para recibir nuestros mejores tips y ser de los primeros en tener acceso a nuestras herramientas. </div>
-              <div className={styles.subTitle} id={styles.acceptPrompt}> 
-                <input type="checkbox" id={styles.privacyCheck} value={isPrivacyOk} onChange={() => setIsPrivacyOk(!isPrivacyOk)}/> 
-                <span id={styles.acceptText}> 
-                  Acepto las <span id={styles.openModal} onClick={() => setModalData({isOpen: true, type: 'privacyPolicy'})}> políticas de privacidad </span> de Oasis 
-                </span>
-              </div>
-              <div 
-                className={styles.titleThin} 
-                id={isPrivacyOk ? styles.ctaButton : styles.ctaButtonDisabled} 
-                onClick={() => {if(isPrivacyOk) setModalData({isOpen: true, type: 'subscribe'})}}
-              >
-                <span className={styles.ctaText}> Quiero unirme! </span>
-              </div>
+      <section className='subscribe' id={styles.newsletter}>
+        <div id={styles.newsletterCTAWrapper}>
+          <div id={styles.newsletterCTA}>
+            <h3 className={styles.titleAccent} id={styles.newsletterCTATitle}> NEWSLETTER </h3>
+            <h2 className={styles.titleBold} id={styles.newsletterCTAAction}> Suscríbete al boletín de Oasis </h2>
+            <div className={styles.subTitle} id={styles.newsletterCTAText}> Regístrate para recibir nuestros mejores tips y ser de los primeros en tener acceso a nuestras herramientas. </div>
+            <div className={styles.subTitle} id={styles.acceptPrompt}>
+              <input type="checkbox" id={styles.privacyCheck} value={isPrivacyOk} onChange={() => setIsPrivacyOk(!isPrivacyOk)} />
+              <span id={styles.acceptText}>
+                Acepto las <span id={styles.openModal} onClick={() => setModalData({ isOpen: true, type: 'privacyPolicy' })}> políticas de privacidad </span> de Oasis
+              </span>
+            </div>
+            <div
+              className={styles.titleThin}
+              id={isPrivacyOk ? styles.ctaButton : styles.ctaButtonDisabled}
+              onClick={() => { if (isPrivacyOk) setModalData({ isOpen: true, type: 'subscribe' }) }}
+            >
+              <span className={styles.ctaText}> Quiero unirme! </span>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
 
-      </Layout>
-      <Modal isOpen={modalData.isOpen} type={modalData.type} setModalData={setModalData}/>
+    </Layout >
+      <Modal isOpen={modalData.isOpen} type={modalData.type} setModalData={setModalData} />
     </>
   );
 }
