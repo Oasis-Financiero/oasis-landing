@@ -32,7 +32,7 @@ const Calculator = ({ loanAmount,
         e.preventDefault()
         setEmail(e.target.value)
         const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
-        if(!emailRegex.test(email)){
+        if (!emailRegex.test(email)) {
             setHandleError(true)
             setHandleAnimateError(false)
         } else {
@@ -55,7 +55,7 @@ const Calculator = ({ loanAmount,
                 })
             }
             setHiddeTable(false)
-            await addDoc(collection(db, "calculator users"), { 
+            await addDoc(collection(db, "calculator users"), {
                 loanAmount: loanAmount,
                 incomeAmount: incomeAmount,
                 typePay: selectedTypePay,
@@ -69,16 +69,13 @@ const Calculator = ({ loanAmount,
         }
     }
 
-
-    console.log(selectedTypePay);
-
     return (
-
         <Box className={tailwind.box}>
-            <h1 id={style.title}>Calculadora de Préstamo Personal</h1>
+            <div id={style.titleContainer}>
+                <h1 id={style.title}>Calculadora de Préstamo Personal</h1>
+            </div>
 
             <div className={tailwind.container}>
-
                 <div className={tailwind.titleContainer}>
                     <AppSlider
                         type="Préstamo"
@@ -103,7 +100,7 @@ const Calculator = ({ loanAmount,
 
                 <div className={`${tailwind.dropdown}`}>
                     <AppSelect
-                        width="w-[214px]"
+                        width="214px"
                         title="Tipo de Pago"
                         tagLabel="Tipo de Pago"
                         items={pagos}
@@ -126,11 +123,12 @@ const Calculator = ({ loanAmount,
 
             </div>
 
-            <div className="flex flex-row justify-center items-center gap-2 md:gap-4 md:flex md:flex-row md:justify-center md:px-5 md:py-2">
+            <div className="flex w-full px-[20px] mt-[10px] gap-2">
 
-                <div className={`relative left-1.5 md:left-0 ${handleAnimateError ? 'animate-wiggle animate-infinite' : null}`}>
+                <div className={`flex flex-1 justify-center ${handleAnimateError ? "animate-wiggle animate-once" : null}`}>
                     <AppTextBox
                         label='Correo electronico'
+                        width="214px"
                         onChangeValue={onEmailChange}
                         value={email}
                         error={handleError}
@@ -138,9 +136,9 @@ const Calculator = ({ loanAmount,
                     />
                 </div>
 
-                <div>
+                <div className={`flex flex-1 justify-center`}>
                     <AppSelect
-                        width="w-[150px] md:w-[214px]"
+                        width="214px"
                         title="Estado"
                         tagLabel="Estado"
                         items={estados}
@@ -150,7 +148,7 @@ const Calculator = ({ loanAmount,
                 </div>
             </div>
 
-            <div className={'flex justify-center items-center p-8 md:p-6'}>
+            <div className={'flex flex-1 justify-center items-center p-8 md:p-6'}>
                 <AppButton
                     tag="Calcular préstamo"
                     onClick={onSubmitButton}

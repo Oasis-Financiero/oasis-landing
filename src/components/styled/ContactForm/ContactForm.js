@@ -18,7 +18,7 @@ const ContactForm = () => {
                         <AppTextBox
                             label="Correo electronico" />
                     </div>
-                    <div className="w-[250px]">
+                    <div className="w-full">
                         <AppTextBox
                             label="Mensaje"
                             size="contactMessage"

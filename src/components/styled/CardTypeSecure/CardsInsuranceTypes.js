@@ -8,9 +8,6 @@ import camion from '../../../images/seguros/camion.webp'
 import chasis from '../../../images/seguros/chasis.webp'
 import especial from '../../../images/seguros/especial.webp'
 import AppButton from "../ConfirmButton/AppButton";
-import InformativeText from "../InformativeText/InformativeText";
-import colors from "../../../constants/colors";
-import RelevantPoints from "../RelevantPoints/RelevantPoints";
 import { Link } from "gatsby";
 
 const CardsInsuranceTypes = () => {
