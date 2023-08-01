@@ -13,6 +13,12 @@ import colors from "../constants/colors";
 import AppTextBox from '../components/styled/TextBox/TextBox'
 import AppSelect from '../components/styled/Dropdown/Dropdown'
 import AppButton from "../components/styled/ConfirmButton/AppButton";
+import AppSecondaryButton from '../components/styled/SecondaryButton/SecondaryButton'
+import { db } from "../../firebase";
+import { collection, addDoc } from "@firebase/firestore";
+import { Link } from "gatsby";
+import AppFaqAutos from "../components/styled/FAQs/AppFaqAutos";
+
 
 
 const Tramite = () => {
@@ -28,7 +34,16 @@ const Tramite = () => {
     }
 
     const [formPage, setFormPage] = useState(1)
+    const [isCompleted, setIsCompleted] = useState(false);
+    const [stepsActive, setStepsActive] = useState(0);
 
+    const onBackHandleCompleted = () => {
+        if (stepsActive !== 0) {
+            setStepsActive(stepsActive - 1);
+            setIsCompleted(false);
+            setFormPage(formPage - 1)
+        }
+    };
 
 
 
@@ -94,22 +109,35 @@ const Tramite = () => {
 
     const [model, setModel] = useState("")
     const [carData, setCarData] = useState({})
-    const [carValue, setCarValue] = useState(null)
+    const [carValue, setCarValue] = useState("")
     const [brand, setBrand] = useState("")
-    const [pasajeros, setPasajeros] = useState(null)
-    const [year, setYear] = useState(null)
+    const [pasajeros, setPasajeros] = useState("")
+    const [year, setYear] = useState("")
+    const [adapt, setAdapt] = useState("")
 
     const handleCarData = (e) => {
         e.preventDefault()
-        setCarData({
-            ...carData,
-            carType: title,
-            brand: brand,
-            carModel: model,
-            passengers: pasajeros,
-            year: year,
-            carValue: carValue,
-        })
+        if (!model.length || !carValue.length || !brand.length || !pasajeros.length || !year.length) {
+            return alert("llena todos los campos")
+        } else {
+            setCarData({
+                ...carData,
+                carType: selected,
+                brand: brand,
+                carModel: model,
+                passengers: pasajeros,
+                year: year,
+                carValue: carValue,
+                adaptations: adapt
+            })
+
+        }
+        if (stepsActive !== steps.length) {
+            setStepsActive(stepsActive + 1);
+        }
+        if (stepsActive === steps.length - 1) {
+            setIsCompleted(true);
+        }
         if (setFormPage === setPasajeros.length) {
             return null
         } else {
@@ -117,11 +145,11 @@ const Tramite = () => {
         }
     }
 
-    const screenOne = <div className="flex flex-col justify-center items-center md:w-[961px] rounded-[25px] bg-white"
+    const screenOne = <div className="flex flex-col justify-center items-center md:w-[961px] rounded-[25px] bg-white relative"
         style={{ border: `1px solid ${colors.gris}` }}
     >
-        <h2 className="md:p-5 text-center">Tipo de seguro y datos de tu vehiculo</h2>
-        <div className="border border-black md:w-[842px] w-[150px] m-8" style={{ borderColor: colors.gris }}></div>
+        <h2 className="md:p-10 p-6 text-center" style={{ color: colors.brand1, font: 'normal normal 600 18px Poppins' }}>Tipo de seguro y datos de tu vehiculo</h2>
+        <div className="border border-black md:w-[842px] w-[150px] mb-8" style={{ borderColor: colors.gris }}></div>
 
         <div className="flex flex-col md:flex-row justify-center gap-5">
             <div className="flex flex-col relative">
@@ -129,44 +157,53 @@ const Tramite = () => {
                 <p className="absolute top-44 left-12 text-center text-white" style={{ font: 'normal normal medium 18px/22px Inter' }}>{title}</p>
             </div>
 
-            <div className="flex flex-col md:flex-row w-full gap-2">
+            <div className="flex flex-col md:grid md:grid-cols-2 w-full gap-2">
 
-                <div className="flex flex-col gap-2">
-                    <AppSelect
-                        items={[selected]}
-                        selected={selected}
-                    />
+
+                <AppSelect
+                    items={[title]}
+                    selected={title}
+                    title='Tipo de Vehiculo'
+                />
+                <AppTextBox
+                    label="Modelo"
+                    onChangeValue={setModel}
+                    value={model}
+                />
+                <AppTextBox
+                    label="Costo de vehiculo"
+                    onChangeValue={setCarValue}
+                    value={carValue}
+                />
+
+
+
+                <AppTextBox
+                    label="Marca"
+                    onChangeValue={setBrand}
+                    value={brand}
+                />
+
+                <AppTextBox
+                    label="Año"
+                    onChangeValue={setYear}
+                    value={year}
+                />
+
+                <AppTextBox
+                    label="Numero de pasajeros"
+                    onChangeValue={setPasajeros}
+                    value={pasajeros}
+                />
+
+                <div className="relative">
                     <AppTextBox
-                        label="Modelo"
-                        onChangeValue={setModel}
-                        value={model}
-                    />
-                    <AppTextBox
-                        label="Costo de vehiculo"
-                        onChangeValue={setCarValue}
-                        value={carValue}
+                        label="Tiene adaptaciones? Describelas"
+                        onChangeValue={setAdapt}
+                        value={adapt}
                     />
                 </div>
 
-                <div className="flex flex-col gap-2">
-                    <AppTextBox
-                        label="Marca"
-                        onChangeValue={setBrand}
-                        value={brand}
-                    />
-
-                    <AppTextBox
-                        label="Año"
-                        onChangeValue={setYear}
-                        value={year}
-                    />
-
-                    <AppTextBox
-                        label="Numero de pasajeros"
-                        onChangeValue={setPasajeros}
-                        value={pasajeros}
-                    />
-                </div>
 
             </div>
 
@@ -184,8 +221,8 @@ const Tramite = () => {
     const person = ["Soy Persona Fisica", "Soy Persona Moral"]
     const gnre = ["Masculino", "Femenino"]
     const [selectedOptionsPerson, setSelectedOptionsPerson] = useState("Persona...")
-    const [date, setDate] = useState(null)
-    const [cp, setCp] = useState(null)
+    const [date, setDate] = useState("")
+    const [cp, setCp] = useState("")
     const [name, setName] = useState("")
     const [lastName, setLastName] = useState("")
     const [genero, setGenero] = useState("Genero")
@@ -200,30 +237,45 @@ const Tramite = () => {
 
     const handleOnChangeData = (e) => {
         e.preventDefault()
-        setDataUser({
-            ...dataUser,
-            date: date,
-            typePerson: selectedOptionsPerson,
-            postalCode: cp,
-            name: name,
-            lastName: lastName,
-            genero: genero,
-            email, email,
-            number: number,
-        })
-        if (setFormPage === setPasajeros.length) {
-            return null
+        const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
+        if (!date.length || !cp.length || !name.length || !lastName.length || !email.length || !number.length) {
+            return alert("llena todos los campos")
+        } if (!emailRegex.test(email)) {
+            return alert("email incorrecto")
         } else {
-            setFormPage(formPage + 1)
+            setDataUser({
+                date: date,
+                typePerson: selectedOptionsPerson,
+                postalCode: cp,
+                name: name,
+                lastName: lastName,
+                genero: genero,
+                email, email,
+                number: number,
+            })
         }
+        if (stepsActive !== steps.length) {
+            setStepsActive(stepsActive + 1);
+        }
+        if (stepsActive === steps.length - 1) {
+            setIsCompleted(true);
+        }
+        setFormPage(formPage + 1)
+
     }
 
+    console.log(cp);
 
-    console.log(dataUser);
-
-    const screenTwo = <div className="flex flex-col justify-center items-center md:p-6 md:w-[961px] rounded-[25px] bg-white"
+    const screenTwo = <div className="flex flex-col justify-center items-center md:p-6 md:w-[961px] rounded-[25px] bg-white relative"
         style={{ border: `1px solid ${colors.gris}` }}
     >
+
+        <div className="absolute md:top-10 md:left-10">
+            <AppSecondaryButton
+                back={true}
+                onClick={onBackHandleCompleted}
+            />
+        </div>
         <h2 className="md:p-5 text-center">Datos del Solicitante</h2>
         <div className="border border-black md:w-[842px] w-[150px] m-8" style={{ borderColor: colors.gris }}></div>
 
@@ -231,7 +283,7 @@ const Tramite = () => {
             <div className="flex flex-col relative justify-center items-center">
                 <img src={image} alt={type} className="w-[234px] h-[111px] object-cover rounded-[12px]" />
                 <p className="absolute text-center text-white flex top-7" style={{ font: 'normal normal medium 18px/22px Inter' }}>{title}</p>
-                <div className="flex flex-col justify-start p-3">
+                <div className="flex flex-col justify-start p-3 text-center" style={{ fontFamily: 'Inter' }}>
                     <p>{carData?.carType}</p>
                     <p>{carData?.selected}</p>
                     <p>{carData?.brand}</p>
@@ -305,9 +357,30 @@ const Tramite = () => {
         </div>
     </div>
 
-    const screenThree = <div className="flex flex-col justify-center items-center py-4 md:p-6 md:w-[961px] rounded-[25px] bg-white"
+    const handleSubmitForm = async (e) => {
+        e.preventDefault()
+        await addDoc(collection(db, "seguros especiales"), {
+            ...dataUser, ...carData,
+        })
+        if (stepsActive !== steps.length) {
+            setStepsActive(stepsActive + 1);
+        }
+        if (stepsActive === steps.length - 1) {
+            setIsCompleted(true);
+        }
+
+        setFormPage(formPage + 1)
+    }
+
+    const screenThree = <div className="flex flex-col justify-center items-center py-4 md:p-6 md:w-[961px] rounded-[25px] bg-white relative"
         style={{ border: `1px solid ${colors.gris}` }}
     >
+        <div className="absolute top-10 left-10">
+            <AppSecondaryButton
+                back={true}
+                onClick={onBackHandleCompleted}
+            />
+        </div>
         <h2 className="md:p-5 text-center">Confirmar Solicitud</h2>
         <div className="border border-black md:w-[842px] w-[150px] m-8" style={{ borderColor: colors.gris }}></div>
 
@@ -344,8 +417,24 @@ const Tramite = () => {
         <div className="flex flex-col justify-center items-center p-8">
             <AppButton
                 tag="Confirmar"
-                onClick={handleOnChangeData}
+                onClick={handleSubmitForm}
             />
+        </div>
+    </div>
+
+
+    const screenFour = <div className="flex flex-col justify-center items-center py-4 md:p-6 md:w-[961px] rounded-[25px] bg-white"
+        style={{ border: `1px solid ${colors.gris}` }}
+    >
+        <div className="flex flex-col justify-center items-center gap-10 p-10">
+            <h1 className="text-center"
+                style={{ font: 'normal normal 600 30px/50px Poppins' }}
+            >¡Gracias por completar el formulario!< br />
+                Nos pondremos en contacto pronto para dar seguimiento a tu cotización.</h1>
+
+            <Link to="/seguro_de_auto"><AppButton
+                tag="Volver al inicio"
+            /></Link>
         </div>
     </div>
 
@@ -355,21 +444,35 @@ const Tramite = () => {
         screenToShow = screenOne;
     } else if (formPage === 2) {
         screenToShow = screenTwo;
-    } else {
+    } else if (formPage === 3) {
         screenToShow = screenThree;
+    } else {
+        screenToShow = screenFour
     }
 
     return (
         <Layout page='tramite'>
-            <div className="flex flex-col gap-6 justify-center items-center w-full p-10" style={{ backgroundColor: colors.fdoGris }}>
-                <h1>Cotiza un seguro especial</h1>
+            <div className="flex flex-col gap-16 justify-center items-center w-full p-10" style={{ backgroundColor: colors.fdoGris }}>
+                <h1
+                    style={{ font: 'normal normal 600 40px/50px Poppins' }}
+                    className="p-8 text-center"
+                >
+                    Cotiza un <span style={{ color: colors.resalte1 }}>seguro especial</span></h1>
+
                 <AppStepper
                     steps={steps}
-
+                    stepsActive={stepsActive}
+                    isCompleted={isCompleted}
                 />
+
+
 
                 {screenToShow}
 
+            </div>
+
+            <div className="p-10">
+                <AppFaqAutos/>
             </div>
         </Layout>
     )

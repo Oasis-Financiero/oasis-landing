@@ -4,14 +4,13 @@ import InputBase from "@mui/material/InputBase";
 import Box  from "@mui/material/Box";
 import colors from "../../../constants/colors";
 
-const AppTextBox = ({ label, width, onChangeValue, value, error }) => {
+const AppTextBox = ({ label, width, onChangeValue, value, error, name }) => {
 
     const handleOnChange = (e) => {
         e.preventDefault()
         onChangeValue(e.target.value)
     }
 
-    console.log(value);
 
     return (
         <Box
@@ -51,6 +50,7 @@ const AppTextBox = ({ label, width, onChangeValue, value, error }) => {
                 value={value}
                 error={error}
                 placeholder={label}
+                name={name}
             />
             {
                 error && 
