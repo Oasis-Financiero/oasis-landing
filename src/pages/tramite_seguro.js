@@ -161,9 +161,8 @@ const Tramite = () => {
 
 
                 <AppSelect
-                    items={[title]}
-                    selected={title}
-                    title='Tipo de Vehiculo'
+                    items={[selected]}
+                    selected={selected}
                 />
                 <AppTextBox
                     label="Modelo"
@@ -458,7 +457,7 @@ const Tramite = () => {
                     className="md:p-8 p-1 text-center"
                 >
                     Cotiza un <span style={{ color: colors.resalte1 }}>seguro especial</span></h1>
-        
+
                 <AppStepper
                     steps={steps}
                     stepsActive={stepsActive}
