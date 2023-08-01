@@ -1,0 +1,17 @@
+#title{
+    font: normal normal 600 26px/31px Poppins
+}
+
+#subtitle{
+    font: normal normal normal 18px/21px Inter;
+}
+
+@media (max-width: 960px){
+    #title{
+        font: normal normal 600 28px/34px Poppins;
+    }
+
+    #subtitle{
+        font: normal normal normal 18px/21px Inter;
+    }
+}

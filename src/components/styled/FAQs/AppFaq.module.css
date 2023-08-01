@@ -1,0 +1,11 @@
+#question{
+    font: normal normal bold 22px/26px Poppins;
+}
+
+@media (max-width:960px){
+    #question{
+        font: normal normal bold 18px/24px Poppins;
+    }
+}
+
+

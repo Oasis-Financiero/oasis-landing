@@ -1,0 +1,14 @@
+
+#normal{
+    font: normal normal normal 15px/19px Inter;
+}
+
+#responsive {
+    font: normal normal normal 15px/19px Inter;
+}
+
+@media (max-width: 960px){
+    #responsive{
+        font: normal normal normal 12px/19px Inter;
+    }
+}

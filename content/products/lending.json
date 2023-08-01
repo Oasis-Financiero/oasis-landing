@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "route": "kreditiweb",
+        "name": "Kreditiweb"
+    },
+    {
+        "id": 2,
+        "route": "mrfinan",
+        "name": "Mr Finan"
+    },
+    {
+        "id": 3,
+        "route": "fidea",
+        "name": "Fidea"
+    },
+    {
+        "id": 3,
+        "route": "escampa",
+        "name": "Escampa"
+    }
+]
