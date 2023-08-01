@@ -7,7 +7,7 @@ import { SlArrowDown } from 'react-icons/sl'
 import { alpha } from '@mui/material/styles';
 import colors from "../../../constants/colors";
 
-const AppSelect = ({ title, items, width, selected, setSelected }) => {
+const AppSelect = ({ title, items, width, selected, setSelected, name }) => {
 
     const handleChange = (e) => {
         setSelected(e.target.value);
@@ -65,6 +65,7 @@ const AppSelect = ({ title, items, width, selected, setSelected }) => {
                     }}
                     value={selected}
                     onChange={handleChange}
+                    name={name}
                 // variant="outlined"
                 >
                     <MenuItem value={title}>

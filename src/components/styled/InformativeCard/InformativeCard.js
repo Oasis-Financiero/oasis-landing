@@ -6,6 +6,7 @@ import AppButton from "../ConfirmButton/AppButton";
 import { IoIosArrowDropdownCircle, IoIosArrowDropupCircle } from 'react-icons/io'
 import { anual, comision, text1, text2, text3 } from "./text";
 import products from "../ProductTable/CardProduct/products";
+import { Link } from "gatsby";
 
 
 const InformativeCard = ({ montoParam, ingresosParam, plazoParam, type }) => {
@@ -44,6 +45,25 @@ const InformativeCard = ({ montoParam, ingresosParam, plazoParam, type }) => {
         currency: 'USD',
         maximumFractionDigits: 0,
     })
+
+    let link;
+    switch (type) {
+        case "kreditiweb":
+            link = 'http://clean.tracksacai.com/aff_c?offer_id=2885&aff_id=2524'
+            break;
+        case "fidea":
+            link = ' https://www.fidea.mx/?refName=2023041314ef&refSubId=oasis_financiero&refTransactionId=banner_comparador'
+            break;
+        case "mrfinan":
+            link = 'http://clean.tracksacai.com/aff_c?offer_id=3364&aff_id=2524&aff_sub=banner_oasis_financiero'
+            break;
+        case "escampa":
+            link = 'https://solicitud.escampa.mx/nuevo-registro?utm_source=oasis_financiero&utm_medium=banner&utm_campaign=escampa_2023&utm_id=oasis_financiero'
+            break;
+        default:
+            link = '/'
+            break
+    }
 
 
     return (
@@ -154,9 +174,9 @@ const InformativeCard = ({ montoParam, ingresosParam, plazoParam, type }) => {
                 </div>
 
                 <div className="flex justify-center items-center py-10">
-                    <AppButton
+                    <Link to={link} target="_blank"><AppButton
                         tag="Continuar solicitud"
-                    />
+                    /></Link>
                 </div>
             </div>
         </section>

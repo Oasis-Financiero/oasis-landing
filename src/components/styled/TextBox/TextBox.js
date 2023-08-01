@@ -6,6 +6,13 @@ import colors from "../../../constants/colors";
 
 const AppTextBox = ({ label, width, onChangeValue, value, error }) => {
 
+    const handleOnChange = (e) => {
+        e.preventDefault()
+        onChangeValue(e.target.value)
+    }
+
+    console.log(value);
+
     return (
         <Box
             sx={{
@@ -40,7 +47,7 @@ const AppTextBox = ({ label, width, onChangeValue, value, error }) => {
                         borderColor: colors.resalte2,
                     }
                 }}
-                onChange={onChangeValue}
+                onChange={handleOnChange}
                 value={value}
                 error={error}
                 placeholder={label}
