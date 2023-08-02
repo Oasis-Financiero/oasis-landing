@@ -7,7 +7,7 @@ import { GatsbyImage } from "gatsby-plugin-image"
 const PostLink = ({ title, author, slug, excerpt, date, body, image, imageAlt, postStyle, allAuthors, tags }) => {
 
   const postAuthor = allAuthors.find(person => person.email === author)
-  console.log(author)
+  console.log('PostLink: ', title)
   let linkStyle
 
   switch(postStyle){
