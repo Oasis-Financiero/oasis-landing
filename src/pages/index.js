@@ -156,7 +156,7 @@ function IndexPage({ data }) {
                 Encuentra el préstamo perfecto para ti al comparar las mejores alternativas.
               </p>
               <div id={styles.heroButtons}>
-                <Link to="/compara"><button className={styles.purpleBtn}> Comparar préstamos </button></Link>
+                <Link to="/compara/prestamos-personales"><button className={styles.purpleBtn}> Comparar préstamos </button></Link>
               </div>
             </div>
           </div>

@@ -52,7 +52,7 @@ const InformativeCard = ({ montoParam, ingresosParam, plazoParam, type }) => {
             link = 'http://clean.tracksacai.com/aff_c?offer_id=2885&aff_id=2524'
             break;
         case "fidea":
-            link = ' https://www.fidea.mx/?refName=2023041314ef&refSubId=oasis_financiero&refTransactionId=banner_comparador'
+            link = 'https://www.fidea.mx/?refName=2023041314ef&refSubId=oasis_financiero&refTransactionId=banner_comparador'
             text1 = fidea.text1
             text2 = fidea.text2
             text3 = fidea.text3
@@ -177,9 +177,9 @@ const InformativeCard = ({ montoParam, ingresosParam, plazoParam, type }) => {
                 </div>
 
                 <div className="flex justify-center items-center py-10">
-                    <Link to={link} target="_blank"><AppButton
-                        tag="Continuar solicitud"
-                    /></Link>
+                    <a href={link} target="_blank">
+                        <AppButton tag="Continuar solicitud" />
+                    </a>
                 </div>
             </div>
         </section>
