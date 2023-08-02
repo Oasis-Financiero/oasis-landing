@@ -15,7 +15,7 @@ import AppSelect from '../../../../components/styled/Dropdown/Dropdown'
 import AppButton from "../../../../components/styled/ConfirmButton/AppButton";
 import AppSecondaryButton from '../../../../components/styled/SecondaryButton/SecondaryButton'
 import AppFaqAutos from "../../../../components/styled/FAQs/AppFaqAutos";
-import { getFirestore } from "../../../../../firebase";
+import { getFirestoreInstance } from "../../../../../firebase";
 import { collection, addDoc } from "@firebase/firestore";
 import { Link } from "gatsby";
 
@@ -23,7 +23,7 @@ const SeguroEspecial = () => {
     const [firestoreInstance, setFirestoreInstance] = useState(null);
 
     useEffect(() => {
-        setFirestoreInstance(getFirestore());
+        setFirestoreInstance(getFirestoreInstance());
     }, []);
 
     const steps = ["Tipo de seguro y datos del vehiculo", "Datos Solicitante", "Confirmar Solicitud"]

@@ -7,7 +7,7 @@ import AppSelect from "./styled/Dropdown/Dropdown";
 import AppTextBox from "./styled/TextBox/TextBox";
 import AppButton from "./styled/ConfirmButton/AppButton";
 import { collection, addDoc, serverTimestamp } from "@firebase/firestore";
-import { getFirestore } from "../../firebase";
+import { getFirestoreInstance } from "../../firebase";
 import { estados, pagos } from "./calculatorHelpers";
 
 
@@ -26,7 +26,7 @@ const Calculator = ({ loanAmount,
     const [firestoreInstance, setFirestoreInstance] = useState(null);
 
     useEffect(() => {
-        setFirestoreInstance(getFirestore());
+        setFirestoreInstance(getFirestoreInstance());
     }, []);
 
     const [email, setEmail] = useState("")

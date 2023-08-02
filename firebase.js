@@ -21,7 +21,7 @@ const firebaseConfig = {
 
 let fireStoreInstance = null;
 
-export function getFirestore() {
+export function getFirestoreInstance() {
   if (typeof window !== 'undefined') {
     if (fireStoreInstance) return fireStoreInstance;
     app = initializeApp(firebaseConfig);
