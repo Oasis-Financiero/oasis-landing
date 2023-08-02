@@ -15,11 +15,17 @@ import AppSelect from '../../../../components/styled/Dropdown/Dropdown'
 import AppButton from "../../../../components/styled/ConfirmButton/AppButton";
 import AppSecondaryButton from '../../../../components/styled/SecondaryButton/SecondaryButton'
 import AppFaqAutos from "../../../../components/styled/FAQs/AppFaqAutos";
-import { db } from "../../../../../firebase";
+import { getFirestore } from "../../../../../firebase";
 import { collection, addDoc } from "@firebase/firestore";
 import { Link } from "gatsby";
 
 const SeguroEspecial = () => {
+    const [firestoreInstance, setFirestoreInstance] = useState(null);
+
+    useEffect(() => {
+        setFirestoreInstance(getFirestore());
+    }, []);
+
     const steps = ["Tipo de seguro y datos del vehiculo", "Datos Solicitante", "Confirmar Solicitud"]
 
     let type, selected, title, image;
@@ -337,7 +343,7 @@ const SeguroEspecial = () => {
 
     const handleSubmitForm = async (e) => {
         e.preventDefault()
-        await addDoc(collection(db, "seguros especiales"), {
+        await addDoc(collection(firestoreInstance, "seguros especiales"), {
             ...dataUser, ...carData,
         })
         if (stepsActive !== steps.length) {
@@ -441,7 +447,7 @@ const SeguroEspecial = () => {
                 {screenToShow}
             </div>
             <div className="md:p-10">
-                <AppFaqAutos/>
+                <AppFaqAutos />
             </div>
         </Layout>
     )

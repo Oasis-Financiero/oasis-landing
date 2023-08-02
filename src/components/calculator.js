@@ -7,7 +7,7 @@ import AppSelect from "./styled/Dropdown/Dropdown";
 import AppTextBox from "./styled/TextBox/TextBox";
 import AppButton from "./styled/ConfirmButton/AppButton";
 import { collection, addDoc, serverTimestamp } from "@firebase/firestore";
-import { db } from "../../firebase";
+import { getFirestore } from "../../firebase";
 import { estados, pagos } from "./calculatorHelpers";
 
 
@@ -23,6 +23,11 @@ const Calculator = ({ loanAmount,
     selectedTypePay,
     setSelectedTypePay,
     secondaryCalculatorRef }) => {
+    const [firestoreInstance, setFirestoreInstance] = useState(null);
+
+    useEffect(() => {
+        setFirestoreInstance(getFirestore());
+    }, []);
 
     const [email, setEmail] = useState("")
     const [handleError, setHandleError] = useState(null)
@@ -42,7 +47,7 @@ const Calculator = ({ loanAmount,
                 })
             }
             setHiddeTable(false)
-            await addDoc(collection(db, "calculator users"), {
+            await addDoc(collection(firestoreInstance, "calculator users"), {
                 loanAmount: loanAmount,
                 incomeAmount: incomeAmount,
                 typePay: selectedTypePay,
