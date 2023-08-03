@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 import Layout from "../../../components/layout";
 import * as style from './lendingProduct.module.css'
 import AppFaqPrestamos from "../../../components/styled/FAQs/AppFaqPrestamos";
@@ -12,8 +12,12 @@ import AppSteps from "../../../components/styled/Steps/Steps";
 import InformativeCard from "../../../components/styled/InformativeCard/InformativeCard";
 import kreditiweb from '../../../images/products/logo_kreditiweb.png'
 import mrfinan from '../../../images/products/logo_mrfinan.png'
-import fidea from '../../../images/products/logo--dark.svg'
+import fidea from '../../../images/products/banners/fidea-logo.png'
 import escampa from '../../../images/products/escampa.png'
+import krediban1 from '../../../images/products/banners/20.png'
+import fideaBanner2 from '../../../images/products/banners/fidea-b1.jpg'
+import kreditiBanner from '../../../images/products/banners/19.png'
+import finanBanner from '../../../images/products/banners/18.png'
 import AppEscampa from "../../../components/styled/FAQs/FAQsProducts/FAQsEscampa";
 
 
@@ -52,16 +56,26 @@ const LendingProduct = ({ data }) => {
     return imageSrc;
   }
 
-  let questions;
+  let questions, banner, bannerCard;
   switch (type) {
     case "kreditiweb":
       questions = <AppFaqPrestamos />
+      bannerCard = <Link to="http://clean.tracksacai.com/aff_c?offer_id=2885&aff_id=2524&aff_sub=oasisfinanciero_comparador&aff_sub2=Banner&aff_sub3=kreditiwebagosto2023"
+        target="_blank"><img src={krediban1} alt="krediti" className="md:w-[950px] w-full" /></Link>
+      banner = <Link to="http://clean.tracksacai.com/aff_c?offer_id=2885&aff_id=2524&aff_sub=oasisfinanciero_comparador&aff_sub2=Banner&aff_sub3=kreditiwebagosto2023"
+        target="_blank"><img src={kreditiBanner} alt="krediti" className="md:w-[950px] w-full" /></Link>
       break;
     case "fidea":
       questions = <AppFaqPrestamos />
+      banner = <Link to="https://www.fidea.mx/?refName=2023041314ef&refSubId=REPLACE_WITH_SUB_AFFILIATE_ID&refTransactionId=REPLACE_WITH_LEAD_CLICK_ID&utm_source=oasisfinanciero_comparador&utm_medium=banner&utm_campaign=Fideaagosto2023"
+        target="_blank"><img src={fideaBanner2} alt="fidea" className="w-[550px]" /></Link>
       break;
-    case "mr Finan":
+    case "mrfinan":
       questions = <AppFaqPrestamos />
+      banner = <Link to="http://clean.tracksacai.com/aff_c?offer_id=3364&aff_id=2524&aff_sub=VUESTRO_PARAMETRO&utm_source=oasisfinanciero_comparador&utm_medium=banner&utm_campaign=mrfinanagosto2023"
+        target="_blank"><img src={finanBanner} alt="finan" className="w-[950px]" /></Link>
+      bannerCard = <Link to="http://clean.tracksacai.com/aff_c?offer_id=3364&aff_id=2524&aff_sub=VUESTRO_PARAMETRO&utm_source=oasisfinanciero_comparador&utm_medium=banner&utm_campaign=mrfinanagosto2023"
+        target="_blank"><img src={finanBanner} alt="finan" className="w-[950px]" /></Link>
       break;
     case "escampa":
       questions = <AppEscampa />
@@ -78,7 +92,7 @@ const LendingProduct = ({ data }) => {
         <div className="flex flex-col items-center justify-center gap-8">
           <img src={getImage(name)} alt='logo' className="p-10 pb-0" />
           <div className="flex justify-center items-center w-full p-3">
-            <InformativeCard montoParam={montoParam} ingresosParam={ingresosParam} plazoParam={plazoParam} type={type} />
+            <InformativeCard montoParam={montoParam} ingresosParam={ingresosParam} plazoParam={plazoParam} type={type} imageBanner={bannerCard} />
           </div>
         </div>
 
@@ -86,7 +100,10 @@ const LendingProduct = ({ data }) => {
           <AppSteps />
         </div>
 
-        <div id={style.faqc} className="md:p-10">
+        <div className="flex flex-col justify-center items-center">
+          {banner}
+        </div>
+        <div id={style.faqc} className="md:p-10 flex flex-col justify-center items-center">\
           <h1 className="flex justify-center" id={style.faq}>FAQs</h1>
           {questions}
         </div>

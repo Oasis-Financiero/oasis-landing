@@ -4,7 +4,7 @@ import InputBase from "@mui/material/InputBase";
 import Box  from "@mui/material/Box";
 import colors from "../../../constants/colors";
 
-const AppTextBox = ({ label, width, onChangeValue, value, error, name }) => {
+const AppTextBox = ({ label, width, onChangeValue, value, error, name, errorLabel, type }) => {
 
     const handleOnChange = (e) => {
         e.preventDefault()
@@ -51,6 +51,7 @@ const AppTextBox = ({ label, width, onChangeValue, value, error, name }) => {
                 error={error}
                 placeholder={label}
                 name={name}
+                type={type}
             />
             {
                 error && 
@@ -62,7 +63,7 @@ const AppTextBox = ({ label, width, onChangeValue, value, error, name }) => {
                         color: colors.resalte2
                     }}
                 >
-                    {"Email inválido"}
+                    {errorLabel}
                 </Box>
             }
         </Box>

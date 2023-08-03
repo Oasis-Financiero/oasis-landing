@@ -18,6 +18,7 @@ import AppFaqAutos from "../../../../components/styled/FAQs/AppFaqAutos";
 import { db } from "../../../../../firebase";
 import { collection, addDoc } from "@firebase/firestore";
 import { Link } from "gatsby";
+import ContactForm from "../../../../components/styled/ContactForm/ContactForm";
 
 const SeguroEspecial = () => {
     const steps = ["Tipo de seguro y datos del vehiculo", "Datos Solicitante", "Confirmar Solicitud"]
@@ -32,6 +33,7 @@ const SeguroEspecial = () => {
     const [formPage, setFormPage] = useState(1)
     const [isCompleted, setIsCompleted] = useState(false);
     const [stepsActive, setStepsActive] = useState(0);
+    const [error, setError] = useState(false)
 
     const onBackHandleCompleted = () => {
         if (stepsActive !== 0) {
@@ -107,8 +109,8 @@ const SeguroEspecial = () => {
 
     const handleCarData = (e) => {
         e.preventDefault()
-        if (!model.length || !carValue.length || !brand.length || !pasajeros.length || !year.length) {
-            return alert("llena todos los campos")
+        if (!model.length || !carValue || carValue < 5000 || !brand || !pasajeros || pasajeros < 1 || !year || year < 1600) {
+            setError(true)
         } else {
             setCarData({
                 ...carData,
@@ -120,20 +122,21 @@ const SeguroEspecial = () => {
                 carValue: carValue,
                 adaptations: adapt
             })
-
-        }
-        if (stepsActive !== steps.length) {
-            setStepsActive(stepsActive + 1);
-        }
-        if (stepsActive === steps.length - 1) {
-            setIsCompleted(true);
-        }
-        if (setFormPage === setPasajeros.length) {
-            return null
-        } else {
             setFormPage(formPage + 1)
+            setError(false)
+            if (stepsActive !== steps.length) {
+                setStepsActive(stepsActive + 1);
+            }
+            if (stepsActive === steps.length - 1) {
+                setIsCompleted(true);
+            }
+            if (setFormPage === setPasajeros.length) {
+                return null
+            }
         }
+
     }
+
 
     const screenOne = <div className="flex flex-col justify-center items-center md:w-[961px] rounded-[25px] bg-white relative"
         style={{ border: `1px solid ${colors.gris}` }}
@@ -156,29 +159,39 @@ const SeguroEspecial = () => {
                     label="Modelo"
                     onChangeValue={setModel}
                     value={model}
+                    error={model.length > 2 ? false : error}
+
                 />
                 <AppTextBox
-                    label="Costo de vehiculo"
+                    label="Costo de vehiculo (Factura)"
                     onChangeValue={setCarValue}
-                    value={carValue}
+                    value={carValue.replace(/[a-zA-Z\W_]/g, '')}
+                    error={carValue > 5000 ? false : error}
+                    type="text"
                 />
 
                 <AppTextBox
                     label="Marca"
                     onChangeValue={setBrand}
                     value={brand}
+                    error={brand.length > 2 ? false : error}
+
                 />
 
                 <AppTextBox
                     label="Año"
                     onChangeValue={setYear}
-                    value={year}
+                    value={year.replace(/[a-zA-Z\W_]/g, '')}
+                    error={year > 1400 ? false : error}
+                    type="text"
                 />
 
                 <AppTextBox
                     label="Numero de pasajeros"
                     onChangeValue={setPasajeros}
-                    value={pasajeros}
+                    value={pasajeros.replace(/[a-zA-Z\W_]/g, '')}
+                    error={pasajeros > 0 ? false : error}
+                    type="text"
                 />
 
                 <div className="relative">
@@ -204,13 +217,14 @@ const SeguroEspecial = () => {
     const person = ["Soy Persona Fisica", "Soy Persona Moral"]
     const gnre = ["Masculino", "Femenino"]
     const [selectedOptionsPerson, setSelectedOptionsPerson] = useState("Persona...")
-    const [date, setDate] = useState("")
+    const [date, setDate] = useState(null)
     const [cp, setCp] = useState("")
     const [name, setName] = useState("")
     const [lastName, setLastName] = useState("")
     const [genero, setGenero] = useState("Genero")
     const [email, setEmail] = useState("")
     const [number, setNumber] = useState("")
+    const [razonSocial, setRazonSocial] = useState("")
     const [dataUser, setDataUser] = useState({})
 
     const handleOnDate = (e) => {
@@ -218,13 +232,13 @@ const SeguroEspecial = () => {
         setDate(e.target.value)
     }
 
+    let emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
     const handleOnChangeData = (e) => {
         e.preventDefault()
-        const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
-        if (!date.length || !cp.length || !name.length || !lastName.length || !email.length || !number.length) {
-            return alert("llena todos los campos")
-        } if (!emailRegex.test(email)) {
-            return alert("email incorrecto")
+        if (!cp || cp < 20 || !name || !lastName || !email || !number || number < 1000000 || genero === "Genero" || date === null || razonSocial.length < 5) {
+            setError(true)
+        } else if (!emailRegex.test(email)) {
+            alert("email incorrecto")
         } else {
             setDataUser({
                 date: date,
@@ -235,15 +249,17 @@ const SeguroEspecial = () => {
                 genero: genero,
                 email, email,
                 number: number,
+                razonSocial: razonSocial
             })
+            setError(false)
+            setFormPage(formPage + 1)
+            if (stepsActive !== steps.length) {
+                setStepsActive(stepsActive + 1);
+            }
+            if (stepsActive === steps.length - 1) {
+                setIsCompleted(true);
+            }
         }
-        if (stepsActive !== steps.length) {
-            setStepsActive(stepsActive + 1);
-        }
-        if (stepsActive === steps.length - 1) {
-            setIsCompleted(true);
-        }
-        setFormPage(formPage + 1)
 
     }
 
@@ -273,58 +289,138 @@ const SeguroEspecial = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col p-2 gap-2 md:grid md:grid-cols-2 md:gap-1 md:w-[550px] md:p-0 ">
+            {
+                selectedOptionsPerson === "Soy Persona Moral" ?
+                    <div className="flex flex-col p-2 gap-2 md:grid md:grid-cols-2 md:gap-1 md:w-[550px] md:p-0 ">
 
-                <AppSelect
-                    items={person}
-                    selected={selectedOptionsPerson}
-                    setSelected={setSelectedOptionsPerson}
-                    title={selectedOptionsPerson}
-                />
+                        <AppSelect
+                            items={person}
+                            selected={selectedOptionsPerson}
+                            setSelected={setSelectedOptionsPerson}
+                            title={"Persona..."}
+                            error={selectedOptionsPerson === "Persona..." ? error : false}
+                            errorLabel="Campo obligatorio*"
+                        />
 
-                <AppTextBox
-                    label="Codigo Postal"
-                    onChangeValue={setCp}
-                    value={cp}
-                />
+                        <AppTextBox
+                            label="Codigo Postal"
+                            onChangeValue={setCp}
+                            value={cp.replace(/[a-zA-Z\W_]/g, '')}
+                            type="text"
+                            error={cp > 20 ? false : error}
+                        />
 
-                <AppTextBox
-                    label="Nombre"
-                    onChangeValue={setName}
-                    value={name}
-                />
 
-                <AppTextBox
-                    label="Apellido"
-                    onChangeValue={setLastName}
-                    value={lastName}
-                />
+                        <AppTextBox
+                            label="Razon Social"
+                            onChangeValue={setRazonSocial}
+                            value={razonSocial.toUpperCase()}
+                            error={razonSocial.length > 2 ? false : error}
+                            type="text"
+                        />
 
-                <div className="flex items-center p-2 gap-2 rounded-[7px] h-[45px]" style={{ border: `2px solid ${colors.resalte1}` }}>
-                    <label className="text-[13px]" style={{ fontFamily: 'Inter', color: colors.gris }}>Fecha de Nacimiento:</label>
-                    <input type="date" name="birthday" onChange={handleOnDate} className="text-[13px]" style={{ color: colors.gris }} />
-                </div>
 
-                <AppSelect
-                    items={gnre}
-                    setSelected={setGenero}
-                    selected={genero}
-                    title={genero}
-                />
+                        <div className="flex items-center p-2 gap-2 rounded-[7px] h-[45px]" style={{ border: error ? `2px solid red` : `2px solid ${colors.resalte1}` }}>
+                            <label className="text-[13px]" style={{ fontFamily: 'Inter', color: colors.gris }}>Fecha de Nacimiento:</label>
+                            <input type="date" name="birthday" onChange={handleOnDate} className="text-[13px]" style={{ color: colors.gris }} />
+                        </div>
 
-                <AppTextBox
-                    label="Correo electronico"
-                    onChangeValue={setEmail}
-                    value={email}
-                />
+                        <AppSelect
+                            items={gnre}
+                            setSelected={setGenero}
+                            selected={genero}
+                            title={"Genero"}
+                            error={genero === "Genero" ? error : false}
+                            errorLabel="Campo obligatorio*"
+                        />
 
-                <AppTextBox
-                    label="WhatsApp"
-                    onChangeValue={setNumber}
-                    value={number}
-                />
+                        <AppTextBox
+                            label="Correo electronico"
+                            onChangeValue={setEmail}
+                            value={email}
+                            error={email.length > 2 && emailRegex.test(email) ? false : error}
+                        />
 
-            </div>
+                        <AppTextBox
+                            label="WhatsApp"
+                            onChangeValue={setNumber}
+                            value={number.replace(/[a-zA-Z\W_]/g, '')}
+                            error={number > 2 ? false : error}
+                            type="text"
+                        />
+
+                    </div>
+
+                    :
+
+                    <div className="flex flex-col p-2 gap-2 md:grid md:grid-cols-2 md:gap-1 md:w-[550px] md:p-0 ">
+
+                        <AppSelect
+                            items={person}
+                            selected={selectedOptionsPerson}
+                            setSelected={setSelectedOptionsPerson}
+                            title={"Persona..."}
+                            error={selectedOptionsPerson === "Persona..." ? error : false}
+                            errorLabel="Campo obligatorio*"
+                        />
+
+                        <AppTextBox
+                            label="Codigo Postal"
+                            onChangeValue={setCp}
+                            value={cp.replace(/[a-zA-Z\W_]/g, '')}
+                            type="text"
+                            error={cp > 20 ? false : error}
+                        />
+
+
+                        <AppTextBox
+                            label="Nombre"
+                            onChangeValue={setName}
+                            value={name.replace(/[0-9]/g, '')}
+                            error={name.length > 2 ? false : error}
+                            type="text"
+                        />
+
+                        <AppTextBox
+                            label="Apellido"
+                            onChangeValue={setLastName}
+                            value={lastName.replace(/[0-9]/g, '')}
+                            error={lastName.length > 1 ? false : error}
+                            type="text"
+                        />
+
+
+                        <div className="flex items-center p-2 gap-2 rounded-[7px] h-[45px]" style={{ border: error ? `2px solid red` : `2px solid ${colors.resalte1}` }}>
+                            <label className="text-[13px]" style={{ fontFamily: 'Inter', color: colors.gris }}>Fecha de Nacimiento:</label>
+                            <input type="date" name="birthday" onChange={handleOnDate} className="text-[13px]" style={{ color: colors.gris }} />
+                        </div>
+
+                        <AppSelect
+                            items={gnre}
+                            setSelected={setGenero}
+                            selected={genero}
+                            title={"Genero"}
+                            error={genero === "Genero" ? error : false}
+                            errorLabel="Campo obligatorio*"
+                        />
+
+                        <AppTextBox
+                            label="Correo electronico"
+                            onChangeValue={setEmail}
+                            value={email}
+                            error={email.length > 2 && emailRegex.test(email) ? false : error}
+                        />
+
+                        <AppTextBox
+                            label="WhatsApp"
+                            onChangeValue={setNumber}
+                            value={number.replace(/[a-zA-Z\W_]/g, '')}
+                            error={number > 2 ? false : error}
+                            type="text"
+                        />
+
+                    </div>
+            }
 
         </div>
         <div className="flex flex-col justify-center items-center p-8">
@@ -429,7 +525,7 @@ const SeguroEspecial = () => {
             <div className="flex flex-col gap-16 justify-center items-center w-full p-1 md:p-10" style={{ backgroundColor: colors.fdoGris }}>
                 <h1
                     style={{ font: 'normal normal 600 40px/50px Poppins' }}
-                    className="p-4 md:p-8 p-1 text-center"
+                    className="p-4 md:p-8 text-center"
                 >
                     Cotiza un <span style={{ color: colors.resalte1 }}>seguro especial</span>
                 </h1>
@@ -440,8 +536,12 @@ const SeguroEspecial = () => {
                 />
                 {screenToShow}
             </div>
-            <div className="md:p-10">
-                <AppFaqAutos/>
+            <div className="py-12">
+                <AppFaqAutos />
+            </div>
+
+            <div className="p-4">
+                <ContactForm />
             </div>
         </Layout>
     )
