@@ -235,7 +235,7 @@ const SeguroEspecial = () => {
     let emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
     const handleOnChangeData = (e) => {
         e.preventDefault()
-        if (!cp || cp < 20 || !name || !lastName || !email || !number || number < 1000000 || genero === "Genero" || date === null || razonSocial.length < 5) {
+        if (!cp || cp < 20 || !name || !lastName || !email || !number || number < 1000000 || genero === "Genero" || !date ) {
             setError(true)
         } else if (!emailRegex.test(email)) {
             alert("email incorrecto")
@@ -262,6 +262,7 @@ const SeguroEspecial = () => {
         }
 
     }
+
 
     const screenTwo = <div className="flex flex-col justify-center items-center md:p-6 md:w-[961px] rounded-[25px] bg-white relative"
         style={{ border: `1px solid ${colors.gris}` }}
@@ -316,6 +317,15 @@ const SeguroEspecial = () => {
                             onChangeValue={setRazonSocial}
                             value={razonSocial.toUpperCase()}
                             error={razonSocial.length > 2 ? false : error}
+                            type="text"
+                            required={true}
+                        />
+
+                        <AppTextBox
+                            label="Nombre"
+                            onChangeValue={setName}
+                            value={name.replace(/[0-9]/g, '')}
+                            error={name.length > 2 ? false : error}
                             type="text"
                         />
 
@@ -477,7 +487,7 @@ const SeguroEspecial = () => {
 
                 <div className="flex flex-col gap-2 w-[234px] justify-center items-center">
                     <p>{dataUser?.typePerson}</p>
-                    <p>{dataUser?.name + " " + dataUser?.lastName}</p>
+                    <p>{selectedOptionsPerson === "Soy Persona Fisica" ? dataUser?.name + " " + dataUser?.lastName : dataUser?.razonSocial}</p>
                     <p>{dataUser?.postalCode}</p>
                     <p>{dataUser?.date}</p>
                     <p>{dataUser?.genero}</p>
