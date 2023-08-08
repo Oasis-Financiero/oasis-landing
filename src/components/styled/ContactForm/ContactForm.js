@@ -13,10 +13,10 @@ const ContactForm = () => {
     const [message, setMessage] = useState("")
 
     // Produccion
-    // const URL = 'https://formspree.io/f/xvojzqed' 
+    const URL = 'https://formspree.io/f/xvojzqed' 
 
     // Test
-    const URL = 'https://formspree.io/f/xpzgqlek'
+    // const URL = 'https://formspree.io/f/xpzgqlek'
 
     console.log(name, email);
 
