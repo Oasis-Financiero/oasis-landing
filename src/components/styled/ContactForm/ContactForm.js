@@ -34,7 +34,7 @@ const ContactForm = () => {
             const response = await axios.post(`${URL}`, formData);
             console.log("Respuesta de Formspree:", response);
         } catch (error) {
-            console.error("Error al enviar el formulario:", error);
+            console.error("Error al enviar el formulario:", error); 
         }
     };
 
