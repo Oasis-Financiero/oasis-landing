@@ -16,7 +16,7 @@ const InformativeText = () => {
                     <h1 style={{ color: colors.brand1 }} id={styles.title}><span style={{ color: colors.resalte1 }}>Optimiza tu tiempo y ahorra dinero</span> al comparar tu seguro de auto, motocicleta o de cobertura especial de forma completamente digital.</h1>
                 </div>
 
-                <div id={styles.images} className="grid auto-cols-auto grid-flow-row grid-cols-3 place-items-center md:flex md:flex-row md:justify-center md:items-center gap-5">
+                <div id={styles.images} className="grid auto-cols-auto grid-flow-row grid-cols-3 place-items-center xl:flex xl:flex-row xl:justify-center xl:items-center gap-5">
                     <img className="object-contain" src={sura} alt="sura" />
                     <img className="object-contain" src={map} alt="map" />
                     <img className="object-contain" src={logo_w} alt="logo_w" />
@@ -28,9 +28,9 @@ const InformativeText = () => {
                     <h1 id={styles.subtitle} style={{ color: colors.brand1 }}>¿En qué debes fijarte al momento de contratar tu seguro de auto?</h1>
                 </div>
 
-                <div style={{font: "normal normal normal 16px/26px Inter", color: colors.brand1}} className="flex flex-col gap-8 md:flex-row md:w-full md:px-[250px] md:gap-16">
-                    <span className="md:w-[50%]">{text1}</span>
-                    <span className="md:w-[50%]">{text2}</span>
+                <div style={{font: "normal normal normal 16px/26px Inter", color: colors.brand1}} className=" text-center flex flex-col justify-center items-center p-2 md:p-10 gap-10 lg:flex-row w-full lg:px-[250px] lg:gap-16">
+                    <span className="lg:w-[50%]">{text1}</span>
+                    <span className="lg:w-[50%]">{text2}</span>
                 </div>
             </div>
         </section>

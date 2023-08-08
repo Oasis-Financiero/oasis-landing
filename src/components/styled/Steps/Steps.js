@@ -8,10 +8,11 @@ import * as styles from './steps.module.css'
 
 const AppSteps = () => {
     return (
-        <div className="h-[514px] flex flex-col justify-center items-center gap-10">
+        
+        <div className="h-[514px] md:h-[584px] gap-16 flex flex-col justify-center items-center md:gap-10" id={styles.steps}>
             <h1 id={styles.title} className="text-center text-white">Obtén tu préstamo <br /><span style={{ color: colors.resalte1 }}>en minutos</span></h1>
 
-            <div className="grid grid-cols-2 gap-4 md:flex md:flex-row md:gap-5 ">
+            <div className="grid grid-cols-2 place-content-center gap-4 md:gap-10 lg:flex lg:flex-row lg:gap-5">
 
                 <div style={{ border: `4px solid ${colors.resalte1}` }} className={`w-[156px] h-[156px] md:w-[196px] md:h-[196px] bg-white rounded-[25px] flex flex-col justify-center items-center relative`}>
                     <div className="absolute right-[-3px] top-[-3px]">

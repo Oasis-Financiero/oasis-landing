@@ -6,8 +6,8 @@ const AppFaqAutos = () => {
 
 
     return (
-        <div className='md:flex md:justify-center md:gap-16'>
-            <div className='md:w-[470px]'>
+        <div className='lg:flex md:justify-center md:gap-16'>
+            <div className='lg:w-[470px]'>
                 <AppAccordion
                     question='¿Cuál es la cobertura mínima por ley?'
                     answer={answers.ley}
@@ -22,7 +22,7 @@ const AppFaqAutos = () => {
                 />
             </div>
 
-            <div className='md:w-[470px]'>
+            <div className='lg:w-[470px]'>
                 <AppAccordion
                     question='¿Qué pasa si necesito asistencia en carretera?'
                     answer={answers.carretera}

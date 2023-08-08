@@ -13,7 +13,7 @@ const RelevantPoints = () => {
                 <h1 className="text-center" style={{
                     font: 'normal normal 600 40px/50px Poppins'
                 }}>6 Puntos Relevantes</h1>
-                <div className="hidden md:grid md:grid-cols-3 md:place-items-center md:gap-10">
+                <div className="hidden lg:grid lg:grid-cols-3 lg:place-items-center lg:gap-10">
                     <AppLinedCard
                         title="1. Cobertura adecuada"
                         subtitle="Verifica que incluya tanto la responsabilidad civil como la cobertura de colisión y daños, protección contra robos, etc. Guíate por la cobertura."
@@ -45,7 +45,7 @@ const RelevantPoints = () => {
                     />
                 </div>
 
-                <div className="md:hidden">
+                <div className="lg:hidden">
                     <AppAccordion
                         question="1. Cobertura adecuada"
                         answer="Verifica que incluya tanto la responsabilidad civil como la cobertura de colisión y daños, protección contra robos, etc. Guíate por la cobertura."

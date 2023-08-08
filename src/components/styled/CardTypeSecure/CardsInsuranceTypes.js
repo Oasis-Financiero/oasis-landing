@@ -71,7 +71,7 @@ const CardsInsuranceTypes = () => {
     return (
         <div className="flex flex-col justify-center items-center">
             <div className="flex flex-col justify-center items-center gap-10">
-                <div className="grid grid-cols-2 md:grid-cols-4 place-items-center gap-2 md:w-[1000px] md:gap-4">
+                <div className="grid grid-cols-2 lg:grid-cols-4 place-items-center gap-2 lg:w-[1000px] lg:gap-4">
                     {seguros}
                 </div>
             </div>

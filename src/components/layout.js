@@ -12,10 +12,12 @@ function Layout({ children }) {
   const location = useLocation()
 
   const onAccept = () => {
+    console.log("iniciando track");
     initializeAndTrack(location)
+    console.log("trackeando");
   }
 
-  console.log(initializeAndTrack());
+
 
 
   /* let colWidthStyle;
@@ -46,7 +48,7 @@ function Layout({ children }) {
         location="bottom"
         declineButtonStyle={{ backgroundColor: colors.resalte2, fontSize: '13px', fontFamily: 'inter', borderRadius: '8px', color: 'white' }}
         buttonText="Aceptar" // Texto del botón de aceptar
-        cookieName="gatsby-gdpr-google" // Nombre de la cookie para almacenar el consentimiento
+        cookieName="gatsby-gdpr" // Nombre de la cookie para almacenar el consentimiento
         style={{ background: colors.logo, color: 'white', fontFamily: 'Poppins', display: 'flex', justifyContent: 'center', alignItems: 'center' }} // Estilos del banner (opcional)
         buttonStyle={{ backgroundColor: colors.resalte2, fontSize: '13px', fontFamily: 'inter', borderRadius: '8px', color: 'white' }} // Estilos del botón (opcional)
       >
