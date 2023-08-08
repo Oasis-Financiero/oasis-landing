@@ -120,6 +120,7 @@ const Calculator = ({ loanAmount,
                         onChangeValue={setEmail}
                         value={email}
                         error={handleError}
+                        errorLabel="Correo invalido"
                         helperText="Email Invalido"
                     />
                 </div>
