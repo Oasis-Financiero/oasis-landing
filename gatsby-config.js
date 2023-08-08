@@ -25,12 +25,33 @@ module.exports = {
       }  
     },
     {
+      resolve: `gatsby-plugin-gdpr-cookies`,
+      options: {
+        googleAnalytics: {
+          trackingId: 'G-F9ZWN5BH73', 
+          anonymize: true,
+          cookieName: 'gatsby-gdpr-google', 
+        },
+        facebookPixel: {
+          pixelId: 'TU_PIXEL_ID', 
+        },
+        hotjar: {
+          hjid: '2488279',
+          hjsv: '6',
+          cookieName: 'gatsby-gdpr-hotjar', 
+        },
+        environments: ['development']
+      },
+      
+    },
+    {
       resolve: `gatsby-plugin-hotjar`,
       options: {
         includeInDevelopment: false,
         id: 2488279,
         sv: 6,
       },
+      
     },
     {
       resolve: `gatsby-plugin-mdx`,

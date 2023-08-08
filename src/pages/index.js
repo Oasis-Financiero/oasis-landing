@@ -16,6 +16,8 @@ import auto from '../images/herramientas/ico-prestamos-personales.svg'
 //import arrow from "../images/landing/arrow.png"
 import * as styles from "./index.module.css"
 import AppSecondaryButton from "../components/styled/SecondaryButton/SecondaryButton";
+import CookieConsent from "react-cookie-consent";
+import colors from "../constants/colors";
 
 export const query = graphql`
   query HomePosts {
@@ -114,13 +116,13 @@ function IndexPage({ data }) {
                 <img className={styles.cardIconImg} src={iconSeguro}></img>
               </div>
               <div className={styles.compareCardText}>
-              <Link to="/productos/seguros/auto">
-                <div className={styles.compareItemName}>
-                  Seguros de auto
-                </div>
-                <div className={styles.compareItemCaption}>
-                  Cobertura amplia e ilimitada
-                </div>
+                <Link to="/productos/seguros/auto">
+                  <div className={styles.compareItemName}>
+                    Seguros de auto
+                  </div>
+                  <div className={styles.compareItemCaption}>
+                    Cobertura amplia e ilimitada
+                  </div>
                 </Link>
               </div>
             </div>
@@ -138,78 +140,78 @@ function IndexPage({ data }) {
                   <div className={styles.compareItemCaption}>
                     Contrata en 5 minutos
                   </div>
-                  </Link>
+                </Link>
               </div>
             </div>
           </div>
-      </section>
+        </section>
 
-      <section id={styles.oasisCalculator}>
-        <div id={styles.calculatorWrapper}>
-          <div id={styles.calculatorIllustration}>
-            <img id={styles.calculatorImg} src={calculator} alt='Usuario explorando opciones financieras' />
-          </div>
-          <div id={styles.calculatorText}>
-            <div id={styles.calculatorTextWrapper}>
-              <h1 className={styles.title} id={styles.calculatorFirstLine}>¡Usa nuestro comparador ahora!</h1>
-              <p className={styles.sectionDetails} id={styles.heroParagraph}>
-                Encuentra el préstamo perfecto para ti al comparar las mejores alternativas.
-              </p>
-              <div id={styles.heroButtons}>
-                <Link to="/compara/prestamos-personales"><button className={styles.purpleBtn}> Comparar préstamos </button></Link>
+        <section id={styles.oasisCalculator}>
+          <div id={styles.calculatorWrapper}>
+            <div id={styles.calculatorIllustration}>
+              <img id={styles.calculatorImg} src={calculator} alt='Usuario explorando opciones financieras' />
+            </div>
+            <div id={styles.calculatorText}>
+              <div id={styles.calculatorTextWrapper}>
+                <h1 className={styles.title} id={styles.calculatorFirstLine}>¡Usa nuestro comparador ahora!</h1>
+                <p className={styles.sectionDetails} id={styles.heroParagraph}>
+                  Encuentra el préstamo perfecto para ti al comparar las mejores alternativas.
+                </p>
+                <div id={styles.heroButtons}>
+                  <Link to="/compara/prestamos-personales"><button className={styles.purpleBtn}> Comparar préstamos </button></Link>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section id={styles.recentPosts}>
+        <section id={styles.recentPosts}>
 
-        <div id={styles.recentPostsMain}>
-          <div id={styles.compareTextWrapper}>
-            <div id={styles.compareHeader} className={styles.sectionHeader}>
-              Artículos destacados
+          <div id={styles.recentPostsMain}>
+            <div id={styles.compareTextWrapper}>
+              <div id={styles.compareHeader} className={styles.sectionHeader}>
+                Artículos destacados
+              </div>
+              <div id={styles.blogTitle} className={styles.title}>
+                Encontrarás información relevante
+              </div>
+              <div id={styles.compareDetails} className={styles.sectionDetails}>
+                Aprende sobre finanzas personales en nuestro blog.
+              </div>
             </div>
-            <div id={styles.blogTitle} className={styles.title}>
-              Encontrarás información relevante
-            </div>
-            <div id={styles.compareDetails} className={styles.sectionDetails}>
-              Aprende sobre finanzas personales en nuestro blog.
-            </div>
-          </div>
-          <div id={styles.linkToBlog}> <Link to="/blog" id={styles.blogLink}> Ver más </Link> </div>
-          <div id={styles.postsWrapper}>
-            <PostList posts={posts} authors={data.authors.nodes} style="title-under" page={'home'} />
-          </div>
-        </div>
-
-      </section>
-
-      <section className='subscribe' id={styles.newsletter}>
-        <div id={styles.newsletterCTAWrapper}>
-          <div id={styles.newsletterCTA}>
-            <h3 className={styles.titleAccent} id={styles.newsletterCTATitle}> NEWSLETTER </h3>
-            <h2 className={styles.titleBold} id={styles.newsletterCTAAction}> Suscríbete al boletín de Oasis </h2>
-            <div className={styles.subTitle} id={styles.newsletterCTAText}> Regístrate para recibir nuestros mejores tips y ser de los primeros en tener acceso a nuestras herramientas. </div>
-            <div className={styles.subTitle} id={styles.acceptPrompt}>
-              <input type="checkbox" id={styles.privacyCheck} value={isPrivacyOk} onChange={() => setIsPrivacyOk(!isPrivacyOk)} />
-              <span id={styles.acceptText}>
-                Acepto las <span id={styles.openModal} onClick={() => setModalData({ isOpen: true, type: 'privacyPolicy' })}> políticas de privacidad </span> de Oasis
-              </span>
-            </div>
-            <div
-              className={styles.titleThin}
-              id={isPrivacyOk ? styles.ctaButton : styles.ctaButtonDisabled}
-              onClick={() => { if (isPrivacyOk) setModalData({ isOpen: true, type: 'subscribe' }) }}
-            >
-              <span className={styles.ctaText}> Quiero unirme! </span>
+            <div id={styles.linkToBlog}> <Link to="/blog" id={styles.blogLink}> Ver más </Link> </div>
+            <div id={styles.postsWrapper}>
+              <PostList posts={posts} authors={data.authors.nodes} style="title-under" page={'home'} />
             </div>
           </div>
-        </div>
-      </section>
+
+        </section>
+
+        <section className='subscribe' id={styles.newsletter}>
+          <div id={styles.newsletterCTAWrapper}>
+            <div id={styles.newsletterCTA}>
+              <h3 className={styles.titleAccent} id={styles.newsletterCTATitle}> NEWSLETTER </h3>
+              <h2 className={styles.titleBold} id={styles.newsletterCTAAction}> Suscríbete al boletín de Oasis </h2>
+              <div className={styles.subTitle} id={styles.newsletterCTAText}> Regístrate para recibir nuestros mejores tips y ser de los primeros en tener acceso a nuestras herramientas. </div>
+              <div className={styles.subTitle} id={styles.acceptPrompt}>
+                <input type="checkbox" id={styles.privacyCheck} value={isPrivacyOk} onChange={() => setIsPrivacyOk(!isPrivacyOk)} />
+                <span id={styles.acceptText}>
+                  Acepto las <span id={styles.openModal} onClick={() => setModalData({ isOpen: true, type: 'privacyPolicy' })}> políticas de privacidad </span> de Oasis
+                </span>
+              </div>
+              <div
+                className={styles.titleThin}
+                id={isPrivacyOk ? styles.ctaButton : styles.ctaButtonDisabled}
+                onClick={() => { if (isPrivacyOk) setModalData({ isOpen: true, type: 'subscribe' }) }}
+              >
+                <span className={styles.ctaText}> Quiero unirme! </span>
+              </div>
+            </div>
+          </div>
+        </section>
 
 
-    </Layout >
+      </Layout >
       <Modal isOpen={modalData.isOpen} type={modalData.type} setModalData={setModalData} />
     </>
   );
