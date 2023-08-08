@@ -235,7 +235,7 @@ const SeguroEspecial = () => {
     let emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
     const handleOnChangeData = (e) => {
         e.preventDefault()
-        if (!cp || cp < 20 || !name || !lastName || !email || !number || number < 1000000 || genero === "Genero" || !date ) {
+        if (!cp || cp < 20 || !name || !lastName || !email || !number || number < 1000000 || genero === "Genero" || !date) {
             setError(true)
         } else if (!emailRegex.test(email)) {
             alert("email incorrecto")
