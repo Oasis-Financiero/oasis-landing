@@ -42,7 +42,7 @@ function Layout({ children }) {
       <Header />
       {children}
       <CookieConsent
-        debug={true}
+        
         onAccept={onAccept}
         enableDeclineButton
         declineButtonText="Rechazar"
