@@ -9,9 +9,9 @@ import aprende from '../images/about/3.svg'
 const Nosotros = () => {
     return (
         <Layout page='about'>
-            <div className="animate-fade-down flex flex-col justify-center">
-                <div className="flex flex-col-reverse md:flex-row w-full justify-center p-8 md:p-16">
-                    <div className="md:w-[50%] md:px-[150px] md:py-[70px] text-center md:text-start">
+            <div className="animate-fade-down flex flex-col items-center justify-center w-full gap-2">
+                <div className="flex flex-col-reverse lg:flex-row lg:w-[70%] items-center justify-around p-8 md:p-16">
+                    <div className=" text-center lg:text-start">
                         <h1 className="md:text-[53px] text-[28px]" style={{ fontFamily: 'Manrope', color: colors.brand1 }}>Transforma tu vida financiera</h1>
                         <h3 className="pt-2 text-[20px]" style={{ color: colors.brand2, fontFamily: 'Poppins' }}>
                             Oasis es el primer sitio en México que te acompaña paso a paso en el viaje para mejorar tus finanzas.
@@ -21,20 +21,20 @@ const Nosotros = () => {
                         </h3>
                     </div>
 
-                    <div className="flex justify-center">
-                        <img src={saly} alt="saly" className="w-[350px]" />
+                    <div className="flex justify-center w-full ">
+                        <img src={saly} alt="saly" className="w-[300px] lg:w-[500px] flex justify-end "/>
                     </div>
                 </div>
 
-                <div className="flex flex-col justify-center items-center gap-6 text-center px-8 md:py-16">
+                <div className="flex flex-col w-[60%] justify-center items-center gap-6 text-center px-8 md:py-16">
                     <h3 style={{ color: colors.resalte1, fontFamily: 'Manrope' }}
                         className="text-[28px]"
                     >¿Por qué Oasis?</h3>
                     <h1 style={{ color: colors.brand1, fontFamily: 'Manrope' }}
-                        className="md:text-[53px] md:w-[1000px]"
+                        className="lg:text-[53px]"
                     >Te ayudaremos a tomar mejores decisiones financieras</h1>
                     <h2 style={{ color: colors.brand1, fontFamily: 'Poppins' }}
-                        className="md:text-[20px] md:w-[1000px] font-light">Creemos en el cambio de paradigmas dentro del ecosistema
+                        className="lg:text-[20px] font-light">Creemos en el cambio de paradigmas dentro del ecosistema
                         financiero, innovando y promoviendo la inclusión
                         financiera en México.</h2>
                 </div>
