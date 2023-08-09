@@ -54,8 +54,8 @@ const CardsInsuranceTypes = () => {
         }
     ].map((item, index) => {
         return (
-            <Link to={`/productos/seguros/auto/seguro-especial?type=${item.name}`}>
-            <div key={index} className="w-[170px] md:w-[234px] text-[14px] md:text-[18px] text-center relative md:hover:animate-jump animate-once">
+            <Link key={index} to={`/productos/seguros/auto/seguro-especial?type=${item.name}`}>
+            <div  className="w-[170px] md:w-[234px] text-[14px] md:text-[18px] text-center relative md:hover:animate-jump animate-once">
                 <img
                     src={item.image}
                     alt="image"
