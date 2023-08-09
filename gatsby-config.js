@@ -40,7 +40,7 @@ module.exports = {
           hjsv: '6',
           cookieName: 'gatsby-gdpr-hotjar', 
         },
-        environments: ['development']
+        environments: ['production']
       },
       
     },

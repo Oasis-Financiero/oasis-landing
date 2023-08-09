@@ -11,16 +11,15 @@ import { initializeAndTrack } from "gatsby-plugin-gdpr-cookies";
 function Layout({ children }) {
   let location
   if (typeof window !== "undefined") {
-    location = window.location
+    location = useLocation()
   }
 
   const onAccept = () => {
-
     initializeAndTrack(location)
   }
 
 
-  console.log(location, window.location);
+  console.log(location);
 
   /* let colWidthStyle;
 
