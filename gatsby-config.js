@@ -16,14 +16,14 @@ module.exports = {
     `gatsby-plugin-eslint`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
-    // {
-    //   resolve: 'gatsby-plugin-gtag',
-    //   options: {
-    //     trackingId: 'G-F9ZWN5BH73',
-    //     head: true,
-    //     anonymize: true,
-    //   }  
-    // },
+    {
+      resolve: 'gatsby-plugin-gtag',
+      options: {
+        trackingId: 'G-F9ZWN5BH73',
+        head: true,
+        anonymize: true,
+      }  
+    },
     {
       resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
@@ -44,15 +44,15 @@ module.exports = {
       },
       
     },
-    // {
-    //   resolve: `gatsby-plugin-hotjar`,
-    //   options: {
-    //     includeInDevelopment: false,
-    //     id: 2488279,
-    //     sv: 6,
-    //   },
+    {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        includeInDevelopment: false,
+        id: 2488279,
+        sv: 6,
+      },
       
-    // },
+    },
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
