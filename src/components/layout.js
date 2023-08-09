@@ -9,18 +9,18 @@ import { initializeAndTrack } from "gatsby-plugin-gdpr-cookies";
 
 
 function Layout({ children }) {
-
+  let location
+  if (typeof window !== "undefined") {
+    location = window.location
+  }
 
   const onAccept = () => {
-    let location
-    if (typeof window !== "undefined") {
-      location = useLocation()
-    }
+
     initializeAndTrack(location)
   }
 
 
-  console.log(location);
+  console.log(location, window.location);
 
   /* let colWidthStyle;
 
@@ -43,13 +43,14 @@ function Layout({ children }) {
       <Header />
       {children}
       <CookieConsent
+        debug={true}
         onAccept={onAccept}
         enableDeclineButton
         declineButtonText="Rechazar"
         location="bottom"
         declineButtonStyle={{ backgroundColor: colors.resalte2, fontSize: '13px', fontFamily: 'inter', borderRadius: '8px', color: 'white' }}
         buttonText="Aceptar" // Texto del botón de aceptar
-        cookieName="gatsby-gdpr" // Nombre de la cookie para almacenar el consentimiento
+        cookieName="gatsby-gdpr1" // Nombre de la cookie para almacenar el consentimiento
         style={{ background: colors.logo, color: 'white', fontFamily: 'Poppins', display: 'flex', justifyContent: 'center', alignItems: 'center' }} // Estilos del banner (opcional)
         buttonStyle={{ backgroundColor: colors.resalte2, fontSize: '13px', fontFamily: 'inter', borderRadius: '8px', color: 'white' }} // Estilos del botón (opcional)
       >
