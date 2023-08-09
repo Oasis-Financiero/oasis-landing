@@ -11,6 +11,7 @@ import fideabanner from '../../../images/products/banners/fidea-banner.jpg'
 
 
 const InformativeCard = ({ montoParam, ingresosParam, plazoParam, type, imageBanner }) => {
+    // Add changes for error test
     const pagos = ["Pagos Mensuales", "Pagos Quincenales"]
     const [paySelected, setPaySelected] = useState("Pagos Mensuales")
     const [accordion, setAccordion] = useState(true)
