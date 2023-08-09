@@ -12,7 +12,7 @@ import AppSteps from "../../../components/styled/Steps/Steps";
 import InformativeCard from "../../../components/styled/InformativeCard/InformativeCard";
 import kreditiweb from '../../../images/products/logo_kreditiweb.png'
 import mrfinan from '../../../images/products/logo_mrfinan.png'
-import fidea from '../../../images/products/banners/fidlogo.png'
+import fidea from '../../../images/products/banners/Fidea-logo.png'
 import escampa from '../../../images/products/escampa.png'
 import krediban1 from '../../../images/products/banners/20.png'
 import fideaBanner2 from '../../../images/products/banners/fidea-b1.jpg'
