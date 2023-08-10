@@ -138,16 +138,15 @@ const SeguroEspecial = () => {
     }
 
 
-    const screenOne = <div className="flex flex-col justify-center items-center md:w-[961px] rounded-[25px] bg-white relative"
+    const screenOne = <div className="flex flex-col justify-center items-center w-full lg:w-[961px] rounded-[25px] bg-white relative"
         style={{ border: `1px solid ${colors.gris}` }}
     >
         <h2 className="md:p-10 p-6 text-center" style={{ color: colors.brand1, font: 'normal normal 600 18px Poppins' }}>Tipo de seguro y datos de tu vehiculo</h2>
-        <div className="border border-black md:w-[842px] w-[150px] mb-8" style={{ borderColor: colors.gris }}></div>
+        <div className="border border-black lg:w-[842px] w-[150px] mb-8" style={{ borderColor: colors.gris }}></div>
 
-        <div className="flex flex-col md:flex-row justify-center gap-5">
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-5">
             <div className="flex flex-col relative">
                 <img src={image} alt={type} className="w-[234px] h-[261px] object-cover rounded-[12px]" />
-                <p className="absolute top-44 left-12 text-center text-white" style={{ font: 'normal normal medium 18px/22px Inter' }}>{title}</p>
             </div>
 
             <div className="flex flex-col md:grid md:grid-cols-2 w-full gap-2">
@@ -264,7 +263,7 @@ const SeguroEspecial = () => {
     }
 
 
-    const screenTwo = <div className="flex flex-col justify-center items-center md:p-6 md:w-[961px] rounded-[25px] bg-white relative"
+    const screenTwo = <div className="flex flex-col justify-center items-center w-full md:p-6 lg:w-[961px] rounded-[25px] bg-white relative"
         style={{ border: `1px solid ${colors.gris}` }}
     >
         <div className="absolute left-5 top-4 md:top-10 md:left-10">
@@ -274,12 +273,11 @@ const SeguroEspecial = () => {
             />
         </div>
         <h2 className="p-5 text-center">Datos del Solicitante</h2>
-        <div className="border border-black md:w-[842px] w-[150px] m-8" style={{ borderColor: colors.gris }}></div>
+        <div className="border border-black lg:w-[842px] w-[150px] m-8" style={{ borderColor: colors.gris }}></div>
 
         <div className="flex flex-col md:flex-row gap-11">
             <div className="flex flex-col relative justify-center items-center">
                 <img src={image} alt={type} className="w-[234px] h-[111px] object-cover rounded-[12px]" />
-                <p className="absolute text-center text-white flex top-7" style={{ font: 'normal normal medium 18px/22px Inter' }}>{title}</p>
                 <div className="flex flex-col justify-start p-3 text-center" style={{ fontFamily: 'Inter' }}>
                     <p>{carData?.carType}</p>
                     <p>{carData?.selected}</p>
@@ -292,7 +290,7 @@ const SeguroEspecial = () => {
 
             {
                 selectedOptionsPerson === "Soy Persona Moral" ?
-                    <div className="flex flex-col p-2 gap-2 md:grid md:grid-cols-2 md:gap-1 md:w-[550px] md:p-0 ">
+                    <div className="flex flex-col p-2 gap-2 lg:grid lg:grid-cols-2 lg:gap-1 lg:w-[550px] md:p-0 ">
 
                         <AppSelect
                             items={person}
@@ -455,7 +453,7 @@ const SeguroEspecial = () => {
         setFormPage(formPage + 1)
     }
 
-    const screenThree = <div className="flex flex-col justify-center items-center py-4 md:p-6 md:w-[961px] rounded-[25px] bg-white relative"
+    const screenThree = <div className="flex flex-col justify-center items-center py-4 md:p-6 w-full lg:w-[961px] rounded-[25px] bg-white relative"
         style={{ border: `1px solid ${colors.gris}` }}
     >
         <div className="absolute top-10 left-10">
@@ -465,7 +463,7 @@ const SeguroEspecial = () => {
             />
         </div>
         <h2 className="p-5 text-center">Confirmar Solicitud</h2>
-        <div className="border border-black md:w-[842px] w-[150px] m-8" style={{ borderColor: colors.gris }}></div>
+        <div className="border border-black lg:w-[842px] w-[550px] m-8" style={{ borderColor: colors.gris }}></div>
 
         <div className="flex flex-col md:flex-row gap-8">
             <div className="flex flex-col relative justify-center items-center w-full">
@@ -539,11 +537,15 @@ const SeguroEspecial = () => {
                 >
                     Cotiza un <span style={{ color: colors.resalte1 }}>seguro especial</span>
                 </h1>
-                <AppStepper
-                    steps={steps}
-                    stepsActive={stepsActive}
-                    isCompleted={isCompleted}
-                />
+
+                <div className="flex flex-col justify-center items-center w-full">
+                    <AppStepper
+                        steps={steps}
+                        stepsActive={stepsActive}
+                        isCompleted={isCompleted}
+                    />
+                </div>
+
                 {screenToShow}
             </div>
             <div className="py-12">

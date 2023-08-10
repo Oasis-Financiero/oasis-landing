@@ -7,16 +7,15 @@ import Typography from '@mui/material/Typography';
 import colors from '../../../constants/colors';
 
 
-const AppAccordion = ({ question, answer, elevation, background, line, color, square, radius, w, h}) => {
+const AppAccordion = ({ question, answer, elevation, background, color, square, radius, w, h}) => {
 
 
     return (
-        <div className='border-b-4 p-2'>
+        <div className='border-b-4 p-2 w-full'>
             <Accordion
                 elevation={elevation ? elevation : 0}
                 square={square ? square : true}
                 sx={{
-                    borderBottom: `${line ? line : '1px solid black'}`,
                     backgroundColor: `${background ? background : 'transparent'}`,
                     borderRadius: `${radius ? radius : 0}`,
                 }}
