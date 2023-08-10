@@ -138,7 +138,7 @@ const SeguroEspecial = () => {
     }
 
 
-    const screenOne = <div className="flex flex-col justify-center items-center w-full lg:w-[961px] rounded-[25px] bg-white relative"
+    const screenOne = <div className="flex flex-col justify-center items-center w-full lg:w-[961px] rounded-[25px] bg-white relative animate-fade-down animate-once"
         style={{ border: `1px solid ${colors.gris}` }}
     >
         <h2 className="md:p-10 p-6 text-center" style={{ color: colors.brand1, font: 'normal normal 600 18px Poppins' }}>Tipo de seguro y datos de tu vehiculo</h2>
@@ -234,7 +234,7 @@ const SeguroEspecial = () => {
     let emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
     const handleOnChangeData = (e) => {
         e.preventDefault()
-        if (!cp || cp < 20 || !name || !lastName || !email || !number || number < 1000000 || genero === "Genero" || !date) {
+        if (!cp || cp < 20 || !name || !email || !number || number < 1000000 || genero === "Genero" || !date) {
             setError(true)
         } else if (!emailRegex.test(email)) {
             alert("email incorrecto")
@@ -263,7 +263,7 @@ const SeguroEspecial = () => {
     }
 
 
-    const screenTwo = <div className="flex flex-col justify-center items-center w-full md:p-6 lg:w-[961px] rounded-[25px] bg-white relative"
+    const screenTwo = <div className="flex flex-col justify-center items-center w-full md:p-6 lg:w-[961px] rounded-[25px] bg-white relative animate-fade-down"
         style={{ border: `1px solid ${colors.gris}` }}
     >
         <div className="absolute left-5 top-4 md:top-10 md:left-10">
@@ -453,7 +453,7 @@ const SeguroEspecial = () => {
         setFormPage(formPage + 1)
     }
 
-    const screenThree = <div className="flex flex-col justify-center items-center py-4 md:p-6 w-full lg:w-[961px] rounded-[25px] bg-white relative"
+    const screenThree = <div className="flex flex-col justify-center items-center py-4 md:p-6 w-full lg:w-[961px] rounded-[25px] bg-white relative animate-fade-down animate-once"
         style={{ border: `1px solid ${colors.gris}` }}
     >
         <div className="absolute top-10 left-10">
@@ -502,7 +502,7 @@ const SeguroEspecial = () => {
         </div>
     </div>
 
-    const screenFour = <div className="flex flex-col justify-center items-center py-4 md:p-6 md:w-[961px] rounded-[25px] bg-white"
+    const screenFour = <div className="flex flex-col justify-center items-center py-4 md:p-6 w-full lg:w-[961px] rounded-[25px] bg-white animate-fade-down animate-once"
         style={{ border: `1px solid ${colors.gris}` }}
     >
         <div className="flex flex-col justify-center items-center gap-10 md:p-10 p-6">
