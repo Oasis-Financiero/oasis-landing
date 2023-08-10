@@ -60,7 +60,10 @@ const PrestamosPersonales = () => {
                     <AppSteps />
                 </div>
 
-                {hiddeTable ? <div id="secondaryCalculator" ref={secondaryCalculatorRef} className="flex justify-center pt-16 animate-fade-down delay-75"></div> : <div id="secondaryCalculator" ref={secondaryCalculatorRef} className="flex justify-center pt-16 animate-fade-down delay-75">
+                {hiddeTable ? <div id="secondaryCalculator" ref={secondaryCalculatorRef} 
+                className="flex justify-center pt-16 animate-fade-down delay-75"></div> 
+                : 
+                <div id="secondaryCalculator" ref={secondaryCalculatorRef} className="flex justify-center pt-16 animate-fade-down delay-75">
                     <AppSecondaryCalculator
                         loanAmount={loanAmount}
                         setLoanAmount={setLoanAmount}
