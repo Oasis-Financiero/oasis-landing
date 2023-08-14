@@ -1,5 +1,7 @@
 # Project dependencies
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+.env.development
+.env.production
 .cache
 node_modules
 yarn-error.log

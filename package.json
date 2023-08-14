@@ -11,6 +11,7 @@
     "@mui/material": "^5.13.5",
     "axios": "^1.4.0",
     "core-js": "^3.22.8",
+    "dotenv": "^16.3.1",
     "firebase": "^10.1.0",
     "gatsby": "4.14.0",
     "gatsby-plugin-google-analytics": "^4.16.0",

@@ -7,7 +7,7 @@ import { SlArrowDown } from 'react-icons/sl'
 import { alpha } from '@mui/material/styles';
 import colors from "../../../constants/colors";
 
-const AppSelect = ({ title, items, width, selected, setSelected, name }) => {
+const AppSelect = ({ title, items, width, selected, setSelected, name, error, errorLabel }) => {
 
     const handleChange = (e) => {
         setSelected(e.target.value);
@@ -19,61 +19,76 @@ const AppSelect = ({ title, items, width, selected, setSelected, name }) => {
 
 
     return (
-            <FormControl
+        <FormControl
+            sx={{
+                minWidth: "min-content",
+                maxWidth: width || "100%",
+                width: '100%',
+                margin: "0px",
+            }}
+            size="small"
+        >
+            <Select
+                IconComponent={SlArrowDown}
                 sx={{
-                    minWidth: "min-content",
-                    maxWidth: width || "100%",
-                    width: '100%',
-                    margin: "0px",
-                }}
-                size="small"
-            >
-                <Select
-                    IconComponent={SlArrowDown}
-                    sx={{
-                        width: "100%",
-                        height: "45px",
-                        fontFamily: "Inter",
-                        fontSize: "14px",
-                        borderRadius: "6px",
+                    width: "100%",
+                    height: "45px",
+                    fontFamily: "Inter",
+                    fontSize: "14px",
+                    borderRadius: "6px",
+                    borderWidth: "0px",
+                    outline: "0px",
+                    border: `2px solid ${colors.resalte1}`,
+                    '&.Mui-focused': {
+                        boxShadow: `${alpha(colors.resalte1, 0.25)} 0 0 0 0.2rem`,
+                    },
+                    '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
                         borderWidth: "0px",
-                        outline: "0px",
-                        border: `2px solid ${colors.resalte1}`,
-                        '&.Mui-focused': {
-                            boxShadow: `${alpha(colors.resalte1, 0.25)} 0 0 0 0.2rem`,
-                        },
-                        '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
-                            borderWidth: "0px",
-                            borderRadius: "6px"
-                        },
-                        "& .MuiOutlinedInput-notchedOutline": {
-                            borderWidth: "0px"
-                        },
-                        "&:hover .MuiOutlinedInput-notchedOutline": {
-                            borderWidth: "0px"
-                        },
-                        '& .MuiSelect-icon': {
-                            fill: colors.resalte1,
-                            marginRight: "5px"
-                        },
-                        '& .MuiSelect-outlined': {
-                            backgroundColor: colors.fdoGris
-                        },
-                        '& .MuiInputBase-input': {
-                            borderRadius: "6px"
-                        }
+                        borderRadius: "6px"
+                    },
+                    "& .MuiOutlinedInput-notchedOutline": {
+                        borderWidth: "0px"
+                    },
+                    "&:hover .MuiOutlinedInput-notchedOutline": {
+                        borderWidth: "0px"
+                    },
+                    '& .MuiSelect-icon': {
+                        fill: colors.resalte1,
+                        marginRight: "5px"
+                    },
+                    '& .MuiSelect-outlined': {
+                        backgroundColor: colors.fdoGris
+                    },
+                    '& .MuiInputBase-input': {
+                        borderRadius: "6px"
+                    }
+                }}
+                error={error}
+                value={selected}
+                onChange={handleChange}
+                name={name}
+            // variant="outlined"
+            >
+
+                <MenuItem value={title}>
+                    <em>{title}</em>
+                </MenuItem>
+                {itemElements}
+            </Select>
+            {
+                error &&
+                <Box
+                    sx={{
+                        padding: "4px 6px",
+                        fontSize: "12px",
+                        fontFamily: "Inter",
+                        color: colors.resalte2
                     }}
-                    value={selected}
-                    onChange={handleChange}
-                    name={name}
-                // variant="outlined"
                 >
-                    <MenuItem value={title}>
-                        <em>{title}</em>
-                    </MenuItem>
-                    {itemElements}
-                </Select>
-            </FormControl>
+                    {errorLabel}
+                </Box>
+            }
+        </FormControl>
     )
 }
 

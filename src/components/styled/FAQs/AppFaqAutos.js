@@ -3,7 +3,7 @@ import AppAccordion from '../Accordion/Accordion';
 import answers from './answersAutos';
 
 const AppFaqAutos = () => {
-
+ 
 
     return (
         <div className='md:flex md:justify-center md:gap-16'>
