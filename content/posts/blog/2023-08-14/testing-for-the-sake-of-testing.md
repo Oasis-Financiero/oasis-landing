@@ -9,7 +9,6 @@ tags:
   - fruta
 ---
 S﻿omething thin
-
-[![Spun](668d320977db8c81503385bee5a74862.jpg)](www.facebook.com)
+[![Spun](668d320977db8c81503385bee5a74862.jpg)](h﻿ttps://www.facebook.com)
 
 ![Spun](668d320977db8c81503385bee5a74862.jpg)
