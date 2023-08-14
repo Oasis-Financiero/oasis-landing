@@ -29,8 +29,10 @@ const LendingProduct = ({ data }) => {
     montoParam = urlParams.get('monto');
     ingresosParam = urlParams.get('ingresos');
     plazoParam = urlParams.get('plazos');
-    type = urlParams.get('type')
+    const queryStringPath = window.location.pathname
+    type = queryStringPath.slice(21)
   }
+  
   const { lendingProduct } = data;
   const { id, name } = lendingProduct;
 
