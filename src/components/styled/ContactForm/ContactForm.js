@@ -10,17 +10,7 @@ const ContactForm = () => {
     const [email, setEmail] = useState("")
     const [message, setMessage] = useState("")
 
-<<<<<<< HEAD
-    // Produccion
-    const URL = 'https://formspree.io/f/xvojzqed' 
-
-    // Test
-    // const URL = 'https://formspree.io/f/xpzgqlek'
-
-    console.log(name, email);
-=======
     const formSpreeUrl = process.env.GATSBY_FORMSPREE_URL;
->>>>>>> test-branch
 
     const handleSubmit = async (e) => {
         e.preventDefault()
