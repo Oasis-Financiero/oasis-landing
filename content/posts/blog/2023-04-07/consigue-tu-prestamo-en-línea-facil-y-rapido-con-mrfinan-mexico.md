@@ -32,7 +32,7 @@ La flexibilidad es primordial, y MrFinan lo sabe. Ofrecemos una amplia gama de o
 
 #### **Tu Camino Hacia el Préstamo Ideal**<br/><br/>
 
-Si estás cansado de los obstáculos tradicionales para adquirir préstamos y buscas una solución eficaz y veloz, MrFinan México tiene las respuestas que necesitas. No pierdas más tiempo, inicia tu solicitud de préstamo en línea hoy mismo y convierte tus proyectos financieros en realidades tangibles, sin complicaciones.
+Si estás cansado de los obstáculos tradicionales para adquirir préstamos y buscas una solución eficaz y veloz, MrFinan México tiene las respuestas que necesitas. No pierdas más tiempo, inicia tu solicitud de préstamo en línea hoy mismo y convierte tus proyectos financieros en realidades tangibles, sin complicaciones.<br/><br/>
 
 ### **Pasos para Solicitar Tu Préstamo en Línea con MrFinan México**<br/><br/>
 
