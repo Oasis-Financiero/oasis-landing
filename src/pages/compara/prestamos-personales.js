@@ -26,12 +26,12 @@ const PrestamosPersonales = () => {
 
     return (
         <Layout page='compara'>
-            <div className="flex flex-col gap-10 md:gap-0 animate-fade-down animate-once">
+            <div className="flex flex-col gap-10 md:gap-0 animate-fade-down animate-once w-full">
 
-                <div className='flex flex-col justify-center md:flex md:justify-center md:items-center'>
-                    <div className="md:flex md:flex-col md:justify-center md:items-start md:p-[100px]">
+                <div className='flex flex-col justify-center lg:flex lg:justify-center lg:items-center'>
+                    <div className="flex-col justify-center items-start md:p-[80px]">
                         <h1 id={style.title}>Préstamos personales para <span id={style.word}>surfear</span> las emergencias</h1>
-                        <div className="flex flex-col justify-center items-center p-2 md:flex md:flex-row md:gap-4">
+                        <div className="flex flex-col justify-center items-center p-2 md:flex md:flex-row md:gap-4 w-full">
                             <Calculator
                                 loanAmount={loanAmount}
                                 setLoanAmount={setLoanAmount}
@@ -46,7 +46,7 @@ const PrestamosPersonales = () => {
                                 setSelectedTypePay={setSelectedTypePay}
                                 secondaryCalculatorRef={secondaryCalculatorRef}
                             />
-                            <div className="max-md:hidden md:w-[503px] md:h-[497px] md:relative md:bottom-3">
+                            <div className="max-lg:hidden md:w-[503px] md:h-[497px] md:relative md:bottom-3 w-full">
                                 <img
                                     src={wallet}
                                     alt="wallet"
@@ -60,7 +60,10 @@ const PrestamosPersonales = () => {
                     <AppSteps />
                 </div>
 
-                {hiddeTable ? <div id="secondaryCalculator" ref={secondaryCalculatorRef} className="flex justify-center pt-16 animate-fade-down delay-75"></div> : <div id="secondaryCalculator" ref={secondaryCalculatorRef} className="flex justify-center pt-16 animate-fade-down delay-75">
+                {hiddeTable ? <div id="secondaryCalculator" ref={secondaryCalculatorRef} 
+                className="flex justify-center pt-16 animate-fade-down delay-75"></div> 
+                : 
+                <div id="secondaryCalculator" ref={secondaryCalculatorRef} className="flex justify-center pt-16 animate-fade-down delay-75">
                     <AppSecondaryCalculator
                         loanAmount={loanAmount}
                         setLoanAmount={setLoanAmount}
@@ -73,18 +76,18 @@ const PrestamosPersonales = () => {
                 </div>}
 
                 <div className="flex justify-center p-4 pt-[250px] md:pt-[150px]">
-                    <div className="flex flex-row w-[1080px] h-[427px] rounded-[25px] relative" style={{ backgroundColor: colors.fdoMdo }}>
-                        <div className="flex flex-col gap-4 md:w-[640px] p-8 md:pt-16">
+                    <div className="flex flex-row w-full lg:w-[1080px] h-[427px] rounded-[25px] relative" style={{ backgroundColor: colors.fdoMdo }}>
+                        <div className="flex flex-col gap-4 lg:w-[640px] p-8 md:pt-16 w-[540px]">
                             <h1 id={style.discover} className="text-white">Descubre y compara los mejores productos financieros en México</h1>
                             <span id={style.discoverSub} className="text-white">Ahorra tiempo, dinero y toma decisiones informadas. ¡Encuentra el producto perfecto para tus necesidades hoy mismo!</span>
-                            <div className="flex flex-col gap-4 md:flex-row md:gap-10">
+                            <div className="flex flex-col gap-4 lg:flex-row md:gap-10">
                                 <span id={style.discoverLink} className="text-white flex flex-row items-center gap-2"><IoIosArrowDroprightCircle />Prestamos personales</span>
                                 <span id={style.discoverLink} className="text-white flex flex-row items-center gap-2"><IoIosArrowDroprightCircle />Seguros de auto</span>
                             </div>
                         </div>
 
-                        <div>
-                            <img src={woman} alt="woman" className="w-[202px] flex absolute bottom-[427px] right-[55px] md:w-[444px] md:bottom-0 md:left-[620px] transition animate-fade-down " />
+                        <div className="w-[202px] flex absolute bottom-[427px] right-[55px] md:w-[333px] md:bottom-0 sm:right-0 lg:left-[650px] transition animate-fade-down ">
+                            <img src={woman} alt="woman" />
                         </div>
                     </div>
                 </div>

@@ -18,11 +18,11 @@ const SeguroAuto = ({ data }) => {
     return (
         <Layout page='seguro'>
 
-            <div className="flex flex-col-reverse md:flex-row justify-center items-center p-10">
-                <div className=" flex flex-col justify-center gap-10 mx-56 md:relative left-10">
-                    <h1 className="md:w-[533px] text-[28px] md:text-[40px]"
+            <div className="flex flex-col-reverse md:flex-row justify-center items-center p-12 w-full gap-6">
+                <div className=" flex flex-col justify-center gap-10 lg:mx-56 md:relative left-10 w-full">
+                    <h1 className="lg:w-[533px] text-[28px] md:text-[40px] w-full"
                         style={{ fontFamily: 'Poppins', color: colors.brand1 }}>Cotiza tu seguro de auto y <span style={{ color: colors.resalte1 }}>elige el que te convenga</span> en un par de minutos</h1>
-                    <h3 className="md:w-[446px] text-[16px]"
+                    <h3 className="lg:w-[446px] text-[16px] w-full"
                         style={{ fontFamily: 'Poppins', color: colors.brand1 }}>
                         Compara 20 aseguradoras en segundos, contrata en línea <span className="font-bold">sin complicaciones</span> y paga a 3, 6 y 12 meses sin intereses.</h3>
                     <Link to="https://www.guros.com/?PROMOCODE=OASISFINANCIERO&utm_source=oasisfinanciero_landing&utm_medium=boton_landing&utm_campaign=guros_agosto2023" target="_blank"><AppButton
@@ -30,7 +30,7 @@ const SeguroAuto = ({ data }) => {
                     /></Link>
                 </div>
 
-                <div className="md:relative right-40">
+                <div className="w-full">
                     <img src={auto} alt="auto" />
                 </div>
             </div>
@@ -44,19 +44,20 @@ const SeguroAuto = ({ data }) => {
                 <InformativeText />
             </div>
 
-            <div className="flex flex-col justify-center items-center md:pt-16 md:pb-16">
+            <div className="flex flex-col justify-center items-center md:pt-16 md:pb-16 py-10">
                 <RelevantPoints />
                 <Link to="https://www.guros.com/?PROMOCODE=OASISFINANCIERO&utm_source=oasisfinanciero_landing&utm_medium=boton_landing&utm_campaign=guros_agosto2023" target="_blank"><AppButton
                     tag={"Cotizar mi seguro"}
                 /></Link>
             </div>
 
-            <div className="pt-16 md:p-16" style={{ backgroundColor: colors.fdoGris }}>
+            <div className="pt-16 md:p-16 w-full" style={{ backgroundColor: colors.fdoGris }}>
+                <h1 className="flex justify-center" style={{fontFamily: 'Poppins'}}>FAQs</h1>
                 <AppFaqAutos />
             </div>
 
-            <div className="flex flex-col justify-center items-center p-10 gap-2">
-                <h1 className="md:p-10 md:w-[40%] text-center pb-4 text-[26px] md:text-[40px]" style={{ fontFamily: 'Poppins' }}>Compara nuestros productos financieros</h1>
+            <div className="flex flex-col justify-center items-center p-10 gap-2 w-full">
+                <h1 className="lg:p-10 text-center pb-4 text-[26px] md:text-[40px]" style={{ fontFamily: 'Poppins' }}>Compara nuestros productos financieros</h1>
                 <AppCardSection
                     title="Prestamos Personales"
                     subtitle="Sin comision por apertura"
