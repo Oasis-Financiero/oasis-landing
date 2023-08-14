@@ -5,20 +5,12 @@ import colors from "../../../constants/colors";
 import AppButton from "../ConfirmButton/AppButton";
 import axios from "axios";
 
-
 const ContactForm = () => {
-
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
     const [message, setMessage] = useState("")
 
-    // Produccion
-    const URL = 'https://formspree.io/f/xvojzqed' 
-
-    // Test
-    // const URL = 'https://formspree.io/f/xpzgqlek'
-
-    console.log(name, email);
+    const formSpreeUrl = process.env.GATSBY_FORMSPREE_URL;
 
     const handleSubmit = async (e) => {
         e.preventDefault()
@@ -30,14 +22,12 @@ const ContactForm = () => {
         };
 
         try {
-
-            const response = await axios.post(`${URL}`, formData);
+            const response = await axios.post(formSpreeUrl, formData);
             console.log("Respuesta de Formspree:", response);
         } catch (error) {
             console.error("Error al enviar el formulario:", error);
         }
     };
-
 
     return (
         <div className="flex flex-col gap-10 justify-center items-center">

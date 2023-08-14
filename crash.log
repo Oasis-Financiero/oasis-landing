@@ -1,0 +1,19 @@
+PID 18456 received SIGSEGV for address: 0xd0f0cf19
+SymInit: Symbol-SearchPath: '.;C:\Users\edgar\Documents\code-local\projects\oasis-landing;C:\Program Files\nodejs;C:\Windows;C:\Windows\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 530, UserName: 'edgar'
+OS-Version: 10.0.19045 () 0x300-0x1
+C:\Users\edgar\Documents\code-local\projects\oasis-landing\node_modules\segfault-handler\src\StackWalker.cpp (941): StackWalker::ShowCallstack
+C:\Users\edgar\Documents\code-local\projects\oasis-landing\node_modules\segfault-handler\src\segfault-handler.cpp (242): segfault_handler
+00007FF9D35A8B5C (ntdll): (filename not available): RtlDeleteAce
+00007FF9D35812D6 (ntdll): (filename not available): RtlRaiseException
+00007FF9D3581207 (ntdll): (filename not available): RtlRaiseException
+00007FF9D0F0CF19 (KERNELBASE): (filename not available): RaiseException
+00007FF9A2D6CD34 (libvips-cpp): (filename not available): vips::operator>>
+00007FF9A2D480A6 (libvips-cpp): (filename not available): vips::VImage::call_option_string
+00007FF9A2D5AF43 (libvips-cpp): (filename not available): vips::VImage::pngsave_buffer
+00007FF9A4E4B96B (sharp-win32-x64): (filename not available): (function-name not available)
+00007FF9A4E3DB2E (sharp-win32-x64): (filename not available): (function-name not available)
+00007FF6A6A86FFE (node): (filename not available): uv_queue_work
+00007FF6A6A7324D (node): (filename not available): uv_poll_stop
+00007FF6A7884D60 (node): (filename not available): v8::internal::compiler::RepresentationChanger::Uint32OverflowOperatorFor
+00007FF9D1B97614 (KERNEL32): (filename not available): BaseThreadInitThunk
+00007FF9D35826B1 (ntdll): (filename not available): RtlUserThreadStart
