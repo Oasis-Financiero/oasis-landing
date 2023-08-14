@@ -47,7 +47,7 @@ Una vez que completes el formulario, recibirás una respuesta en minutos, inform
 
 No dejes pasar esta oportunidad. Solicita tu préstamo en línea con MrFinan México hoy mismo y asegura el financiamiento que necesitas de manera rápida y sencilla.<br/><br/>
 
-## **[Haz Clic Aquí para Iniciar tu Solicitud de Préstamo con MrFinan México Ahora Mismo.](https://bit.ly/3qBTHJc)**
+## **[Haz Clic Aquí para Iniciar tu Solicitud de Préstamo con MrFinan México Ahora Mismo.](https://bit.ly/3qBTHJc)**<br/><br/>
 
 
 
@@ -57,4 +57,8 @@ No dejes pasar esta oportunidad. Solicita tu préstamo en línea con MrFinan Mé
 
 
 
-<!--EndFragment-->
+
+
+
+
+![Banner Mr Finan](bannermf-1-.png "Mr Finan tu préstamos a la medida")
