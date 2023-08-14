@@ -7,15 +7,15 @@ import products from "../ProductTable/CardProduct/products";
 
 const AppSecondaryCalculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTerm, incomeAmount, setIncomeAmount, selectedTypePay }) => {
     return (
-        <section className="flex flex-col justify-center items-center gap-3 overflow-x-hidden">
-            <section className="md:w-[1080px] md:h-[160px] m-2 gap-4 md:gap-0 p-4 md:p-0 rounded-[25px] flex flex-col md:flex-row md:justify-around md:items-center" style={{ border: `2px solid ${colors.resalte1}` }}>
+        <section className="flex flex-col justify-center items-center gap-3">
+            <section className="md:w-[550px] lg:w-[1080px] lg:h-[160px] gap-4 md:gap-0 rounded-[25px] flex flex-col lg:flex-row md:justify-around md:items-center p-12" style={{ border: `2px solid ${colors.resalte1}` }}>
                 <div className="flex flex-col justify-center items-center gap-2">
-                    <h1 className="text-center" style={{ color: colors.resalte1 }} id={style.title}>Compara y elige <br /> <span style={{ color: 'black' }}>tu préstamo personal</span></h1>
-                    <span className="text-center" id={style.subtitle} style={{ color: colors.logo }}>{products.length} opciones disponibles</span>
+                    <h1 className="text-center text-[26px] md:text-[18px] lg:text-[26px]" style={{ color: colors.resalte1 }}>Compara y elige <br /> <span style={{ color: 'black' }}>tu préstamo personal</span></h1>
+                    <span className="text-center text-[13px] lg:text-[20px]"  style={{ color: colors.logo }}>{products.length} opciones disponibles</span>
                 </div>
 
                 <div className="flex flex-col items-center">
-                    <div className="w-[207px]">
+                    <div className="w-[207px] sm:w-[150px] md:w-[207px]">
                         <AppSlider
                             type="Préstamo"
                             coin={true}
@@ -57,7 +57,7 @@ const AppSecondaryCalculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTe
 
             </section >
 
-            <section className="flex overflow-x-scroll w-screen md:w-full md:overflow-hidden">
+            <section className="flex overflow-x-scroll w-screen lg:w-full lg:overflow-hidden">
 
                 <ProductTable
                     loanAmount={loanAmount}

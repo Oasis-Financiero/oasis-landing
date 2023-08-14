@@ -53,7 +53,7 @@ export const AppStepper = ({ steps, isCompleted, stepsActive }) => {
     
 
     return (
-        <div className="md:w-[60%]">
+        <div className="w-full">
             <Stepper activeStep={stepsActive} alternativeLabel>
                 {steps.map((label) => (
                     <Step key={label} completed={isCompleted}
