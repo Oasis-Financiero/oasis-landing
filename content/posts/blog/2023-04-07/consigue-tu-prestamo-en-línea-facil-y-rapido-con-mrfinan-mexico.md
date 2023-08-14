@@ -20,6 +20,8 @@ MrFinan México se destaca como una prestigiosa entidad de préstamos en línea,
 
 La ventaja distintiva de MrFinan radica en su capacidad para analizar tu perfil financiero con tecnología avanzada, lo que permite ofrecerte las opciones de préstamo más adecuadas para tus circunstancias. Esto garantiza que el préstamo que selecciones sea óptimo en términos de tus necesidades y capacidad financiera.<br/><br/>
 
+[![banner Mr Finan](bannermf-2-.png "Préstamos que se adaptan a tus necesidades")](https://bit.ly/3qBTHJc) <br/><br/>
+
 #### **24/7 Disponible para Ti**<br/><br/>
 
 MrFinan México está disponible en línea las 24 horas, los 7 días de la semana. Olvídate de las tediosas filas bancarias y las prolongadas esperas para obtener una respuesta. Con MrFinan, puedes solicitar tu préstamo desde cualquier rincón de México, en el momento que mejor te convenga, todo de manera expedita.<br/><br/>
@@ -49,16 +51,4 @@ No dejes pasar esta oportunidad. Solicita tu préstamo en línea con MrFinan Mé
 
 ## **[Haz Clic Aquí para Iniciar tu Solicitud de Préstamo.](https://bit.ly/3qBTHJc)**<br/><br/>
 
-
-
-
-
-
-
-
-
-
-
-
-
-[![Banner Mr Finan](bannermf-1-.png "Mr Finan tu préstamos a la medida")](https://bit.ly/3qBTHJc)
+[![Banner Mr Finan](bannermf-1-.png)](https://bit.ly/3qBTHJc)
