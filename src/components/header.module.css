@@ -39,7 +39,7 @@
 }
 
 .header {
-    z-index: 999;
+    z-index: 30;
     position: sticky;
     top: 0;
     background-color: #ffffff

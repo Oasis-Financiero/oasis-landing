@@ -200,7 +200,7 @@ input:focus {
 #characterSvg {
   width: 100%;
   max-width: 500px;
-  z-index: 30;
+  z-index: 8;
   margin-right: 30px;
 }
 
