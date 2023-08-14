@@ -25,7 +25,7 @@ const SeguroAuto = ({ data }) => {
                     <h3 className="md:w-[446px] text-[16px]"
                         style={{ fontFamily: 'Poppins', color: colors.brand1 }}>
                         Compara 20 aseguradoras en segundos, contrata en línea <span className="font-bold">sin complicaciones</span> y paga a 3, 6 y 12 meses sin intereses.</h3>
-                    <Link to="https://www.guros.com/?PROMOCODE=OASISFINANCIERO" target="_blank"><AppButton
+                    <Link to="https://www.guros.com/?PROMOCODE=OASISFINANCIERO&utm_source=oasisfinanciero_landing&utm_medium=boton_landing&utm_campaign=guros_agosto2023" target="_blank"><AppButton
                         tag="Cotizar"
                     /></Link>
                 </div>
@@ -46,7 +46,7 @@ const SeguroAuto = ({ data }) => {
 
             <div className="flex flex-col justify-center items-center md:pt-16 md:pb-16">
                 <RelevantPoints />
-                <Link to="https://www.guros.com/?PROMOCODE=OASISFINANCIERO" target="_blank"><AppButton
+                <Link to="https://www.guros.com/?PROMOCODE=OASISFINANCIERO&utm_source=oasisfinanciero_landing&utm_medium=boton_landing&utm_campaign=guros_agosto2023" target="_blank"><AppButton
                     tag={"Cotizar mi seguro"}
                 /></Link>
             </div>
