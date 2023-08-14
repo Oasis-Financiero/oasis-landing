@@ -11,19 +11,27 @@ import fideabanner from '../../../images/products/banners/fidea-banner.jpg'
 
 
 const InformativeCard = ({ montoParam, ingresosParam, plazoParam, type, imageBanner }) => {
+
+    let typeProduct;
+    if (typeof window !== "undefined") {
+        const queryString = window.location.pathname
+        typeProduct = queryString.slice(21)
+    }
+
     const pagos = ["Pagos Mensuales", "Pagos Quincenales"]
     const [paySelected, setPaySelected] = useState("Pagos Mensuales")
     const [accordion, setAccordion] = useState(true)
     const [amount, setAmount] = useState(montoParam ? +montoParam : 5000)
     const [income, setIncome] = useState(ingresosParam ? +ingresosParam : 10000)
     const [term, setTerm] = useState(plazoParam ? +plazoParam : 12)
+    const [prodName, setProdName] = useState(type ? type : typeProduct)
 
     const onHiddeResponsive = () => {
         setAccordion(!accordion)
     }
 
     let monthPay, fortnightlyPay;
-    const product = products.filter(prod => prod.producto.toLowerCase() === type)
+    const product = products.filter(prod => prod.producto.toLowerCase() === prodName)
 
     const totalPayWithInterest = amount + (amount * (product[0]?.tasa.anual) / 100)
     fortnightlyPay = (totalPayWithInterest / term) / 2
@@ -87,6 +95,7 @@ const InformativeCard = ({ montoParam, ingresosParam, plazoParam, type, imageBan
                             size='responsive'
                             limit={100000}
                             step={1000}
+                            min={1000}
                         />
                     </div>
 
@@ -99,6 +108,7 @@ const InformativeCard = ({ montoParam, ingresosParam, plazoParam, type, imageBan
                             size='responsive'
                             limit={100000}
                             step={1000}
+                            min={1000}
                         />
                     </div>
 
@@ -110,6 +120,7 @@ const InformativeCard = ({ montoParam, ingresosParam, plazoParam, type, imageBan
                             onValueChange={newValue => setTerm(newValue)}
                             size='responsive'
                             limit={18}
+                            min={1}
                         />
                     </div>
 

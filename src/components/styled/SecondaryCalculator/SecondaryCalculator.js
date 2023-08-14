@@ -24,6 +24,7 @@ const AppSecondaryCalculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTe
                             onValueChange={setLoanAmount}
                             limit={100000}
                             step={1000}
+                            min={1000}
                         />
                     </div>
                 </div>
@@ -38,6 +39,7 @@ const AppSecondaryCalculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTe
                             onValueChange={setIncomeAmount}
                             limit={100000}
                             step={1000}
+                            min={1000}
                         /></div>
                 </div>
 
