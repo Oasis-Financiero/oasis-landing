@@ -35,7 +35,7 @@ const CookieConsentBanner = () => {
 
     return (
 
-        showBanner ? <div className="fixed bottom-0 w-full m-0 lg:m-6 lg:w-[477px] right-0 z-50 flex flex-col lg:rounded-[25px] rounded-none"
+         <div className={`fixed bottom-0 w-full m-0 lg:m-6 lg:w-[477px] z-50 flex flex-col lg:rounded-[25px] rounded-none ${showBanner ? 'right-0 animate-fade-up transition-all' : 'right-[-1000px] animate-ease-in transition-all animate-fade-up'}`}
             style={{
                 backgroundColor: 'white',
                 border: `1px solid ${colors.brand1}`
@@ -59,10 +59,6 @@ const CookieConsentBanner = () => {
             </div>
         </div>
 
-
-            :
-
-            null
     )
 }
 
