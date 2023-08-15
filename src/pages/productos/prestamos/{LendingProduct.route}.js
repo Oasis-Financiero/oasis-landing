@@ -89,9 +89,9 @@ const LendingProduct = ({ data }) => {
 
   return (
     <Layout page='product'>
-      <div className="flex flex-col gap-16 md:gap-16 animate-fade-down animate-once animate-ease-in delay-0">
+      <div className="flex flex-col gap-16 md:gap-16 animate-fade-down animate-once animate-ease-in delay-0 w-full">
 
-        <div className="flex flex-col items-center justify-center gap-8">
+        <div className="flex flex-col items-center justify-center gap-8 w-full">
           <img src={getImage(name)} alt='logo' className="p-10 pb-0" />
           <div className="flex justify-center items-center w-full p-3">
             <InformativeCard montoParam={montoParam} ingresosParam={ingresosParam} plazoParam={plazoParam} type={type} imageBanner={bannerCard} />
@@ -105,7 +105,7 @@ const LendingProduct = ({ data }) => {
         <div className="flex flex-col justify-center items-center">
           {banner}
         </div>
-        <div id={style.faqc} className="md:p-10 flex flex-col justify-center items-center">\
+        <div id={style.faqc} className="md:p-10 justify-center items-center">\
           <h1 className="flex justify-center" id={style.faq}>FAQs</h1>
           {questions}
         </div>
