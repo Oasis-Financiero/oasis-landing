@@ -20,20 +20,55 @@ module.exports = {
     `gatsby-plugin-eslint`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
+    // {
+    //   resolve: 'gatsby-plugin-gtag',
+    //   options: {
+    //     trackingId: 'G-F9ZWN5BH73',
+    //     head: true,
+    //     anonymize: true,
+    //   }
+    // },
+    // {
+    //   resolve: `gatsby-plugin-hotjar`,
+    //   options: {
+    //     includeInDevelopment: false,
+    //     id: 2488279,
+    //     sv: 6,
+    //   },
+    // },
     {
-      resolve: 'gatsby-plugin-gtag',
+      resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
-        trackingId: 'G-F9ZWN5BH73',
-        head: true,
-        anonymize: true,
-      }  
-    },
-    {
-      resolve: `gatsby-plugin-hotjar`,
-      options: {
-        includeInDevelopment: false,
-        id: 2488279,
-        sv: 6,
+        googleAnalytics: {
+          trackingId: 'G-F9ZWN5BH73', // leave empty if you want to disable the tracker
+          cookieName: 'gatsby-gdpr-google-analytics', // default
+          anonymize: true, // default
+          allowAdFeatures: false // default
+        },
+        googleTagManager: {
+          trackingId: 'G-F9ZWN5BH73', // leave empty if you want to disable the tracker
+          cookieName: 'gatsby-gdpr-google-tagmanager', // default
+          dataLayerName: 'dataLayer', // default
+        },        
+        hotjar: {
+          hjid: '2488279',
+          hjsv: '6',
+          cookieName: 'gatsby-gdpr-hotjar', // default
+        },
+        // facebookPixel: {
+        //   pixelId: 'YOUR_FACEBOOK_PIXEL_ID', // leave empty if you want to disable the tracker
+        //   cookieName: 'gatsby-gdpr-facebook-pixel', // default
+        // },
+        // tikTokPixel: {
+        //   pixelId: 'YOUR_TIKTOK_PIXEL_ID', // leave empty if you want to disable the tracker
+        //   cookieName: 'gatsby-gdpr-tiktok-pixel', // default
+        // },
+
+        // linkedin: {
+        //   trackingId: 'YOUR_LINKEDIN_TRACKING_ID', // leave empty if you want to disable the tracker
+        //   cookieName: 'gatsby-gdpr-linked-in', // default
+        // },
+        // defines the environments where the tracking should be available  - default is ["production"]
       },
     },
     {
@@ -56,9 +91,9 @@ module.exports = {
     },
     {
       resolve: "gatsby-transformer-json",
-        options: {
-          path: `content/authors`,
-        },
+      options: {
+        path: `content/authors`,
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -81,11 +116,11 @@ module.exports = {
         name: `content/assets`,
       },
     },
-/*     {
-      resolve: `gatsby-theme-blog-core`,
-      options: {
-      },
-    }, */
+    /*     {
+          resolve: `gatsby-theme-blog-core`,
+          options: {
+          },
+        }, */
     {
       resolve: `gatsby-plugin-sharp`,
       options: {

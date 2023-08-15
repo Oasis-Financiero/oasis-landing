@@ -3,6 +3,7 @@ import React from "react";
 
 import Header from "./header";
 import Footer from "./footer"
+import CookieConsentBanner from "./styled/CookiesBanner/CookieConsentBanner";
 
 function Layout({ children }) {
 
@@ -23,9 +24,12 @@ function Layout({ children }) {
   } */
 
   return (
-    <div className="flex flex-col min-h-screen font-sans text-gray-900">
+    <div className="flex flex-col min-h-screen font-sans text-gray-900 w-full">
       <Header />
-        {children}
+      
+        <CookieConsentBanner />
+      
+      {children}
       <Footer />
     </div>
   );
