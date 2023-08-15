@@ -4,7 +4,7 @@ import AppSelect from "../Dropdown/Dropdown";
 import colors from "../../../constants/colors";
 import AppButton from "../ConfirmButton/AppButton";
 import { IoIosArrowDropdownCircle, IoIosArrowDropupCircle } from 'react-icons/io'
-import { fidea } from "./text";
+import { fidea, kreditiFinan } from "./text";
 import products from "../ProductTable/CardProduct/products";
 import { Link } from "gatsby";
 import fideabanner from '../../../images/products/banners/fidea-banner.jpg'
@@ -59,6 +59,9 @@ const InformativeCard = ({ montoParam, ingresosParam, plazoParam, type, imageBan
     switch (type) {
         case "kreditiweb":
             link = 'http://clean.tracksacai.com/aff_c?offer_id=2885&aff_id=2524'
+            text1 = kreditiFinan.text1
+            text2 = kreditiFinan.text2
+            text3 = kreditiFinan.text3
             break;
         case "fidea":
             link = 'https://www.fidea.mx/?refName=2023041314ef&refSubId=oasis_financiero&refTransactionId=banner_comparador'
@@ -69,6 +72,9 @@ const InformativeCard = ({ montoParam, ingresosParam, plazoParam, type, imageBan
         case "mrfinan":
             link = 'http://clean.tracksacai.com/aff_c?offer_id=3364&aff_id=2524&aff_sub=banner_oasis_financiero'
             banner = <img src={fideabanner} alt="fideaBanner" />
+            text1 = kreditiFinan.text1
+            text2 = kreditiFinan.text2
+            text3 = kreditiFinan.text3
             break;
         case "escampa":
             link = 'https://solicitud.escampa.mx/nuevo-registro?utm_source=oasis_financiero&utm_medium=banner&utm_campaign=escampa_2023&utm_id=oasis_financiero'
@@ -169,10 +175,10 @@ const InformativeCard = ({ montoParam, ingresosParam, plazoParam, type, imageBan
                     onClick={onHiddeResponsive}
                 >{accordion ? <IoIosArrowDropdownCircle size={30} fill={colors.resalte1} /> : <IoIosArrowDropupCircle size={30} fill={colors.resalte1} />}</div>
 
-                {imageBanner ? imageBanner : <div className={` ${accordion ?
-                    'relative animate-fade-down animate-ease-in animate-delay-0 hidden lglg:flex'
+                <div className={` ${accordion ?
+                    'relative animate-fade-down animate-ease-in hidden lg:flex transition-all'
                     :
-                    'flex flex-row animate-fade-down animate-ease-in animate-delay-0'}`}>
+                    'flex flex-row animate-fade-down animate-ease-in '}`}>
 
                     <div
                         style={{ font: 'normal normal normal 15px/20px Inter', color: colors.brand1 }}
@@ -187,7 +193,7 @@ const InformativeCard = ({ montoParam, ingresosParam, plazoParam, type, imageBan
                         </div>
                     </div>
 
-                </div>}
+                </div>
 
                 <div className="flex justify-center items-center py-10">
                     <a href={link} target="_blank">
