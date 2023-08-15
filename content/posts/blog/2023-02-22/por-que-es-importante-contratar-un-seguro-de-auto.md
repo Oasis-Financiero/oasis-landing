@@ -25,7 +25,7 @@ Los seguros de auto no solo salvaguardan tu vehículo, sino que también brindan
 
 ## **[¡Cotiza tu seguro de auto online aquí!](https://bit.ly/3QB41vF)** <br/><br/>
 
-[![Banner Guros y Oasis Financiero](banner-guros-oasis.png)] https://bit.ly/3QB41vF
+[![Banner Guros y Oasis Financiero](banner-guros-oasis.png)](https://bit.ly/3QB41vF)
 
 <br/><br/>
 
@@ -57,4 +57,4 @@ En resumen, optar por un seguro de auto representa una elección inteligente y r
 
 ## **[¡Cotiza tu seguro de auto online aquí!](https://bit.ly/3QB41vF)** <br/><br/>
 
-[![Banner Guros y Oasis Financiero](banner-guros-oasis.png)] https://bit.ly/3QB41vF
+[![Banner Guros y Oasis Financiero](banner-guros-oasis.png)](https://bit.ly/3QB41vF)
