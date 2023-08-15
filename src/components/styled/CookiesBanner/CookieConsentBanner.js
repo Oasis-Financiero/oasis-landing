@@ -16,6 +16,7 @@ const CookieConsentBanner = () => {
     useEffect(() => {
         const cookieVerified = cookies.get("cookie_tracker")
         if (cookieVerified) {
+            initializeAndTrack(location)
             setShowBanner(false)
         }
     }, [])
