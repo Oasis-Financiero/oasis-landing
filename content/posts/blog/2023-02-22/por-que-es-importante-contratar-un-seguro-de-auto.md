@@ -33,7 +33,7 @@ Una ventaja adicional de asegurar tu vehículo es la posibilidad de cotizar dive
 
 ## **[¡C﻿otiza en línea tu seguro de auto aquí!](https://bit.ly/3QB41vF)**<br/><br/>
 
-![Banner Guros y Oasis Financiero](banner-seguro-de-auto-blog.png "Cotiza en línea tu seguro de auto con Guros y Oasis Financiero")
+[![Banner Guros y Oasis Financiero](banner-seguro-de-auto-blog.png "Cotiza en línea tu seguro de auto con Guros y Oasis Financiero")] (https://bit.ly/3QB41vF)
 
 <br/><br/>
 
@@ -69,4 +69,4 @@ En resumen, optar por un seguro de auto representa una elección inteligente y r
 
 
 
-![Banner Guros y Oasis Financiero](banner-seguro-de-auto-blog.png "Cotiza en línea tu seguro de auto con Guros y Oasis Financiero")
+[![Banner Guros y Oasis Financiero](banner-seguro-de-auto-blog.png "Cotiza en línea tu seguro de auto con Guros y Oasis Financiero")](https://bit.ly/3QB41vF)
