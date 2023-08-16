@@ -3,7 +3,7 @@ title: "¿Por qué es importante contratar un seguro de auto? "
 slug: "Por-que-es-importante-contratar-un-seguro-de-auto "
 author: coronagenaro@gmail.com
 date: 2023-02-22
-image: seguros.png
+image: seguros-de-auto.png
 imageAlt: ¿Por qué es importante contratar un seguro de auto? Aprende cómo
   proteger tu vehículo y tu patrimonio.
 tags:
@@ -33,7 +33,7 @@ Una ventaja adicional de asegurar tu vehículo es la posibilidad de cotizar dive
 
 ## **[¡C﻿otiza online tu seguro de auto aquí!](https://bit.ly/3QB41vF)<br/><br/>**
 
-[![Banner Guros y Oasis Financiero](banner-guros-oasis.png)](https://bit.ly/3QB41vF)
+![Banner Guros y Oasis Financiero](banner-seguro-de-auto-blog.png)
 
 <br/><br/>
 
@@ -65,4 +65,4 @@ En resumen, optar por un seguro de auto representa una elección inteligente y r
 
 ## **[¡C﻿otiza online tu seguro de auto aquí!](https://bit.ly/3QB41vF)<br/><br/>**
 
-[![Banner Guros y Oasis Financiero](banner-guros-oasis.png)](https://bit.ly/3QB41vF)
+![Banner Guros y Oasis Financiero](banner-seguro-de-auto-blog.png)
