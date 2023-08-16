@@ -1,6 +1,6 @@
 ---
 title: "La Importancia de Contratar un Seguro de Auto: Protege tu Inversión."
-slug: por-que-es-importante-contratar-un-seguro-de-auto
+slug: La-importancia-de-contratar-un-seguro-de-auto-protege-tu-inversion
 author: coronagenaro@gmail.com
 date: 2023-08-15
 image: seguros-de-auto.png
