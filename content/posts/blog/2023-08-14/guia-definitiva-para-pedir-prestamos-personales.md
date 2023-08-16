@@ -46,10 +46,6 @@ En el mundo financiero actual, los préstamos personales pueden ser una herramie
 
 A﻿provecha nuestro **[Comparador de Préstamos Personales](https://www.oasisfinanciero.com/compara/prestamos-personales)** para simplificar tu proceso de búsqueda y encontrar la opción ideal para tus necesidades.*<br/><br/>
 
-![Banner comparador de préstamos Oasis Financiero](banner-comparador.png "Descubre, Compara, Elige con el comparador de préstamos personales de Oasis Financiero")
-
-
-
-<br/><br/>
+[![Banner comparador de préstamos Oasis Financiero](banner-comparador.png "Descubre, Compara, Elige con el comparador de préstamos personales de Oasis Financiero")](https://oasisfinanciero.com/compara/prestamos-personales)
 
 <!--EndFragment-->
