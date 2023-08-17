@@ -63,21 +63,21 @@ const LendingProduct = ({ data }) => {
   switch (type) {
     case "kreditiweb":
       questions = <AppFaqPrestamos />
-      bannerCard = <Link to="http://clean.tracksacai.com/aff_c?offer_id=2885&aff_id=2524&aff_sub=oasisfinanciero_comparador&aff_sub2=Banner&aff_sub3=kreditiwebagosto2023"
+      bannerCard = <Link to={`http://clean.tracksacai.com/aff_c?offer_id=2885&aff_id=2524&aff_sub=${uniqueID}&utm_source=oasisfinanciero_comparador&utm_medium=banner&utm_campaign=mrfinanagosto2023`}
         target="_blank"><img src={krediban1} alt="krediti" className="md:w-[950px] w-full" /></Link>
-      banner = <Link to="http://clean.tracksacai.com/aff_c?offer_id=2885&aff_id=2524&aff_sub=oasisfinanciero_comparador&aff_sub2=Banner&aff_sub3=kreditiwebagosto2023"
+      banner = <Link to={`http://clean.tracksacai.com/aff_c?offer_id=2885&aff_id=2524&aff_sub=${uniqueID}&utm_source=oasisfinanciero_comparador&utm_medium=banner&utm_campaign=mrfinanagosto2023`}
         target="_blank"><img src={kreditiBanner} alt="krediti" className="md:w-[950px] w-full" /></Link>
       break;
     case "fidea":
       questions = <AppFaqPrestamos />
-      banner = <Link to="https://www.fidea.mx/?refName=2023041314ef&refSubId=REPLACE_WITH_SUB_AFFILIATE_ID&refTransactionId=REPLACE_WITH_LEAD_CLICK_ID&utm_source=oasisfinanciero_comparador&utm_medium=banner&utm_campaign=Fideaagosto2023"
+      banner = <Link to={`https://www.fidea.mx/?refName=2023041314ef&refSubId=${uniqueID}&refTransactionId=REPLACE_WITH_LEAD_CLICK_ID&utm_source=oasisfinanciero_comparador&utm_medium=button&utm_campaign=Fideaagosto2023`}
         target="_blank"><img src={fideaBanner2} alt="fidea" className="w-[550px]" /></Link>
       break;
     case "mrfinan":
       questions = <AppFaqPrestamos />
-      banner = <Link to="http://clean.tracksacai.com/aff_c?offer_id=3364&aff_id=2524&aff_sub=VUESTRO_PARAMETRO&utm_source=oasisfinanciero_comparador&utm_medium=banner&utm_campaign=mrfinanagosto2023"
+      banner = <Link to={`http://clean.tracksacai.com/aff_c?offer_id=3364&aff_id=2524&aff_sub=${uniqueID}&utm_source=oasisfinanciero_comparador&utm_medium=button&utm_campaign=mrfinanagosto2023`}
         target="_blank"><img src={finanBanner} alt="finan" className="w-[950px]" /></Link>
-      bannerCard = <Link to="http://clean.tracksacai.com/aff_c?offer_id=3364&aff_id=2524&aff_sub=VUESTRO_PARAMETRO&utm_source=oasisfinanciero_comparador&utm_medium=banner&utm_campaign=mrfinanagosto2023"
+      bannerCard = <Link to={`http://clean.tracksacai.com/aff_c?offer_id=3364&aff_id=2524&aff_sub=${uniqueID}&utm_source=oasisfinanciero_comparador&utm_medium=button&utm_campaign=mrfinanagosto2023`}
         target="_blank"><img src={finanBanner} alt="finan" className="w-[950px]" /></Link>
       break;
     case "escampa":
