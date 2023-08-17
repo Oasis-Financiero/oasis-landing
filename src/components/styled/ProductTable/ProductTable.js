@@ -6,7 +6,7 @@ import products from "./CardProduct/products";
 import { anualSorted, anualSortedReverse, mensualSorted, mensualSortedReverse } from "./CardProduct/helpers";
 
 
-const ProductTable = ({ loanAmount, loanTerm, selectedTypePay, incomeAmount }) => {
+const ProductTable = ({ loanAmount, loanTerm, selectedTypePay, incomeAmount, uniqueID }) => {
 
     const [tasaSort, setTasaSort] = useState(false)
     const [monthSort, setMonthSort] = useState(false)
@@ -46,6 +46,7 @@ const ProductTable = ({ loanAmount, loanTerm, selectedTypePay, incomeAmount }) =
             loanTerm={loanTerm}
             selectedTypePay={selectedTypePay}
             incomeAmount={incomeAmount}
+            uniqueID={uniqueID}
         />
     })
 

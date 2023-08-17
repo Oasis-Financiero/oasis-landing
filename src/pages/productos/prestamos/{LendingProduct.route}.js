@@ -22,13 +22,14 @@ import AppEscampa from "../../../components/styled/FAQs/FAQsProducts/FAQsEscampa
 
 
 const LendingProduct = ({ data }) => {
-  let montoParam, ingresosParam, plazoParam, type;
+  let montoParam, ingresosParam, plazoParam, type, uniqueID;
   if (typeof window !== "undefined") {
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
     montoParam = urlParams.get('monto');
     ingresosParam = urlParams.get('ingresos');
     plazoParam = urlParams.get('plazos');
+    uniqueID = urlParams.get('subID')
     const queryStringPath = window.location.pathname
     type = queryStringPath.slice(21)
   }
