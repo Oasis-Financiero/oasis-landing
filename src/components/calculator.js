@@ -49,25 +49,26 @@ const Calculator = ({ loanAmount,
           inline: "nearest"
         })
       }
-      setHiddeTable(false)
-      // await addDoc(collection(db, "calculator-users"), {
-      //   loanAmount: loanAmount,
-      //   incomeAmount: incomeAmount,
-      //   typePay: selectedTypePay,
-      //   email: email,
-      //   state: selectedState,
-      //   timestamp: serverTimestamp()
-      // })
-      setEmail("")
-      setSelectedState("")
-      // setSelectedTypePay("")
-      setHandleError(false)
-
       //Encode uniqueID
       const timestamp = Date.now()
       const combinedData = `OF-${timestamp}`
       const base64CombinedData = base64URL.encode(combinedData)
       setUniqueID(base64CombinedData)
+
+      setHiddeTable(false)
+      await addDoc(collection(db, "calculator-users"), {
+        id: base64CombinedData,
+        loanAmount: loanAmount,
+        incomeAmount: incomeAmount,
+        typePay: selectedTypePay,
+        email: email,
+        state: selectedState,
+        timestamp: serverTimestamp()
+      })
+      setEmail("")
+      setSelectedState("")
+      // setSelectedTypePay("")
+      setHandleError(false)
     }
   }
 

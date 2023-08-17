@@ -95,7 +95,7 @@ const LendingProduct = ({ data }) => {
         <div className="flex flex-col items-center justify-center gap-8 w-full">
           <img src={getImage(name)} alt='logo' className="p-10 pb-0" />
           <div className="flex justify-center items-center w-full p-3">
-            <InformativeCard montoParam={montoParam} ingresosParam={ingresosParam} plazoParam={plazoParam} type={type} imageBanner={bannerCard} />
+            <InformativeCard montoParam={montoParam} ingresosParam={ingresosParam} plazoParam={plazoParam} type={type} imageBanner={bannerCard} uniqueID={uniqueID} />
           </div>
         </div>
 

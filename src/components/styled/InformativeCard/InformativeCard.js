@@ -10,7 +10,7 @@ import { Link } from "gatsby";
 import fideabanner from '../../../images/products/banners/fidea-banner.jpg'
 
 
-const InformativeCard = ({ montoParam, ingresosParam, plazoParam, type, imageBanner }) => {
+const InformativeCard = ({ montoParam, ingresosParam, plazoParam, type, uniqueID }) => {
 
     let typeProduct;
     if (typeof window !== "undefined") {
@@ -58,19 +58,19 @@ const InformativeCard = ({ montoParam, ingresosParam, plazoParam, type, imageBan
     let link, text1, text2, text3, banner;
     switch (type) {
         case "kreditiweb":
-            link = 'http://clean.tracksacai.com/aff_c?offer_id=2885&aff_id=2524'
+            link = `http://clean.tracksacai.com/aff_c?offer_id=2885&aff_id=2524&aff_sub=${uniqueID}&utm_source=oasisfinanciero_comparador&utm_medium=banner&utm_campaign=mrfinanagosto2023`
             text1 = kreditiFinan.text1
             text2 = kreditiFinan.text2
             text3 = kreditiFinan.text3
             break;
         case "fidea":
-            link = 'https://www.fidea.mx/?refName=2023041314ef&refSubId=oasis_financiero&refTransactionId=banner_comparador'
+            link = `https://www.fidea.mx/?refName=2023041314ef&refSubId=${uniqueID}&refTransactionId=REPLACE_WITH_LEAD_CLICK_ID&utm_source=oasisfinanciero_comparador&utm_medium=banner&utm_campaign=Fideaagosto2023`
             text1 = fidea.text1
             text2 = fidea.text2
             text3 = fidea.text3
             break;
         case "mrfinan":
-            link = 'http://clean.tracksacai.com/aff_c?offer_id=3364&aff_id=2524&aff_sub=banner_oasis_financiero'
+            link = `http://clean.tracksacai.com/aff_c?offer_id=3364&aff_id=2524&aff_sub=${uniqueID}&utm_source=oasisfinanciero_comparador&utm_medium=banner&utm_campaign=mrfinanagosto2023`
             banner = <img src={fideabanner} alt="fideaBanner" />
             text1 = kreditiFinan.text1
             text2 = kreditiFinan.text2
