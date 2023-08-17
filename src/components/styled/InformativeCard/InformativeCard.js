@@ -58,7 +58,7 @@ const InformativeCard = ({ montoParam, ingresosParam, plazoParam, type, uniqueID
     let link, text1, text2, text3, banner;
     switch (type) {
         case "kreditiweb":
-            link = `http://clean.tracksacai.com/aff_c?offer_id=2885&aff_id=2524&aff_sub=${uniqueID}&utm_source=oasisfinanciero_comparador&utm_medium=button&utm_campaign=mrfinanagosto2023`
+            link = `http://clean.tracksacai.com/aff_c?offer_id=2885&aff_id=2524&aff_sub=${uniqueID}&utm_source=oasisfinanciero_comparador&utm_medium=button&utm_campaign=kreditiwebagosto2023`
             text1 = kreditiFinan.text1
             text2 = kreditiFinan.text2
             text3 = kreditiFinan.text3

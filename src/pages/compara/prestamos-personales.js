@@ -25,8 +25,6 @@ const PrestamosPersonales = () => {
     const [selectedTypePay, setSelectedTypePay] = useState("Pagos Mensuales")
     const [uniqueID, setUniqueID] = useState("")
 
-    console.log("id Generado:", uniqueID);
-
     return (
         <Layout page='compara'>
             <div className="flex flex-col gap-10 md:gap-0 animate-fade-down animate-once w-full">

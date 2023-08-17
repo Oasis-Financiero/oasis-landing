@@ -63,9 +63,9 @@ const LendingProduct = ({ data }) => {
   switch (type) {
     case "kreditiweb":
       questions = <AppFaqPrestamos />
-      bannerCard = <Link to={`http://clean.tracksacai.com/aff_c?offer_id=2885&aff_id=2524&aff_sub=${uniqueID}&utm_source=oasisfinanciero_comparador&utm_medium=banner&utm_campaign=mrfinanagosto2023`}
+      bannerCard = <Link to={`http://clean.tracksacai.com/aff_c?offer_id=2885&aff_id=2524&aff_sub=${uniqueID}&utm_source=oasisfinanciero_comparador&utm_medium=banner&utm_campaign=kreditiwebagosto2023`}
         target="_blank"><img src={krediban1} alt="krediti" className="md:w-[950px] w-full" /></Link>
-      banner = <Link to={`http://clean.tracksacai.com/aff_c?offer_id=2885&aff_id=2524&aff_sub=${uniqueID}&utm_source=oasisfinanciero_comparador&utm_medium=banner&utm_campaign=mrfinanagosto2023`}
+      banner = <Link to={`http://clean.tracksacai.com/aff_c?offer_id=2885&aff_id=2524&aff_sub=${uniqueID}&utm_source=oasisfinanciero_comparador&utm_medium=banner&utm_campaign=kreditiwebagosto2023`}
         target="_blank"><img src={kreditiBanner} alt="krediti" className="md:w-[950px] w-full" /></Link>
       break;
     case "fidea":
