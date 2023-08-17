@@ -22,13 +22,14 @@ import AppEscampa from "../../../components/styled/FAQs/FAQsProducts/FAQsEscampa
 
 
 const LendingProduct = ({ data }) => {
-  let montoParam, ingresosParam, plazoParam, type;
+  let montoParam, ingresosParam, plazoParam, type, uniqueID;
   if (typeof window !== "undefined") {
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
     montoParam = urlParams.get('monto');
     ingresosParam = urlParams.get('ingresos');
     plazoParam = urlParams.get('plazos');
+    uniqueID = urlParams.get('subID')
     const queryStringPath = window.location.pathname
     type = queryStringPath.slice(21)
   }
@@ -62,21 +63,21 @@ const LendingProduct = ({ data }) => {
   switch (type) {
     case "kreditiweb":
       questions = <AppFaqPrestamos />
-      bannerCard = <Link to="http://clean.tracksacai.com/aff_c?offer_id=2885&aff_id=2524&aff_sub=oasisfinanciero_comparador&aff_sub2=Banner&aff_sub3=kreditiwebagosto2023"
+      bannerCard = <Link to={`http://clean.tracksacai.com/aff_c?offer_id=2885&aff_id=2524&aff_sub=${uniqueID}&utm_source=oasisfinanciero_comparador&utm_medium=banner&utm_campaign=kreditiwebagosto2023`}
         target="_blank"><img src={krediban1} alt="krediti" className="md:w-[950px] w-full" /></Link>
-      banner = <Link to="http://clean.tracksacai.com/aff_c?offer_id=2885&aff_id=2524&aff_sub=oasisfinanciero_comparador&aff_sub2=Banner&aff_sub3=kreditiwebagosto2023"
+      banner = <Link to={`http://clean.tracksacai.com/aff_c?offer_id=2885&aff_id=2524&aff_sub=${uniqueID}&utm_source=oasisfinanciero_comparador&utm_medium=banner&utm_campaign=kreditiwebagosto2023`}
         target="_blank"><img src={kreditiBanner} alt="krediti" className="md:w-[950px] w-full" /></Link>
       break;
     case "fidea":
       questions = <AppFaqPrestamos />
-      banner = <Link to="https://www.fidea.mx/?refName=2023041314ef&refSubId=REPLACE_WITH_SUB_AFFILIATE_ID&refTransactionId=REPLACE_WITH_LEAD_CLICK_ID&utm_source=oasisfinanciero_comparador&utm_medium=banner&utm_campaign=Fideaagosto2023"
+      banner = <Link to={`https://www.fidea.mx/?refName=2023041314ef&refSubId=${uniqueID}&refTransactionId=REPLACE_WITH_LEAD_CLICK_ID&utm_source=oasisfinanciero_comparador&utm_medium=button&utm_campaign=Fideaagosto2023`}
         target="_blank"><img src={fideaBanner2} alt="fidea" className="w-[550px]" /></Link>
       break;
     case "mrfinan":
       questions = <AppFaqPrestamos />
-      banner = <Link to="http://clean.tracksacai.com/aff_c?offer_id=3364&aff_id=2524&aff_sub=VUESTRO_PARAMETRO&utm_source=oasisfinanciero_comparador&utm_medium=banner&utm_campaign=mrfinanagosto2023"
+      banner = <Link to={`http://clean.tracksacai.com/aff_c?offer_id=3364&aff_id=2524&aff_sub=${uniqueID}&utm_source=oasisfinanciero_comparador&utm_medium=button&utm_campaign=mrfinanagosto2023`}
         target="_blank"><img src={finanBanner} alt="finan" className="w-[950px]" /></Link>
-      bannerCard = <Link to="http://clean.tracksacai.com/aff_c?offer_id=3364&aff_id=2524&aff_sub=VUESTRO_PARAMETRO&utm_source=oasisfinanciero_comparador&utm_medium=banner&utm_campaign=mrfinanagosto2023"
+      bannerCard = <Link to={`http://clean.tracksacai.com/aff_c?offer_id=3364&aff_id=2524&aff_sub=${uniqueID}&utm_source=oasisfinanciero_comparador&utm_medium=button&utm_campaign=mrfinanagosto2023`}
         target="_blank"><img src={finanBanner} alt="finan" className="w-[950px]" /></Link>
       break;
     case "escampa":
@@ -94,7 +95,7 @@ const LendingProduct = ({ data }) => {
         <div className="flex flex-col items-center justify-center gap-8 w-full">
           <img src={getImage(name)} alt='logo' className="p-10 pb-0" />
           <div className="flex justify-center items-center w-full p-3">
-            <InformativeCard montoParam={montoParam} ingresosParam={ingresosParam} plazoParam={plazoParam} type={type} imageBanner={bannerCard} />
+            <InformativeCard montoParam={montoParam} ingresosParam={ingresosParam} plazoParam={plazoParam} type={type} imageBanner={bannerCard} uniqueID={uniqueID} />
           </div>
         </div>
 

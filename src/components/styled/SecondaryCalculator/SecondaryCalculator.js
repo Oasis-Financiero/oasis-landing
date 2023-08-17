@@ -5,7 +5,7 @@ import * as style from './SecondaryCalculator.module.css'
 import ProductTable from "../ProductTable/ProductTable";
 import products from "../ProductTable/CardProduct/products";
 
-const AppSecondaryCalculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTerm, incomeAmount, setIncomeAmount, selectedTypePay }) => {
+const AppSecondaryCalculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTerm, incomeAmount, setIncomeAmount, selectedTypePay, uniqueID }) => {
     return (
         <section className="flex flex-col justify-center items-center gap-3">
             <section className="md:w-[550px] lg:w-[1080px] lg:h-[160px] gap-4 md:gap-0 rounded-[25px] flex flex-col lg:flex-row md:justify-around md:items-center p-12" style={{ border: `2px solid ${colors.resalte1}` }}>
@@ -66,6 +66,7 @@ const AppSecondaryCalculator = ({ loanAmount, setLoanAmount, loanTerm, setLoanTe
                     loanTerm={loanTerm}
                     selectedTypePay={selectedTypePay}
                     incomeAmount={incomeAmount}
+                    uniqueID={uniqueID}
                 />
 
             </section>
