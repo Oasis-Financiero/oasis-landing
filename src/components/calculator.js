@@ -62,15 +62,15 @@ const Calculator = ({ loanAmount,
       setUniqueID(base64CombinedData)
 
       setHiddeTable(false)
-      // await addDoc(collection(db, "calculator-users"), {
-      //   id: base64CombinedData,
-      //   loanAmount: loanAmount,
-      //   incomeAmount: incomeAmount,
-      //   typePay: selectedTypePay,
-      //   email: email,
-      //   state: selectedState,
-      //   timestamp: serverTimestamp()
-      // })
+      await addDoc(collection(db, "calculator-users"), {
+        id: base64CombinedData,
+        loanAmount: loanAmount,
+        incomeAmount: incomeAmount,
+        typePay: selectedTypePay,
+        email: email,
+        state: selectedState,
+        timestamp: serverTimestamp()
+      })
       setEmail("")
       setSelectedState("")
       // setSelectedTypePay("")

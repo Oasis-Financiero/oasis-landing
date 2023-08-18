@@ -57,8 +57,7 @@ const InformativeCard = ({ montoParam, ingresosParam, plazoParam, type, uniqueID
 
     const text3 = <span>
         Para fines informativos y de comparación.
-        Consultar términos, condiciones y comisiones en nuestro 
-        <span onClick={() => setModalData({ isOpen: true, type: 'privacyPolicy' })}>aviso de privacidad</span>
+        Consultar términos, condiciones y comisiones en nuestro <span onClick={() => setModalData({ isOpen: true, type: 'privacyPolicy' })} className="underline cursor-pointer" >aviso de privacidad</span>
     </span>
 
     let link, text1, text2, banner;

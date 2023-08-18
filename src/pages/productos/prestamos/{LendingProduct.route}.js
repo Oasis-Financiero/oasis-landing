@@ -41,7 +41,6 @@ const LendingProduct = ({ data }) => {
     type = queryStringPath.slice(21)
   }
 
-  console.log(uniqueID);
 
   const { lendingProduct } = data;
   const { id, name } = lendingProduct;
