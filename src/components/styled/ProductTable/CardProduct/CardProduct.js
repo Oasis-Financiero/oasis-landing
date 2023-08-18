@@ -60,7 +60,7 @@ const CardProduct = ({ img, tasa, comision, producto, loanAmount, loanTerm, sele
                     <li className="w-full h-full flex justify-center items-center rounded-[15px]"
                         style={{ backgroundColor: colors.fdoGris }}
                     >
-                        <Link to={`/productos/prestamos/${producto.toLowerCase()}?monto=${loanAmount}&ingresos=${incomeAmount}&plazos=${loanTerm}&type=${producto.toLowerCase()}$subID=${uniqueID}`}><AppButton
+                        <Link to={`/productos/prestamos/${producto.toLowerCase()}?monto=${loanAmount}&ingresos=${incomeAmount}&plazos=${loanTerm}&type=${producto.toLowerCase()}&subID=${uniqueID}`}><AppButton
                             tag={'Solicitar'}
                             width={133}
                         /></Link>
