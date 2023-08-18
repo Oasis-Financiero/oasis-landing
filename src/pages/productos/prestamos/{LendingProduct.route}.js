@@ -19,9 +19,16 @@ import fideaBanner2 from '../../../images/products/banners/fidea-b1.jpg'
 import kreditiBanner from '../../../images/products/banners/19.png'
 import finanBanner from '../../../images/products/banners/18.png'
 import AppEscampa from "../../../components/styled/FAQs/FAQsProducts/FAQsEscampa";
+import Modal from "../../../components/modal";
 
 
 const LendingProduct = ({ data }) => {
+
+  const [modalData, setModalData] = useState({
+    isOpen: false,
+    type: ''
+  })
+
   let montoParam, ingresosParam, plazoParam, type, uniqueID;
   if (typeof window !== "undefined") {
     const queryString = window.location.search;
@@ -33,7 +40,9 @@ const LendingProduct = ({ data }) => {
     const queryStringPath = window.location.pathname
     type = queryStringPath.slice(21)
   }
-  
+
+  console.log(uniqueID);
+
   const { lendingProduct } = data;
   const { id, name } = lendingProduct;
 
@@ -89,63 +98,67 @@ const LendingProduct = ({ data }) => {
   }
 
   return (
-    <Layout page='product'>
-      <div className="flex flex-col gap-16 md:gap-16 animate-fade-down animate-once animate-ease-in delay-0 w-full">
+    <>
+      <Layout page='product'>
+        <div className="flex flex-col gap-16 md:gap-16 animate-fade-down animate-once animate-ease-in delay-0 w-full">
 
-        <div className="flex flex-col items-center justify-center gap-8 w-full">
-          <img src={getImage(name)} alt='logo' className="p-10 pb-0" />
-          <div className="flex justify-center items-center w-full p-3">
-            <InformativeCard montoParam={montoParam} ingresosParam={ingresosParam} plazoParam={plazoParam} type={type} imageBanner={bannerCard} uniqueID={uniqueID} />
-          </div>
-        </div>
-
-        <div id={style.steps}>
-          <AppSteps />
-        </div>
-
-        <div className="flex flex-col justify-center items-center">
-          {banner}
-        </div>
-        <div id={style.faqc} className="md:p-10 justify-center items-center">\
-          <h1 className="flex justify-center" id={style.faq}>FAQs</h1>
-          {questions}
-        </div>
-
-
-        <div className="w-full flex flex-col justify-center items-center md:p-14">
-
-          <h1 className="text-center" id={style.titles}>Compara nuestros <br></br>productos <span id={style.word}>financieros</span></h1>
-
-          <div className="flex justify-center flex-col items-center gap-10 md:flex md:flex-row md:justify-center p-8 md:gap-2 w-full">
-            <div className="flex flex-col justify-center items-center gap-4">
-              <AppCardSection
-                color={colors.card1}
-                icon={iconPrestamo}
-                title="Prestamos Personales"
-                subtitle="Sin comision por apertura"
-              />
-              <AppSecondaryButton
-                text="Comparar"
-              />
-            </div>
-
-            <div className="flex flex-col justify-center items-center gap-4">
-              <AppCardSection
-                color={colors.card2}
-                icon={iconSeguro}
-                title="Seguros de auto"
-                subtitle="Cobertura amplia y limitada"
-              />
-              <AppSecondaryButton
-                text="Comparar"
-              />
+          <div className="flex flex-col items-center justify-center gap-8 w-full">
+            <img src={getImage(name)} alt='logo' className="p-10 pb-0" />
+            <div className="flex justify-center items-center w-full p-3">
+              <InformativeCard montoParam={montoParam} ingresosParam={ingresosParam} plazoParam={plazoParam} type={type} imageBanner={bannerCard} uniqueID={uniqueID} setModalData={setModalData} />
             </div>
           </div>
 
-        </div>
+          <div id={style.steps}>
+            <AppSteps />
+          </div>
 
-      </div>
-    </Layout>
+          <div className="flex flex-col justify-center items-center">
+            {banner}
+          </div>
+          <div id={style.faqc} className="md:p-10 justify-center items-center">\
+            <h1 className="flex justify-center" id={style.faq}>FAQs</h1>
+            {questions}
+          </div>
+
+
+          <div className="w-full flex flex-col justify-center items-center md:p-14">
+
+            <h1 className="text-center" id={style.titles}>Compara nuestros <br></br>productos <span id={style.word}>financieros</span></h1>
+
+            <div className="flex justify-center flex-col items-center gap-10 md:flex md:flex-row md:justify-center p-8 md:gap-2 w-full">
+              <div className="flex flex-col justify-center items-center gap-4">
+                <AppCardSection
+                  color={colors.card1}
+                  icon={iconPrestamo}
+                  title="Prestamos Personales"
+                  subtitle="Sin comision por apertura"
+                />
+                <AppSecondaryButton
+                  text="Comparar"
+                />
+              </div>
+
+              <div className="flex flex-col justify-center items-center gap-4">
+                <AppCardSection
+                  color={colors.card2}
+                  icon={iconSeguro}
+                  title="Seguros de auto"
+                  subtitle="Cobertura amplia y limitada"
+                />
+                <AppSecondaryButton
+                  text="Comparar"
+                />
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </Layout>
+      <Modal isOpen={modalData.isOpen} type={modalData.type} setModalData={setModalData} />
+
+    </>
   )
 }
 
