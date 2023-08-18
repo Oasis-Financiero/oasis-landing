@@ -9,6 +9,7 @@ import AppButton from "./styled/ConfirmButton/AppButton";
 import { collection, addDoc, serverTimestamp, getFirestore } from "@firebase/firestore";
 import { estados, pagos } from "./calculatorHelpers";
 import useFirebase from "../hooks/useFirebase";
+const base64URL = require('js-base64').Base64
 
 const Calculator = ({ loanAmount,
   setLoanAmount,
@@ -21,15 +22,17 @@ const Calculator = ({ loanAmount,
   setSelectedState,
   selectedTypePay,
   setSelectedTypePay,
-  secondaryCalculatorRef }) => {
+  secondaryCalculatorRef,
+  setUniqueID
+}) => {
   const firebaseApp = useFirebase();
   const firestore = useRef(null);
   const [email, setEmail] = useState("")
   const [handleError, setHandleError] = useState(null)
 
   useEffect(() => {
-   if (!firebaseApp) return;
-   firestore.current = getFirestore(firebaseApp);
+    if (!firebaseApp) return;
+    firestore.current = getFirestore(firebaseApp);
   }, [firebaseApp]);
 
   const onSubmitButton = async (e) => {
@@ -46,8 +49,15 @@ const Calculator = ({ loanAmount,
           inline: "nearest"
         })
       }
+      //Encode uniqueID
+      const timestamp = Date.now()
+      const combinedData = `OF-${timestamp}`
+      const base64CombinedData = base64URL.encode(combinedData)
+      setUniqueID(base64CombinedData)
+
       setHiddeTable(false)
       await addDoc(collection(db, "calculator-users"), {
+        id: base64CombinedData,
         loanAmount: loanAmount,
         incomeAmount: incomeAmount,
         typePay: selectedTypePay,

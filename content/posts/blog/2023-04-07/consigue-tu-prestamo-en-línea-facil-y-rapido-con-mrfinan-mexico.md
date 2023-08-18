@@ -3,7 +3,7 @@ title: Consigue tu préstamo en línea fácil y rápido con MrFinan México.
 slug: Consigue-tu-prestamo-en-línea-facil-y-rapido-con-MrFinan-Mexico
 author: coronagenaro@gmail.com
 date: 2023-04-07
-image: mrfinan.png
+image: portada-art-mr-finan.png
 imageAlt: Consigue tu préstamo en línea fácil y rápido con MrFinan México.
 tags:
   - Préstamos

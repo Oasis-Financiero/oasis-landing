@@ -23,6 +23,7 @@ const PrestamosPersonales = () => {
     const [selectedState, setSelectedState] = useState("Ciudad de México")
     const secondaryCalculatorRef = useRef(null);
     const [selectedTypePay, setSelectedTypePay] = useState("Pagos Mensuales")
+    const [uniqueID, setUniqueID] = useState("")
 
     return (
         <Layout page='compara'>
@@ -45,6 +46,7 @@ const PrestamosPersonales = () => {
                                 selectedTypePay={selectedTypePay}
                                 setSelectedTypePay={setSelectedTypePay}
                                 secondaryCalculatorRef={secondaryCalculatorRef}
+                                setUniqueID={setUniqueID}
                             />
                             <div className="max-lg:hidden md:w-[503px] md:h-[497px] md:relative md:bottom-3 w-full">
                                 <img
@@ -72,6 +74,7 @@ const PrestamosPersonales = () => {
                         incomeAmount={incomeAmount}
                         setIncomeAmount={setIncomeAmount}
                         selectedTypePay={selectedTypePay}
+                        uniqueID={uniqueID}
                     />
                 </div>}
 
