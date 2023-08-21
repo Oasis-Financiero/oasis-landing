@@ -4,13 +4,13 @@ import AppSelect from "../Dropdown/Dropdown";
 import colors from "../../../constants/colors";
 import AppButton from "../ConfirmButton/AppButton";
 import { IoIosArrowDropdownCircle, IoIosArrowDropupCircle } from 'react-icons/io'
-import { fidea, kreditiFinan } from "./text";
+import { fidea, kreditiFinan, text } from "./text";
 import products from "../ProductTable/CardProduct/products";
 import { Link } from "gatsby";
 import fideabanner from '../../../images/products/banners/fidea-banner.jpg'
 
 
-const InformativeCard = ({ montoParam, ingresosParam, plazoParam, type, uniqueID }) => {
+const InformativeCard = ({ montoParam, ingresosParam, plazoParam, type, uniqueID, setModalData }) => {
 
     let typeProduct;
     if (typeof window !== "undefined") {
@@ -55,26 +55,28 @@ const InformativeCard = ({ montoParam, ingresosParam, plazoParam, type, uniqueID
         maximumFractionDigits: 0,
     })
 
-    let link, text1, text2, text3, banner;
+    const text3 = <span>
+        Para fines informativos y de comparación.
+        Consultar términos, condiciones y comisiones en nuestro <span onClick={() => setModalData({ isOpen: true, type: 'privacyPolicy' })} className="underline cursor-pointer" >aviso de privacidad</span>
+    </span>
+
+    let link, text1, text2, banner;
     switch (type) {
         case "kreditiweb":
             link = `http://clean.tracksacai.com/aff_c?offer_id=2885&aff_id=2524&aff_sub=${uniqueID}&utm_source=oasisfinanciero_comparador&utm_medium=button&utm_campaign=kreditiwebagosto2023`
             text1 = kreditiFinan.text1
             text2 = kreditiFinan.text2
-            text3 = kreditiFinan.text3
             break;
         case "fidea":
             link = `https://www.fidea.mx/?refName=2023041314ef&refSubId=${uniqueID}&refTransactionId=REPLACE_WITH_LEAD_CLICK_ID&utm_source=oasisfinanciero_comparador&utm_medium=button&utm_campaign=Fideaagosto2023`
             text1 = fidea.text1
             text2 = fidea.text2
-            text3 = fidea.text3
             break;
         case "mrfinan":
             link = `http://clean.tracksacai.com/aff_c?offer_id=3364&aff_id=2524&aff_sub=${uniqueID}&utm_source=oasisfinanciero_comparador&utm_medium=button&utm_campaign=mrfinanagosto2023`
             banner = <img src={fideabanner} alt="fideaBanner" />
             text1 = kreditiFinan.text1
             text2 = kreditiFinan.text2
-            text3 = kreditiFinan.text3
             break;
         case "escampa":
             link = 'https://solicitud.escampa.mx/nuevo-registro?utm_source=oasis_financiero&utm_medium=banner&utm_campaign=escampa_2023&utm_id=oasis_financiero'
