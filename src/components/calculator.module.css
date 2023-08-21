@@ -96,6 +96,21 @@
     font: normal normal bold 22px/26px Poppins;
 }
 
+#privacyCheck {
+  margin-right: 5px;
+}
+
+#acceptText {
+  line-height: 16px;
+  vertical-align: middle;
+}
+
+#openModal {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
 @media (max-width:960px) {
     #title {
       font-size: 22px;
