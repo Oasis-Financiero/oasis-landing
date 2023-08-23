@@ -45,8 +45,14 @@ const Calculator = ({ loanAmount,
     const db = firestore.current;
     e.preventDefault()
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
-    if (!emailRegex.test(email) || !isPrivacyOk) {
+    if (!emailRegex.test(email)) {
       setHandleError(true)
+    } else {
+      setHandleError(false)
+    } 
+    
+    if(!isPrivacyOk) {
+      alert("Debes aceptar las politicas de privacidad")
     } else {
       if (secondaryCalculatorRef.current) {
         secondaryCalculatorRef.current.scrollIntoView({
@@ -73,7 +79,6 @@ const Calculator = ({ loanAmount,
       })
       setEmail("")
       setSelectedState("")
-      // setSelectedTypePay("")
       setHandleError(false)
     }
   }
