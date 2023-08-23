@@ -47,11 +47,8 @@ const Calculator = ({ loanAmount,
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
     if (!emailRegex.test(email)) {
       setHandleError(true)
-    } else {
-      setHandleError(false)
     } 
-    
-    if(!isPrivacyOk) {
+    else if(!isPrivacyOk) {
       alert("Debes aceptar las politicas de privacidad")
     } else {
       if (secondaryCalculatorRef.current) {
