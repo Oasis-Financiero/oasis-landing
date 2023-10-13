@@ -54,13 +54,13 @@ module.exports = {
       resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
         googleAnalytics: {
-          trackingId: 'G-F9ZWN5BH73', // leave empty if you want to disable the tracker
+          trackingId: 'G-TZERK25DRT', // leave empty if you want to disable the tracker
           cookieName: 'gatsby-gdpr-google-analytics', // default
           anonymize: true, // default
           allowAdFeatures: false // default
         },
         googleTagManager: {
-          trackingId: 'G-F9ZWN5BH73', // leave empty if you want to disable the tracker
+          trackingId: 'G-TZERK25DRT', // leave empty if you want to disable the tracker
           cookieName: 'gatsby-gdpr-google-tagmanager', // default
           dataLayerName: 'dataLayer', // default
         },        
