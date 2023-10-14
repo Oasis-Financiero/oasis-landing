@@ -37,7 +37,7 @@ module.exports = {
     // {
     //   resolve: 'gatsby-plugin-gtag',
     //   options: {
-    //     trackingId: 'G-F9ZWN5BH73',
+    //     trackingId: 'G-TZERK25DRT',
     //     head: true,
     //     anonymize: true,
     //   }
@@ -60,7 +60,7 @@ module.exports = {
           allowAdFeatures: false // default
         },
         googleTagManager: {
-          trackingId: 'G-TZERK25DRT', // leave empty if you want to disable the tracker
+          trackingId: 'GTM-55ZH62G7', // leave empty if you want to disable the tracker
           cookieName: 'gatsby-gdpr-google-tagmanager', // default
           dataLayerName: 'dataLayer', // default
         },        
