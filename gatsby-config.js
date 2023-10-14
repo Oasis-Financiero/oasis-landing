@@ -9,10 +9,24 @@ const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
   siteMetadata: {
-    title: `Oasis Financiero`,
-    siteUrl: `https://www.oasisfinanciero.mx`,
-    description: `Aprende, compara y elige entre los servicios que ofrecen las Fintech y los Bancos tradicionales en México. Libera tu potencial financiero.`,
+    title: `Compara préstamos, seguros de auto y aprende finanzas personales.`,
+    siteUrl: `https://www.oasisfinanciero.com`,
+    description: `Compara los mejores préstamos, créditos y seguros de auto en México. Aprende sobre educación financiera y mejora tus finanzas personales. ¡Compara ahora!`,
     author: `@edchavezb`,
+    keywords: [
+      'préstamos personales en México',
+      'seguros de auto en México',
+      'cómo obtener un préstamo personal en México',
+      'cómo comparar seguros de auto en México',
+      'mejores préstamos personales en México',
+      'mejores seguros de auto en México',
+      'préstamos personales rápidos y fáciles',
+      'seguros de auto baratos',
+      'préstamos personales en línea',
+      'educación financiera',
+      'finanzas personales',
+      'mejorar tus finanzas en México'
+    ]
   },
   plugins: [
     `gatsby-plugin-mdx`,
@@ -23,7 +37,7 @@ module.exports = {
     // {
     //   resolve: 'gatsby-plugin-gtag',
     //   options: {
-    //     trackingId: 'G-F9ZWN5BH73',
+    //     trackingId: 'G-TZERK25DRT',
     //     head: true,
     //     anonymize: true,
     //   }
@@ -40,13 +54,13 @@ module.exports = {
       resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
         googleAnalytics: {
-          trackingId: 'G-F9ZWN5BH73', // leave empty if you want to disable the tracker
+          trackingId: 'G-TZERK25DRT', // leave empty if you want to disable the tracker
           cookieName: 'gatsby-gdpr-google-analytics', // default
           anonymize: true, // default
           allowAdFeatures: false // default
         },
         googleTagManager: {
-          trackingId: 'G-F9ZWN5BH73', // leave empty if you want to disable the tracker
+          trackingId: 'GTM-55ZH62G7', // leave empty if you want to disable the tracker
           cookieName: 'gatsby-gdpr-google-tagmanager', // default
           dataLayerName: 'dataLayer', // default
         },        
