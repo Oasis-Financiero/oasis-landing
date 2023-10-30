@@ -36,11 +36,11 @@ El ahorro para emergencias es una forma de diversificación financiera. No debes
 
 Determinar cuánto debes ahorrar depende de varios factores, como tus gastos mensuales, tus responsabilidades familiares y tus fuentes de ingresos. Sin embargo, se recomienda que tu fondo de emergencia cubra al menos de 3 a 6 meses de gastos. Aquí hay una regla general basada en tu salario:<br/><br/>
 
-Ingreso Bajo o Variable: Si tienes un ingreso variable o bajo, puedes comenzar ahorrando al menos el 10% de tus ingresos mensuales.
+**Ingreso Bajo o Variable:** Si tienes un ingreso variable o bajo, puedes comenzar ahorrando al menos el 10% de tus ingresos mensuales.
 
-Ingreso Promedio: Si tienes un salario promedio, apunta a ahorrar al menos el 15% de tus ingresos mensuales.
+**Ingreso Promedio:** Si tienes un salario promedio, apunta a ahorrar al menos el 15% de tus ingresos mensuales.
 
-Ingreso Alto: Si ganas un salario alto, puedes apuntar a ahorrar el 20% o más de tus ingresos mensuales.<br/><br/>
+**Ingreso Alto:** Si ganas un salario alto, puedes apuntar a ahorrar el 20% o más de tus ingresos mensuales.<br/><br/>
 
 **Usos del Fondo de Emergencia:**<br/><br/>
 
