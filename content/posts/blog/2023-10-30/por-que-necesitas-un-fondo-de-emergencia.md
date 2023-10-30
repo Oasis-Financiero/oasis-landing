@@ -46,11 +46,11 @@ Determinar cuánto debes ahorrar depende de varios factores, como tus gastos men
 
 Un fondo de emergencia debe utilizarse exclusivamente para situaciones imprevistas y necesidades críticas. Algunos ejemplos de usos apropiados incluyen:<br/><br/>
 
-Gastos médicos inesperados.
-Reparaciones del hogar, automóvil o electrodomésticos.
-Pérdida de empleo.
-Gastos inesperados relacionados con educación o cuidado de niños.
-Desastres naturales y emergencias familiares.<br/><br/>
+* Gastos médicos inesperados.
+* Reparaciones del hogar, automóvil o electrodomésticos.
+* Pérdida de empleo.
+* Gastos inesperados relacionados con educación o cuidado de niños.
+* Desastres naturales y emergencias familiares.<br/><br/>
 
 **Dónde Puedes Ahorrar:**<br/><br/>
 
@@ -69,8 +69,6 @@ Una caja de ahorro es una institución financiera no bancaria que ofrece servici
 Un ahorro a plazo fijo es un depósito a un banco que se mantiene durante un período de tiempo determinado. Los ahorros a plazo fijo suelen ofrecer rendimientos más altos que las cuentas de ahorro tradicionales.<br/><br/>
 
 Un fondo de ahorro para emergencias es una parte esencial de tu salud financiera. Te proporciona una red de seguridad crucial en momentos de crisis y te permite mantener la estabilidad económica. A medida que ahorras, recuerda ajustar el porcentaje según tu situación personal y laboral. No subestimes el poder de la preparación financiera: un fondo de emergencia sólido es un faro de estabilidad en tiempos turbulentos.<br/><br/>
-
-
 
 T﻿e recomendamos:
 
