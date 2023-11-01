@@ -17,19 +17,19 @@ El **Día de Muertos** en México es una festividad profundamente arraigada en l
 
 El Día de Muertos es una tradición que combina elementos culturales indígenas y católicos, y su celebración se caracteriza por la creación de ofrendas elaboradas en los hogares y visitas a los cementerios para decorar las tumbas de los seres queridos. Estos rituales implican la compra de diversos productos y servicios, lo que ha llevado a un aumento en los gastos durante esta época del año.<br/><br/>
 
-**El impacto de los precios en la celebración del Día de Muertos.**<br/><br/>
+## **El impacto de los precios en la celebración del Día de Muertos.**<br/><br/>
 
 Según un estudio realizado por la Alianza Nacional de Pequeños Comerciantes (Anpec), el gasto promedio para celebrar el Día de Muertos en México se sitúa alrededor de 1,100 pesos. Sin embargo, este año, debido al aumento de los precios de los productos tradicionales, se espera que el gasto alcance los 1,500 pesos o incluso más.<br/><br/>
 
 Uno de los elementos esenciales de la celebración son las flores, que se utilizan para decorar los altares y las tumbas. Sin embargo, los precios de las flores han aumentado significativamente, alcanzando hasta un 50% de incremento en comparación con años anteriores. Esto ha impactado en el presupuesto de las familias que buscan mantener viva esta tradición.<br/><br/>
 
-Además de las flores, los alimentos tradicionales desempeñan un papel importante en la festividad. El pan de muerto y la calabaza en tacha son comidas emblemáticas de esta celebración, pero también han experimentado un aumento de precios, lo que afecta aún más a los presupuestos familiares.
+Además de las flores, los alimentos tradicionales desempeñan un papel importante en la festividad. El pan de muerto y la calabaza en tacha son comidas emblemáticas de esta celebración, pero también han experimentado un aumento de precios, lo que afecta aún más a los presupuestos familiares.<br/><br/>
 
-**El reto para las familias mexicanas.**<br/><br/>
+### **El reto para las familias mexicanas.**<br/><br/>
 
 Este aumento de precios en los productos y servicios asociados con el Día de Muertos se suma a los desafíos económicos que ya enfrentan las familias mexicanas, como la inflación y la crisis económica. Para muchas de ellas, el Día de Muertos es una festividad que no están dispuestas a abandonar, ya que representa una conexión profunda con sus raíces y sus seres queridos fallecidos. Sin embargo, el incremento de los precios ha hecho que sea más difícil para muchas familias celebrar la festividad de la misma manera que lo hacían en el pasado.<br/><br/>
 
-**Consejos para celebrar el Día de Muertos de manera económica.**<br/><br/>
+### **Consejos para celebrar el Día de Muertos de manera económica.**<br/><br/>
 
 Si estás buscando formas de mantener viva la tradición del Día de Muertos sin gastar demasiado, aquí tienes algunos consejos prácticos:<br/><br/>
 
@@ -44,6 +44,6 @@ El Día de Muertos es una festividad rica en tradición y significado para las f
 
 T﻿e recomendamos leer:<br/><br/>
 
-#### [Cómo crear un presupuesto que funcione para ti.](https://oasisfinanciero.com/blog/2023-11-01/como-crear-un-presupuesto-que-funcione-para-ti/)
+#### **[Cómo crear un presupuesto que funcione para ti.](https://oasisfinanciero.com/blog/2023-11-01/como-crear-un-presupuesto-que-funcione-para-ti/)**
 
 [](https://oasisfinanciero.com/blog/2023-11-01/como-crear-un-presupuesto-que-funcione-para-ti/)<!--EndFragment-->
