@@ -81,3 +81,11 @@ Finalmente, la disciplina es esencial en la gestión de un presupuesto. Mantener
 Crear un presupuesto es una habilidad esencial para tomar el control de tus finanzas personales. Al seguir estos consejos, podrás crear un presupuesto que funcione para ti y que te ayude a alcanzar tus objetivos financieros.
 
 <!--EndFragment-->
+
+T﻿e recomendamos leer:
+
+<!--StartFragment-->
+
+### **[¿Por qué necesitas un fondo de emergencia?](https://oasisdev.netlify.app/blog/2023-10-30/por-que-necesitas-un-fondo-de-emergencia/)**
+
+[](https://oasisdev.netlify.app/blog/2023-10-30/por-que-necesitas-un-fondo-de-emergencia/)<!--EndFragment-->
