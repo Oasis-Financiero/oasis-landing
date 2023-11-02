@@ -16,7 +16,7 @@ tags:
 
 El ahorro para el retiro es una de las principales preocupaciones financieras de las personas en México. Sin embargo, las mujeres tienen una desventaja significativa en este aspecto, ya que tienen un saldo promedio 24% menor en sus cuentas Afore que los hombres.<br/><br/>
 
-**Causas de la brecha de género:**<br/><br/>
+### **Causas de la brecha de género:**<br/><br/>
 
 Existen una serie de factores que contribuyen a la brecha de género en el ahorro para el retiro. Entre ellos se encuentran:<br/><br/>
 
@@ -24,7 +24,7 @@ Existen una serie de factores que contribuyen a la brecha de género en el ahorr
 * **Las mujeres suelen tener una mayor carga de trabajo doméstico y de cuidado de personas dependientes.** Esto les deja menos tiempo y recursos para ahorrar para su retiro. La sobrecarga de responsabilidades domésticas y de cuidado puede limitar las posibilidades de las mujeres para participar en la fuerza laboral y contribuir de manera significativa a sus ahorros para la jubilación. Fomentar la corresponsabilidad en el hogar y brindar apoyo en forma de servicios de cuidado de calidad puede aliviar esta carga y permitir a las mujeres enfocarse en su futuro financiero.<br/><br/>
 * **Las mujeres suelen vivir más años que los hombres.** Por lo tanto, necesitan ahorrar más dinero para cubrir sus gastos durante la jubilación. Aunque la longevidad es un aspecto positivo, también plantea desafíos financieros adicionales para las mujeres. Es esencial que las mujeres tomen conciencia de esta realidad y planifiquen en consecuencia, ajustando sus metas de ahorro para reflejar sus expectativas de vida más larga.<br/><br/>
 
-**Consejos para las mujeres que quieren ahorrar más para el retiro:**<br/><br/>
+### **Consejos para las mujeres que quieren ahorrar más para el retiro:**<br/><br/>
 
 Las mujeres que quieren ahorrar más para el retiro pueden tomar las siguientes medidas:<br/><br/>
 
