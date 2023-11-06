@@ -71,19 +71,30 @@ function IndexPage({ data }) {
     <>
       <Layout>
         <SEO
-          keywords={[`home`, `préstamos`, 'préstamos personales en México',
-      'seguros de auto en México',
-      'cómo obtener un préstamo personal en México',
-      'cómo comparar seguros de auto en México',
-      'mejores préstamos personales en México',
-      'mejores seguros de auto en México',
-      'préstamos personales rápidos y fáciles',
-      'seguros de auto baratos',
-      'préstamos personales en línea',
+          keywords={['ia',
+      'ahorro',
+      'finanzas',
+      'asesor',
+      'financiero',
+      'inversión',
+      'crédito',
+      'calculadora',
+      'deuda',
+      'seguro',
+      'seguros',
+      'prestamos',
+      'préstamos',
+      'seguro de vida',
       'educación financiera',
       'finanzas personales',
-      'mejorar tus finanzas en México']}
-          title="Compara préstamos, seguros de auto y aprende finanzas personales."
+      'información financiera',
+      'prestamos personales',
+      'préstamo personal',
+      'seguros de auto',
+      'mejores préstamos personales en México',
+      'mejores seguros de auto en México',
+      'préstamos personales en línea',]}
+          title="Compara préstamos, seguros y aprende sobre ahorro, inversión y finanzas."
         />
 
         <section id={styles.hero}>

@@ -17,6 +17,13 @@ import auto from '../../../../images/seguros-auto/auto.webp'
 const SeguroAuto = ({ data }) => {
     return (
         <Layout page='seguro'>
+ <SEO
+        keywords={[`Seguro`, `seguros`, `auto`, `seguros de auto`, `coberturas`, `compara`, `póliza`, `Cotizar`, `cotizar seguros de auto`, `aseguradoras`,
+          ]}
+        title="Compara Seguros de Auto | Diferentes Aseguradoras en Oasis Financiero"
+        description="En Oasis Financiero, compara seguros de auto de diferentes aseguradoras en México. Obtén cotizaciones, compara coberturas y encuentra la mejor póliza para tu vehículo."
+      />
+        
 
             <div className="flex flex-col-reverse md:flex-row justify-center items-center p-12 w-full gap-6">
                 <div className=" flex flex-col justify-center gap-10 lg:mx-56 md:relative left-10 w-full">

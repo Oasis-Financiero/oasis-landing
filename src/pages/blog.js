@@ -107,9 +107,13 @@ function BlogPage({ data }) {
   return (
     <Layout page="blog">
       <SEO
-        keywords={[`home`, `fintech`, `finanzas`, `personales`, `bancos`]}
-        title="Blog"
-        description="El blog de Oasis te ayuda a aprender todo lo que necesitas saber sobre educación financiera."
+        keywords={[`Ahorro`, `Inversión`, `finanzas`, `Préstamos`, `Seguros`, `Educación financiera`, `Finanzas personales`, `Consejos financieros`, `Guías financieras`, `Cómo ahorrar dinero`, `Cómo invertir en la bolsa`
+         `Cómo obtener un préstamo`,
+          `Cómo comprar un seguro de auto`,
+          `Cómo planificar la jubilación`,
+          ]}
+        title="Blog Oasis Financiero | Aprende sobre ahorro, inversión y finanzas."
+        description="Descubre consejos, artículos y guías para mejorar tus finanzas. Aprende sobre ahorro, inversión, préstamos, seguros y más. Inicia tu educación financiera aquí."
       />
 
       <section id={styles.hero}>
