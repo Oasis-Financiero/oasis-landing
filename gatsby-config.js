@@ -9,7 +9,7 @@ const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
   siteMetadata: {
-  title: `Compara préstamos, seguros y aprende sobre ahorro, inversión y finanzas.`,
+  title: 
     siteUrl: `https://www.oasisfinanciero.com`,
     description: `Compara préstamos y seguros, y adquiere conocimientos sobre ahorro, inversión y finanzas en Oasis Financiero, tu socio en el camino hacia la estabilidad financiera.`,
     author: `@edchavezb`,
