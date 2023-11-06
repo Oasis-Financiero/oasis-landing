@@ -10,33 +10,10 @@ const fullConfig = resolveConfig(tailwindConfig);
 module.exports = {
   siteMetadata: {
   title: 
-    siteUrl: `https://www.oasisfinanciero.com`,
-    description: `Compara préstamos y seguros, y adquiere conocimientos sobre ahorro, inversión y finanzas en Oasis Financiero, tu socio en el camino hacia la estabilidad financiera.`,
+    siteUrl: 
+    description: 
     author: `@edchavezb`,
     keywords: [
-      'ia',
-      'ahorro',
-      'finanzas',
-      'asesor',
-      'financiero',
-      'inversión',
-      'crédito',
-      'calculadora',
-      'deuda',
-      'seguro',
-      'seguros',
-      'prestamos',
-      'préstamos',
-      'seguro de vida',
-      'educación financiera',
-      'finanzas personales',
-      'información financiera',
-      'prestamos personales',
-      'préstamo personal',
-      'seguros de auto',
-      'mejores préstamos personales en México',
-      'mejores seguros de auto en México',
-      'préstamos personales en línea',
     ]
   },
   plugins: [
