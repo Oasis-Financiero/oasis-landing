@@ -95,6 +95,7 @@ function IndexPage({ data }) {
       'mejores seguros de auto en México',
       'préstamos personales en línea',]}
           title="Compara préstamos, seguros y aprende sobre ahorro, inversión y finanzas."
+             canonical: "https://www.oasisfinanciero.com",
         />
 
         <section id={styles.hero}>
