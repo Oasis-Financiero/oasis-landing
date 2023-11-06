@@ -37,8 +37,6 @@ module.exports = {
       'mejores préstamos personales en México',
       'mejores seguros de auto en México',
       'préstamos personales en línea',
- canonical: "https://www.oasisfinanciero.com",
- 
     ]
 
   },
