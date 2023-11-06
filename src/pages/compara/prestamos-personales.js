@@ -34,10 +34,12 @@ const PrestamosPersonales = () => {
     return (
         <>
             <Layout page='compara'>
-            title: `Compara Préstamos personales | Tasas, comisiones y solicitud en línea`,
-             description:  `Compara y solicita préstamos personales en línea. Conoce las tasas de interés y montos disponibles. Sin comisión por apertura, encuentra los mejores créditos personales en México.`,
-              keywords:['préstamo', 'préstamos', 'préstamos personales', 'prestamos', 'prestamos en línea', 'Comparar préstamos personales', 'Solicitar préstamos en línea',
-        
+        <SEO
+            title= "Compara Préstamos personales | Tasas, comisiones y solicitud en línea."
+             description= `Compara y solicita préstamos personales en línea. Conoce las tasas de interés y montos disponibles. Sin comisión por apertura, encuentra los mejores créditos personales en México.`,
+               keywords={['préstamo', 'préstamos', 'préstamos personales', 'prestamos', 'prestamos en línea', 'Comparar préstamos personales', 'Solicitar préstamos en línea',   ]}
+      />
+                        
                 <div className="flex flex-col gap-10 md:gap-0 animate-fade-down animate-once w-full">
 
                     <div className='flex flex-col justify-center lg:flex lg:justify-center lg:items-center'>
