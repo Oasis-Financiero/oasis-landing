@@ -16,8 +16,7 @@ import ContactForm from "../../components/styled/ContactForm/ContactForm";
 import { Link } from "gatsby";
 import Modal from "../../components/modal";
 
-// Importa la componente SEO
-import SEO from "../../components/SEO";
+
 
 const PrestamosPersonales = () => {
     const [loanAmount, setLoanAmount] = useState(1000)
