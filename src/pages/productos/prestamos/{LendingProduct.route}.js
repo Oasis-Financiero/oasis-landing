@@ -21,7 +21,6 @@ import finanBanner from '../../../images/products/banners/18.png'
 import AppEscampa from "../../../components/styled/FAQs/FAQsProducts/FAQsEscampa";
 import Modal from "../../../components/modal";
 
-
 const LendingProduct = ({ data }) => {
 
   const [modalData, setModalData] = useState({
@@ -40,7 +39,6 @@ const LendingProduct = ({ data }) => {
     const queryStringPath = window.location.pathname
     type = queryStringPath.slice(21)
   }
-
 
   const { lendingProduct } = data;
   const { id, name } = lendingProduct;
@@ -119,7 +117,6 @@ const LendingProduct = ({ data }) => {
             <h1 className="flex justify-center" id={style.faq}>FAQs</h1>
             {questions}
           </div>
-
 
           <div className="w-full flex flex-col justify-center items-center md:p-14">
 

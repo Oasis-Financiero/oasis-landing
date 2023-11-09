@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
 import Modal from "../components/modal";
-import SEO from "../components/seo";
+import SEO from "../components/SEO";
 import PropTypes from "prop-types";
 import PostList from "../components/post-list";
 import mainhero from "../images/landing/mainhero.png"
@@ -73,7 +73,7 @@ function IndexPage({ data }) {
         <SEO
           keywords={['ia', 'ahorro', 'finanzas', 'asesor', 'financiero', 'inversión', 'crédito', 'calculadora', 'deuda', 'seguro', 'seguros', 'prestamos', 'préstamos', 'seguro de vida', 'educación financiera', 'finanzas personales', 'información financiera', 'prestamos personales', 'préstamo personal', 'seguros de auto', 'mejores préstamos personales en México', 'mejores seguros de auto en México', 'préstamos personales en línea',]}
           title="Compara Préstamos, Seguros y Descubre el Mundo del ahorro y finanzas"
-             canonical="https://www.oasisfinanciero.com",
+          canonical="https://www.oasisfinanciero.com"
         />
 
         <section id={styles.hero}>
