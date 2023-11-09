@@ -42,3 +42,9 @@ Además, los usuarios ahora pueden crear múltiples "Cajitas Nu". Esta función 
 La evolución de Cuenta Nu refleja el compromiso de Nu México de escuchar a sus clientes y brindarles productos que fomenten el ahorro y la educación financiera. La combinación de una tasa de interés más alta y la flexibilidad de las "Cajitas múltiples" hace que Cuenta Nu sea una solución líder para aquellos que desean administrar sus finanzas de manera efectiva.<br/><br/>
 
 La actualización de la aplicación permitirá a los usuarios crear múltiples "Cajitas Nu" para una planificación financiera más efectiva. Para transferir fondos a estas Cajitas, los clientes de Nu solo necesitan seguir unos sencillos pasos en la aplicación, lo que les brindará una mayor flexibilidad y control sobre sus ahorros. Con estas mejoras, Nu México se posiciona como un referente en el sector financiero al ofrecer una solución completa que satisface las necesidades de sus clientes.<br/><br/>
+
+**T﻿e recomendamos leer:** .<br/><br/>
+
+### **[Cómo crear un presupuesto que funcione para ti.](https://oasisfinanciero.com/blog/2023-11-01/como-crear-un-presupuesto-que-funcione-para-ti/)**
+
+[](https://oasisfinanciero.com/blog/2023-11-01/como-crear-un-presupuesto-que-funcione-para-ti/)<!--EndFragment-->
