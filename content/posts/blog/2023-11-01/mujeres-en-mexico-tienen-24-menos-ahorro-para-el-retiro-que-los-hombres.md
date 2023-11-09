@@ -39,6 +39,6 @@ La brecha de género en el ahorro para el retiro es un problema que afecta a mil
 
 **T﻿e recomendamos leer:<br/><br/>**
 
-#### **[¿Por qué necesitas un fondo de emergencia?](https://oasisdev.netlify.app/blog/2023-10-30/por-que-necesitas-un-fondo-de-emergencia/)**
+### **[¿Por qué necesitas un fondo de emergencia?](https://oasisfinanciero.com/blog/2023-10-30/por-que-necesitas-un-fondo-de-emergencia/)**
 
 <!--EndFragment-->
