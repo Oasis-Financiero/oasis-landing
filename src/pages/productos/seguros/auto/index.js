@@ -19,7 +19,7 @@ const SeguroAuto = ({ data }) => {
     return (
         <Layout page='seguro'>
             <SEO
-                keywords={[`Seguro`, `seguros`, `auto`, `seguros de auto`, `coberturas`, `compara`, `póliza`, `Cotizar`, `cotizar seguros de auto`, `aseguradoras`,
+                keywords={[`Seguro`, `seguros`, `auto`, `seguros de auto`, `coberturas`, `compara`, `póliza`, `Cotizar`, `cotizar seguros de auto`, `aseguradoras`, `cobertura amplia`,
                 ]}
                 title="Compara Seguros de Auto | Diferentes Aseguradoras en Oasis Financiero"
                 description="En Oasis Financiero, compara seguros de auto de diferentes aseguradoras en México. Obtén cotizaciones, compara coberturas y encuentra la mejor póliza para tu vehículo."
@@ -31,7 +31,7 @@ const SeguroAuto = ({ data }) => {
                         style={{ fontFamily: 'Poppins', color: colors.brand1 }}>Cotiza tu seguro de auto y <span style={{ color: colors.resalte1 }}>elige el que te convenga</span> en un par de minutos</h1>
                     <h3 className="lg:w-[446px] text-[16px] w-full"
                         style={{ fontFamily: 'Poppins', color: colors.brand1 }}>
-                        Compara 20 aseguradoras en segundos, contrata en línea <span className="font-bold">sin complicaciones</span> y paga a 3, 6 y 12 meses sin intereses.</h3>
+                        Compara diversas aseguradoras en segundos, contrata en línea <span className="font-bold">sin complicaciones</span> y paga a 3, 6 y 12 meses sin intereses.</h3>
                     <Link to="https://www.guros.com/?PROMOCODE=OASISFINANCIERO&utm_source=oasisfinanciero_landing&utm_medium=boton_landing&utm_campaign=guros_agosto2023" target="_blank"><AppButton
                         tag="Cotizar"
                     /></Link>
