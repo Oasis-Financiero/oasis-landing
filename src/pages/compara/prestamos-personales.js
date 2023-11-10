@@ -108,6 +108,23 @@ const PrestamosPersonales = () => {
                 </div>
               </div>
 
+                {/* Nueva sección */}
+      <div className="mt-8">
+        <ol className="list-decimal list-inside">
+          <li>Para Consolidar Deudas: "Consolida tus deudas de manera inteligente. Compara y solicita préstamos personales en línea para simplificar tus finanzas."</li>
+          <li>Mejora tu Hogar: "Transforma tu hogar con un préstamo personal. Compara opciones en línea y realiza esas mejoras que siempre has deseado."</li>
+          <li>Educación Continua: "Invierte en tu futuro educativo. Compara préstamos en línea y asegura el financiamiento para tu próxima etapa académica."</li>
+          <li>Gastos Médicos Inesperados: "Ante gastos médicos imprevistos, un préstamo personal puede ser tu salvavidas. Compara opciones y toma el control de tu salud."</li>
+          <li>Emergencias del Hogar: "Frente a reparaciones inesperadas en el hogar, un préstamo puede ser la solución. Encuentra la mejor opción en línea."</li>
+          <li>Para Emprender: "Haz realidad tus sueños empresariales con un préstamo personal. Compara y elige la financiación adecuada para tu emprendimiento."</li>
+          <li>Viaje Inolvidable: "Haz ese viaje soñado con un préstamo personal en línea. Compara y elige la opción que te acerque a nuevas experiencias."</li>
+          <li>Adquisición de Tecnología: "Mantente actualizado con la última tecnología. Compara préstamos en línea para obtener los gadgets que necesitas."</li>
+          <li>Celebraciones Especiales: "Haz de tus momentos especiales algo aún más grandioso. Encuentra el préstamo perfecto para celebraciones inolvidables."</li>
+          <li>Mejora de Crédito: "Impulsa tu historial crediticio positivamente. Compara y solicita préstamos personales para mejorar tu situación financiera."</li>
+        </ol>
+      </div>
+    </div>
+
               <div className="w-[202px] flex absolute bottom-[427px] right-[55px] md:w-[333px] md:bottom-0 sm:right-0 lg:left-[650px] transition animate-fade-down ">
                 <img src={woman} alt="woman" />
               </div>
