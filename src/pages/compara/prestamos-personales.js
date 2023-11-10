@@ -46,7 +46,7 @@ const PrestamosPersonales = () => {
         <div className="flex flex-col gap-10 md:gap-0 animate-fade-down animate-once w-full">
           <div className='flex flex-col justify-center lg:flex lg:justify-center lg:items-center'>
             <div className="flex-col justify-center items-start md:p-[80px]">
-              <h1 id={style.title}>Préstamos personales para <span id={style.word}>surfear</span> las emergencias</h1>
+              <h1 id={style.title}>Encuentra el préstamo perfecto para tus necesidades.</h1>
               <div className="flex flex-col justify-center items-center p-2 md:flex md:flex-row md:gap-4 w-full">
                 <Calculator
                   loanAmount={loanAmount}
@@ -100,11 +100,11 @@ const PrestamosPersonales = () => {
           <div className="flex justify-center p-4 pt-[250px] md:pt-[150px]">
             <div className="flex flex-row w-full lg:w-[1080px] h-[427px] rounded-[25px] relative" style={{ backgroundColor: colors.fdoMdo }}>
               <div className="flex flex-col gap-4 lg:w-[640px] p-8 md:pt-16 w-[540px]">
-                <h1 id={style.discover} className="text-white">Descubre y compara los mejores productos financieros en México</h1>
-                <span id={style.discoverSub} className="text-white">Ahorra tiempo, dinero y toma decisiones informadas. ¡Encuentra el producto perfecto para tus necesidades hoy mismo!</span>
+                <h1 id={style.discover} className="text-white">Compara y solicita préstamos personales en línea.</h1>
+                <span id={style.discoverSub} className="text-white">Ahorra tiempo, dinero y toma decisiones informadas. ¡Encuentra el préstamo perfecto para tus necesidades hoy mismo!</span>
                 <div className="flex flex-col gap-4 lg:flex-row md:gap-10">
-                  <span id={style.discoverLink} className="text-white flex flex-row items-center gap-2"><IoIosArrowDroprightCircle />Prestamos personales</span>
-                  <span id={style.discoverLink} className="text-white flex flex-row items-center gap-2"><IoIosArrowDroprightCircle />Seguros de auto</span>
+                  <span id={style.discoverLink} className="text-white flex flex-row items-center gap-2"><IoIosArrowDroprightCircle />Para Consolidar Deudas</span>
+                  <span id={style.discoverLink} className="text-white flex flex-row items-center gap-2"><IoIosArrowDroprightCircle />Gastos Médicos Inesperados</span>
                 </div>
               </div>
 
