@@ -82,7 +82,7 @@ function IndexPage({ data }) {
               <div id={styles.textWrapper}>
                 <h1 className={styles.title} id={styles.heroFirstLine}> Nosotros te ayudamos con tu caos financiero </h1>
                 <p className={styles.sectionDetails} id={styles.heroParagraph}>
-                  Oasis es el primer sitio en México que te acompaña paso a paso en el viaje para mejorar tus finanzas. Todo en un solo lugar. Sin complicaciones.
+                   En Oasis, nos dedicamos a guiar tu camino hacia el ahorro inteligente, inversiones sólidas y el control total de tus finanzas.
                 </p>
                 <div id={styles.heroButtons}>
                   <button className={styles.purpleBtn} onClick={scrollHandler}> Únete ahora </button>
