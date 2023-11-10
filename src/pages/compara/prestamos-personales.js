@@ -44,7 +44,7 @@ const PrestamosPersonales = () => {
         <div className="flex flex-col gap-10 md:gap-0 animate-fade-down animate-once w-full">
           <div className='flex flex-col justify-center lg:flex lg:justify-center lg:items-center'>
             <div className="flex-col justify-center items-start md:p-[80px]">
-              <h1 id={style.title}>Encuentra el <span style="color: #a86eff;">préstamo</span> perfecto para ti </h1>
+              <h1 id={style.title}>Encuentra el préstamo perfecto para ti </h1>
               <div className="flex flex-col justify-center items-center p-2 md:flex md:flex-row md:gap-4 w-full">
                 <Calculator
                   loanAmount={loanAmount}
