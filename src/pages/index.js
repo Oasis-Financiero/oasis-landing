@@ -72,8 +72,8 @@ function IndexPage({ data }) {
       <Layout>
         <SEO
           keywords={['ia', 'ahorro', 'finanzas', 'asesor', 'financiero', 'inversión', 'crédito', 'calculadora', 'deuda', 'seguro', 'seguros', 'prestamos', 'préstamos', 'seguro de vida', 'educación financiera', 'finanzas personales', 'información financiera', 'prestamos personales', 'préstamo personal', 'seguros de auto', 'mejores préstamos personales en México', 'mejores seguros de auto en México', 'préstamos personales en línea',]}
-          title="Compara préstamos, seguros y aprende sobre ahorro, inversión y finanzas."
-             canonical="https://www.oasisfinanciero.com",
+          title="Compara Préstamos, Seguros y Descubre el Mundo del ahorro y finanzas"
+          canonical="https://www.oasisfinanciero.com"
         />
 
         <section id={styles.hero}>

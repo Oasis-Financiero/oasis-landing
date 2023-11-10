@@ -1,12 +1,10 @@
 import React from "react";
 import { graphql } from "gatsby"
 import PropTypes from "prop-types";
-
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import PostList from "../components/post-list";
 import * as styles from "./blog.module.css";
-
 import treelearner from "../images/blog/treelearner.png"
 
 export const query = graphql`
@@ -107,11 +105,22 @@ function BlogPage({ data }) {
   return (
     <Layout page="blog">
       <SEO
-        keywords={[`Ahorro`, `Inversión`, `finanzas`, `Préstamos`, `Seguros`, `Educación financiera`, `Finanzas personales`, `Consejos financieros`, `Guías financieras`, `Cómo ahorrar dinero`, `Cómo invertir en la bolsa`
-         `Cómo obtener un préstamo`,
+        keywords={[
+          `Ahorro`,
+          `Inversión`,
+          `finanzas`,
+          `Préstamos`,
+          `Seguros`,
+          `Educación financiera`,
+          `Finanzas personales`,
+          `Consejos financieros`,
+          `Guías financieras`,
+          `Cómo ahorrar dinero`,
+          `Cómo invertir en la bolsa`,
+          `Cómo obtener un préstamo`,
           `Cómo comprar un seguro de auto`,
           `Cómo planificar la jubilación`,
-          ]}
+        ]}
         title="Blog Oasis Financiero | Aprende sobre ahorro, inversión y finanzas."
         description="Descubre consejos, artículos y guías para mejorar tus finanzas. Aprende sobre ahorro, inversión, préstamos, seguros y más. Inicia tu educación financiera aquí."
       />
@@ -140,18 +149,18 @@ function BlogPage({ data }) {
           </div>
 
           <section>
-            <div className={styles.blogPostsWrapper}> 
+            <div className={styles.blogPostsWrapper}>
               <PostList posts={data.upper.nodes} authors={data.authors.nodes} style="double-card" />
             </div>
 
-            <div className={styles.centralBlogPostWrapper}> 
+            <div className={styles.centralBlogPostWrapper}>
               <PostList posts={data.central.nodes} authors={data.authors.nodes} style="central-blogpost" />
             </div>
 
-            <div className={styles.blogPostsWrapper}> 
+            <div className={styles.blogPostsWrapper}>
               <PostList posts={data.lower.nodes} authors={data.authors.nodes} style="double-card" />
             </div>
-            
+
           </section>
 
           <section id={styles.bestPosts}>
