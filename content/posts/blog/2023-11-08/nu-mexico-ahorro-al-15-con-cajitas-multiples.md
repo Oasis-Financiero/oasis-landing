@@ -13,7 +13,7 @@ tags:
 ---
 **Nu México**, la empresa líder en finanzas digitales transparentes y centradas en las necesidades del cliente, ha anunciado un emocionante cambio en su Cuenta Nu. <br/><br/>
 
-A partir de hoy, los clientes podrán disfrutar de una tasa de interés fija anual del 15%, una de las más altas en el mercado financiero. Esta mejora no solo incrementará los rendimientos de los ahorros de los clientes, sino que también introducirá la opción de "Cajitas múltiples" en su aplicación, permitiendo una planificación financiera más flexible y efectiva.<br/><br/>
+Los clientes podrán disfrutar de una tasa de interés fija anual del 15%, una de las más altas en el mercado financiero. Esta mejora no solo incrementará los rendimientos de los ahorros de los clientes, sino que también introducirá la opción de "Cajitas múltiples" en su aplicación, permitiendo una planificación financiera más flexible y efectiva.<br/><br/>
 
 ### La Cajita de Cuenta Nu.
 
