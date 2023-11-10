@@ -101,8 +101,10 @@ const PrestamosPersonales = () => {
                 <h1 id={style.discover} className="text-white">Compara y solicita préstamos personales en línea.</h1>
                 <span id={style.discoverSub} className="text-white">Ahorra tiempo, dinero y toma decisiones informadas. ¡Encuentra el préstamo perfecto para tus necesidades hoy mismo!</span>
                 <div className="flex flex-col gap-4 lg:flex-row md:gap-10">
-                  <span id={style.discoverLink} className="text-white flex flex-row items-center gap-2"><IoIosArrowDroprightCircle />Prestamos personales</span>
-                  <span id={style.discoverLink} className="text-white flex flex-row items-center gap-2"><IoIosArrowDroprightCircle />Seguros de auto</span>
+                  <span id={style.discoverLink} className="text-white flex flex-row items-center gap-2"><IoIosArrowDroprightCircle />Para Consolidar Deudas</span>
+                  <span id={style.discoverLink} className="text-white flex flex-row items-center gap-2"><IoIosArrowDroprightCircle />Gastos Médicos Inesperados</span>
+                  <span id={style.discoverLink} className="text-white flex flex-row items-center gap-2"><IoIosArrowDroprightCircle />Emergencias del Hogara</span>
+                  <span id={style.discoverLink} className="text-white flex flex-row items-center gap-2"><IoIosArrowDroprightCircle />Educación Continua</span>
                 </div>
               </div>
 
