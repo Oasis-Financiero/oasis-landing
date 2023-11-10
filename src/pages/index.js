@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
 import Modal from "../components/modal";
-import SEO from "../components/SEO";
+import SEO from "../components/seo";
 import PropTypes from "prop-types";
 import PostList from "../components/post-list";
 import mainhero from "../images/landing/mainhero.png"

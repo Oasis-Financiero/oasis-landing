@@ -15,7 +15,7 @@ import AppSecondaryCalculator from "../../components/styled/SecondaryCalculator/
 import ContactForm from "../../components/styled/ContactForm/ContactForm";
 import { Link } from "gatsby";
 import Modal from "../../components/modal";
-import SEO from "../../components/SEO";
+import SEO from "../../components/seo";
 
 const PrestamosPersonales = () => {
   const [loanAmount, setLoanAmount] = useState(1000)

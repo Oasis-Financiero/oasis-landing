@@ -2,10 +2,9 @@ import React from "react";
 import { graphql } from "gatsby"
 import PropTypes from "prop-types";
 import Layout from "../components/layout";
-import SEO from "../components/SEO";
+import SEO from "../components/seo";
 import PostList from "../components/post-list";
 import * as styles from "./blog.module.css";
-
 import treelearner from "../images/blog/treelearner.png"
 
 export const query = graphql`

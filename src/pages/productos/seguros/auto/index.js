@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql } from 'gatsby';
 import Layout from "../../../../components/layout";
-import SEO from "../../../../components/SEO";
+import SEO from "../../../../components/seo";
 import CardsInsuranceTypes from "../../../../components/styled/CardTypeSecure/CardsInsuranceTypes";
 import InformativeText from "../../../../components/styled/InformativeText/InformativeText";
 import RelevantPoints from "../../../../components/styled/RelevantPoints/RelevantPoints";
