@@ -99,13 +99,13 @@ function IndexPage({ data }) {
         <section id={styles.oasisCompare}>
           <div id={styles.compareTextWrapper}>
             <div id={styles.compareHeader} className={styles.sectionHeader}>
-              Compara y ahorra
+              Toma el control de tus finanzas
             </div>
             <div id={styles.compareTitle} className={styles.title}>
-              Descubre diversas opciones según tus necesidades
+              Compara y Encuentra las Mejores Opciones Financieras para Ti
             </div>
             <div id={styles.compareDetails} className={styles.sectionDetails}>
-              Personaliza tu experiencia y conoce los mejores instrumentos financieros para el beneficio de tu economía.
+              Descubre una variedad de opciones financieras adaptadas a tus necesidades. Personaliza tu experiencia explorando los mejores instrumentos financieros que beneficiarán tu economía. En Oasis te proporcionamos las herramientas para que compares y tomes decisiones financieras informadas.
             </div>
           </div>
           <div id={styles.compareItemsWrapper}>
