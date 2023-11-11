@@ -78,13 +78,9 @@ Los préstamos con Fidea se pueden pedir para una amplia gama de propósitos, co
 
    * En caso de aprobación, el dinero se deposita en tu cuenta en un plazo de 24-48 horas, ofreciendo una solución rápida para tus necesidades financieras.<br/><br/>
 
-D﻿a clic aquí y solicita tu préstamo
+**¡Solicita tu préstamo ahora!**
 
-![](pushnotif-450x250.jpg)
-
-
-
-
+[![Banner préstamos fidea](pushnotif-450x250.jpg "D﻿a clic aquí y solicita tu préstamo con Fidea")](https://bit.ly/475iDsE)
 
 <br/><br/>
 
