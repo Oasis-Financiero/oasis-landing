@@ -131,7 +131,7 @@ function BlogPage({ data }) {
         <div id={styles.heroContent}>
           <div id={styles.heroText}>
             <div id={styles.textWrapper}>
-              <h1 className={styles.title} id={styles.heroFirstLine}> Domina tus finanzas personales y alcanza tus objetivos. </h1>
+              <h1 className={styles.title} id={styles.heroFirstLine}> Domina tus finanzas personales. </h1>
               <p className={styles.sectionDetails} id={styles.heroParagraph}>
                 Descubre el Camino hacia una Mejor Salud Financiera con nuestros Consejos, Artículos y Guías para Transformar tus Finanzas. Aprende Estrategias de Ahorro, Inversión, Gestión de Préstamos, Seguros y Comprende el Mundo de las Criptomonedas.
               </p>
