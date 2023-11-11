@@ -111,6 +111,8 @@ function BlogPage({ data }) {
           `finanzas`,
           `Préstamos`,
           `Seguros`,
+          `Blog`,
+          `Blog de finanzas`,
           `Educación financiera`,
           `Finanzas personales`,
           `Consejos financieros`,
