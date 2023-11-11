@@ -32,7 +32,13 @@ Fidea ofrece una serie de ventajas que la convierten en la mejor opción para pe
 * **Solicitud online:** Puedes solicitar un préstamo con Fidea de forma online, sin necesidad de salir de casa.<br/><br/>
 * **Seguimiento del préstamo:** Fidea te permite seguir el estado de tu préstamo en tiempo real.<br/><br/>
 
-### **Para qué se pueden pedir préstamos con Fidea.**<br/><br/>
+<!--StartFragment-->
+
+[![Banner préstamos fidea](pushnotif-450x250.jpg "D﻿a clic aquí y solicita tu préstamo con Fidea")](https://bit.ly/475iDsE)
+
+<br/><br/>
+
+### <!--EndFragment-->**Para qué se pueden pedir préstamos con Fidea.**<br/><br/>
 
 Los préstamos con Fidea se pueden pedir para una amplia gama de propósitos, como:<br/><br/>
 
@@ -77,8 +83,6 @@ Los préstamos con Fidea se pueden pedir para una amplia gama de propósitos, co
 6. **Desembolso Rápido:**
 
    * En caso de aprobación, el dinero se deposita en tu cuenta en un plazo de 24-48 horas, ofreciendo una solución rápida para tus necesidades financieras.<br/><br/>
-
-**¡Solicita tu préstamo ahora!**
 
 [![Banner préstamos fidea](pushnotif-450x250.jpg "D﻿a clic aquí y solicita tu préstamo con Fidea")](https://bit.ly/475iDsE)
 
