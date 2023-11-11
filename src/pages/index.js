@@ -172,10 +172,10 @@ function IndexPage({ data }) {
               Artículos destacados
             </div>
             <div id={styles.blogTitle} className={styles.title}>
-              Encontrarás información relevante
+              Aprende sobre finanzas personales y entérate de las noticias financieras.
             </div>
             <div id={styles.compareDetails} className={styles.sectionDetails}>
-              Aprende sobre finanzas personales en nuestro blog.
+              En nuestro blog encontrarás información relevante sobre finanzas personales. Aprende sobre ahorro, inversión, deuda, presupuesto y criptomonedas.
             </div>
           </div>
           <div id={styles.linkToBlog}> <Link to="/blog" id={styles.blogLink}> Ver más </Link> </div>
