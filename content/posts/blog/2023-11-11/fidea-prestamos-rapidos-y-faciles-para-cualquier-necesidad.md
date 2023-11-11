@@ -57,7 +57,7 @@ Los préstamos con Fidea se pueden pedir para una amplia gama de propósitos, co
 
 <!--EndFragment-->
 
-### **Proceso de Solicitud con Fidea:**
+### **Proceso de Solicitud con Fidea:**<br/><br/>
 
 1. **Registro en la Plataforma:**
 
@@ -77,6 +77,16 @@ Los préstamos con Fidea se pueden pedir para una amplia gama de propósitos, co
 6. **Desembolso Rápido:**
 
    * En caso de aprobación, el dinero se deposita en tu cuenta en un plazo de 24-48 horas, ofreciendo una solución rápida para tus necesidades financieras.<br/><br/>
+
+D﻿a clic aquí y solicita tu préstamo
+
+![](pushnotif-450x250.jpg)
+
+
+
+
+
+<br/><br/>
 
 En resumen, Fidea no solo simplifica el proceso de comparación de préstamos, sino que también ofrece soluciones flexibles para una variedad de casos de uso, convirtiéndola en una opción atractiva para aquellos que buscan opciones de préstamo confiables y convenientes en México.
 
