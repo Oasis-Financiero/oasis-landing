@@ -57,23 +57,23 @@ Los préstamos con Fidea se pueden pedir para una amplia gama de propósitos, co
 
 <!--EndFragment-->
 
-### Proceso de Solicitud con Fidea:
+### **Proceso de Solicitud con Fidea:**
 
 1. **Registro en la Plataforma:**
 
-   * Completa el registro en la plataforma de Fidea proporcionando la información requerida.
+   * Completa el registro en la plataforma de Fidea proporcionando la información requerida.<br/><br/>
 2. **Introducción de Datos:**
 
-   * Ingresa tus datos personales y financieros de manera segura y confidencial.
+   * Ingresa tus datos personales y financieros de manera segura y confidencial.<br/><br/>
 3. **Selección del Préstamo:**
 
-   * Explora las opciones disponibles y elige el préstamo que mejor se adapte a tus necesidades y capacidades de pago.
+   * Explora las opciones disponibles y elige el préstamo que mejor se adapte a tus necesidades y capacidades de pago.<br/><br/>
 4. **Envío de Solicitud:**
 
-   * Envía tu solicitud de préstamo a través de la plataforma.
+   * Envía tu solicitud de préstamo a través de la plataforma.<br/><br/>
 5. **Seguimiento y Aprobación:**
 
-   * Fidea proporciona un seguimiento en tiempo real y notifica la aprobación en un plazo de 24 horas.
+   * Fidea proporciona un seguimiento en tiempo real y notifica la aprobación en un plazo de 24 horas.<br/><br/>
 6. **Desembolso Rápido:**
 
    * En caso de aprobación, el dinero se deposita en tu cuenta en un plazo de 24-48 horas, ofreciendo una solución rápida para tus necesidades financieras.<br/><br/>
