@@ -80,9 +80,9 @@ function IndexPage({ data }) {
           <div id={styles.heroContent}>
             <div id={styles.heroText}>
               <div id={styles.textWrapper}>
-                <h1 className={styles.title} id={styles.heroFirstLine}> Nosotros te ayudamos con tu caos financiero </h1>
+                <h1 className={styles.title} id={styles.heroFirstLine}> Empoderando personas con educación financiera. </h1>
                 <p className={styles.sectionDetails} id={styles.heroParagraph}>
-                   En Oasis, nos dedicamos a guiar tu camino hacia el ahorro inteligente, inversiones sólidas y el control total de tus finanzas.
+                   En Oasis, nos esforzamos por capacitarte a través de la educación financiera, guiándote hacia el ahorro inteligente, inversiones sólidas y el control total de tus finanzas personales.
                 </p>
                 <div id={styles.heroButtons}>
                   <button className={styles.purpleBtn} onClick={scrollHandler}> Únete ahora </button>
