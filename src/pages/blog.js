@@ -111,6 +111,8 @@ function BlogPage({ data }) {
           `finanzas`,
           `Préstamos`,
           `Seguros`,
+          `Blog`,
+          `Blog de finanzas`,
           `Educación financiera`,
           `Finanzas personales`,
           `Consejos financieros`,
@@ -122,16 +124,16 @@ function BlogPage({ data }) {
           `Cómo planificar la jubilación`,
         ]}
         title="Blog Oasis Financiero | Aprende sobre ahorro, inversión y finanzas."
-        description="Descubre consejos, artículos y guías para mejorar tus finanzas. Aprende sobre ahorro, inversión, préstamos, seguros y más. Inicia tu educación financiera aquí."
+        description="Descubre consejos, artículos y guías para mejorar tus finanzas. Aprende sobre ahorro, inversión, préstamos, seguros y criptomonedas. Inicia tu educación financiera aquí."
       />
 
       <section id={styles.hero}>
         <div id={styles.heroContent}>
           <div id={styles.heroText}>
             <div id={styles.textWrapper}>
-              <h1 className={styles.title} id={styles.heroFirstLine}> Conviértete en experto de las finanzas personales </h1>
+              <h1 className={styles.title} id={styles.heroFirstLine}> Domina tus finanzas personales. </h1>
               <p className={styles.sectionDetails} id={styles.heroParagraph}>
-                Explora las publicaciones y aprende a mejorar tus finanzas, ahorrar e invertir.
+                Descubre el Camino hacia una Mejor Salud Financiera con nuestros Consejos, Artículos y Guías para Transformar tus Finanzas. Aprende Estrategias de Ahorro, Inversión, Gestión de Préstamos, Seguros y Comprende el Mundo de las Criptomonedas.
               </p>
             </div>
           </div>
@@ -145,7 +147,7 @@ function BlogPage({ data }) {
         <div id={styles.blogWrapper}>
 
           <div id={styles.recentPostsTitle} className={styles.title}>
-            Últimos blog posts
+            Inicia tu educación financiera aquí.
           </div>
 
           <section>
@@ -165,7 +167,7 @@ function BlogPage({ data }) {
 
           <section id={styles.bestPosts}>
             <div id={styles.bestPostsHeader}>
-              <h2 className={styles.title} id={styles.bestPostsTitle}> Tu guía para entender crypto </h2>
+              <h2 className={styles.title} id={styles.bestPostsTitle}> Tu guía para entender todo sobre criptomonedas </h2>
             </div>
             <div id={styles.bestPostsList}>
               <PostList posts={data.tallCards.nodes} authors={data.authors.nodes} style="tall-textInside" carousel={false} />

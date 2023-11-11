@@ -57,7 +57,7 @@ module.exports = {
           cookieName: 'gatsby-gdpr-hotjar', // default
         },
         // facebookPixel: {
-        //   pixelId: 'YOUR_FACEBOOK_PIXEL_ID', // leave empty if you want to disable the tracker
+        //   pixelId: '2840879712721447', // leave empty if you want to disable the tracker
         //   cookieName: 'gatsby-gdpr-facebook-pixel', // default
         // },
         // tikTokPixel: {

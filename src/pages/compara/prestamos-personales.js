@@ -101,7 +101,7 @@ const PrestamosPersonales = () => {
             <div className="flex flex-row w-full lg:w-[1080px] h-[427px] rounded-[25px] relative" style={{ backgroundColor: colors.fdoMdo }}>
               <div className="flex flex-col gap-4 lg:w-[640px] p-8 md:pt-16 w-[540px]">
                 <h1 id={style.discover} className="text-white">Compara y solicita préstamos personales en línea.</h1>
-                <span id={style.discoverSub} className="text-white">Ahorra tiempo, dinero y toma decisiones informadas. ¡Encuentra el préstamo perfecto para tus necesidades hoy mismo!</span>
+                <span id={style.discoverSub} className="text-white">¿Necesitas un préstamo personal? Oasis Financiero te ayuda a encontrar el préstamo perfecto para ti. Compara entre diversas instituciones financieras y obtén la mejor oferta.</span>
                 <div className="flex flex-col gap-4 lg:flex-row md:gap-10">
                   <span id={style.discoverLink} className="text-white flex flex-row items-center gap-2"><IoIosArrowDroprightCircle />Para Consolidar Deudas</span>
                   <span id={style.discoverLink} className="text-white flex flex-row items-center gap-2"><IoIosArrowDroprightCircle />Gastos Médicos Inesperados</span>
