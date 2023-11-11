@@ -167,7 +167,7 @@ function BlogPage({ data }) {
 
           <section id={styles.bestPosts}>
             <div id={styles.bestPostsHeader}>
-              <h2 className={styles.title} id={styles.bestPostsTitle}> Tu guía para entender crypto </h2>
+              <h2 className={styles.title} id={styles.bestPostsTitle}> Tu guía para entender todo sobre criptomonedas </h2>
             </div>
             <div id={styles.bestPostsList}>
               <PostList posts={data.tallCards.nodes} authors={data.authors.nodes} style="tall-textInside" carousel={false} />
