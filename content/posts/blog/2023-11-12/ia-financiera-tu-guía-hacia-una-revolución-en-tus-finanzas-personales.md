@@ -1,6 +1,6 @@
 ---
 title: "IA Financiera: Tu Guía hacia una Revolución en tus Finanzas Personales."
-slug: IA-Financiera-Tu Guía hacia una Revolución en tus Finanzas Personales.
+slug: IA-Financiera-Tu-Guoa-hacia-una-Revolucion-en-tus-Finanzas-Personales
 author: coronagenaro@gmail.com
 date: 2023-11-12
 image: ia.png
