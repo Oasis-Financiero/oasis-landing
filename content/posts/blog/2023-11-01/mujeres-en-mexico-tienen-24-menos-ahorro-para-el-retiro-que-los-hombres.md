@@ -3,7 +3,7 @@ title: Mujeres en México tienen 24% menos ahorro para el retiro que los hombres
 slug: Mujeres-en-Mexico-tienen-24-menos-ahorro-para-el-retiro-que-los-hombres
 author: coronagenaro@gmail.com
 date: 2023-11-01
-image: mujer-pensando-en-una-computadora.png
+image: mujer-pensando-en-una-computadora-min.png
 imageAlt: Mujer con lentes pensando frente a una computadora
 tags:
   - Ahorro
