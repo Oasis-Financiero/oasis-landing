@@ -31,11 +31,11 @@ La IA ofrece una serie de ventajas clave:<br/><br/>
 
 * **Eficiencia Mejorada:** Ahorra tiempo y esfuerzo en la gestión financiera diaria.
 * **Decisiones Más Informadas:** Facilita decisiones basadas en datos y análisis precisos.
-* **Acceso Ampliado:** Hace que los servicios financieros sean más accesibles para personas de todos los niveles de ingresos y conocimientos.
+* **Acceso Ampliado:** Hace que los servicios financieros sean más accesibles para personas de todos los niveles de ingresos y conocimientos.<br/><br/>
 
-#### **Desafíos y Consideraciones:**
+#### **Desafíos y Consideraciones:**<br/><br/>
 
-Aunque la IA ofrece ventajas, presenta desafíos a considerar:
+Aunque la IA ofrece ventajas, presenta desafíos a considerar:<br/><br/>
 
 * **Precisión Limitada:** La IA, aunque poderosa, no es infalible, y comprender sus límites es crucial.
 * **Confidencialidad de Datos:** La necesidad de grandes cantidades de datos plantea desafíos en la protección de la privacidad de los usuarios.
