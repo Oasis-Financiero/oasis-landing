@@ -3,7 +3,7 @@ title: "Fidea: préstamos rápidos y fáciles para cualquier necesidad."
 slug: Fidea-prestamos-rapidos-y-faciles-para-cualquier-necesidad
 author: coronagenaro@gmail.com
 date: 2023-11-11
-image: fidea.png
+image: fidea-min.png
 imageAlt: Logo de Fidea
 tags:
   - Préstamos
