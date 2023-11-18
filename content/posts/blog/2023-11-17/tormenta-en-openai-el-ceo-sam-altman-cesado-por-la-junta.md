@@ -1,6 +1,6 @@
 ---
 title: "Tormenta en OpenAI: El CEO Sam Altman Cesado por la Junta"
-slug: Tormenta-en-OpenAI-El-CEO-Sam-Altman-Cesado-por-la-Junta
+slug: Tormenta-en-OpenAI-El-CEO-Sam-Altman-Cesado-por-la-Junta.
 author: coronagenaro@gmail.com
 date: 2023-11-17
 image: sam-altman.webp
