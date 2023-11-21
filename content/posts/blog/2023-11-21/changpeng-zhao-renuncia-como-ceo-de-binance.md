@@ -21,6 +21,10 @@ En un emotivo tuit anunciando su renuncia, CZ reconoció los desafíos a los que
 
 Aquí hay un resumen de los puntos clave de CZ de su tuit de renuncia:<br/><br/>
 
+![Imagen de un tuit de Binance](tuitbinance.png "Tuit e Changpeng Zhao (CZ), fundador y ex CEO de Binance")
+
+<br/><br/>
+
 * **Reconocimiento de errores y asunción de responsabilidades:** CZ admitió haber cometido errores y enfatizó la importancia de la responsabilidad. Reconoció que dimitir era la decisión correcta para el mejoramiento de Binance, su comunidad y él mismo.<br/><br/>
 * **Madurez de Binance y preparación para una nueva dirección:** CZ destacó el crecimiento y la madurez de Binance, afirmando que la empresa estaba preparada para una nueva fase de liderazgo. Expresó su confianza en la capacidad de la empresa para prosperar bajo la guía de Richard Teng.<br/><br/>
 * **Presentación del nuevo CEO, Richard Teng:** CZ anunció a Richard Teng como el nuevo CEO de Binance, enfatizando su amplia experiencia en servicios financieros y asuntos regulatorios. Elogió las calificaciones de Teng y su capacidad para guiar a Binance a través de su próximo capítulo de crecimiento.<br/><br/>
