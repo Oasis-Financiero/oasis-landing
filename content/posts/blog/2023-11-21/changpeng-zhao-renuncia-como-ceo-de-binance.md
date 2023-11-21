@@ -34,6 +34,10 @@ La renuncia de CZ marca un punto de inflexión para Binance, que señala su comp
 
 La renuncia de CZ es un movimiento importante para Binance y la industria de las criptomonedas en general. CZ fue un líder visionario que ayudó a convertir a Binance en la bolsa de criptomonedas más grande del mundo. Sin embargo, su renuncia también indica que Binance está tomando en serio los desafíos regulatorios a los que se enfrenta.<br/><br/>
 
-La designación de Richard Teng como nuevo CEO es un buen augurio para Binance. Teng tiene una amplia experiencia en servicios financieros y asuntos regulatorios, y es un líder con un historial probado de éxito. Con Teng al mando, Binance está bien posicionada para navegar por el entorno regulatorio cambiante y continuar creciendo y prosperando.
+La designación de Richard Teng como nuevo CEO es un buen augurio para Binance. Teng tiene una amplia experiencia en servicios financieros y asuntos regulatorios, y es un líder con un historial probado de éxito. Con Teng al mando, Binance está bien posicionada para navegar por el entorno regulatorio cambiante y continuar creciendo y prosperando.<br/><br/>
+
+**T﻿e recomendamos leer:<br/><br/>**
+
+### **[Tormenta en OpenAI: El CEO Sam Altman Cesado por la Junta](https://oasisfinanciero.com/blog/2023-11-17/tormenta-en-openai-el-ceo-sam-altman-cesado-por-la-junta/)**
 
 <!--EndFragment-->
