@@ -13,6 +13,7 @@ tags:
   - cripto
   - crypto
   - blockchain
+  - web3
 ---
 **Changpeng Zhao (CZ)**, fundador y ex CEO de **Binance**, la mayor bolsa de criptomonedas del mundo, ha renunciado a su cargo. Esta decisión se produce en medio de una intensa presión regulatoria y un compromiso de fomentar un ecosistema criptográfico más compliante y transparente.<br/><br/>
 
