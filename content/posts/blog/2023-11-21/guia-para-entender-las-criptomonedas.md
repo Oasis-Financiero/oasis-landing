@@ -26,13 +26,13 @@ Las criptomonedas ofrecen una serie de ventajas sobre las monedas tradicionales,
 * **Transparencia:** La blockchain es un sistema transparente que permite a todos ver las transacciones que se realizan.<br/><br/>
 * **Independencia:** Las criptomonedas no están respaldadas por ningún gobierno o entidad central, lo que les da a los usuarios un mayor control sobre sus finanzas.<br/><br/>
 
-**Desventajas de las criptomonedas.**
+**Desventajas de las criptomonedas.**<br/><br/>
 
-Las criptomonedas también tienen algunas desventajas, como:
+Las criptomonedas también tienen algunas desventajas, como:<br/><br/>
 
-* **Volatilidad:** El precio de las criptomonedas puede ser muy volátil, lo que significa que puede subir o bajar rápidamente.
-* **Infraestructura:** La infraestructura para usar criptomonedas, como los monederos digitales y los intercambios, aún está en desarrollo.
-* **Regulación:** Las criptomonedas no están reguladas en la mayoría de los países, lo que puede crear riesgos para los usuarios.
+* **Volatilidad:** El precio de las criptomonedas puede ser muy volátil, lo que significa que puede subir o bajar rápidamente.<br/><br/>
+* **Infraestructura:** La infraestructura para usar criptomonedas, como los monederos digitales y los intercambios, aún está en desarrollo.<br/><br/>
+* **Regulación:** Las criptomonedas no están reguladas en la mayoría de los países, lo que puede crear riesgos para los usuarios.<br/><br/>
 
 ### **¿Cómo se crean las criptomonedas?**<br/><br/>
 
