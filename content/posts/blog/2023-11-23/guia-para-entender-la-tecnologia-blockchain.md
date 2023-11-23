@@ -51,7 +51,7 @@ La tecnología blockchain funciona de la siguiente manera:<br/><br/>
 1. Cuando se realiza una transacción, se crea un nuevo bloque.
 2. El bloque se llena con los datos de la transacción y un hash, que es una huella digital única del bloque.
 3. El bloque se cifra con una clave criptográfica.
-4. El bloque se distribuye a todos los ordenadores de la red.
+4. El bloque se distribuye a todos los ordenadores de la red.<br/><br/>
 
 ### **¿Por qué es segura la tecnología blockchain?**<br/><br/>
 
@@ -65,7 +65,7 @@ La tecnología blockchain es transparente porque todos los ordenadores de la red
 
 ### **Ventajas de la tecnología blockchain:**<br/><br/>
 
-La tecnología blockchain ofrece una serie de ventajas, como:
+La tecnología blockchain ofrece una serie de ventajas, como:<br/><br/>
 
 * **Seguridad:** La tecnología blockchain es segura porque los datos están distribuidos en una red de computadoras. Esto hace que sea muy difícil falsificar o manipular los datos.<br/><br/>
 * **Transparencia:** La tecnología blockchain es transparente porque todos pueden ver los datos que se almacenan en la cadena de bloques. Esto hace que sea difícil cometer fraudes o delitos.<br/><br/>
@@ -170,8 +170,6 @@ Las  Layer 2 se pueden utilizar para una variedad de aplicaciones. Por ejemplo, 
 
 Las soluciones Layer 2 son una tecnología emergente que tiene el potencial de resolver los desafíos de escalabilidad y rendimiento de las blockchains existentes. A medida que las soluciones Layer 2 sigan desarrollándose, es probable que se utilicen en una amplia gama de aplicaciones.<br/><br/>
 
-<!--EndFragment-->
-
 ### **El futuro de la tecnología blockchain.<br/><br/>**
 
 La tecnología blockchain todavía está en desarrollo, pero tiene el potencial de revolucionar una amplia gama de industrias. La tecnología blockchain es segura, transparente e independiente, lo que la hace ideal para una variedad de aplicaciones.<br/><br/>
@@ -200,8 +198,6 @@ A pesar de su potencial, la tecnología blockchain también tiene algunos desaf�
 * **La adopción:** La tecnología blockchain todavía es relativamente nueva y necesita ser adoptada por un número mayor de personas y organizaciones.<br/><br/>
 
 Los investigadores y desarrolladores están trabajando para superar estos desafíos. A medida que la tecnología blockchain siga desarrollándose, es probable que se haga más escalable, segura y adoptada.<br/><br/>
-
-<!--EndFragment-->
 
 **Conclusión**<br/><br/>
 
