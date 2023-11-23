@@ -146,8 +146,7 @@ La tecnología blockchain se está utilizando en una amplia gama de aplicaciones
 
 Estos son solo algunos ejemplos de los muchos usos que se están dando a la tecnología blockchain. La tecnología blockchain tiene el potencial de revolucionar una amplia gama de industrias y está en constante evolución.<br/><br/>
 
-**\
-Layer 2.**<br/><br/>
+### **Layer 2.<br/><br/>**
 
 Las soluciones Layer 2 son soluciones que se construyen sobre una blockchain existente para mejorar su escalabilidad o rendimiento. La escalabilidad es la capacidad de una red para manejar un número creciente de transacciones. El rendimiento es la velocidad a la que una red puede procesar transacciones.<br/><br/>
 
@@ -173,8 +172,7 @@ Las soluciones Layer 2 son una tecnología emergente que tiene el potencial de r
 
 <!--EndFragment-->
 
-### **\
-El futuro de la tecnología blockchain.**<br/><br/>
+### **El futuro de la tecnología blockchain.<br/><br/>**
 
 La tecnología blockchain todavía está en desarrollo, pero tiene el potencial de revolucionar una amplia gama de industrias. La tecnología blockchain es segura, transparente e independiente, lo que la hace ideal para una variedad de aplicaciones.<br/><br/>
 
@@ -209,12 +207,8 @@ Los investigadores y desarrolladores están trabajando para superar estos desaf�
 
 La tecnología blockchain es una tecnología disruptiva que tiene el potencial de revolucionar una amplia gama de industrias. La tecnología blockchain es segura, transparente e independiente, lo que la hace ideal para una variedad de aplicaciones. La tecnología blockchain todavía está en desarrollo, pero tiene el potencial de cambiar el mundo.<br/><br/>
 
-
-
 **S﻿igue tu aprendizaje aquí:**<br/><br/>
 
 ## [Guía para entender las criptomonedas.](https://oasisfinanciero.com/blog/2023-11-21/guia-para-entender-las-criptomonedas/)
-
-
 
 <!--EndFragment-->
