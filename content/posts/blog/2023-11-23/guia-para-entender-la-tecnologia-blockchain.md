@@ -196,6 +196,10 @@ La tecnología blockchain es una tecnología disruptiva que tiene el potencial d
 
 **S﻿igue tu aprendizaje aquí:**<br/><br/>
 
-## [Guía para entender las criptomonedas.](https://oasisfinanciero.com/blog/2023-11-21/guia-para-entender-las-criptomonedas/)
+## [Guía para entender las criptomonedas.](https://oasisfinanciero.com/blog/2023-11-21/guia-para-entender-las-criptomonedas/)<br/><br/>
+
+
+
+[![computadora con grafica de trading](guía-para-entender-las-criptomonedas.-min.png "Guía para entender las criptomonedas.")](https://oasisfinanciero.com/blog/2023-11-21/guia-para-entender-las-criptomonedas/)
 
 <!--EndFragment-->
