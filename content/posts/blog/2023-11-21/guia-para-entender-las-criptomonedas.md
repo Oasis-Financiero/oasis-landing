@@ -97,6 +97,10 @@ Siguiendo estos consejos, podrás reducir el riesgo asociado a las inversiones e
 
 **T﻿e recomendamos:**<br/><br/>
 
-### **[Encuentra el préstamo perfecto para tus necesidades.](https://oasisdev.netlify.app/compara/prestamos-personales)**
+### **[Encuentra el préstamo perfecto para tus necesidades.](https://oasisdev.netlify.app/compara/prestamos-personales)**<br/><br/>
+
+[![Calculadora de préstamos](calculadora-oasis.png "Calculadora de préstamos")](https://oasisdev.netlify.app/compara/prestamos-personales)
+
+
 
 <!--EndFragment-->
