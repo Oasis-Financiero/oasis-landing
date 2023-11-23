@@ -24,7 +24,7 @@ El acuerdo alcanzado por Altman y la nueva junta directiva parece haber calmado 
 
 **El tuit de OpenAI**<br/><br/>
 
-![](opeai-tuit.png)
+![tuit de OpenAI](opeai-tuit.png "Tuot de OpenAI sobre el regreso de Sam Altman")
 
 <br/><br/>
 
@@ -45,5 +45,9 @@ Sin embargo, el regreso de Altman también podría plantear algunos desafíos pa
 El regreso de Sam Altman a OpenAI es una noticia positiva para la empresa. Altman es un líder experimentado y respetado, y su regreso podría ayudar a OpenAI a seguir siendo una fuerza importante en el campo de la inteligencia artificial.<br/><br/>
 
 Sin embargo, el regreso de Altman también podría plantear algunos desafíos para OpenAI. Altman tendrá que trabajar para restaurar la confianza de los empleados, inversores y partes interesadas.<br/><br/>
+
+**Te recomendamos leer:**<br/><br/>
+
+### [Changpeng Zhao renuncia como CEO de Binance.](https://oasisfinanciero.com/blog/2023-11-21/changpeng-zhao-renuncia-como-ceo-de-binance/)
 
 <!--EndFragment-->
