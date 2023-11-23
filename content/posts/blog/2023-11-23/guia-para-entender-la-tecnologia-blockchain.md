@@ -207,6 +207,14 @@ Los investigadores y desarrolladores están trabajando para superar estos desaf�
 
 **Conclusión**<br/><br/>
 
-La tecnología blockchain es una tecnología disruptiva que tiene el potencial de revolucionar una amplia gama de industrias. La tecnología blockchain es segura, transparente e independiente, lo que la hace ideal para una variedad de aplicaciones. La tecnología blockchain todavía está en desarrollo, pero tiene el potencial de cambiar el mundo.
+La tecnología blockchain es una tecnología disruptiva que tiene el potencial de revolucionar una amplia gama de industrias. La tecnología blockchain es segura, transparente e independiente, lo que la hace ideal para una variedad de aplicaciones. La tecnología blockchain todavía está en desarrollo, pero tiene el potencial de cambiar el mundo.<br/><br/>
+
+
+
+**S﻿igue tu aprendizaje aquí:**<br/><br/>
+
+## [Guía para entender las criptomonedas.](https://oasisfinanciero.com/blog/2023-11-21/guia-para-entender-las-criptomonedas/)
+
+
 
 <!--EndFragment-->
