@@ -14,11 +14,9 @@ tags:
   - defi
   - nft
 ---
-## **¿Qué es y cómo funciona la tecnología blockchain?**
+## **¿Qué es y cómo funciona la tecnología blockchain?**<br/><br/>
 
-La tecnología blockchain es una forma de almacenar información de forma segura y transparente. Es como un libro de contabilidad digital que está distribuido en una red de ordenadores.
-
-<!--EndFragment-->
+La tecnología blockchain es una forma de almacenar información de forma segura y transparente. Es como un libro de contabilidad digital que está distribuido en una red de ordenadores.<br/><br/>
 
 **¿Qué es un hash?**
 
