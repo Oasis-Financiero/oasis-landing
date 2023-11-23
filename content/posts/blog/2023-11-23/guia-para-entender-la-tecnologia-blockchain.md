@@ -150,19 +150,19 @@ Estos son solo algunos ejemplos de los muchos usos que se están dando a la tecn
 
 Las soluciones Layer 2 son soluciones que se construyen sobre una blockchain existente para mejorar su escalabilidad o rendimiento. La escalabilidad es la capacidad de una red para manejar un número creciente de transacciones. El rendimiento es la velocidad a la que una red puede procesar transacciones.<br/><br/>
 
-Las soluciones Layer 2 se utilizan para abordar los desafíos de escalabilidad y rendimiento de las blockchains existentes. Las blockchains existentes, como Bitcoin y Ethereum, son limitadas en su escalabilidad y rendimiento. Esto se debe a que todas las transacciones deben ser procesadas por todos los nodos de la red.<br/><br/>
+Se utilizan para abordar los desafíos de escalabilidad y rendimiento de las blockchains existentes. Las blockchains existentes, como Bitcoin y Ethereum, son limitadas en su escalabilidad y rendimiento. Esto se debe a que todas las transacciones deben ser procesadas por todos los nodos de la red.<br/><br/>
 
-Las soluciones Layer 2 abordan este desafío al mover algunas o todas las transacciones fuera de la blockchain principal. Esto permite a las blockchains existentes procesar un mayor número de transacciones sin comprometer su seguridad.<br/><br/>
+Abordan este desafío al mover algunas o todas las transacciones fuera de la blockchain principal. Esto permite a las blockchains existentes procesar un mayor número de transacciones sin comprometer su seguridad.<br/><br/>
 
 #### **Ejemplos de soluciones Layer 2.**<br/><br/>
 
-* **Polygon:** Polygon es una solución Layer 2 para Ethereum que utiliza sidechains para escalar la red. Las sidechains son blockchains independientes que están vinculadas a la blockchain principal. Las transacciones en las sidechains son más rápidas y baratas que las transacciones en la blockchain principal.<br/><br/>
-* **Optimism:** Optimism es una solución Layer 2 para Ethereum que utiliza rollups para escalar la red. Los rollups comprimen las transacciones y las ejecutan fuera de la blockchain principal. Esto permite a las blockchains existentes procesar un mayor número de transacciones sin comprometer su seguridad.<br/><br/>
-* **Arbitrum:** Arbitrum es una solución Layer 2 para Ethereum que utiliza rollups para escalar la red. Al igual que Optimism, Arbitrum comprime las transacciones y las ejecuta fuera de la blockchain principal.<br/><br/>
+* **Polygon:** Polygon es una Layer 2 para Ethereum que utiliza sidechains para escalar la red. Las sidechains son blockchains independientes que están vinculadas a la blockchain principal. Las transacciones en las sidechains son más rápidas y baratas que las transacciones en la blockchain principal.<br/><br/>
+* **Optimism:** Optimism es una Layer 2 para Ethereum que utiliza rollups para escalar la red. Los rollups comprimen las transacciones y las ejecutan fuera de la blockchain principal. Esto permite a las blockchains existentes procesar un mayor número de transacciones sin comprometer su seguridad.<br/><br/>
+* **Arbitrum:** Arbitrum es una Layer 2 para Ethereum que utiliza rollups para escalar la red. Al igual que Optimism, Arbitrum comprime las transacciones y las ejecuta fuera de la blockchain principal.<br/><br/>
 
 ### **Ejemplos de uso de soluciones Layer 2**<br/><br/>
 
-Las soluciones Layer 2 se pueden utilizar para una variedad de aplicaciones. Por ejemplo, se pueden utilizar para:<br/><br/>
+Las  Layer 2 se pueden utilizar para una variedad de aplicaciones. Por ejemplo, se pueden utilizar para:<br/><br/>
 
 * **Mejorar la experiencia de los usuarios de las aplicaciones DeFi.** Las aplicaciones DeFi, como los intercambios de criptomonedas y los préstamos descentralizados, pueden utilizar soluciones Layer 2 para reducir las tarifas y mejorar la velocidad de las transacciones.<br/><br/>
 * **Mejorar la eficiencia de la cadena de suministro.** Las empresas pueden utilizar soluciones Layer 2 para rastrear el movimiento de bienes y servicios a lo largo de la cadena de suministro.<br/><br/>
