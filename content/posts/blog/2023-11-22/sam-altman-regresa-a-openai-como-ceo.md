@@ -22,7 +22,7 @@ El regreso de Altman a OpenAI supone el final de un capítulo turbulento en la h
 
 El acuerdo alcanzado por Altman y la nueva junta directiva parece haber calmado las aguas en OpenAI. Sin embargo, queda por ver cómo se desarrollará la relación entre Altman y la nueva junta directiva.<br/><br/>
 
-**El tuit de OpenAI**<br/><br/>
+### **El tuit de OpenAI**<br/><br/>
 
 ![tuit de OpenAI](opeai-tuit.png "Tuot de OpenAI sobre el regreso de Sam Altman")
 
@@ -32,7 +32,7 @@ El tuit de OpenAI publicado el 22 de noviembre de 2023 confirma el regreso de Al
 
 El tuit es una señal de que Altman y la nueva junta directiva están trabajando juntos para restaurar la confianza en OpenAI. El nuevo consejo de administración aporta una amplia experiencia y conocimientos en los campos de la tecnología, la economía y la educación.<br/><br/>
 
-**¿Qué significa el regreso de Altman para OpenAI?**<br/><br/>
+### **¿Qué significa el regreso de Altman para OpenAI?**<br/><br/>
 
 El regreso de Altman a OpenAI es un acontecimiento importante para la empresa. Altman es uno de los fundadores de OpenAI, y su liderazgo ha sido fundamental para el éxito de la empresa.<br/><br/>
 
