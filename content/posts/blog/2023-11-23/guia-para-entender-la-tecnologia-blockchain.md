@@ -81,19 +81,6 @@ La tecnología blockchain también tiene algunas desventajas, como:<br/><br/>
 
 ### **Usos de la tecnología blockchain.**<br/><br/>
 
-La tecnología blockchain se puede utilizar para una variedad de aplicaciones, como:<br/><br/>
-
-* **Criptomonedas:** La tecnología blockchain es la base de las criptomonedas, como Bitcoin y Ethereum. Las criptomonedas se pueden utilizar como medio de pago, como reserva de valor o para invertir.<br/><br/>
-* **Finanzas descentralizadas (DeFi):** La tecnología blockchain se utiliza para crear aplicaciones financieras descentralizadas, como préstamos, intercambios y seguros. Las aplicaciones DeFi ofrecen una alternativa a los servicios financieros tradicionales, que suelen ser más costosos y menos eficientes.<br/><br/>
-* **Juegos:** La tecnología blockchain se utiliza para crear juegos descentralizados que permiten a los jugadores poseer sus propios activos en el juego. Los juegos blockchain ofrecen a los jugadores una mayor libertad y control sobre sus experiencias de juego.<br/><br/>
-* **NFT:** Los tokens no fungibles (NFT) son activos digitales únicos que se almacenan en la blockchain. Los NFT se pueden utilizar para representar una variedad de activos, como obras de arte, música, coleccionables y bienes virtuales.<br/><br/>
-* **Logística:** La tecnología blockchain se utiliza para rastrear el movimiento de bienes y servicios. La rastreabilidad blockchain puede ayudar a mejorar la eficiencia y la transparencia de la cadena de suministro.<br/><br/>
-* **Gobierno:** La tecnología blockchain se utiliza para mejorar la transparencia y la eficiencia de los gobiernos. La tecnología blockchain puede ayudar a los gobiernos a reducir la corrupción y mejorar la participación ciudadana.<br/><br/>
-
-<!--StartFragment-->
-
-#### **Ejemplos de blockchain.**<br/><br/>
-
 La tecnología blockchain se está utilizando en una amplia gama de aplicaciones, desde criptomonedas hasta finanzas descentralizadas (DeFi) y juegos. Aquí hay algunos ejemplos específicos de cómo se está utilizando la tecnología blockchain:<br/><br/>
 
 ### **Criptomonedas.**
