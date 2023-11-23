@@ -93,6 +93,10 @@ Si estás interesado en aprender más sobre las criptomonedas, te recomendamos l
 * **Utiliza un monedero digital seguro.** Hay muchos tipos de monederos digitales disponibles. Elige un monedero que sea seguro y que te ofrezca las funciones que necesitas.<br/><br/>
 * **Mantente informado de las últimas noticias sobre criptomonedas.** El mercado de criptomonedas es muy volátil, por lo que es importante estar al día de las últimas noticias para poder tomar decisiones informadas.<br/><br/>
 
-Siguiendo estos consejos, podrás reducir el riesgo asociado a las inversiones en criptomonedas y aumentar tus posibilidades de éxito.
+Siguiendo estos consejos, podrás reducir el riesgo asociado a las inversiones en criptomonedas y aumentar tus posibilidades de éxito.<br/><br/>
+
+**T﻿e recomendamos:**<br/><br/>
+
+### **[Encuentra el préstamo perfecto para tus necesidades.](https://oasisdev.netlify.app/compara/prestamos-personales)**
 
 <!--EndFragment-->
