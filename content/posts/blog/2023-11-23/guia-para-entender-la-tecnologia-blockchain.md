@@ -98,64 +98,64 @@ La tecnología blockchain se está utilizando en una amplia gama de aplicaciones
 
 * **Criptomonedas:** La tecnología blockchain es la base de las criptomonedas, como Bitcoin y Ethereum. Las criptomonedas se pueden utilizar como medio de pago, como reserva de valor o para invertir.<br/><br/>
 
-**Bitcoin:** La primera criptomoneda y la más conocida. Se utiliza principalmente como medio de pago y como reserva de valor.
+**Bitcoin:** La primera criptomoneda y la más conocida. Se utiliza principalmente como medio de pago y como reserva de valor.<br/><br/>
 
-**Ethereum:** Una plataforma de contratos inteligentes que permite crear aplicaciones descentralizadas (dApps).
+**Ethereum:** Una plataforma de contratos inteligentes que permite crear aplicaciones descentralizadas (dApps).<br/><br/>
 
-**Solana:** Una blockchain de alta velocidad y bajo coste que se utiliza para una variedad de aplicaciones, incluyendo finanzas descentralizadas (DeFi), juegos y NFT.
+**Solana:** Una blockchain de alta velocidad y bajo coste que se utiliza para una variedad de aplicaciones, incluyendo finanzas descentralizadas (DeFi), juegos y NFT.<br/><br/>
 
-**Stellar:** Una blockchain de escalabilidad horizontal que se utiliza para pagos transfronterizos y micropagos.
+**Stellar:** Una blockchain de escalabilidad horizontal que se utiliza para pagos transfronterizos y micropagos.<br/><br/>
 
-**XRP:** Una criptomoneda que se utiliza para pagos transfronterizos y como medio de pago para empresas.
+**XRP:** Una criptomoneda que se utiliza para pagos transfronterizos y como medio de pago para empresas.<br/><br/>
 
-* **Finanzas descentralizadas (DeFi):** La tecnología blockchain se utiliza para crear aplicaciones financieras descentralizadas, como préstamos, intercambios y seguros. Las aplicaciones DeFi ofrecen una alternativa a los servicios financieros tradicionales, que suelen ser más costosos y menos eficientes.
+* **Finanzas descentralizadas (DeFi):** La tecnología blockchain se utiliza para crear aplicaciones financieras descentralizadas, como préstamos, intercambios y seguros. Las aplicaciones DeFi ofrecen una alternativa a los servicios financieros tradicionales, que suelen ser más costosos y menos eficientes.<br/><br/>
 
-**Aave:** Una plataforma de préstamos descentralizada que permite a los usuarios prestar y pedir prestado criptomonedas.
+**Aave:** Una plataforma de préstamos descentralizada que permite a los usuarios prestar y pedir prestado criptomonedas.<br/><br/>
 
-**Uniswap:** Un intercambio de criptomonedas descentralizado que permite a los usuarios intercambiar criptomonedas sin necesidad de un intermediario.
+**Uniswap:** Un intercambio de criptomonedas descentralizado que permite a los usuarios intercambiar criptomonedas sin necesidad de un intermediario.<br/><br/>
 
-**Nexus Mutual:** Una plataforma de seguros descentralizada que permite a los usuarios asegurarse contra pérdidas financieras.
+**Nexus Mutual:** Una plataforma de seguros descentralizada que permite a los usuarios asegurarse contra pérdidas financieras.<br/><br/>
 
-* **Juegos:** La tecnología blockchain se utiliza para crear juegos descentralizados que permiten a los jugadores poseer sus propios activos en el juego. Los juegos blockchain ofrecen a los jugadores una mayor libertad y control sobre sus experiencias de juego.
+* **Juegos:** La tecnología blockchain se utiliza para crear juegos descentralizados que permiten a los jugadores poseer sus propios activos en el juego. Los juegos blockchain ofrecen a los jugadores una mayor libertad y control sobre sus experiencias de juego.<br/><br/>
 
-**Axie Infinity:** Un juego de rol de NFT en el que los jugadores pueden criar, entrenar y luchar con criaturas llamadas Axies.
+**Axie Infinity:** Un juego de rol de NFT en el que los jugadores pueden criar, entrenar y luchar con criaturas llamadas Axies.<br/><br/>
 
-**Decentraland:** Un mundo virtual en el que los jugadores pueden comprar, vender y crear bienes inmuebles virtuales.
+**Decentraland:** Un mundo virtual en el que los jugadores pueden comprar, vender y crear bienes inmuebles virtuales.<br/><br/>
 
-**Gods Unchained:** Un juego de cartas coleccionables basado en blockchain en el que los jugadores pueden coleccionar, comprar, vender y jugar con cartas.
+**Gods Unchained:** Un juego de cartas coleccionables basado en blockchain en el que los jugadores pueden coleccionar, comprar, vender y jugar con cartas.<br/><br/>
 
-* **NFT:** Los tokens no fungibles (NFT) son activos digitales únicos que se almacenan en la blockchain. Los NFT se pueden utilizar para representar una variedad de activos, como obras de arte, música, coleccionables y bienes virtuales.
+* **NFT:** Los tokens no fungibles (NFT) son activos digitales únicos que se almacenan en la blockchain. Los NFT se pueden utilizar para representar una variedad de activos, como obras de arte, música, coleccionables y bienes virtuales.<br/><br/>
 
-**Beeple:** Un artista digital que vendió un NFT de su obra por 69 millones de dólares.
+**Beeple:** Un artista digital que vendió un NFT de su obra por 69 millones de dólares.<br/><br/>
 
-**NBA Top Shot:** Una plataforma que permite a los fans comprar y vender NFT de momentos de la NBA.
+**NBA Top Shot:** Una plataforma que permite a los fans comprar y vender NFT de momentos de la NBA.<br/><br/>
 
-**CryptoKitties:** Un juego en el que los jugadores pueden criar, entrenar y vender gatos virtuales NFT.
+**CryptoKitties:** Un juego en el que los jugadores pueden criar, entrenar y vender gatos virtuales NFT.<br/><br/>
 
-* **Logística:** La tecnología blockchain se utiliza para rastrear el movimiento de bienes y servicios. La rastreabilidad blockchain puede ayudar a mejorar la eficiencia y la transparencia de la cadena de suministro.
+* **Logística:** La tecnología blockchain se utiliza para rastrear el movimiento de bienes y servicios. La rastreabilidad blockchain puede ayudar a mejorar la eficiencia y la transparencia de la cadena de suministro.<br/><br/>
 
-**IBM Food Trust:** Una plataforma blockchain que rastrea la cadena de suministro de alimentos.
+**IBM Food Trust:** Una plataforma blockchain que rastrea la cadena de suministro de alimentos.<br/><br/>
 
-**Walmart:** Una empresa que utiliza blockchain para rastrear la cadena de suministro de productos frescos.
+**Walmart:** Una empresa que utiliza blockchain para rastrear la cadena de suministro de productos frescos.<br/><br/>
 
-* **Gobierno:** La tecnología blockchain se utiliza para mejorar la transparencia y la eficiencia de los gobiernos. La tecnología blockchain puede ayudar a los gobiernos a reducir la corrupción y mejorar la participación ciudadana.
+* **Gobierno:** La tecnología blockchain se utiliza para mejorar la transparencia y la eficiencia de los gobiernos. La tecnología blockchain puede ayudar a los gobiernos a reducir la corrupción y mejorar la participación ciudadana.<br/><br/>
 
-**Estonia:** Un país que utiliza blockchain para registrar propiedades y votos.
+**Estonia:** Un país que utiliza blockchain para registrar propiedades y votos.<br/><br/>
 
-**Dubai:** Una ciudad que utiliza blockchain para emitir visas y licencias.
+**Dubai:** Una ciudad que utiliza blockchain para emitir visas y licencias.<br/><br/>
 
 Estos son solo algunos ejemplos de los muchos usos que se están dando a la tecnología blockchain. La tecnología blockchain tiene el potencial de revolucionar una amplia gama de industrias y está en constante evolución.<br/><br/>
 
 **\
 Layer 2.**<br/><br/>
 
-Las soluciones Layer 2 son soluciones que se construyen sobre una blockchain existente para mejorar su escalabilidad o rendimiento. La escalabilidad es la capacidad de una red para manejar un número creciente de transacciones. El rendimiento es la velocidad a la que una red puede procesar transacciones.
+Las soluciones Layer 2 son soluciones que se construyen sobre una blockchain existente para mejorar su escalabilidad o rendimiento. La escalabilidad es la capacidad de una red para manejar un número creciente de transacciones. El rendimiento es la velocidad a la que una red puede procesar transacciones.<br/><br/>
 
-Las soluciones Layer 2 se utilizan para abordar los desafíos de escalabilidad y rendimiento de las blockchains existentes. Las blockchains existentes, como Bitcoin y Ethereum, son limitadas en su escalabilidad y rendimiento. Esto se debe a que todas las transacciones deben ser procesadas por todos los nodos de la red.
+Las soluciones Layer 2 se utilizan para abordar los desafíos de escalabilidad y rendimiento de las blockchains existentes. Las blockchains existentes, como Bitcoin y Ethereum, son limitadas en su escalabilidad y rendimiento. Esto se debe a que todas las transacciones deben ser procesadas por todos los nodos de la red.<br/><br/>
 
-Las soluciones Layer 2 abordan este desafío al mover algunas o todas las transacciones fuera de la blockchain principal. Esto permite a las blockchains existentes procesar un mayor número de transacciones sin comprometer su seguridad.
+Las soluciones Layer 2 abordan este desafío al mover algunas o todas las transacciones fuera de la blockchain principal. Esto permite a las blockchains existentes procesar un mayor número de transacciones sin comprometer su seguridad.<br/><br/>
 
-#### **Ejemplos de soluciones Layer 2.**
+#### **Ejemplos de soluciones Layer 2.**<br/><br/>
 
 * **Polygon:** Polygon es una solución Layer 2 para Ethereum que utiliza sidechains para escalar la red. Las sidechains son blockchains independientes que están vinculadas a la blockchain principal. Las transacciones en las sidechains son más rápidas y baratas que las transacciones en la blockchain principal.<br/><br/>
 * **Optimism:** Optimism es una solución Layer 2 para Ethereum que utiliza rollups para escalar la red. Los rollups comprimen las transacciones y las ejecutan fuera de la blockchain principal. Esto permite a las blockchains existentes procesar un mayor número de transacciones sin comprometer su seguridad.<br/><br/>
