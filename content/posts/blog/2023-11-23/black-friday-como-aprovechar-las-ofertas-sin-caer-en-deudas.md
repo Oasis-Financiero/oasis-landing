@@ -29,7 +29,7 @@ Si quieres aprovechar las ofertas del Black Friday sin caer en deudas, sigue est
 * **Utiliza aplicaciones de comparación de precios:** Hay diversas aplicaciones y sitios web que te permiten comparar precios de un producto en diferentes tiendas. Esto facilita la identificación de las ofertas más convenientes.<br/><br/>
 * **Considera opciones de pago seguro:** Algunas tiendas ofrecen opciones de financiamiento interno que podrían ser más seguras que comprar a meses sin intereses en tarjetas de crédito. Asegúrate de entender completamente los términos y condiciones.<br/><br/>
 
-## **¿﻿Necesitas un préstamo? Encuentra el préstamo perfecto para tus necesidades.**
+## **¿﻿Necesitas un préstamo? Encuentra el préstamo perfecto para tí.**
 
 <br/><br/>
 
