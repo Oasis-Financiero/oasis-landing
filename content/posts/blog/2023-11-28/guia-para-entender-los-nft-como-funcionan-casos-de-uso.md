@@ -75,7 +75,7 @@ La descentralización y la seguridad inherentes a los NFT están transformando l
 
 ### **Sigue tu aprendizaje con esta guía:**<br/><br/>
 
-### [Guía para entender la tecnología Blockchain.](https://oasisfinanciero.com/blog/2023-11-23/guia-para-entender-la-tecnologia-blockchain/)<br/><br/>
+### **[Guía para entender la tecnología Blockchain.](https://oasisfinanciero.com/blog/2023-11-23/guia-para-entender-la-tecnologia-blockchain/)<br/><br/>**
 
 [![imagen de blockchain](blockchain-imagen.png "Guía para entender la tecnología Blockchain.")](https://oasisfinanciero.com/blog/2023-11-23/guia-para-entender-la-tecnologia-blockchain/)
 
