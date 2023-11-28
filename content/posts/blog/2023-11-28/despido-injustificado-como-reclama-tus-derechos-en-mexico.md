@@ -44,6 +44,14 @@ El finiquito es el pago que el patrón debe hacer al trabajador por los días tr
 
 En caso de despido injustificado, el trabajador tiene derecho a una indemnización equivalente a 30 días de salario por cada año de servicio.<br/><br/>
 
+<!--StartFragment-->
+
+## **¿﻿Necesitas un préstamo? Encuentra el préstamo perfecto para tí.**<br/><br/>
+
+![calculadora de préstamos](calculadora-oasis.png "calculadora de préstamos de Oasis Financiero")
+
+
+
 ### **Prima de antigüedad**<br/><br/>
 
 La prima de antigüedad es un derecho que se otorga a los trabajadores que tienen más de un año de servicio. La prima de antigüedad equivale a 12 días de salario por cada año de servicio.<br/><br/>
@@ -100,7 +108,5 @@ Es importante que los trabajadores conozcan sus derechos y sepan cómo defenderl
 <!--StartFragment-->
 
 ### [Guía Definitiva para Pedir Préstamos Personales.](https://oasisfinanciero.com/blog/2023-08-14/guia-definitiva-para-pedir-prestamos-personales/)<br/><br/>
-
-
 
 [![Persona apuntando en una libreta](guia-de-prestamos.png "Guía Definitiva para Pedir Préstamos Personales.")](https://oasisfinanciero.com/blog/2023-08-14/guia-definitiva-para-pedir-prestamos-personales/)
