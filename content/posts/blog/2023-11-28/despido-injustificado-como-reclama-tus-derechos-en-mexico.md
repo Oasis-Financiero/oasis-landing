@@ -48,9 +48,9 @@ En caso de despido injustificado, el trabajador tiene derecho a una indemnizaci�
 
 ## **¿﻿Necesitas un préstamo? Encuentra el préstamo perfecto para tí.**<br/><br/>
 
-![calculadora de préstamos](calculadora-oasis.png "calculadora de préstamos de Oasis Financiero")
+[![calculadora de préstamos](calculadora-oasis.png "calculadora de préstamos de Oasis Financiero")](https://oasisfinanciero.com/compara/prestamos-personales)
 
-
+<br/><br/>
 
 ### **Prima de antigüedad**<br/><br/>
 
