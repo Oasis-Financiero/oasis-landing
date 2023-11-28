@@ -23,17 +23,11 @@ Ximena Salgado, Líder de Producto de Nu México, compartió su entusiasmo por e
 
 <!--StartFragment-->
 
-## **¿﻿Necesitas un préstamo? Encuentra el préstamo perfecto para tí.**
-
-
+## **¿﻿Necesitas un préstamo? Encuentra el préstamo perfecto para tí.**<br/><br/>
 
 [![Calculadora de préstamos](calculadora-oasis.png "Calculadora de préstamos")](https://oasisfinanciero.com/compara/prestamos-personales)
 
-
-
-<!--EndFragment-->
-
-
+<br/><br/>
 
 ### **Tasa de Interés del 15%.**<br/><br/>
 
