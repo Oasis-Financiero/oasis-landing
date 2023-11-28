@@ -19,7 +19,12 @@ En el mundo financiero actual, los préstamos personales pueden ser una herramie
 
 **Paso 4: Explora Tasas de Interés y Términos.** Las tasas de interés y los plazos pueden afectar significativamente el costo total de tu préstamo. Aprovecha herramientas en línea y calculadoras de préstamos para comparar diferentes tasas y términos, y elige la opción que te brinde la mejor combinación de asequibilidad y flexibilidad. <br/><br/>
 
-[![Banner Mr Finan](bannermf-1-.png "Cotiza tu préstamos personal con Mr Finan")](https://bit.ly/3qBTHJc)
+<!--StartFragment-->
+
+## **¿﻿Necesitas un préstamo? Encuentra el préstamo perfecto para tí.**<br/><br/>
+
+[![Calculadora de préstamos](calculadora-oasis.png "Calculadora de préstamos")](https://oasisfinanciero.com/compara/prestamos-personales)
+
 <br/><br/>
 
 **Paso 5: Lee la Letra Pequeña.** Antes de firmar cualquier acuerdo, es esencial leer y comprender los términos y condiciones del préstamo. Presta atención a las tarifas ocultas, los cargos por pagos atrasados y otros detalles importantes que podrían afectar tus finanzas a largo plazo. <br/><br/>
