@@ -18,6 +18,14 @@ Las criptomonedas son activos digitales que emplean un cifrado criptográfico pa
 
 Las criptomonedas funcionan mediante la tecnología **blockchain**, un sistema de registro distribuido que registra las transacciones de manera segura y transparente. La blockchain es una base de datos descentralizada que se almacena en una red de computadoras. Cada transacción de criptomoneda se registra en la blockchain, lo que la hace imposible de falsificar o manipular.<br/><br/>
 
+
+
+## **¿﻿Necesitas un préstamo? Encuentra el préstamo perfecto para tí.**<br/><br/>
+
+[![Calculadora de préstamos](calculadora-oasis.png "Calculadora de préstamos")](https://oasisfinanciero.com/compara/prestamos-personales)
+
+<br/><br/>
+
 ### **Ventajas de las criptomonedas.**<br/><br/>
 
 Las criptomonedas ofrecen una serie de ventajas sobre las monedas tradicionales, como:<br/><br/>
@@ -100,7 +108,5 @@ Siguiendo estos consejos, podrás reducir el riesgo asociado a las inversiones e
 ### **[Encuentra el préstamo perfecto para tus necesidades.](https://oasisdev.netlify.app/compara/prestamos-personales)**<br/><br/>
 
 [![Calculadora de préstamos](calculadora-oasis.png "Calculadora de préstamos")](https://oasisdev.netlify.app/compara/prestamos-personales)
-
-
 
 <!--EndFragment-->

@@ -21,6 +21,14 @@ La Cajita de Cuenta Nu es una herramienta que ha demostrado ser popular entre lo
 
 Ximena Salgado, Líder de Producto de Nu México, compartió su entusiasmo por esta actualización: "En Nu, nuestros clientes son nuestra prioridad, y escuchamos atentamente sus necesidades. Por eso, hemos mejorado nuestra oferta al aumentar los beneficios de la Cuenta Nu y al ofrecer la opción de crear múltiples Cajitas para una mayor flexibilidad en la planificación financiera".<br/><br/>
 
+<!--StartFragment-->
+
+## **¿﻿Necesitas un préstamo? Encuentra el préstamo perfecto para tí.**<br/><br/>
+
+[![Calculadora de préstamos](calculadora-oasis.png "Calculadora de préstamos")](https://oasisfinanciero.com/compara/prestamos-personales)
+
+<br/><br/>
+
 ### **Tasa de Interés del 15%.**<br/><br/>
 
 La tasa de rendimiento de la Cajita ha experimentado un significativo aumento, pasando del 9% al 15% anual fijo. Esta medida refleja el compromiso de Nu México en fomentar la educación financiera y hábitos de ahorro sólidos. La tasa del 15% se aplica intencionalmente solo al dinero separado en la Cajita, lo que refuerza la conciencia y el hábito del ahorro, al mismo tiempo que ayuda a evitar gastos impulsivos.<br/><br/>
