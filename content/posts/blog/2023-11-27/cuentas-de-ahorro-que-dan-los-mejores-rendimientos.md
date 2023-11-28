@@ -52,8 +52,6 @@ Cuenta Nu es otra fintech que ofrece una cuenta de ahorro con una tasa de rendim
 
 <br/><br/>
 
-
-
 ### **Klar**<br/><br/>
 
 Klar es una fintech que ofrece una cuenta de ahorro con una tasa de rendimiento anual fija del 10%. Esta cuenta no tiene plazos forzosos, por lo que puedes retirar tu dinero en cualquier momento. Además, tus ahorros están protegidos por el IPAB hasta por 25,000 UDIs.<br/><br/>
@@ -107,4 +105,8 @@ La mejor opción para ti dependerá de tus necesidades y preferencias. Si buscas
 
 También es importante considerar tus necesidades y preferencias personales. Por ejemplo, si necesitas acceder a tu dinero con frecuencia, una cuenta de ahorro con plazos forzosos puede no ser la mejor opción para ti.<br/><br/>
 
-<!--EndFragment-->
+T﻿e recomendamos leer:<br/><br/>
+
+### Cómo crear un presupuesto que funcione para ti.<br/><br/>
+
+[![Mano con calculadora](presupuesto.png "Cómo crear un presupuesto que funcione para ti.")](https://oasisfinanciero.com/blog/2023-11-01/como-crear-un-presupuesto-que-funcione-para-ti/)
