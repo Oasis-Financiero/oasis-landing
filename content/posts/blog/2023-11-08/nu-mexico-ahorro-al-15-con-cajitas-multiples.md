@@ -25,7 +25,7 @@ Ximena Salgado, Líder de Producto de Nu México, compartió su entusiasmo por e
 
 ## **¿﻿Necesitas un préstamo? Encuentra el préstamo perfecto para tí.**<br/><br/>
 
-[![Calculadora de préstamos](calculadora-oasis.png "Calculadora de préstamos")](https://oasisfinanciero.com/compara/prestamos-personales)
+[![calculadora de préstamos de Oasis Financiero](calculadora-oasis.png "calculadora de préstamos de Oasis Financiero")](https://oasisfinanciero.com/compara/prestamos-personales)
 
 <br/><br/>
 
