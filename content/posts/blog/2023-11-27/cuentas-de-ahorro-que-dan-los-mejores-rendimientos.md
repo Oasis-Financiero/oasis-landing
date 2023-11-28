@@ -44,6 +44,14 @@ Cuenta Nu es otra fintech que ofrece una cuenta de ahorro con una tasa de rendim
 * **Monto mínimo de apertura:** $0.01: Cuenta Nu también es una buena opción para las personas que quieren empezar a ahorrar desde cero.<br/><br/>
 * **Protección del IPAB hasta por 25,000 UDIs:** La protección del IPAB es menor que la de Ualá, pero sigue siendo una buena garantía.<br/><br/>
 
+## **¿﻿Necesitas un préstamo? Encuentra el préstamo perfecto para tí.**
+
+<br/><br/>
+
+[![Calculadora de préstamos](calculadora-oasis.png "Calculadora de préstamos")](https://oasisfinanciero.com/compara/prestamos-personales)
+
+<br/><br/>
+
 
 
 ### **Klar**<br/><br/>
@@ -65,8 +73,6 @@ Cetes Directo es una plataforma que te permite invertir en Cetes, que son valore
 * **Sin comisiones:** Cetes Directo no cobra comisiones por abrir una cuenta o realizar operaciones.<br/><br/>
 * **Protección del IPAB hasta por 400,000 UDIs:** La protección del IPAB es la más alta de todas las opciones que se presentan en este artículo.<br/><br/>
 
-
-
 ### **Fondeadora**<br/><br/>
 
 Fondeadora es una fintech que ofrece una cuenta de ahorro con una tasa de rendimiento anual del 12%. Esta cuenta tampoco tiene plazos forzosos y tus ahorros están protegidos por el IPAB hasta por 25,000 UDIs.<br/><br/>
@@ -77,8 +83,6 @@ Fondeadora es una fintech que ofrece una cuenta de ahorro con una tasa de rendim
 * **Sin plazos forzosos:** Fondeadora también es una cuenta sin plazos forzosos.<br/><br/>
 * **Monto mínimo de apertura: $0.01:** Fondeadora también es una buena opción para las personas que quieren empezar a ahorrar desde cero.<br/><br/>
 * **Protección del IPAB hasta por 25,000 UDIs:** La protección del IPAB es la misma que la de Cuenta Nu.<br/><br/>
-
-
 
 ### **Dinn**<br/><br/>
 
