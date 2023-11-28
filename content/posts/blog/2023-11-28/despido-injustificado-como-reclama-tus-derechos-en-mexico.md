@@ -12,91 +12,95 @@ tags:
   - trabajo
   - educación
 ---
-## **Derechos de los trabajadores en México cuando son despedidos.**
+## **Derechos de los trabajadores en México cuando son despedidos.**<br/><br/>
 
-El despido es una situación que puede afectar a cualquier trabajador, sin importar su antigüedad, experiencia o desempeño laboral. En México, los trabajadores tienen una serie de derechos que se les deben respetar, incluso cuando son despedidos. Estos derechos están establecidos en la Ley Federal del Trabajo (LFT), la cual es la ley que regula las relaciones laborales en el país.
+El despido es una situación que puede afectar a cualquier trabajador, sin importar su antigüedad, experiencia o desempeño laboral. En México, los trabajadores tienen una serie de derechos que se les deben respetar, incluso cuando son despedidos. Estos derechos están establecidos en la Ley Federal del Trabajo (LFT), la cual es la ley que regula las relaciones laborales en el país.<br/><br/>
 
-<!--EndFragment-->
+**Tipos de despidos**<br/><br/>
 
-**Tipos de despidos**
+La LFT establece dos tipos de despidos: justificado e injustificado.<br/><br/>
 
-La LFT establece dos tipos de despidos: justificado e injustificado.
+### **Despido justificado**<br/><br/>
 
-### **Despido justificado**
+Un despido es justificado cuando el patrón tiene una causa legal para despedir al trabajador. Algunas de las causas legales de despido justificado son:<br/><br/>
 
-Un despido es justificado cuando el patrón tiene una causa legal para despedir al trabajador. Algunas de las causas legales de despido justificado son:
+* Incapacidad física o mental para realizar el trabajo.<br/><br/>
+* Faltas graves al trabajo, como inasistencia injustificada, robo o violencia.<br/><br/>
+* Actos de competencia desleal en contra del patrón.<br/><br/>
 
-* Incapacidad física o mental para realizar el trabajo.
-* Faltas graves al trabajo, como inasistencia injustificada, robo o violencia.
-* Actos de competencia desleal en contra del patrón.
+### **Despido injustificado**<br/><br/>
 
+Un despido es injustificado cuando el patrón no tiene una causa legal para despedir al trabajador. En este caso, el trabajador tiene derecho a una indemnización.<br/><br/>
 
+**Derechos del trabajador en caso de despido**<br/><br/>
 
-### **Despido injustificado**
+En caso de despido, el trabajador tiene derecho a recibir las siguientes prestaciones:<br/><br/>
 
-Un despido es injustificado cuando el patrón no tiene una causa legal para despedir al trabajador. En este caso, el trabajador tiene derecho a una indemnización.
+### **Finiquito**<br/><br/>
 
-**Derechos del trabajador en caso de despido**
+El finiquito es el pago que el patrón debe hacer al trabajador por los días trabajados y no pagados a la fecha en que termina la relación laboral. El finiquito también incluye la parte proporcional de aguinaldo, vacaciones y prima vacacional.<br/><br/>
 
-En caso de despido, el trabajador tiene derecho a recibir las siguientes prestaciones:
+### **Indemnización**<br/><br/>
 
-### **Finiquito**
+En caso de despido injustificado, el trabajador tiene derecho a una indemnización equivalente a 30 días de salario por cada año de servicio.<br/><br/>
 
-El finiquito es el pago que el patrón debe hacer al trabajador por los días trabajados y no pagados a la fecha en que termina la relación laboral. El finiquito también incluye la parte proporcional de aguinaldo, vacaciones y prima vacacional.
+### **Prima de antigüedad**<br/><br/>
 
-### **Indemnización**
+La prima de antigüedad es un derecho que se otorga a los trabajadores que tienen más de un año de servicio. La prima de antigüedad equivale a 12 días de salario por cada año de servicio.<br/><br/>
 
-En caso de despido injustificado, el trabajador tiene derecho a una indemnización equivalente a 30 días de salario por cada año de servicio.
+### **Vacaciones**<br/><br/>
 
-### **Prima de antigüedad**
+Los trabajadores tienen derecho a un periodo de vacaciones de 6 días por cada año de servicio. Si el trabajador tiene más de 10 años de servicio, el periodo de vacaciones aumenta a 12 días por cada año de servicio.<br/><br/>
 
-La prima de antigüedad es un derecho que se otorga a los trabajadores que tienen más de un año de servicio. La prima de antigüedad equivale a 12 días de salario por cada año de servicio.
+### **Prima vacacional**<br/><br/>
 
-### **Vacaciones**
+La prima vacacional es un derecho que se otorga a los trabajadores que tienen derecho a vacaciones. La prima vacacional equivale al 25% del salario que el trabajador perciba durante el periodo de vacaciones.<br/><br/>
 
-Los trabajadores tienen derecho a un periodo de vacaciones de 6 días por cada año de servicio. Si el trabajador tiene más de 10 años de servicio, el periodo de vacaciones aumenta a 12 días por cada año de servicio.
+### **Reparto de utilidades**<br/><br/>
 
-### **Prima vacacional**
+Los trabajadores tienen derecho a participar en el reparto de utilidades de la empresa en la que laboran. El reparto de utilidades se realiza cada año.<br/><br/>
 
-La prima vacacional es un derecho que se otorga a los trabajadores que tienen derecho a vacaciones. La prima vacacional equivale al 25% del salario que el trabajador perciba durante el periodo de vacaciones.
+### **Prescripción de las acciones laborales**<br/><br/>
 
-### **Reparto de utilidades**
+Las acciones laborales, como las demandas por despido injustificado, prescriben en un año, contado a partir del día siguiente a la fecha en que la obligación sea exigible.<br/><br/>
 
-Los trabajadores tienen derecho a participar en el reparto de utilidades de la empresa en la que laboran. El reparto de utilidades se realiza cada año.
+**Conclusión**<br/><br/>
 
-### **Prescripción de las acciones laborales**
+Los trabajadores en México tienen una serie de derechos que se les deben respetar, incluso cuando son despedidos. Es importante que los trabajadores conozcan sus derechos para que puedan exigirlos en caso de ser despedidos.<br/><br/>
 
-Las acciones laborales, como las demandas por despido injustificado, prescriben en un año, contado a partir del día siguiente a la fecha en que la obligación sea exigible.
+**Recomendaciones**<br/><br/>
 
-**Conclusión**
+Si un trabajador es despedido, debe seguir los siguientes pasos:<br/><br/>
 
-Los trabajadores en México tienen una serie de derechos que se les deben respetar, incluso cuando son despedidos. Es importante que los trabajadores conozcan sus derechos para que puedan exigirlos en caso de ser despedidos.
+1. Solicitar al patrón un finiquito por escrito.<br/><br/>
+2. Si el finiquito no es suficiente, el trabajador puede demandar al patrón por despido injustificado.<br/><br/>
+3. Para demandar por despido injustificado, el trabajador debe acudir a una Junta de Conciliación y Arbitraje.<br/><br/>
 
-**Recomendaciones**
+La asistencia de un abogado puede ser de gran ayuda para los trabajadores que son despedidos. El abogado puede asesorar al trabajador sobre sus derechos y representarlo en un juicio laboral.<br/><br/>
 
-Si un trabajador es despedido, debe seguir los siguientes pasos:
+### **¿﻿A donde acudir si sufriste un despido injustificado?**<br/><br/>
 
-1. Solicitar al patrón un finiquito por escrito.
-2. Si el finiquito no es suficiente, el trabajador puede demandar al patrón por despido injustificado.
-3. Para demandar por despido injustificado, el trabajador debe acudir a una Junta de Conciliación y Arbitraje.
+Si fuiste despedido sin motivo, puedes acudir a la **Procuraduría Federal de la Defensa del Trabajo (Profedet)** para presentar una queja. Puedes obtener más información llamando a los números 800 717 2842, 800 911 7877 o vía WhatsApp al 551484-8737, de lunes a viernes de 8:30 a 18:00 horas.<br/><br/>
 
-La asistencia de un abogado puede ser de gran ayuda para los trabajadores que son despedidos. El abogado puede asesorar al trabajador sobre sus derechos y representarlo en un juicio laboral.
+### **Casos de despido injustificado**<br/><br/>
 
-### **¿﻿A donde acudir si sufriste un despido injustificado?**
+En México, los casos de despido injustificado son comunes. Según datos de la Secretaría del Trabajo y Previsión Social, en 2022 se presentaron más de 250 mil demandas por despido injustificado ante las Juntas de Conciliación y Arbitraje.<br/><br/>
 
-Si fuiste despedido sin motivo, puedes acudir a la **Procuraduría Federal de la Defensa del Trabajo (Profedet)** para presentar una queja. Puedes obtener más información llamando a los números 800 717 2842, 800 911 7877 o vía WhatsApp al 551484-8737, de lunes a viernes de 8:30 a 18:00 horas.
-
-### **Casos de despido injustificado**
-
-En México, los casos de despido injustificado son comunes. Según datos de la Secretaría del Trabajo y Previsión Social, en 2022 se presentaron más de 250 mil demandas por despido injustificado ante las Juntas de Conciliación y Arbitraje.
-
-Algunos de los casos más comunes de despido injustificado son los siguientes:
+Algunos de los casos más comunes de despido injustificado son los siguientes:<br/><br/>
 
 * Despido por embarazo o maternidad.
 * Despido por sindicalización.
 * Despido por denunciar irregularidades laborales.
-* Despido por discriminación.
+* Despido por discriminación.<br/><br/>
 
-Es importante que los trabajadores conozcan sus derechos y sepan cómo defenderlos en caso de ser despedidos injustificadamente.
+Es importante que los trabajadores conozcan sus derechos y sepan cómo defenderlos en caso de ser despedidos injustificadamente.<br/><br/>
 
-<!--EndFragment-->
+**Te recomendamos leer:**<br/><br/>
+
+<!--StartFragment-->
+
+### [Guía Definitiva para Pedir Préstamos Personales.](https://oasisfinanciero.com/blog/2023-08-14/guia-definitiva-para-pedir-prestamos-personales/)<br/><br/>
+
+
+
+[![Persona apuntando en una libreta](guia-de-prestamos.png "Guía Definitiva para Pedir Préstamos Personales.")](https://oasisfinanciero.com/blog/2023-08-14/guia-definitiva-para-pedir-prestamos-personales/)
