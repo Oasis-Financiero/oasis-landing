@@ -33,6 +33,15 @@ Después de calcular tu presupuesto, redondea hacia arriba para asegurarte de cu
 
 **4. Regalos Personalizados:** Opta por regalos personalizados o hechos a mano. Un álbum de fotos con momentos especiales o una pieza de arte única pueden ser regalos memorables y asequibles. La creatividad puede ser clave para mantener los costos bajos.<br/><br/>
 
+
+
+### **¿﻿Necesitas un préstamo? Encuentra el préstamo perfecto para tí.**<br/><br/>
+
+[![calculadora de préstamos de Oasis Financiero](calculadora-oasis.png "calculadora de préstamos de Oasis Financiero")](https://oasisfinanciero.com/compara/prestamos-personales)
+
+
+<br/><br/>
+
 **5. Planifica Eventos con Anticipación:** Si planeas eventos o cenas navideñas, organízalos con tiempo. Aprovecha la anticipación para organizar tus finanzas al hacer un presupuesto detallado con todos los gastos previstos, desde comidas y regalos hasta viajes. Este enfoque te dará una perspectiva clara y te ayudará a establecer metas realistas. Compra alimentos y decoraciones con anticipación para aprovechar descuentos y evitar gastos de última hora.<br/><br/>
 
 **6. Uso Estratégico de Tarjetas de Crédito:** Si decides utilizar tarjetas de crédito, hazlo estratégicamente. Aprovecha programas de recompensas y ofertas asociadas a tus tarjetas. Antes de usar tu tarjeta de crédito, calcula los posibles intereses y el impacto real del crédito. Gestionarla con responsabilidad evita sorpresas financieras en enero y garantiza un uso adecuado de tus recursos.<br/><br/>
