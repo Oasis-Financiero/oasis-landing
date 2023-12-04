@@ -33,12 +33,9 @@ Después de calcular tu presupuesto, redondea hacia arriba para asegurarte de cu
 
 **4. Regalos Personalizados:** Opta por regalos personalizados o hechos a mano. Un álbum de fotos con momentos especiales o una pieza de arte única pueden ser regalos memorables y asequibles. La creatividad puede ser clave para mantener los costos bajos.<br/><br/>
 
-
-
 ### **¿﻿Necesitas un préstamo? Encuentra el préstamo perfecto para tí.**<br/><br/>
 
 [![calculadora de préstamos de Oasis Financiero](calculadora-oasis.png "calculadora de préstamos de Oasis Financiero")](https://oasisfinanciero.com/compara/prestamos-personales)
-
 
 <br/><br/>
 
@@ -60,4 +57,10 @@ Después de calcular tu presupuesto, redondea hacia arriba para asegurarte de cu
 
 Al seguir estas estrategias adicionales, podrás enfrentar la temporada navideña con confianza, disfrutando de las festividades sin comprometer tu estabilidad financiera. ¡Que tengas unas felices y financieramente equilibradas fiestas navideñas!<br/><br/>
 
-<!--EndFragment-->
+Te recomendamos leer:
+
+<!--StartFragment-->
+
+### **[Despido injustificado: cómo reclamar tus derechos.](https://oasisfinanciero.com/blog/2023-11-28/despido-injustificado-como-reclama-tus-derechos-en-mexico/)**
+
+[![hombre guardando cosas en una caja](despido-injustificado-cómo-reclamar-tus-derechos..png "Despido injustificado: cómo reclamar tus derechos.")](https://oasisfinanciero.com/blog/2023-11-28/despido-injustificado-como-reclama-tus-derechos-en-mexico/)
