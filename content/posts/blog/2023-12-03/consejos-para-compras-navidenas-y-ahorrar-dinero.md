@@ -57,10 +57,8 @@ Después de calcular tu presupuesto, redondea hacia arriba para asegurarte de cu
 
 Al seguir estas estrategias adicionales, podrás enfrentar la temporada navideña con confianza, disfrutando de las festividades sin comprometer tu estabilidad financiera. ¡Que tengas unas felices y financieramente equilibradas fiestas navideñas!<br/><br/>
 
-Te recomendamos leer:
+Te recomendamos leer:<br/><br/>
 
-<!--StartFragment-->
-
-### **[Despido injustificado: cómo reclamar tus derechos.](https://oasisfinanciero.com/blog/2023-11-28/despido-injustificado-como-reclama-tus-derechos-en-mexico/)**
+### **[Despido injustificado: cómo reclamar tus derechos.](https://oasisfinanciero.com/blog/2023-11-28/despido-injustificado-como-reclama-tus-derechos-en-mexico/)**<br/><br/>
 
 [![hombre guardando cosas en una caja](despido-injustificado-cómo-reclamar-tus-derechos..png "Despido injustificado: cómo reclamar tus derechos.")](https://oasisfinanciero.com/blog/2023-11-28/despido-injustificado-como-reclama-tus-derechos-en-mexico/)
