@@ -48,7 +48,7 @@ Cuenta Nu es otra fintech que ofrece una cuenta de ahorro con una tasa de rendim
 
 <br/><br/>
 
-[![Calculadora de préstamos](calculadora-oasis.png "Calculadora de préstamos")](https://oasisfinanciero.com/compara/prestamos-personales)
+[![calculadora de préstamos de Oasis Financiero](calculadora-oasis.png "calculadora de préstamos de Oasis Financiero")](https://oasisfinanciero.com/compara/prestamos-personales)
 
 <br/><br/>
 
