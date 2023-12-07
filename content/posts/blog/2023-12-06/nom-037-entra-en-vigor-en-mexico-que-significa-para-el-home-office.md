@@ -25,9 +25,7 @@ La normativa es aplicable a empresas con colaboradores que dediquen más del 40%
 
 ### **¿﻿Necesitas un préstamo? Encuentra el préstamo perfecto para tí.**<br/><br/>
 
-
-
-![](calculadora-oasis.png)
+[![calculadora de prestamos](calculadora-oasis.png "Calculadora de préstamos de Oasis Financiero")](https://deploy-preview-345--oasisdev.netlify.app/compara/prestamos-personales)
 
 <br/><br/>
 
