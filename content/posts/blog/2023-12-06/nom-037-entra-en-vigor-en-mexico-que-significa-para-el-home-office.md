@@ -21,7 +21,15 @@ La NOM-037 establece nuevas obligaciones tanto para las empresas como para los e
 
 La normativa es aplicable a empresas con colaboradores que dediquen más del 40% de su jornada laboral al teletrabajo. Esto marca un cambio significativo en la implementación de esta modalidad, ya que los trabajadores deben notificar a sus empleadores sobre el lugar donde realizarán el teletrabajo, y cualquier cambio en esta ubicación debe ser comunicado con anticipación.<br/><br/>
 
-<!--EndFragment-->
+<!--StartFragment-->
+
+### **¿﻿Necesitas un préstamo? Encuentra el préstamo perfecto para tí.**<br/><br/>
+
+
+
+![](calculadora-oasis.png)
+
+<br/><br/>
 
 La NOM-037 establece una serie de requisitos para los empleadores que tengan trabajadores en modalidad de teletrabajo. Entre estos requisitos se encuentran:<br/><br/>
 
@@ -60,3 +68,7 @@ Aunque la NOM-037 representa un avance en la protección de la seguridad y salud
 3. **Modelo Híbrido:** Explorar el modelo híbrido como una posible solución para mantener la flexibilidad laboral sin rebasar el límite del 40% establecido por la ley.<br/><br/>
 
 En conclusión, la NOM-037 sobre el teletrabajo en México introduce cambios importantes en la dinámica laboral. La adaptación proactiva a estas regulaciones puede contribuir a un entorno laboral más seguro y saludable, al tiempo que se asegura la continuidad de la productividad y el bienestar financiero de los trabajadores.<br/><br/>
+
+T﻿e recomendamos leer:<br/><br/>
+
+### **[Despido injustificado: cómo reclamar tus derechos.](https://deploy-preview-345--oasisdev.netlify.app/blog/2023-11-28/despido-injustificado-como-reclama-tus-derechos-en-mexico/)**
