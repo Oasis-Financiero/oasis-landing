@@ -31,9 +31,11 @@ La NOM-037 establece una serie de requisitos para los empleadores que tengan tra
 
 La NOM-037 también establece una serie de derechos y obligaciones para los teletrabajadores. Entre estos derechos se encuentran:
 
-* **Recibir capacitación en materia de seguridad y salud en el trabajo.**
-* **Contar con un lugar de trabajo seguro y saludable.**
-* **Tener acceso a los servicios de salud que ofrece el empleador.**
+1. **Condiciones de Seguridad y Salud:** Los empleadores deben verificar que el lugar de trabajo cumpla con estas condiciones, ya sea a través de visitas al domicilio o mediante autoevaluaciones.
+2. **Política de Teletrabajo:** Se requiere que las empresas cuenten con una política que aborde las obligaciones de ambas partes, las herramientas de trabajo asignadas, y el procedimiento para ejercer el derecho de reversibilidad.
+3. **Roles de la Comisión de Seguridad e Higiene:** Esta comisión adquiere un papel más activo en la verificación de las condiciones adecuadas para el teletrabajo.
+4. **Reversibilidad de la Modalidad:** Debe existir un mecanismo para revertir la modalidad de teletrabajo a presencial, y se reconocen como accidentes de trabajo los ocurridos durante el trayecto entre los espacios acordados.
+5. **Prevención de Riesgos:** Se busca evitar riesgos por exposición a diversos agentes, como físicos, mecánicos, químicos y biológicos, así como factores psicosociales y ergonómicos.
 
 La NOM-037 es obligatoria para las empresas que tengan trabajadores con más del 40% de su jornada laboral en modalidad de teletrabajo. Sin embargo, es recomendable que todas las empresas que tengan trabajadores en esta modalidad adopten las medidas establecidas en la norma, con el fin de garantizar la salud y seguridad de sus empleados.
 
@@ -45,6 +47,16 @@ Se espera que la NOM-037 promueva la adopción del home office en México, ya qu
 
 Sin embargo, también es posible que la NOM-037 desaliente el home office en algunas empresas, ya que implica un costo adicional para los empleadores.
 
-En general, la NOM-037 es una norma positiva que contribuirá a mejorar las condiciones de trabajo de los teletrabajadores en México.
+<!--StartFragment-->
 
-<!--EndFragment-->
+**Desafíos y Oportunidades:**
+
+Aunque la NOM-037 representa un avance en la protección de la seguridad y salud de los trabajadores, algunos expertos opinan que podría ser restrictiva para un modelo de trabajo que se ha caracterizado por su flexibilidad. La implementación más rigurosa podría llevar a que algunas personas opten por esquemas informales de trabajo remoto.
+
+**Recomendaciones para Empresas y Trabajadores:**
+
+1. **Implementar las disposiciones de la norma:** Aunque el trabajo remoto no alcance el 40% de la jornada laboral, es recomendable aplicar las disposiciones de la norma para garantizar la salud y seguridad de los trabajadores.
+2. **Crear políticas internas:** Desarrollar políticas internas sólidas que aborden aspectos como la reversibilidad, condiciones de trabajo y tiempos de descanso.
+3. **Modelo Híbrido:** Explorar el modelo híbrido como una posible solución para mantener la flexibilidad laboral sin rebasar el límite del 40% establecido por la ley.
+
+En conclusión, la NOM-037 sobre el teletrabajo en México introduce cambios importantes en la dinámica laboral. La adaptación proactiva a estas regulaciones puede contribuir a un entorno laboral más seguro y saludable, al tiempo que se asegura la continuidad de la productividad y el bienestar financiero de los trabajadores.
