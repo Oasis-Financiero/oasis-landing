@@ -50,9 +50,9 @@ El lanzamiento de Gemini es un hito importante en el desarrollo de la IA. El mod
 
 En resumen, Gemini no es solo un modelo de inteligencia artificial; es la vanguardia de la innovación en el mundo empresarial. Sus capacidades multimodales y su rendimiento excepcional en pruebas académicas y aplicaciones prácticas lo convierten en una herramienta revolucionaria con un potencial transformador.<br/><br/>
 
-**T﻿e recomendamos leer:**
+**T﻿e recomendamos leer:**<br/><br/>
 
-### **[Guía para entender la tecnología Blockchain.](https://oasisfinanciero.com/blog/2023-11-23/guia-para-entender-la-tecnologia-blockchain/)**
+### **[Guía para entender la tecnología Blockchain.](https://oasisfinanciero.com/blog/2023-11-23/guia-para-entender-la-tecnologia-blockchain/)**<br/><br/>
 
 [![imagen de blockchain](blockchain-imagen.png "Guía para entender la tecnología Blockchain")](https://oasisfinanciero.com/blog/2023-11-23/guia-para-entender-la-tecnologia-blockchain/)
 
