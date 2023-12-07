@@ -13,6 +13,8 @@ tags:
   - Google
   - Bard
 ---
+La inteligencia artificial (IA) es una fuerza transformadora que está dando forma al futuro de la tecnología y la innovación. Google, como una empresa líder en este campo, está marcando un hito significativo con la introducción de Gemini, su modelo de IA más avanzado hasta la fecha.<br/><br/>
+
 El 6 de diciembre **Google DeepMind** presentó a **Gemini**, un modelo de inteligencia artificial (IA) multimodal y flexible que promete revolucionar la manera en que la tecnología se entrelaza con la cotidianidad y el desarrollo empresarial.<br/><br/>
 
 Gemini es un modelo de IA multimodal, lo que significa que puede generar y comprender, operar y combinar a la perfección diferentes tipos de datos, como texto, imágenes, audio y video. Esto le permite realizar tareas complejas que serían difíciles o imposibles para otros modelos de IA.<br/><br/>
@@ -48,4 +50,10 @@ El lanzamiento de Gemini es un hito importante en el desarrollo de la IA. El mod
 
 En resumen, Gemini no es solo un modelo de inteligencia artificial; es la vanguardia de la innovación en el mundo empresarial. Sus capacidades multimodales y su rendimiento excepcional en pruebas académicas y aplicaciones prácticas lo convierten en una herramienta revolucionaria con un potencial transformador.<br/><br/>
 
-T﻿e recomendamos leer:
+**T﻿e recomendamos leer:**
+
+### **[Guía para entender la tecnología Blockchain.](https://oasisfinanciero.com/blog/2023-11-23/guia-para-entender-la-tecnologia-blockchain/)**
+
+[![imagen de blockchain](blockchain-imagen.png "Guía para entender la tecnología Blockchain")](https://oasisfinanciero.com/blog/2023-11-23/guia-para-entender-la-tecnologia-blockchain/)
+
+<!--EndFragment-->
