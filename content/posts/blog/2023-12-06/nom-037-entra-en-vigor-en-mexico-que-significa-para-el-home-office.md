@@ -25,7 +25,7 @@ La normativa es aplicable a empresas con colaboradores que dediquen más del 40%
 
 ### **¿﻿Necesitas un préstamo? Encuentra el préstamo perfecto para tí.**<br/><br/>
 
-[![calculadora de prestamos](calculadora-oasis.png "Calculadora de préstamos de Oasis Financiero")](https://deploy-preview-345--oasisdev.netlify.app/compara/prestamos-personales)
+[![calculadora de prestamos](calculadora-oasis.png "Calculadora de préstamos de Oasis Financiero")](https://oasisfinanciero.com/compara/prestamos-personales)
 
 <br/><br/>
 
@@ -70,3 +70,5 @@ En conclusión, la NOM-037 sobre el teletrabajo en México introduce cambios imp
 T﻿e recomendamos leer:<br/><br/>
 
 ### **[Despido injustificado: cómo reclamar tus derechos.](https://deploy-preview-345--oasisdev.netlify.app/blog/2023-11-28/despido-injustificado-como-reclama-tus-derechos-en-mexico/)**
+
+[![hombre guardando cosas en una caja](despido-injustificado-cómo-reclamar-tus-derechos.-min.png "Despido injustificado: cómo reclamar tus derechos.")](https://oasisfinanciero.com/blog/2023-11-28/despido-injustificado-como-reclama-tus-derechos-en-mexico/)
