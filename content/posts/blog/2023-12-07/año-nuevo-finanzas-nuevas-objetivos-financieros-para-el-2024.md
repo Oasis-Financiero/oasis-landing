@@ -1,6 +1,6 @@
 ---
 title: "Año Nuevo, Finanzas Nuevas: Objetivos Financieros para el 2024."
-slug: Año-Nuevo-Finanzas-Nuevas-Objetivos-Financieros-para-el-2024
+slug: Ano-Nuevo-Finanzas-Nuevas-Objetivos-Financieros-para-el-2024
 author: coronagenaro@gmail.com
 date: 2023-12-07
 image: año-nuevo-finanzas-nuevas-objetivos-financieros-para-el-2024..png
