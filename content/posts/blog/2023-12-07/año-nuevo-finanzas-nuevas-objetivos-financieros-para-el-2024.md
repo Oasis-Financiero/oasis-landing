@@ -38,7 +38,7 @@ Este artículo se sumerge en los objetivos financieros clave para el 2024, propo
 
 <br/><br/>
 
-<!--StartFragment-->
+
 
 ### **2. Inversiones Estratégicas:**<br/><br/>
 
@@ -75,7 +75,7 @@ Este artículo se sumerge en los objetivos financieros clave para el 2024, propo
   * **Ejemplo:** Propón un plan de pago reducido temporalmente y explícales cómo planeas poner al día la deuda. A menudo, los acreedores aprecian la comunicación abierta y pueden ofrecer opciones flexibles, como periodos de gracia o reducciones temporales en las tasas de interés.<br/><br/>
   * **Asesoramiento Profesional:** En situaciones más complejas, considera buscar asesoramiento financiero profesional. Un asesor puede ayudarte a explorar opciones como la consolidación de deudas, acuerdos de pago estructurados o incluso la posibilidad de liquidar deudas con descuentos.<br/><br/>
 
-<!--StartFragment-->
+
 
 ### **4. Ahorro para Metas Específicas:**<br/><br/>
 
@@ -158,6 +158,10 @@ Este artículo se sumerge en los objetivos financieros clave para el 2024, propo
 
 * **Ejemplo:** Algunas plataformas ofrecen simuladores de inversión que te permiten practicar tus habilidades de inversión sin riesgos financieros reales. Esto es especialmente útil para entender el funcionamiento del mercado y perfeccionar tu estrategia.<br/><br/>
 
-Al sumergirte en una variedad de recursos educativos, personalizar tu aprendizaje y aplicar los conocimientos adquiridos, estarás bien equipado para navegar por el complejo mundo financiero y alcanzar tus metas con confianza. ¡Que tu búsqueda de conocimiento financiero sea fructífera y edificante!
+Al sumergirte en una variedad de recursos educativos, personalizar tu aprendizaje y aplicar los conocimientos adquiridos, estarás bien equipado para navegar por el complejo mundo financiero y alcanzar tus metas con confianza. ¡Que tu búsqueda de conocimiento financiero sea fructífera y edificante!<br/><br/>
+
+**Te recomendamos leer:<br/><br/>**
+
+### **[NOM-037 entra en vigor en México: ¿qué significa para el home office?<br/><br/>](https://oasisfinanciero.com/blog/2023-12-06/nom-037-entra-en-vigor-en-mexico-que-significa-para-el-home-office/)**
 
 <!--EndFragment-->
