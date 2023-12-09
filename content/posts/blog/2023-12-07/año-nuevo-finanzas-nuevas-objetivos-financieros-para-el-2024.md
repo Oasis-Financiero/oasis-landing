@@ -118,7 +118,7 @@ Este artículo se sumerge en los objetivos financieros clave para el 2024, propo
 
 ## **Educación Financiera:**<br/><br/>
 
-¡Explorar el vasto mundo de la educación financiera es esencial para fortalecer tus conocimientos y tomar decisiones informadas en tu viaje hacia la independencia financiera! Aquí hay más consejos y recursos para enriquecer tu comprensión financiera:
+¡Explorar el vasto mundo de la educación financiera es esencial para fortalecer tus conocimientos y tomar decisiones informadas en tu viaje hacia la independencia financiera! Aquí hay más consejos y recursos para enriquecer tu comprensión financiera:<br/><br/>
 
 **Consejo: Explora Diversos Recursos Educativos**<br/><br/>
 
