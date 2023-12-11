@@ -2,7 +2,7 @@
 title: Guía Definitiva para Pedir Préstamos Personales.
 slug: guia-definitiva-para-pedir-prestamos-personales
 author: coronagenaro@gmail.com
-date: 2023-12-10
+date: 2023-12-11
 image: guia-de-prestamos.png
 imageAlt: Persona apuntando en una libreta
 tags:
