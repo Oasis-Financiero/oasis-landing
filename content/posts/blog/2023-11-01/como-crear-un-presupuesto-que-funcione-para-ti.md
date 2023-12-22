@@ -44,6 +44,14 @@ Puedes clasificar tus gastos en las siguientes categorías:<br/><br/>
 * **Deseados:** Gastos que no son esenciales, pero que aportan valor a tu vida, como las actividades de ocio y los viajes.
 * **Indeseables:** Gastos que no son esenciales y que no aportan valor a tu vida, como las compras compulsivas y las deudas.<br/><br/>
 
+## **¿﻿Necesitas un préstamo? Encuentra el préstamo perfecto para tí.**
+
+<br/><br/>
+
+[![Calculadora de préstamos](calculadora-oasis.png "Calculadora de préstamos")](https://oasisfinanciero.com/compara/prestamos-personales)
+
+<br/><br/>
+
 ## **4. Crea un presupuesto.**<br/><br/>
 
 Ahora que tienes una idea clara de tus ingresos y gastos, es hora de crear un presupuesto. Tu presupuesto debe incluir una asignación para cada categoría de gastos. Es importante que tu presupuesto sea realista y que puedas cumplirlo.<br/><br/>
