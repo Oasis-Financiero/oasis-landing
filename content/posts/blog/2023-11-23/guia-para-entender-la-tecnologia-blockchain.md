@@ -3,7 +3,7 @@ title: Guía para entender la tecnología Blockchain.
 slug: Guia-para-entender-la-tecnologia-Blockchain
 author: coronagenaro@gmail.com
 date: 2023-11-23
-image: blockchain-1.png
+image: guía-para-entender-la-tecnología-blockchain..png
 imageAlt: Imagen de Blockchain
 tags:
   - Blockchain
