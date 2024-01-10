@@ -1,5 +1,5 @@
 ---
-title: "Descubre Fiin: La Revolución Inteligente en Finanzas Personales"
+title: "Descubre Fiin: La Revolución Inteligente en Finanzas Personales."
 slug: Descubre-Fiin-La-Revolucion-Inteligente-en-Finanzas-Personales
 author: coronagenaro@gmail.com
 date: 2024-01-10
@@ -29,6 +29,12 @@ Por ejemplo, si tienes múltiples tarjetas de crédito, Fiin te ayudará a ident
 ### **Compara y Elige Productos Financieros Ideales**<br/><br/>
 
 Fiin va más allá al permitirte comparar una amplia gama de productos financieros. Basándose en un análisis profundo de tu perfil financiero, Fiin te asesora sobre cuál producto, desde cuentas de ahorro hasta seguros e hipotecas, se adapta mejor a tus necesidades. Esto asegura que no solo estés eligiendo la opción más adecuada, sino también la más rentable y segura para tu situación específica.<br/><br/>
+
+### **¿﻿Necesitas un préstamo? Encuentra el préstamo perfecto para tí.**<br/><br/>
+
+[![calculadora de préstamos de Oasis Financiero](calculadora-oasis.png "Compara préstamos personales")](https://oasisfinanciero.com/compara/prestamos-personales)
+
+<br/><br/>
 
 ### **Educación Financiera al Alcance de Tu Mano**<br/><br/>
 
