@@ -52,7 +52,7 @@ Esta noticia representa un momento histórico para la industria de las criptomon
 
 **T﻿e recomendamos leer:** <br/><br/>
 
-### **[Guía para entender las criptomonedas.](https://oasisfinanciero.com/blog/2023-11-21/guia-para-entender-las-criptomonedas/)** <br/><br/>
+## **[Guía para entender las criptomonedas.](https://oasisfinanciero.com/blog/2023-11-21/guia-para-entender-las-criptomonedas/)** <br/><br/>
 
 [![computadora con una grafica de trading](guía-para-entender-las-criptomonedas..png "Guía para entender las criptomonedas")](https://oasisfinanciero.com/blog/2023-11-21/guia-para-entender-las-criptomonedas/)
 
