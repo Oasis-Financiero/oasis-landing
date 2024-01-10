@@ -16,6 +16,12 @@ La Comisión de Bolsa y Valores de EE. UU. (**SEC**) ha aprobado el lanzamiento 
 
 Estos **ETFs** permitirán a los inversores estadounidenses invertir en vehículos financieros que siguen el rendimiento de bitcoin, una criptomoneda que ya tiene 15 años. La SEC declaró efectivas las presentaciones 19b-4 realizadas por la Bolsa de Nueva York, Nasdaq y Cboe Global Markets, otorgando permiso a estos mercados para listar y ofrecer operaciones con estos valores. <br/><br/>
 
+### **¿﻿Necesitas un préstamo? Encuentra el préstamo perfecto para tí.**<br/><br/>
+
+[![calculadora de prestamos de Oasis Financiero](calculadora-oasis.png "Calculadora de prestamos de Oasis Financiero")](https://oasisfinanciero.com/compara/prestamos-personales)
+
+<br/><br/>
+
 Entre las empresas que buscaron crear ETFs de bitcoin se encuentran BlackRock, Fidelity y Grayscale. Estos ETFs al contado, a diferencia de los ETFs de futuros de bitcoin ya aprobados, mantendrán directamente el bitcoin en lugar de contratos de derivados vinculados a él. La aprobación de la SEC es un cambio significativo, especialmente tras varios años de demoras y rechazos, y unos meses después de una derrota en la corte para la agencia respecto a la solicitud de Grayscale para convertir su Grayscale Bitcoin Trust en un ETF al contado. <br/><br/>
 
 Los defensores de los ETFs de bitcoin al contado han argumentado durante mucho tiempo que un producto de negociación regulado centrado en la criptomoneda más antigua permitiría a clientes institucionales y minoristas obtener exposición a los movimientos de precios de bitcoin sin la necesidad de configurar monederos o invertir directamente en el activo digital. Con esta aprobación, las acciones de los ETF estarán disponibles para cualquier inversor estadounidense con una cuenta de corretaje. <br/><br/>
