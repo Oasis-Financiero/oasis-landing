@@ -17,7 +17,7 @@ tags:
 ---
 Para los jóvenes que están comenzando esta emocionante etapa laboral, aquí les traemos algunos consejos prácticos sobre cómo manejar su primer sueldo, evitar deudas, ahorrar e invertir en su futuro. Estos consejos son el resultado de experiencias compartidas, errores comunes y estrategias efectivas que he visto y aprendido a lo largo de los años.<br/><br/>
 
-#### 1. **Tu Primer Sueldo: Más que un Cheque**<br/><br/>
+### **1. Tu Primer Sueldo: Más que un Cheque<br/><br/>**
 
 **Crea un Presupuesto:**<br/><br/>
 
@@ -39,10 +39,7 @@ Para los jóvenes que están comenzando esta emocionante etapa laboral, aquí le
 
 **Evita Compras Impulsivas:**<br/><br/>
 
-* **Regla de 48 Horas:** Cuando veas algo que quieres comprar, como unos zapatos de $1,200, espera 48 horas. Si después de dos días sigues pensando en ellos.<br/><br/>
-
-y sientes que la compra aportará valor a tu vida, considera comprarlos. Este período de reflexión ayuda a evitar compras impulsivas y garantiza que estés gastando en cosas que realmente valoras.<br/><br/>
-
+* **Regla de 48 Horas:** Cuando veas algo que quieres comprar, como unos zapatos de $1,200, espera 48 horas. Si después de dos días sigues pensando en ellos y sientes que la compra aportará valor a tu vida, considera comprarlos. Este período de reflexión ayuda a evitar compras impulsivas y garantiza que estés gastando en cosas que realmente valoras.<br/><br/>
 * **Comparar Precios y Ofertas:** Antes de realizar una compra importante, investiga en diferentes tiendas o en línea para encontrar el mejor precio. A veces, esperar a una venta o buscar un cupón de descuento puede ahorrarte una cantidad significativa.<br/><br/>
 * **Conciencia de Costo-Beneficio:** Piensa en términos de horas de trabajo. Por ejemplo, si ganas $100 MXN por hora, esos zapatos representan 12 horas de tu trabajo. ¿Vale la pena esa cantidad de tu tiempo y esfuerzo?<br/><br/>
 
