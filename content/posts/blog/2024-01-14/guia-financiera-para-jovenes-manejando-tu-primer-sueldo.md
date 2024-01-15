@@ -68,7 +68,7 @@ Invertir es una manera inteligente de hacer que tu dinero trabaje para ti. Como 
 **Fondos de Inversión:**<br/><br/>
 
 * **¿Cómo Funcionan?:** Al invertir en un fondo, estás comprando una porción de una cartera diversificada de activos, que puede incluir acciones, bonos, o una mezcla de ambos.<br/><br/>
-* **Ejemplo Práctico:** Supongamos que inviertes $1,000 MXN en un fondo de inversión con un rendimiento promedio anual del 7%. En 10 años, sin hacer aportaciones adicionales, ese monto podría crecer a aproximadamente $1,967 MXN. Si continúas aportando $1,000 al mes, en 10 años podrías acumular más de $175,000 MXN.
+* **Ejemplo Práctico:** Supongamos que inviertes $1,000 MXN en un fondo de inversión con un rendimiento promedio anual del 7%. En 10 años, sin hacer aportaciones adicionales, ese monto podría crecer a aproximadamente $1,967 MXN. Si continúas aportando $1,000 al mes, en 10 años podrías acumular más de $175,000 MXN.<br/><br/>
 * **Beneficios a Largo Plazo:** La clave aquí es la consistencia y el tiempo. Incluso cantidades pequeñas, invertidas regularmente, pueden sumar una cantidad significativa a lo largo de los años.<br/><br/>
 
 **Planificación para el Retiro:**<br/><br/>
