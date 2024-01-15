@@ -46,8 +46,6 @@ y sientes que la compra aportará valor a tu vida, considera comprarlos. Este pe
 * **Comparar Precios y Ofertas:** Antes de realizar una compra importante, investiga en diferentes tiendas o en línea para encontrar el mejor precio. A veces, esperar a una venta o buscar un cupón de descuento puede ahorrarte una cantidad significativa.<br/><br/>
 * **Conciencia de Costo-Beneficio:** Piensa en términos de horas de trabajo. Por ejemplo, si ganas $100 MXN por hora, esos zapatos representan 12 horas de tu trabajo. ¿Vale la pena esa cantidad de tu tiempo y esfuerzo?<br/><br/>
 
-
-
 #### 3. **Ahorro: Tu Ancla Financiera.**<br/><br/>
 
 **Metas de Ahorro Realistas:** Imagínate que tu sueño es viajar a Cancún. Si el costo del viaje es de $20,000 y planeas ir en un año, necesitarás ahorrar aproximadamente $1,667 al mes. Esto puede parecer mucho al principio, pero si lo divides en ahorros semanales o incluso diarios, se vuelve más manejable.<br/><br/>
@@ -126,10 +124,14 @@ Los gastos hormiga son aquellos pequeños gastos diarios o semanales que, aunque
 * **Establece Límites:** Una vez que identifiques tus gastos hormiga, pon un límite para ellos. Por ejemplo, limita el café de cafetería a una vez por semana.<br/><br/>
 * **Alternativas Económicas:** Busca alternativas más económicas. Por ejemplo, si tienes varias suscripciones a servicios de streaming, considera mantener solo uno y rotarlos cada pocos meses.<br/><br/>
 
-  <!--EndFragment-->
-
 #### Conclusión<br/><br/>
 
-Como jóvenes trabajadores en México y Latinoamérica, están en una posición única para establecer las bases de una vida financiera saludable. Recuerden, el manejo del dinero no se trata solo de números, sino de tomar decisiones informadas y estratégicas. Comiencen con un enfoque equilibrado: disfruten del presente mientras planifican para el futuro. Y nunca subestimen el poder de un buen presupuesto y un plan de ahorro sólido. Con cada decisión inteligente que tomen hoy, están construyendo un camino hacia un futuro financiero más seguro y próspero. ¡Adelante en su viaje financiero!
+Como jóvenes trabajadores en México y Latinoamérica, están en una posición única para establecer las bases de una vida financiera saludable. Recuerden, el manejo del dinero no se trata solo de números, sino de tomar decisiones informadas y estratégicas. Comiencen con un enfoque equilibrado: disfruten del presente mientras planifican para el futuro. Y nunca subestimen el poder de un buen presupuesto y un plan de ahorro sólido. Con cada decisión inteligente que tomen hoy, están construyendo un camino hacia un futuro financiero más seguro y próspero. ¡Adelante en su viaje financiero!<br/><br/>
+
+**T﻿e recomendamos:<br/><br/>**
+
+## Guía Definitiva para Pedir Préstamos Personales.<br/><br/>
+
+[![Libreta con apuntes](guia-de-prestamos.png "Guía Definitiva para Pedir Préstamos Personales.")](https://oasisfinanciero.com/blog/2023-08-14/guia-definitiva-para-pedir-prestamos-personales/)
 
 <!--EndFragment-->
