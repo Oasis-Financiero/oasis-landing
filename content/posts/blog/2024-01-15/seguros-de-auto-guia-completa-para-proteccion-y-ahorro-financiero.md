@@ -52,7 +52,7 @@ Un seguro de auto no es solo una exigencia legal; es una parte crucial de tu pla
 
 ### **Guros: Tu Solución Ideal para Seguros de Auto**<br/><br/>
 
-[![Banner publicitario de Oasis Financiero y Guros](oasis-guros-banner.png "Banner publicitario de Oasis Financiero y Guros")](https://www.guros.com/?PROMOCODE=OASISFINANCIERO&utm_source=oasisfinanciero_landing&utm_medium=boton_landing&utm_campaign=guros_agosto2023)
+![Banner Guros y Oasis Financiero](oasis-guros-banner.png "Banner Guros y Oasis Financiero")
 
 <br/><br/>
 
