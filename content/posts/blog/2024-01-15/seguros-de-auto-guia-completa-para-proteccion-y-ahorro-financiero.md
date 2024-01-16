@@ -50,7 +50,7 @@ El seguro de auto es esencial por varias razones:<br/><br/>
 
 Un seguro de auto no es solo una exigencia legal; es una parte crucial de tu planificación financiera. En caso de accidente, robo o daños, un seguro adecuado puede salvarte de enfrentar costos elevados, protegiendo así tu patrimonio y tu tranquilidad.<br/><br/>
 
-### **Guros: Tu Solución Ideal para Seguros de Auto**<br/><br/>
+### **[Guros: Tu Solución Ideal para Seguros de Auto<br/><br/>](https://www.guros.com/?PROMOCODE=OASISFINANCIERO&utm_source=oasisfinanciero_landing&utm_medium=boton_landing&utm_campaign=guros_agosto2023)**
 
 [![Banner Guros y Oasis Financiero](banner-700-180.png "Banner Guros y Oasis Financiero")](https://www.guros.com/?PROMOCODE=OASISFINANCIERO&utm_source=oasisfinanciero_landing&utm_medium=boton_landing&utm_campaign=guros_agosto2023)
 
@@ -85,7 +85,7 @@ Un seguro de auto no es solo una exigencia legal; es una parte crucial de tu pla
 
 * **Tranquilidad:** Saber que estás protegido ante cualquier eventualidad en la carretera proporciona una paz mental invaluable. Esto te permite concentrarte en tus actividades diarias sin la preocupación constante de lo que podría suceder.<br/><br/>
 
-### **Guros: Tu Solución Ideal para Seguros de Auto**<br/><br/>
+### **[Guros: Tu Solución Ideal para Seguros de Auto<br/><br/>](https://www.guros.com/?PROMOCODE=OASISFINANCIERO&utm_source=oasisfinanciero_landing&utm_medium=boton_landing&utm_campaign=guros_agosto2023)**
 
 [![Banner Guros y Oasis Financiero](banner-700-180.png "Banner Guros y Oasis Financiero")](https://www.guros.com/?PROMOCODE=OASISFINANCIERO&utm_source=oasisfinanciero_landing&utm_medium=boton_landing&utm_campaign=guros_agosto2023)
 
