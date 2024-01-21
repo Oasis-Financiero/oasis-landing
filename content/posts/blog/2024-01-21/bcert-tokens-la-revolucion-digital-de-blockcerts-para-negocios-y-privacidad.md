@@ -38,7 +38,7 @@ Los tokens BCERT son tokens de utilidad que se definen por las siguientes caract
 
 1. Son utilizados en la plataforma BCERTs CORE, una plataforma de nube digital basada en blockchain para negocios, transacciones y servicios.<br/><br/>
 2. La posesión de los tokens no otorga derechos más allá del derecho a usarlos como medio para operar un negocio en el CORE, participar en transacciones de contratos inteligentes y obtener servicios en la plataforma BCERTs CORE.<br/><br/>
-3. Permiten la interacción con la plataforma, siempre y cuando esta sea completada y desplegada con éxito.
+3. Permiten la interacción con la plataforma, siempre y cuando esta sea completada y desplegada con éxito.<br/><br/>
 4. No representan ni confieren ningún derecho de propiedad, participación, acción, seguridad o derechos equivalentes, ni ningún derecho a recibir futuras participaciones en los ingresos, derechos de propiedad intelectual o cualquier otra forma de participación en o relacionada con la plataforma de nube BCERTs CORE, BlockCerts o sus afiliados.<br/><br/>
 5. Los tokens no son reembolsables y no están destinados a ser una moneda digital, seguridad, mercancía o cualquier otro tipo de instrumento financiero.<br/><br/>
 6. Los tokens BCERT transforman el costo de la tecnología en un activo comercial digital.<br/><br/>
