@@ -36,6 +36,8 @@ Para acceder a la tasa máxima del 17%, los usuarios deben suscribirse a Klar Pl
 
 <br/><br/>
 
+#### **[C﻿rea tu cuenta de Klar aquí](https://signup-flutter.klar.mx/steps/email?_gl=1*hmmvvf*_ga*MzU0MjE1MjgzLjE3MDc4NzU3Njk.*_ga_GBTLZ68PC3*MTcwODA0MjQ1MS41LjEuMTcwODA0NTg2OC4zMy4wLjA.)**<br/><br/>
+
 **Consideraciones Importantes**.<br/><br/>
 
 Aunque el rendimiento del 17% ofrecido por Klar es incomparable en el mercado, las condiciones específicas, como la necesidad de ahorrar más de 15,000 pesos por un año, son aspectos cruciales a tener en cuenta. El atractivo rendimiento se vuelve especialmente beneficioso para aquellos que buscan un retorno de inversión garantizado y están dispuestos a comprometer su dinero por un período más prolongado.<br/><br/>
@@ -64,7 +66,7 @@ Klar, una plataforma digital de servicios financieros, ha lanzado este producto 
 
 La oferta disruptiva de Klar en el mercado financiero mexicano ha generado un revuelo significativo. A pesar de la atractiva tasa de rendimiento del 17%, los usuarios deben considerar cuidadosamente las condiciones específicas antes de decidirse a invertir. La competencia en el sector financiero sigue evolucionando, y la propuesta de Klar es un claro ejemplo de cómo las empresas buscan destacar y captar la atención de los inversionistas en busca de oportunidades rentables.<br/><br/>
 
-#### **[C﻿rea tu cuenta de Klar aquí](https://signup-flutter.klar.mx/steps/email?_gl=1*hmmvvf*_ga*MzU0MjE1MjgzLjE3MDc4NzU3Njk.*_ga_GBTLZ68PC3*MTcwODA0MjQ1MS41LjEuMTcwODA0NTg2OC4zMy4wLjA.)**
+#### **[C﻿rea tu cuenta de Klar aquí](https://signup-flutter.klar.mx/steps/email?_gl=1*hmmvvf*_ga*MzU0MjE1MjgzLjE3MDc4NzU3Njk.*_ga_GBTLZ68PC3*MTcwODA0MjQ1MS41LjEuMTcwODA0NTg2OC4zMy4wLjA.)**<br/><br/>
 
 **[](https://signup-flutter.klar.mx/steps/email?_gl=1*hmmvvf*_ga*MzU0MjE1MjgzLjE3MDc4NzU3Njk.*_ga_GBTLZ68PC3*MTcwODA0MjQ1MS41LjEuMTcwODA0NTg2OC4zMy4wLjA.)T﻿e recomendamos leer:**
 
