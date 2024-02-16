@@ -40,13 +40,13 @@ Para acceder a la tasa máxima del 17%, los usuarios deben suscribirse a Klar Pl
 
 Aunque el rendimiento del 17% ofrecido por Klar es incomparable en el mercado, las condiciones específicas, como la necesidad de ahorrar más de 15,000 pesos por un año, son aspectos cruciales a tener en cuenta. El atractivo rendimiento se vuelve especialmente beneficioso para aquellos que buscan un retorno de inversión garantizado y están dispuestos a comprometer su dinero por un período más prolongado.<br/><br/>
 
-
+E﻿n esta simulación podemos ver de manera más clara como funciona Klar Plus. Esta información solo muestra un supuesto ya que los rendimientos pueden varias por diversas causas. <br/><br/>
 
 ![imagen simulación inversión Klar](simulación-klar-inversión.png "imagen simulación inversión Klar")
 
+F﻿echa de la simulación 15/02/2024
 
-
-
+<br/><br/>
 
 **El Compromiso de Klar con la Innovación Financiera**.<br/><br/>
 
