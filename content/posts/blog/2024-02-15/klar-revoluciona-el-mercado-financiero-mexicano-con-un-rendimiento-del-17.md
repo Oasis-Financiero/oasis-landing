@@ -64,7 +64,9 @@ Klar, una plataforma digital de servicios financieros, ha lanzado este producto 
 
 La oferta disruptiva de Klar en el mercado financiero mexicano ha generado un revuelo significativo. A pesar de la atractiva tasa de rendimiento del 17%, los usuarios deben considerar cuidadosamente las condiciones específicas antes de decidirse a invertir. La competencia en el sector financiero sigue evolucionando, y la propuesta de Klar es un claro ejemplo de cómo las empresas buscan destacar y captar la atención de los inversionistas en busca de oportunidades rentables.<br/><br/>
 
-**T﻿e recomendamos leer:**
+#### **[C﻿rea tu cuenta de Klar aquí](https://signup-flutter.klar.mx/steps/email?_gl=1*hmmvvf*_ga*MzU0MjE1MjgzLjE3MDc4NzU3Njk.*_ga_GBTLZ68PC3*MTcwODA0MjQ1MS41LjEuMTcwODA0NTg2OC4zMy4wLjA.)**
+
+**[](https://signup-flutter.klar.mx/steps/email?_gl=1*hmmvvf*_ga*MzU0MjE1MjgzLjE3MDc4NzU3Njk.*_ga_GBTLZ68PC3*MTcwODA0MjQ1MS41LjEuMTcwODA0NTg2OC4zMy4wLjA.)T﻿e recomendamos leer:**
 
 <!--StartFragment-->
 
