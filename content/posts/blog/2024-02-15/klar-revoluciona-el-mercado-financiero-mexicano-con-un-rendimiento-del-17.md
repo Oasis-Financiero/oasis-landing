@@ -128,28 +128,28 @@ F﻿echa de comparación 25/02/2024
 
 **Comparación de Rendimientos:**<br/><br/>
 
-* **¿Qué inversión da más rendimiento?**
+* **¿Qué inversión da más rendimiento?**<br/><br/>
 
   * Klar ofrece hasta un 17% anual en su modalidad de Inversión Fija con Klar Plus, dependiendo del plazo seleccionado.
   * Las inversiones a plazo fijo suelen proporcionar rendimientos más altos en comparación con las flexibles.<br/><br/>
 
 **Inversiones con Poco Dinero:**<br/><br/>
 
-* **¿En qué se puede invertir con poco dinero?**
+* **¿En qué se puede invertir con poco dinero?**<br/><br/>
 
   * Invertir con Klar es accesible, comenzando desde $100 MXN.
   * Selecciona entre inversiones fijas o flexibles, adaptándolas a tus necesidades y capacidad económica.<br/><br/>
 
 **Conceptos Básicos de Inversión:**<br/><br/>
 
-* **¿Qué es una inversión y cómo funciona?**
+* **¿Qué es una inversión y cómo funciona?**<br/><br/>
 
   * La inversión implica destinar dinero con la meta de obtener beneficios en el futuro.
   * En Klar, inviertes durante un periodo elegido, generando intereses. Cuanto más tiempo mantengas la inversión, mayores serán las ganancias.<br/><br/>
 
 **Elección del Mejor Plazo:**<br/><br/>
 
-* **¿Cuál es el mejor plazo para invertir?**
+* **¿Cuál es el mejor plazo para invertir?**<br/><br/>
 
   * La elección depende de tus objetivos y necesidades financieras.
   * Con Klar, selecciona plazos de 7 días hasta un año, con rendimientos que varían según la duración y tipo de inversión.
