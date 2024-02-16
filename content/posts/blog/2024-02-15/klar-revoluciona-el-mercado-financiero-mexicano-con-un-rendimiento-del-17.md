@@ -28,11 +28,9 @@ En la constante competencia por ofrecer mayores rendimientos a los clientes, la 
 
 <br/><br/>
 
-### **El Exclusivo Mundo de Klar Plus**
+### **El Exclusivo Mundo de Klar Plus**<br/><br/>
 
 Para acceder a la tasa máxima del 17%, los usuarios deben suscribirse a Klar Plus, una modalidad que requiere un gasto mensual de 3,000 pesos o una inversión mínima de 15,000 pesos. Aunque Klar Plus ofrece flexibilidad en las inversiones, con tasas que varían según el plazo, es importante tener en cuenta que el rendimiento máximo del 17% solo está disponible para inversiones a un año.<br/><br/>
-
-
 
 ![imagen de Klar](klar-imagen-1.png "imagen de Klar")
 
@@ -41,6 +39,14 @@ Para acceder a la tasa máxima del 17%, los usuarios deben suscribirse a Klar Pl
 **Consideraciones Importantes**.<br/><br/>
 
 Aunque el rendimiento del 17% ofrecido por Klar es incomparable en el mercado, las condiciones específicas, como la necesidad de ahorrar más de 15,000 pesos por un año, son aspectos cruciales a tener en cuenta. El atractivo rendimiento se vuelve especialmente beneficioso para aquellos que buscan un retorno de inversión garantizado y están dispuestos a comprometer su dinero por un período más prolongado.<br/><br/>
+
+
+
+![imagen simulación inversión Klar](simulación-klar-inversión.png "imagen simulación inversión Klar")
+
+
+
+
 
 **El Compromiso de Klar con la Innovación Financiera**.<br/><br/>
 
