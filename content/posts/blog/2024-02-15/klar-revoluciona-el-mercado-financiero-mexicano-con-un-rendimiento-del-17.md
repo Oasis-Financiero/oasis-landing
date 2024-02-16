@@ -14,7 +14,23 @@ tags:
 ---
 ### **¿﻿Qué es Klar?**<br/><br/>
 
-**[Klar](https://www.klar.mx/),** una Sofipo regulada por la Comisión Nacional Bancaria y de Valores, ha elevado su rendimiento anual al 17%, superando a empresas como Nu y Stori. Sin embargo, a diferencia de otras opciones, este rendimiento del 17% está vinculado a inversiones que no son visibles, lo que significa que el dinero no está disponible para retiros inmediatos.<br/><br/>
+**[Klar](https://www.klar.mx/),** es una entidad financiera que opera bajo dos entidades distintas:<br/><br/>
+
+1. **Klar de SEFIA (Servicios Financieros Alternativos, S.A. de C.V., S.F.P.):**<br/><br/>
+
+   * Autorizada y supervisada por la Comisión Nacional Bancaria y de Valores y CONDUSEF.
+   * Rige bajo la Ley de Ahorro y Crédito Popular.
+   * Clasificada como Sociedad Financiera Popular.
+   * Ofrece la Cuenta Klar.<br/><br/>
+2. **Tarjetas Klar (Klar, S.A. de C.V.):**<br/><br/>
+
+   * No regulada ni supervisada por la Comisión Nacional Bancaria y de Valores.
+   * No recibe ni administra recursos del público.
+   * Emite la Tarjeta de Crédito de Klar.<br/><br/>
+
+<!--EndFragment-->
+
+Ha elevado su rendimiento anual al 17%, superando a empresas como Nu y Stori. Sin embargo, a diferencia de otras opciones, este rendimiento del 17% está vinculado a inversiones que no son visibles, lo que significa que el dinero no está disponible para retiros inmediatos.<br/><br/>
 
 **¿Realidad o Letras Chiquitas?**<br/><br/>
 
@@ -78,8 +94,6 @@ En la constante competencia por ofrecer mayores rendimientos a los clientes, la 
 <br/><br/>
 
 #### **[C﻿rea tu cuenta de Klar aquí](https://signup-flutter.klar.mx/steps/email?_gl=1*hmmvvf*_ga*MzU0MjE1MjgzLjE3MDc4NzU3Njk.*_ga_GBTLZ68PC3*MTcwODA0MjQ1MS41LjEuMTcwODA0NTg2OC4zMy4wLjA.)**<br/><br/>
-
-
 
 E﻿n esta simulación podemos ver de manera más clara como funciona Klar Plus. Esta información solo muestra un supuesto ya que los rendimientos pueden varias por diversas causas. <br/><br/>
 
