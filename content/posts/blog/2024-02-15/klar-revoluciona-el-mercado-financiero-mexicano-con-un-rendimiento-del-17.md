@@ -24,7 +24,7 @@ En la constante competencia por ofrecer mayores rendimientos a los clientes, la 
 
 <br/><br/>
 
-[![calculadora de préstamos de Oasis Financiero](calculadora-oasis.png "calculadora de préstamos de Oasis Financiero")](https://oasisfinanciero.com/compara/prestamos-personales)
+[![imagen de calculadora de préstamos de Oasis Financiero](calculadora-oasis.png "imagen de calculadora de préstamos de Oasis Financiero")](https://oasisfinanciero.com/compara/prestamos-personales)
 
 <br/><br/>
 
