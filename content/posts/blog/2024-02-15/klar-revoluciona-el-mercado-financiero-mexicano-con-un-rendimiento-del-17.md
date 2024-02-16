@@ -48,6 +48,14 @@ F﻿echa de la simulación 15/02/2024
 
 <br/><br/>
 
+### **C﻿omparativa entre Klar y Klar Plus**<br/><br/>
+
+![imagen comparativa Klar](comparativo-klar.png "imagen comparativa Klar")
+
+F﻿echa de comparación 25/02/2024
+
+<br/><br/>
+
 **El Compromiso de Klar con la Innovación Financiera**.<br/><br/>
 
 Klar, una plataforma digital de servicios financieros, ha lanzado este producto de inversión a plazo fijo como parte de su estrategia integral de lealtad denominada Klar Plus. La empresa, con más de 3 millones de clientes, ha recibido la licencia para operar como Sofipo, respaldando así la seguridad de los depósitos de sus clientes.<br/><br/>
