@@ -25,7 +25,7 @@ De acuerdo con los términos de la autorización, Revolut México deberá dispon
 
 [![imagen de calculadora comparador de préstamos](calculadora-oasis.png "calculadora comparador de préstamos Oasis Financiero")](https://oasisfinanciero.com/compara/prestamos-personales)
 
-<!--EndFragment-->
+<br/><br/>
 
 Con una presencia consolidada en más de 40 países y una base de clientes que supera los 40 millones en todo el mundo, Revolut promete ofrecer una experiencia bancaria innovadora y completamente digital a los mexicanos. El aval para constituirse como una institución de banca múltiple filial representa el primer paso hacia la materialización de esta visión.<br/><br/>
 
