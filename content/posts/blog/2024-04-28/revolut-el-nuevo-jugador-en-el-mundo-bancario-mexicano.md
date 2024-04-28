@@ -21,7 +21,7 @@ De acuerdo con los términos de la autorización, Revolut México deberá dispon
 
 <!--StartFragment-->
 
-### **¿﻿Necesitas un préstamo? Encuentra el préstamo perfecto para tí.**
+### **¿﻿Necesitas un préstamo? Encuentra el préstamo perfecto para tí.**<br/><br/>
 
 [![imagen de calculadora comparador de préstamos](calculadora-oasis.png "calculadora comparador de préstamos Oasis Financiero")](https://oasisfinanciero.com/compara/prestamos-personales)
 
@@ -38,5 +38,13 @@ Una de las principales incógnitas en torno al ingreso de Revolut al mercado ban
 Con la visión de convertirse en el único banco que las personas necesitan, Revolut apunta a transformar la manera en que los mexicanos gestionan sus finanzas. Con una propuesta 100% digital, la firma aspira a cubrir todas las necesidades financieras a través de una sola aplicación.<br/><br/>
 
 El ingreso de Revolut al mercado bancario mexicano promete no solo aumentar la competencia, sino también impulsar la innovación y mejorar la experiencia del usuario en el sector financiero. Los clientes pueden esperar una gama de servicios financieros más accesibles, personalizados y convenientes en el futuro cercano.<br/><br/>
+
+<!--EndFragment-->
+
+**T﻿e recomendamos leer:**<br/><br/>
+
+### **Guía Financiera para Jóvenes: Manejando tu Primer Sueldo.**<br/><br/>
+
+[![imagen de aplicaciones](guía-financiera-para-jóvenes-manejando-tu-primer-sueldo..png "Guía Financiera para Jóvenes: Manejando tu Primer Sueldo")](https://oasisfinanciero.com/blog/2024-01-14/guia-financiera-para-jovenes-manejando-tu-primer-sueldo/)
 
 <!--EndFragment-->
