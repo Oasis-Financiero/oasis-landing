@@ -19,6 +19,14 @@ Esta noticia, anunciada el lunes 22 de abril a través del Diario Oficial de la 
 \
 De acuerdo con los términos de la autorización, Revolut México deberá disponer de un capital inicial de 1,441.2 millones de pesos, el cual se elevará a 1,811.7 millones antes de que la entidad inicie oficialmente sus actividades. Con esta cifra inicial de capital, Revolut México se une al grupo de neobancos que han sido autorizados y están regulados en el país.<br/><br/>
 
+<!--StartFragment-->
+
+## **¿﻿Necesitas un préstamo? Encuentra el préstamo perfecto para tí.**
+
+[![imagen de calculadora comparador de préstamos](calculadora-oasis.png "calculadora comparador de préstamos Oasis Financiero")](https://oasisfinanciero.com/compara/prestamos-personales)
+
+<!--EndFragment-->
+
 Con una presencia consolidada en más de 40 países y una base de clientes que supera los 40 millones en todo el mundo, Revolut promete ofrecer una experiencia bancaria innovadora y completamente digital a los mexicanos. El aval para constituirse como una institución de banca múltiple filial representa el primer paso hacia la materialización de esta visión.<br/><br/>
 
 El liderazgo de Revolut en México, encabezado por Juan Miguel Guerra Dávila, se encuentra ahora en la fase crucial de preparación para el inicio de operaciones. Tras la auditoría operativa requerida, el banco podrá ofrecer su producto estrella: las transferencias internacionales. Este proceso podría llevar de seis a 12 meses, según lo señalado por Guerra Dávila en una entrevista reciente.<br/><br/>
