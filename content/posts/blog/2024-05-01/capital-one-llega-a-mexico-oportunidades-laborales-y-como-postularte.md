@@ -27,6 +27,12 @@ La elección de la Ciudad de México como sede para las operaciones de Capital O
 
 Capital One no solo llega con promesas, sino también con oportunidades concretas. Con una compensación anual media de $93,157 dólares, equivalentes a cerca de $135,000 pesos mensuales, la empresa ofrece salarios competitivos que superan los estándares de la industria bancaria. Si bien estos números pueden variar según el puesto y la experiencia, es evidente que Capital One valora y reconoce el talento de sus empleados.<br/><br/>
 
+### **¿﻿Necesitas un préstamo? Encuentra el préstamo perfecto para tí.**<br/><br/>
+
+[![imagen de calculadora comparador de préstamos](calculadora-oasis.png "calculadora comparador de préstamos Oasis Financiero")](https://oasisfinanciero.com/compara/prestamos-personales/)
+
+<br/><br/>
+
 **¿Qué perfiles están buscando?**<br/><br/>
 
 Las vacantes disponibles en la Ciudad de México están orientadas principalmente hacia perfiles tecnológicos, regulatorios y de software. Desde expertos en desarrollo de software hasta especialistas en regulaciones financieras, la variedad de roles refleja la diversidad de proyectos que Capital One planea emprender en México. Se espera que en los próximos tres años se contraten alrededor de 1,500 trabajadores, lo que brinda una oportunidad única para aquellos que desean formar parte de una empresa innovadora y en crecimiento.<br/><br/>
@@ -46,4 +52,12 @@ El proceso de postulación es el mismo para todas las vacantes disponibles, las 
 
 Capital One no solo está llegando a México para establecerse como un banco más, sino para liderar una revolución en la industria financiera y tecnológica. Si estás buscando un entorno laboral dinámico, desafiante y lleno de oportunidades de crecimiento, esta es tu oportunidad. Postúlate hoy mismo y sé parte del futuro de la banca en México con Capital One.<br/><br/>
 
+**Te recomendamos leer:<br/><br/>**
+
+### **Revolut: El Nuevo Jugador en el Mundo Bancario Mexicano**
+
+[![imagen de tarjeta Revolut](revolut.png "Revolut: El Nuevo Jugador en el Mundo Bancario Mexicano")](https://oasisfinanciero.com/blog/2024-04-28/revolut-el-nuevo-jugador-en-el-mundo-bancario-mexicano/)
+
 <!--EndFragment-->
+
+<br/><br/>
