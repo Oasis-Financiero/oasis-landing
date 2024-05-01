@@ -120,3 +120,9 @@ Bancoppel es una institución financiera mexicana que ofrece una variedad de ser
 **Banorte**<br/><br/>
 
 Banorte es uno de los principales bancos en México, ofreciendo una amplia gama de servicios financieros. Explora las oportunidades laborales disponibles en Banorte en su **[portal de carreras.](https://empleos.banorte.com/search/?createNewAlert=false&q=&locationsearch=)**<br/><br/>
+
+T﻿e recomendamos leer:<br/><br/>
+
+### **Capital One llega a México: Oportunidades laborales y cómo postularte.<br/><br/>**
+
+[![imagen de sucursal de Capital One](capital-one.jpeg "Capital One llega a México: Oportunidades laborales y cómo postularte.")](https://oasisfinanciero.com/blog/2024-05-01/capital-one-llega-a-mexico-oportunidades-laborales-y-como-postularte/)
