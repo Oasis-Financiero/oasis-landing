@@ -39,11 +39,17 @@ Con la visión de convertirse en el único banco que las personas necesitan, Rev
 
 El ingreso de Revolut al mercado bancario mexicano promete no solo aumentar la competencia, sino también impulsar la innovación y mejorar la experiencia del usuario en el sector financiero. Los clientes pueden esperar una gama de servicios financieros más accesibles, personalizados y convenientes en el futuro cercano.<br/><br/>
 
-<!--EndFragment-->
+
+
+### **¿Estás interesado en las vacantes disponibles para Revolut en México?**<br/><br/>
+
+Consulta las vacantes disponibles en [Revolut Careers](https://www.revolut.com/careers/?city=Mexico+City) y descubre cómo puedes contribuir a transformar la manera en que los mexicanos gestionan sus finanzas.
+
+<br/><br/>
 
 **T﻿e recomendamos leer:**<br/><br/><!--StartFragment-->
 
-### Capital One llega a México: Oportunidades laborales y cómo postularte.
+### **Capital One llega a México: Oportunidades laborales y cómo postularte.**
 
 ### <br/><br/>
 
