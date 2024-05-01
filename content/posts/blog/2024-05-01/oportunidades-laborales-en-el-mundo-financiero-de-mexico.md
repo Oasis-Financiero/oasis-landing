@@ -62,6 +62,12 @@ Capital One es una institución financiera líder en innovación, conocida por s
 
 Descubre estas y otras oportunidades laborales en Capital One en su **[portal de carreras](https://www.capitalonecareers.com/search-jobs/Mexico).**<br/><br/>
 
+### **¿﻿Necesitas un préstamo? Encuentra el préstamo perfecto para tí.**<br/><br/>
+
+[![imagen de calculadora comparador de préstamos](calculadora-oasis.png "comparador calculadora de préstamos de Oasis Financiero")](https://oasisfinanciero.com/compara/prestamos-personales)
+
+<br/><br/>
+
 **Nubank**<br/><br/>
 
 Nubank es un Neobanco reconocido por su enfoque centrado en el cliente y sus servicios financieros transparentes. En México, algunas de las vacantes disponibles incluyen:<br/><br/>
