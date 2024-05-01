@@ -41,10 +41,12 @@ El ingreso de Revolut al mercado bancario mexicano promete no solo aumentar la c
 
 <!--EndFragment-->
 
-**T﻿e recomendamos leer:**<br/><br/>
+**T﻿e recomendamos leer:**<br/><br/><!--StartFragment-->
 
-### **Guía Financiera para Jóvenes: Manejando tu Primer Sueldo.**<br/><br/>
+### Capital One llega a México: Oportunidades laborales y cómo postularte.
 
-[![imagen de aplicaciones](guía-financiera-para-jóvenes-manejando-tu-primer-sueldo..png "Guía Financiera para Jóvenes: Manejando tu Primer Sueldo")](https://oasisfinanciero.com/blog/2024-01-14/guia-financiera-para-jovenes-manejando-tu-primer-sueldo/)
+### <br/><br/>
+
+[![imagen de banco Capital One Bank](capital-one.jpeg "Capital One llega a México: Oportunidades laborales y cómo postularte.")](https://oasisfinanciero.com/blog/2024-05-01/capital-one-llega-a-mexico-oportunidades-laborales-y-como-postularte/)
 
 <!--EndFragment-->
