@@ -1,0 +1,92 @@
+/* InvestmentCalculator.module.css */
+
+/* Contenedor principal de la calculadora */
+.calculatorContainer {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+/* Estilo para el título principal */
+.title {
+  color: #1F4A83;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Estilo para los inputs */
+input[type="number"], input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px dashed #1F4A83;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Estilo para el botón de calcular */
+button {
+  background-color: #1F4A83;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #416DA6;
+}
+
+/* Estilo para el resultado */
+.result {
+  font-size: 24px;
+  color: #1F4A83;
+  margin: 20px 0;
+}
+
+/* Estilos para la tabla comparativa */
+.comparisonTable {
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.comparisonTable th, .comparisonTable td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.comparisonTable th {
+  background-color: #1F4A83;
+  color: white;
+}
+
+.comparisonTable td {
+  color: #333;
+}
+
+/* Estilo para los enlaces de la tabla */
+.comparisonTable a {
+  text-decoration: none;
+  background-color: #FF4D4D;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.comparisonTable a:hover {
+  background-color: #e43d3d;
+}
