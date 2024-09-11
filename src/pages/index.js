@@ -67,6 +67,26 @@ function IndexPage({ data }) {
   });
   const [isPrivacyOk, setIsPrivacyOk] = useState(false);
 
+   useEffect(() => {
+    // Configuración del chatbot para el bubble button
+    window.embeddedChatbotConfig = {
+      chatbotId: "fo871Gk8SkeK7u67AklXC",
+      domain: "www.chatbase.co",
+    };
+
+    const script = document.createElement("script");
+    script.src = "https://www.chatbase.co/embed.min.js";
+    script.setAttribute("chatbotId", "fo871Gk8SkeK7u67AklXC");
+    script.setAttribute("domain", "www.chatbase.co");
+    script.defer = true;
+    document.body.appendChild(script);
+
+    // Limpiar el script cuando el componente se desmonte
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <>
       <Layout>
