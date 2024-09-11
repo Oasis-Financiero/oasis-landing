@@ -1,75 +1,95 @@
 import React, { useState } from 'react';
-import Box from '@mui/material/Box'; // Componente de estilo de MUI
-import AppSlider from "./styled/Slider/Slider"; // Slider ya existente en tu proyecto
-import AppButton from "./styled/ConfirmButton/AppButton"; // Botón existente
-import * as style from './calculator.module.css'; // Archivo CSS del componente
+import styles from './InvestmentCalculator.module.css'; // Importar los estilos del CSS Module
 
-// Componente de la Calculadora de Inversión
 const InvestmentCalculator = () => {
   const [years, setYears] = useState(0);
   const [amount, setAmount] = useState(0);
   const [rate, setRate] = useState(15.01);
   const [result, setResult] = useState(0);
 
-  // Función para calcular el valor futuro con interés compuesto
   const calculateInvestment = () => {
-    const periodsPerYear = 24; // Quincenales (24 periodos por año)
-    const interestRatePerPeriod = rate / 100 / periodsPerYear; // Tasa de interés por periodo
-    const totalPeriods = years * periodsPerYear; // Total de periodos (años * quincenas)
+    const periodsPerYear = 24; // Quincenales
+    const interestRatePerPeriod = rate / 100 / periodsPerYear;
+    const totalPeriods = years * periodsPerYear;
 
     let futureValue = 0;
 
-    // Calcular el valor futuro acumulado
     for (let i = 0; i < totalPeriods; i++) {
       futureValue += amount * Math.pow(1 + interestRatePerPeriod, totalPeriods - i);
     }
 
-    setResult(futureValue.toFixed(2)); // Resultado redondeado a 2 decimales
+    setResult(futureValue.toFixed(2));
   };
 
   return (
-    <Box className={style.calculatorBox}>
-      <h1 className={style.title}>Calculadora de Inversión</h1>
-      
-      {/* Slider para seleccionar los años de inversión */}
-      <AppSlider
-        title="Años de inversión"
-        coin={false}
-        value={years}
-        onValueChange={setYears}
-        limit={30}
-        step={1}
-      />
-      
-      {/* Slider para seleccionar la cantidad a invertir quincenalmente */}
-      <AppSlider
-        title="Cantidad a invertir quincenalmente"
-        coin={true}
-        value={amount}
-        onValueChange={setAmount}
-        limit={50000}
-        step={500}
-      />
-      
-      {/* Slider para seleccionar la tasa de interés anual */}
-      <AppSlider
-        title="Tasa de interés anual (%)"
-        coin={false}
-        value={rate}
-        onValueChange={setRate}
-        limit={20}
-        step={0.01}
-        min={1}
-      />
-      
-      {/* Mostrar el resultado */}
-      <div className={style.resultDisplay}>
-        <h2>Valor futuro: ${result}</h2>
-      </div>
-      
-      {/* Botón para calcular */}
-      <AppButton tag="Calcular inversión" onClick={calculateInvestment} />
-    </Box>
+    <div className={styles.calculatorContainer}>
+      <h1 className={styles.title}>¿Sabías que?</h1>
+      <p>
+        Si hace 
+        <input 
+          type="number" 
+          value={years} 
+          onChange={(e) => setYears(e.target.value)} 
+        /> 
+        años hubieras invertido 
+        $<input 
+          type="number" 
+          value={amount} 
+          onChange={(e) => setAmount(e.target.value)} 
+        /> quincenales a una tasa anual fija del 
+        <input 
+          type="text" 
+          value={rate} 
+          onChange={(e) => setRate(e.target.value)} 
+        />%, hoy tendrías:
+      </p>
+
+      <div className={styles.result}>${result}</div>
+
+      <button onClick={calculateInvestment}>Calcular</button>
+
+      <p style={{ fontSize: '12px', color: 'gray' }}>
+        *Con interés compuesto, sin retirar y volviendo a invertir.
+      </p>
+
+      {/* Tabla Comparativa */}
+      <table className={styles.comparisonTable}>
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Tasa anual (%)</th>
+            <th>Pago Total (Aprox.)</th>
+            <th>¡Lo quiero!</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Finsus</td>
+            <td>15.01%</td>
+            <td>$0</td>
+            <td><a href="https://finsus.mx/inversion/" target="_blank" rel="noreferrer">Solicitar</a></td>
+          </tr>
+          <tr>
+            <td>Klar</td>
+            <td>15.00%</td>
+            <td>$0</td>
+            <td><a href="https://www.klar.mx/inversion" target="_blank" rel="noreferrer">Solicitar</a></td>
+          </tr>
+          <tr>
+            <td>Ualá</td>
+            <td>15.00%</td>
+            <td>$0</td>
+            <td><a href="https://www.uala.mx/cuenta-con-rendimiento" target="_blank" rel="noreferrer">Solicitar</a></td>
+          </tr>
+          <tr>
+            <td>Nubank</td>
+            <td>13.50%</td>
+            <td>$0</td>
+            <td><a href="https://nu.com.mx/cuenta/" target="_blank" rel="noreferrer">Solicitar</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   );
 };
 
