@@ -1,4 +1,3 @@
-import InvestmentCalculator from "../components/InvestmentCalculator";
 import React, { useState, useEffect } from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
@@ -167,17 +166,23 @@ function IndexPage({ data }) {
       </section>
 
 <section id={styles.oasisCalculator}>
-  <div id={styles.calculatorWrapper}>
-    <div id={styles.calculatorIllustration}>
-      <img id={styles.calculatorImg} src={calculator} alt='Usuario explorando opciones financieras' />
-    </div>
-    <div id={styles.calculatorText}>
-      <div id={styles.calculatorTextWrapper}>
-        <InvestmentCalculator /> {/* Aquí integras la calculadora de inversión */}
-      </div>
-    </div>
-  </div>
-</section>
+        <div id={styles.calculatorWrapper}>
+          <div id={styles.calculatorIllustration}>
+            <img id={styles.calculatorImg} src={calculator} alt='Usuario explorando opciones financieras' />
+          </div>
+          <div id={styles.calculatorText}>
+            <div id={styles.calculatorTextWrapper}>
+              <h1 className={styles.title} id={styles.calculatorFirstLine}>¡Usa nuestro comparador ahora!</h1>
+              <p className={styles.sectionDetails} id={styles.heroParagraph}>
+                Encuentra el préstamo perfecto para ti al comparar las mejores alternativas.
+              </p>
+              <div id={styles.heroButtons}>
+                <Link to="/compara/prestamos-personales"><button className={styles.purpleBtn}> Comparar préstamos </button></Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section id={styles.recentPosts}>
 
